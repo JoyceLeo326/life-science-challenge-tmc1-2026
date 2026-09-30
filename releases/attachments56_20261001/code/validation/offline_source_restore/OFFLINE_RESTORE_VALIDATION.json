@@ -1,0 +1,75 @@
+{
+  "status": "PASS",
+  "tested_utc": "2026-09-30T18:49:45.248027+00:00",
+  "test": "Complete fixed-source offline fallback with explicit --source-pdb and --human-pdb",
+  "python": "3.12.10",
+  "source_method": "verified_existing_input for mouse author source and human AFDB source; no fetch-only shortcut",
+  "commands": [
+    {
+      "stage": "mouse_offline",
+      "command": [
+        "<CLEAN_ENV>\\Scripts\\python.exe",
+        "-B",
+        "<CODE_ROOT>\\reference_restore\\restore_m_pub_all.py",
+        "--source-pdb",
+        "<SOURCE_INPUTS>\\public_MET_complex.pdb",
+        "--human-pdb",
+        "<SOURCE_INPUTS>\\AF-Q8TDI8-F1-model_v6.pdb",
+        "--output-root",
+        "<EXTERNAL_OUTPUT>"
+      ],
+      "returncode": 0,
+      "seconds": 21.219,
+      "published_log_sha256": "09109f6b973720a188d2fc9dc72b21b35f4e6c19b95cceb5898a23ac33e66c06",
+      "original_log_sha256": "09109f6b973720a188d2fc9dc72b21b35f4e6c19b95cceb5898a23ac33e66c06",
+      "log": "mouse_offline.log"
+    },
+    {
+      "stage": "human_offline",
+      "command": [
+        "<CLEAN_ENV>\\Scripts\\python.exe",
+        "-B",
+        "<CODE_ROOT>\\reference_restore\\restore_human_af.py",
+        "--human-pdb",
+        "<SOURCE_INPUTS>\\AF-Q8TDI8-F1-model_v6.pdb",
+        "--output-root",
+        "<EXTERNAL_OUTPUT>"
+      ],
+      "returncode": 0,
+      "seconds": 8.937,
+      "published_log_sha256": "3d315fcf220924db6cd46d54e016037774605489de40c309a5fafec5fb6214af",
+      "original_log_sha256": "3d315fcf220924db6cd46d54e016037774605489de40c309a5fafec5fb6214af",
+      "log": "human_offline.log"
+    }
+  ],
+  "input_hashes": {
+    "author": "14b5d4010eb2220ebddca0ef5cd0be346e6ba9bcc6db14311745b684e9807d82",
+    "human": "ba6b438b036b9386f4f04534cfa1dda3b6a35fbe05dd7fb2ec1b415bc6768d3b"
+  },
+  "four_outputs": [
+    {
+      "input": "mouse_pdbqt",
+      "file": "screen_v2/inputs/receptors/M_PUB_ALL.pdbqt",
+      "sha256": "c024cc9efaf910ac11642cea4a4c701a0a88a335d7deb0d040320516d5a2eda1"
+    },
+    {
+      "input": "human_pdbqt",
+      "file": "screen_v2/inputs/receptors/H_AF.pdbqt",
+      "sha256": "35b4acccd44a5c2c5c8aa7e756abe26c081018a2c26d0899190751c23392f2c1"
+    },
+    {
+      "input": "mouse_aligned_pdb",
+      "file": "screen_v2/inputs/receptors/M_PUB_ALL_aligned_heavy.pdb",
+      "sha256": "a0c2c7b07eb3a4939397ffb104d0d8b8bdc5ef4ab9b7af732deef03944385baa"
+    },
+    {
+      "input": "human_aligned_pdb",
+      "file": "screen_v2/inputs/receptors/H_AF_aligned_heavy.pdb",
+      "sha256": "93572ba54235e6e338205e6272d81093d5c938ba21594a676b029fa8dd5a8044"
+    }
+  ],
+  "four_output_hashes_match_historical": true,
+  "outputs_kept_private_outside_code": true,
+  "script_changes": false,
+  "new_docking_or_biological_work": false
+}

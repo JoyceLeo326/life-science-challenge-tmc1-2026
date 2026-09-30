@@ -1,0 +1,107 @@
+[
+  {
+    "phase": "create_venv",
+    "command": [
+      "python",
+      "-I",
+      "-m",
+      "venv",
+      "$VENV"
+    ],
+    "cwd": "$VALIDATION",
+    "started_utc": "2026-09-30T18:15:39.803920+00:00",
+    "seconds": 10.266,
+    "exit_code": 0,
+    "raw_log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "phase": "isolation_before_install",
+    "command": [
+      "$VENV\\Scripts\\python.exe",
+      "-I",
+      "-c",
+      "import json,sys,site,importlib.util; print(json.dumps({'python':sys.version,'prefix':sys.prefix,'base_prefix':sys.base_prefix,'user_site_enabled':site.ENABLE_USER_SITE,'sys_path':sys.path,'numpy_visible':importlib.util.find_spec('numpy') is not None,'torch_visible':importlib.util.find_spec('torch') is not None},indent=2))"
+    ],
+    "cwd": "$PACKAGE",
+    "started_utc": "2026-09-30T18:15:50.072344+00:00",
+    "seconds": 0.073,
+    "exit_code": 0,
+    "raw_log_sha256": "953e7c1c9fb535a2814a1685f6fedee00c9e6fa8228620fec124854635b515c0"
+  },
+  {
+    "phase": "declared_dependency_install",
+    "command": [
+      "$VENV\\Scripts\\python.exe",
+      "-m",
+      "pip",
+      "install",
+      "-r",
+      "requirements.txt",
+      "--extra-index-url",
+      "https://download.pytorch.org/whl/cpu",
+      "--disable-pip-version-check"
+    ],
+    "cwd": "$PACKAGE",
+    "started_utc": "2026-09-30T18:15:50.152223+00:00",
+    "seconds": 184.095,
+    "exit_code": 0,
+    "raw_log_sha256": "e8296431af6cf8a985f1938070e805f6857e04fa9d79df6c8fba32c08db9efad"
+  },
+  {
+    "phase": "pip_check",
+    "command": [
+      "$VENV\\Scripts\\python.exe",
+      "-m",
+      "pip",
+      "check"
+    ],
+    "cwd": "$PACKAGE",
+    "started_utc": "2026-09-30T18:18:54.261101+00:00",
+    "seconds": 1.302,
+    "exit_code": 0,
+    "raw_log_sha256": "672aec65a45bed50e70229c70934a7eebf0462595c459b83023027645d57cccf"
+  },
+  {
+    "phase": "installed_versions",
+    "command": [
+      "$VENV\\Scripts\\python.exe",
+      "-I",
+      "-c",
+      "import json,sys,site,importlib.metadata as m; names=['rdkit','numpy','scipy','scikit-learn','dimorphite-dl','meeko','torch','selfies','joblib','threadpoolctl','matplotlib']; print(json.dumps({'python':sys.version,'user_site_enabled':site.ENABLE_USER_SITE,'packages':{x:m.version(x) for x in names}},indent=2))"
+    ],
+    "cwd": "$PACKAGE",
+    "started_utc": "2026-09-30T18:18:55.571070+00:00",
+    "seconds": 0.169,
+    "exit_code": 0,
+    "raw_log_sha256": "2c3b465a656db84e02407a3e40e3581b2af82b11189001ed5b88a992d7861ba8"
+  },
+  {
+    "phase": "training_generation_screening_small",
+    "command": [
+      "$VENV\\Scripts\\python.exe",
+      "run_example.py",
+      "--train-small",
+      "--output",
+      "../../outputs/example_results"
+    ],
+    "cwd": "$PACKAGE",
+    "started_utc": "2026-09-30T18:18:55.748593+00:00",
+    "seconds": 22.348,
+    "exit_code": 0,
+    "raw_log_sha256": "b3f8b82af0db4eff8cd6e7defbaaa9739876b315218bd24e224e78fb5d8ea20c"
+  },
+  {
+    "phase": "formal_six_replay",
+    "command": [
+      "$VENV\\Scripts\\python.exe",
+      "make_results.py",
+      "--output",
+      "../../outputs/formal/results.csv"
+    ],
+    "cwd": "$PACKAGE",
+    "started_utc": "2026-09-30T18:19:18.104287+00:00",
+    "seconds": 1.378,
+    "exit_code": 0,
+    "raw_log_sha256": "8644de2253b99e3bfd75a86aaf1ed4a213ef8417b18e0a8fbdc8d0989f299e31"
+  }
+]

@@ -1,0 +1,7 @@
+﻿candidate_chembl_id,input_inchikey,api_candidate_inchikey,input_source_key_match,same_id_returned,exact_key_or_canonical_matches,exact_match_ids,explanation
+CHEMBL1079964,YWDIXVZCRMMQQY-UHFFFAOYSA-N,YWDIXVZCRMMQQY-UHFFFAOYSA-N,True,False,0,,API returned no self/exact-structure result; not proof of documented default exclusion; no self row inserted
+CHEMBL1080362,MYAFDHCCQBIZLC-UHFFFAOYSA-N,MYAFDHCCQBIZLC-UHFFFAOYSA-N,True,False,0,,API returned no self/exact-structure result; not proof of documented default exclusion; no self row inserted
+CHEMBL1081740,ZNDXPRCORYDEAP-UHFFFAOYSA-N,ZNDXPRCORYDEAP-UHFFFAOYSA-N,True,False,0,,API returned no self/exact-structure result; not proof of documented default exclusion; no self row inserted
+CHEMBL1080669,FCRHJSNRFAAYQD-UHFFFAOYSA-N,FCRHJSNRFAAYQD-UHFFFAOYSA-N,True,False,0,,API returned no self/exact-structure result; not proof of documented default exclusion; no self row inserted
+CHEMBL1076497,DNDVGFIEWOHGAH-UHFFFAOYSA-N,DNDVGFIEWOHGAH-UHFFFAOYSA-N,True,False,0,,API returned no self/exact-structure result; not proof of documented default exclusion; no self row inserted
+CHEMBL1080205,ZVHBDYFMHCQADD-UHFFFAOYSA-N,ZVHBDYFMHCQADD-UHFFFAOYSA-N,True,False,0,,API returned no self/exact-structure result; not proof of documented default exclusion; no self row inserted

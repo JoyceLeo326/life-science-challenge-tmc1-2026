@@ -1,0 +1,192 @@
+{
+  "created_at_utc": "2026-09-28T17:49:41.120079+00:00",
+  "rdkit_version": "2025.09.6",
+  "source": "ChEMBL molecule API",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://chembl.github.io/chembl-licensing/",
+  "source_records_by_group": {
+    "legacy_approved": 3475,
+    "expanded": 20000
+  },
+  "source_records_total": 23475,
+  "unique_source_ids": 23403,
+  "standardized_unique_parents": 21356,
+  "property_filtered_parents": 17645,
+  "excluded_unique_parents": 3711,
+  "parent_filter_reasons": {
+    "rotatable_bonds_over_12": 674,
+    "eligible": 17645,
+    "mw_outside_150_650": 1601,
+    "clogp_outside_-2_7": 965,
+    "tpsa_over_180": 363,
+    "unsupported_element": 70,
+    "no_carbon": 36,
+    "absolute_charge_over_2": 2
+  },
+  "source_processing_status_reasons": {
+    "standardized:eligible": 19146,
+    "standardized:mw_outside_150_650": 1762,
+    "standardized:clogp_outside_-2_7": 1027,
+    "standardized:rotatable_bonds_over_12": 712,
+    "standardized:no_carbon": 77,
+    "standardized:tpsa_over_180": 409,
+    "excluded:missing_smiles": 197,
+    "standardized:unsupported_element": 71,
+    "duplicate_source_id:overlap_legacy_expanded": 72,
+    "standardized:absolute_charge_over_2": 2
+  },
+  "raw_pages": [
+    {
+      "group": "legacy_approved",
+      "path": "provenance/raw/legacy_approved/molecules_offset_00000.json",
+      "sha256": "5cbf75a488eae0b667eaea430927209aca389a6aa6b4b323f6928729ab40a1f9",
+      "record_count": 1000
+    },
+    {
+      "group": "legacy_approved",
+      "path": "provenance/raw/legacy_approved/molecules_offset_01000.json",
+      "sha256": "59214b88b6d803098e00c2336473f5580aaa550837b8f3da5855482dee334a70",
+      "record_count": 1000
+    },
+    {
+      "group": "legacy_approved",
+      "path": "provenance/raw/legacy_approved/molecules_offset_02000.json",
+      "sha256": "38c78586a95e3bcf0d4e97d4ef8e110a1a2247b21528a69636f0941edb693283",
+      "record_count": 1000
+    },
+    {
+      "group": "legacy_approved",
+      "path": "provenance/raw/legacy_approved/molecules_offset_03000.json",
+      "sha256": "1c9f75b884bd9c7af48d851c3db2aca618db4740509b5f3fae2fa3b946359373",
+      "record_count": 475
+    },
+    {
+      "group": "expanded",
+      "path": "provenance/raw/expanded/offset_0000000.json",
+      "sha256": "780714d70b2d58ef45a5d113c53bc816bc8de086ad7a8872ba19227b25896b6c",
+      "record_count": 1000
+    },
+    {
+      "group": "expanded",
+      "path": "provenance/raw/expanded/offset_0001000.json",
+      "sha256": "ba84ed2f7ee3a54401bfeb12b64592fbf18b7da1fe50987a94330d80e648b514",
+      "record_count": 1000
+    },
+    {
+      "group": "expanded",
+      "path": "provenance/raw/expanded/offset_0002000.json",
+      "sha256": "76a722d4fe3bebc0e0aee734d507b15113aa1e544a6babddb5bfa8c2cd0406ac",
+      "record_count": 1000
+    },
+    {
+      "group": "expanded",
+      "path": "provenance/raw/expanded/offset_0003000.json",
+      "sha256": "5a4d5578edb75df30bd6e59c31e227a1a36c36a02609ecd66d92225b1cd1b66c",
+      "record_count": 1000
+    },
+    {
+      "group": "expanded",
+      "path": "provenance/raw/expanded/offset_0004000.json",
+      "sha256": "d93fdc1aa98a9b50955d45b836b93cf0bf15b907185caaf074a6818fd317da4c",
+      "record_count": 1000
+    },
+    {
+      "group": "expanded",
+      "path": "provenance/raw/expanded/offset_0005000.json",
+      "sha256": "c7949c5c9eb3796ae344b8459e80b8ecc9b6a888f3e0c76101df25fd33480b46",
+      "record_count": 1000
+    },
+    {
+      "group": "expanded",
+      "path": "provenance/raw/expanded/offset_0006000.json",
+      "sha256": "89e5be82ec7511ab540092ad71ecd54e6f5276ee8a2069325d263a6ca916b05d",
+      "record_count": 1000
+    },
+    {
+      "group": "expanded",
+      "path": "provenance/raw/expanded/offset_0007000.json",
+      "sha256": "0d123f0be15b702cf9a70fd428102cc10731f62e278fa9efb3d606515b8b7fae",
+      "record_count": 1000
+    },
+    {
+      "group": "expanded",
+      "path": "provenance/raw/expanded/offset_0008000.json",
+      "sha256": "8d2923e378c51136063b6fcc62c2b9591f24685d3eca7956767c7d4f8c0714b8",
+      "record_count": 1000
+    },
+    {
+      "group": "expanded",
+      "path": "provenance/raw/expanded/offset_0009000.json",
+      "sha256": "0b1bd816e0dae276e639d980ca8ae3e9d50ee73dd3c12560184a7beefe0675a4",
+      "record_count": 1000
+    },
+    {
+      "group": "expanded",
+      "path": "provenance/raw/expanded/offset_0010000.json",
+      "sha256": "6fd8966f8d1e1ee89d2e6af126c37973114b2f505731a4c815bc0f4da9dd8faa",
+      "record_count": 1000
+    },
+    {
+      "group": "expanded",
+      "path": "provenance/raw/expanded/offset_0011000.json",
+      "sha256": "d71afa0bab902e40cd681830bebd9831454ba3c2ac986f3317f0a7aa9d24522f",
+      "record_count": 1000
+    },
+    {
+      "group": "expanded",
+      "path": "provenance/raw/expanded/offset_0012000.json",
+      "sha256": "b1abda294912ca635dff4065a2581891c8aaf4b81499a04d096b598495b5d130",
+      "record_count": 1000
+    },
+    {
+      "group": "expanded",
+      "path": "provenance/raw/expanded/offset_0013000.json",
+      "sha256": "157ae1c9066ddd389155a33a53997272a1131cfab17cd5aafdee1272c7ad4adc",
+      "record_count": 1000
+    },
+    {
+      "group": "expanded",
+      "path": "provenance/raw/expanded/offset_0014000.json",
+      "sha256": "ec0e6f7e10af2c2c590b758df259c08fb265bd85e7c632169b0913dadbfa5673",
+      "record_count": 1000
+    },
+    {
+      "group": "expanded",
+      "path": "provenance/raw/expanded/offset_0015000.json",
+      "sha256": "f1e183a8959469cde355197abac31cd03ca833f84533b96b8e10384ece0a066b",
+      "record_count": 1000
+    },
+    {
+      "group": "expanded",
+      "path": "provenance/raw/expanded/offset_0016000.json",
+      "sha256": "12061fff23ea9394deade04eeb89efa3d89f40faacc9b27d92e0e93d46e8e3fb",
+      "record_count": 1000
+    },
+    {
+      "group": "expanded",
+      "path": "provenance/raw/expanded/offset_0017000.json",
+      "sha256": "c3122ee93dae6623fc68cc9b2916026e9629961016325790d1444f41e9d859e7",
+      "record_count": 1000
+    },
+    {
+      "group": "expanded",
+      "path": "provenance/raw/expanded/offset_0018000.json",
+      "sha256": "3cf913fff40ae8c866215926e8f4471fface10cbd63c86438ccf35e96b2f8de9",
+      "record_count": 1000
+    },
+    {
+      "group": "expanded",
+      "path": "provenance/raw/expanded/offset_0019000.json",
+      "sha256": "0fb66fca901a8aecf458269e37fead65d22521bdf487770fbbb2c3f69e58cd58",
+      "record_count": 1000
+    }
+  ],
+  "processing_rules": {
+    "fragment": "RDKit LargestFragmentChooser preferOrganic",
+    "charge": "RDKit Uncharger",
+    "tautomer": "RDKit canonical tautomer",
+    "parent_key": "first block of InChIKey after stereo removal",
+    "stereochemistry": "retained in isomeric SMILES, collapsed in parent count",
+    "3d": "none"
+  }
+}

@@ -1,0 +1,1653 @@
+[
+  {
+    "path": "data/forward_attempt_level.csv",
+    "sha256": "d02a4128ce59e9f3270f18cf90cf431392e483fdb5169c2002fb0c46ffa08848",
+    "source_sha256": "7dd47674dfa633f9a47f4d8d49b05809aca366f398303586b255530e2195a596",
+    "edit": "evidence path only"
+  },
+  {
+    "path": "data/forward_arm_summary.csv",
+    "sha256": "77ff7e7e6b70b80e7309983775b0b45cf15235712fbc95d4fa1989bafafa712b",
+    "source_sha256": "77ff7e7e6b70b80e7309983775b0b45cf15235712fbc95d4fa1989bafafa712b",
+    "edit": "CSV serialization"
+  },
+  {
+    "path": "data/forward_strata.csv",
+    "sha256": "a0b9ab8a86f3f4a889985139f9138f32de3f8b93aea7abc782404c6967e339d4",
+    "source_sha256": "a0b9ab8a86f3f4a889985139f9138f32de3f8b93aea7abc782404c6967e339d4",
+    "edit": "CSV serialization"
+  },
+  {
+    "path": "data/forward_charge_sensitivity.csv",
+    "sha256": "fb7232af98ba0045fab9b5e7560069faaf6c07ee69fcd207df15d012630b74a3",
+    "source_sha256": "fb7232af98ba0045fab9b5e7560069faaf6c07ee69fcd207df15d012630b74a3",
+    "edit": "CSV serialization"
+  },
+  {
+    "path": "05_independent_audit/forward_evaluation_independent_audit.json",
+    "sha256": "c9e0f3220bf5705417ff1d79c9b19470dba342e5b6cecfbc91707c50618d77b3",
+    "source_sha256": "c9e0f3220bf5705417ff1d79c9b19470dba342e5b6cecfbc91707c50618d77b3"
+  },
+  {
+    "path": "05_independent_audit/confirmation_four_condition_independent_table.csv",
+    "sha256": "ea0a9ea0cc54ad2fe14050cea7c1439bcbdb443aae795289faa9ab9202a7c84d",
+    "source_sha256": "ea0a9ea0cc54ad2fe14050cea7c1439bcbdb443aae795289faa9ab9202a7c84d"
+  },
+  {
+    "path": "05_independent_audit/confirmation_candidate_condition_summary.json",
+    "sha256": "85f50cc02f004ea95abae2d4aba5501bef8dfabca7f9ae12e79af404b664e551",
+    "source_sha256": "85f50cc02f004ea95abae2d4aba5501bef8dfabca7f9ae12e79af404b664e551"
+  },
+  {
+    "path": "05_independent_audit/formal_v2_initial_independent_qc.csv",
+    "sha256": "bdcd1dbcd9e3dce65ab5dbd73ef6d1f1b14feff9b343b264087e3a1c7ef99239",
+    "source_sha256": "b6c060deef77df0d14808918ac6b389d13056f521d30a9127c48106ed86c24f2",
+    "edit": "local path fields removed"
+  },
+  {
+    "path": "05_independent_audit/formal_v2_active_independent_qc.csv",
+    "sha256": "c8a7b6b8449ca6eb9f9278db04adb206dec3983c040e753cd793bb75c7e101a3",
+    "source_sha256": "4ca883c1c0ac826f019534588d7e490b5bc13a969a97e94772dfe92a01e5407c",
+    "edit": "local path fields removed"
+  },
+  {
+    "path": "data/final_generated40_actual_outcomes.csv",
+    "sha256": "adb45ead6c538530d537355f870f186414617e681d7face9f549e3d6dcdd34ed",
+    "source_sha256": "adb45ead6c538530d537355f870f186414617e681d7face9f549e3d6dcdd34ed"
+  },
+  {
+    "path": "data/confirmation_panel.csv",
+    "sha256": "09297efd0c3ff9f308473828a85c5ec12da3c782f0900673a1da6e2cd8840a28",
+    "source_sha256": "09297efd0c3ff9f308473828a85c5ec12da3c782f0900673a1da6e2cd8840a28"
+  },
+  {
+    "path": "structures/LIB_YWDIXVZCRMMQQY.sdf",
+    "sha256": "f343d3dbd35db6dfe3c87c1747fab211dbce1582f64e79f58f3a6b561a96684b",
+    "source_sha256": "f343d3dbd35db6dfe3c87c1747fab211dbce1582f64e79f58f3a6b561a96684b"
+  },
+  {
+    "path": "structures/LIB_MYAFDHCCQBIZLC.sdf",
+    "sha256": "9c8db65fd60cbd45f169393740263e478ebc55bd336ec9e754f158f450423789",
+    "source_sha256": "9c8db65fd60cbd45f169393740263e478ebc55bd336ec9e754f158f450423789"
+  },
+  {
+    "path": "structures/LIB_ZNDXPRCORYDEAP.sdf",
+    "sha256": "7b16d878580e3ed359e0d3ca6ad5ad3ef744ab09e6e65baa0d677299a8a25dbc",
+    "source_sha256": "7b16d878580e3ed359e0d3ca6ad5ad3ef744ab09e6e65baa0d677299a8a25dbc"
+  },
+  {
+    "path": "structures/LIB_FCRHJSNRFAAYQD.sdf",
+    "sha256": "c24a49e30fea0e7ff414f5ae9a285d307eedc29874799961b24ea4a96de8ceef",
+    "source_sha256": "c24a49e30fea0e7ff414f5ae9a285d307eedc29874799961b24ea4a96de8ceef"
+  },
+  {
+    "path": "structures/LIB_DNDVGFIEWOHGAH.sdf",
+    "sha256": "771bfe3325c35b173a76db16d6a926e803db1282640c1c9b2cf7016dae732011",
+    "source_sha256": "771bfe3325c35b173a76db16d6a926e803db1282640c1c9b2cf7016dae732011"
+  },
+  {
+    "path": "structures/LIB_ZVHBDYFMHCQADD.sdf",
+    "sha256": "9138a9bda3aef30111a6a0a4b91cfeef9d5fe10ec6e78dc9fcbac63213fbea58",
+    "source_sha256": "9138a9bda3aef30111a6a0a4b91cfeef9d5fe10ec6e78dc9fcbac63213fbea58"
+  },
+  {
+    "path": "data/actual_parent_product_comparison.csv",
+    "sha256": "7824ee80484a419cdaa1cd6c5a8132599c1b3c1130dac231571e608db2036fb0",
+    "source_sha256": "758f4c230f4e75c28788b96a4356d273f13c09d80baa5149d291305b26ea96be",
+    "edit": "absolute source metadata paths normalized; all numerical fields unchanged"
+  },
+  {
+    "path": "data/generator_pilot_same_budget_comparison.csv",
+    "sha256": "c02b8f876157822c39d8c10d7e24b03823d33c2013c45dba5f22bb3cc4ef27a0",
+    "source_sha256": "c02b8f876157822c39d8c10d7e24b03823d33c2013c45dba5f22bb3cc4ef27a0"
+  },
+  {
+    "path": "data/generator_pilot_identity_safe_funnel.csv",
+    "sha256": "a8cdd739ddbba0b952ae530d6d9a728fd725a0ae20614d2683c90a44273c9873",
+    "source_sha256": "a8cdd739ddbba0b952ae530d6d9a728fd725a0ae20614d2683c90a44273c9873"
+  },
+  {
+    "path": "data/group_supplement/A1_reference_sources/A1_README.md",
+    "sha256": "69fb755ff700b80d4079bc12cc71df8f79905f3e32f7a61b2fa854ae8d9ae560",
+    "source_sha256": "69fb755ff700b80d4079bc12cc71df8f79905f3e32f7a61b2fa854ae8d9ae560",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A1_reference_sources/author_source_inventory.json",
+    "sha256": "2c00e9dc5b8b59e8b66fc19c29262d4951fb6b80541c09151ce1132532c6e421",
+    "source_sha256": "2c00e9dc5b8b59e8b66fc19c29262d4951fb6b80541c09151ce1132532c6e421",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A1_reference_sources/author_training_unique12.csv",
+    "sha256": "50e1360c5d726cd920c9e3490dd8b7f58c7bca4babbce50f15c2b2b35b567c6c",
+    "source_sha256": "50e1360c5d726cd920c9e3490dd8b7f58c7bca4babbce50f15c2b2b35b567c6c",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A1_reference_sources/author_tree.tsv",
+    "sha256": "f8a692a8e3c94f2e1bee0d0ca44ccf04d46646e58605ecb62b4689a694b60742",
+    "source_sha256": "f8a692a8e3c94f2e1bee0d0ca44ccf04d46646e58605ecb62b4689a694b60742",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A1_reference_sources/formal6_author_training12_overlap.csv",
+    "sha256": "4b37ec3d64b60667f6fab27609b4d4070cc5962e6901bf7b358a132dc4d43a54",
+    "source_sha256": "4b37ec3d64b60667f6fab27609b4d4070cc5962e6901bf7b358a132dc4d43a54",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A1_reference_sources/paper_13_plus_3_author_source_map.csv",
+    "sha256": "8c511ef445b9b4e37b2689863e46c968ad4e6e2368ff2a8027ecba4bf45bb9ef",
+    "source_sha256": "8c511ef445b9b4e37b2689863e46c968ad4e6e2368ff2a8027ecba4bf45bb9ef",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A1_reference_sources/paper_dye_uptake12_plus_amitraz.csv",
+    "sha256": "23a8f557ffece0426ac756a5910de8189a17f212ce127a5f210a7ef9ef4c984b",
+    "source_sha256": "23a8f557ffece0426ac756a5910de8189a17f212ce127a5f210a7ef9ef4c984b",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A1_reference_sources/QUERY_LEDGER.json",
+    "sha256": "c1696cdf646266f89583d6e0a8cbf4ebbb21db28f32ee99c78b0e9fd3b672d59",
+    "source_sha256": "c1696cdf646266f89583d6e0a8cbf4ebbb21db28f32ee99c78b0e9fd3b672d59",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A1_reference_sources/reference_source_claim_audit.csv",
+    "sha256": "d24a8ef1c54a26623bbe7c7bb64e4a4928baadd5a391d348b27451689b3268f7",
+    "source_sha256": "d24a8ef1c54a26623bbe7c7bb64e4a4928baadd5a391d348b27451689b3268f7",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A1_reference_sources/REFERENCE_SOURCE_CLARIFICATION.md",
+    "sha256": "77fd7a6497191599883eef0ed6d8d2492e881c2880a0e72fd0f1d571f688f24a",
+    "source_sha256": "77fd7a6497191599883eef0ed6d8d2492e881c2880a0e72fd0f1d571f688f24a",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A1_reference_sources/ZINC_primary_identity_verification.csv",
+    "sha256": "8cd2d6b25a8e4459715aee8d79cdbe08328ccbed7fab01ccf54d703708647a32",
+    "source_sha256": "8cd2d6b25a8e4459715aee8d79cdbe08328ccbed7fab01ccf54d703708647a32",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A2_chembl_neighbors/A2_README.md",
+    "sha256": "cb4502d120633b3f53e4a2be779170e0299fe2f4f0ce8af805d1a9dc21d21d8e",
+    "source_sha256": "cb4502d120633b3f53e4a2be779170e0299fe2f4f0ce8af805d1a9dc21d21d8e",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A2_chembl_neighbors/candidate_neighbor_annotations.csv",
+    "sha256": "4db8911612a7db3899089905c3c1e057346c1343bed7ea7d220ff9bc7c60cd9b",
+    "source_sha256": "4db8911612a7db3899089905c3c1e057346c1343bed7ea7d220ff9bc7c60cd9b",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A2_chembl_neighbors/candidate_neighbor_ge0p6.csv",
+    "sha256": "8c5c8bcddad2e7a36db568a262e966cd18d920def7fad1f9cea10adeb8a3d00f",
+    "source_sha256": "8c5c8bcddad2e7a36db568a262e966cd18d920def7fad1f9cea10adeb8a3d00f",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A2_chembl_neighbors/candidate_similarity_identity_audit.csv",
+    "sha256": "3d51299865b89e356cb1b7c91ad04aafbccfbb7fb39be7e4daad3b9f66ce998c",
+    "source_sha256": "3d51299865b89e356cb1b7c91ad04aafbccfbb7fb39be7e4daad3b9f66ce998c",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A2_chembl_neighbors/candidate_similarity_summary.csv",
+    "sha256": "446bcc36cda3e3a8aa7c3bbd3d4a32bacdc8a364a38ab18ea2fe1fc19abc00ed",
+    "source_sha256": "446bcc36cda3e3a8aa7c3bbd3d4a32bacdc8a364a38ab18ea2fe1fc19abc00ed",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A2_chembl_neighbors/CHEMBL_FETCH_COMPLETE.json",
+    "sha256": "dc9e6047840662b79ba921ab1be42d62e6565772bde1602296dbd2fd16ca6fe7",
+    "source_sha256": "dc9e6047840662b79ba921ab1be42d62e6565772bde1602296dbd2fd16ca6fe7",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A2_chembl_neighbors/chembl_raw/CHEMBL1076497/molecule.json",
+    "sha256": "65bc8d488779c9eb93c29a9a8156c02a018ca4221dca65fb2976a5426b5306ae",
+    "source_sha256": "65bc8d488779c9eb93c29a9a8156c02a018ca4221dca65fb2976a5426b5306ae",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A2_chembl_neighbors/chembl_raw/CHEMBL1076497/molecule.receipt.json",
+    "sha256": "46913d72badc0896dd92110fdba0227e60a343016f589a3beaf4b062249c0032",
+    "source_sha256": "46913d72badc0896dd92110fdba0227e60a343016f589a3beaf4b062249c0032",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A2_chembl_neighbors/chembl_raw/CHEMBL1076497/similarity40_page000.json",
+    "sha256": "659342a0a7cdd10c7f49bf4a5b3f7787f46152640a7a09c81924021a7b3aa74a",
+    "source_sha256": "659342a0a7cdd10c7f49bf4a5b3f7787f46152640a7a09c81924021a7b3aa74a",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A2_chembl_neighbors/chembl_raw/CHEMBL1076497/similarity40_page000.receipt.json",
+    "sha256": "9c6568d471720a43f2f19ee22b43976b82dbdeeb83c4c1f9457d0d2bbecebbb2",
+    "source_sha256": "9c6568d471720a43f2f19ee22b43976b82dbdeeb83c4c1f9457d0d2bbecebbb2",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A2_chembl_neighbors/chembl_raw/CHEMBL1076497/similarity60_count.json",
+    "sha256": "8a812bd3cc86dd6d298fce2ae5ff86e40b7ac9427fc9366f7a2dc964afb00614",
+    "source_sha256": "8a812bd3cc86dd6d298fce2ae5ff86e40b7ac9427fc9366f7a2dc964afb00614",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A2_chembl_neighbors/chembl_raw/CHEMBL1076497/similarity60_count.receipt.json",
+    "sha256": "11baa2554a37ab655276c9c88d9523f7ba21ce32cdd6573501504cd3cdf311ea",
+    "source_sha256": "11baa2554a37ab655276c9c88d9523f7ba21ce32cdd6573501504cd3cdf311ea",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A2_chembl_neighbors/chembl_raw/CHEMBL1079964/molecule.json",
+    "sha256": "a7338868964f6211b1fbd1f3c6411994e005c6c158e9c65e54d1bbc4e8b4d6b9",
+    "source_sha256": "a7338868964f6211b1fbd1f3c6411994e005c6c158e9c65e54d1bbc4e8b4d6b9",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A2_chembl_neighbors/chembl_raw/CHEMBL1079964/molecule.receipt.json",
+    "sha256": "aa5cbda38c91c31e1bf231065ab062983990b126847bd2398661174641336a51",
+    "source_sha256": "aa5cbda38c91c31e1bf231065ab062983990b126847bd2398661174641336a51",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A2_chembl_neighbors/chembl_raw/CHEMBL1079964/similarity40_page000.json",
+    "sha256": "18811f4e235ab6e24eae782bf3f47bb2318f0cc028480885f57de6cb9d15744e",
+    "source_sha256": "18811f4e235ab6e24eae782bf3f47bb2318f0cc028480885f57de6cb9d15744e",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A2_chembl_neighbors/chembl_raw/CHEMBL1079964/similarity40_page000.receipt.json",
+    "sha256": "7e7c057fa66c723cd16f8a7c3aec8d7db438937caf07ea2491012f10dd81d1f1",
+    "source_sha256": "7e7c057fa66c723cd16f8a7c3aec8d7db438937caf07ea2491012f10dd81d1f1",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A2_chembl_neighbors/chembl_raw/CHEMBL1079964/similarity60_count.json",
+    "sha256": "ae63aacecaf03e785ab9a6b6b7b55936daa4e81cd896fea71717fb33a43e8221",
+    "source_sha256": "ae63aacecaf03e785ab9a6b6b7b55936daa4e81cd896fea71717fb33a43e8221",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A2_chembl_neighbors/chembl_raw/CHEMBL1079964/similarity60_count.receipt.json",
+    "sha256": "f1cf261ec79a5d5bdb7978959665a333b6c0be7ae8b3a922ebf38a5268945716",
+    "source_sha256": "f1cf261ec79a5d5bdb7978959665a333b6c0be7ae8b3a922ebf38a5268945716",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A2_chembl_neighbors/chembl_raw/CHEMBL1080205/molecule.json",
+    "sha256": "023ecdcad1a91851e19b2ee3758b62b9e3f547d4d53aa385d59a161bd0b2f610",
+    "source_sha256": "023ecdcad1a91851e19b2ee3758b62b9e3f547d4d53aa385d59a161bd0b2f610",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A2_chembl_neighbors/chembl_raw/CHEMBL1080205/molecule.receipt.json",
+    "sha256": "565a42f0a881f85766796eb28e20c6fe571af9c1bbbb8de0db230141d22687cb",
+    "source_sha256": "565a42f0a881f85766796eb28e20c6fe571af9c1bbbb8de0db230141d22687cb",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A2_chembl_neighbors/chembl_raw/CHEMBL1080205/similarity40_page000.json",
+    "sha256": "c43e3d24ece502d542e40803038c1082be1e92eb007d19f4f03715768d2610bc",
+    "source_sha256": "c43e3d24ece502d542e40803038c1082be1e92eb007d19f4f03715768d2610bc",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A2_chembl_neighbors/chembl_raw/CHEMBL1080205/similarity40_page000.receipt.json",
+    "sha256": "0eadbacce1f103d0f61c89a1fec4d04cb4b8e901fa96707015257d0f9fab92a4",
+    "source_sha256": "0eadbacce1f103d0f61c89a1fec4d04cb4b8e901fa96707015257d0f9fab92a4",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A2_chembl_neighbors/chembl_raw/CHEMBL1080205/similarity60_count.json",
+    "sha256": "0e57c000d4d46eaf6ad3b4733c96200ab30a2d5179c0ebff06e437e609db214a",
+    "source_sha256": "0e57c000d4d46eaf6ad3b4733c96200ab30a2d5179c0ebff06e437e609db214a",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A2_chembl_neighbors/chembl_raw/CHEMBL1080205/similarity60_count.receipt.json",
+    "sha256": "6c01b2eeddf5e94aca76a30cfa135c79096dbe3fa6f0def25d0b3ad2593f5adf",
+    "source_sha256": "6c01b2eeddf5e94aca76a30cfa135c79096dbe3fa6f0def25d0b3ad2593f5adf",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A2_chembl_neighbors/chembl_raw/CHEMBL1080362/molecule.json",
+    "sha256": "1500fbec8f0b2a3402406d3206213f1345b10eaa7ab2bbbe2b743d9ca6b8f930",
+    "source_sha256": "1500fbec8f0b2a3402406d3206213f1345b10eaa7ab2bbbe2b743d9ca6b8f930",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A2_chembl_neighbors/chembl_raw/CHEMBL1080362/molecule.receipt.json",
+    "sha256": "4777d3701274b86c2d34688f5643957d52cd04f7566b4bf29563a3e46c687a2d",
+    "source_sha256": "4777d3701274b86c2d34688f5643957d52cd04f7566b4bf29563a3e46c687a2d",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A2_chembl_neighbors/chembl_raw/CHEMBL1080362/similarity40_page000.json",
+    "sha256": "63968e2ffea53466c6410c3b19578e444327ab240d935bad7beffbcf45a67f28",
+    "source_sha256": "63968e2ffea53466c6410c3b19578e444327ab240d935bad7beffbcf45a67f28",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A2_chembl_neighbors/chembl_raw/CHEMBL1080362/similarity40_page000.receipt.json",
+    "sha256": "48f32ba6cb582a485f06e75cd99946cf98d0062d4d92a28da07f0171599e62db",
+    "source_sha256": "48f32ba6cb582a485f06e75cd99946cf98d0062d4d92a28da07f0171599e62db",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A2_chembl_neighbors/chembl_raw/CHEMBL1080362/similarity60_count.json",
+    "sha256": "a4f4cb97f077b97aeb3af23ccb02caf6cf853bab08521ff005267a7f9bee0a29",
+    "source_sha256": "a4f4cb97f077b97aeb3af23ccb02caf6cf853bab08521ff005267a7f9bee0a29",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A2_chembl_neighbors/chembl_raw/CHEMBL1080362/similarity60_count.receipt.json",
+    "sha256": "eca9813a07a50458f2997c55b0617612aed3c0a735f2f648977b39e5ead2b652",
+    "source_sha256": "eca9813a07a50458f2997c55b0617612aed3c0a735f2f648977b39e5ead2b652",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A2_chembl_neighbors/chembl_raw/CHEMBL1080669/molecule.json",
+    "sha256": "36dab778ef835fb62063f7a0b6d43aefdeb5f6d8e63eb2a37bdf34ce570e2a5d",
+    "source_sha256": "36dab778ef835fb62063f7a0b6d43aefdeb5f6d8e63eb2a37bdf34ce570e2a5d",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A2_chembl_neighbors/chembl_raw/CHEMBL1080669/molecule.receipt.json",
+    "sha256": "ef84c94800a9132474cf67d96a76d0c3f2eb97b3661819ef3a1989dac8dcdfb9",
+    "source_sha256": "ef84c94800a9132474cf67d96a76d0c3f2eb97b3661819ef3a1989dac8dcdfb9",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A2_chembl_neighbors/chembl_raw/CHEMBL1080669/similarity40_page000.json",
+    "sha256": "fe8a3c2f800c3b38302b4bb6c036711688a3c4e984fd98a0ad74b6e8652cdfd7",
+    "source_sha256": "fe8a3c2f800c3b38302b4bb6c036711688a3c4e984fd98a0ad74b6e8652cdfd7",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A2_chembl_neighbors/chembl_raw/CHEMBL1080669/similarity40_page000.receipt.json",
+    "sha256": "aee8faf830f3858d7e366b8a6897609a80dfa2b0f5e0e043f3182e50ab57e53a",
+    "source_sha256": "aee8faf830f3858d7e366b8a6897609a80dfa2b0f5e0e043f3182e50ab57e53a",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A2_chembl_neighbors/chembl_raw/CHEMBL1080669/similarity60_count.json",
+    "sha256": "9b195ba29f44f976893fd60e872b1d5e62410302068be4a35a1a544bd4a6aeb6",
+    "source_sha256": "9b195ba29f44f976893fd60e872b1d5e62410302068be4a35a1a544bd4a6aeb6",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A2_chembl_neighbors/chembl_raw/CHEMBL1080669/similarity60_count.receipt.json",
+    "sha256": "d78fc1bc24fb7419cb14a4993afbfc94c119b85e0b54707f5b42d46a8d7b09a8",
+    "source_sha256": "d78fc1bc24fb7419cb14a4993afbfc94c119b85e0b54707f5b42d46a8d7b09a8",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A2_chembl_neighbors/chembl_raw/CHEMBL1081740/molecule.json",
+    "sha256": "dd4c74cd88f5e0eec19ff21ee2c4a89fa4f7c64345cdf4e01ed1d2283e51ce10",
+    "source_sha256": "dd4c74cd88f5e0eec19ff21ee2c4a89fa4f7c64345cdf4e01ed1d2283e51ce10",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A2_chembl_neighbors/chembl_raw/CHEMBL1081740/molecule.receipt.json",
+    "sha256": "f5c18b719050a51b9e40c4b6be71cb66aa19863a84ff8af9c85fe406e4cb276a",
+    "source_sha256": "f5c18b719050a51b9e40c4b6be71cb66aa19863a84ff8af9c85fe406e4cb276a",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A2_chembl_neighbors/chembl_raw/CHEMBL1081740/similarity40_page000.json",
+    "sha256": "4997ef38e00d7be7a634cefde67f5e2c07cfdd9ed894b2fc838f85925dfe4626",
+    "source_sha256": "4997ef38e00d7be7a634cefde67f5e2c07cfdd9ed894b2fc838f85925dfe4626",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A2_chembl_neighbors/chembl_raw/CHEMBL1081740/similarity40_page000.receipt.json",
+    "sha256": "78bb9bdc1bad9c6d7689152b3ce5dde9f1c91485c83e569fb2e51d836c8b8b73",
+    "source_sha256": "78bb9bdc1bad9c6d7689152b3ce5dde9f1c91485c83e569fb2e51d836c8b8b73",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A2_chembl_neighbors/chembl_raw/CHEMBL1081740/similarity60_count.json",
+    "sha256": "7f301708ca45ed1aabe6f954188e276171437472f30db1f93502d7748245f9a9",
+    "source_sha256": "7f301708ca45ed1aabe6f954188e276171437472f30db1f93502d7748245f9a9",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A2_chembl_neighbors/chembl_raw/CHEMBL1081740/similarity60_count.receipt.json",
+    "sha256": "4b99f552e07f7540889e647f59c5abefa09ffb73059b3297ef07f9f319b01d91",
+    "source_sha256": "4b99f552e07f7540889e647f59c5abefa09ffb73059b3297ef07f9f319b01d91",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A2_chembl_neighbors/formal6_original_assays.csv",
+    "sha256": "c53398a1af0dcb8d148ab9954075d0b3e2958f5dbc5a507193ed19c5a651e6e6",
+    "source_sha256": "c53398a1af0dcb8d148ab9954075d0b3e2958f5dbc5a507193ed19c5a651e6e6",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A2_chembl_neighbors/formal_six_input.csv",
+    "sha256": "f389adbea2aa48122927e7de0ceebd71a10aa75195144bb9116ef29abc7fc961",
+    "source_sha256": "f389adbea2aa48122927e7de0ceebd71a10aa75195144bb9116ef29abc7fc961",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A2_chembl_neighbors/pharmacology_actual_activity_records.csv",
+    "sha256": "000b0a903eb0197edccc2376b31eac2c90c463de6e0a4bcb8f52738a11c330b8",
+    "source_sha256": "000b0a903eb0197edccc2376b31eac2c90c463de6e0a4bcb8f52738a11c330b8",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A2_chembl_neighbors/PHARMACOLOGY_FETCH_COMPLETE.json",
+    "sha256": "5a8a657ad60ae6484e3194bd0d88f3add8764d78b81bd257aeacb70314c9c42d",
+    "source_sha256": "5a8a657ad60ae6484e3194bd0d88f3add8764d78b81bd257aeacb70314c9c42d",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A2_chembl_neighbors/pharmacology_molecule_summary.csv",
+    "sha256": "24c13696d7f81548cb96c3331b74a28d6a3f82d5c4135602cb6fb5f6d954a973",
+    "source_sha256": "24c13696d7f81548cb96c3331b74a28d6a3f82d5c4135602cb6fb5f6d954a973",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A2_chembl_neighbors/PHARMACOLOGY_QUERY_PLAN.json",
+    "sha256": "c48e9b025dd95289faf06ed2f95fe7b0d3ccd4da781f6f693bb444383511a42d",
+    "source_sha256": "c48e9b025dd95289faf06ed2f95fe7b0d3ccd4da781f6f693bb444383511a42d",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A2_chembl_neighbors/pharmacology_raw/activity_batch00_page000.json",
+    "sha256": "72785032b60db840b07aa7644b983755acb07217596fbb364f152d74d3aa3565",
+    "source_sha256": "72785032b60db840b07aa7644b983755acb07217596fbb364f152d74d3aa3565",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A2_chembl_neighbors/pharmacology_raw/activity_batch00_page000.receipt.json",
+    "sha256": "389944d37b624c7629d39e9e8a477cdc09b449fe7fc81eac3a63a981d69da272",
+    "source_sha256": "389944d37b624c7629d39e9e8a477cdc09b449fe7fc81eac3a63a981d69da272",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A2_chembl_neighbors/pharmacology_raw/assay_batch00_page000.json",
+    "sha256": "32427c5f9b5854bb2adda5bff6094f530c4ba0ff72cf686bd0bf5ae500d12a97",
+    "source_sha256": "32427c5f9b5854bb2adda5bff6094f530c4ba0ff72cf686bd0bf5ae500d12a97",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A2_chembl_neighbors/pharmacology_raw/assay_batch00_page000.receipt.json",
+    "sha256": "6dc2a06ae11358803cb2a74b8c942a6b210fbd6c0e4becf6533624d6f8b04ace",
+    "source_sha256": "6dc2a06ae11358803cb2a74b8c942a6b210fbd6c0e4becf6533624d6f8b04ace",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A2_chembl_neighbors/pharmacology_raw/assay_batch01_page000.json",
+    "sha256": "8932b176a56dd82362d9c68cce9c53baeb9959a26dc5a34927f773fcedcd6716",
+    "source_sha256": "8932b176a56dd82362d9c68cce9c53baeb9959a26dc5a34927f773fcedcd6716",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A2_chembl_neighbors/pharmacology_raw/assay_batch01_page000.receipt.json",
+    "sha256": "c77a1a4bc9318835fdac66f01c2a6a191b105abe6dab145cc04bd1d757d7a7c6",
+    "source_sha256": "c77a1a4bc9318835fdac66f01c2a6a191b105abe6dab145cc04bd1d757d7a7c6",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A2_chembl_neighbors/pharmacology_raw/assay_batch02_page000.json",
+    "sha256": "05884fbab36a70a6dda77709a8b3388a18d30d466a06fb5332b6cf92a2f4e390",
+    "source_sha256": "05884fbab36a70a6dda77709a8b3388a18d30d466a06fb5332b6cf92a2f4e390",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A2_chembl_neighbors/pharmacology_raw/assay_batch02_page000.receipt.json",
+    "sha256": "8e0c8a7025a92d9fb52bd08d3516c0832e46cf825be44b1c66372e10f5122690",
+    "source_sha256": "8e0c8a7025a92d9fb52bd08d3516c0832e46cf825be44b1c66372e10f5122690",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A2_chembl_neighbors/pharmacology_raw/assay_batch03_page000.json",
+    "sha256": "8d23dde55b5b80319800b270ff355a8b610e53f54bdac0b50272362d57413a2c",
+    "source_sha256": "8d23dde55b5b80319800b270ff355a8b610e53f54bdac0b50272362d57413a2c",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A2_chembl_neighbors/pharmacology_raw/assay_batch03_page000.receipt.json",
+    "sha256": "715278004b54258361c39eecd318dfa61444b5df0792f9bdb9b0be32cfa3451c",
+    "source_sha256": "715278004b54258361c39eecd318dfa61444b5df0792f9bdb9b0be32cfa3451c",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A2_chembl_neighbors/pharmacology_raw/assay_batch04_page000.json",
+    "sha256": "f4dc1cd386efe0eea0a7e3f7ea613fa4326b677f26056832944f21c9661745a1",
+    "source_sha256": "f4dc1cd386efe0eea0a7e3f7ea613fa4326b677f26056832944f21c9661745a1",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A2_chembl_neighbors/pharmacology_raw/assay_batch04_page000.receipt.json",
+    "sha256": "7b3d0d3b4a0fd37a8cf107df6e7206286ce033f9f5f0de18d473211fd15e5fbc",
+    "source_sha256": "7b3d0d3b4a0fd37a8cf107df6e7206286ce033f9f5f0de18d473211fd15e5fbc",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A2_chembl_neighbors/pharmacology_raw/assay_batch05_page000.json",
+    "sha256": "7fbcfddf0ac7d9d11c74e299ae6ba5e57b3cd01113be60a26ede3fd90f1b4e28",
+    "source_sha256": "7fbcfddf0ac7d9d11c74e299ae6ba5e57b3cd01113be60a26ede3fd90f1b4e28",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A2_chembl_neighbors/pharmacology_raw/assay_batch05_page000.receipt.json",
+    "sha256": "a413215f4fd15793ef78eb0f26ae8e58fd07e9e8c52a5a889c8de76c79b8e6db",
+    "source_sha256": "a413215f4fd15793ef78eb0f26ae8e58fd07e9e8c52a5a889c8de76c79b8e6db",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A2_chembl_neighbors/pharmacology_raw/assay_batch06_page000.json",
+    "sha256": "f6fe1694217b45deabd7d3381be6b11107be6533475a02766033b222afab2cae",
+    "source_sha256": "f6fe1694217b45deabd7d3381be6b11107be6533475a02766033b222afab2cae",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A2_chembl_neighbors/pharmacology_raw/assay_batch06_page000.receipt.json",
+    "sha256": "62dba09daf8065cc2f45669f14b207319d69fa8280f262e0668f622dc6cfa602",
+    "source_sha256": "62dba09daf8065cc2f45669f14b207319d69fa8280f262e0668f622dc6cfa602",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A2_chembl_neighbors/pharmacology_raw/assay_batch07_page000.json",
+    "sha256": "af18a5b15e3404d2dca4baba36cca155273b41a5fcf7d3cf60210c2eee49b201",
+    "source_sha256": "af18a5b15e3404d2dca4baba36cca155273b41a5fcf7d3cf60210c2eee49b201",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A2_chembl_neighbors/pharmacology_raw/assay_batch07_page000.receipt.json",
+    "sha256": "76373ab956d9b3216c4d144f3d41c7c4d5501ccdf12eecda0c39b15ab99f9d64",
+    "source_sha256": "76373ab956d9b3216c4d144f3d41c7c4d5501ccdf12eecda0c39b15ab99f9d64",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A2_chembl_neighbors/pharmacology_raw/assay_batch08_page000.json",
+    "sha256": "101d35aeed5f2c98581565787fc55d5002d1d66e97a5d58e374dee30a6aac6bf",
+    "source_sha256": "101d35aeed5f2c98581565787fc55d5002d1d66e97a5d58e374dee30a6aac6bf",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A2_chembl_neighbors/pharmacology_raw/assay_batch08_page000.receipt.json",
+    "sha256": "6d5dcefc03142826f8d9488878afda2537f740a3a4dc96da2279ff8228a5ff62",
+    "source_sha256": "6d5dcefc03142826f8d9488878afda2537f740a3a4dc96da2279ff8228a5ff62",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A2_chembl_neighbors/pharmacology_raw/assay_batch09_page000.json",
+    "sha256": "8b4e99539587490fb3775a718602927afb14bbe40b1aadd8ebd0ee04f160eeee",
+    "source_sha256": "8b4e99539587490fb3775a718602927afb14bbe40b1aadd8ebd0ee04f160eeee",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A2_chembl_neighbors/pharmacology_raw/assay_batch09_page000.receipt.json",
+    "sha256": "c101d0e4d0ea63e130c8c94f347bde4612e0ad5778c98539f3bfcf80b417f42a",
+    "source_sha256": "c101d0e4d0ea63e130c8c94f347bde4612e0ad5778c98539f3bfcf80b417f42a",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A2_chembl_neighbors/pharmacology_raw/assay_batch10_page000.json",
+    "sha256": "acf9638669e2241095d8129c144e5631d28f1396253cfa1fbd83f10aafd8e610",
+    "source_sha256": "acf9638669e2241095d8129c144e5631d28f1396253cfa1fbd83f10aafd8e610",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A2_chembl_neighbors/pharmacology_raw/assay_batch10_page000.receipt.json",
+    "sha256": "e1081d9fc45f4905e38c26cae6cc4f5766d0848cc18c9bd8101c952e6260910e",
+    "source_sha256": "e1081d9fc45f4905e38c26cae6cc4f5766d0848cc18c9bd8101c952e6260910e",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A2_chembl_neighbors/pharmacology_raw/assay_batch11_page000.json",
+    "sha256": "dd49b8f0029a420e42bedfe697b435e852849989bf5fb3f0012a8170d9c74dcd",
+    "source_sha256": "dd49b8f0029a420e42bedfe697b435e852849989bf5fb3f0012a8170d9c74dcd",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A2_chembl_neighbors/pharmacology_raw/assay_batch11_page000.receipt.json",
+    "sha256": "3e7293a58d80b093783c2187f95bb5bf6c7c66fcbe9187e0d62823aa9623a116",
+    "source_sha256": "3e7293a58d80b093783c2187f95bb5bf6c7c66fcbe9187e0d62823aa9623a116",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A2_chembl_neighbors/pharmacology_raw/assay_batch12_page000.json",
+    "sha256": "c57e3eed3b24cd6af2c55be46762049e9f98a9d626c6aebda7805d405a6678a9",
+    "source_sha256": "c57e3eed3b24cd6af2c55be46762049e9f98a9d626c6aebda7805d405a6678a9",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A2_chembl_neighbors/pharmacology_raw/assay_batch12_page000.receipt.json",
+    "sha256": "89c7eaf7ad0c501360d4c23b0ec907c7c429cf417cfe2f5fd5460dce7e6b4c5a",
+    "source_sha256": "89c7eaf7ad0c501360d4c23b0ec907c7c429cf417cfe2f5fd5460dce7e6b4c5a",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A2_chembl_neighbors/pharmacology_raw/document_batch00_page000.json",
+    "sha256": "0fe9c6aaab6b06de8b432b59b593c222844f25951e7c4c512714bc62bd0271fc",
+    "source_sha256": "0fe9c6aaab6b06de8b432b59b593c222844f25951e7c4c512714bc62bd0271fc",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A2_chembl_neighbors/pharmacology_raw/document_batch00_page000.receipt.json",
+    "sha256": "59aa3de70aa65f8e2729483a169b4b36c0b4f7372178ef8c5f248bebe806d51e",
+    "source_sha256": "59aa3de70aa65f8e2729483a169b4b36c0b4f7372178ef8c5f248bebe806d51e",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A2_chembl_neighbors/pharmacology_raw/document_batch01_page000.json",
+    "sha256": "440fed555624151c25490af4dd277e91fa941e6a7c7114c2693d42696c3567a0",
+    "source_sha256": "440fed555624151c25490af4dd277e91fa941e6a7c7114c2693d42696c3567a0",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A2_chembl_neighbors/pharmacology_raw/document_batch01_page000.receipt.json",
+    "sha256": "8fb7a9e159dd0d72b1700ff6f4c06839cda9dd3a77dd5b2d5f163657354fb0f5",
+    "source_sha256": "8fb7a9e159dd0d72b1700ff6f4c06839cda9dd3a77dd5b2d5f163657354fb0f5",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A2_chembl_neighbors/pharmacology_raw/mechanism_batch00_page000.json",
+    "sha256": "4602fc528c371fde69c19534951ba13dfdf908f51fd8588fc974b18428d7a8dd",
+    "source_sha256": "4602fc528c371fde69c19534951ba13dfdf908f51fd8588fc974b18428d7a8dd",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A2_chembl_neighbors/pharmacology_raw/mechanism_batch00_page000.receipt.json",
+    "sha256": "5e2f2972f3805ccc5de5d26dc4806fb9dd1ac20edd27699db667b9afaf7e8306",
+    "source_sha256": "5e2f2972f3805ccc5de5d26dc4806fb9dd1ac20edd27699db667b9afaf7e8306",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A2_chembl_neighbors/pharmacology_representative_shortlist.csv",
+    "sha256": "4e3dd8774663eab29ae09a4e6bdc579d7ff877a5848e31b0631b298088fc4c95",
+    "source_sha256": "4e3dd8774663eab29ae09a4e6bdc579d7ff877a5848e31b0631b298088fc4c95",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A2_chembl_neighbors/representative_neighbor_pharmacology.csv",
+    "sha256": "926217393a53446e9d08bf6b983e86eb483b6c80ed5e849c932c77dd95977871",
+    "source_sha256": "926217393a53446e9d08bf6b983e86eb483b6c80ed5e849c932c77dd95977871",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A3_ADMET_SA/A3_README.md",
+    "sha256": "68798477e0d06f006229b05c3853834d7bc618f4942360efd20522e9fc5eaf12",
+    "source_sha256": "68798477e0d06f006229b05c3853834d7bc618f4942360efd20522e9fc5eaf12",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A3_ADMET_SA/ADMET_AI_v2_11_full_predictions.csv",
+    "sha256": "10d576899f6c7f472c3b9bdb6588bc0982b5534b4f3f062ee899bbfaddb21bb1",
+    "source_sha256": "10d576899f6c7f472c3b9bdb6588bc0982b5534b4f3f062ee899bbfaddb21bb1",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A3_ADMET_SA/ADMET_AI_v2_endpoint_metadata.csv",
+    "sha256": "32d46092deab7a553e319bdecaaed5e7dc2300c992d74d0a68c13c37f4af9d2d",
+    "source_sha256": "32d46092deab7a553e319bdecaaed5e7dc2300c992d74d0a68c13c37f4af9d2d",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A3_ADMET_SA/ADMET_AI_v2_inference_manifest.json",
+    "sha256": "4c6d7aa368614b75330c3d1037e4f6b7b3739c283c8ad86269623196f74199f5",
+    "source_sha256": "4c6d7aa368614b75330c3d1037e4f6b7b3739c283c8ad86269623196f74199f5",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A3_ADMET_SA/ADMET_AI_v2_MIT_LICENSE.txt",
+    "sha256": "98ef26c4e033aba896312dea2d2e57541deb64ad9cb7fe7749143ebc97f3d113",
+    "source_sha256": "98ef26c4e033aba896312dea2d2e57541deb64ad9cb7fe7749143ebc97f3d113",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A3_ADMET_SA/ADMET_AI_v2_out_of_range.csv",
+    "sha256": "549d84bd8da4d7ab2224bbb0fdf41c1fece180f31a8b69127675c9332c77b17e",
+    "source_sha256": "549d84bd8da4d7ab2224bbb0fdf41c1fece180f31a8b69127675c9332c77b17e",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A3_ADMET_SA/ADMET_AI_v2_range_qc_all.csv",
+    "sha256": "b4fe35c8decc9e1536d741c6cf13d6f672376f119cee6ee40a2b8afbcfa02f9e",
+    "source_sha256": "b4fe35c8decc9e1536d741c6cf13d6f672376f119cee6ee40a2b8afbcfa02f9e",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A3_ADMET_SA/ADMET_CPU_REPLAY.json",
+    "sha256": "2cee846fd7617adbf384663840ebe75691a13592c71850d7147dc61cc46b0065",
+    "source_sha256": "2cee846fd7617adbf384663840ebe75691a13592c71850d7147dc61cc46b0065",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A3_ADMET_SA/ADMET_SA_panel11.csv",
+    "sha256": "fdf3fc27df85ce7d5bc5dde6528ba101ac4f1d21be215298ac73fd00838e8cfe",
+    "source_sha256": "fdf3fc27df85ce7d5bc5dde6528ba101ac4f1d21be215298ac73fd00838e8cfe",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A3_ADMET_SA/multiparameter_druglikeness11.csv",
+    "sha256": "e6e88ed8018747602b22059b8e346e00dc4b1633271984a3c3ae54a8807d3e07",
+    "source_sha256": "e6e88ed8018747602b22059b8e346e00dc4b1633271984a3c3ae54a8807d3e07",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A3_ADMET_SA/range_qc11.py",
+    "sha256": "73bf7504dba40f45a203ff9d2606913eee5ed2af894a279887275d11715e9dc7",
+    "source_sha256": "73bf7504dba40f45a203ff9d2606913eee5ed2af894a279887275d11715e9dc7",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A3_ADMET_SA/requirements_admet_ai_exploratory.txt",
+    "sha256": "13301502939931feecbff4f4b70e90f0f1e294f78eaa450fc5c0456126df48e0",
+    "source_sha256": "13301502939931feecbff4f4b70e90f0f1e294f78eaa450fc5c0456126df48e0",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A3_ADMET_SA/run_admet_ai11.py",
+    "sha256": "859f9bd3a32e902cb0e6687b253fa2d34285664cef7a5af7e550582957b04922",
+    "source_sha256": "859f9bd3a32e902cb0e6687b253fa2d34285664cef7a5af7e550582957b04922",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A3_ADMET_SA/SA_physchem_actual11.csv",
+    "sha256": "c7c020c6df9f4ec8a74c70c2cfd7be364ef2e00e6a0109f3cecfa27f764e541b",
+    "source_sha256": "c7c020c6df9f4ec8a74c70c2cfd7be364ef2e00e6a0109f3cecfa27f764e541b",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A3_ADMET_SA/SERVICE_RECEIPT.json",
+    "sha256": "fc514b218f9466fd4d65cefe477340fd7d6c6fc97f90e8a5ea069e42cc20ea69",
+    "source_sha256": "fc514b218f9466fd4d65cefe477340fd7d6c6fc97f90e8a5ea069e42cc20ea69",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A3_ADMET_SA/swissadme_actual.csv",
+    "sha256": "cc0ff105b9d77ae16c5a9a328ee4ca3f2eacf329140c1509b7c9e3c5f2b8cccc",
+    "source_sha256": "cc0ff105b9d77ae16c5a9a328ee4ca3f2eacf329140c1509b7c9e3c5f2b8cccc",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A3_ADMET_SA/SwissADME_combined11.csv",
+    "sha256": "cf1543de105bb84a9617284265a5f6caa5afb7566041b12a390a21eb40653047",
+    "source_sha256": "cf1543de105bb84a9617284265a5f6caa5afb7566041b12a390a21eb40653047",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A3_ADMET_SA/SwissADME_identity_acceptance.csv",
+    "sha256": "e0db549f6ba0b1f743393930dc344f0d4a1915b43287f5491611e153376beb1d",
+    "source_sha256": "e0db549f6ba0b1f743393930dc344f0d4a1915b43287f5491611e153376beb1d",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A3_ADMET_SA/swissadme_input11.smi",
+    "sha256": "7ae5efdc81fb6161996ffcf56f30cc934f55ebfb9a5480fae07fc76c919a50cd",
+    "source_sha256": "7ae5efdc81fb6161996ffcf56f30cc934f55ebfb9a5480fae07fc76c919a50cd",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A3_ADMET_SA/swissadme_remaining6.smi",
+    "sha256": "2dea70d1ec161054cb69c87d9b9183b3f0d1bfb2ad0bcafd81a983d78484e9e0",
+    "source_sha256": "2dea70d1ec161054cb69c87d9b9183b3f0d1bfb2ad0bcafd81a983d78484e9e0",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/A3_ADMET_SA/swissadme_remaining6_actual.csv",
+    "sha256": "3113025fd530cc0f6e084262701006435cab6d556a0221624a00189dc4e36d9b",
+    "source_sha256": "3113025fd530cc0f6e084262701006435cab6d556a0221624a00189dc4e36d9b",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/FILE_MANIFEST.json",
+    "sha256": "08b28625ad81d3a31ed2e50c7e2a25004042d2be31abcdaa59393d5126c9ae9b",
+    "source_sha256": "08b28625ad81d3a31ed2e50c7e2a25004042d2be31abcdaa59393d5126c9ae9b",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/OFFLINE_REBUILD_ACTUAL.json",
+    "sha256": "ab7b37f05f2ee3b1cd23f24922ed5de9c7cacbf445ed6ca463d1dc565248d514",
+    "source_sha256": "ab7b37f05f2ee3b1cd23f24922ed5de9c7cacbf445ed6ca463d1dc565248d514",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/README.md",
+    "sha256": "c7ed738b1c98df0ac24ab37878e4a3fe0edbfccc997fe5849f31f5715ff4a1c5",
+    "source_sha256": "c7ed738b1c98df0ac24ab37878e4a3fe0edbfccc997fe5849f31f5715ff4a1c5",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/rebuild_science_tables.py",
+    "sha256": "e7594231b96c756269bb012fa07459e382ed10c30020bd8cb96697040dca6038",
+    "source_sha256": "e7594231b96c756269bb012fa07459e382ed10c30020bd8cb96697040dca6038",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/REPRODUCE.md",
+    "sha256": "dcee4f24611555833dcd09d4cb3304681b7cc4329fdaf2283c012fb2d375aee4",
+    "source_sha256": "dcee4f24611555833dcd09d4cb3304681b7cc4329fdaf2283c012fb2d375aee4",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/requirements_offline_audit.txt",
+    "sha256": "2b809cc848b1f927b1f14c9fa9a83bffe438335cdeace18d91cc797bc490eac6",
+    "source_sha256": "2b809cc848b1f927b1f14c9fa9a83bffe438335cdeace18d91cc797bc490eac6",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/SCIENCE_ACCEPTANCE.csv",
+    "sha256": "a3bb44b586a2bfe21cdd4bf66e4b267b02afcf598c8a26b7a81f251dca9f5974",
+    "source_sha256": "a3bb44b586a2bfe21cdd4bf66e4b267b02afcf598c8a26b7a81f251dca9f5974",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/SCIENCE_ACCEPTANCE.json",
+    "sha256": "48b3c7d7b84b1d17267f3537b0a415aaae58fe76dc3768db1d9cb279798b712e",
+    "source_sha256": "48b3c7d7b84b1d17267f3537b0a415aaae58fe76dc3768db1d9cb279798b712e",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/SOURCE_INDEX.json",
+    "sha256": "6bb71f3f8ffd81ee41adceb574bdf119732cede95aeb8a10c47a9daf23dd6f1e",
+    "source_sha256": "6bb71f3f8ffd81ee41adceb574bdf119732cede95aeb8a10c47a9daf23dd6f1e",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "data/group_supplement/verify_science_supplement.py",
+    "sha256": "e7757e99d2bfb26a8eecc768e41116258b6bf1c0d0005770365b490dad287d6f",
+    "source_sha256": "e7757e99d2bfb26a8eecc768e41116258b6bf1c0d0005770365b490dad287d6f",
+    "source_scope": "data/group_supplement",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "validation/cleanroom_20261001/ACTUAL_COMMANDS.json",
+    "sha256": "6144a7620ed9dd1378f4646d413be3de3ce67180399ea27452b9bd7061ba2360",
+    "source_sha256": "6144a7620ed9dd1378f4646d413be3de3ce67180399ea27452b9bd7061ba2360",
+    "source_scope": "validation/cleanroom_20261001",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "validation/cleanroom_20261001/create_venv.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source_scope": "validation/cleanroom_20261001",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "validation/cleanroom_20261001/declared_dependency_install.log",
+    "sha256": "e8296431af6cf8a985f1938070e805f6857e04fa9d79df6c8fba32c08db9efad",
+    "source_sha256": "e8296431af6cf8a985f1938070e805f6857e04fa9d79df6c8fba32c08db9efad",
+    "source_scope": "validation/cleanroom_20261001",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "validation/cleanroom_20261001/ENVIRONMENT_FULL_LOCK.txt",
+    "sha256": "d3ccb89f82c5747d4dbf3bb3639c8f8432a53af723ea8b43c14d50d6872a6263",
+    "source_sha256": "d3ccb89f82c5747d4dbf3bb3639c8f8432a53af723ea8b43c14d50d6872a6263",
+    "source_scope": "validation/cleanroom_20261001",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "validation/cleanroom_20261001/final_pip_check.log",
+    "sha256": "672aec65a45bed50e70229c70934a7eebf0462595c459b83023027645d57cccf",
+    "source_sha256": "672aec65a45bed50e70229c70934a7eebf0462595c459b83023027645d57cccf",
+    "source_scope": "validation/cleanroom_20261001",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "validation/cleanroom_20261001/formal_six_replay.log",
+    "sha256": "8644de2253b99e3bfd75a86aaf1ed4a213ef8417b18e0a8fbdc8d0989f299e31",
+    "source_sha256": "8644de2253b99e3bfd75a86aaf1ed4a213ef8417b18e0a8fbdc8d0989f299e31",
+    "source_scope": "validation/cleanroom_20261001",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "validation/cleanroom_20261001/FRESH_HUMAN_RESTORE.json",
+    "sha256": "0b8570b6a0a0930c0a2c6b58c4284526f064b9f88e39cc5c325b06818779606d",
+    "source_sha256": "0b8570b6a0a0930c0a2c6b58c4284526f064b9f88e39cc5c325b06818779606d",
+    "source_scope": "validation/cleanroom_20261001",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "validation/cleanroom_20261001/FRESH_MOUSE_RESTORE.json",
+    "sha256": "cde13ab7e5ea5c6df4a4bfceaa097e0f03f059059cb79f2cbe745666a10e0b39",
+    "source_sha256": "cde13ab7e5ea5c6df4a4bfceaa097e0f03f059059cb79f2cbe745666a10e0b39",
+    "source_scope": "validation/cleanroom_20261001",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "validation/cleanroom_20261001/FRESH_SOURCE_FETCH.json",
+    "sha256": "2f85cc9aa512e3c08cc99876c9d4589889aeec22c89ab6a3486f9776accd2e29",
+    "source_sha256": "2f85cc9aa512e3c08cc99876c9d4589889aeec22c89ab6a3486f9776accd2e29",
+    "source_scope": "validation/cleanroom_20261001",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "validation/cleanroom_20261001/installed_versions.log",
+    "sha256": "2c3b465a656db84e02407a3e40e3581b2af82b11189001ed5b88a992d7861ba8",
+    "source_sha256": "2c3b465a656db84e02407a3e40e3581b2af82b11189001ed5b88a992d7861ba8",
+    "source_scope": "validation/cleanroom_20261001",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "validation/cleanroom_20261001/isolation_before_install.log",
+    "sha256": "557a35b4f731bcff9057017e101329e314210504f6cddfdb868d178d576b8c5b",
+    "source_sha256": "557a35b4f731bcff9057017e101329e314210504f6cddfdb868d178d576b8c5b",
+    "source_scope": "validation/cleanroom_20261001",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "validation/cleanroom_20261001/MANIFEST.json",
+    "sha256": "d061e9346b4ee9db0766f8b893fe14e7048af7ab5c8db00f81ab685fc83da168",
+    "source_sha256": "d061e9346b4ee9db0766f8b893fe14e7048af7ab5c8db00f81ab685fc83da168",
+    "source_scope": "validation/cleanroom_20261001",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "validation/cleanroom_20261001/pip_check.log",
+    "sha256": "672aec65a45bed50e70229c70934a7eebf0462595c459b83023027645d57cccf",
+    "source_sha256": "672aec65a45bed50e70229c70934a7eebf0462595c459b83023027645d57cccf",
+    "source_scope": "validation/cleanroom_20261001",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "validation/cleanroom_20261001/PUBLIC_ACTUAL_COMMANDS.json",
+    "sha256": "4be66dcd0b01222fcfce07a5cb9f591261b62c7f00997089f44f56fa8a26e169",
+    "source_sha256": "4be66dcd0b01222fcfce07a5cb9f591261b62c7f00997089f44f56fa8a26e169",
+    "source_scope": "validation/cleanroom_20261001",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "validation/cleanroom_20261001/PUBLIC_ACTUAL_REPLAY_RECEIPTS.json",
+    "sha256": "2e072e2c15b68518b66e56b251329aa869234682eeb2b084ff483a9028871822",
+    "source_sha256": "2e072e2c15b68518b66e56b251329aa869234682eeb2b084ff483a9028871822",
+    "source_scope": "validation/cleanroom_20261001",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "validation/cleanroom_20261001/PUBLIC_FULL_REPLAY_REPORT.md",
+    "sha256": "52f6542ada9e64da7698248778f26e3bc5a661fb35d131d394932c7f16ec4b30",
+    "source_sha256": "52f6542ada9e64da7698248778f26e3bc5a661fb35d131d394932c7f16ec4b30",
+    "source_scope": "validation/cleanroom_20261001",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "validation/cleanroom_20261001/PUBLIC_FULL_STATUS.json",
+    "sha256": "0c791c081fae18cc065efb10dd2073b396b1a373ccf4b890edd3f5641bc80d70",
+    "source_sha256": "0c791c081fae18cc065efb10dd2073b396b1a373ccf4b890edd3f5641bc80d70",
+    "source_scope": "validation/cleanroom_20261001",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "validation/cleanroom_20261001/public_integrated_full.log",
+    "sha256": "feb1bb99e0eac077045d8deceea14558ed34789e3d3c30c1a5d724c1075d3b72",
+    "source_sha256": "feb1bb99e0eac077045d8deceea14558ed34789e3d3c30c1a5d724c1075d3b72",
+    "source_scope": "validation/cleanroom_20261001",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "validation/cleanroom_20261001/public_integrated_full_after_repair.log",
+    "sha256": "5e555e09d2001d8e4105e809ca5f02a72eea6c9736b5c95f7f777bf2e379e904",
+    "source_sha256": "5e555e09d2001d8e4105e809ca5f02a72eea6c9736b5c95f7f777bf2e379e904",
+    "source_scope": "validation/cleanroom_20261001",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "validation/cleanroom_20261001/PUBLIC_INTEGRATED_REPLAY_REPORT.json",
+    "sha256": "2c44b5e8b0c1a5086c9fde8014abdaa03a1f3adeb36507620bb63b128a726560",
+    "source_sha256": "2c44b5e8b0c1a5086c9fde8014abdaa03a1f3adeb36507620bb63b128a726560",
+    "source_scope": "validation/cleanroom_20261001",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "validation/cleanroom_20261001/public_manifest.log",
+    "sha256": "c5432eb56d7678ddbe5531cca36b935906dfff9359deb0dd52937e8578ebc20a",
+    "source_sha256": "c5432eb56d7678ddbe5531cca36b935906dfff9359deb0dd52937e8578ebc20a",
+    "source_scope": "validation/cleanroom_20261001",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "validation/cleanroom_20261001/public_manifest_after_repair.log",
+    "sha256": "c5432eb56d7678ddbe5531cca36b935906dfff9359deb0dd52937e8578ebc20a",
+    "source_sha256": "c5432eb56d7678ddbe5531cca36b935906dfff9359deb0dd52937e8578ebc20a",
+    "source_scope": "validation/cleanroom_20261001",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "validation/cleanroom_20261001/PUBLIC_METADATA_REPAIR.json",
+    "sha256": "e53da0daf0b09ed102d155c81dbdbb6da588b4fd12ed61c782996b7f50520ace",
+    "source_sha256": "e53da0daf0b09ed102d155c81dbdbb6da588b4fd12ed61c782996b7f50520ace",
+    "source_scope": "validation/cleanroom_20261001",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "validation/cleanroom_20261001/public_official_candidates_before_metadata_repair.log",
+    "sha256": "1ce722f72210ab9d0761b9a59bf9cff6964bd8f324e4f4fbe8e80ebe88379bdf",
+    "source_sha256": "1ce722f72210ab9d0761b9a59bf9cff6964bd8f324e4f4fbe8e80ebe88379bdf",
+    "source_scope": "validation/cleanroom_20261001",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "validation/cleanroom_20261001/reference_fixed_source_fetch.log",
+    "sha256": "2f85cc9aa512e3c08cc99876c9d4589889aeec22c89ab6a3486f9776accd2e29",
+    "source_sha256": "2f85cc9aa512e3c08cc99876c9d4589889aeec22c89ab6a3486f9776accd2e29",
+    "source_scope": "validation/cleanroom_20261001",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "validation/cleanroom_20261001/reference_human_restore.log",
+    "sha256": "0b8570b6a0a0930c0a2c6b58c4284526f064b9f88e39cc5c325b06818779606d",
+    "source_sha256": "0b8570b6a0a0930c0a2c6b58c4284526f064b9f88e39cc5c325b06818779606d",
+    "source_scope": "validation/cleanroom_20261001",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "validation/cleanroom_20261001/reference_mouse_restore.log",
+    "sha256": "cde13ab7e5ea5c6df4a4bfceaa097e0f03f059059cb79f2cbe745666a10e0b39",
+    "source_sha256": "cde13ab7e5ea5c6df4a4bfceaa097e0f03f059059cb79f2cbe745666a10e0b39",
+    "source_scope": "validation/cleanroom_20261001",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "validation/cleanroom_20261001/restore_dependency_install.log",
+    "sha256": "6a4eae870138d5c9dc28968737f9cc589d6498250fbdfa7221cfa46c3b79616c",
+    "source_sha256": "6a4eae870138d5c9dc28968737f9cc589d6498250fbdfa7221cfa46c3b79616c",
+    "source_scope": "validation/cleanroom_20261001",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "validation/cleanroom_20261001/RESULT_CHECKS.json",
+    "sha256": "16be6c1fedc96469876898515d4fb69b8c31be4fd8a72cd218761d68ab228e37",
+    "source_sha256": "16be6c1fedc96469876898515d4fb69b8c31be4fd8a72cd218761d68ab228e37",
+    "source_scope": "validation/cleanroom_20261001",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "validation/cleanroom_20261001/SMALL_EXAMPLE_COMPARISON.json",
+    "sha256": "651ed03303c7011ea6753153a88cf614e39468ec1401da22a2b72072fc6dc854",
+    "source_sha256": "651ed03303c7011ea6753153a88cf614e39468ec1401da22a2b72072fc6dc854",
+    "source_scope": "validation/cleanroom_20261001",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "validation/cleanroom_20261001/STATUS.json",
+    "sha256": "bd19afabec826f4fd8c426da663e21b3571c485dd8a21152be80d7528fdd9df0",
+    "source_sha256": "bd19afabec826f4fd8c426da663e21b3571c485dd8a21152be80d7528fdd9df0",
+    "source_scope": "validation/cleanroom_20261001",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "validation/cleanroom_20261001/training_generation_screening_small.log",
+    "sha256": "b3f8b82af0db4eff8cd6e7defbaaa9739876b315218bd24e224e78fb5d8ea20c",
+    "source_sha256": "b3f8b82af0db4eff8cd6e7defbaaa9739876b315218bd24e224e78fb5d8ea20c",
+    "source_scope": "validation/cleanroom_20261001",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "validation/cleanroom_20261001/TRAINING_SMALL_ACTUAL.json",
+    "sha256": "c7352dea9036d41f736feeb2cdb2f19f866a5158828d0ca5015c7ab4233b6256",
+    "source_sha256": "c7352dea9036d41f736feeb2cdb2f19f866a5158828d0ca5015c7ab4233b6256",
+    "source_scope": "validation/cleanroom_20261001",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "validation/cleanroom_20261001/VALIDATION_REPORT.md",
+    "sha256": "387ed4cc6a919e5c4f75554b5486d8d2bbd4260332bc2b399405d691a7ad8f57",
+    "source_sha256": "387ed4cc6a919e5c4f75554b5486d8d2bbd4260332bc2b399405d691a7ad8f57",
+    "source_scope": "validation/cleanroom_20261001",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "validation/offline_source_restore/EXTERNAL_INPUTS.local.json",
+    "sha256": "63d993fe1f6867c9aeda6845fea09b184bd504326ec4f28976e93eda29942a2c",
+    "source_sha256": "63d993fe1f6867c9aeda6845fea09b184bd504326ec4f28976e93eda29942a2c",
+    "source_scope": "validation/offline_source_restore",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "validation/offline_source_restore/human_offline.log",
+    "sha256": "3d315fcf220924db6cd46d54e016037774605489de40c309a5fafec5fb6214af",
+    "source_sha256": "3d315fcf220924db6cd46d54e016037774605489de40c309a5fafec5fb6214af",
+    "source_scope": "validation/offline_source_restore",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "validation/offline_source_restore/human_restore_receipt.json",
+    "sha256": "7674261249244a79f6a628e97e0d43af83cb3ed5e10fa10994c026f38a6fd575",
+    "source_sha256": "7674261249244a79f6a628e97e0d43af83cb3ed5e10fa10994c026f38a6fd575",
+    "source_scope": "validation/offline_source_restore",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "validation/offline_source_restore/mouse_offline.log",
+    "sha256": "09109f6b973720a188d2fc9dc72b21b35f4e6c19b95cceb5898a23ac33e66c06",
+    "source_sha256": "09109f6b973720a188d2fc9dc72b21b35f4e6c19b95cceb5898a23ac33e66c06",
+    "source_scope": "validation/offline_source_restore",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "validation/offline_source_restore/OFFLINE_RESTORE_VALIDATION.json",
+    "sha256": "0455ca19382f9087748c758be07f50ce328bd6d085f022414096cbaa8e1d74a4",
+    "source_sha256": "0455ca19382f9087748c758be07f50ce328bd6d085f022414096cbaa8e1d74a4",
+    "source_scope": "validation/offline_source_restore",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "validation/offline_source_restore/restore_receipt.json",
+    "sha256": "bf135c124ae527b3ef129f1aed45b04d8862fed8cb05b268842f4f04cc2c86cd",
+    "source_sha256": "bf135c124ae527b3ef129f1aed45b04d8862fed8cb05b268842f4f04cc2c86cd",
+    "source_scope": "validation/offline_source_restore",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "validation/recording_20261001/BROWSER_PLAYBACK_CHECK.json",
+    "sha256": "f9ad4ccdf845e7cfb13c925173a4c9aad3e797ec4eab620fe4e9cd7bc63d54d9",
+    "source_sha256": "f9ad4ccdf845e7cfb13c925173a4c9aad3e797ec4eab620fe4e9cd7bc63d54d9",
+    "source_scope": "validation/recording_20261001",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "validation/recording_20261001/CORE_BINDING_TO_UPDATED_CODE.json",
+    "sha256": "0c0d97368243f6dfcf95fbf481a768f9b9b9d56072c58829fb38df8cb8b70af3",
+    "source_sha256": "0c0d97368243f6dfcf95fbf481a768f9b9b9d56072c58829fb38df8cb8b70af3",
+    "source_scope": "validation/recording_20261001",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "validation/recording_20261001/RECORDING_RECEIPT.json",
+    "sha256": "6aa3931d253d94f9e244acb3b6238df4232070d66be1c338adc7f78b7bdd5759",
+    "source_sha256": "6aa3931d253d94f9e244acb3b6238df4232070d66be1c338adc7f78b7bdd5759",
+    "source_scope": "validation/recording_20261001",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "validation/recording_20261001/VISUAL_ACCEPTANCE.json",
+    "sha256": "3de1eb1548ca5246c55db13459cb6ea58b325d133b34df60c905fb895944979b",
+    "source_sha256": "3de1eb1548ca5246c55db13459cb6ea58b325d133b34df60c905fb895944979b",
+    "source_scope": "validation/recording_20261001",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "validation/group_revision_tests/A2_INDEPENDENT_TABLE_READBACK.json",
+    "sha256": "531a2e017125608731922ad36982deec7cebd8528ba27f2760bca5cf585a7b03",
+    "source_sha256": "531a2e017125608731922ad36982deec7cebd8528ba27f2760bca5cf585a7b03",
+    "source_scope": "validation/group_revision_tests",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "validation/group_revision_tests/A2_PHARMACOLOGY_A3_INDEPENDENT_CHECK.json",
+    "sha256": "64362edadff908dc6967b6f3d13d40bab862343e241d58188af54656902ef16e",
+    "source_sha256": "64362edadff908dc6967b6f3d13d40bab862343e241d58188af54656902ef16e",
+    "source_scope": "validation/group_revision_tests",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "validation/group_revision_tests/formal6_training12_overlap_rebuilt.csv",
+    "sha256": "bba37097f9875d32cd468a5e114830a7fef67dc57548041aa0b0317968b1a584",
+    "source_sha256": "bba37097f9875d32cd468a5e114830a7fef67dc57548041aa0b0317968b1a584",
+    "source_scope": "validation/group_revision_tests",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "validation/group_revision_tests/multiparameter_druglikeness_rebuilt.csv",
+    "sha256": "34cf242d75b3e3ed8f4f4b0e6f754af5e02c1fe07bbac63aeeb7cc54b97d3643",
+    "source_sha256": "34cf242d75b3e3ed8f4f4b0e6f754af5e02c1fe07bbac63aeeb7cc54b97d3643",
+    "source_scope": "validation/group_revision_tests",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "validation/group_revision_tests/OFFLINE_REBUILD_RECEIPT.json",
+    "sha256": "ab7b37f05f2ee3b1cd23f24922ed5de9c7cacbf445ed6ca463d1dc565248d514",
+    "source_sha256": "ab7b37f05f2ee3b1cd23f24922ed5de9c7cacbf445ed6ca463d1dc565248d514",
+    "source_scope": "validation/group_revision_tests",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "validation/group_revision_tests/pharmacology_actual_activity_records.csv",
+    "sha256": "000b0a903eb0197edccc2376b31eac2c90c463de6e0a4bcb8f52738a11c330b8",
+    "source_sha256": "000b0a903eb0197edccc2376b31eac2c90c463de6e0a4bcb8f52738a11c330b8",
+    "source_scope": "validation/group_revision_tests",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "validation/group_revision_tests/PUBLIC_SCIENCE_INDEPENDENT_ACCEPTANCE.json",
+    "sha256": "3faffef9029a8247bc5477203151be424037624b22946cb0ba124d7537b75ba2",
+    "source_sha256": "3faffef9029a8247bc5477203151be424037624b22946cb0ba124d7537b75ba2",
+    "source_scope": "validation/group_revision_tests",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "validation/group_revision_tests/SCIENCE_ENTRY_RECEIPTS.json",
+    "sha256": "53c93e15a75cc36434145f94eacc1b3199fb2a65eec8ef25ae6d08ef26da098d",
+    "source_sha256": "53c93e15a75cc36434145f94eacc1b3199fb2a65eec8ef25ae6d08ef26da098d",
+    "source_scope": "validation/group_revision_tests",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "validation/group_revision_tests/SCIENCE_VERIFIER_CHECKS.json",
+    "sha256": "9dbb1815c86f7fdc6bc5fc41c1b23756e25f6f727f71d435586470e15770dfcc",
+    "source_sha256": "9dbb1815c86f7fdc6bc5fc41c1b23756e25f6f727f71d435586470e15770dfcc",
+    "source_scope": "validation/group_revision_tests",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "validation/group_revision_tests/SMALL_EXAMPLE_RECEIPT.json",
+    "sha256": "36b86ff64c5007890ffcfbbc5961f290414a692ccd765367fb18d86e0a6959de",
+    "source_sha256": "36b86ff64c5007890ffcfbbc5961f290414a692ccd765367fb18d86e0a6959de",
+    "source_scope": "validation/group_revision_tests",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "validation/group_revision_tests/SMALL_EXAMPLE_STEPS.json",
+    "sha256": "24a093018fac5e89110812bf497ad1bb65e23f0aa7fe7ff9a6e559b6d3907992",
+    "source_sha256": "24a093018fac5e89110812bf497ad1bb65e23f0aa7fe7ff9a6e559b6d3907992",
+    "source_scope": "validation/group_revision_tests",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "validation/group_revision_tests/two_threshold_neighbors_rebuilt.csv",
+    "sha256": "d1cdb644bfb1ed5e80fc0152fe5b0190bf39ff17028cf2ce072591349cf64c94",
+    "source_sha256": "d1cdb644bfb1ed5e80fc0152fe5b0190bf39ff17028cf2ce072591349cf64c94",
+    "source_scope": "validation/group_revision_tests",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "validation/group_revision_tests/A1_SOURCE_AND_A3_VERSIONS.json",
+    "sha256": "8593e151177bb60c8fca3e5953b4f3f1344db50a356d2df4a80c68eb83a2e279",
+    "source_sha256": "8593e151177bb60c8fca3e5953b4f3f1344db50a356d2df4a80c68eb83a2e279",
+    "source_scope": "validation/group_revision_tests",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "validation/group_revision_tests/INDEPENDENT_REVIEW_PUBLIC_MANIFEST.json",
+    "sha256": "f1131940a5822b3959ca93039b2cb8fff7fce3af2e90bbad1a555d76d712788c",
+    "source_sha256": "f1131940a5822b3959ca93039b2cb8fff7fce3af2e90bbad1a555d76d712788c",
+    "source_scope": "validation/group_revision_tests",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "validation/group_revision_tests/INDEPENDENT_SCIENCE_REVIEW.md",
+    "sha256": "e74fac0f0702717069dc91b6cffa7f970fc7169a4a222c4a63be0bfa94ff7201",
+    "source_sha256": "e74fac0f0702717069dc91b6cffa7f970fc7169a4a222c4a63be0bfa94ff7201",
+    "source_scope": "validation/group_revision_tests",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "notebooks/NOTEBOOK_DELIVERY_MANIFEST.json",
+    "sha256": "a4fc9a138263fcc6e5939dd0e17bb3982970dde084fb709f29a2813fb882a347",
+    "source_sha256": "a4fc9a138263fcc6e5939dd0e17bb3982970dde084fb709f29a2813fb882a347",
+    "source_scope": "notebooks",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "notebooks/NOTEBOOK_EXECUTION_RECEIPT.json",
+    "sha256": "43c029e2cd5d8ca0b9ef161d8008111f479854dfeb6825289363cf68f9d67b56",
+    "source_sha256": "43c029e2cd5d8ca0b9ef161d8008111f479854dfeb6825289363cf68f9d67b56",
+    "source_scope": "notebooks",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "notebooks/NOTEBOOK_RUNNER_REPLAY.json",
+    "sha256": "e468fce6bcc72c721c5241eb13228b9369bf2e9d59609957ba897a64ff6738c8",
+    "source_sha256": "e468fce6bcc72c721c5241eb13228b9369bf2e9d59609957ba897a64ff6738c8",
+    "source_scope": "notebooks",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "notebooks/README.md",
+    "sha256": "16b816e2d0268a389c817bd46ce03e07b87a6b843580344a7fc5dc69384a3ea2",
+    "source_sha256": "16b816e2d0268a389c817bd46ce03e07b87a6b843580344a7fc5dc69384a3ea2",
+    "source_scope": "notebooks",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "notebooks/requirements-notebook.txt",
+    "sha256": "4e8176fa1d1e60ec677b1912ae1cb27c71c19f2948d3dfb4f06cf2b908ea887b",
+    "source_sha256": "4e8176fa1d1e60ec677b1912ae1cb27c71c19f2948d3dfb4f06cf2b908ea887b",
+    "source_scope": "notebooks",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "notebooks/run_notebook.py",
+    "sha256": "d2f41c62320522c5445f8ff301400bed6762f6650d46f341be142b8f7f7b8ba7",
+    "source_sha256": "d2f41c62320522c5445f8ff301400bed6762f6650d46f341be142b8f7f7b8ba7",
+    "source_scope": "notebooks",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "notebooks/six_candidate_confirmation.png",
+    "sha256": "23787a9c135b42bf115fb8ac24965ebe849ec121210c6784f15d3c3b937bfc98",
+    "source_sha256": "23787a9c135b42bf115fb8ac24965ebe849ec121210c6784f15d3c3b937bfc98",
+    "source_scope": "notebooks",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  },
+  {
+    "path": "notebooks/TMC1_walkthrough.ipynb",
+    "sha256": "b9554cb7362b1f7b075cc2684b3574d5ec1150f8d8e4bab4375eb967015b7873",
+    "source_sha256": "b9554cb7362b1f7b075cc2684b3574d5ec1150f8d8e4bab4375eb967015b7873",
+    "source_scope": "notebooks",
+    "registration_date": "2026-10-01",
+    "edit": "Public evidence copied without scientific-value changes; acquisition times and original response hashes are inside component receipts."
+  }
+]

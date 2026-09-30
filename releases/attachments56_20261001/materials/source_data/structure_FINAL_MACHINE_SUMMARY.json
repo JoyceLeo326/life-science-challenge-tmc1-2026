@@ -1,0 +1,20 @@
+{
+  "created_utc": "2026-09-30T15:06:43.384007+00:00",
+  "matrix_cells_actual24": 24,
+  "matrix_protein_qc_pass23": 23,
+  "new_worm_selected11": 11,
+  "new_worm_actual10": 10,
+  "new_worm_protein_qc_pass9": 9,
+  "new_worm_candidate_actual6": 6,
+  "new_worm_candidate_protein_QC6": 6,
+  "new_worm_candidate_Middle4A2": 2,
+  "new_worm_HET_incompatibility10": 10,
+  "new_human_reference_actual2": 2,
+  "new_human_reference_QC2": 2,
+  "frozen_raw_jobs_in_package26": 26,
+  "no_human_or_mouse_receptor_model_redistributed": true,
+  "no_new_MMGBSA_MD_NMA_or_R2_ranking": true,
+  "functional_direction": "unknown",
+  "score_threshold": "not_defined",
+  "important_limit": "All10wormfirstposes overlap experimentally modeled omitted HET atoms; protein-only QC does not establish membrane compatibility; ligand displacement untested; wormindinavir firstpose also fails originalfixedboxmargin"
+}

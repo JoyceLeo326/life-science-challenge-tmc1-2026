@@ -1,0 +1,452 @@
+﻿id,endpoint,value,name,task_type,units,metadata_minimum,metadata_maximum,outside_metadata_range
+LIB_YWDIXVZCRMMQQY,HIA_Hou,0.9999750852584839,Human Intestinal Absorption,classification,-,0.0,1.0,False
+LIB_YWDIXVZCRMMQQY,Bioavailability_Ma,0.8673014640808105,Oral Bioavailability,classification,-,0.0,1.0,False
+LIB_YWDIXVZCRMMQQY,Solubility_AqSolDB,-6.241281986236572,Aqueous Solubility,regression,log(mol/L),-inf,inf,False
+LIB_YWDIXVZCRMMQQY,Lipophilicity_AstraZeneca,4.029658317565918,Lipophilicity,regression,log-ratio,-inf,inf,False
+LIB_YWDIXVZCRMMQQY,HydrationFreeEnergy_FreeSolv,-14.15544605255127,Hydration Free Energy,regression,kcal/mol,-inf,inf,False
+LIB_YWDIXVZCRMMQQY,Caco2_Wang,-5.443846702575684,Cell Effective Permeability,regression,log(10^-6 cm/s),-inf,inf,False
+LIB_YWDIXVZCRMMQQY,PAMPA_NCATS,0.8842523694038391,PAMPA Permeability,classification,-,0.0,1.0,False
+LIB_YWDIXVZCRMMQQY,Pgp_Broccatelli,0.965258002281189,P-glycoprotein Inhibition,classification,-,0.0,1.0,False
+LIB_YWDIXVZCRMMQQY,BBB_Martins,0.3041451871395111,Blood-Brain Barrier Penetration,classification,-,0.0,1.0,False
+LIB_YWDIXVZCRMMQQY,PPBR_AZ,100.37042236328125,Plasma Protein Binding Rate,regression,%,0.0,100.0,True
+LIB_YWDIXVZCRMMQQY,VDss_Lombardo,0.8131643533706665,Volume of Distribution at Steady State,regression,L/kg,0.0,inf,False
+LIB_YWDIXVZCRMMQQY,Half_Life_Obach,135.33787536621094,Half Life,regression,hr,0.0,inf,False
+LIB_YWDIXVZCRMMQQY,Clearance_Hepatocyte_AZ,49.73761749267578,Drug Clearance (Hepatocyte),regression,uL/min/10^6 cells,0.0,inf,False
+LIB_YWDIXVZCRMMQQY,Clearance_Microsome_AZ,72.524169921875,Drug Clearance (Microsome),regression,uL/min/mg,0.0,inf,False
+LIB_YWDIXVZCRMMQQY,CYP1A2_Veith,0.8430675268173218,CYP1A2 Inhibition,classification,-,0.0,1.0,False
+LIB_YWDIXVZCRMMQQY,CYP2C19_Veith,0.7025168538093567,CYP2C19 Inhibition,classification,-,0.0,1.0,False
+LIB_YWDIXVZCRMMQQY,CYP2C9_Veith,0.49246305227279663,CYP2C9 Inhibition,classification,-,0.0,1.0,False
+LIB_YWDIXVZCRMMQQY,CYP2D6_Veith,0.3290870487689972,CYP2D6 Inhibition,classification,-,0.0,1.0,False
+LIB_YWDIXVZCRMMQQY,CYP3A4_Veith,0.8318827748298645,CYP3A4 Inhibition,classification,-,0.0,1.0,False
+LIB_YWDIXVZCRMMQQY,CYP2C9_Substrate_CarbonMangels,0.06907682865858078,CYP2C9 Substrate,classification,-,0.0,1.0,False
+LIB_YWDIXVZCRMMQQY,CYP2D6_Substrate_CarbonMangels,0.022529561072587967,CYP2D6 Substrate,classification,-,0.0,1.0,False
+LIB_YWDIXVZCRMMQQY,CYP3A4_Substrate_CarbonMangels,0.5184810161590576,CYP3A4 Substrate,classification,-,0.0,1.0,False
+LIB_YWDIXVZCRMMQQY,hERG,0.9066805839538574,hERG Blocking,classification,-,0.0,1.0,False
+LIB_YWDIXVZCRMMQQY,ClinTox,0.18990030884742737,Clinical Toxicity,classification,-,0.0,1.0,False
+LIB_YWDIXVZCRMMQQY,AMES,0.45410123467445374,Mutagenicity,classification,-,0.0,1.0,False
+LIB_YWDIXVZCRMMQQY,DILI,0.9959030151367188,Drug Induced Liver Injury,classification,-,0.0,1.0,False
+LIB_YWDIXVZCRMMQQY,Carcinogens_Lagunin,0.12552262842655182,Carcinogenicity,classification,-,0.0,1.0,False
+LIB_YWDIXVZCRMMQQY,LD50_Zhu,2.36063814163208,Acute Toxicity LD50,regression,log(1/(mol/kg)),-inf,inf,False
+LIB_YWDIXVZCRMMQQY,Skin_Reaction,0.3081958591938019,Skin Reaction,classification,-,0.0,1.0,False
+LIB_YWDIXVZCRMMQQY,NR-AR,0.054391730576753616,Androgen Receptor (Full Length),classification,-,0.0,1.0,False
+LIB_YWDIXVZCRMMQQY,NR-AR-LBD,0.029027363285422325,Androgen Receptor (Ligand Binding Domain),classification,-,0.0,1.0,False
+LIB_YWDIXVZCRMMQQY,NR-AhR,0.973633885383606,Aryl Hydrocarbon Receptor,classification,-,0.0,1.0,False
+LIB_YWDIXVZCRMMQQY,NR-Aromatase,0.7023712992668152,Aromatase,classification,-,0.0,1.0,False
+LIB_YWDIXVZCRMMQQY,NR-ER,0.6282519698143005,Estrogen Receptor (Full Length),classification,-,0.0,1.0,False
+LIB_YWDIXVZCRMMQQY,NR-ER-LBD,0.16643072664737701,Estrogen Receptor (Ligand Binding Domain),classification,-,0.0,1.0,False
+LIB_YWDIXVZCRMMQQY,NR-PPAR-gamma,0.09015242010354996,Peroxisome Proliferator-Activated Receptor Gamma,classification,-,0.0,1.0,False
+LIB_YWDIXVZCRMMQQY,SR-ARE,0.9435738325119019,Nuclear Factor (Erythroid-Derived 2)-Like 2/Antioxidant Responsive Element,classification,-,0.0,1.0,False
+LIB_YWDIXVZCRMMQQY,SR-ATAD5,0.5695677995681763,ATPase Family AAA Domain-Containing Protein 5 (ATAD5),classification,-,0.0,1.0,False
+LIB_YWDIXVZCRMMQQY,SR-HSE,0.26133885979652405,Heat Shock Factor Response Element,classification,-,0.0,1.0,False
+LIB_YWDIXVZCRMMQQY,SR-MMP,0.9718955755233765,Mitochondrial Membrane Potential,classification,-,0.0,1.0,False
+LIB_YWDIXVZCRMMQQY,SR-p53,0.6439779996871948,Tumor Protein p53,classification,-,0.0,1.0,False
+LIB_MYAFDHCCQBIZLC,HIA_Hou,0.9999899864196777,Human Intestinal Absorption,classification,-,0.0,1.0,False
+LIB_MYAFDHCCQBIZLC,Bioavailability_Ma,0.876937210559845,Oral Bioavailability,classification,-,0.0,1.0,False
+LIB_MYAFDHCCQBIZLC,Solubility_AqSolDB,-6.03603458404541,Aqueous Solubility,regression,log(mol/L),-inf,inf,False
+LIB_MYAFDHCCQBIZLC,Lipophilicity_AstraZeneca,4.121975421905518,Lipophilicity,regression,log-ratio,-inf,inf,False
+LIB_MYAFDHCCQBIZLC,HydrationFreeEnergy_FreeSolv,-13.714200973510742,Hydration Free Energy,regression,kcal/mol,-inf,inf,False
+LIB_MYAFDHCCQBIZLC,Caco2_Wang,-5.547537803649902,Cell Effective Permeability,regression,log(10^-6 cm/s),-inf,inf,False
+LIB_MYAFDHCCQBIZLC,PAMPA_NCATS,0.8923338055610657,PAMPA Permeability,classification,-,0.0,1.0,False
+LIB_MYAFDHCCQBIZLC,Pgp_Broccatelli,0.971828281879425,P-glycoprotein Inhibition,classification,-,0.0,1.0,False
+LIB_MYAFDHCCQBIZLC,BBB_Martins,0.44132786989212036,Blood-Brain Barrier Penetration,classification,-,0.0,1.0,False
+LIB_MYAFDHCCQBIZLC,PPBR_AZ,100.62251281738281,Plasma Protein Binding Rate,regression,%,0.0,100.0,True
+LIB_MYAFDHCCQBIZLC,VDss_Lombardo,-0.11043677479028702,Volume of Distribution at Steady State,regression,L/kg,0.0,inf,True
+LIB_MYAFDHCCQBIZLC,Half_Life_Obach,119.32017517089844,Half Life,regression,hr,0.0,inf,False
+LIB_MYAFDHCCQBIZLC,Clearance_Hepatocyte_AZ,61.060569763183594,Drug Clearance (Hepatocyte),regression,uL/min/10^6 cells,0.0,inf,False
+LIB_MYAFDHCCQBIZLC,Clearance_Microsome_AZ,89.1944351196289,Drug Clearance (Microsome),regression,uL/min/mg,0.0,inf,False
+LIB_MYAFDHCCQBIZLC,CYP1A2_Veith,0.9086304903030396,CYP1A2 Inhibition,classification,-,0.0,1.0,False
+LIB_MYAFDHCCQBIZLC,CYP2C19_Veith,0.8756532669067383,CYP2C19 Inhibition,classification,-,0.0,1.0,False
+LIB_MYAFDHCCQBIZLC,CYP2C9_Veith,0.6715044975280762,CYP2C9 Inhibition,classification,-,0.0,1.0,False
+LIB_MYAFDHCCQBIZLC,CYP2D6_Veith,0.573729395866394,CYP2D6 Inhibition,classification,-,0.0,1.0,False
+LIB_MYAFDHCCQBIZLC,CYP3A4_Veith,0.9351948499679565,CYP3A4 Inhibition,classification,-,0.0,1.0,False
+LIB_MYAFDHCCQBIZLC,CYP2C9_Substrate_CarbonMangels,0.08886310458183289,CYP2C9 Substrate,classification,-,0.0,1.0,False
+LIB_MYAFDHCCQBIZLC,CYP2D6_Substrate_CarbonMangels,0.04120023921132088,CYP2D6 Substrate,classification,-,0.0,1.0,False
+LIB_MYAFDHCCQBIZLC,CYP3A4_Substrate_CarbonMangels,0.5910378694534302,CYP3A4 Substrate,classification,-,0.0,1.0,False
+LIB_MYAFDHCCQBIZLC,hERG,0.9485050439834595,hERG Blocking,classification,-,0.0,1.0,False
+LIB_MYAFDHCCQBIZLC,ClinTox,0.24742576479911804,Clinical Toxicity,classification,-,0.0,1.0,False
+LIB_MYAFDHCCQBIZLC,AMES,0.46483999490737915,Mutagenicity,classification,-,0.0,1.0,False
+LIB_MYAFDHCCQBIZLC,DILI,0.9910435676574707,Drug Induced Liver Injury,classification,-,0.0,1.0,False
+LIB_MYAFDHCCQBIZLC,Carcinogens_Lagunin,0.1305847465991974,Carcinogenicity,classification,-,0.0,1.0,False
+LIB_MYAFDHCCQBIZLC,LD50_Zhu,2.288114547729492,Acute Toxicity LD50,regression,log(1/(mol/kg)),-inf,inf,False
+LIB_MYAFDHCCQBIZLC,Skin_Reaction,0.24370045959949493,Skin Reaction,classification,-,0.0,1.0,False
+LIB_MYAFDHCCQBIZLC,NR-AR,0.0384015291929245,Androgen Receptor (Full Length),classification,-,0.0,1.0,False
+LIB_MYAFDHCCQBIZLC,NR-AR-LBD,0.020597439259290695,Androgen Receptor (Ligand Binding Domain),classification,-,0.0,1.0,False
+LIB_MYAFDHCCQBIZLC,NR-AhR,0.9667304158210754,Aryl Hydrocarbon Receptor,classification,-,0.0,1.0,False
+LIB_MYAFDHCCQBIZLC,NR-Aromatase,0.7717477679252625,Aromatase,classification,-,0.0,1.0,False
+LIB_MYAFDHCCQBIZLC,NR-ER,0.571097195148468,Estrogen Receptor (Full Length),classification,-,0.0,1.0,False
+LIB_MYAFDHCCQBIZLC,NR-ER-LBD,0.12854373455047607,Estrogen Receptor (Ligand Binding Domain),classification,-,0.0,1.0,False
+LIB_MYAFDHCCQBIZLC,NR-PPAR-gamma,0.0648619681596756,Peroxisome Proliferator-Activated Receptor Gamma,classification,-,0.0,1.0,False
+LIB_MYAFDHCCQBIZLC,SR-ARE,0.9208348393440247,Nuclear Factor (Erythroid-Derived 2)-Like 2/Antioxidant Responsive Element,classification,-,0.0,1.0,False
+LIB_MYAFDHCCQBIZLC,SR-ATAD5,0.501686692237854,ATPase Family AAA Domain-Containing Protein 5 (ATAD5),classification,-,0.0,1.0,False
+LIB_MYAFDHCCQBIZLC,SR-HSE,0.30110734701156616,Heat Shock Factor Response Element,classification,-,0.0,1.0,False
+LIB_MYAFDHCCQBIZLC,SR-MMP,0.9476034045219421,Mitochondrial Membrane Potential,classification,-,0.0,1.0,False
+LIB_MYAFDHCCQBIZLC,SR-p53,0.5593477487564087,Tumor Protein p53,classification,-,0.0,1.0,False
+LIB_ZNDXPRCORYDEAP,HIA_Hou,0.9999977946281433,Human Intestinal Absorption,classification,-,0.0,1.0,False
+LIB_ZNDXPRCORYDEAP,Bioavailability_Ma,0.8324542045593262,Oral Bioavailability,classification,-,0.0,1.0,False
+LIB_ZNDXPRCORYDEAP,Solubility_AqSolDB,-5.539656162261963,Aqueous Solubility,regression,log(mol/L),-inf,inf,False
+LIB_ZNDXPRCORYDEAP,Lipophilicity_AstraZeneca,3.894857883453369,Lipophilicity,regression,log-ratio,-inf,inf,False
+LIB_ZNDXPRCORYDEAP,HydrationFreeEnergy_FreeSolv,-15.694445610046387,Hydration Free Energy,regression,kcal/mol,-inf,inf,False
+LIB_ZNDXPRCORYDEAP,Caco2_Wang,-5.469941139221191,Cell Effective Permeability,regression,log(10^-6 cm/s),-inf,inf,False
+LIB_ZNDXPRCORYDEAP,PAMPA_NCATS,0.8905361294746399,PAMPA Permeability,classification,-,0.0,1.0,False
+LIB_ZNDXPRCORYDEAP,Pgp_Broccatelli,0.924748420715332,P-glycoprotein Inhibition,classification,-,0.0,1.0,False
+LIB_ZNDXPRCORYDEAP,BBB_Martins,0.24330811202526093,Blood-Brain Barrier Penetration,classification,-,0.0,1.0,False
+LIB_ZNDXPRCORYDEAP,PPBR_AZ,97.63832092285156,Plasma Protein Binding Rate,regression,%,0.0,100.0,False
+LIB_ZNDXPRCORYDEAP,VDss_Lombardo,3.8174426555633545,Volume of Distribution at Steady State,regression,L/kg,0.0,inf,False
+LIB_ZNDXPRCORYDEAP,Half_Life_Obach,121.4745101928711,Half Life,regression,hr,0.0,inf,False
+LIB_ZNDXPRCORYDEAP,Clearance_Hepatocyte_AZ,37.259151458740234,Drug Clearance (Hepatocyte),regression,uL/min/10^6 cells,0.0,inf,False
+LIB_ZNDXPRCORYDEAP,Clearance_Microsome_AZ,60.236846923828125,Drug Clearance (Microsome),regression,uL/min/mg,0.0,inf,False
+LIB_ZNDXPRCORYDEAP,CYP1A2_Veith,0.975239634513855,CYP1A2 Inhibition,classification,-,0.0,1.0,False
+LIB_ZNDXPRCORYDEAP,CYP2C19_Veith,0.9577795267105103,CYP2C19 Inhibition,classification,-,0.0,1.0,False
+LIB_ZNDXPRCORYDEAP,CYP2C9_Veith,0.8731697201728821,CYP2C9 Inhibition,classification,-,0.0,1.0,False
+LIB_ZNDXPRCORYDEAP,CYP2D6_Veith,0.8173834085464478,CYP2D6 Inhibition,classification,-,0.0,1.0,False
+LIB_ZNDXPRCORYDEAP,CYP3A4_Veith,0.9981893301010132,CYP3A4 Inhibition,classification,-,0.0,1.0,False
+LIB_ZNDXPRCORYDEAP,CYP2C9_Substrate_CarbonMangels,0.05195678025484085,CYP2C9 Substrate,classification,-,0.0,1.0,False
+LIB_ZNDXPRCORYDEAP,CYP2D6_Substrate_CarbonMangels,0.02070535160601139,CYP2D6 Substrate,classification,-,0.0,1.0,False
+LIB_ZNDXPRCORYDEAP,CYP3A4_Substrate_CarbonMangels,0.5448757410049438,CYP3A4 Substrate,classification,-,0.0,1.0,False
+LIB_ZNDXPRCORYDEAP,hERG,0.964122474193573,hERG Blocking,classification,-,0.0,1.0,False
+LIB_ZNDXPRCORYDEAP,ClinTox,0.24064907431602478,Clinical Toxicity,classification,-,0.0,1.0,False
+LIB_ZNDXPRCORYDEAP,AMES,0.2827169597148895,Mutagenicity,classification,-,0.0,1.0,False
+LIB_ZNDXPRCORYDEAP,DILI,0.9944635629653931,Drug Induced Liver Injury,classification,-,0.0,1.0,False
+LIB_ZNDXPRCORYDEAP,Carcinogens_Lagunin,0.08853482455015182,Carcinogenicity,classification,-,0.0,1.0,False
+LIB_ZNDXPRCORYDEAP,LD50_Zhu,2.4462008476257324,Acute Toxicity LD50,regression,log(1/(mol/kg)),-inf,inf,False
+LIB_ZNDXPRCORYDEAP,Skin_Reaction,0.10887692123651505,Skin Reaction,classification,-,0.0,1.0,False
+LIB_ZNDXPRCORYDEAP,NR-AR,0.028312290087342262,Androgen Receptor (Full Length),classification,-,0.0,1.0,False
+LIB_ZNDXPRCORYDEAP,NR-AR-LBD,0.00825907289981842,Androgen Receptor (Ligand Binding Domain),classification,-,0.0,1.0,False
+LIB_ZNDXPRCORYDEAP,NR-AhR,0.9866169095039368,Aryl Hydrocarbon Receptor,classification,-,0.0,1.0,False
+LIB_ZNDXPRCORYDEAP,NR-Aromatase,0.9279009699821472,Aromatase,classification,-,0.0,1.0,False
+LIB_ZNDXPRCORYDEAP,NR-ER,0.3779541254043579,Estrogen Receptor (Full Length),classification,-,0.0,1.0,False
+LIB_ZNDXPRCORYDEAP,NR-ER-LBD,0.09525132924318314,Estrogen Receptor (Ligand Binding Domain),classification,-,0.0,1.0,False
+LIB_ZNDXPRCORYDEAP,NR-PPAR-gamma,0.02953188680112362,Peroxisome Proliferator-Activated Receptor Gamma,classification,-,0.0,1.0,False
+LIB_ZNDXPRCORYDEAP,SR-ARE,0.9356500506401062,Nuclear Factor (Erythroid-Derived 2)-Like 2/Antioxidant Responsive Element,classification,-,0.0,1.0,False
+LIB_ZNDXPRCORYDEAP,SR-ATAD5,0.5274017453193665,ATPase Family AAA Domain-Containing Protein 5 (ATAD5),classification,-,0.0,1.0,False
+LIB_ZNDXPRCORYDEAP,SR-HSE,0.4468342363834381,Heat Shock Factor Response Element,classification,-,0.0,1.0,False
+LIB_ZNDXPRCORYDEAP,SR-MMP,0.9342263340950012,Mitochondrial Membrane Potential,classification,-,0.0,1.0,False
+LIB_ZNDXPRCORYDEAP,SR-p53,0.5079372525215149,Tumor Protein p53,classification,-,0.0,1.0,False
+LIB_FCRHJSNRFAAYQD,HIA_Hou,0.9999990463256836,Human Intestinal Absorption,classification,-,0.0,1.0,False
+LIB_FCRHJSNRFAAYQD,Bioavailability_Ma,0.8087462186813354,Oral Bioavailability,classification,-,0.0,1.0,False
+LIB_FCRHJSNRFAAYQD,Solubility_AqSolDB,-6.074344635009766,Aqueous Solubility,regression,log(mol/L),-inf,inf,False
+LIB_FCRHJSNRFAAYQD,Lipophilicity_AstraZeneca,4.078408718109131,Lipophilicity,regression,log-ratio,-inf,inf,False
+LIB_FCRHJSNRFAAYQD,HydrationFreeEnergy_FreeSolv,-17.677743911743164,Hydration Free Energy,regression,kcal/mol,-inf,inf,False
+LIB_FCRHJSNRFAAYQD,Caco2_Wang,-5.560044288635254,Cell Effective Permeability,regression,log(10^-6 cm/s),-inf,inf,False
+LIB_FCRHJSNRFAAYQD,PAMPA_NCATS,0.8608413934707642,PAMPA Permeability,classification,-,0.0,1.0,False
+LIB_FCRHJSNRFAAYQD,Pgp_Broccatelli,0.9644964933395386,P-glycoprotein Inhibition,classification,-,0.0,1.0,False
+LIB_FCRHJSNRFAAYQD,BBB_Martins,0.20097701251506805,Blood-Brain Barrier Penetration,classification,-,0.0,1.0,False
+LIB_FCRHJSNRFAAYQD,PPBR_AZ,101.9618148803711,Plasma Protein Binding Rate,regression,%,0.0,100.0,True
+LIB_FCRHJSNRFAAYQD,VDss_Lombardo,-1.1946314573287964,Volume of Distribution at Steady State,regression,L/kg,0.0,inf,True
+LIB_FCRHJSNRFAAYQD,Half_Life_Obach,105.70121765136719,Half Life,regression,hr,0.0,inf,False
+LIB_FCRHJSNRFAAYQD,Clearance_Hepatocyte_AZ,70.99182891845703,Drug Clearance (Hepatocyte),regression,uL/min/10^6 cells,0.0,inf,False
+LIB_FCRHJSNRFAAYQD,Clearance_Microsome_AZ,83.98506164550781,Drug Clearance (Microsome),regression,uL/min/mg,0.0,inf,False
+LIB_FCRHJSNRFAAYQD,CYP1A2_Veith,0.9669110178947449,CYP1A2 Inhibition,classification,-,0.0,1.0,False
+LIB_FCRHJSNRFAAYQD,CYP2C19_Veith,0.9826738238334656,CYP2C19 Inhibition,classification,-,0.0,1.0,False
+LIB_FCRHJSNRFAAYQD,CYP2C9_Veith,0.9412148594856262,CYP2C9 Inhibition,classification,-,0.0,1.0,False
+LIB_FCRHJSNRFAAYQD,CYP2D6_Veith,0.8375722169876099,CYP2D6 Inhibition,classification,-,0.0,1.0,False
+LIB_FCRHJSNRFAAYQD,CYP3A4_Veith,0.9982014894485474,CYP3A4 Inhibition,classification,-,0.0,1.0,False
+LIB_FCRHJSNRFAAYQD,CYP2C9_Substrate_CarbonMangels,0.04521079733967781,CYP2C9 Substrate,classification,-,0.0,1.0,False
+LIB_FCRHJSNRFAAYQD,CYP2D6_Substrate_CarbonMangels,0.01002134196460247,CYP2D6 Substrate,classification,-,0.0,1.0,False
+LIB_FCRHJSNRFAAYQD,CYP3A4_Substrate_CarbonMangels,0.4850245416164398,CYP3A4 Substrate,classification,-,0.0,1.0,False
+LIB_FCRHJSNRFAAYQD,hERG,0.9649934768676758,hERG Blocking,classification,-,0.0,1.0,False
+LIB_FCRHJSNRFAAYQD,ClinTox,0.15952979028224945,Clinical Toxicity,classification,-,0.0,1.0,False
+LIB_FCRHJSNRFAAYQD,AMES,0.24634504318237305,Mutagenicity,classification,-,0.0,1.0,False
+LIB_FCRHJSNRFAAYQD,DILI,0.9965626001358032,Drug Induced Liver Injury,classification,-,0.0,1.0,False
+LIB_FCRHJSNRFAAYQD,Carcinogens_Lagunin,0.07643063366413116,Carcinogenicity,classification,-,0.0,1.0,False
+LIB_FCRHJSNRFAAYQD,LD50_Zhu,1.9489514827728271,Acute Toxicity LD50,regression,log(1/(mol/kg)),-inf,inf,False
+LIB_FCRHJSNRFAAYQD,Skin_Reaction,0.13474687933921814,Skin Reaction,classification,-,0.0,1.0,False
+LIB_FCRHJSNRFAAYQD,NR-AR,0.020927559584379196,Androgen Receptor (Full Length),classification,-,0.0,1.0,False
+LIB_FCRHJSNRFAAYQD,NR-AR-LBD,0.004308008588850498,Androgen Receptor (Ligand Binding Domain),classification,-,0.0,1.0,False
+LIB_FCRHJSNRFAAYQD,NR-AhR,0.9883715510368347,Aryl Hydrocarbon Receptor,classification,-,0.0,1.0,False
+LIB_FCRHJSNRFAAYQD,NR-Aromatase,0.9353715181350708,Aromatase,classification,-,0.0,1.0,False
+LIB_FCRHJSNRFAAYQD,NR-ER,0.49991899728775024,Estrogen Receptor (Full Length),classification,-,0.0,1.0,False
+LIB_FCRHJSNRFAAYQD,NR-ER-LBD,0.12993007898330688,Estrogen Receptor (Ligand Binding Domain),classification,-,0.0,1.0,False
+LIB_FCRHJSNRFAAYQD,NR-PPAR-gamma,0.03978415206074715,Peroxisome Proliferator-Activated Receptor Gamma,classification,-,0.0,1.0,False
+LIB_FCRHJSNRFAAYQD,SR-ARE,0.9562950134277344,Nuclear Factor (Erythroid-Derived 2)-Like 2/Antioxidant Responsive Element,classification,-,0.0,1.0,False
+LIB_FCRHJSNRFAAYQD,SR-ATAD5,0.5425957441329956,ATPase Family AAA Domain-Containing Protein 5 (ATAD5),classification,-,0.0,1.0,False
+LIB_FCRHJSNRFAAYQD,SR-HSE,0.48826083540916443,Heat Shock Factor Response Element,classification,-,0.0,1.0,False
+LIB_FCRHJSNRFAAYQD,SR-MMP,0.9646337628364563,Mitochondrial Membrane Potential,classification,-,0.0,1.0,False
+LIB_FCRHJSNRFAAYQD,SR-p53,0.45746803283691406,Tumor Protein p53,classification,-,0.0,1.0,False
+LIB_DNDVGFIEWOHGAH,HIA_Hou,0.9996447563171387,Human Intestinal Absorption,classification,-,0.0,1.0,False
+LIB_DNDVGFIEWOHGAH,Bioavailability_Ma,0.9220322370529175,Oral Bioavailability,classification,-,0.0,1.0,False
+LIB_DNDVGFIEWOHGAH,Solubility_AqSolDB,-5.647067070007324,Aqueous Solubility,regression,log(mol/L),-inf,inf,False
+LIB_DNDVGFIEWOHGAH,Lipophilicity_AstraZeneca,3.679631471633911,Lipophilicity,regression,log-ratio,-inf,inf,False
+LIB_DNDVGFIEWOHGAH,HydrationFreeEnergy_FreeSolv,-16.477420806884766,Hydration Free Energy,regression,kcal/mol,-inf,inf,False
+LIB_DNDVGFIEWOHGAH,Caco2_Wang,-5.17466926574707,Cell Effective Permeability,regression,log(10^-6 cm/s),-inf,inf,False
+LIB_DNDVGFIEWOHGAH,PAMPA_NCATS,0.8970022201538086,PAMPA Permeability,classification,-,0.0,1.0,False
+LIB_DNDVGFIEWOHGAH,Pgp_Broccatelli,0.9781408309936523,P-glycoprotein Inhibition,classification,-,0.0,1.0,False
+LIB_DNDVGFIEWOHGAH,BBB_Martins,0.7055391073226929,Blood-Brain Barrier Penetration,classification,-,0.0,1.0,False
+LIB_DNDVGFIEWOHGAH,PPBR_AZ,99.77532196044922,Plasma Protein Binding Rate,regression,%,0.0,100.0,False
+LIB_DNDVGFIEWOHGAH,VDss_Lombardo,5.281913757324219,Volume of Distribution at Steady State,regression,L/kg,0.0,inf,False
+LIB_DNDVGFIEWOHGAH,Half_Life_Obach,120.70191955566406,Half Life,regression,hr,0.0,inf,False
+LIB_DNDVGFIEWOHGAH,Clearance_Hepatocyte_AZ,12.71040153503418,Drug Clearance (Hepatocyte),regression,uL/min/10^6 cells,0.0,inf,False
+LIB_DNDVGFIEWOHGAH,Clearance_Microsome_AZ,37.16124725341797,Drug Clearance (Microsome),regression,uL/min/mg,0.0,inf,False
+LIB_DNDVGFIEWOHGAH,CYP1A2_Veith,0.21209344267845154,CYP1A2 Inhibition,classification,-,0.0,1.0,False
+LIB_DNDVGFIEWOHGAH,CYP2C19_Veith,0.2980178892612457,CYP2C19 Inhibition,classification,-,0.0,1.0,False
+LIB_DNDVGFIEWOHGAH,CYP2C9_Veith,0.413902223110199,CYP2C9 Inhibition,classification,-,0.0,1.0,False
+LIB_DNDVGFIEWOHGAH,CYP2D6_Veith,0.14512011408805847,CYP2D6 Inhibition,classification,-,0.0,1.0,False
+LIB_DNDVGFIEWOHGAH,CYP3A4_Veith,0.7319530248641968,CYP3A4 Inhibition,classification,-,0.0,1.0,False
+LIB_DNDVGFIEWOHGAH,CYP2C9_Substrate_CarbonMangels,0.2663190960884094,CYP2C9 Substrate,classification,-,0.0,1.0,False
+LIB_DNDVGFIEWOHGAH,CYP2D6_Substrate_CarbonMangels,0.1935267150402069,CYP2D6 Substrate,classification,-,0.0,1.0,False
+LIB_DNDVGFIEWOHGAH,CYP3A4_Substrate_CarbonMangels,0.8127443194389343,CYP3A4 Substrate,classification,-,0.0,1.0,False
+LIB_DNDVGFIEWOHGAH,hERG,0.9774495959281921,hERG Blocking,classification,-,0.0,1.0,False
+LIB_DNDVGFIEWOHGAH,ClinTox,0.7293437123298645,Clinical Toxicity,classification,-,0.0,1.0,False
+LIB_DNDVGFIEWOHGAH,AMES,0.2548641562461853,Mutagenicity,classification,-,0.0,1.0,False
+LIB_DNDVGFIEWOHGAH,DILI,0.9851013422012329,Drug Induced Liver Injury,classification,-,0.0,1.0,False
+LIB_DNDVGFIEWOHGAH,Carcinogens_Lagunin,0.19439931213855743,Carcinogenicity,classification,-,0.0,1.0,False
+LIB_DNDVGFIEWOHGAH,LD50_Zhu,2.9835140705108643,Acute Toxicity LD50,regression,log(1/(mol/kg)),-inf,inf,False
+LIB_DNDVGFIEWOHGAH,Skin_Reaction,0.07803798466920853,Skin Reaction,classification,-,0.0,1.0,False
+LIB_DNDVGFIEWOHGAH,NR-AR,0.054831989109516144,Androgen Receptor (Full Length),classification,-,0.0,1.0,False
+LIB_DNDVGFIEWOHGAH,NR-AR-LBD,0.03699575737118721,Androgen Receptor (Ligand Binding Domain),classification,-,0.0,1.0,False
+LIB_DNDVGFIEWOHGAH,NR-AhR,0.5952762365341187,Aryl Hydrocarbon Receptor,classification,-,0.0,1.0,False
+LIB_DNDVGFIEWOHGAH,NR-Aromatase,0.264860063791275,Aromatase,classification,-,0.0,1.0,False
+LIB_DNDVGFIEWOHGAH,NR-ER,0.16321155428886414,Estrogen Receptor (Full Length),classification,-,0.0,1.0,False
+LIB_DNDVGFIEWOHGAH,NR-ER-LBD,0.02213543839752674,Estrogen Receptor (Ligand Binding Domain),classification,-,0.0,1.0,False
+LIB_DNDVGFIEWOHGAH,NR-PPAR-gamma,0.04109899699687958,Peroxisome Proliferator-Activated Receptor Gamma,classification,-,0.0,1.0,False
+LIB_DNDVGFIEWOHGAH,SR-ARE,0.5972086191177368,Nuclear Factor (Erythroid-Derived 2)-Like 2/Antioxidant Responsive Element,classification,-,0.0,1.0,False
+LIB_DNDVGFIEWOHGAH,SR-ATAD5,0.2521517872810364,ATPase Family AAA Domain-Containing Protein 5 (ATAD5),classification,-,0.0,1.0,False
+LIB_DNDVGFIEWOHGAH,SR-HSE,0.02980233170092106,Heat Shock Factor Response Element,classification,-,0.0,1.0,False
+LIB_DNDVGFIEWOHGAH,SR-MMP,0.3997180461883545,Mitochondrial Membrane Potential,classification,-,0.0,1.0,False
+LIB_DNDVGFIEWOHGAH,SR-p53,0.26254409551620483,Tumor Protein p53,classification,-,0.0,1.0,False
+LIB_ZVHBDYFMHCQADD,HIA_Hou,0.9999750256538391,Human Intestinal Absorption,classification,-,0.0,1.0,False
+LIB_ZVHBDYFMHCQADD,Bioavailability_Ma,0.9158133268356323,Oral Bioavailability,classification,-,0.0,1.0,False
+LIB_ZVHBDYFMHCQADD,Solubility_AqSolDB,-5.585509300231934,Aqueous Solubility,regression,log(mol/L),-inf,inf,False
+LIB_ZVHBDYFMHCQADD,Lipophilicity_AstraZeneca,3.874044418334961,Lipophilicity,regression,log-ratio,-inf,inf,False
+LIB_ZVHBDYFMHCQADD,HydrationFreeEnergy_FreeSolv,-15.479924201965332,Hydration Free Energy,regression,kcal/mol,-inf,inf,False
+LIB_ZVHBDYFMHCQADD,Caco2_Wang,-5.468449592590332,Cell Effective Permeability,regression,log(10^-6 cm/s),-inf,inf,False
+LIB_ZVHBDYFMHCQADD,PAMPA_NCATS,0.9099334478378296,PAMPA Permeability,classification,-,0.0,1.0,False
+LIB_ZVHBDYFMHCQADD,Pgp_Broccatelli,0.8547497987747192,P-glycoprotein Inhibition,classification,-,0.0,1.0,False
+LIB_ZVHBDYFMHCQADD,BBB_Martins,0.3815162777900696,Blood-Brain Barrier Penetration,classification,-,0.0,1.0,False
+LIB_ZVHBDYFMHCQADD,PPBR_AZ,99.07373809814453,Plasma Protein Binding Rate,regression,%,0.0,100.0,False
+LIB_ZVHBDYFMHCQADD,VDss_Lombardo,1.9152252674102783,Volume of Distribution at Steady State,regression,L/kg,0.0,inf,False
+LIB_ZVHBDYFMHCQADD,Half_Life_Obach,108.10577392578125,Half Life,regression,hr,0.0,inf,False
+LIB_ZVHBDYFMHCQADD,Clearance_Hepatocyte_AZ,46.156494140625,Drug Clearance (Hepatocyte),regression,uL/min/10^6 cells,0.0,inf,False
+LIB_ZVHBDYFMHCQADD,Clearance_Microsome_AZ,63.6525993347168,Drug Clearance (Microsome),regression,uL/min/mg,0.0,inf,False
+LIB_ZVHBDYFMHCQADD,CYP1A2_Veith,0.9441404342651367,CYP1A2 Inhibition,classification,-,0.0,1.0,False
+LIB_ZVHBDYFMHCQADD,CYP2C19_Veith,0.7063145041465759,CYP2C19 Inhibition,classification,-,0.0,1.0,False
+LIB_ZVHBDYFMHCQADD,CYP2C9_Veith,0.5249393582344055,CYP2C9 Inhibition,classification,-,0.0,1.0,False
+LIB_ZVHBDYFMHCQADD,CYP2D6_Veith,0.46699753403663635,CYP2D6 Inhibition,classification,-,0.0,1.0,False
+LIB_ZVHBDYFMHCQADD,CYP3A4_Veith,0.9686177968978882,CYP3A4 Inhibition,classification,-,0.0,1.0,False
+LIB_ZVHBDYFMHCQADD,CYP2C9_Substrate_CarbonMangels,0.12517495453357697,CYP2C9 Substrate,classification,-,0.0,1.0,False
+LIB_ZVHBDYFMHCQADD,CYP2D6_Substrate_CarbonMangels,0.05017200857400894,CYP2D6 Substrate,classification,-,0.0,1.0,False
+LIB_ZVHBDYFMHCQADD,CYP3A4_Substrate_CarbonMangels,0.6285537481307983,CYP3A4 Substrate,classification,-,0.0,1.0,False
+LIB_ZVHBDYFMHCQADD,hERG,0.9412776827812195,hERG Blocking,classification,-,0.0,1.0,False
+LIB_ZVHBDYFMHCQADD,ClinTox,0.3347429037094116,Clinical Toxicity,classification,-,0.0,1.0,False
+LIB_ZVHBDYFMHCQADD,AMES,0.3702651262283325,Mutagenicity,classification,-,0.0,1.0,False
+LIB_ZVHBDYFMHCQADD,DILI,0.9953078031539917,Drug Induced Liver Injury,classification,-,0.0,1.0,False
+LIB_ZVHBDYFMHCQADD,Carcinogens_Lagunin,0.1676485687494278,Carcinogenicity,classification,-,0.0,1.0,False
+LIB_ZVHBDYFMHCQADD,LD50_Zhu,2.2944726943969727,Acute Toxicity LD50,regression,log(1/(mol/kg)),-inf,inf,False
+LIB_ZVHBDYFMHCQADD,Skin_Reaction,0.13131514191627502,Skin Reaction,classification,-,0.0,1.0,False
+LIB_ZVHBDYFMHCQADD,NR-AR,0.035220660269260406,Androgen Receptor (Full Length),classification,-,0.0,1.0,False
+LIB_ZVHBDYFMHCQADD,NR-AR-LBD,0.016640737652778625,Androgen Receptor (Ligand Binding Domain),classification,-,0.0,1.0,False
+LIB_ZVHBDYFMHCQADD,NR-AhR,0.9698583483695984,Aryl Hydrocarbon Receptor,classification,-,0.0,1.0,False
+LIB_ZVHBDYFMHCQADD,NR-Aromatase,0.7111194729804993,Aromatase,classification,-,0.0,1.0,False
+LIB_ZVHBDYFMHCQADD,NR-ER,0.41152018308639526,Estrogen Receptor (Full Length),classification,-,0.0,1.0,False
+LIB_ZVHBDYFMHCQADD,NR-ER-LBD,0.07124543935060501,Estrogen Receptor (Ligand Binding Domain),classification,-,0.0,1.0,False
+LIB_ZVHBDYFMHCQADD,NR-PPAR-gamma,0.042673591524362564,Peroxisome Proliferator-Activated Receptor Gamma,classification,-,0.0,1.0,False
+LIB_ZVHBDYFMHCQADD,SR-ARE,0.8731411099433899,Nuclear Factor (Erythroid-Derived 2)-Like 2/Antioxidant Responsive Element,classification,-,0.0,1.0,False
+LIB_ZVHBDYFMHCQADD,SR-ATAD5,0.5418153405189514,ATPase Family AAA Domain-Containing Protein 5 (ATAD5),classification,-,0.0,1.0,False
+LIB_ZVHBDYFMHCQADD,SR-HSE,0.2074042558670044,Heat Shock Factor Response Element,classification,-,0.0,1.0,False
+LIB_ZVHBDYFMHCQADD,SR-MMP,0.8458280563354492,Mitochondrial Membrane Potential,classification,-,0.0,1.0,False
+LIB_ZVHBDYFMHCQADD,SR-p53,0.5123963952064514,Tumor Protein p53,classification,-,0.0,1.0,False
+LIB_CHEMBL2103870,HIA_Hou,0.9615141749382019,Human Intestinal Absorption,classification,-,0.0,1.0,False
+LIB_CHEMBL2103870,Bioavailability_Ma,0.8214585185050964,Oral Bioavailability,classification,-,0.0,1.0,False
+LIB_CHEMBL2103870,Solubility_AqSolDB,-5.586053371429443,Aqueous Solubility,regression,log(mol/L),-inf,inf,False
+LIB_CHEMBL2103870,Lipophilicity_AstraZeneca,2.1701958179473877,Lipophilicity,regression,log-ratio,-inf,inf,False
+LIB_CHEMBL2103870,HydrationFreeEnergy_FreeSolv,-12.876913070678711,Hydration Free Energy,regression,kcal/mol,-inf,inf,False
+LIB_CHEMBL2103870,Caco2_Wang,-4.853163719177246,Cell Effective Permeability,regression,log(10^-6 cm/s),-inf,inf,False
+LIB_CHEMBL2103870,PAMPA_NCATS,0.46377620100975037,PAMPA Permeability,classification,-,0.0,1.0,False
+LIB_CHEMBL2103870,Pgp_Broccatelli,0.5506795048713684,P-glycoprotein Inhibition,classification,-,0.0,1.0,False
+LIB_CHEMBL2103870,BBB_Martins,0.21398477256298065,Blood-Brain Barrier Penetration,classification,-,0.0,1.0,False
+LIB_CHEMBL2103870,PPBR_AZ,102.51126861572266,Plasma Protein Binding Rate,regression,%,0.0,100.0,True
+LIB_CHEMBL2103870,VDss_Lombardo,-6.8522820472717285,Volume of Distribution at Steady State,regression,L/kg,0.0,inf,True
+LIB_CHEMBL2103870,Half_Life_Obach,62.090049743652344,Half Life,regression,hr,0.0,inf,False
+LIB_CHEMBL2103870,Clearance_Hepatocyte_AZ,-2.149930953979492,Drug Clearance (Hepatocyte),regression,uL/min/10^6 cells,0.0,inf,True
+LIB_CHEMBL2103870,Clearance_Microsome_AZ,8.982584953308105,Drug Clearance (Microsome),regression,uL/min/mg,0.0,inf,False
+LIB_CHEMBL2103870,CYP1A2_Veith,0.25512129068374634,CYP1A2 Inhibition,classification,-,0.0,1.0,False
+LIB_CHEMBL2103870,CYP2C19_Veith,0.31141042709350586,CYP2C19 Inhibition,classification,-,0.0,1.0,False
+LIB_CHEMBL2103870,CYP2C9_Veith,0.41335898637771606,CYP2C9 Inhibition,classification,-,0.0,1.0,False
+LIB_CHEMBL2103870,CYP2D6_Veith,0.12599913775920868,CYP2D6 Inhibition,classification,-,0.0,1.0,False
+LIB_CHEMBL2103870,CYP3A4_Veith,0.1902373731136322,CYP3A4 Inhibition,classification,-,0.0,1.0,False
+LIB_CHEMBL2103870,CYP2C9_Substrate_CarbonMangels,0.3659040629863739,CYP2C9 Substrate,classification,-,0.0,1.0,False
+LIB_CHEMBL2103870,CYP2D6_Substrate_CarbonMangels,0.060960203409194946,CYP2D6 Substrate,classification,-,0.0,1.0,False
+LIB_CHEMBL2103870,CYP3A4_Substrate_CarbonMangels,0.4166603684425354,CYP3A4 Substrate,classification,-,0.0,1.0,False
+LIB_CHEMBL2103870,hERG,0.46212834119796753,hERG Blocking,classification,-,0.0,1.0,False
+LIB_CHEMBL2103870,ClinTox,0.2604564130306244,Clinical Toxicity,classification,-,0.0,1.0,False
+LIB_CHEMBL2103870,AMES,0.2626483738422394,Mutagenicity,classification,-,0.0,1.0,False
+LIB_CHEMBL2103870,DILI,0.9567185640335083,Drug Induced Liver Injury,classification,-,0.0,1.0,False
+LIB_CHEMBL2103870,Carcinogens_Lagunin,0.3990541100502014,Carcinogenicity,classification,-,0.0,1.0,False
+LIB_CHEMBL2103870,LD50_Zhu,3.6077771186828613,Acute Toxicity LD50,regression,log(1/(mol/kg)),-inf,inf,False
+LIB_CHEMBL2103870,Skin_Reaction,0.35012874007225037,Skin Reaction,classification,-,0.0,1.0,False
+LIB_CHEMBL2103870,NR-AR,0.07455530762672424,Androgen Receptor (Full Length),classification,-,0.0,1.0,False
+LIB_CHEMBL2103870,NR-AR-LBD,0.039368875324726105,Androgen Receptor (Ligand Binding Domain),classification,-,0.0,1.0,False
+LIB_CHEMBL2103870,NR-AhR,0.3277198076248169,Aryl Hydrocarbon Receptor,classification,-,0.0,1.0,False
+LIB_CHEMBL2103870,NR-Aromatase,0.2469431608915329,Aromatase,classification,-,0.0,1.0,False
+LIB_CHEMBL2103870,NR-ER,0.2474512755870819,Estrogen Receptor (Full Length),classification,-,0.0,1.0,False
+LIB_CHEMBL2103870,NR-ER-LBD,0.10794413089752197,Estrogen Receptor (Ligand Binding Domain),classification,-,0.0,1.0,False
+LIB_CHEMBL2103870,NR-PPAR-gamma,0.22267183661460876,Peroxisome Proliferator-Activated Receptor Gamma,classification,-,0.0,1.0,False
+LIB_CHEMBL2103870,SR-ARE,0.4593121409416199,Nuclear Factor (Erythroid-Derived 2)-Like 2/Antioxidant Responsive Element,classification,-,0.0,1.0,False
+LIB_CHEMBL2103870,SR-ATAD5,0.15252159535884857,ATPase Family AAA Domain-Containing Protein 5 (ATAD5),classification,-,0.0,1.0,False
+LIB_CHEMBL2103870,SR-HSE,0.09396311640739441,Heat Shock Factor Response Element,classification,-,0.0,1.0,False
+LIB_CHEMBL2103870,SR-MMP,0.593137800693512,Mitochondrial Membrane Potential,classification,-,0.0,1.0,False
+LIB_CHEMBL2103870,SR-p53,0.361245721578598,Tumor Protein p53,classification,-,0.0,1.0,False
+LIB_CHEMBL3894860,HIA_Hou,0.9943646192550659,Human Intestinal Absorption,classification,-,0.0,1.0,False
+LIB_CHEMBL3894860,Bioavailability_Ma,0.927854061126709,Oral Bioavailability,classification,-,0.0,1.0,False
+LIB_CHEMBL3894860,Solubility_AqSolDB,-4.633208751678467,Aqueous Solubility,regression,log(mol/L),-inf,inf,False
+LIB_CHEMBL3894860,Lipophilicity_AstraZeneca,2.4704346656799316,Lipophilicity,regression,log-ratio,-inf,inf,False
+LIB_CHEMBL3894860,HydrationFreeEnergy_FreeSolv,-17.89542007446289,Hydration Free Energy,regression,kcal/mol,-inf,inf,False
+LIB_CHEMBL3894860,Caco2_Wang,-5.311306953430176,Cell Effective Permeability,regression,log(10^-6 cm/s),-inf,inf,False
+LIB_CHEMBL3894860,PAMPA_NCATS,0.7805910706520081,PAMPA Permeability,classification,-,0.0,1.0,False
+LIB_CHEMBL3894860,Pgp_Broccatelli,0.2955807149410248,P-glycoprotein Inhibition,classification,-,0.0,1.0,False
+LIB_CHEMBL3894860,BBB_Martins,0.6880618333816528,Blood-Brain Barrier Penetration,classification,-,0.0,1.0,False
+LIB_CHEMBL3894860,PPBR_AZ,82.8444595336914,Plasma Protein Binding Rate,regression,%,0.0,100.0,False
+LIB_CHEMBL3894860,VDss_Lombardo,8.013350486755371,Volume of Distribution at Steady State,regression,L/kg,0.0,inf,False
+LIB_CHEMBL3894860,Half_Life_Obach,36.95354461669922,Half Life,regression,hr,0.0,inf,False
+LIB_CHEMBL3894860,Clearance_Hepatocyte_AZ,16.094173431396484,Drug Clearance (Hepatocyte),regression,uL/min/10^6 cells,0.0,inf,False
+LIB_CHEMBL3894860,Clearance_Microsome_AZ,30.824377059936523,Drug Clearance (Microsome),regression,uL/min/mg,0.0,inf,False
+LIB_CHEMBL3894860,CYP1A2_Veith,0.121761754155159,CYP1A2 Inhibition,classification,-,0.0,1.0,False
+LIB_CHEMBL3894860,CYP2C19_Veith,0.014848115853965282,CYP2C19 Inhibition,classification,-,0.0,1.0,False
+LIB_CHEMBL3894860,CYP2C9_Veith,0.014742134138941765,CYP2C9 Inhibition,classification,-,0.0,1.0,False
+LIB_CHEMBL3894860,CYP2D6_Veith,0.11334766447544098,CYP2D6 Inhibition,classification,-,0.0,1.0,False
+LIB_CHEMBL3894860,CYP3A4_Veith,0.10016483068466187,CYP3A4 Inhibition,classification,-,0.0,1.0,False
+LIB_CHEMBL3894860,CYP2C9_Substrate_CarbonMangels,0.08043360710144043,CYP2C9 Substrate,classification,-,0.0,1.0,False
+LIB_CHEMBL3894860,CYP2D6_Substrate_CarbonMangels,0.1804960072040558,CYP2D6 Substrate,classification,-,0.0,1.0,False
+LIB_CHEMBL3894860,CYP3A4_Substrate_CarbonMangels,0.6120868921279907,CYP3A4 Substrate,classification,-,0.0,1.0,False
+LIB_CHEMBL3894860,hERG,0.8928950428962708,hERG Blocking,classification,-,0.0,1.0,False
+LIB_CHEMBL3894860,ClinTox,0.8280085325241089,Clinical Toxicity,classification,-,0.0,1.0,False
+LIB_CHEMBL3894860,AMES,0.6013762354850769,Mutagenicity,classification,-,0.0,1.0,False
+LIB_CHEMBL3894860,DILI,0.920671284198761,Drug Induced Liver Injury,classification,-,0.0,1.0,False
+LIB_CHEMBL3894860,Carcinogens_Lagunin,0.13546596467494965,Carcinogenicity,classification,-,0.0,1.0,False
+LIB_CHEMBL3894860,LD50_Zhu,2.8228373527526855,Acute Toxicity LD50,regression,log(1/(mol/kg)),-inf,inf,False
+LIB_CHEMBL3894860,Skin_Reaction,0.1794426143169403,Skin Reaction,classification,-,0.0,1.0,False
+LIB_CHEMBL3894860,NR-AR,0.057016171514987946,Androgen Receptor (Full Length),classification,-,0.0,1.0,False
+LIB_CHEMBL3894860,NR-AR-LBD,0.08255644142627716,Androgen Receptor (Ligand Binding Domain),classification,-,0.0,1.0,False
+LIB_CHEMBL3894860,NR-AhR,0.3490265905857086,Aryl Hydrocarbon Receptor,classification,-,0.0,1.0,False
+LIB_CHEMBL3894860,NR-Aromatase,0.054641395807266235,Aromatase,classification,-,0.0,1.0,False
+LIB_CHEMBL3894860,NR-ER,0.18153701722621918,Estrogen Receptor (Full Length),classification,-,0.0,1.0,False
+LIB_CHEMBL3894860,NR-ER-LBD,0.021218538284301758,Estrogen Receptor (Ligand Binding Domain),classification,-,0.0,1.0,False
+LIB_CHEMBL3894860,NR-PPAR-gamma,0.010918346233665943,Peroxisome Proliferator-Activated Receptor Gamma,classification,-,0.0,1.0,False
+LIB_CHEMBL3894860,SR-ARE,0.29924988746643066,Nuclear Factor (Erythroid-Derived 2)-Like 2/Antioxidant Responsive Element,classification,-,0.0,1.0,False
+LIB_CHEMBL3894860,SR-ATAD5,0.23348943889141083,ATPase Family AAA Domain-Containing Protein 5 (ATAD5),classification,-,0.0,1.0,False
+LIB_CHEMBL3894860,SR-HSE,0.012696513906121254,Heat Shock Factor Response Element,classification,-,0.0,1.0,False
+LIB_CHEMBL3894860,SR-MMP,0.10325797647237778,Mitochondrial Membrane Potential,classification,-,0.0,1.0,False
+LIB_CHEMBL3894860,SR-p53,0.2674873471260071,Tumor Protein p53,classification,-,0.0,1.0,False
+DES_JMWNSKZCTCNWSL,HIA_Hou,0.9996269345283508,Human Intestinal Absorption,classification,-,0.0,1.0,False
+DES_JMWNSKZCTCNWSL,Bioavailability_Ma,0.8211018443107605,Oral Bioavailability,classification,-,0.0,1.0,False
+DES_JMWNSKZCTCNWSL,Solubility_AqSolDB,-5.723114013671875,Aqueous Solubility,regression,log(mol/L),-inf,inf,False
+DES_JMWNSKZCTCNWSL,Lipophilicity_AstraZeneca,3.7413597106933594,Lipophilicity,regression,log-ratio,-inf,inf,False
+DES_JMWNSKZCTCNWSL,HydrationFreeEnergy_FreeSolv,-14.298616409301758,Hydration Free Energy,regression,kcal/mol,-inf,inf,False
+DES_JMWNSKZCTCNWSL,Caco2_Wang,-4.829715251922607,Cell Effective Permeability,regression,log(10^-6 cm/s),-inf,inf,False
+DES_JMWNSKZCTCNWSL,PAMPA_NCATS,0.8621518015861511,PAMPA Permeability,classification,-,0.0,1.0,False
+DES_JMWNSKZCTCNWSL,Pgp_Broccatelli,0.8865310549736023,P-glycoprotein Inhibition,classification,-,0.0,1.0,False
+DES_JMWNSKZCTCNWSL,BBB_Martins,0.590387225151062,Blood-Brain Barrier Penetration,classification,-,0.0,1.0,False
+DES_JMWNSKZCTCNWSL,PPBR_AZ,99.93326568603516,Plasma Protein Binding Rate,regression,%,0.0,100.0,False
+DES_JMWNSKZCTCNWSL,VDss_Lombardo,2.697765350341797,Volume of Distribution at Steady State,regression,L/kg,0.0,inf,False
+DES_JMWNSKZCTCNWSL,Half_Life_Obach,90.65968322753906,Half Life,regression,hr,0.0,inf,False
+DES_JMWNSKZCTCNWSL,Clearance_Hepatocyte_AZ,-4.703006267547607,Drug Clearance (Hepatocyte),regression,uL/min/10^6 cells,0.0,inf,True
+DES_JMWNSKZCTCNWSL,Clearance_Microsome_AZ,16.770153045654297,Drug Clearance (Microsome),regression,uL/min/mg,0.0,inf,False
+DES_JMWNSKZCTCNWSL,CYP1A2_Veith,0.41253089904785156,CYP1A2 Inhibition,classification,-,0.0,1.0,False
+DES_JMWNSKZCTCNWSL,CYP2C19_Veith,0.6510152220726013,CYP2C19 Inhibition,classification,-,0.0,1.0,False
+DES_JMWNSKZCTCNWSL,CYP2C9_Veith,0.6639090776443481,CYP2C9 Inhibition,classification,-,0.0,1.0,False
+DES_JMWNSKZCTCNWSL,CYP2D6_Veith,0.23082932829856873,CYP2D6 Inhibition,classification,-,0.0,1.0,False
+DES_JMWNSKZCTCNWSL,CYP3A4_Veith,0.7454459071159363,CYP3A4 Inhibition,classification,-,0.0,1.0,False
+DES_JMWNSKZCTCNWSL,CYP2C9_Substrate_CarbonMangels,0.28177109360694885,CYP2C9 Substrate,classification,-,0.0,1.0,False
+DES_JMWNSKZCTCNWSL,CYP2D6_Substrate_CarbonMangels,0.15411797165870667,CYP2D6 Substrate,classification,-,0.0,1.0,False
+DES_JMWNSKZCTCNWSL,CYP3A4_Substrate_CarbonMangels,0.6620491743087769,CYP3A4 Substrate,classification,-,0.0,1.0,False
+DES_JMWNSKZCTCNWSL,hERG,0.7561956644058228,hERG Blocking,classification,-,0.0,1.0,False
+DES_JMWNSKZCTCNWSL,ClinTox,0.249515101313591,Clinical Toxicity,classification,-,0.0,1.0,False
+DES_JMWNSKZCTCNWSL,AMES,0.32331186532974243,Mutagenicity,classification,-,0.0,1.0,False
+DES_JMWNSKZCTCNWSL,DILI,0.933491587638855,Drug Induced Liver Injury,classification,-,0.0,1.0,False
+DES_JMWNSKZCTCNWSL,Carcinogens_Lagunin,0.14278900623321533,Carcinogenicity,classification,-,0.0,1.0,False
+DES_JMWNSKZCTCNWSL,LD50_Zhu,3.7670395374298096,Acute Toxicity LD50,regression,log(1/(mol/kg)),-inf,inf,False
+DES_JMWNSKZCTCNWSL,Skin_Reaction,0.26642999053001404,Skin Reaction,classification,-,0.0,1.0,False
+DES_JMWNSKZCTCNWSL,NR-AR,0.08478442579507828,Androgen Receptor (Full Length),classification,-,0.0,1.0,False
+DES_JMWNSKZCTCNWSL,NR-AR-LBD,0.04981930926442146,Androgen Receptor (Ligand Binding Domain),classification,-,0.0,1.0,False
+DES_JMWNSKZCTCNWSL,NR-AhR,0.5212685465812683,Aryl Hydrocarbon Receptor,classification,-,0.0,1.0,False
+DES_JMWNSKZCTCNWSL,NR-Aromatase,0.4007507860660553,Aromatase,classification,-,0.0,1.0,False
+DES_JMWNSKZCTCNWSL,NR-ER,0.25240564346313477,Estrogen Receptor (Full Length),classification,-,0.0,1.0,False
+DES_JMWNSKZCTCNWSL,NR-ER-LBD,0.08431737869977951,Estrogen Receptor (Ligand Binding Domain),classification,-,0.0,1.0,False
+DES_JMWNSKZCTCNWSL,NR-PPAR-gamma,0.09000145643949509,Peroxisome Proliferator-Activated Receptor Gamma,classification,-,0.0,1.0,False
+DES_JMWNSKZCTCNWSL,SR-ARE,0.6130741834640503,Nuclear Factor (Erythroid-Derived 2)-Like 2/Antioxidant Responsive Element,classification,-,0.0,1.0,False
+DES_JMWNSKZCTCNWSL,SR-ATAD5,0.18323761224746704,ATPase Family AAA Domain-Containing Protein 5 (ATAD5),classification,-,0.0,1.0,False
+DES_JMWNSKZCTCNWSL,SR-HSE,0.13916216790676117,Heat Shock Factor Response Element,classification,-,0.0,1.0,False
+DES_JMWNSKZCTCNWSL,SR-MMP,0.713826060295105,Mitochondrial Membrane Potential,classification,-,0.0,1.0,False
+DES_JMWNSKZCTCNWSL,SR-p53,0.3819321095943451,Tumor Protein p53,classification,-,0.0,1.0,False
+GEN_LDAGBLZIWYMUFJ,HIA_Hou,0.9999597668647766,Human Intestinal Absorption,classification,-,0.0,1.0,False
+GEN_LDAGBLZIWYMUFJ,Bioavailability_Ma,0.9247940182685852,Oral Bioavailability,classification,-,0.0,1.0,False
+GEN_LDAGBLZIWYMUFJ,Solubility_AqSolDB,-4.704853057861328,Aqueous Solubility,regression,log(mol/L),-inf,inf,False
+GEN_LDAGBLZIWYMUFJ,Lipophilicity_AstraZeneca,3.0585782527923584,Lipophilicity,regression,log-ratio,-inf,inf,False
+GEN_LDAGBLZIWYMUFJ,HydrationFreeEnergy_FreeSolv,-15.694073677062988,Hydration Free Energy,regression,kcal/mol,-inf,inf,False
+GEN_LDAGBLZIWYMUFJ,Caco2_Wang,-5.132460594177246,Cell Effective Permeability,regression,log(10^-6 cm/s),-inf,inf,False
+GEN_LDAGBLZIWYMUFJ,PAMPA_NCATS,0.8187237977981567,PAMPA Permeability,classification,-,0.0,1.0,False
+GEN_LDAGBLZIWYMUFJ,Pgp_Broccatelli,0.29629072546958923,P-glycoprotein Inhibition,classification,-,0.0,1.0,False
+GEN_LDAGBLZIWYMUFJ,BBB_Martins,0.4646790027618408,Blood-Brain Barrier Penetration,classification,-,0.0,1.0,False
+GEN_LDAGBLZIWYMUFJ,PPBR_AZ,96.62602233886719,Plasma Protein Binding Rate,regression,%,0.0,100.0,False
+GEN_LDAGBLZIWYMUFJ,VDss_Lombardo,-0.09622611850500107,Volume of Distribution at Steady State,regression,L/kg,0.0,inf,True
+GEN_LDAGBLZIWYMUFJ,Half_Life_Obach,20.880306243896484,Half Life,regression,hr,0.0,inf,False
+GEN_LDAGBLZIWYMUFJ,Clearance_Hepatocyte_AZ,57.59564208984375,Drug Clearance (Hepatocyte),regression,uL/min/10^6 cells,0.0,inf,False
+GEN_LDAGBLZIWYMUFJ,Clearance_Microsome_AZ,35.50456237792969,Drug Clearance (Microsome),regression,uL/min/mg,0.0,inf,False
+GEN_LDAGBLZIWYMUFJ,CYP1A2_Veith,0.9145407676696777,CYP1A2 Inhibition,classification,-,0.0,1.0,False
+GEN_LDAGBLZIWYMUFJ,CYP2C19_Veith,0.6193275451660156,CYP2C19 Inhibition,classification,-,0.0,1.0,False
+GEN_LDAGBLZIWYMUFJ,CYP2C9_Veith,0.2582779824733734,CYP2C9 Inhibition,classification,-,0.0,1.0,False
+GEN_LDAGBLZIWYMUFJ,CYP2D6_Veith,0.3299013376235962,CYP2D6 Inhibition,classification,-,0.0,1.0,False
+GEN_LDAGBLZIWYMUFJ,CYP3A4_Veith,0.8449332118034363,CYP3A4 Inhibition,classification,-,0.0,1.0,False
+GEN_LDAGBLZIWYMUFJ,CYP2C9_Substrate_CarbonMangels,0.13379310071468353,CYP2C9 Substrate,classification,-,0.0,1.0,False
+GEN_LDAGBLZIWYMUFJ,CYP2D6_Substrate_CarbonMangels,0.04058972746133804,CYP2D6 Substrate,classification,-,0.0,1.0,False
+GEN_LDAGBLZIWYMUFJ,CYP3A4_Substrate_CarbonMangels,0.36513280868530273,CYP3A4 Substrate,classification,-,0.0,1.0,False
+GEN_LDAGBLZIWYMUFJ,hERG,0.7491465210914612,hERG Blocking,classification,-,0.0,1.0,False
+GEN_LDAGBLZIWYMUFJ,ClinTox,0.21093180775642395,Clinical Toxicity,classification,-,0.0,1.0,False
+GEN_LDAGBLZIWYMUFJ,AMES,0.31035444140434265,Mutagenicity,classification,-,0.0,1.0,False
+GEN_LDAGBLZIWYMUFJ,DILI,0.979656994342804,Drug Induced Liver Injury,classification,-,0.0,1.0,False
+GEN_LDAGBLZIWYMUFJ,Carcinogens_Lagunin,0.11267229169607162,Carcinogenicity,classification,-,0.0,1.0,False
+GEN_LDAGBLZIWYMUFJ,LD50_Zhu,2.1561553478240967,Acute Toxicity LD50,regression,log(1/(mol/kg)),-inf,inf,False
+GEN_LDAGBLZIWYMUFJ,Skin_Reaction,0.21101348102092743,Skin Reaction,classification,-,0.0,1.0,False
+GEN_LDAGBLZIWYMUFJ,NR-AR,0.04274223372340202,Androgen Receptor (Full Length),classification,-,0.0,1.0,False
+GEN_LDAGBLZIWYMUFJ,NR-AR-LBD,0.008817985653877258,Androgen Receptor (Ligand Binding Domain),classification,-,0.0,1.0,False
+GEN_LDAGBLZIWYMUFJ,NR-AhR,0.922258198261261,Aryl Hydrocarbon Receptor,classification,-,0.0,1.0,False
+GEN_LDAGBLZIWYMUFJ,NR-Aromatase,0.46430644392967224,Aromatase,classification,-,0.0,1.0,False
+GEN_LDAGBLZIWYMUFJ,NR-ER,0.44975414872169495,Estrogen Receptor (Full Length),classification,-,0.0,1.0,False
+GEN_LDAGBLZIWYMUFJ,NR-ER-LBD,0.09030535817146301,Estrogen Receptor (Ligand Binding Domain),classification,-,0.0,1.0,False
+GEN_LDAGBLZIWYMUFJ,NR-PPAR-gamma,0.019885916262865067,Peroxisome Proliferator-Activated Receptor Gamma,classification,-,0.0,1.0,False
+GEN_LDAGBLZIWYMUFJ,SR-ARE,0.5862488746643066,Nuclear Factor (Erythroid-Derived 2)-Like 2/Antioxidant Responsive Element,classification,-,0.0,1.0,False
+GEN_LDAGBLZIWYMUFJ,SR-ATAD5,0.4071516990661621,ATPase Family AAA Domain-Containing Protein 5 (ATAD5),classification,-,0.0,1.0,False
+GEN_LDAGBLZIWYMUFJ,SR-HSE,0.09651078283786774,Heat Shock Factor Response Element,classification,-,0.0,1.0,False
+GEN_LDAGBLZIWYMUFJ,SR-MMP,0.6777246594429016,Mitochondrial Membrane Potential,classification,-,0.0,1.0,False
+GEN_LDAGBLZIWYMUFJ,SR-p53,0.20512330532073975,Tumor Protein p53,classification,-,0.0,1.0,False
+GEN_YUOYQOBVJWRGGY,HIA_Hou,0.9999971389770508,Human Intestinal Absorption,classification,-,0.0,1.0,False
+GEN_YUOYQOBVJWRGGY,Bioavailability_Ma,0.9042611122131348,Oral Bioavailability,classification,-,0.0,1.0,False
+GEN_YUOYQOBVJWRGGY,Solubility_AqSolDB,-4.472971439361572,Aqueous Solubility,regression,log(mol/L),-inf,inf,False
+GEN_YUOYQOBVJWRGGY,Lipophilicity_AstraZeneca,3.2849953174591064,Lipophilicity,regression,log-ratio,-inf,inf,False
+GEN_YUOYQOBVJWRGGY,HydrationFreeEnergy_FreeSolv,-7.802111625671387,Hydration Free Energy,regression,kcal/mol,-inf,inf,False
+GEN_YUOYQOBVJWRGGY,Caco2_Wang,-4.623046398162842,Cell Effective Permeability,regression,log(10^-6 cm/s),-inf,inf,False
+GEN_YUOYQOBVJWRGGY,PAMPA_NCATS,0.9691956639289856,PAMPA Permeability,classification,-,0.0,1.0,False
+GEN_YUOYQOBVJWRGGY,Pgp_Broccatelli,0.5031808614730835,P-glycoprotein Inhibition,classification,-,0.0,1.0,False
+GEN_YUOYQOBVJWRGGY,BBB_Martins,0.9198819398880005,Blood-Brain Barrier Penetration,classification,-,0.0,1.0,False
+GEN_YUOYQOBVJWRGGY,PPBR_AZ,92.00303649902344,Plasma Protein Binding Rate,regression,%,0.0,100.0,False
+GEN_YUOYQOBVJWRGGY,VDss_Lombardo,2.258679151535034,Volume of Distribution at Steady State,regression,L/kg,0.0,inf,False
+GEN_YUOYQOBVJWRGGY,Half_Life_Obach,21.857830047607422,Half Life,regression,hr,0.0,inf,False
+GEN_YUOYQOBVJWRGGY,Clearance_Hepatocyte_AZ,128.32656860351562,Drug Clearance (Hepatocyte),regression,uL/min/10^6 cells,0.0,inf,False
+GEN_YUOYQOBVJWRGGY,Clearance_Microsome_AZ,99.38951873779297,Drug Clearance (Microsome),regression,uL/min/mg,0.0,inf,False
+GEN_YUOYQOBVJWRGGY,CYP1A2_Veith,0.8035569190979004,CYP1A2 Inhibition,classification,-,0.0,1.0,False
+GEN_YUOYQOBVJWRGGY,CYP2C19_Veith,0.8311148881912231,CYP2C19 Inhibition,classification,-,0.0,1.0,False
+GEN_YUOYQOBVJWRGGY,CYP2C9_Veith,0.4164060652256012,CYP2C9 Inhibition,classification,-,0.0,1.0,False
+GEN_YUOYQOBVJWRGGY,CYP2D6_Veith,0.09789864718914032,CYP2D6 Inhibition,classification,-,0.0,1.0,False
+GEN_YUOYQOBVJWRGGY,CYP3A4_Veith,0.5841690301895142,CYP3A4 Inhibition,classification,-,0.0,1.0,False
+GEN_YUOYQOBVJWRGGY,CYP2C9_Substrate_CarbonMangels,0.20351561903953552,CYP2C9 Substrate,classification,-,0.0,1.0,False
+GEN_YUOYQOBVJWRGGY,CYP2D6_Substrate_CarbonMangels,0.22267043590545654,CYP2D6 Substrate,classification,-,0.0,1.0,False
+GEN_YUOYQOBVJWRGGY,CYP3A4_Substrate_CarbonMangels,0.6547978520393372,CYP3A4 Substrate,classification,-,0.0,1.0,False
+GEN_YUOYQOBVJWRGGY,hERG,0.603943943977356,hERG Blocking,classification,-,0.0,1.0,False
+GEN_YUOYQOBVJWRGGY,ClinTox,0.061497293412685394,Clinical Toxicity,classification,-,0.0,1.0,False
+GEN_YUOYQOBVJWRGGY,AMES,0.32608920335769653,Mutagenicity,classification,-,0.0,1.0,False
+GEN_YUOYQOBVJWRGGY,DILI,0.7539719939231873,Drug Induced Liver Injury,classification,-,0.0,1.0,False
+GEN_YUOYQOBVJWRGGY,Carcinogens_Lagunin,0.039959125220775604,Carcinogenicity,classification,-,0.0,1.0,False
+GEN_YUOYQOBVJWRGGY,LD50_Zhu,1.7700634002685547,Acute Toxicity LD50,regression,log(1/(mol/kg)),-inf,inf,False
+GEN_YUOYQOBVJWRGGY,Skin_Reaction,0.4226909279823303,Skin Reaction,classification,-,0.0,1.0,False
+GEN_YUOYQOBVJWRGGY,NR-AR,0.045813389122486115,Androgen Receptor (Full Length),classification,-,0.0,1.0,False
+GEN_YUOYQOBVJWRGGY,NR-AR-LBD,0.005452199373394251,Androgen Receptor (Ligand Binding Domain),classification,-,0.0,1.0,False
+GEN_YUOYQOBVJWRGGY,NR-AhR,0.38068851828575134,Aryl Hydrocarbon Receptor,classification,-,0.0,1.0,False
+GEN_YUOYQOBVJWRGGY,NR-Aromatase,0.13124099373817444,Aromatase,classification,-,0.0,1.0,False
+GEN_YUOYQOBVJWRGGY,NR-ER,0.21556201577186584,Estrogen Receptor (Full Length),classification,-,0.0,1.0,False
+GEN_YUOYQOBVJWRGGY,NR-ER-LBD,0.03622919321060181,Estrogen Receptor (Ligand Binding Domain),classification,-,0.0,1.0,False
+GEN_YUOYQOBVJWRGGY,NR-PPAR-gamma,0.010842138901352882,Peroxisome Proliferator-Activated Receptor Gamma,classification,-,0.0,1.0,False
+GEN_YUOYQOBVJWRGGY,SR-ARE,0.19577136635780334,Nuclear Factor (Erythroid-Derived 2)-Like 2/Antioxidant Responsive Element,classification,-,0.0,1.0,False
+GEN_YUOYQOBVJWRGGY,SR-ATAD5,0.06400536000728607,ATPase Family AAA Domain-Containing Protein 5 (ATAD5),classification,-,0.0,1.0,False
+GEN_YUOYQOBVJWRGGY,SR-HSE,0.03822004050016403,Heat Shock Factor Response Element,classification,-,0.0,1.0,False
+GEN_YUOYQOBVJWRGGY,SR-MMP,0.3371763527393341,Mitochondrial Membrane Potential,classification,-,0.0,1.0,False
+GEN_YUOYQOBVJWRGGY,SR-p53,0.040743835270404816,Tumor Protein p53,classification,-,0.0,1.0,False

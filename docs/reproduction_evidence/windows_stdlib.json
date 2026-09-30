@@ -1,0 +1,61 @@
+{
+  "status": "PASS",
+  "release_version": "attachments56-20261001",
+  "code_path": "releases/attachments56_20261001/code",
+  "code_manifest_sha256": "afd907d6d81ecbb1d2ede254127cb921e77a409cd55967a3c56f3d93ad92b41b",
+  "source_code_zip_sha256": "f8ad02077d56648bfa4e79a7bacac07a6ebcf6c480d98ee0c4a792a7b1d7f996",
+  "platform": "Windows",
+  "python": "3.12.10",
+  "scope": "frozen result readback and optional saved-source supplement rebuild",
+  "new_docking_training_or_MD": false,
+  "receptor_download_required": false,
+  "jobs": [
+    {
+      "name": "release_manifest",
+      "command": [
+        "python",
+        "-I",
+        "-B",
+        "verify_manifest.py"
+      ],
+      "exit_code": 0,
+      "seconds": 2.017
+    },
+    {
+      "name": "formal_results",
+      "command": [
+        "python",
+        "-I",
+        "-B",
+        "make_results.py",
+        "--output",
+        "<temporary-output>\\results.csv"
+      ],
+      "exit_code": 0,
+      "seconds": 2.028
+    }
+  ],
+  "result_comparisons": [
+    {
+      "file": "results.csv",
+      "expected_sha256": "478e0d624b158ef5e42a454ea412e3ca392fa694af1556a3d48587e6b170908c",
+      "actual_sha256": "478e0d624b158ef5e42a454ea412e3ca392fa694af1556a3d48587e6b170908c",
+      "identical": true
+    },
+    {
+      "file": "summary_metrics.csv",
+      "expected_sha256": "a9ecdcd9f4406293e5c58c4a004419c4259855a103308f9ded9b14c077635833",
+      "actual_sha256": "a9ecdcd9f4406293e5c58c4a004419c4259855a103308f9ded9b14c077635833",
+      "identical": true
+    },
+    {
+      "file": "r3_summary.csv",
+      "expected_sha256": "b4dde2f294b261a7cf7585593544ef78d8e04dc7413dcfb472175a6973f64403",
+      "actual_sha256": "b4dde2f294b261a7cf7585593544ef78d8e04dc7413dcfb472175a6973f64403",
+      "identical": true
+    }
+  ],
+  "code_files_checked": 4212,
+  "source_files_changed": [],
+  "seconds": 50.163
+}

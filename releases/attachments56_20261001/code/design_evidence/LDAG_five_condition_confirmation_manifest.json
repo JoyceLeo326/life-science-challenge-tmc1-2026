@@ -1,0 +1,23 @@
+{
+  "compound_id": "GEN_LDAGBLZIWYMUFJ",
+  "input_sha256": {
+    "external_source/exploratory16_actual_outcomes.csv": "cc8392c75387112cac3f6144fffa64b8852e7296726b2a1fb3081b491071d147",
+    "external_source/generated_hit_LDAG_confirmation_panel.csv": "fb293c8b8ed4d4b358a4fab9319cdb040637787f45bd4234f9e2e7e58aa53e2b",
+    "external_source/generated_hit_LDAG_confirmation_freeze.json": "07355204a54c84871f47950c2c38d67168080c4c3951447e17058f7364b56ec0",
+    "external_source/generated_LDAG_ALL_seed28_independent_qc.csv": "33bd7516b8cbd6027416fb68e5324c55259e34c1206791a5b8c1cea1cc6eca97",
+    "external_source/generated_LDAG_ALL_seed28_contacts.csv": "66f20a5ae3b4b24486ec84d3435c59fe3be9448e3f23faaaa1d7f99d41acfab3",
+    "external_source/generated_LDAG_ALL_seed29_independent_qc.csv": "f524146f6ad0609c3ea86e8f2e9e37a570dd8e49cfa169ff131b04425b52592b",
+    "external_source/generated_LDAG_ALL_seed29_contacts.csv": "4267d5677e742b00701fe53698756bc0edc5a2e15053d92d656629de4cb75244",
+    "external_source/generated_LDAG_M_CORE_seed27_independent_qc.csv": "640884f2aa5b6ce20df7a1e16a435c08cf6d2e39f9845458f573bd4308e22c92",
+    "external_source/generated_LDAG_M_CORE_seed27_contacts.csv": "72d7804bed25fba0f9e3007b57bcf380ba85946c4a227bbcb75856a6cab15133",
+    "external_source/generated_LDAG_H_AF_seed27_independent_qc.csv": "243b010256418fdf4777082e7723011e9bb063bb9bb8c5c6ca7e640e9901bcf6",
+    "external_source/generated_LDAG_H_AF_seed27_contacts.csv": "b38ebcba735ffae2ac1fe879fb1eb74996e874fad7a2e3ea1b9e12a094eba904"
+  },
+  "output_sha256": "759898a1ec390e895a569e4c36049a93234e3b4eb6ec3af1e09c9f638328263e",
+  "original_exploratory16_result_retained": true,
+  "all_independent_qc_pass": true,
+  "all_scores_below_old935_threshold": true,
+  "middle_contact_in_M_PUB_ALL_three_seeds": 2,
+  "M_PUB_ALL_seed_count": 3,
+  "interpretation": "Original exploratory16 one joint pass is preserved. Confirmation shows Middle contact in only 2 of 3 M_PUB_ALL seeds and no Middle contact in M_PUB_CORE despite favorable score; H_AF has contact. No robust same-site computational evidence or biological affinity/function/selectivity claim. Chemistry audit separately flags 10-member aromatic ring."
+}

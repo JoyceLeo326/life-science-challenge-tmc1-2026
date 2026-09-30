@@ -1,0 +1,170 @@
+{
+  "run_id": "pilot_selfies_5067",
+  "timestamp_utc": "2026-09-28T17:26:38.791786+00:00",
+  "method": "locally trained SELFIES single-layer GRU with structural-neighbor fine-tuning",
+  "not_pretrained": true,
+  "not_TMC1_affinity_conditioned": true,
+  "torch_version": "2.5.1+cpu",
+  "selfies_package_metadata_version": "2.2.0",
+  "selfies_runtime_version_reported": "2.1.1",
+  "rdkit_version": "2025.09.6",
+  "library_path": "external_source/library_5067_snapshot.csv",
+  "library_sha256": "b13b1be7fa0198e0c51dfcfe92912552c2c836ba9b591494c40223e5dbdda3d0",
+  "raw_input_rows": 5067,
+  "unique_structures_in_model_scope": 4983,
+  "smiles_augmented_examples": 0,
+  "base_training_structures": 4545,
+  "scaffold_heldout_structures": 438,
+  "focused_finetune_structures": 116,
+  "focused_similarity_threshold": 0.25,
+  "focused_examples_from_training_only": true,
+  "input_rejections": {
+    "element": 66,
+    "token_length": 18
+  },
+  "vocab_size": 61,
+  "model_parameters": 50893,
+  "architecture": {
+    "embedding": 48,
+    "hidden": 96,
+    "layers": 1
+  },
+  "base_optimizer": "Adam lr=0.002",
+  "focus_optimizer": "Adam lr=0.0005",
+  "base_history": [
+    {
+      "epoch": 1,
+      "train_token_loss": 2.27926,
+      "scaffold_heldout_token_loss": 1.82276,
+      "wall_seconds_cumulative": 9.3
+    },
+    {
+      "epoch": 2,
+      "train_token_loss": 1.69196,
+      "scaffold_heldout_token_loss": 1.60374,
+      "wall_seconds_cumulative": 12.5
+    },
+    {
+      "epoch": 3,
+      "train_token_loss": 1.53727,
+      "scaffold_heldout_token_loss": 1.48391,
+      "wall_seconds_cumulative": 15.8
+    },
+    {
+      "epoch": 4,
+      "train_token_loss": 1.44166,
+      "scaffold_heldout_token_loss": 1.40932,
+      "wall_seconds_cumulative": 19.0
+    },
+    {
+      "epoch": 5,
+      "train_token_loss": 1.37791,
+      "scaffold_heldout_token_loss": 1.35959,
+      "wall_seconds_cumulative": 22.0
+    },
+    {
+      "epoch": 6,
+      "train_token_loss": 1.3287,
+      "scaffold_heldout_token_loss": 1.33488,
+      "wall_seconds_cumulative": 25.0
+    },
+    {
+      "epoch": 7,
+      "train_token_loss": 1.29199,
+      "scaffold_heldout_token_loss": 1.29419,
+      "wall_seconds_cumulative": 28.0
+    },
+    {
+      "epoch": 8,
+      "train_token_loss": 1.25873,
+      "scaffold_heldout_token_loss": 1.26851,
+      "wall_seconds_cumulative": 31.1
+    },
+    {
+      "epoch": 9,
+      "train_token_loss": 1.23194,
+      "scaffold_heldout_token_loss": 1.2565,
+      "wall_seconds_cumulative": 34.3
+    },
+    {
+      "epoch": 10,
+      "train_token_loss": 1.20892,
+      "scaffold_heldout_token_loss": 1.25014,
+      "wall_seconds_cumulative": 37.5
+    }
+  ],
+  "focused_history": [
+    {
+      "epoch": 11,
+      "train_token_loss": 1.23658,
+      "scaffold_heldout_token_loss": 1.23733,
+      "wall_seconds_cumulative": 106.3
+    },
+    {
+      "epoch": 12,
+      "train_token_loss": 1.19764,
+      "scaffold_heldout_token_loss": 1.24726,
+      "wall_seconds_cumulative": 106.5
+    },
+    {
+      "epoch": 13,
+      "train_token_loss": 1.17398,
+      "scaffold_heldout_token_loss": 1.25527,
+      "wall_seconds_cumulative": 106.7
+    }
+  ],
+  "seed_training": 20260929,
+  "seed_sample_base": 20260930,
+  "seed_sample_focused": 20260931,
+  "temperature": 0.85,
+  "sample_max_tokens": 140,
+  "sample_requested_each_model": 10000,
+  "base_weights_path": "external_source/base_model_state.pt",
+  "base_weights_sha256": "18c98b2d42568a8e065c406fe2b3e26757077337bad374c8c93f748f00955721",
+  "focused_weights_path": "external_source/focused_model_state.pt",
+  "focused_weights_sha256": "9317255b73ba07bd62e696e03f7ab436944877142ef669cb14c13ac1bf81aa6d",
+  "base_result": {
+    "raw_path": "external_source/base_raw_generated.csv.gz",
+    "raw_sha256": "d65aa6ad6023e299a9c6dab6414efa5191e85b0bd52a496410f9877419cfb690",
+    "sample_counts": {
+      "valid_samples": 10000,
+      "unique_valid": 9961,
+      "constraint_excluded": 9527,
+      "property_and_alert_pass": 1492,
+      "eligible": 434,
+      "duplicate_generated": 39
+    },
+    "similarity_yield_after_properties": {
+      "0.15": 434,
+      "0.18": 87,
+      "0.2": 26,
+      "0.22": 6,
+      "0.25": 1
+    },
+    "eligible": 434,
+    "fixed_diverse": 150
+  },
+  "focused_result": {
+    "raw_path": "external_source/focused_raw_generated.csv.gz",
+    "raw_sha256": "87abe88fa697daa7a6e495841c81a63391b88191e04011f91feb0a84a99d3220",
+    "sample_counts": {
+      "valid_samples": 10000,
+      "unique_valid": 9958,
+      "constraint_excluded": 9572,
+      "property_and_alert_pass": 986,
+      "eligible": 386,
+      "duplicate_generated": 42
+    },
+    "similarity_yield_after_properties": {
+      "0.15": 386,
+      "0.18": 90,
+      "0.2": 31,
+      "0.22": 7,
+      "0.25": 2
+    },
+    "eligible": 386,
+    "fixed_diverse": 150
+  },
+  "wall_seconds": 201.1,
+  "selection_note": "post-sampling physicochemical/PAINS/Brenk filters; nearest first-round similarity 0.15-0.80 is exploratory, not a parent-child synthetic lineage; <=2 per scaffold, pairwise ECFP4 <=0.7; no docking scores used"
+}

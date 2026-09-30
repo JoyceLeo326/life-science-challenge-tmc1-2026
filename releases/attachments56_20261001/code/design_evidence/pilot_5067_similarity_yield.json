@@ -1,0 +1,14 @@
+{
+  "run": "pilot_5067_e10",
+  "eligible_ignoring_similarity": 410,
+  "counts_by_minimum_ecfp4_similarity": {
+    "0.0": 410,
+    "0.1": 398,
+    "0.15": 253,
+    "0.18": 90,
+    "0.2": 39,
+    "0.22": 21,
+    "0.25": 6
+  },
+  "method": "same structural constraints, ignoring only parent similarity threshold"
+}

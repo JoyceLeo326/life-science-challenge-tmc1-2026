@@ -1,0 +1,40 @@
+{
+  "frozen_utc": "2026-09-30T13:54:29.544390+00:00",
+  "run_script_sha256": "f9bda8c451c8d0d62a6ed6b8e6edbfdc3b7a5f80f63d509d4e90c817137639ff",
+  "protocol_sha256": "b66fe974a157dbbfd3d33ae8fe0f1931ac93526aea63b4857ee247f3e52e07fe",
+  "official_reference_sha256": "8e1d09bd83e00592855354862960486105706dc4643ae5361500e1e68a1c3169",
+  "inputs": [
+    {
+      "id": "H_AF_domain",
+      "sha256": "93572ba54235e6e338205e6272d81093d5c938ba21594a676b029fa8dd5a8044",
+      "selection": [
+        183,
+        734
+      ]
+    },
+    {
+      "id": "H_AF_full_chainA",
+      "sha256": "93572ba54235e6e338205e6272d81093d5c938ba21594a676b029fa8dd5a8044",
+      "selection": [
+        1,
+        760
+      ]
+    },
+    {
+      "id": "M_PUB_ALL_domain",
+      "sha256": "a0c2c7b07eb3a4939397ffb104d0d8b8bdc5ef4ab9b7af732deef03944385baa",
+      "selection": [
+        177,
+        731
+      ]
+    },
+    {
+      "id": "M_PUB_ALL_full_chainA",
+      "sha256": "a0c2c7b07eb3a4939397ffb104d0d8b8bdc5ef4ab9b7af732deef03944385baa",
+      "selection": [
+        81,
+        746
+      ]
+    }
+  ]
+}

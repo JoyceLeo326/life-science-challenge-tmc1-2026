@@ -1,0 +1,86 @@
+{
+  "BROWSER_PLAYBACK_CHECK.json": {
+    "bytes": 762,
+    "sha256": "f9ad4ccdf845e7cfb13c925173a4c9aad3e797ec4eab620fe4e9cd7bc63d54d9"
+  },
+  "CORE_BINDING_TO_UPDATED_CODE.json": {
+    "bytes": 1553,
+    "sha256": "0c0d97368243f6dfcf95fbf481a768f9b9b9d56072c58829fb38df8cb8b70af3"
+  },
+  "frames/browser_playback.png": {
+    "bytes": 564034,
+    "sha256": "3623fe98d4a7f39f5a620e462c505fda58dbb954f289e5ce580a87fb43ff8610"
+  },
+  "frames/demo_results.png": {
+    "bytes": 565088,
+    "sha256": "a7eb7b0a1fe11f0d4519733272d399641f296178e59b1c80c6d8b2a84ef31931"
+  },
+  "frames/example.png": {
+    "bytes": 421251,
+    "sha256": "70c62e60317f49c4577d0ab9ec53dea61ce28c70820ceca91ee5a5bdc27d9fba"
+  },
+  "frames/finish.png": {
+    "bytes": 495423,
+    "sha256": "2f2019824c83de22aa58511e00387dac5ee924f810440e532a6db9acd30471a1"
+  },
+  "frames/formal.png": {
+    "bytes": 353793,
+    "sha256": "30c1055c8894594ab21906ec3e0720589793595c94ae3d9aae57c43f130c167b"
+  },
+  "frames/formal_complete.png": {
+    "bytes": 791983,
+    "sha256": "655b0fc617f0642ab1b6bedc02609cb59f08e3d5e99410008247c2978c50339f"
+  },
+  "frames/intro.png": {
+    "bytes": 586354,
+    "sha256": "aa13d6faa56d8c28a9aeefa7ccf58e8361bf4466a1652c59b421320bb6e16f2e"
+  },
+  "frames/results.png": {
+    "bytes": 572045,
+    "sha256": "1e12dd40524335046dbc64e4e6da39e9658a9eb9df0ab1ff88f054901529fa08"
+  },
+  "frames/running_30.png": {
+    "bytes": 469992,
+    "sha256": "246a38ffc7aa3060815486e52844d10569f0367c6c6ae4d0b7d7226b1fba08e7"
+  },
+  "frames/running_45.png": {
+    "bytes": 507205,
+    "sha256": "1e3fbd8866c7d38a168f12eec317b07ec0e5b8214500e2d4f5f7cec19585d4fb"
+  },
+  "frames/running_53.png": {
+    "bytes": 483376,
+    "sha256": "64f2d07c4df0897c98b1eb61a7ee2684f2eb9cf25935f279f64f620f8bad92dd"
+  },
+  "frames/running_94.png": {
+    "bytes": 622707,
+    "sha256": "6813e4af111267b7997fc3e48713b08948ea43feaaa6808e380c9e2dc50fbdc6"
+  },
+  "frames/training_complete.png": {
+    "bytes": 531014,
+    "sha256": "ff7eed8e583574f6eba2405d21e92bb10fa79a712814b76b86daf7d7c3100ab8"
+  },
+  "READY.json": {
+    "bytes": 740,
+    "sha256": "bde3ca5f0e60fc016e8c2ddabcf2999ff1ce26849111e8ca2b45fe7d1f4fb702"
+  },
+  "RECORDING_RECEIPT.json": {
+    "bytes": 2786,
+    "sha256": "6aa3931d253d94f9e244acb3b6238df4232070d66be1c338adc7f78b7bdd5759"
+  },
+  "VISUAL_ACCEPTANCE.json": {
+    "bytes": 3953,
+    "sha256": "3de1eb1548ca5246c55db13459cb6ea58b325d133b34df60c905fb895944979b"
+  },
+  "人工配音稿.md": {
+    "bytes": 1902,
+    "sha256": "7c2204fd885471c55db9eca3185f0340aee34c005a7b1eb31debdb20954f947c"
+  },
+  "录屏说明.md": {
+    "bytes": 2642,
+    "sha256": "43a4bf5c1dafd5461584bb4ff9e3ff59012b7a0dcc98260f0de93e7ff5dd5f3c"
+  },
+  "靶向TMC1机械转导通道的小分子变构调节剂AI辅助筛选——用于Usher综合征1B的听力代偿保护策略代码运行录屏（区赛）.mp4": {
+    "bytes": 8494463,
+    "sha256": "c7ca6128681dfaf72e6d9cf3454f1f83cad08d2c86f7c030aceb2248d5667bb7"
+  }
+}

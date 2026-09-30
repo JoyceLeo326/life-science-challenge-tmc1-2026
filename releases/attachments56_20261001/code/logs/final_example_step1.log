@@ -1,0 +1,2 @@
+{"epoch": 1, "train_token_loss": 1.83942, "val_token_loss": 1.40245, "wall_seconds_cumulative": 6.4}
+{"run_id": "example_smiles", "training_molecules": 1846, "heldout_scaffold_molecules": 169, "model_parameters": 46978, "sample_counts": {"invalid_smiles": 32}, "unique_eligible": 0, "fixed_diverse_list": 0, "wall_seconds": 6.5}

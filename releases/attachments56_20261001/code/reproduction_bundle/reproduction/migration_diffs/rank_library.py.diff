@@ -1,0 +1,23 @@
+--- scientific_source/03_compute/method/rank_library.py
++++ published/03_compute/method/rank_library.py
+@@ -14,9 +14,10 @@
+ from collections import Counter
+ from datetime import datetime, timezone
+ from pathlib import Path
++from portable_config import required_path
+ 
+ HERE = Path(__file__).resolve().parent
+-sys.path.insert(0, str(HERE / "vendor"))
++
+ import numpy as np
+ from rdkit import Chem, DataStructs, rdBase
+ from rdkit.Chem import Descriptors, rdFingerprintGenerator
+@@ -26,7 +27,7 @@
+ from sklearn.linear_model import Ridge
+ from chemistry_rules import exchangeable_n_indices, unspecified_potential_stereo, RULE_VERSION
+ 
+-FIRST = Path(r"[original R1 research root]")
++FIRST = required_path("TMC1_R1_ROOT")
+ LABELS = FIRST / "coarse_v1/analysis/job_audit_join.csv"
+ OLD_LIB = FIRST / "coarse_v1/inputs/library/selected_candidates.csv"
+ SEED = 20260929

@@ -1,0 +1,21 @@
+{
+  "release_tag": "attachments56-20261001",
+  "release_url": "https://github.com/JoyceLeo326/life-science-challenge-tmc1-2026/releases/tag/attachments56-20261001",
+  "assets": [
+    {
+      "name": "TMC1_Formal_Code_Attachments56_20261001.zip",
+      "bytes": 68078038,
+      "sha256": "f8ad02077d56648bfa4e79a7bacac07a6ebcf6c480d98ee0c4a792a7b1d7f996",
+      "url": "https://github.com/JoyceLeo326/life-science-challenge-tmc1-2026/releases/download/attachments56-20261001/TMC1_Formal_Code_Attachments56_20261001.zip",
+      "scope": "Complete standalone code package; exact frozen official code bytes."
+    },
+    {
+      "name": "TMC1_Materials_Figures_Attachments56_20261001.zip",
+      "bytes": 42877509,
+      "sha256": "6a988ad5b9b63fcd78b31c4a2ad3bde58955991ef182d318456601b9245ca237",
+      "url": "https://github.com/JoyceLeo326/life-science-challenge-tmc1-2026/releases/download/attachments56-20261001/TMC1_Materials_Figures_Attachments56_20261001.zip",
+      "scope": "Full presentation, reports, figures and sources; public metadata correction only."
+    }
+  ],
+  "archive_policy": "ZIP downloads are attached to the release, not duplicated in the Git tree."
+}

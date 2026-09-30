@@ -1,0 +1,530 @@
+[
+  {
+    "path": "design_evidence/actual_parent_product_comparison.csv",
+    "original_sha256": "758f4c230f4e75c28788b96a4356d273f13c09d80baa5149d291305b26ea96be",
+    "publication_sha256": "7824ee80484a419cdaa1cd6c5a8132599c1b3c1130dac231571e608db2036fb0",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  },
+  {
+    "path": "design_evidence/actual_parent_product_comparison_manifest.json",
+    "original_sha256": "3b6b45e44a6421144857262ce3980feb450fb4d9e67afd338bc59ebc516eec2b",
+    "publication_sha256": "3b6b45e44a6421144857262ce3980feb450fb4d9e67afd338bc59ebc516eec2b",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  },
+  {
+    "path": "design_evidence/designs.csv",
+    "original_sha256": "38e41ea3b80ac888305aaecf21b7a8ae6640843b4852c29160bd758480037ed3",
+    "publication_sha256": "585331bd736356b6bf5a1692a4fbe113ef754824f89da98d77558ff74a6f078b",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  },
+  {
+    "path": "design_evidence/design_constraints_all.csv",
+    "original_sha256": "2a46fc4c47441b6773cc95c72311d4ff1b7e6ea1399b79657d83bdf853629f9b",
+    "publication_sha256": "29ae0423e2ef9fa8c7c36511dd3d8faef55e0d296aecdf60111ffa6fd950a27f",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  },
+  {
+    "path": "design_evidence/evidence_manifest.csv",
+    "original_sha256": "1890c1212e2b35afc4571fea8721ad4c8cb84a9095c35fe3c28680f81cfdc1dc",
+    "publication_sha256": "88a4c3b06d0e127c8ad2d5cf7114b89cd2cf503ebef2cf3c53d2a436a674dc9c",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  },
+  {
+    "path": "design_evidence/exploratory12_proxy_guided_all_predictions.csv",
+    "original_sha256": "49f39d22df2ffc5c578799324a5b60bd33336e1ba36fae22e1132f2c67a13d96",
+    "publication_sha256": "0a73aeb14cf57176c1c81dd1895ac6de6f3e662745b53417cd8613494b011067",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  },
+  {
+    "path": "design_evidence/exploratory12_proxy_guided_fixed_list.csv",
+    "original_sha256": "702540fa55016cc36906853c42f84c4ba0e316a7fae0ca80101c20597a7292c1",
+    "publication_sha256": "957819dc726411ac445f4384253ee83982b655ff92b5de16274a5f4db32eb87c",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  },
+  {
+    "path": "design_evidence/exploratory12_proxy_guided_freeze.json",
+    "original_sha256": "a8d4850a1a049396ed653e2b704776c71248950bf19b5af424955fad73b90295",
+    "publication_sha256": "e4170172f7052052ee1ed2ef7928012a79fcfc5cfd647a08919c8e3bd5a9cee7",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  },
+  {
+    "path": "design_evidence/exploratory16_actual_outcomes.csv",
+    "original_sha256": "cc8392c75387112cac3f6144fffa64b8852e7296726b2a1fb3081b491071d147",
+    "publication_sha256": "093d9b48561e09452a782a6fa819b0add9002716a68da9b24f68fb620715b9a2",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  },
+  {
+    "path": "design_evidence/exploratory16_actual_outcomes_manifest.json",
+    "original_sha256": "cd831850b44dc1c9de0143f7a8b68b5fd7ca759a29c67dcb20d4bbfabb0abff3",
+    "publication_sha256": "cd831850b44dc1c9de0143f7a8b68b5fd7ca759a29c67dcb20d4bbfabb0abff3",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  },
+  {
+    "path": "design_evidence/exploratory16_docking_fixed_list.csv",
+    "original_sha256": "c97d139dae375e925ab6d672c0fc6226cac72d0d027cd6443e82e533e4bcc176",
+    "publication_sha256": "fea8150bea2351c12a620e6c34b77faa138c94a4840dd5bd0358c24a4fe5d331",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  },
+  {
+    "path": "design_evidence/exploratory16_predicted_vs_actual_manifest.json",
+    "original_sha256": "683f8c0dc53bc8379bba314d503d18cdfaff3bd882ce9ea5ca0e5696fda59f12",
+    "publication_sha256": "f5a34947b7f03062a16ffe7b9070e38bbe635665f91de2b7c7c6c36b8ed6f039",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  },
+  {
+    "path": "design_evidence/exploratory4_matched_control_fixed_list.csv",
+    "original_sha256": "51dd891864d3ee2e91113234c4f1303c560500a40543ed915c0506c99f25ab55",
+    "publication_sha256": "de1baf826882e68ec78abfe59f6f2789f378d3dd29e750ac83473a36c33515d1",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  },
+  {
+    "path": "design_evidence/final_generated40_actual_outcomes.csv",
+    "original_sha256": "adb45ead6c538530d537355f870f186414617e681d7face9f549e3d6dcdd34ed",
+    "publication_sha256": "4956c1cf38f6a9ea9eda572117e338a90b25dea3afdc86c86b7152caf72aeabd",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  },
+  {
+    "path": "design_evidence/final_generated40_actual_outcomes_manifest.json",
+    "original_sha256": "41357a1c9ff1d32fa91e55ee8d97e778b438b86676b4f8e7f655cedb44167374",
+    "publication_sha256": "41357a1c9ff1d32fa91e55ee8d97e778b438b86676b4f8e7f655cedb44167374",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  },
+  {
+    "path": "design_evidence/final_generated40_funnel_data.csv",
+    "original_sha256": "07b14f99c862afc6217251cf878a8374875e5dd6134b55e8c1717ff30a26d19c",
+    "publication_sha256": "52fe208290201a93bacb2cc8a32c3a0aefa84d9f494c2abca0d27560ee5b08ff",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  },
+  {
+    "path": "design_evidence/final_selfies_17645_base_all_eligible.csv",
+    "original_sha256": "43969cefd66f814d1387f395a5b631b8f8c97268bc0d247730d752e6e4250ac2",
+    "publication_sha256": "17c932ba246e957a974e3204cbcfce5df0695acf80359553d8f94deaf17f3af5",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  },
+  {
+    "path": "design_evidence/final_selfies_17645_base_fixed_list.csv",
+    "original_sha256": "216154bbf19119220da773ca75b9c2b0cbb1b2b8b2891099fcdeaff1cde56192",
+    "publication_sha256": "354db3f8971e783367cc7d2b01ba7b8a449066c02e3326f5f622bd123756266a",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  },
+  {
+    "path": "design_evidence/final_selfies_17645_manifest.json",
+    "original_sha256": "597e5539677ef06bb2d21b3ddf683710ae1db021af5a62b9f2e18388e68365a9",
+    "publication_sha256": "9007fcbfc45ef651bfbb8cd22345cd6769b7cf3e27ed106d2aa9d7d7e76f6cd0",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  },
+  {
+    "path": "design_evidence/fixed_docking_list.csv",
+    "original_sha256": "257a5e4727008066b638fdbf576ff359acafd2f61f685724516b49578a49d5aa",
+    "publication_sha256": "19a23a081c44268d4ef2052ab915b53fd9adb9329ef1118b9a403f98768dfe0e",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  },
+  {
+    "path": "design_evidence/generator_pilot_identity_safe_funnel.csv",
+    "original_sha256": "a8cdd739ddbba0b952ae530d6d9a728fd725a0ae20614d2683c90a44273c9873",
+    "publication_sha256": "0d397904426a0d1b404cc89a0624593586fb5e887886687501a19fc8c9adc640",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  },
+  {
+    "path": "design_evidence/generator_pilot_same_budget_comparison.csv",
+    "original_sha256": "c02b8f876157822c39d8c10d7e24b03823d33c2013c45dba5f22bb3cc4ef27a0",
+    "publication_sha256": "013a2af53ba17652f62feb62a6ce04e2c57355a8407bebbce337dd5806ee63ef",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  },
+  {
+    "path": "design_evidence/generator_pilot_same_budget_comparison_v0_pre_identity_gate.csv",
+    "original_sha256": "609a2046e2931bdd075934e120eedeedaaa96115338943d105d0c970b5272bc9",
+    "publication_sha256": "b9cee94c45a799356beffdaef4cca3a0abcc3ce1fbe8e7846528699f5c885f1b",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  },
+  {
+    "path": "design_evidence/JMW_LDAG_exact_structures_2D_manifest.json",
+    "original_sha256": "7245a77b4717a0d71328a348db928ea00c4422b8b9eabd1a635dd8ac2b6911ed",
+    "publication_sha256": "c9881f8b1350974038ca1431797f23cbd087fee806c5acabb15c03f2b62db01c",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  },
+  {
+    "path": "design_evidence/JMW_Lumacaftor_condition_pairs_manifest.json",
+    "original_sha256": "faaa02c205cd3f136222637c1d30fadf077b8cc2fa125eea60345733e279e52d",
+    "publication_sha256": "3336703abec5ed28d0a2700be3206256ab60fa6eb943461d9dfbdce61f96aa5f",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  },
+  {
+    "path": "design_evidence/JMW_Lumacaftor_four_condition_pairs.csv",
+    "original_sha256": "fb08c84a87dc13f658301ff3e2390cf3898f26dbd747d552b79ff244b7b68d0c",
+    "publication_sha256": "914291bc29900e8650541fdd3be5e45e678cd9b21988e0bc971b18fdc1d06d99",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  },
+  {
+    "path": "design_evidence/JMW_Lumacaftor_three_receptor_seed27.csv",
+    "original_sha256": "87a2d1255844966b4cda5d862ab99c17375fa4444dc5d46502230859c984e54a",
+    "publication_sha256": "90943274c4c036c3e9d737e2d039f0b36020f4e94b08bb5dc052059b483eca24",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  },
+  {
+    "path": "design_evidence/JMW_Lumacaftor_three_receptor_seed27_manifest.json",
+    "original_sha256": "ae2d7f17e2f1ee6b395189d077744984cd718aa9381d0cc8781fa39e3fd88583",
+    "publication_sha256": "ad174d1d07f18f5f3bb124d183ffa49524f05edf9dab1da5ca87c3e6b27e3e3d",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  },
+  {
+    "path": "design_evidence/LDAG_five_condition_confirmation.csv",
+    "original_sha256": "759898a1ec390e895a569e4c36049a93234e3b4eb6ec3af1e09c9f638328263e",
+    "publication_sha256": "0150f6a924dc10fe5c095aea91ea5e845de610ab1c11a446cece7c84697cfce7",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  },
+  {
+    "path": "design_evidence/LDAG_five_condition_confirmation_manifest.json",
+    "original_sha256": "a38834f005db209b76d8bda3c210fb6ac18bf7cccb47222a42e9d8ea1499d00d",
+    "publication_sha256": "fe28944a689ecffcb8f40bd39dcff8decddb681c390d73bf21f135b91b14fde6",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  },
+  {
+    "path": "design_evidence/parent_product_comparison_data.csv",
+    "original_sha256": "779914df8099b42e2d4418ca56533dd72daede46e86f1378c1631530d727760e",
+    "publication_sha256": "f2fcf553f94f67847cfdedd3be8dc2f55814afdd2b91a24f750b7f17618c0241",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  },
+  {
+    "path": "design_evidence/pilot_5067_e10_all_eligible.csv",
+    "original_sha256": "9aa47d4e130eef725d765ad6d18153d7b91ccff3e39bb1dd05d0c3c51d707f7f",
+    "publication_sha256": "e97a6b6c381616d1e340ae5bde6221186b80dc2a6df7b21d71fc9bd91ea7f05a",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  },
+  {
+    "path": "design_evidence/pilot_5067_e10_fixed_list.csv",
+    "original_sha256": "9aa47d4e130eef725d765ad6d18153d7b91ccff3e39bb1dd05d0c3c51d707f7f",
+    "publication_sha256": "e97a6b6c381616d1e340ae5bde6221186b80dc2a6df7b21d71fc9bd91ea7f05a",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  },
+  {
+    "path": "design_evidence/pilot_5067_e10_manifest.json",
+    "original_sha256": "1841f661a82c8bc47112e812bb6012ebd7031a96f8e2c7ea8ce57fb32aba98c7",
+    "publication_sha256": "ea9af2b5f650ea741385e2ce02ee4588fd8725558043d54c769f42b05f91d6ab",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  },
+  {
+    "path": "design_evidence/pilot_5067_neighbor_availability.json",
+    "original_sha256": "69ba9acdd6ad6bc8830bca78bd70aabf613515a978e90aad1943f3a32600211c",
+    "publication_sha256": "ec7be848a9f0717edde3e0ce0690dc28af343d124520a45b1fde4ca6e07e50d2",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  },
+  {
+    "path": "design_evidence/pilot_5067_similarity_yield.json",
+    "original_sha256": "ea23cb465cfc88ead806b156264bd0f1298daf3798cc4a8857b909e44ccf32de",
+    "publication_sha256": "ea23cb465cfc88ead806b156264bd0f1298daf3798cc4a8857b909e44ccf32de",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  },
+  {
+    "path": "design_evidence/pilot_971_e10_all_eligible.csv",
+    "original_sha256": "35ad819b1e050f2c7dc1ac94342d257ee297c95fc61f4f829a022de302d214e0",
+    "publication_sha256": "35ad819b1e050f2c7dc1ac94342d257ee297c95fc61f4f829a022de302d214e0",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  },
+  {
+    "path": "design_evidence/pilot_971_e10_fixed_list.csv",
+    "original_sha256": "35ad819b1e050f2c7dc1ac94342d257ee297c95fc61f4f829a022de302d214e0",
+    "publication_sha256": "35ad819b1e050f2c7dc1ac94342d257ee297c95fc61f4f829a022de302d214e0",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  },
+  {
+    "path": "design_evidence/pilot_971_e10_manifest.json",
+    "original_sha256": "7d01fbd99d0ca0555282c4a34fb15ae2ba6259292d5cb4f16e2d79afdc12bd36",
+    "publication_sha256": "2085707c9713e90f377f278deacb521f823588cc9d478ac6ace3c8ddd76eb6cb",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  },
+  {
+    "path": "design_evidence/pilot_identity_gate_decision.json",
+    "original_sha256": "e0759af6ff2e93555ff6c92b16eec0c38f7505af0248fe547196b90df01ab75d",
+    "publication_sha256": "e0759af6ff2e93555ff6c92b16eec0c38f7505af0248fe547196b90df01ab75d",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  },
+  {
+    "path": "design_evidence/pilot_selfies_5067_base_all_eligible.csv",
+    "original_sha256": "b26bba2b44c57bd321384f7cd22ba5b158ee7536112d32b2e6aaaf2e45bb4d72",
+    "publication_sha256": "04852f93b1c11a663bf177ba8462b4a8c35269152ce4113b55abd6fb47a33c4e",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  },
+  {
+    "path": "design_evidence/pilot_selfies_5067_base_fixed_list.csv",
+    "original_sha256": "2fb293f2651eb7195163b54832ab1f3a561c9a1f92a1ed1422ff5aaa2243f1a5",
+    "publication_sha256": "73d0b15a8717ceee0cae8e86125727d511e7acef557a30d2abc37fbb18a3c312",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  },
+  {
+    "path": "design_evidence/pilot_selfies_5067_base_fixed_list_v0_superseded.csv",
+    "original_sha256": "73ea08d5ac66a3a11591437e58ed9dbb3f751228ac4cb2c1f55bd641858f9e95",
+    "publication_sha256": "661bac04a0c149fa00cc306a9ac4c555650e844672e930273cce4bdb193d640f",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  },
+  {
+    "path": "design_evidence/pilot_selfies_5067_focused_all_eligible.csv",
+    "original_sha256": "648b8d9590b9d6e7e9356689ac6e87e6454906accf3cdf0fbdc3d9c4908ab28e",
+    "publication_sha256": "b06d4e272bf50735e9eebe9dd125f0b0b288b16c797d15c42e45ceea7da042d8",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  },
+  {
+    "path": "design_evidence/pilot_selfies_5067_focused_fixed_list.csv",
+    "original_sha256": "610277d66761e5f1dd2560ef2b01c96ae20a2fae9c7ebb90927b0a6806f2d6ea",
+    "publication_sha256": "90b5d942eb21cbddf6e02f73db8ec729c0e79e6f79fa04756ad2fdc143620f6c",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  },
+  {
+    "path": "design_evidence/pilot_selfies_5067_focused_fixed_list_v0_superseded.csv",
+    "original_sha256": "a2c75601fbee27eb7292e52adee4b7d85d28bcedc7bfc117ea18e11f1ac47c18",
+    "publication_sha256": "ce0ac9b2d735a827f0bb9e91a439d0976b4e5d1370111d7d1c37748010b2840e",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  },
+  {
+    "path": "design_evidence/pilot_selfies_5067_manifest.json",
+    "original_sha256": "150155899b32a03d1e33564c18a8ac0a67bad6b7e9f401ca2cb7a73c130b4c72",
+    "publication_sha256": "00b500450a4000c6543ed3a2179b1cb5e87152984ee3537a88bba3aed4c24f10",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  },
+  {
+    "path": "design_evidence/public_identity_lookup_fixed.csv",
+    "original_sha256": "72c4971971c9d9fa895af96dcbf6da3112b575862a3eb96a79acee2a39a32cf6",
+    "publication_sha256": "b0276b18f1bfbf0dcac86a84cd212d3f9d24e4c370dbb9425372803fdb93a177",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  },
+  {
+    "path": "design_evidence/run_manifest.json",
+    "original_sha256": "b54860fed8ebf2d0f31181c8d3a35770060c9b2d859cd9b7e4c7c82ecc036e33",
+    "publication_sha256": "0d4354ce8f3d14fd8e06bad17af7e81894866fbc6e0811bbe1a6a25688d44bf1",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  },
+  {
+    "path": "design_evidence/sdf_generation_log.csv",
+    "original_sha256": "bb8c0a8cccd9ac6c2cf601189355dadd5311704435df54cf3f87babd7816b1ea",
+    "publication_sha256": "247cacda7b738fdc9ab2190f8a0a363d634c71da048636e77a5a3c4f1bcd8255",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  },
+  {
+    "path": "design_evidence/selection_decisions.csv",
+    "original_sha256": "f28d59b35763ea35f875a4f0de45a66778fce5e229ae160b93cc6f4ae0fd3b3a",
+    "publication_sha256": "89153bcbe29077ed9506046165a5f589bcbe8db9b1e1116a2c436277e73e3811",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  },
+  {
+    "path": "design_evidence/transformation_log.csv",
+    "original_sha256": "fbc0adb855fa6b1c9500be491a8dbf57094d2c7ce00cf7f61b54720a1e895d08",
+    "publication_sha256": "1d5a5418e4251d023dd24432205e9057f4908243e727a501cb68ef201401cd65",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  },
+  {
+    "path": "design_evidence/TWT_three_seed_parent_product_sensitivity.csv",
+    "original_sha256": "75ff2aba76189050bcc64f10d9935ba5ec2f302d9fc035316e577a27d870348a",
+    "publication_sha256": "dcf075d55e3593242a49d9f4dbca3219cbc02c7f7a8aee80781c4181be083024",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  },
+  {
+    "path": "design_evidence/TWT_three_seed_parent_product_sensitivity_manifest.json",
+    "original_sha256": "d62feac28c47e829c2ab79f52630b464e8a1892f019eef8d41ad67776de46d7c",
+    "publication_sha256": "d62feac28c47e829c2ab79f52630b464e8a1892f019eef8d41ad67776de46d7c",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  },
+  {
+    "path": "design_independent_audit/design40_full_independent_qc.csv",
+    "original_sha256": "76e99ce2add23df8b2aa000b0ffbae9a1d6d3c66c73a7e02443dd03bc5178134",
+    "publication_sha256": "c3594c32205aac841684b3840c29e0e78ebbbdfe854f5cd4f8f0c7738411ad50",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  },
+  {
+    "path": "design_independent_audit/design40_full_independent_qc_summary.json",
+    "original_sha256": "ebf9a664dcff0275dbe2b6b10eec92462b3e573d550c7b192dcdad6e758de95a",
+    "publication_sha256": "ebf9a664dcff0275dbe2b6b10eec92462b3e573d550c7b192dcdad6e758de95a",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  },
+  {
+    "path": "design_independent_audit/design40_job_independent_qc.csv",
+    "original_sha256": "195dc7415117da05f741dad8470ce0ab926101d8daa8e66af7ee7c32d6fa8bf7",
+    "publication_sha256": "15e4cfbbe7ba304c1de2160a303f703bc37fac4a423e0f7da43b602b0f9c4896",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  },
+  {
+    "path": "design_independent_audit/design40_job_independent_qc_summary.json",
+    "original_sha256": "6f23f324329cd3db2e2c902dd0c5bde0f5c7d344195570d8b48a008d891c5d8f",
+    "publication_sha256": "6f23f324329cd3db2e2c902dd0c5bde0f5c7d344195570d8b48a008d891c5d8f",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  },
+  {
+    "path": "design_independent_audit/design40_pose_region_contacts.csv",
+    "original_sha256": "63ae5e6bbd0458768c4ea445cb57338f8df0ba74e8a3c3f246aafbd540ee9861",
+    "publication_sha256": "5173272860a60af8bc87302c29174c4a6e813617f7afee07b9b8ab2291d12569",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  },
+  {
+    "path": "design_independent_audit/design40_provenance_independent_audit.json",
+    "original_sha256": "be4ffa60b2e213d42b00d72cc3037a07ab4dca23f08bd9bfcb9325f4a05a590e",
+    "publication_sha256": "be4ffa60b2e213d42b00d72cc3037a07ab4dca23f08bd9bfcb9325f4a05a590e",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  },
+  {
+    "path": "design_independent_audit/design_JMW_parent_H_AF_independent_qc.csv",
+    "original_sha256": "487eeaa4b73989c64c6f8214d4748096867db2c7670b1b95f28d66aab5777d34",
+    "publication_sha256": "28947d4e4de38ff2a0d9a9ea0e4147157d6c1911ee0db37c3f7cbf2bde4757de",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  },
+  {
+    "path": "design_independent_audit/design_JMW_parent_H_AF_independent_qc_summary.json",
+    "original_sha256": "af6277f13d91b833f422914612509d41269e02540aabb92e77e5c78a315bd79b",
+    "publication_sha256": "af6277f13d91b833f422914612509d41269e02540aabb92e77e5c78a315bd79b",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  },
+  {
+    "path": "design_independent_audit/design_JMW_parent_M_CORE_independent_qc.csv",
+    "original_sha256": "8ab2b618e1288357ed6ed0cc978e8672e9eca0330f1ff5413fa7e4787df7b049",
+    "publication_sha256": "d1650bef8eb326cc8a3aeb89e8dfee61529bd45aa4cf2b4da52cb9987d12c612",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  },
+  {
+    "path": "design_independent_audit/design_JMW_parent_M_CORE_independent_qc_summary.json",
+    "original_sha256": "5efe958fc04b5ed42a44e8506d83a51f38383bb8d2f730be13728917fe6bd758",
+    "publication_sha256": "5efe958fc04b5ed42a44e8506d83a51f38383bb8d2f730be13728917fe6bd758",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  },
+  {
+    "path": "design_independent_audit/exploratory16_freeze_independent_audit.json",
+    "original_sha256": "27f51b0f91a6aff7bcb49e691a535349ba157e94c83f8168399d46f3842978ed",
+    "publication_sha256": "27f51b0f91a6aff7bcb49e691a535349ba157e94c83f8168399d46f3842978ed",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  },
+  {
+    "path": "design_independent_audit/exploratory16_independent_outcomes.csv",
+    "original_sha256": "c3b9a646e272a96a4d9e05aeeef7e6c9a0ee1e9d75e847cf43004f117fc58059",
+    "publication_sha256": "90c18ac08d02ef726b8734fd11c553813158585a1d8b5e157cc3b1ab19cbd63d",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  },
+  {
+    "path": "design_independent_audit/exploratory16_independent_outcomes_summary.json",
+    "original_sha256": "a8dcc3c0cdb7fc51bb9df2af80a70bf7bb341b29b1dab2b8abf2a0b7a904d3a0",
+    "publication_sha256": "a8dcc3c0cdb7fc51bb9df2af80a70bf7bb341b29b1dab2b8abf2a0b7a904d3a0",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  },
+  {
+    "path": "design_independent_audit/exploratory16_job_independent_qc.csv",
+    "original_sha256": "97e57a788a9ec211b3542d1c93d90a93bf90963292be8b02142eed6bf6df693c",
+    "publication_sha256": "a30df0e125df7fded29767e722e9bb8e8110624a9cbaef51378230b1af54d7d1",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  },
+  {
+    "path": "design_independent_audit/exploratory16_job_independent_qc_summary.json",
+    "original_sha256": "e49e899cc2da651378d2e7013adac850430320350267f54a536035c141acf454",
+    "publication_sha256": "e49e899cc2da651378d2e7013adac850430320350267f54a536035c141acf454",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  },
+  {
+    "path": "design_independent_audit/exploratory16_partial_snapshot.csv",
+    "original_sha256": "0cf69a340ef58d742fc8ffcb32e3c1c758c639d54a4b552ac12cd895140aa513",
+    "publication_sha256": "c94250f176a2f2ca114b0e2323613d1da5d46f89f01012bd0c75244efe49cd43",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  },
+  {
+    "path": "design_independent_audit/exploratory16_partial_snapshot_summary.json",
+    "original_sha256": "3b72379182b5ab28ef71e87d6b415826f3d9d80c976eb3ca55a9af96ae37839d",
+    "publication_sha256": "3b72379182b5ab28ef71e87d6b415826f3d9d80c976eb3ca55a9af96ae37839d",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  },
+  {
+    "path": "design_independent_audit/generated_LDAG_ALL_seed28_independent_qc.csv",
+    "original_sha256": "33bd7516b8cbd6027416fb68e5324c55259e34c1206791a5b8c1cea1cc6eca97",
+    "publication_sha256": "78cb8357fc31d5b8e45e69e15bf959588c2c16ac3c06fb9cb0768aa18a4be2a2",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  },
+  {
+    "path": "design_independent_audit/generated_LDAG_ALL_seed28_independent_qc_summary.json",
+    "original_sha256": "61df0da4aa6fd27a35ee33e77e21126d50fc12bcb5450f59145e8896ac8a2e71",
+    "publication_sha256": "61df0da4aa6fd27a35ee33e77e21126d50fc12bcb5450f59145e8896ac8a2e71",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  },
+  {
+    "path": "design_independent_audit/generated_LDAG_ALL_seed29_independent_qc.csv",
+    "original_sha256": "f524146f6ad0609c3ea86e8f2e9e37a570dd8e49cfa169ff131b04425b52592b",
+    "publication_sha256": "c4f5eabc4a78dd75a7804d338bda5edf86654ca50c3c0d802ba26fa237deb46d",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  },
+  {
+    "path": "design_independent_audit/generated_LDAG_ALL_seed29_independent_qc_summary.json",
+    "original_sha256": "d008bdcb8132d564ebef2e4f482d23cb5237358a2340f4cc340e7689fee0abe8",
+    "publication_sha256": "d008bdcb8132d564ebef2e4f482d23cb5237358a2340f4cc340e7689fee0abe8",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  },
+  {
+    "path": "design_independent_audit/generated_LDAG_H_AF_seed27_independent_qc.csv",
+    "original_sha256": "243b010256418fdf4777082e7723011e9bb063bb9bb8c5c6ca7e640e9901bcf6",
+    "publication_sha256": "0ffb9cd469153a9a2ebcddedbe741366c592a1b936612bde45e2130e2185584b",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  },
+  {
+    "path": "design_independent_audit/generated_LDAG_H_AF_seed27_independent_qc_summary.json",
+    "original_sha256": "a169a1fe3e586e960d762f65371e5132d6c711b1df0fabbf33301281881a3684",
+    "publication_sha256": "a169a1fe3e586e960d762f65371e5132d6c711b1df0fabbf33301281881a3684",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  },
+  {
+    "path": "design_independent_audit/generated_LDAG_M_CORE_seed27_independent_qc.csv",
+    "original_sha256": "640884f2aa5b6ce20df7a1e16a435c08cf6d2e39f9845458f573bd4308e22c92",
+    "publication_sha256": "36a442e8e0d9402b27187855d0c74ac6a153bbbd8ff404ca87a94bb92c330df2",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  },
+  {
+    "path": "design_independent_audit/generated_LDAG_M_CORE_seed27_independent_qc_summary.json",
+    "original_sha256": "c0527aa8a7f541c20f7359b02368d5dc496b642bab860315bbe0a9b0afd7e201",
+    "publication_sha256": "c0527aa8a7f541c20f7359b02368d5dc496b642bab860315bbe0a9b0afd7e201",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  },
+  {
+    "path": "design_independent_audit/JMW亲本跨受体独立复核_20260929.md",
+    "original_sha256": "fc34ae722be9e37c0de22ed92b5f86d6a8c8744aa8bb709e2da34fcaee2bca34",
+    "publication_sha256": "f70edc50f4fa4de42d573303c27ea42cc85955ba0a2837df0255547b06a77965",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  },
+  {
+    "path": "design_independent_audit/LDAG_chemistry_independent_audit.json",
+    "original_sha256": "06cef159f0b5826bb4d6d69ce177695a39be37964cf263bd62f7895c5cc29ab8",
+    "publication_sha256": "d895df013e7ecbe1e7f600b6a4abfc3f1d8e1d7d3edb1631c551c46ce82fe840",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  },
+  {
+    "path": "design_independent_audit/LDAG化学骨架独立复核_20260929.md",
+    "original_sha256": "8973ed7f3a3a18d3747c4c1691c32ad7a64d4e6ac974517186e5fef1507e2576",
+    "publication_sha256": "96106d0b8eacb53f646abcb80ab0690281295a9b0c2b44ed948db4cba65a2eb9",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  },
+  {
+    "path": "design_independent_audit/LDAG四项确认独立复核_20260929.md",
+    "original_sha256": "5e6ed92ad3349884a35d8db8d6fec8aa6dc14556f6aa31ac96948d59f7bad10c",
+    "publication_sha256": "f8e6540dd7c236f5abb6e7588b70a4dfa99d17b3f9c249f8117e70fbe06dc5f2",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  },
+  {
+    "path": "design_independent_audit/TWT_seed27_independent_qc.csv",
+    "original_sha256": "16967c5badcb8a6c9a38d6d2417a2c5b6f2f4a52be48b13d15ccf6afde5072fd",
+    "publication_sha256": "83c7490ceff926531f1150e54eb14990a8af1ecedeb536c11419092aa008da42",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  },
+  {
+    "path": "design_independent_audit/TWT_seed27_independent_qc_summary.json",
+    "original_sha256": "140e8d7f805e3c57a150a0e86c1b58175881af2c69f83a66bbdabdb94bf9274c",
+    "publication_sha256": "140e8d7f805e3c57a150a0e86c1b58175881af2c69f83a66bbdabdb94bf9274c",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  },
+  {
+    "path": "design_independent_audit/TWT_seed28_independent_qc.csv",
+    "original_sha256": "1024297fb8c0286dcdedd5bf5c13f30e09825dd0ec7191935c1f8366c919fad4",
+    "publication_sha256": "9a3d1b89bd65cc33a57abf9e72b6f25beb33d12197d503d9a34724eabca18ed8",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  },
+  {
+    "path": "design_independent_audit/TWT_seed28_independent_qc_summary.json",
+    "original_sha256": "a7983df78ff7e839f82180203661b3feea06d57ef18b73fb44ed9fbe5ea1bdf9",
+    "publication_sha256": "a7983df78ff7e839f82180203661b3feea06d57ef18b73fb44ed9fbe5ea1bdf9",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  },
+  {
+    "path": "design_independent_audit/酰胺设计双种子独立复核_20260929.md",
+    "original_sha256": "59f3c29a28990a4da3efe5db32af674b0fc06b8bf799b83bb31d003930347616",
+    "publication_sha256": "f286e066315a6ccd752e0fde12ffd16b3611e89a5567e6c83481707b77a7078a",
+    "edit": "local metadata paths normalized; scientific values preserved"
+  }
+]

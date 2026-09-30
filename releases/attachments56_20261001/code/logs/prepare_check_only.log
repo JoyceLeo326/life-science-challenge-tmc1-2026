@@ -1,0 +1,56 @@
+{
+  "status": "configuration_checked",
+  "method_and_support_files": 23,
+  "inputs": {
+    "historical_labels": {
+      "root": "R1",
+      "relative_path": "coarse_v1/analysis/job_audit_join.csv",
+      "sha256": "65b19d87b9c0ee25e009e439217b35df1001c22c78129d3282f34b7820c36ea4"
+    },
+    "historical_library": {
+      "root": "R1",
+      "relative_path": "coarse_v1/inputs/library/selected_candidates.csv",
+      "sha256": "484b0dddc59531abf6e0cd53414be0ee3ccf482aeb222e75797eedf2c0d9d809"
+    },
+    "parent_input": {
+      "root": "R1",
+      "relative_path": "confirmation_v1/inputs/library/selected_candidates.csv",
+      "sha256": "8445df639801042763fe2cc6dfedc77045c59125aec50807f7fd19239c08062c"
+    },
+    "parent_scores": {
+      "root": "R1",
+      "relative_path": "confirmation_v1/analysis/parent_setting_complete_denominators.csv",
+      "sha256": "d094ad3d1f0136f5c64bf2902c3a8a1a756b06d3894a4e819082694c7177aab8"
+    },
+    "legacy_eligible": {
+      "root": "R1",
+      "relative_path": "screen_v2/inputs/library/eligible_pool.csv",
+      "sha256": "9add7f2a901293c7d2be2f748d17f08e35bcc1dc6f47c7573fcc5d6fbbd15916"
+    },
+    "box": {
+      "root": "R1",
+      "relative_path": "coarse_v1/config/vina_box.txt",
+      "sha256": "3e4c7eb2c313edbe496068c9fb17790e7ca746567519836ed46131e5e7570d49"
+    },
+    "box_metadata": {
+      "root": "R1",
+      "relative_path": "coarse_v1/config/common_box.json",
+      "sha256": "2330b07cf13cb289f845344898fcda828c2f6f6024be55af8dc75e45c3e52dca"
+    },
+    "prospective_pool": {
+      "root": "R2",
+      "relative_path": "02_library/formal_snapshot/forward_unlabeled_pool.csv",
+      "sha256": "8fd8424797e441a3921ba3805dd8e9bf87d3421e5fe3440a32211753ec964c1e"
+    },
+    "generator_training_library": {
+      "root": "R2",
+      "relative_path": "02_library/formal_snapshot/filtered_for_screening.csv",
+      "sha256": "439f74756bc786709f318a4379037c4df186bc4d40957bdbe245910ba48e8229"
+    },
+    "receptor": {
+      "root": "external local input",
+      "sha256": "c024cc9efaf910ac11642cea4a4c701a0a88a335d7deb0d040320516d5a2eda1",
+      "redistributed": false
+    }
+  }
+}

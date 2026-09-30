@@ -1,0 +1,21 @@
+{
+  "coordinate_payload_publicly_distributed": false,
+  "scientific_operations": [
+    "fixed-source retrieval and hash checking"
+  ],
+  "python": "3.12.10",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "sources": {
+    "author": {
+      "url": "https://raw.githubusercontent.com/ramirezlab/Drug-design-targeting-TMC1/74274dad76201258adbd76c7058b705170c4b857/Mechano_electrical_transducer_channels_complex/MET-channel_complex.pdb",
+      "sha256": "14b5d4010eb2220ebddca0ef5cd0be346e6ba9bcc6db14311745b684e9807d82",
+      "method": "fixed_url_download"
+    },
+    "human_reference": {
+      "url": "https://alphafold.ebi.ac.uk/files/AF-Q8TDI8-F1-model_v6.pdb",
+      "sha256": "ba6b438b036b9386f4f04534cfa1dda3b6a35fbe05dd7fb2ec1b415bc6768d3b",
+      "method": "fixed_url_download"
+    }
+  },
+  "status": "sources_verified_receptor_not_generated"
+}

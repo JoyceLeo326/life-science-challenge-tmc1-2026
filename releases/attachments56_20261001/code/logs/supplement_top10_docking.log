@@ -1,0 +1,100 @@
+PREP 1 10 GEN_DZAWWYSIECDRMJ blocked
+PREP 2 10 GEN_MXEVTEPPWHDMMK prepared
+PREP 3 10 GEN_MZINFKXFDUJXKN prepared
+PREP 4 10 GEN_GMELVXXUXAFBRT prepared
+PREP 5 10 GEN_MMCYVXCTOYXZNR prepared
+PREP 6 10 GEN_VKHGWFHYWMHWQH prepared
+PREP 7 10 GEN_SGWFKASVEJFYMJ prepared
+PREP 8 10 GEN_POIOHHCKCDKCNL prepared
+PREP 9 10 GEN_QRDMPGSIPKNLPR prepared
+PREP 10 10 GEN_FJAATUDLBLEIEO prepared
+DOCK 1 9 GEN_MZINFKXFDUJXKN__M_PUB_ALL__e8__s20260927 completed -5.911 11.992
+DOCK 2 9 GEN_GMELVXXUXAFBRT__M_PUB_ALL__e8__s20260927 completed -7.315 8.599
+DOCK 3 9 GEN_MXEVTEPPWHDMMK__M_PUB_ALL__e8__s20260927 completed -5.553 59.425
+DOCK 4 9 GEN_VKHGWFHYWMHWQH__M_PUB_ALL__e8__s20260927 completed -6.935 15.683
+DOCK 5 9 GEN_MMCYVXCTOYXZNR__M_PUB_ALL__e8__s20260927 completed -5.182 101.513
+DOCK 6 9 GEN_POIOHHCKCDKCNL__M_PUB_ALL__e8__s20260927 completed -6.671 14.357
+DOCK 7 9 GEN_SGWFKASVEJFYMJ__M_PUB_ALL__e8__s20260927 completed -5.479 71.063
+DOCK 8 9 GEN_QRDMPGSIPKNLPR__M_PUB_ALL__e8__s20260927 completed -7.115 15.616
+DOCK 9 9 GEN_FJAATUDLBLEIEO__M_PUB_ALL__e8__s20260927 completed -5.547 20.427
+{
+  "finished_utc": "2026-09-30T10:51:02.969728+00:00",
+  "plan": {
+    "created_utc": "2026-09-30T10:48:12.170828+00:00",
+    "input_path": "$COMPUTE\\supplement_177\\frozen_top10.csv",
+    "input_sha256": "be95bedcc0fffc7b932cea214991f7b06433488590f8545e4d0c655f2ff6bca4",
+    "input_rows": 10,
+    "unique_ids": 10,
+    "receptor": "EXTERNAL_INPUTS/M_PUB_ALL.pdbqt",
+    "receptor_sha256": "c024cc9efaf910ac11642cea4a4c701a0a88a335d7deb0d040320516d5a2eda1",
+    "box": {
+      "site_id": "table6_middle_15_common_union",
+      "center": [
+        2.3955,
+        -12.9641,
+        0.9145
+      ],
+      "size": [
+        37.687,
+        31.3744,
+        31.1908
+      ],
+      "volume_A3": 36880.180360534134,
+      "human_site_residues": [
+        414,
+        417,
+        418,
+        449,
+        450,
+        453,
+        454,
+        531,
+        534,
+        535,
+        539,
+        582,
+        583,
+        585,
+        604
+      ],
+      "mouse_site_residues": [
+        "S408",
+        "G411",
+        "M412",
+        "L443",
+        "L444",
+        "N447",
+        "L448",
+        "D528",
+        "T531",
+        "T532",
+        "I536",
+        "F579",
+        "N580",
+        "G582",
+        "R601"
+      ],
+      "rule": "Union of all heavy atoms of the 15 Supplementary Table 6 middle-site mapped residues in H_AF, M_AF, M_PUB_ALL chain A, after conserved-TM rigid alignment; 5 A padding per face; SAME center/size for every receptor and ligand",
+      "source_conflict": "Paper body calls mouse M407 middle, Supplementary Table 6 calls it Top. Project pre-specifies Table 6 region labels; M407 is not in this 15-residue middle set.",
+      "interpretation": "Literature-informed regional hypothesis, not a validated human binding pocket or gate state"
+    },
+    "box_file": "$COMPUTE\\runtime_source\\science\\R1\\coarse_v1\\config\\vina_box.txt",
+    "box_sha256": "3e4c7eb2c313edbe496068c9fb17790e7ca746567519836ed46131e5e7570d49",
+    "vina_sha256": "e0c4b2715e0c1a74f6e92d0f3be0328ac97542eafbc111e6b1efad897a73cce5",
+    "rdkit": "2025.09.6",
+    "chemical_identity_rule_version": "exchangeable_tertiary_ring_NH_and_full_potential_stereo_v3_20260929",
+    "seed": 20260927,
+    "conformer_seed": 20260927,
+    "exhaustiveness": 8,
+    "workers": 2,
+    "protocol": "one pH7.4 rule form only; ETKDGv3 10 conformers, converged MMFF94s min; Vina first pose; no biological claim"
+  },
+  "prepared": 10,
+  "prepared_success": 9,
+  "preparation_blocked": 1,
+  "jobs": 9,
+  "completed": 9,
+  "local_pre_qc_pass": 9,
+  "sum_job_seconds": 318.675,
+  "scratch_path": "$COMPUTE\\supplement_177\\raw_runs\\top10"
+}

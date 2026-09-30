@@ -1,0 +1,22 @@
+{
+  "compound_id": "REF_CHEMBL945",
+  "name": "amiloride",
+  "chembl_id": "CHEMBL945",
+  "source_smiles": "N=C(N)NC(=O)c1nc(Cl)c(N)nc1N",
+  "source_inchikey": "XSDQTOBWRPYKKA-UHFFFAOYSA-N",
+  "source_file": "external_sources/molecules_offset_03000.json",
+  "source_sha256": "1c9f75b884bd9c7af48d851c3db2aca618db4740509b5f3fae2fa3b946359373",
+  "source_url": "https://www.ebi.ac.uk/chembl/api/data/molecule/CHEMBL945.json",
+  "identity_scope": "database_parent_identity_article_salt_and_batch_not_confirmed",
+  "standardized_isomeric_smiles": "",
+  "source_id": "",
+  "study_use_status": "",
+  "preparation_started_utc": "2026-09-30T11:00:27.223663+00:00",
+  "input_isomeric_smiles": "N=C(N)NC(=O)c1nc(Cl)c(N)nc1N",
+  "input_inchikey": "XSDQTOBWRPYKKA-UHFFFAOYSA-N",
+  "source_unspecified_potential_stereo": "[[\"Bond_Double\", 0]]",
+  "preparation_status": "blocked",
+  "preparation_reason": "input has unspecified potentially stable atom or double-bond stereochemistry",
+  "preparation_traceback": "Traceback (most recent call last):\n  File \"protocol_inputs/dock_batch.py\", line 127, in prepare\n    raise ValueError(\"input has unspecified potentially stable atom or double-bond stereochemistry\")\nValueError: input has unspecified potentially stable atom or double-bond stereochemistry\n",
+  "preparation_elapsed_seconds": 0.001
+}

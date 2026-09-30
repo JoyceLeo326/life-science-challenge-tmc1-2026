@@ -1,0 +1,54 @@
+{
+  "started_at_cst": "2026-09-30T22:59:42.377282+08:00",
+  "finished_at_cst": "2026-09-30T23:00:53.772101+08:00",
+  "wall_seconds": 71.395071,
+  "process_cpu_seconds": 66.5625,
+  "cpu_affinity": {
+    "method": "Windows SetProcessAffinityMask",
+    "before_mask_hex": "0xffff",
+    "actual_mask_hex": "0x1",
+    "logical_cpus_allowed": 1,
+    "worker_processes": 1
+  },
+  "thread_environment": {
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  },
+  "software": {
+    "python": "3.12.10",
+    "rdkit": "2025.09.6",
+    "matplotlib": "3.11.2",
+    "operating_system": "Windows",
+    "machine": "AMD64"
+  },
+  "logical_representation_attempts": 18196,
+  "unique_smiles_catalog_evaluations": 14348,
+  "identical_smiles_reuse": 3848,
+  "frozen_rules_sha256": "7fbabe246bbc0afb53d2736598284ecc82892a87fc395c92bb15ff425d2d1cb8",
+  "rule_catalog_sha256": "1435db734371a481d7259ac6a8f1c88a0940ae5fcab2da0c14a4708606219145",
+  "original_all_predictions_sha256": "79b775967bfc87ded9a07aae03549c9233691ec4fc3375a2c2662b64ee4b2841",
+  "eligible_9098_csv_sha256": "fcc7c01e37838bed09b519a6816a9b9a3ed82841353f112cad22cd3e5e220d26",
+  "domain_freeze_sha256": "27288c84749af651d1bfb70d57376f311157536ae61a0a24d286e479b7b58533",
+  "script_sha256": "7a26f0e9ed006a11a6aaa682f54d7726398c8bb15ec1ee89f3ac74884d9d9ab1",
+  "official_source_entry_counts": {
+    "PAINS_A": 16,
+    "PAINS_B": 55,
+    "PAINS_C": 409,
+    "BRENK": 105
+  },
+  "all_585_runtime_entries_serialize_identically_to_frozen_official_smarts": true,
+  "direct_smarts_spotcheck": {
+    "seed": 20260930,
+    "random_molecules": 12,
+    "plus_six_candidates": true,
+    "molecules": 18,
+    "representations": 36,
+    "rule_comparisons": 21060,
+    "mismatches": 0
+  },
+  "independent_csv_recounts_pass": true,
+  "all_9098_ids_order_and_parent_uniqueness_pass": true,
+  "denominator_contains_every_attempt_including_failures": true
+}

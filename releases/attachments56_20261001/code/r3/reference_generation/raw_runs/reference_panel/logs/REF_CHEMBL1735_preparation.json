@@ -1,0 +1,19 @@
+{
+  "compound_id": "REF_CHEMBL1735",
+  "name": "indinavir sulfate",
+  "chembl_id": "CHEMBL1735",
+  "source_smiles": "CC(C)(C)NC(=O)[C@@H]1CN(Cc2cccnc2)CCN1C[C@@H](O)C[C@@H](Cc1ccccc1)C(=O)N[C@H]1c2ccccc2C[C@H]1O.O=S(=O)(O)O",
+  "source_inchikey": "NUBQKPWHXMGDLP-BDEHJDMKSA-N",
+  "source_file": "external_sources/molecules_offset_01000.json",
+  "source_sha256": "59214b88b6d803098e00c2336473f5580aaa550837b8f3da5855482dee334a70",
+  "source_url": "https://www.ebi.ac.uk/chembl/api/data/molecule/CHEMBL1735.json",
+  "identity_scope": "database_parent_identity_article_salt_and_batch_not_confirmed",
+  "standardized_isomeric_smiles": "",
+  "source_id": "",
+  "study_use_status": "",
+  "preparation_started_utc": "2026-09-30T11:00:24.156343+00:00",
+  "preparation_status": "blocked",
+  "preparation_reason": "multiple components",
+  "preparation_traceback": "Traceback (most recent call last):\n  File \"protocol_inputs/dock_batch.py\", line 120, in prepare\n    raise ValueError(\"multiple components\")\nValueError: multiple components\n",
+  "preparation_elapsed_seconds": 0.001
+}

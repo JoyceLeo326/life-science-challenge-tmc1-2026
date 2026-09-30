@@ -1,0 +1,9 @@
+{
+  "git_tree_commit": "74274dad76201258adbd76c7058b705170c4b857",
+  "git_blob_sha1": "886d505b0280fe7c0cb86fd288cc44777a8792be",
+  "sha256": "14b5d4010eb2220ebddca0ef5cd0be346e6ba9bcc6db14311745b684e9807d82",
+  "download_url": "https://raw.githubusercontent.com/ramirezlab/Drug-design-targeting-TMC1/74274dad76201258adbd76c7058b705170c4b857/Mechano_electrical_transducer_channels_complex/MET-channel_complex.pdb",
+  "local_research_path": "data\\raw\\public_MET_complex.pdb",
+  "included_in_public_structure_zip": false,
+  "scope": "Author input model, not this project prediction or a new MD trajectory; repository license not explicitly located"
+}

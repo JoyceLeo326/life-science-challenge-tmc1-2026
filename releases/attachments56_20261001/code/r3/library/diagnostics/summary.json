@@ -1,0 +1,294 @@
+{
+  "status": "DIAGNOSTIC_COMPUTE_COMPLETE",
+  "domain_rows": 9098,
+  "unique_compound_ids": 9098,
+  "unique_parent_keys": 9098,
+  "representation_status_counts": {
+    "primary": {
+      "OK": 9098
+    },
+    "sensitivity": {
+      "OK": 9098
+    }
+  },
+  "overall_status_counts": {
+    "OK": 9098
+  },
+  "representation_alert_set_differs_molecules": 311,
+  "summary": [
+    {
+      "representation": "primary",
+      "family": "pains",
+      "hit_molecules": 552,
+      "denominator_all_attempted": 9098,
+      "percent_all_attempted": 6.067268,
+      "evaluable_molecules": 9098,
+      "failed_or_incomplete_molecules": 0
+    },
+    {
+      "representation": "primary",
+      "family": "pains_A",
+      "hit_molecules": 166,
+      "denominator_all_attempted": 9098,
+      "percent_all_attempted": 1.824577,
+      "evaluable_molecules": 9098,
+      "failed_or_incomplete_molecules": 0
+    },
+    {
+      "representation": "primary",
+      "family": "pains_B",
+      "hit_molecules": 351,
+      "denominator_all_attempted": 9098,
+      "percent_all_attempted": 3.857991,
+      "evaluable_molecules": 9098,
+      "failed_or_incomplete_molecules": 0
+    },
+    {
+      "representation": "primary",
+      "family": "pains_C",
+      "hit_molecules": 42,
+      "denominator_all_attempted": 9098,
+      "percent_all_attempted": 0.46164,
+      "evaluable_molecules": 9098,
+      "failed_or_incomplete_molecules": 0
+    },
+    {
+      "representation": "primary",
+      "family": "brenk",
+      "hit_molecules": 3498,
+      "denominator_all_attempted": 9098,
+      "percent_all_attempted": 38.448011,
+      "evaluable_molecules": 9098,
+      "failed_or_incomplete_molecules": 0
+    },
+    {
+      "representation": "primary",
+      "family": "reactive",
+      "hit_molecules": 447,
+      "denominator_all_attempted": 9098,
+      "percent_all_attempted": 4.913168,
+      "evaluable_molecules": 9098,
+      "failed_or_incomplete_molecules": 0
+    },
+    {
+      "representation": "sensitivity",
+      "family": "pains",
+      "hit_molecules": 649,
+      "denominator_all_attempted": 9098,
+      "percent_all_attempted": 7.133436,
+      "evaluable_molecules": 9098,
+      "failed_or_incomplete_molecules": 0
+    },
+    {
+      "representation": "sensitivity",
+      "family": "pains_A",
+      "hit_molecules": 179,
+      "denominator_all_attempted": 9098,
+      "percent_all_attempted": 1.967465,
+      "evaluable_molecules": 9098,
+      "failed_or_incomplete_molecules": 0
+    },
+    {
+      "representation": "sensitivity",
+      "family": "pains_B",
+      "hit_molecules": 429,
+      "denominator_all_attempted": 9098,
+      "percent_all_attempted": 4.715322,
+      "evaluable_molecules": 9098,
+      "failed_or_incomplete_molecules": 0
+    },
+    {
+      "representation": "sensitivity",
+      "family": "pains_C",
+      "hit_molecules": 49,
+      "denominator_all_attempted": 9098,
+      "percent_all_attempted": 0.53858,
+      "evaluable_molecules": 9098,
+      "failed_or_incomplete_molecules": 0
+    },
+    {
+      "representation": "sensitivity",
+      "family": "brenk",
+      "hit_molecules": 3568,
+      "denominator_all_attempted": 9098,
+      "percent_all_attempted": 39.21741,
+      "evaluable_molecules": 9098,
+      "failed_or_incomplete_molecules": 0
+    },
+    {
+      "representation": "sensitivity",
+      "family": "reactive",
+      "hit_molecules": 447,
+      "denominator_all_attempted": 9098,
+      "percent_all_attempted": 4.913168,
+      "evaluable_molecules": 9098,
+      "failed_or_incomplete_molecules": 0
+    },
+    {
+      "representation": "union",
+      "family": "pains",
+      "hit_molecules": 653,
+      "denominator_all_attempted": 9098,
+      "percent_all_attempted": 7.177402,
+      "evaluable_molecules": 9098,
+      "failed_or_incomplete_molecules": 0
+    },
+    {
+      "representation": "union",
+      "family": "pains_A",
+      "hit_molecules": 182,
+      "denominator_all_attempted": 9098,
+      "percent_all_attempted": 2.00044,
+      "evaluable_molecules": 9098,
+      "failed_or_incomplete_molecules": 0
+    },
+    {
+      "representation": "union",
+      "family": "pains_B",
+      "hit_molecules": 430,
+      "denominator_all_attempted": 9098,
+      "percent_all_attempted": 4.726313,
+      "evaluable_molecules": 9098,
+      "failed_or_incomplete_molecules": 0
+    },
+    {
+      "representation": "union",
+      "family": "pains_C",
+      "hit_molecules": 49,
+      "denominator_all_attempted": 9098,
+      "percent_all_attempted": 0.53858,
+      "evaluable_molecules": 9098,
+      "failed_or_incomplete_molecules": 0
+    },
+    {
+      "representation": "union",
+      "family": "brenk",
+      "hit_molecules": 3626,
+      "denominator_all_attempted": 9098,
+      "percent_all_attempted": 39.854913,
+      "evaluable_molecules": 9098,
+      "failed_or_incomplete_molecules": 0
+    },
+    {
+      "representation": "union",
+      "family": "reactive",
+      "hit_molecules": 447,
+      "denominator_all_attempted": 9098,
+      "percent_all_attempted": 4.913168,
+      "evaluable_molecules": 9098,
+      "failed_or_incomplete_molecules": 0
+    }
+  ],
+  "overlap_patterns": [
+    {
+      "union_pains_hit": 0,
+      "union_brenk_hit": 0,
+      "union_reactive_hit": 0,
+      "union_complete": 1,
+      "molecules": 5338,
+      "denominator_all_attempted": 9098,
+      "percent_all_attempted": 58.672236
+    },
+    {
+      "union_pains_hit": 0,
+      "union_brenk_hit": 1,
+      "union_reactive_hit": 0,
+      "union_complete": 1,
+      "molecules": 2719,
+      "denominator_all_attempted": 9098,
+      "percent_all_attempted": 29.885689
+    },
+    {
+      "union_pains_hit": 0,
+      "union_brenk_hit": 1,
+      "union_reactive_hit": 1,
+      "union_complete": 1,
+      "molecules": 388,
+      "denominator_all_attempted": 9098,
+      "percent_all_attempted": 4.264674
+    },
+    {
+      "union_pains_hit": 1,
+      "union_brenk_hit": 0,
+      "union_reactive_hit": 0,
+      "union_complete": 1,
+      "molecules": 134,
+      "denominator_all_attempted": 9098,
+      "percent_all_attempted": 1.472851
+    },
+    {
+      "union_pains_hit": 1,
+      "union_brenk_hit": 1,
+      "union_reactive_hit": 0,
+      "union_complete": 1,
+      "molecules": 460,
+      "denominator_all_attempted": 9098,
+      "percent_all_attempted": 5.056056
+    },
+    {
+      "union_pains_hit": 1,
+      "union_brenk_hit": 1,
+      "union_reactive_hit": 1,
+      "union_complete": 1,
+      "molecules": 59,
+      "denominator_all_attempted": 9098,
+      "percent_all_attempted": 0.648494
+    }
+  ],
+  "six_candidates": [
+    {
+      "compound_id": "LIB_DNDVGFIEWOHGAH",
+      "source_id": "CHEMBL1076497",
+      "status": "OK",
+      "union_pains_rules": [],
+      "union_brenk_rules": [],
+      "union_reactive_rules": []
+    },
+    {
+      "compound_id": "LIB_FCRHJSNRFAAYQD",
+      "source_id": "CHEMBL1080669",
+      "status": "OK",
+      "union_pains_rules": [],
+      "union_brenk_rules": [],
+      "union_reactive_rules": []
+    },
+    {
+      "compound_id": "LIB_MYAFDHCCQBIZLC",
+      "source_id": "CHEMBL1080362",
+      "status": "OK",
+      "union_pains_rules": [],
+      "union_brenk_rules": [],
+      "union_reactive_rules": []
+    },
+    {
+      "compound_id": "LIB_YWDIXVZCRMMQQY",
+      "source_id": "CHEMBL1079964",
+      "status": "OK",
+      "union_pains_rules": [],
+      "union_brenk_rules": [],
+      "union_reactive_rules": []
+    },
+    {
+      "compound_id": "LIB_ZNDXPRCORYDEAP",
+      "source_id": "CHEMBL1081740",
+      "status": "OK",
+      "union_pains_rules": [],
+      "union_brenk_rules": [],
+      "union_reactive_rules": []
+    },
+    {
+      "compound_id": "LIB_ZVHBDYFMHCQADD",
+      "source_id": "CHEMBL1080205",
+      "status": "OK",
+      "union_pains_rules": [],
+      "union_brenk_rules": [],
+      "union_reactive_rules": []
+    }
+  ],
+  "diagnostic_only": true,
+  "changes_to_library_or_original_rank": false,
+  "primary_representation": "rule_smiles",
+  "sensitivity_representation": "standardized_isomeric_smiles",
+  "failed_attempts_kept_in_all_denominators": true,
+  "union_is_not_sum_of_family_counts": true
+}

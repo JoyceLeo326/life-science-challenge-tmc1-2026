@@ -1,0 +1,50 @@
+{
+  "run_id": "example_smiles",
+  "timestamp_utc": "2026-09-30T11:12:58.293095+00:00",
+  "model": "single_layer_char_gru_v1",
+  "implementation": "local PyTorch GRU; inspired by published SMILES RNN design but not REINVENT implementation or weights",
+  "torch_version": "2.5.1+cpu",
+  "rdkit_version": "2025.09.6",
+  "library_path": "<ORIGINAL_CODE_PACKAGE>\\data\\tutorial_library2048.csv",
+  "library_sha256": "390985b4dfd56a7a3a874fc370bb122628b17ba8850c90880bbf367f524eb805",
+  "raw_input_rows": 2048,
+  "dedup_valid_model_scope": 2015,
+  "training_molecules": 1846,
+  "heldout_scaffold_molecules": 169,
+  "input_rejections": {
+    "salt_or_element_out_of_scope": 23,
+    "length_out_of_scope": 10
+  },
+  "vocab_size": 34,
+  "model_parameters": 46978,
+  "architecture": {
+    "embedding": 48,
+    "hidden": 96,
+    "layers": 1
+  },
+  "optimizer": "Adam lr=0.002",
+  "epoch_history": [
+    {
+      "epoch": 1,
+      "train_token_loss": 1.83942,
+      "val_token_loss": 1.40245,
+      "wall_seconds_cumulative": 6.9
+    }
+  ],
+  "train_seed": 20260929,
+  "sample_seed": 20260930,
+  "sample_temperature": 0.85,
+  "sample_max_chars": 110,
+  "sample_requested": 32,
+  "sample_counts": {
+    "invalid_smiles": 32
+  },
+  "unique_eligible": 0,
+  "fixed_diverse_list": 0,
+  "weights_path": "<ORIGINAL_COMPUTE>\\actual_example\\04_design\\example_smiles\\model_state.pt",
+  "weights_sha256": "6cc2cf7d1370e5a8ce55b308f82f4d507da45f87aed3fd254d9e2df00f153e8d",
+  "raw_generated_log": "<ORIGINAL_COMPUTE>\\actual_example\\04_design\\example_smiles\\raw_generated.csv.gz",
+  "raw_generated_log_sha256": "d5638cb3c77f8728e97e78e77a27dac69df43fa6e57fe3c07e93a7574ad29663",
+  "wall_seconds": 7.0,
+  "evidence_limit": "No TMC1 affinity/function conditioning, docking, synthesis, PubChem novelty, or patent search performed by this model run"
+}

@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/chembl/api/data/similarity/CHEMBL1076497/40.json?limit=1000&only=molecule_chembl_id,pref_name,max_phase,molecule_structures,similarity,molecule_type,first_approval,withdrawn_flag",
+  "http": 200,
+  "utc": "2026-09-30T18:46:35.287502+00:00",
+  "bytes": 1082046,
+  "sha256": "659342a0a7cdd10c7f49bf4a5b3f7787f46152640a7a09c81924021a7b3aa74a",
+  "attempt_errors": []
+}

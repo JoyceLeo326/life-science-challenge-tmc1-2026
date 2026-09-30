@@ -1,0 +1,3 @@
+compound_id,issue,formal_charge,pdbqt_partial_charge_sum,primary_policy,sensitivity_policy
+LIB_PLFCIUGPHZFBAC,RDKit_Gasteiger_bis_anionic_aromatic_N_charge_sum_mismatch,-2,-1.501,retain_Vina_score_with_warning,treat_as_QC_failure
+LIB_DIMKSBQDWMXKAH,RDKit_Gasteiger_bis_anionic_aromatic_N_charge_sum_mismatch,-2,-1.502,retain_Vina_score_with_warning,treat_as_QC_failure

@@ -1,0 +1,26 @@
+[
+  {
+    "stage": "verify_supplement",
+    "command": [
+      "python",
+      "-B",
+      "data/group_supplement/verify_science_supplement.py"
+    ],
+    "seconds": 1.047,
+    "exit_code": 0,
+    "original_log_sha256": "88a1f46e82b5e04cbffed6c7c0e23838e8ded150b6878321da094b92e0d718d3"
+  },
+  {
+    "stage": "rebuild_supplement",
+    "command": [
+      "python",
+      "-B",
+      "data/group_supplement/rebuild_science_tables.py",
+      "--output",
+      "../group_revision_tests/science_tables"
+    ],
+    "seconds": 1.297,
+    "exit_code": 0,
+    "original_log_sha256": "5fa96dfba5e06a414976a72577b0a50b52656925d6abaa2f5bfc420cb2bf4d80"
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "sources": [
+    {
+      "path": "plot_inputs/CURRENT_MANIFEST.json",
+      "sha256": "0e29b286f3808d781cbacba8cfece6d0bec9b317b364989ebdc14eba4f9dfec0"
+    },
+    {
+      "path": "plot_inputs/ranking_formal_v2_16698/preflight_v2.json",
+      "sha256": "4702a541be4f1af212ed604e529e8f18dc8be7e18cef589d4a87368f04293f80"
+    },
+    {
+      "path": "plot_inputs/ranking_formal_v2_16698/all_predictions.csv",
+      "sha256": "79b775967bfc87ded9a07aae03549c9233691ec4fc3375a2c2662b64ee4b2841"
+    },
+    {
+      "path": "05_independent_audit/final_library_independent_audit.json",
+      "sha256": "73736013eddf0acd5cb9c1dd68ba4b3a49e64b83fe1db84c1c2e255dfc647984"
+    }
+  ],
+  "script": "plots/build_verified_stage_figures.py",
+  "script_sha256": "226237d6d6f98f41251d6d38f7b790e323090b242b46cee5ff3720baaf14588d",
+  "visual_checked": false
+}

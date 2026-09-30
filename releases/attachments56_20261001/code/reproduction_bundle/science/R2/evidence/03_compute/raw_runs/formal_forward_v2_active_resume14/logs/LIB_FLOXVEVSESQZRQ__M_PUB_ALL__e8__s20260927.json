@@ -1,0 +1,229 @@
+{
+
+  "arm": "AI_active",
+
+  "selection_rank": "113",
+
+  "compound_id": "LIB_FLOXVEVSESQZRQ",
+
+  "source_dataset": "ChEMBL",
+
+  "source_id": "CHEMBL1085317",
+
+  "source_ids": "CHEMBL1085317",
+
+  "source_url": "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1085317/",
+
+  "raw_smiles": "CC(C)COC(=O)Nc1ccc(-c2cnc3c(-c4cccc(N5CCN(C)CC5)c4)cnn3c2N)cc1",
+
+  "standardized_isomeric_smiles": "CC(C)COC(=O)Nc1ccc(-c2cnc3c(-c4cccc(N5CCN(C)CC5)c4)cnn3c2N)cc1",
+
+  "standardized_parent_smiles": "CC(C)COC(=O)Nc1ccc(-c2cnc3c(-c4cccc(N5CCN(C)CC5)c4)cnn3c2N)cc1",
+
+  "inchi_key": "FLOXVEVSESQZRQ-UHFFFAOYSA-N",
+
+  "parent_key": "FLOXVEVSESQZRQ",
+
+  "processing_status": "eligible",
+
+  "mw": "499.619",
+
+  "clogp": "4.602",
+
+  "tpsa": "101.02",
+
+  "hbd": "2",
+
+  "hba": "7",
+
+  "rotatable_bonds": "6",
+
+  "heavy_atoms": 37,
+
+  "rings": "5",
+
+  "qed": "0.3997",
+
+  "formal_charge": "0",
+
+  "source_record_count": "1",
+
+  "stereo_form_count": "1",
+
+  "historical_label_overlap": "False",
+
+  "prediction_status": "predicted",
+
+  "docking_eligibility": "eligible",
+
+  "source_stereo_unspecified": "False",
+
+  "source_unspecified_potential_stereo": "[]",
+
+  "rule_variant_count": 1,
+
+  "rule_smiles": "CC(C)COC(=O)Nc1ccc(-c2cnc3c(-c4cccc(N5CC[NH+](C)CC5)c4)cnn3c2N)cc1",
+
+  "rule_inchikey": "FLOXVEVSESQZRQ-UHFFFAOYSA-O",
+
+  "rule_stereo_unspecified": "False",
+
+  "rule_unspecified_potential_stereo": "[]",
+
+  "rule_exchangeable_N_indices": "[25]",
+
+  "rule_stable_stereo_unspecified": "False",
+
+  "exchangeable_N_geometry_approximation": false,
+
+  "murcko_scaffold": "c1ccc(-c2cnc3c(-c4cccc(N5CC[NH2+]CC5)c4)cnn3c2)cc1",
+
+  "descriptor_pred_kcal_mol": "-7.930209159851074",
+
+  "ai_pred_kcal_mol": "-8.103909492492676",
+
+  "ai_tree_sd_kcal_mol": "0.5976439118385315",
+
+  "max_train_tanimoto": "0.3333333333333333",
+
+  "ood_flag_max_tanimoto_below_0p3": "False",
+
+  "active_mean_kcal_mol": "-9.298260688781738",
+
+  "active_tree_sd_kcal_mol": "0.36244964599609375",
+
+  "active_acquisition_kcal_mol": "-9.479485511779785",
+
+  "preparation_started_utc": "2026-09-29T01:00:04.054994+00:00",
+
+  "input_isomeric_smiles": "CC(C)COC(=O)Nc1ccc(-c2cnc3c(-c4cccc(N5CCN(C)CC5)c4)cnn3c2N)cc1",
+
+  "input_inchikey": "FLOXVEVSESQZRQ-UHFFFAOYSA-N",
+
+  "state_inchikey": "FLOXVEVSESQZRQ-UHFFFAOYSA-O",
+
+  "rule_unspecified_stereocenters": "[]",
+
+  "exchangeable_protonated_N_indices": "[25]",
+
+  "chemical_identity_rule_version": "exchangeable_tertiary_ring_NH_and_full_potential_stereo_v3_20260929",
+
+  "conformers_generated": 10,
+
+  "conformers_converged": 10,
+
+  "selected_mmff_energy_kcal_mol": 188.05446007231146,
+
+  "selected_conformer": 7,
+
+  "sdf_graph_isomeric_smiles": "CC(C)COC(=O)Nc1ccc(-c2cnc3c(-c4cccc(N5CC[NH+](C)CC5)c4)cnn3c2N)cc1",
+
+  "sdf_graph_identity_equal": true,
+
+  "sdf_graph_identity_stable_equal": true,
+
+  "sdf_3d_isomeric_smiles": "CC(C)COC(=O)Nc1ccc(-c2cnc3c(-c4cccc(N5CC[NH+](C)CC5)c4)cnn3c2N)cc1",
+
+  "sdf_3d_stereo_equal": true,
+
+  "sdf_3d_stable_identity_equal": true,
+
+  "preparation_status": "prepared",
+
+  "sdf_file": "<PACKAGE_ROOT>\\03_compute\\formal_forward_v2_active_resume14\\ligands\\LIB_FLOXVEVSESQZRQ.sdf",
+
+  "sdf_sha256": "e7509c0db0b9c2ff6c776e9b9a452aa814cd64a30657e300ef25b2ac650b8fab",
+
+  "ligand_pdbqt": "<PACKAGE_ROOT>\\03_compute\\formal_forward_v2_active_resume14\\ligands\\LIB_FLOXVEVSESQZRQ.pdbqt",
+
+  "ligand_sha256": "c7a68c1c54b3908ff88c92a0ebfbff771592a340844ee5110cf5c922f69a5e25",
+
+  "preparation_elapsed_seconds": 1.376,
+
+  "run_id": "LIB_FLOXVEVSESQZRQ__M_PUB_ALL__e8__s20260927",
+
+  "receptor_id": "M_PUB_ALL",
+
+  "protein_context": "mouse TMC1-CIB2-TMIE six-protein complex",
+
+  "lipids_present": false,
+
+  "conformation_evidence": "author computational model, static",
+
+  "binding_hypothesis": "literature-informed middle-region pose",
+
+  "functional_direction": "unknown",
+
+  "disease_fit": "unverified",
+
+  "scoring_engine": "AutoDock Vina 1.2.7",
+
+  "score_kind": "Vina docking score, not MMGBSA",
+
+  "seed": 20260927,
+
+  "exhaustiveness": 8,
+
+  "num_modes": 9,
+
+  "energy_range": 3.0,
+
+  "cpu_per_job": 2,
+
+  "receptor_file": "<PACKAGE_ROOT>\\01_计算筛选\\screen_v2\\inputs\\receptors\\M_PUB_ALL.pdbqt",
+
+  "receptor_sha256": "c024cc9efaf910ac11642cea4a4c701a0a88a335d7deb0d040320516d5a2eda1",
+
+  "box_file": "<PACKAGE_ROOT>\\01_计算筛选\\coarse_v1\\config\\vina_box.txt",
+
+  "box_sha256": "3e4c7eb2c313edbe496068c9fb17790e7ca746567519836ed46131e5e7570d49",
+
+  "box_id": "table6_middle_15_common_union",
+
+  "box_center_A": "[2.3955, -12.9641, 0.9145]",
+
+  "box_size_A": "[37.687, 31.3744, 31.1908]",
+
+  "pose_file": "<PACKAGE_ROOT>\\03_compute\\formal_forward_v2_active_resume14\\poses\\LIB_FLOXVEVSESQZRQ__M_PUB_ALL__e8__s20260927.pdbqt",
+
+  "log_file": "<PACKAGE_ROOT>\\03_compute\\formal_forward_v2_active_resume14\\logs\\LIB_FLOXVEVSESQZRQ__M_PUB_ALL__e8__s20260927.log",
+
+  "export_log_file": "<PACKAGE_ROOT>\\03_compute\\formal_forward_v2_active_resume14\\logs\\LIB_FLOXVEVSESQZRQ__M_PUB_ALL__e8__s20260927_export.log",
+
+  "independent_qc_status": "pending",
+
+  "command": "[\"<PACKAGE_ROOT>\", \"--receptor\", \"<PACKAGE_ROOT>\", \"--ligand\", \"<PACKAGE_ROOT>\", \"--config\", \"<PACKAGE_ROOT>\", \"--scoring\", \"vina\", \"--exhaustiveness\", \"8\", \"--num_modes\", \"9\", \"--energy_range\", \"3.0\", \"--cpu\", \"2\", \"--seed\", \"20260927\", \"--out\", \"<PACKAGE_ROOT>\"]",
+
+  "started_utc": "2026-09-29T01:02:59.719755+00:00",
+
+  "returncode": 0,
+
+  "status": "completed",
+
+  "score_kcal_mol": -8.231,
+
+  "pose_count": 9,
+
+  "pose_sha256": "ec6c338fa5088b50f643da8961f8a240d557b4cf126e0934d0ac52826c7846f1",
+
+  "pose_heavy_atoms": 37,
+
+  "min_receptor_heavy_distance_A": 3.3207678328964825,
+
+  "severe_heavy_atoms_below_1p5A": 0,
+
+  "min_box_margin_A": 2.7119,
+
+  "sdf_export_returncode": 0,
+
+  "exported_sdf_file": "<PACKAGE_ROOT>\\03_compute\\formal_forward_v2_active_resume14\\poses\\LIB_FLOXVEVSESQZRQ__M_PUB_ALL__e8__s20260927.sdf",
+
+  "exported_sdf_sha256": "d6a53ca3f324327ae946c9e801756686e3f626aeba33640fe32c65e780cb9414",
+
+  "local_pre_qc_pass": true,
+
+  "elapsed_seconds": 68.037,
+
+  "finished_utc": "2026-09-29T01:04:07.756360+00:00"
+
+}

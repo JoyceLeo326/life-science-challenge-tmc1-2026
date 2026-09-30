@@ -1,0 +1,34 @@
+--- scientific_source/04_design/method_results/train_smiles_gru.py
++++ published/04_design/method_results/train_smiles_gru.py
+@@ -2,7 +2,7 @@
+ 
+ This is a locally trained generative neural model, not a pretrained TMC1 model.
+ There is no affinity conditioning or biological activity claim. Intermediate
+-weights and all raw samples stay in the designated C: scratch directory.
++weights and all raw samples stay in the explicitly configured work directory.
+ """
+ 
+ from __future__ import annotations
+@@ -19,9 +19,10 @@
+ from collections import Counter
+ from datetime import datetime, timezone
+ from pathlib import Path
+-
+-SCRATCH = Path(r"[original design scratch]")
+-sys.path.insert(0, str(SCRATCH / "pydeps"))
++from portable_config import required_path
++
++SCRATCH = required_path("TMC1_WORK_ROOT") / "04_design"
++
+ os.environ["OMP_NUM_THREADS"] = "1"
+ os.environ["MKL_NUM_THREADS"] = "1"
+ import torch
+@@ -35,7 +36,7 @@
+ HERE = Path(__file__).resolve().parent
+ rdBase.DisableLog("rdApp.error")
+ FPGEN = rdFingerprintGenerator.GetMorganGenerator(radius=2, fpSize=2048)
+-PARENT_INPUT = Path(r"[original R1 research root]\confirmation_v1\inputs\library\selected_candidates.csv")
++PARENT_INPUT = required_path("TMC1_R1_ROOT") / "confirmation_v1/inputs/library/selected_candidates.csv"
+ TRAINED_MODEL_NAME = "single_layer_char_gru_v1"
+ 
+ 

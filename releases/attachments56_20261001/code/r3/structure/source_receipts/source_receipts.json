@@ -1,0 +1,50 @@
+[
+  {
+    "file": "7USW.cif",
+    "url": "https://files.rcsb.org/download/7USW.cif",
+    "downloaded_utc": "2026-09-30T13:51:23.939386+00:00",
+    "bytes": 1685285,
+    "sha256": "f80a6000f916fdef6ac68e0031950219a1df63e7887c7c4d664dd999846c80f7",
+    "success": true
+  },
+  {
+    "file": "7USW.pdb",
+    "url": "https://files.rcsb.org/download/7USW.pdb",
+    "downloaded_utc": "2026-09-30T13:51:19.679075+00:00",
+    "bytes": 1418229,
+    "sha256": "2732f2f8337ed9dd89f39607495ce03c3c19d20eb6e1adcf7aae3362d219a9a3",
+    "success": true
+  },
+  {
+    "file": "7USW_entity1.json",
+    "url": "https://data.rcsb.org/rest/v1/core/polymer_entity/7USW/1",
+    "downloaded_utc": "2026-09-30T13:51:18.471796+00:00",
+    "bytes": 37541,
+    "sha256": "b9c331f43d57365a6e5155ecf4643f5c34e11f079d85ed5c8404e49cf84687ef",
+    "success": true
+  },
+  {
+    "file": "worm_D3KZG3.json",
+    "url": "https://rest.uniprot.org/uniprotkb/D3KZG3.json",
+    "downloaded_utc": "2026-09-30T13:51:20.284634+00:00",
+    "bytes": 36314,
+    "sha256": "2546ed400672e0d78c96c4a3792d747bf2d89dac9c1da96d2580083b6cca72f3",
+    "success": true
+  },
+  {
+    "file": "human_Q8TDI8.json",
+    "url": "https://rest.uniprot.org/uniprotkb/Q8TDI8.json",
+    "downloaded_utc": "2026-09-30T13:51:21.886336+00:00",
+    "bytes": 36355,
+    "sha256": "99db0cff1b66882f68083aef98e8650318c35446d66696a55e607c432fed6890",
+    "success": true
+  },
+  {
+    "file": "paper_2022.xml",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9605866/fullTextXML",
+    "downloaded_utc": "2026-09-30T13:51:24.220927+00:00",
+    "bytes": 190614,
+    "sha256": "f62fcc6044aa8a39c38de48074fb454bfb1952c3cc8256016cd04d885fd5727a",
+    "success": true
+  }
+]

@@ -1,0 +1,5 @@
+start_local,end_local,start_event_id,end_event_id,start_record_id,end_record_id,reason,source
+2026-09-29T05:38:34+08:00,2026-09-29T07:39:01+08:00,506,507,460111,460115,Idle Timeout to Power Button,Windows System Kernel-Power
+2026-09-29T07:39:46+08:00,2026-09-29T07:39:48+08:00,506,507,460121,460125,Lid to AC DC display event,Windows System Kernel-Power
+2026-09-29T07:39:48+08:00,2026-09-29T07:57:00+08:00,506,507,460127,460132,AC DC display event,Windows System Kernel-Power
+2026-09-29T07:57:00+08:00,2026-09-29T07:57:04+08:00,506,507,460134,460139,AC DC display event to Lid,Windows System Kernel-Power

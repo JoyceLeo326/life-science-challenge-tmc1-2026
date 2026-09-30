@@ -1,0 +1,76 @@
+{
+  "evaluation_directory": "03_算法与计算\\formal_forward_v2_final_evaluation",
+  "checks": {
+    "exact_360_attempts": true,
+    "exact_frozen_assignment_identities": true,
+    "exact_120_per_arm": true,
+    "every_qc_pass_has_independent_row": true,
+    "failed_attempts_have_no_score_or_hits": true,
+    "missing_qc_rows_are_explicit_failures": true,
+    "source_hashes_exact": true,
+    "output_hashes_exact": true,
+    "matching_qc_and_scores": true,
+    "favorable_from_frozen_threshold": true,
+    "middle_contact_from_independent_geometry": true,
+    "charge_warning_from_independent_qc": true,
+    "joint_endpoint_is_exact_conjunction": true,
+    "physical_unique_count_matches_manifest": true,
+    "summary_has_exact_three_arms": true,
+    "summary_counts_match": true,
+    "strata_partition_attempts": true,
+    "strata_counts_match_attempt_rows": true,
+    "charge_sensitivity_has_exact_three_arms": true,
+    "charge_sensitivity_counts_match": true
+  },
+  "all_checks_pass": true,
+  "threshold_kcal_mol": -8.07960033416748,
+  "arm_results": [
+    {
+      "arm": "random",
+      "attempted": 120,
+      "qc_pass": 120,
+      "favorable": 36,
+      "favorable_middle": 29,
+      "charge_warning_attempts": 0,
+      "charge_warning_favorable": 0,
+      "charge_warning_favorable_middle": 0,
+      "favorable_if_charge_warnings_fail": 36,
+      "favorable_middle_if_charge_warnings_fail": 29
+    },
+    {
+      "arm": "descriptor_ridge",
+      "attempted": 120,
+      "qc_pass": 120,
+      "favorable": 86,
+      "favorable_middle": 85,
+      "charge_warning_attempts": 1,
+      "charge_warning_favorable": 1,
+      "charge_warning_favorable_middle": 1,
+      "favorable_if_charge_warnings_fail": 85,
+      "favorable_middle_if_charge_warnings_fail": 84
+    },
+    {
+      "arm": "AI",
+      "attempted": 120,
+      "qc_pass": 120,
+      "favorable": 115,
+      "favorable_middle": 103,
+      "charge_warning_attempts": 1,
+      "charge_warning_favorable": 1,
+      "charge_warning_favorable_middle": 1,
+      "favorable_if_charge_warnings_fail": 114,
+      "favorable_middle_if_charge_warnings_fail": 102
+    }
+  ],
+  "physical_unique_queries": 319,
+  "charge_warning_unique_ids": [
+    "LIB_DIMKSBQDWMXKAH",
+    "LIB_PLFCIUGPHZFBAC"
+  ],
+  "source_hashes": {
+    "evaluation": "7dd47674dfa633f9a47f4d8d49b05809aca366f398303586b255530e2195a596",
+    "initial_qc": "b6c060deef77df0d14808918ac6b389d13056f521d30a9127c48106ed86c24f2",
+    "active_qc": "4ca883c1c0ac826f019534588d7e490b5bc13a969a97e94772dfe92a01e5407c",
+    "active_selection": "bd50bc8de9433b4b7dcade109355822cac0439308f761ba7e72c2f850cbe5183"
+  }
+}

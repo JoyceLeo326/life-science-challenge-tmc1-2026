@@ -1,0 +1,61 @@
+{
+  "status": "needs_reference_fetch",
+  "coordinate_payload_redistributed": false,
+  "derived_receptor_redistributed": false,
+  "source_id": "AUTHOR_PUBLIC_MET_COORDINATES",
+  "source_repository": "https://github.com/ramirezlab/Drug-design-targeting-TMC1",
+  "fixed_commit": "74274dad76201258adbd76c7058b705170c4b857",
+  "fixed_download_url": "https://raw.githubusercontent.com/ramirezlab/Drug-design-targeting-TMC1/74274dad76201258adbd76c7058b705170c4b857/Mechano_electrical_transducer_channels_complex/MET-channel_complex.pdb",
+  "doi": "10.1038/s42003-025-07943-x",
+  "source_coordinate_sha256": "14b5d4010eb2220ebddca0ef5cd0be346e6ba9bcc6db14311745b684e9807d82",
+  "expected_receptor_relative_path": "screen_v2/inputs/receptors/M_PUB_ALL.pdbqt",
+  "expected_receptor_sha256": "c024cc9efaf910ac11642cea4a4c701a0a88a335d7deb0d040320516d5a2eda1",
+  "license_evidence": "Archived author_model_provenance.json explicitly records repository license not located and exclusion from earlier public structure ZIP. No new upstream permission claim is made.",
+  "scientific_scope": "Author predicted/MD model and historical derived receptor; no new molecular dynamics or docking executed during recovery.",
+  "original_processing_steps": [
+    "Fetch the fixed author-model coordinate URL and require SHA256 of the original PDB before processing.",
+    "Load human AFDB canonical Q8TDI8 v6 and mouse AFDB canonical Q8R4P5 v6 plus frozen human UniProt transmembrane features and mouse-human residue map.",
+    "Original src/prepare_receptors_v2.py reads ATOM/HETATM and removes H/D; sequence alignment uses Biopython global PairwiseAligner, BLOSUM62, open_gap_score=-10 and extend_gap_score=-0.5.",
+    "Fit equal-residue conserved transmembrane C-alpha pairs to the human reference using Kabsch rigid rotation; preserve all original heavy atoms and write PDB coordinates with 0.001 angstrom precision.",
+    "Parameterize aligned heavy coordinates using the original Meeko 0.8.0 mk_prepare_receptor command: mk_prepare_receptor.exe --read_pdb screen_v2/inputs/receptors/M_PUB_ALL_aligned_heavy.pdb -o screen_v2/inputs/receptors/M_PUB_ALL -p -j --write_pdb screen_v2/inputs/receptors/M_PUB_ALL_H.pdb.",
+    "Require SHA256 c024cc9efaf910ac11642cea4a4c701a0a88a335d7deb0d040320516d5a2eda1 on the resulting PDBQT before replay; newly fetched or rebuilt inputs are not presumed byte-identical until checked."
+  ],
+  "original_processing_dependency_hashes": [
+    {
+      "relative_path": "src/prepare_receptors_v2.py",
+      "sha256": "76a534122dd35c0593ceea26fda721439634ef8d91aa53e671d00edc1b9f512a",
+      "included_in_this_payload": false
+    },
+    {
+      "relative_path": "src/analyze_structure.py",
+      "sha256": "1e4c68a7f03815a33b744c33b8d785a99a7544c90bbbee10e7030e640ab71716",
+      "included_in_this_payload": false
+    },
+    {
+      "relative_path": "src/common.py",
+      "sha256": "29fd8a0e406e91ffe59088f560ab96bf7894bc9503480cd204717755632027d2",
+      "included_in_this_payload": false
+    },
+    {
+      "relative_path": "data/raw/uniprot_Q8TDI8.json",
+      "sha256": "99db0cff1b66882f68083aef98e8650318c35446d66696a55e607c432fed6890",
+      "included_in_this_payload": false
+    },
+    {
+      "relative_path": "results/mouse_human_residue_map.csv",
+      "sha256": "71418491206ac06ce4dffded2e56b1afa3f75de77f518c8f5198bb228274e1fd",
+      "included_in_this_payload": false
+    },
+    {
+      "relative_path": "structure_bundle/raw/AFDB/Q8TDI8/AF-Q8TDI8-F1.pdb",
+      "sha256": "ba6b438b036b9386f4f04534cfa1dda3b6a35fbe05dd7fb2ec1b415bc6768d3b",
+      "included_in_this_payload": false
+    },
+    {
+      "relative_path": "structure_bundle/raw/AFDB/Q8R4P5/AF-Q8R4P5-F1.pdb",
+      "sha256": "ce74a4396dbed5ea6487eb53057fff40a0a6e9238b18e85a4e513ef88fca19c8",
+      "included_in_this_payload": false
+    }
+  ],
+  "rerun_status": "not executed in this recovery"
+}

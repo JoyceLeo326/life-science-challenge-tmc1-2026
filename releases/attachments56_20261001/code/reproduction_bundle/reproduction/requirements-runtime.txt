@@ -1,0 +1,9 @@
+# Partial recorded environment, not a complete lockfile.
+rdkit==2025.9.6
+scikit-learn==1.7.2
+Dimorphite-DL==2.0.2
+meeko==0.8.0
+numpy
+scipy
+joblib==1.5.2
+threadpoolctl==3.6.0

@@ -1,0 +1,1 @@
+﻿compound_id,parent_id,nearest_first_round_candidate_id,source_smiles,standardized_isomeric_smiles,inchikey,method,model_version,training_library_hash,novelty_to_training_set,novelty_to_input_library,scaffold,nearest_first_round_ecfp4_tanimoto,mw,clogp,tpsa_A2,hbd,hba,rotatable_bonds,sa_score,qed,pains_alerts,brenk_alerts,sample_index,model_weight_path,selection_rank

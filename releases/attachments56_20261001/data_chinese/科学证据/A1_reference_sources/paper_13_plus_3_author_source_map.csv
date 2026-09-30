@@ -1,0 +1,17 @@
+compound,membership_source,group,source_doi,membership_name_confirmed,full_chemical_identity_claim,human_TMC1_positive_binding_label,author_active_sdf_match_status,author_active_sdf_inchikey,author_active_sdf_record_count,author_record_name
+UoS-7692,SupplementaryTable1,13_pharmacophore_training,10.1038/s42003-025-07943-x,True,not_inferred_from_name,False,NAMED_RECORD_PRESENT,LTGAWWQODUWZHK-UHFFFAOYSA-O,9,UoS-7692
+UoS-3607,SupplementaryTable1,13_pharmacophore_training,10.1038/s42003-025-07943-x,True,not_inferred_from_name,False,NAMED_RECORD_PRESENT,OLCUKYIRSDRELH-UHFFFAOYSA-O,9,UoS-3607
+UoS-3606,SupplementaryTable1,13_pharmacophore_training,10.1038/s42003-025-07943-x,True,not_inferred_from_name,False,NAMED_RECORD_PRESENT,BWGBLXITCWGUFZ-RMKNXTFCSA-O,2,UoS-3606
+UoS-5247,SupplementaryTable1,13_pharmacophore_training,10.1038/s42003-025-07943-x,True,not_inferred_from_name,False,NOT_PRESENT_IN_TEN_ACTIVE_SDFS,,0,
+UoS-962,SupplementaryTable1,13_pharmacophore_training,10.1038/s42003-025-07943-x,True,not_inferred_from_name,False,NAMED_RECORD_PRESENT,FACJHMYFSONKTJ-SFHVURJKSA-O,8,UoS-962
+Proto-1,SupplementaryTable1,13_pharmacophore_training,10.1038/s42003-025-07943-x,True,not_inferred_from_name,False,NAMED_RECORD_PRESENT,QBLKUVUKIZEWAL-UHFFFAOYSA-O,4,Proto_1
+E6-berbamine,SupplementaryTable1,13_pharmacophore_training,10.1038/s42003-025-07943-x,True,not_inferred_from_name,False,NAMED_RECORD_PRESENT,PUAVTDKYTXNVBU-OIDHKYIRSA-P,10,E6_berbamine
+hexamethyleneamiloride,SupplementaryTable1,13_pharmacophore_training,10.1038/s42003-025-07943-x,True,not_inferred_from_name,False,NAMED_RECORD_PRESENT,RQQJJXVETXFINY-UHFFFAOYSA-O,2,Hexamethyleneamiloride
+amsacrine,SupplementaryTable1,13_pharmacophore_training,10.1038/s42003-025-07943-x,True,not_inferred_from_name,False,NAMED_RECORD_PRESENT,XCPGHVQEEXUHNC-UHFFFAOYSA-O,7,Amsacrine
+phenoxybenzamine,SupplementaryTable1,13_pharmacophore_training,10.1038/s42003-025-07943-x,True,not_inferred_from_name,False,NAMED_RECORD_PRESENT,QZVCTJOXCFMACW-INIZCTEOSA-O,10,Phenoxybenzamine
+carvedilol derivative13,SupplementaryTable1,13_pharmacophore_training,10.1038/s42003-025-07943-x,True,not_inferred_from_name,False,NAMED_RECORD_PRESENT,ZIIMCNZAFNETMV-UHFFFAOYSA-O,10,Carvedilol_derivate_13
+ORC-13661,SupplementaryTable1,13_pharmacophore_training,10.1038/s42003-025-07943-x,True,not_inferred_from_name,False,NAMED_RECORD_PRESENT,DAHGONXBHYVOPI-NEPJUHHUSA-O,6,ORC_13661
+FM1-43,SupplementaryTable1,13_pharmacophore_training,10.1038/s42003-025-07943-x,True,not_inferred_from_name,False,NAMED_RECORD_PRESENT,OKZXHSSXTVFTDR-UHFFFAOYSA-N,1,FM1_43
+benzamil,article_results_added_potent_MET_blockers,3_extra_docking_references,10.1038/s42003-025-07943-x,True,not_inferred_from_name,False,NOT_PRESENT_IN_TEN_ACTIVE_SDFS,,0,
+tubocurarine,article_results_added_potent_MET_blockers,3_extra_docking_references,10.1038/s42003-025-07943-x,True,not_inferred_from_name,False,NOT_PRESENT_IN_TEN_ACTIVE_SDFS,,0,
+DHS,article_results_added_potent_MET_blockers,3_extra_docking_references,10.1038/s42003-025-07943-x,True,not_inferred_from_name,False,NOT_PRESENT_IN_TEN_ACTIVE_SDFS,,0,

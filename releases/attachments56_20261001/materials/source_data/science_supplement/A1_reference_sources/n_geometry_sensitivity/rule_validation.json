@@ -1,0 +1,109 @@
+[
+  {
+    "case": "REF_ZINC129862420",
+    "pass": true,
+    "smiles": "COc1ccc(Cl)cc1C[N@@H+](C)Cc1nc2scc(-c3ccccc3)c2c(=O)[n-]1",
+    "details": {
+      "new_N_indices_in_original_rule_state": [
+        10
+      ],
+      "geometry_count": 2,
+      "geometry_index": 0,
+      "all_geometry_smiles": [
+        "COc1ccc(Cl)cc1C[N@@H+](C)Cc1nc2scc(-c3ccccc3)c2c(=O)[n-]1",
+        "COc1ccc(Cl)cc1C[N@H+](C)Cc1nc2scc(-c3ccccc3)c2c(=O)[n-]1"
+      ],
+      "interpretation": "two fixed geometries; no population weighting or inversion-rate claim; excluded from frozen-protocol success rates"
+    }
+  },
+  {
+    "case": "REF_ZINC129862421",
+    "pass": true,
+    "smiles": "COc1ccc(Cl)cc1C[N@H+](C)Cc1nc2scc(-c3ccccc3)c2c(=O)[n-]1",
+    "details": {
+      "new_N_indices_in_original_rule_state": [
+        10
+      ],
+      "geometry_count": 2,
+      "geometry_index": 1,
+      "all_geometry_smiles": [
+        "COc1ccc(Cl)cc1C[N@@H+](C)Cc1nc2scc(-c3ccccc3)c2c(=O)[n-]1",
+        "COc1ccc(Cl)cc1C[N@H+](C)Cc1nc2scc(-c3ccccc3)c2c(=O)[n-]1"
+      ],
+      "interpretation": "two fixed geometries; no population weighting or inversion-rate claim; excluded from frozen-protocol success rates"
+    }
+  },
+  {
+    "case": "REF_ZINC247399240",
+    "pass": true,
+    "smiles": "C[N@@H+](Cc1ccccc1OC(F)(F)F)Cn1nnc2ccccc2c1=O",
+    "details": {
+      "new_N_indices_in_original_rule_state": [
+        1
+      ],
+      "geometry_count": 2,
+      "geometry_index": 0,
+      "all_geometry_smiles": [
+        "C[N@@H+](Cc1ccccc1OC(F)(F)F)Cn1nnc2ccccc2c1=O",
+        "C[N@H+](Cc1ccccc1OC(F)(F)F)Cn1nnc2ccccc2c1=O"
+      ],
+      "interpretation": "two fixed geometries; no population weighting or inversion-rate claim; excluded from frozen-protocol success rates"
+    }
+  },
+  {
+    "case": "REF_ZINC247399241",
+    "pass": true,
+    "smiles": "C[N@H+](Cc1ccccc1OC(F)(F)F)Cn1nnc2ccccc2c1=O",
+    "details": {
+      "new_N_indices_in_original_rule_state": [
+        1
+      ],
+      "geometry_count": 2,
+      "geometry_index": 1,
+      "all_geometry_smiles": [
+        "C[N@@H+](Cc1ccccc1OC(F)(F)F)Cn1nnc2ccccc2c1=O",
+        "C[N@H+](Cc1ccccc1OC(F)(F)F)Cn1nnc2ccccc2c1=O"
+      ],
+      "interpretation": "two fixed geometries; no population weighting or inversion-rate claim; excluded from frozen-protocol success rates"
+    }
+  },
+  {
+    "case": "REF_ZINC584382630",
+    "pass": true,
+    "smiles": "Cc1cccc(OCC[N@@H+](C)Cn2nc(-c3cc(C)ccc3C)c3ccccc3c2=O)c1",
+    "details": {
+      "new_N_indices_in_original_rule_state": [
+        9
+      ],
+      "geometry_count": 2,
+      "geometry_index": 0,
+      "all_geometry_smiles": [
+        "Cc1cccc(OCC[N@@H+](C)Cn2nc(-c3cc(C)ccc3C)c3ccccc3c2=O)c1",
+        "Cc1cccc(OCC[N@H+](C)Cn2nc(-c3cc(C)ccc3C)c3ccccc3c2=O)c1"
+      ],
+      "interpretation": "two fixed geometries; no population weighting or inversion-rate claim; excluded from frozen-protocol success rates"
+    }
+  },
+  {
+    "case": "REF_ZINC584382631",
+    "pass": true,
+    "smiles": "Cc1cccc(OCC[N@H+](C)Cn2nc(-c3cc(C)ccc3C)c3ccccc3c2=O)c1",
+    "details": {
+      "new_N_indices_in_original_rule_state": [
+        9
+      ],
+      "geometry_count": 2,
+      "geometry_index": 1,
+      "all_geometry_smiles": [
+        "Cc1cccc(OCC[N@@H+](C)Cn2nc(-c3cc(C)ccc3C)c3ccccc3c2=O)c1",
+        "Cc1cccc(OCC[N@H+](C)Cn2nc(-c3cc(C)ccc3C)c3ccccc3c2=O)c1"
+      ],
+      "interpretation": "two fixed geometries; no population weighting or inversion-rate claim; excluded from frozen-protocol success rates"
+    }
+  },
+  {
+    "case": "ceforanide_ring_amide_must_reject",
+    "pass": true,
+    "reason": "Sensitivity cannot relax nonqualifying stable or ring stereochemistry"
+  }
+]

@@ -1,0 +1,590 @@
+[
+  {
+    "check": "formal_submission_filename_notice_page8",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "18slides_18narrations_18tracks",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "16_to_9_ratio",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "exact_title_on_cover",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "all_18_audio_embedded_and_exact",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "page1_notes_narration_equal",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "page1_audio_text_file_identity",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "page1_auto_timing_covers_track",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "page1_content_images_unchanged",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "page2_notes_narration_equal",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "page2_audio_text_file_identity",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "page2_auto_timing_covers_track",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "page2_content_images_unchanged",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "page3_notes_narration_equal",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "page3_audio_text_file_identity",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "page3_auto_timing_covers_track",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "page3_content_images_unchanged",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "page4_notes_narration_equal",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "page4_audio_text_file_identity",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "page4_auto_timing_covers_track",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "page4_content_images_unchanged",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "page5_notes_narration_equal",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "page5_audio_text_file_identity",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "page5_auto_timing_covers_track",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "page5_content_images_unchanged",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "page6_notes_narration_equal",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "page6_audio_text_file_identity",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "page6_auto_timing_covers_track",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "page6_content_images_unchanged",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "page7_notes_narration_equal",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "page7_audio_text_file_identity",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "page7_auto_timing_covers_track",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "page7_content_images_unchanged",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "page8_notes_narration_equal",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "page8_audio_text_file_identity",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "page8_auto_timing_covers_track",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "page8_content_images_unchanged",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "page9_notes_narration_equal",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "page9_audio_text_file_identity",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "page9_auto_timing_covers_track",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "page10_notes_narration_equal",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "page10_audio_text_file_identity",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "page10_auto_timing_covers_track",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "page11_notes_narration_equal",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "page11_audio_text_file_identity",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "page11_auto_timing_covers_track",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "page12_notes_narration_equal",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "page12_audio_text_file_identity",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "page12_auto_timing_covers_track",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "page13_notes_narration_equal",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "page13_audio_text_file_identity",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "page13_auto_timing_covers_track",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "page14_notes_narration_equal",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "page14_audio_text_file_identity",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "page14_auto_timing_covers_track",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "page14_content_images_unchanged",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "page15_notes_narration_equal",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "page15_audio_text_file_identity",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "page15_auto_timing_covers_track",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "page16_notes_narration_equal",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "page16_audio_text_file_identity",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "page16_auto_timing_covers_track",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "page17_notes_narration_equal",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "page17_audio_text_file_identity",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "page17_auto_timing_covers_track",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "page17_content_images_unchanged",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "page18_notes_narration_equal",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "page18_audio_text_file_identity",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "page18_auto_timing_covers_track",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "page18_content_images_unchanged",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "automatic_under480sec",
+    "passed": true,
+    "detail": 448.752
+  },
+  {
+    "check": "Word_all18_narrations_exact",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "Word_source_attribution_per_page",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "abstract300to500",
+    "passed": true,
+    "detail": 479
+  },
+  {
+    "check": "review_abstract_under300",
+    "passed": true,
+    "detail": 232
+  },
+  {
+    "check": "review_section1_limit",
+    "passed": true,
+    "detail": 522
+  },
+  {
+    "check": "review_section2_limit",
+    "passed": true,
+    "detail": 191
+  },
+  {
+    "check": "review_section3_limit",
+    "passed": true,
+    "detail": 1679
+  },
+  {
+    "check": "review_section4_limit",
+    "passed": true,
+    "detail": 2706
+  },
+  {
+    "check": "review_section5_limit",
+    "passed": true,
+    "detail": 199
+  },
+  {
+    "check": "科研报告_附件56口径修订版.docx_Markdown_same_paragraph_content",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "科研报告_附件56口径修订版.docx_Markdown_preserves_table_content",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "候选身份、既有药理与ADMET预测补充报告.docx_Markdown_same_paragraph_content",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "候选身份、既有药理与ADMET预测补充报告.docx_Markdown_preserves_table_content",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "figures_all_existing_inputs_unchanged",
+    "passed": true,
+    "detail": 58
+  },
+  {
+    "check": "source_data_all_existing_inputs_unchanged",
+    "passed": true,
+    "detail": 58
+  },
+  {
+    "check": "A1A2A3_frozen_source_snapshot_unchanged",
+    "passed": true,
+    "detail": []
+  },
+  {
+    "check": "A1A2A3_source_copy_hash_equal",
+    "passed": true,
+    "detail": 126
+  },
+  {
+    "check": "independent_Ngeometry_copy_equal",
+    "passed": true,
+    "detail": 66
+  },
+  {
+    "check": "Ngeometry_reference_link_resolves",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "候选身份、既有药理与ADMET预测补充报告.docx_blank_author",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "科研报告_附件56口径修订版.docx_blank_author",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "逐页中文讲稿_附件56修订版.docx_blank_author",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "靶向TMC1机械转导通道的小分子变构调节剂AI辅助筛选——用于Usher综合征1B的听力代偿保护策略摘要.docx_blank_author",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "靶向TMC1机械转导通道的小分子变构调节剂AI辅助筛选——用于Usher综合征1B的听力代偿保护策略评审表（区赛）.docx_blank_author",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "靶向TMC1机械转导通道的小分子变构调节剂AI辅助筛选——用于Usher综合征1B的听力代偿保护策略项目介绍（区赛）.pptx_blank_author",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "靶向TMC1机械转导通道的小分子变构调节剂AI辅助筛选——用于Usher综合征1B的听力代偿保护策略项目介绍（区赛）_无配音编辑版.pptx_blank_author",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "候选身份、既有药理与ADMET预测补充报告.pdf_pages_and_bounds",
+    "passed": true,
+    "detail": {
+      "pages": 5,
+      "outside": [],
+      "empty": []
+    }
+  },
+  {
+    "check": "科研报告_附件56口径修订版.pdf_pages_and_bounds",
+    "passed": true,
+    "detail": {
+      "pages": 20,
+      "outside": [],
+      "empty": []
+    }
+  },
+  {
+    "check": "逐页中文讲稿_附件56修订版.pdf_pages_and_bounds",
+    "passed": true,
+    "detail": {
+      "pages": 6,
+      "outside": [],
+      "empty": []
+    }
+  },
+  {
+    "check": "靶向TMC1机械转导通道的小分子变构调节剂AI辅助筛选——用于Usher综合征1B的听力代偿保护策略摘要.pdf_pages_and_bounds",
+    "passed": true,
+    "detail": {
+      "pages": 1,
+      "outside": [],
+      "empty": []
+    }
+  },
+  {
+    "check": "靶向TMC1机械转导通道的小分子变构调节剂AI辅助筛选——用于Usher综合征1B的听力代偿保护策略评审表（区赛）.pdf_pages_and_bounds",
+    "passed": true,
+    "detail": {
+      "pages": 5,
+      "outside": [],
+      "empty": []
+    }
+  },
+  {
+    "check": "靶向TMC1机械转导通道的小分子变构调节剂AI辅助筛选——用于Usher综合征1B的听力代偿保护策略项目介绍（区赛）.pdf_pages_and_bounds",
+    "passed": true,
+    "detail": {
+      "pages": 18,
+      "outside": [],
+      "empty": []
+    }
+  },
+  {
+    "check": "靶向TMC1机械转导通道的小分子变构调节剂AI辅助筛选——用于Usher综合征1B的听力代偿保护策略项目介绍（区赛）_无配音编辑版.pdf_pages_and_bounds",
+    "passed": true,
+    "detail": {
+      "pages": 18,
+      "outside": [],
+      "empty": []
+    }
+  },
+  {
+    "check": "PPT_no_textbox_overflow",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "seven_final_office_files_native_open",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "independent_final_text_audit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "independent_final_visual_audit",
+    "passed": true,
+    "detail": "PASS_WITH_NON_BLOCKING_NOTE"
+  },
+  {
+    "check": "prior_frozen_zip_unchanged",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "prior_release_unchanged",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "no_personal_compute_resource_statement",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "no_local_username_in_visible_documents",
+    "passed": true,
+    "detail": null
+  }
+]

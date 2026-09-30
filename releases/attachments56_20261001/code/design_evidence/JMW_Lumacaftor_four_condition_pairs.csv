@@ -1,0 +1,5 @@
+receptor_id,seed,design_vina_kcal_mol,parent_vina_kcal_mol,within_receptor_design_minus_parent_kcal_mol,source
+M_PUB_ALL,20260929,-9.654,-9.355,-0.299,external_source/actual_parent_product_comparison.csv
+M_PUB_ALL,20260927,-9.646,-9.359,-0.287,external_source/JMW_Lumacaftor_three_receptor_seed27.csv
+M_PUB_CORE,20260927,-9.599,-9.126,-0.473,external_source/JMW_Lumacaftor_three_receptor_seed27.csv
+H_AF,20260927,-10.505,-10.147,-0.358,external_source/JMW_Lumacaftor_three_receptor_seed27.csv

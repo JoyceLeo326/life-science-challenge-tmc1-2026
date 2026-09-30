@@ -1,0 +1,23 @@
+{
+  "scope": "Four public reports only; private source inspection scripts remain outside package.",
+  "original_review_manifest_sha256": "4349695922ee89f2ec991ed52ea2ac397425576fdf95434cd124bc7acfa14c51",
+  "accepted_science_manifest_sha256": "08b28625ad81d3a31ed2e50c7e2a25004042d2be31abcdaa59393d5126c9ae9b",
+  "files": [
+    {
+      "path": "A1_SOURCE_AND_A3_VERSIONS.json",
+      "sha256": "8593e151177bb60c8fca3e5953b4f3f1344db50a356d2df4a80c68eb83a2e279"
+    },
+    {
+      "path": "A2_PHARMACOLOGY_A3_INDEPENDENT_CHECK.json",
+      "sha256": "64362edadff908dc6967b6f3d13d40bab862343e241d58188af54656902ef16e"
+    },
+    {
+      "path": "INDEPENDENT_SCIENCE_REVIEW.md",
+      "sha256": "e74fac0f0702717069dc91b6cffa7f970fc7169a4a222c4a63be0bfa94ff7201"
+    },
+    {
+      "path": "PUBLIC_SCIENCE_INDEPENDENT_ACCEPTANCE.json",
+      "sha256": "3faffef9029a8247bc5477203151be424037624b22946cb0ba124d7537b75ba2"
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "status": "PASS",
+  "public_manifest_sha256": "08b28625ad81d3a31ed2e50c7e2a25004042d2be31abcdaa59393d5126c9ae9b",
+  "public_files": 126,
+  "checks": [
+    {
+      "check": "all manifest entries hash and size",
+      "pass_": true,
+      "detail": []
+    },
+    {
+      "check": "manifest covers entire public tree",
+      "pass_": true,
+      "detail": []
+    },
+    {
+      "check": "scientific tables preserve original fields",
+      "pass_": true,
+      "detail": [
+        {
+          "file": "A2_chembl_neighbors/candidate_neighbor_annotations.csv",
+          "same_bytes": false,
+          "original_fields_identical": true,
+          "added_fields": [
+            "activity_records",
+            "document_dois",
+            "known_assay_targets",
+            "mechanism_records",
+            "pharmacology_annotation_scope"
+          ]
+        },
+        {
+          "file": "A2_chembl_neighbors/candidate_neighbor_ge0p6.csv",
+          "same_bytes": false,
+          "original_fields_identical": true,
+          "added_fields": [
+            "activity_records",
+            "document_dois",
+            "known_assay_targets",
+            "mechanism_records",
+            "pharmacology_annotation_scope"
+          ]
+        },
+        {
+          "file": "A2_chembl_neighbors/candidate_similarity_identity_audit.csv",
+          "same_bytes": true,
+          "original_fields_identical": true,
+          "added_fields": []
+        },
+        {
+          "file": "A2_chembl_neighbors/candidate_similarity_summary.csv",
+          "same_bytes": true,
+          "original_fields_identical": true,
+          "added_fields": []
+        },
+        {
+          "file": "A2_chembl_neighbors/formal_six_input.csv",
+          "same_bytes": true,
+          "original_fields_identical": true,
+          "added_fields": []
+        },
+        {
+          "file": "A2_chembl_neighbors/pharmacology_actual_activity_records.csv",
+          "same_bytes": true,
+          "original_fields_identical": true,
+          "added_fields": []
+        },
+        {
+          "file": "A2_chembl_neighbors/pharmacology_molecule_summary.csv",
+          "same_bytes": true,
+          "original_fields_identical": true,
+          "added_fields": []
+        },
+        {
+          "file": "A2_chembl_neighbors/pharmacology_representative_shortlist.csv",
+          "same_bytes": true,
+          "original_fields_identical": true,
+          "added_fields": []
+        },
+        {
+          "file": "A3_ADMET_SA/ADMET_AI_v2_11_full_predictions.csv",
+          "same_bytes": true,
+          "original_fields_identical": true,
+          "added_fields": []
+        },
+        {
+          "file": "A3_ADMET_SA/ADMET_AI_v2_endpoint_metadata.csv",
+          "same_bytes": true,
+          "original_fields_identical": true,
+          "added_fields": []
+        },
+        {
+          "file": "A3_ADMET_SA/ADMET_AI_v2_out_of_range.csv",
+          "same_bytes": true,
+          "original_fields_identical": true,
+          "added_fields": []
+        },
+        {
+          "file": "A3_ADMET_SA/ADMET_AI_v2_range_qc_all.csv",
+          "same_bytes": true,
+          "original_fields_identical": true,
+          "added_fields": []
+        },
+        {
+          "file": "A3_ADMET_SA/ADMET_SA_panel11.csv",
+          "same_bytes": true,
+          "original_fields_identical": true,
+          "added_fields": []
+        },
+        {
+          "file": "A3_ADMET_SA/SA_physchem_actual11.csv",
+          "same_bytes": true,
+          "original_fields_identical": true,
+          "added_fields": []
+        }
+      ]
+    },
+    {
+      "check": "merged panel identity complete",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "merged columns match independent providers",
+      "pass_": true,
+      "detail": []
+    },
+    {
+      "check": "Swiss source receipts match files",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "Swiss combined source rows intact",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "ADMETlab failure reported",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "A1 provided source inventory 78 to 12",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "A1 limited mother-structure overlap zero",
+      "pass_": true,
+      "detail": {
+        "formal": 6,
+        "reference": 12,
+        "intersection": 0
+      }
+    },
+    {
+      "check": "A1 unestablished 68 source declared",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "check": "public personal paths identifiers scan",
+      "pass_": true,
+      "detail": []
+    }
+  ],
+  "passed": 12,
+  "total": 12,
+  "scope_note": "A1 68-member source remains unestablished; limited 12-structure comparison is accepted with explicit scope. A3 includes SwissADME completed 11, ADMET-AI predictions and retained 10 invalid-range values; ADMETlab not completed."
+}

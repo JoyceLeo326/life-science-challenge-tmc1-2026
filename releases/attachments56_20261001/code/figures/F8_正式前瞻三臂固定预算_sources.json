@@ -1,0 +1,23 @@
+{
+  "sources": [
+    {
+      "path": "data/forward_arm_summary.csv",
+      "sha256": "77ff7e7e6b70b80e7309983775b0b45cf15235712fbc95d4fa1989bafafa712b"
+    },
+    {
+      "path": "data/forward_strata.csv",
+      "sha256": "a0b9ab8a86f3f4a889985139f9138f32de3f8b93aea7abc782404c6967e339d4"
+    },
+    {
+      "path": "data/forward_charge_sensitivity.csv",
+      "sha256": "fb7232af98ba0045fab9b5e7560069faaf6c07ee69fcd207df15d012630b74a3"
+    },
+    {
+      "path": "05_independent_audit/forward_evaluation_independent_audit.json",
+      "sha256": "c9e0f3220bf5705417ff1d79c9b19470dba342e5b6cecfbc91707c50618d77b3"
+    }
+  ],
+  "script": "plots/plot_forward_three_arms.py",
+  "script_sha256": "93091c7b25f28a8ce2fe2c4e51bb03aeeb60dead59687ed9ae1e5f7fbdc9076b",
+  "visual_checked": false
+}

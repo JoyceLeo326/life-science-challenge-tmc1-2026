@@ -1,0 +1,7 @@
+{
+  "status": "PASS_WITH_NON_BLOCKING_NOTE",
+  "scope": "最终PPT及PDF页面视觉检查",
+  "independent_review": true,
+  "blocking_issues": [],
+  "note": "公开摘要；评审表最后一页保留官方匿名提示，属非阻断排版备注；详细工作记录保留在内部验收目录"
+}

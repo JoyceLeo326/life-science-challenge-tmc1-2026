@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/chembl/api/data/similarity/CHEMBL1081740/60.json?limit=1&only=molecule_chembl_id,similarity",
+  "http": 200,
+  "utc": "2026-09-30T18:46:20.282987+00:00",
+  "bytes": 312,
+  "sha256": "7f301708ca45ed1aabe6f954188e276171437472f30db1f93502d7748245f9a9",
+  "attempt_errors": []
+}

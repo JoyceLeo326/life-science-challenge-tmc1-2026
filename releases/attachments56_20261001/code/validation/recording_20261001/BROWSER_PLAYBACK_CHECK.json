@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "browser": "151.0.7922.34",
+  "metadata": {
+    "duration": 143.708333,
+    "width": 1920,
+    "height": 1080,
+    "readyState": 4
+  },
+  "playback_advanced_seconds": 2.5382710000000004,
+  "seek_checks": [
+    {
+      "currentTime": 30,
+      "readyState": 4,
+      "error": null
+    },
+    {
+      "currentTime": 65,
+      "readyState": 4,
+      "error": null
+    },
+    {
+      "currentTime": 117,
+      "readyState": 4,
+      "error": null
+    },
+    {
+      "currentTime": 138,
+      "readyState": 4,
+      "error": null
+    }
+  ],
+  "page_errors": [],
+  "media_error": null,
+  "video_sha256": "c7ca6128681dfaf72e6d9cf3454f1f83cad08d2c86f7c030aceb2248d5667bb7",
+  "audio": "no audio track; playback test checks video rendering only"
+}

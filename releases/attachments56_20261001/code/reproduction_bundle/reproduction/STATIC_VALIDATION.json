@@ -1,0 +1,106 @@
+{
+  "validation": "static source and configuration checks only; no scientific computation or model loading",
+  "python_syntax_files": [
+    "reproduction/prepare_portable.py",
+    "science/R2/evidence/03_compute/method/active_acquire.py",
+    "science/R2/evidence/03_compute/method/chemistry_rules.py",
+    "science/R2/evidence/03_compute/method/dock_batch.py",
+    "science/R2/evidence/03_compute/method/evaluate_forward.py",
+    "science/R2/evidence/03_compute/method/freeze_active_resume.py",
+    "science/R2/evidence/03_compute/method/freeze_preflight_v2.py",
+    "science/R2/evidence/03_compute/method/frozen_publication.py",
+    "science/R2/evidence/03_compute/method/merge_active_batches.py",
+    "science/R2/evidence/03_compute/method/merge_formal_batches.py",
+    "science/R2/evidence/03_compute/method/portable_config.py",
+    "science/R2/evidence/03_compute/method/prepare_active_physical.py",
+    "science/R2/evidence/03_compute/method/rank_library.py",
+    "science/R2/evidence/04_design/method_results/portable_config.py",
+    "science/R2/evidence/04_design/method_results/run_design.py",
+    "science/R2/evidence/04_design/method_results/train_selfies_gru.py",
+    "science/R2/evidence/04_design/method_results/train_smiles_gru.py"
+  ],
+  "original_expected_sha_matches": 18,
+  "original_expected_sha_mismatches": 0,
+  "publication_record_hashes_checked": 29,
+  "method_table_sha_guard_verified": true,
+  "method_table_entries": 25,
+  "numeric_method_constants": [
+    {
+      "script": "active_acquire.py",
+      "numeric_ast_constants_unchanged": true
+    },
+    {
+      "script": "chemistry_rules.py",
+      "numeric_ast_constants_unchanged": true
+    },
+    {
+      "script": "dock_batch.py",
+      "numeric_ast_constants_unchanged": true
+    },
+    {
+      "script": "evaluate_forward.py",
+      "numeric_ast_constants_unchanged": true
+    },
+    {
+      "script": "freeze_active_resume.py",
+      "numeric_ast_constants_unchanged": true
+    },
+    {
+      "script": "freeze_preflight_v2.py",
+      "numeric_ast_constants_unchanged": true
+    },
+    {
+      "script": "merge_active_batches.py",
+      "numeric_ast_constants_unchanged": true
+    },
+    {
+      "script": "merge_formal_batches.py",
+      "numeric_ast_constants_unchanged": true
+    },
+    {
+      "script": "prepare_active_physical.py",
+      "numeric_ast_constants_unchanged": true
+    },
+    {
+      "script": "rank_library.py",
+      "numeric_ast_constants_unchanged": true
+    },
+    {
+      "script": "run_design.py",
+      "numeric_ast_constants_unchanged": true
+    },
+    {
+      "script": "train_selfies_gru.py",
+      "numeric_ast_constants_unchanged": true
+    },
+    {
+      "script": "train_smiles_gru.py",
+      "numeric_ast_constants_unchanged": true
+    }
+  ],
+  "interrupted_rows": 4,
+  "interrupted_nonpath_fields_identical": true,
+  "original_raw_sample_rows": 20000,
+  "model_artifacts": [
+    {
+      "path": "science/R2/evidence/04_design/model_artifacts/final_selfies_17645/base_model_state.pt",
+      "bytes": 210023,
+      "sha256": "58a3de0c2a038ca602f2af14d6f23404b58ceb73ae06949d6b1442f9a9fb136c",
+      "loaded": false
+    },
+    {
+      "path": "science/R2/evidence/04_design/model_artifacts/final_selfies_17645/base_raw_generated.csv.gz",
+      "bytes": 1480667,
+      "sha256": "12bc38a228ddc6859ed94d3529e75782fc92d980538202bf39a6aef3a40dd8f0",
+      "loaded": false
+    },
+    {
+      "path": "science/R2/evidence/04_design/model_artifacts/final_selfies_17645/vocab.json",
+      "bytes": 629,
+      "sha256": "97a3216a5faa3e18850664a2cbc6015bb33bd2b8d985aa20f7a74999101aa4c3",
+      "loaded": false
+    }
+  ],
+  "full_replay_configuration_check": "Requires merged R2 library inputs; not executed against a partial supplement",
+  "scientific_replay_executed": false
+}

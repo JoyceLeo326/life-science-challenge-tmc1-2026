@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "source_snapshot_unchanged": true,
+  "copied_files": 4018,
+  "actual_unique_steps": 24,
+  "earlier_failed_child_invocations_retained": 1,
+  "fresh_downloaded_inputs_only": true,
+  "full_16698_ranking_run": true,
+  "source_manifest_sha256": "2f6545857c6874dd0ad252e17280fca4a9a92b5fabbd14444fe37b5ace17e271",
+  "new_docking_jobs": 0,
+  "new_md_runs": 0
+}

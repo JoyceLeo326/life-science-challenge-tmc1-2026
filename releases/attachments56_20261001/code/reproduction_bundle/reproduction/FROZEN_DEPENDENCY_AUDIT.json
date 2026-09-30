@@ -1,0 +1,147 @@
+{
+  "role": "Read-only dependency audit for main compute recovery; no duplicate data recovery",
+  "required_manifest_hash_migrations": [
+    "ranking_formal_v2_16698/preflight_v2.json files_sha256.freeze.json must reflect published freeze bytes with original scientific hash retained in provenance",
+    "ranking_active_v2_after_ai60/active_freeze.json frozen_file_sha256.freeze.json and ai_attempts_manifest_sha256 change if referenced JSON is normalized",
+    "AI_initial_60_independent_outcomes_manifest.json outcome_file_sha256 must reflect published path-normalized CSV, retaining original source SHA",
+    "Original old154/old27 job and old27 preparation guards must map to fixed published byte hashes, with no disabled hash mode"
+  ],
+  "paths_only_ledger_columns": [
+    "box_file",
+    "command",
+    "export_log_file",
+    "exported_sdf_file",
+    "ligand_pdbqt",
+    "log_file",
+    "pose_file",
+    "receptor_file",
+    "sdf_file"
+  ],
+  "records": [
+    {
+      "evidence_relative_path": "03_compute/ranking_formal_v2_16698/all_predictions.csv",
+      "source_locator": "R2 scientific root/03_算法与计算/ranking_formal_v2_16698/all_predictions.csv",
+      "source_sha256": "79b775967bfc87ded9a07aae03549c9233691ec4fc3375a2c2662b64ee4b2841",
+      "source_bytes": 11262930,
+      "public_current_exists": false,
+      "public_current_sha256": null,
+      "source_rows": 16698
+    },
+    {
+      "evidence_relative_path": "03_compute/ranking_formal_v2_16698/arm_assignments.csv",
+      "source_locator": "R2 scientific root/03_算法与计算/ranking_formal_v2_16698/arm_assignments.csv",
+      "source_sha256": "1eb0908109108bba2507efa39e46f7a4561e63bf4d161309175f590b25f3b9ce",
+      "source_bytes": 220713,
+      "public_current_exists": false,
+      "public_current_sha256": null,
+      "source_rows": 300
+    },
+    {
+      "evidence_relative_path": "03_compute/ranking_formal_v2_16698/physical_union_docking_list.csv",
+      "source_locator": "R2 scientific root/03_算法与计算/ranking_formal_v2_16698/physical_union_docking_list.csv",
+      "source_sha256": "3b53b86471eaed6f5bc49fbef381b811ec81153c69376fc4f20bf2c0161790b9",
+      "source_bytes": 203264,
+      "public_current_exists": false,
+      "public_current_sha256": null,
+      "source_rows": 278
+    },
+    {
+      "evidence_relative_path": "03_compute/ranking_formal_v2_16698/freeze.json",
+      "source_locator": "R2 scientific root/03_算法与计算/ranking_formal_v2_16698/freeze.json",
+      "source_sha256": "b8b922302bdcffff175cfb2c65f8a3aad1b2bf51fccc5f6b1efe2a7b314475e2",
+      "source_bytes": 2887,
+      "public_current_exists": false,
+      "public_current_sha256": null
+    },
+    {
+      "evidence_relative_path": "03_compute/ranking_formal_v2_16698/preflight_v2.json",
+      "source_locator": "R2 scientific root/03_算法与计算/ranking_formal_v2_16698/preflight_v2.json",
+      "source_sha256": "4702a541be4f1af212ed604e529e8f18dc8be7e18cef589d4a87368f04293f80",
+      "source_bytes": 1566,
+      "public_current_exists": false,
+      "public_current_sha256": null
+    },
+    {
+      "evidence_relative_path": "03_compute/ranking_active_v2_after_ai60/AI_active_60.csv",
+      "source_locator": "R2 scientific root/03_算法与计算/ranking_active_v2_after_ai60/AI_active_60.csv",
+      "source_sha256": "bd50bc8de9433b4b7dcade109355822cac0439308f761ba7e72c2f850cbe5183",
+      "source_bytes": 48325,
+      "public_current_exists": false,
+      "public_current_sha256": null,
+      "source_rows": 60
+    },
+    {
+      "evidence_relative_path": "03_compute/ranking_active_v2_after_ai60/active_predictions_all_eligible.csv",
+      "source_locator": "R2 scientific root/03_算法与计算/ranking_active_v2_after_ai60/active_predictions_all_eligible.csv",
+      "source_sha256": "4ff78ae04b87ab4f0c86fcb46f7bc672c8aafa7f783c1667b861b93eec13385a",
+      "source_bytes": 6118578,
+      "public_current_exists": false,
+      "public_current_sha256": null,
+      "source_rows": 9038
+    },
+    {
+      "evidence_relative_path": "03_compute/ranking_active_v2_after_ai60/active_freeze.json",
+      "source_locator": "R2 scientific root/03_算法与计算/ranking_active_v2_after_ai60/active_freeze.json",
+      "source_sha256": "cd5eca7de257cfbf9bf8d559beef55631c47c3764552181313a3e81274b56a81",
+      "source_bytes": 1957,
+      "public_current_exists": false,
+      "public_current_sha256": null
+    },
+    {
+      "evidence_relative_path": "05_independent_audit/AI_initial_60_independent_outcomes.csv",
+      "source_locator": "R2 scientific root/05_独立方法复核/AI_initial_60_independent_outcomes.csv",
+      "source_sha256": "deb906b39b9d5d19b1092c90368798627f749e676e718d1a4fdc2126dabd04b8",
+      "source_bytes": 15860,
+      "public_current_exists": false,
+      "public_current_sha256": null,
+      "source_rows": 60
+    },
+    {
+      "evidence_relative_path": "05_independent_audit/AI_initial_60_independent_outcomes_manifest.json",
+      "source_locator": "R2 scientific root/05_独立方法复核/AI_initial_60_independent_outcomes_manifest.json",
+      "source_sha256": "0a26bffc97c2ea2c0158471eb4134be41cb6742ac1137aeede71d739fcf20607",
+      "source_bytes": 1024,
+      "public_current_exists": false,
+      "public_current_sha256": null
+    },
+    {
+      "evidence_relative_path": "03_compute/raw_runs/formal_forward_v2_initial278/job_ledger.csv",
+      "source_locator": "R2 scientific scratch/03_compute/formal_forward_v2_initial278/job_ledger.csv",
+      "source_sha256": "75a95077a56ea1945b169b984d719b461620704c71b7e3d818771617173e14db",
+      "source_bytes": 627521,
+      "public_current_exists": true,
+      "public_current_sha256": "4877643d008fc8761e3885f5cf78eaea1659def61da16e5c79f8ab181679fc72",
+      "source_rows": 154,
+      "public_current_rows": 154,
+      "nonpath_scientific_fields_identical": true,
+      "original_frozen_expected_sha256": "75a95077a56ea1945b169b984d719b461620704c71b7e3d818771617173e14db",
+      "original_frozen_expected_match": true
+    },
+    {
+      "evidence_relative_path": "03_compute/raw_runs/formal_forward_v2_active_new/job_ledger.csv",
+      "source_locator": "R2 scientific scratch/03_compute/formal_forward_v2_active_new/job_ledger.csv",
+      "source_sha256": "4c11c0ad5fffe2fc639503eb2424120846ce248e831db0f4d39db553996ca161",
+      "source_bytes": 114312,
+      "public_current_exists": true,
+      "public_current_sha256": "e028186a18c7dc0e48f96ab241895d2dc71f2bf980205b3746bd3a8491951ca1",
+      "source_rows": 27,
+      "public_current_rows": 27,
+      "nonpath_scientific_fields_identical": true,
+      "original_frozen_expected_sha256": "4c11c0ad5fffe2fc639503eb2424120846ce248e831db0f4d39db553996ca161",
+      "original_frozen_expected_match": true
+    },
+    {
+      "evidence_relative_path": "03_compute/raw_runs/formal_forward_v2_active_new/preparation_ledger.csv",
+      "source_locator": "R2 scientific scratch/03_compute/formal_forward_v2_active_new/preparation_ledger.csv",
+      "source_sha256": "72c1a9b83d99ea507b1397fa8421d398c4b42817d802978deeeb4b60c4aa46ac",
+      "source_bytes": 67028,
+      "public_current_exists": true,
+      "public_current_sha256": "873073fbe68bb28d7fbe3cbb388b9e07f71e2ca5fdf35e55b95e8baf6c5df97b",
+      "source_rows": 41,
+      "public_current_rows": 41,
+      "nonpath_scientific_fields_identical": true,
+      "original_frozen_expected_sha256": "72c1a9b83d99ea507b1397fa8421d398c4b42817d802978deeeb4b60c4aa46ac",
+      "original_frozen_expected_match": true
+    }
+  ]
+}

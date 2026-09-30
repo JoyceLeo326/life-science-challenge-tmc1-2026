@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?max_phase=4&molecule_type=Small+molecule&limit=1000&offset=0&order_by=molecule_chembl_id",
+    "path": "provenance/raw/legacy_approved/molecules_offset_00000.json",
+    "sha256": "5cbf75a488eae0b667eaea430927209aca389a6aa6b4b323f6928729ab40a1f9",
+    "bytes": 5154676,
+    "accessed_at_utc": "2026-09-27T12:06:02.512180+00:00",
+    "offset": 0,
+    "returned": 1000,
+    "total_count": 3475
+  },
+  {
+    "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?max_phase=4&molecule_type=Small+molecule&limit=1000&offset=1000&order_by=molecule_chembl_id",
+    "path": "provenance/raw/legacy_approved/molecules_offset_01000.json",
+    "sha256": "59214b88b6d803098e00c2336473f5580aaa550837b8f3da5855482dee334a70",
+    "bytes": 5188918,
+    "accessed_at_utc": "2026-09-27T12:07:29.019368+00:00",
+    "offset": 1000,
+    "returned": 1000,
+    "total_count": 3475
+  },
+  {
+    "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?max_phase=4&molecule_type=Small+molecule&limit=1000&offset=2000&order_by=molecule_chembl_id",
+    "path": "provenance/raw/legacy_approved/molecules_offset_02000.json",
+    "sha256": "38c78586a95e3bcf0d4e97d4ef8e110a1a2247b21528a69636f0941edb693283",
+    "bytes": 5718157,
+    "accessed_at_utc": "2026-09-27T12:08:03.973596+00:00",
+    "offset": 2000,
+    "returned": 1000,
+    "total_count": 3475
+  },
+  {
+    "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?max_phase=4&molecule_type=Small+molecule&limit=1000&offset=3000&order_by=molecule_chembl_id",
+    "path": "provenance/raw/legacy_approved/molecules_offset_03000.json",
+    "sha256": "1c9f75b884bd9c7af48d851c3db2aca618db4740509b5f3fae2fa3b946359373",
+    "bytes": 2389517,
+    "accessed_at_utc": "2026-09-27T12:08:09.551411+00:00",
+    "offset": 3000,
+    "returned": 475,
+    "total_count": 3475
+  }
+]

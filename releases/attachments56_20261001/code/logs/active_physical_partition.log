@@ -1,0 +1,13 @@
+{
+  "created_utc": "2026-09-30T10:58:12.675676+00:00",
+  "selection_rule": "fixed active 60; prior physical overlap reused regardless of known score",
+  "active_attempts": 60,
+  "new_physical_jobs": 41,
+  "reused_physical_jobs": 19,
+  "final_physical_unique_attempts": 319,
+  "initial_union_sha256": "3b53b86471eaed6f5bc49fbef381b811ec81153c69376fc4f20bf2c0161790b9",
+  "active_selection_sha256": "bd50bc8de9433b4b7dcade109355822cac0439308f761ba7e72c2f850cbe5183",
+  "new_physical_sha256": "24b4687a8f7421dc57a5edf5be3302388787f1e49c399a0c5afed7d7a35f31c7",
+  "reused_sha256": "8f6182a6ac55ef3f5d1a8fbeed4a843c7c988f167dd1ef3dd3657408bebc3052",
+  "no_new_scores_used_in_partition": true
+}

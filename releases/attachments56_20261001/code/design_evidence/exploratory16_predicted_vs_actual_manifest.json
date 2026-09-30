@@ -1,0 +1,10 @@
+{
+  "source_file": "external_source/exploratory16_actual_outcomes.csv",
+  "source_sha256": "cc8392c75387112cac3f6144fffa64b8852e7296726b2a1fb3081b491071d147",
+  "figure_caption": "All 16 prospectively frozen exploratory generated molecules: historical-935 ExtraTrees predicted M_PUB_ALL middle-box Vina e8 score and actual seed20260927 first-pose score. Proxy group 12, MW/charge-matched random group 4; all independently QC-passing. Circle means predeclared Middle 4 A contact, square none; gold ring meets frozen historical score threshold and Middle contact. The single joint case is an exploratory docking proxy observation; groups are unequal and small, do not show general model superiority, biological affinity, functional effect, selectivity or ADMET. Original fixed40 joint success remains 0/40.",
+  "files_sha256": {
+    "png": "dc25fafc5255f13e65e92ba29247853f75dac961d4793d25163c3cf76fd60d20",
+    "svg": "3a210b99af8eb79039c539c97eb05d952d3f30196d5b4d7ea72aa4e6a44a8152",
+    "pdf": "174431c0784e98b3fd33c400b4b68c09fa7a74e26636ac635b92753163e95f9e"
+  }
+}

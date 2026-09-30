@@ -1,0 +1,33 @@
+--- scientific_source/04_design/model_artifacts/final_selfies_17645/training_manifest.json
++++ published/04_design/model_artifacts/final_selfies_17645/training_manifest.json
+@@ -9,12 +9,12 @@
+   "selfies_package_metadata_version": "2.2.0",
+   "selfies_runtime_version_reported": "2.1.1",
+   "rdkit_version": "2025.09.6",
+-  "library_path": "[original design scratch]\\library_17645_snapshot.csv",
++  "library_path": "02_library/formal_snapshot/filtered_for_screening.csv",
+   "library_sha256": "439f74756bc786709f318a4379037c4df186bc4d40957bdbe245910ba48e8229",
+   "raw_input_rows": 17645,
+-  "first_round_screen_path": "[original R1 research root]\\screen_v2\\inputs\\library\\eligible_pool.csv",
++  "first_round_screen_path": "R1/screen_v2/inputs/library/eligible_pool.csv",
+   "first_round_screen_sha256": "9add7f2a901293c7d2be2f748d17f08e35bcc1dc6f47c7573fcc5d6fbbd15916",
+-  "rule_enumeration_path": "[original R2 scientific root]\\04_分子设计\\design_constraints_all.csv",
++  "rule_enumeration_path": "04_design/method_results/design_constraints_all.csv",
+   "rule_enumeration_sha256": "2a46fc4c47441b6773cc95c72311d4ff1b7e6ea1399b79657d83bdf853629f9b",
+   "unique_structures_in_model_scope": 17472,
+   "smiles_augmented_examples": 0,
+@@ -107,12 +107,12 @@
+   "temperature": 0.85,
+   "sample_max_tokens": 140,
+   "sample_requested_each_model": 20000,
+-  "base_weights_path": "[original design scratch]\\final_selfies_17645\\base_model_state.pt",
++  "base_weights_path": "04_design/model_artifacts/final_selfies_17645/base_model_state.pt",
+   "base_weights_sha256": "58a3de0c2a038ca602f2af14d6f23404b58ceb73ae06949d6b1442f9a9fb136c",
+   "focused_weights_path": null,
+   "focused_weights_sha256": null,
+   "base_result": {
+-    "raw_path": "[original design scratch]\\final_selfies_17645\\base_raw_generated.csv.gz",
++    "raw_path": "04_design/model_artifacts/final_selfies_17645/base_raw_generated.csv.gz",
+     "raw_sha256": "12bc38a228ddc6859ed94d3529e75782fc92d980538202bf39a6aef3a40dd8f0",
+     "sample_counts": {
+       "valid_samples": 20000,

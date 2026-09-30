@@ -1,0 +1,10 @@
+--- scientific_source/03_compute/method/prepare_active_physical.py
++++ published/03_compute/method/prepare_active_physical.py
+@@ -9,6 +9,7 @@
+ import json
+ from datetime import datetime, timezone
+ from pathlib import Path
++from portable_config import required_path
+ 
+ from rank_library import read_csv, write_csv, sha
+ 

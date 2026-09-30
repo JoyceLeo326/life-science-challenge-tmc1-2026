@@ -1,0 +1,21 @@
+{
+  "actual_steps": [
+    {
+      "entry": "run_design.py",
+      "exit_code": 0,
+      "log": "step0.log"
+    },
+    {
+      "entry": "train_smiles_gru.py",
+      "exit_code": 0,
+      "log": "step1.log"
+    },
+    {
+      "entry": "train_selfies_gru.py",
+      "exit_code": 0,
+      "log": "step2.log"
+    }
+  ],
+  "designs": 10,
+  "formal_results_modified": false
+}

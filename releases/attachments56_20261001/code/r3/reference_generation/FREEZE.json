@@ -1,0 +1,25 @@
+{
+  "created_utc": "2026-09-30T10:48:10.802665+00:00",
+  "source_rows": 233,
+  "prior_attempted_unique": 56,
+  "remaining_unattempted": 177,
+  "remaining_eligible": 162,
+  "blocked_retained": 15,
+  "selected": 10,
+  "selection": "ascending cached historical935 ExtraTrees predicted score, deterministic compound ID tie; no retraining/no regeneration/no observed new score",
+  "protocol": {
+    "receptor": "M_PUB_ALL",
+    "seed": 20260927,
+    "exhaustiveness": 8,
+    "workers": 2,
+    "threshold": -8.07960033416748,
+    "joint": "independent technical QC AND favorable threshold AND Middle 4A"
+  },
+  "source_hashes": {
+    "exploratory12_proxy_guided_all_predictions.csv": "49f39d22df2ffc5c578799324a5b60bd33336e1ba36fae22e1132f2c67a13d96",
+    "design_final_40.csv": "0a2114bf29576b22917e6c09f22b5e835857d4ee9b3aeb0fdb9afe0924fce71e",
+    "exploratory16_docking_fixed_list.csv": "c97d139dae375e925ab6d672c0fc6226cac72d0d027cd6443e82e533e4bcc176"
+  },
+  "frozen_top10_sha256": "be95bedcc0fffc7b932cea214991f7b06433488590f8545e4d0c655f2ff6bca4",
+  "original40_preserved_joint": 0
+}

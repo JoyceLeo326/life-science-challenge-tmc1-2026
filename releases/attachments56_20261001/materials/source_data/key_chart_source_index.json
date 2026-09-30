@@ -1,0 +1,23 @@
+{
+  "new_charts": [
+    "comparison_focus",
+    "chemical_candidates_focus",
+    "worm_qc_focus"
+  ],
+  "data_changed": false,
+  "style_changes": "中文大字、突出本页比较或候选诊断、保留分母和解释范围",
+  "sources": [
+    {
+      "file": "matched_MW350_metrics.csv",
+      "sha256": "8a03afda279c3e2f118d0679791a8386f738e20a49dc114b600fa42a2e31406b"
+    },
+    {
+      "file": "six_candidate_alerts.csv",
+      "sha256": "94dcb5347ed9fd3b72fb086c26767fd7747dcc362cedc77dfea7665dd7280e1c"
+    },
+    {
+      "file": "worm_pose_qc.csv",
+      "sha256": "46e0f22bebc39134f1df541e849ae30bd5336b53a49e7d80080d9fd7981524b1"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+paper_id,geometry_count,score_min_kcal_mol,score_max_kcal_mol,spread_kcal_mol,both_qc_pass,both_middle_contact_4A,either_score_le_frozen_cutoff,frozen_protocol_status,score_scope
+ZINC12986242,2,-7.535,-7.074,0.461,True,False,False,BLOCKED_AT_NEW_N_STEREO,separate sensitivity; do not pool with frozen comparison
+ZINC24739924,2,-7.028,-6.468,0.56,True,False,False,BLOCKED_AT_NEW_N_STEREO,separate sensitivity; do not pool with frozen comparison
+ZINC58438263,2,-6.987,-6.852,0.135,True,True,False,BLOCKED_AT_NEW_N_STEREO,separate sensitivity; do not pool with frozen comparison

@@ -1,0 +1,7 @@
+rdkit==2025.09.6
+meeko==0.8.0
+numpy==2.5.3
+scipy==1.18.1
+dimorphite_dl==2.0.2
+gemmi
+matplotlib

@@ -1,0 +1,69 @@
+{
+  "checked_utc": "2026-09-30T18:36:23.524098+00:00",
+  "author_repo_frozen_commit": "74274dad76201258adbd76c7058b705170c4b857",
+  "cartblanche_api_source_commit": "94dafee595e0f02b66b1a19cdf6d73ebf2693a11",
+  "records": [
+    {
+      "file": "github_tree_response.json",
+      "source": "https://api.github.com/repos/ramirezlab/Drug-design-targeting-TMC1/git/trees/74274dad76201258adbd76c7058b705170c4b857?recursive=1",
+      "observed_outcome": "HTTP403; independent normal git source path succeeded",
+      "bytes": 279,
+      "sha256": "8241447abdb4008f8b055e7bf7f592916ed75bc96a519582b21db309bc6bdfb0",
+      "local_capture_file_mtime_utc": "2026-09-30T18:17:13.391439+00:00"
+    },
+    {
+      "file": "author_tree.tsv",
+      "source": "https://github.com/ramirezlab/Drug-design-targeting-TMC1.git",
+      "observed_outcome": "git tree at 74274dad76201258adbd76c7058b705170c4b857:41 files",
+      "bytes": 4530,
+      "sha256": "f8a692a8e3c94f2e1bee0d0ca44ccf04d46646e58605ecb62b4689a694b60742",
+      "local_capture_file_mtime_utc": "2026-09-30T18:19:11.606830+00:00"
+    },
+    {
+      "file": "cartblanche_response.txt",
+      "source": "GET https://cartblanche22.docking.org/substances.txt",
+      "observed_outcome": "old documented GET returned application HTML, not molecules",
+      "bytes": 1098,
+      "sha256": "41193fea1fcad8e1f8692c80427dea220afe98cee03c3be7e38d6b30aa523734",
+      "local_capture_file_mtime_utc": "2026-09-30T18:23:17.235338+00:00"
+    },
+    {
+      "file": "cartblanche_post_response.json",
+      "source": "POST https://cartblanche22.docking.org/substances.json",
+      "observed_outcome": "current primary-source code supports POST; returned task ID",
+      "bytes": 48,
+      "sha256": "05e2be70a2498c6688ab6ba72a28385aed4d6fa236443b9f7d994ae457bf5676",
+      "local_capture_file_mtime_utc": "2026-09-30T18:24:11.961765+00:00"
+    },
+    {
+      "file": "cartblanche_result.json",
+      "source": "https://cartblanche22.docking.org/search/result/e6b57f52-d6bf-4048-89c9-dc67b58ee28a",
+      "observed_outcome": "3 of 5 requested exact IDs recovered",
+      "bytes": 5568,
+      "sha256": "0108c8f4a6e3340088f6450746177a7b56857abd216bc356b2bdbeb29d23241c",
+      "local_capture_file_mtime_utc": "2026-09-30T18:24:30.255399+00:00"
+    },
+    {
+      "file": "cartblanche_missing_post.json",
+      "source": "POST https://cartblanche22.docking.org/substances.json",
+      "observed_outcome": "separate repeat containing only the 2 unreturned IDs",
+      "bytes": 48,
+      "sha256": "f0b77fb95ee4d348a26bc937e1b10a460627a1900a2b0f6bbe5d63c26601af4b",
+      "local_capture_file_mtime_utc": "2026-09-30T18:25:07.957619+00:00"
+    },
+    {
+      "file": "cartblanche_missing_result.json",
+      "source": "https://cartblanche22.docking.org/search/result/700ed26d-71c2-43af-9d4e-006781cf2b68",
+      "observed_outcome": "successful API task with zero returned molecular records",
+      "bytes": 90,
+      "sha256": "d1971a5d1cff91061b04c2891350f583ec5ee5edbe973c22dfd7b4d8188c15a7",
+      "local_capture_file_mtime_utc": "2026-09-30T18:25:22.790594+00:00"
+    }
+  ],
+  "additional_query_ledgers": [
+    "zinc_direct_queries.json",
+    "pubchem_queries.json",
+    "pubchem_padded_queries.json"
+  ],
+  "evidence_interpretation": "Not-returned is an unresolved lookup, not proof the molecular identity does not exist; no ZINC15 verification mechanism was bypassed."
+}

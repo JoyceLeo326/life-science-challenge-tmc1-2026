@@ -1,0 +1,55 @@
+{
+  "site_id": "R3_W7USX_native_mapped_middle15_complete_region_v1",
+  "center": [
+    136.5105,
+    174.4235,
+    172.819
+  ],
+  "size": [
+    33.721,
+    32.575,
+    26.328
+  ],
+  "volume_A3": 28920.296346600022,
+  "mouse_site_residues": null,
+  "worm_site_residues": [
+    400,
+    403,
+    404,
+    435,
+    436,
+    439,
+    440,
+    683,
+    686,
+    687,
+    691,
+    734,
+    735,
+    737,
+    756
+  ],
+  "human_site_residues": [
+    414,
+    417,
+    418,
+    449,
+    450,
+    453,
+    454,
+    531,
+    534,
+    535,
+    539,
+    582,
+    583,
+    585,
+    604
+  ],
+  "source": "7USX official experimental contracted complex chainA, native frame; contracted is geometric class, not verified closed state",
+  "rule": "AABB of all experimentally observed heavy atoms of 15 two-way structure-guided and topology/sequence-reviewed worm homologous Middle positions, plus5A per face; native worm frame; same fixed box for every ligand; no inherited mouse box coordinates or score threshold",
+  "mapping_scope": "Independent new R3 worm condition; original760 mapping andR2unchanged",
+  "functional_direction": "unknown",
+  "species_transfer_score_threshold": "not_defined_do_not_apply_mouse_threshold",
+  "selection_reason": "All15 site residues+126 heavy atoms and protein local context within box+8A complete in7USX;7USW and7USY have incomplete local sidechains; select structural completeness before docking results"
+}

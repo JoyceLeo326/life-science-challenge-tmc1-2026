@@ -1,0 +1,16 @@
+{
+  "source": "published data/forward_attempt_level.csv",
+  "replay": "complete original frozen raw-batch evaluation",
+  "rows": [
+    360,
+    360
+  ],
+  "column_order_equal": true,
+  "compound_id_row_order_equal": true,
+  "different_fields_row_counts": {
+    "independent_qc_evidence": 360
+  },
+  "all_scientific_cells_exact": true,
+  "source_index_existing_disclosure": "SOURCE_INDEX.json marks this table edit=evidence path only",
+  "no_other_cell_difference": true
+}

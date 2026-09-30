@@ -1,0 +1,13 @@
+{
+  "inputs_sha256": {
+    "external_source/actual_parent_product_comparison.csv": "758f4c230f4e75c28788b96a4356d273f13c09d80baa5149d291305b26ea96be",
+    "external_source/JMW_Lumacaftor_three_receptor_seed27.csv": "87a2d1255844966b4cda5d862ab99c17375fa4444dc5d46502230859c984e54a"
+  },
+  "data_sha256": "fb08c84a87dc13f658301ff3e2390cf3898f26dbd747d552b79ff244b7b68d0c",
+  "figure_sha256": {
+    "png": "cea1f53ebfd2df74d4180c8adbd8865d4951b95a941f47003568a7da74c901a5",
+    "svg": "a958457c395f12186bad033e2299deadcec39ead400f921f73540d4f4147c365",
+    "pdf": "dea429730795474aa3f407fe42434b435523b417b37e70cfffd8bf504f59c269"
+  },
+  "caption": "Paired seed20260929 and 20260927 M_PUB_ALL, and seed20260927 M_PUB_CORE and H_AF Vina e8 first-pose scores for JMW methylamide and Lumacaftor. Dots show design minus parent within each receptor only; negative values are lower static docking scores. All pair poses independently technically QC-passing and have predeclared Middle 4 A contact. The two M_PUB_ALL seeds and two other receptor models are not four independent biological replicates; cross-receptor absolute scores are not compared, and no measured affinity, function or selectivity is inferred."
+}

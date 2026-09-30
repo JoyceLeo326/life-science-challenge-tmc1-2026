@@ -1,0 +1,207 @@
+{
+  "created_utc": "2026-09-30T14:51:03.485936+00:00",
+  "scope": "anonymous mapping-review release only",
+  "excluded_files": [
+    "align_X_independent.py",
+    "finalize_independent_review.py",
+    "MANIFEST_SHA256.csv",
+    "review_mapping.py",
+    "X_alignment_internal\\H_AF_observed_TM_region_CA.pdb",
+    "X_alignment_internal\\M_PUB_ALL_observed_TM_region_CA.pdb",
+    "X_alignment_internal\\W_7USX_A_observed_TM_region_CA.pdb"
+  ],
+  "absolute_paths_replaced_with_stable_labels": true,
+  "remaining_host_path_or_user_name_hits": [],
+  "scientific_tables_and_rotation_exactly_preserved": [
+    "middle15_corrected_local_mapping.csv",
+    "X_middle15_comparison_summary.csv",
+    "X_TMscore_matrix_row_reference_normalized.csv",
+    "middle15_experimental_atom_coverage.csv",
+    "middle15_alignment_sensitivity.csv",
+    "W_middle15_Kabsch_summary.json",
+    "X_middle15_Kabsch_summary.json",
+    "TM_segment_BLOSUM62_alignments.json",
+    "X_alignment_internal\\H_AF_to_M_PUB_ALL_rotation.txt",
+    "X_alignment_internal\\H_AF_to_W_7USX_A_rotation.txt",
+    "X_alignment_internal\\M_PUB_ALL_to_W_7USX_A_rotation.txt"
+  ],
+  "coordinates_redistributed": false,
+  "scripts_redistributed": false,
+  "file_provenance": [
+    {
+      "relative_path": "auth_label_numbering_audit.json",
+      "original_sha256": "7962fde6c9fde7f2293fcd6e23a49aad722f7a86f0ab528ecd51ffa61737bd7a",
+      "release_sha256": "012c5a6a0b25ae4c366fd8a6df08b5be92dd986d615f2274e239271f059d5b4a"
+    },
+    {
+      "relative_path": "experimental_protomer_source_coordinate_equivalence.json",
+      "original_sha256": "8150e5f4626c62a037cd4bfc61844bed6acb7c59f553cfd0d6604a5cad6ae077",
+      "release_sha256": "8150e5f4626c62a037cd4bfc61844bed6acb7c59f553cfd0d6604a5cad6ae077"
+    },
+    {
+      "relative_path": "Fig4_source_receipt.json",
+      "original_sha256": "e10484eb8b50025e7c6fb4cd23f4ae60f01a102ea9202ae2ea2c2ccb029aed68",
+      "release_sha256": "e10484eb8b50025e7c6fb4cd23f4ae60f01a102ea9202ae2ea2c2ccb029aed68"
+    },
+    {
+      "relative_path": "H_AF_to_M_PUB_ALL_structure_guided_mapping.csv",
+      "original_sha256": "dad55eeae26068c0eec5f48d24fe5245ebab2f24d71233c2e3dd79dac3be05a8",
+      "release_sha256": "dad55eeae26068c0eec5f48d24fe5245ebab2f24d71233c2e3dd79dac3be05a8"
+    },
+    {
+      "relative_path": "H_AF_to_W_7USX_A_structure_guided_mapping.csv",
+      "original_sha256": "4a9c43772c33722f9ad0e69da25009a3644d366a06d00718d822a70d57dcadd7",
+      "release_sha256": "4a9c43772c33722f9ad0e69da25009a3644d366a06d00718d822a70d57dcadd7"
+    },
+    {
+      "relative_path": "INDEPENDENT_METHOD_AND_QC.json",
+      "original_sha256": "dabfed1bc842db9fcde0ce58ca5c9d2d125650ced2c94fc2a4d6d2cfabea24d9",
+      "release_sha256": "0b46dd6e3f2bef6df8d3c0da61ed3c71b302e8df3973337dfbd218d49b0c5517"
+    },
+    {
+      "relative_path": "INPUT_SHA256.csv",
+      "original_sha256": "b3644524e7a267ff18d6caeeea72021df0b4dd99c648e5794d921b5f20a48d47",
+      "release_sha256": "ad0ab9c395ce6e2492fd6af4cb4b308e617b76e82ace3881c4d77fa670277f95"
+    },
+    {
+      "relative_path": "legacy238_topology_audit.csv",
+      "original_sha256": "b6ae4b7804ab27f767b495fe408c2d4feb4da3b014d78dbeb76b158e03776176",
+      "release_sha256": "b6ae4b7804ab27f767b495fe408c2d4feb4da3b014d78dbeb76b158e03776176"
+    },
+    {
+      "relative_path": "legacy760_TM_topology_audit.csv",
+      "original_sha256": "a5ea2029697639e128e4a42eea5fa3bb96da8f213b7a971b21892a6c6cd526ad",
+      "release_sha256": "a5ea2029697639e128e4a42eea5fa3bb96da8f213b7a971b21892a6c6cd526ad"
+    },
+    {
+      "relative_path": "M_PUB_ALL_to_W_7USX_A_structure_guided_mapping.csv",
+      "original_sha256": "e6c6861e8c03acc9da746071996392758300112b0426d4d371817a20793c9a65",
+      "release_sha256": "e6c6861e8c03acc9da746071996392758300112b0426d4d371817a20793c9a65"
+    },
+    {
+      "relative_path": "middle15_alignment_sensitivity.csv",
+      "original_sha256": "8435b6785c2e73330d0fb6f39444f50d777a21c6086ee2efbed57997ac80bda1",
+      "release_sha256": "8435b6785c2e73330d0fb6f39444f50d777a21c6086ee2efbed57997ac80bda1"
+    },
+    {
+      "relative_path": "middle15_corrected_local_mapping.csv",
+      "original_sha256": "a2d63343316214b1b1cc3dd8b819cd823c3f3ce17e02dab828d2bbac4341ddb7",
+      "release_sha256": "a2d63343316214b1b1cc3dd8b819cd823c3f3ce17e02dab828d2bbac4341ddb7"
+    },
+    {
+      "relative_path": "middle15_experimental_atom_coverage.csv",
+      "original_sha256": "21ae045dbacd97558bd00025e942267cbafe930b77d49b9a0c8728f7e72defea",
+      "release_sha256": "21ae045dbacd97558bd00025e942267cbafe930b77d49b9a0c8728f7e72defea"
+    },
+    {
+      "relative_path": "middle15_proposed_mapping_and_extra_outlier.csv",
+      "original_sha256": "b36a65c2487ffa38398d0062cf53cdc89c90a82d36ef3ec8e2f150db174687bf",
+      "release_sha256": "b36a65c2487ffa38398d0062cf53cdc89c90a82d36ef3ec8e2f150db174687bf"
+    },
+    {
+      "relative_path": "paper2022_Fig4.jpg",
+      "original_sha256": "f593049f131b5bc58403162ef0caaa56e58209c9d5a97fa4c12eda383248f8a7",
+      "release_sha256": "f593049f131b5bc58403162ef0caaa56e58209c9d5a97fa4c12eda383248f8a7"
+    },
+    {
+      "relative_path": "TM_segment_BLOSUM62_alignments.json",
+      "original_sha256": "8d86fd2c29032fe8aa24ecf54f77467c22abdf172eb72111f4af7af060d5285d",
+      "release_sha256": "8d86fd2c29032fe8aa24ecf54f77467c22abdf172eb72111f4af7af060d5285d"
+    },
+    {
+      "relative_path": "topology_evidence.csv",
+      "original_sha256": "b7702d9836832280637246c5e36a8da64296914137faae31b91bc86e99027330",
+      "release_sha256": "b7702d9836832280637246c5e36a8da64296914137faae31b91bc86e99027330"
+    },
+    {
+      "relative_path": "W_middle15_Kabsch_deviations.csv",
+      "original_sha256": "eac6b93380a7f13795149a20d81da1ecea8c621e2f18e24133fdc193b9d18bfb",
+      "release_sha256": "eac6b93380a7f13795149a20d81da1ecea8c621e2f18e24133fdc193b9d18bfb"
+    },
+    {
+      "relative_path": "W_middle15_Kabsch_summary.json",
+      "original_sha256": "c67071afe26bc433e51bf8b13d13e9899e314f48caf77e68a3fce6bf18d6a53b",
+      "release_sha256": "c67071afe26bc433e51bf8b13d13e9899e314f48caf77e68a3fce6bf18d6a53b"
+    },
+    {
+      "relative_path": "X_alignment_internal\\H_AF_to_M_PUB_ALL_execution.json",
+      "original_sha256": "e81319ad3654ee529433bb9d6a7f044243d7c0ff505571fa39d19279938f8b65",
+      "release_sha256": "e2b5742d0cfc912194ce69b5f624307a9a59545e7fe8b04ba2453eea284b4565"
+    },
+    {
+      "relative_path": "X_alignment_internal\\H_AF_to_M_PUB_ALL_rotation.txt",
+      "original_sha256": "d05efba97014946b6668c52422a98acc5e638eedb8ad1c577f7f849c6f152bca",
+      "release_sha256": "d05efba97014946b6668c52422a98acc5e638eedb8ad1c577f7f849c6f152bca"
+    },
+    {
+      "relative_path": "X_alignment_internal\\H_AF_to_M_PUB_ALL_USalign.txt",
+      "original_sha256": "12c166b991506c0bb43c29ea8fb95be283dccf607f0c52006658941909dbf829",
+      "release_sha256": "0157a807947b2245ad10a31479c73d35338cb6fe16674da7da22b107eb6f99f2"
+    },
+    {
+      "relative_path": "X_alignment_internal\\H_AF_to_W_7USX_A_execution.json",
+      "original_sha256": "a16675aece6c3a34221a1cf98408d9cf4bf059686ff80e054230e823932ae5a6",
+      "release_sha256": "339fd9871679afc2b27838ce07e95cf720c1900b113314a74288cf5b54e11d78"
+    },
+    {
+      "relative_path": "X_alignment_internal\\H_AF_to_W_7USX_A_rotation.txt",
+      "original_sha256": "9350ac038c1571fe26621453a7c62a7f53e467cb306e1c5e738b2bd2b7732558",
+      "release_sha256": "9350ac038c1571fe26621453a7c62a7f53e467cb306e1c5e738b2bd2b7732558"
+    },
+    {
+      "relative_path": "X_alignment_internal\\H_AF_to_W_7USX_A_USalign.txt",
+      "original_sha256": "664bb752e5cb294c5f7f9635ccddd2e2023b2300de047c4daa3e06d1f4629ba9",
+      "release_sha256": "cad86f5c982e209d82901475d15c47adae69e4d31ec2f73fbfe2128c102f4d70"
+    },
+    {
+      "relative_path": "X_alignment_internal\\M_PUB_ALL_to_W_7USX_A_execution.json",
+      "original_sha256": "797d1cec253b24b2f12b486e6b28343f366779edfa4129fcf7053e8871509e88",
+      "release_sha256": "779c716ca0a28f6b04afd96c370684b114ec247f8962251ee2da0a2ef019fd44"
+    },
+    {
+      "relative_path": "X_alignment_internal\\M_PUB_ALL_to_W_7USX_A_rotation.txt",
+      "original_sha256": "f146e458820ec7cb0b5563cd5f305c04a7c85c9931d29a0efceeebc3909f7a40",
+      "release_sha256": "f146e458820ec7cb0b5563cd5f305c04a7c85c9931d29a0efceeebc3909f7a40"
+    },
+    {
+      "relative_path": "X_alignment_internal\\M_PUB_ALL_to_W_7USX_A_USalign.txt",
+      "original_sha256": "1b05cfd9817a6ca4dba5e98174f5ae5e83e6042cdb8af864d274458ba4d659e7",
+      "release_sha256": "3ec6b9186fb20aa8b675cc843e74b58e02e6bdcb85ac858f1df85b456eaee5e3"
+    },
+    {
+      "relative_path": "X_broad_TM_USalign_three_pairs.csv",
+      "original_sha256": "b27661dddbdd3ed170e6979d8303de4c09e80431518dbe366b36df535f13ce1c",
+      "release_sha256": "51a673c3aeff92567bdf6925c3cf7d99ac803ad21b9ab1268f4688331535466c"
+    },
+    {
+      "relative_path": "X_middle15_comparison_summary.csv",
+      "original_sha256": "517f72d109a5307d7454b08ad580b7148eb4bf3da45846985d647857dd37d0d2",
+      "release_sha256": "517f72d109a5307d7454b08ad580b7148eb4bf3da45846985d647857dd37d0d2"
+    },
+    {
+      "relative_path": "X_middle15_Kabsch_deviations.csv",
+      "original_sha256": "aa30dedddd4840b263bf30e8e278f225bca7d2c907216385952a3cb65dde077b",
+      "release_sha256": "aa30dedddd4840b263bf30e8e278f225bca7d2c907216385952a3cb65dde077b"
+    },
+    {
+      "relative_path": "X_middle15_Kabsch_summary.json",
+      "original_sha256": "d1ad1921e52b9043ee8756d8f6954e43ec2fc4468589d94e401251c6cfa1da37",
+      "release_sha256": "d1ad1921e52b9043ee8756d8f6954e43ec2fc4468589d94e401251c6cfa1da37"
+    },
+    {
+      "relative_path": "X_middle15_USalign_deviations.csv",
+      "original_sha256": "ec22ac29caf752de9042e4d7897fddc493a394f8c5dad258c377f01a9e113ad7",
+      "release_sha256": "ec22ac29caf752de9042e4d7897fddc493a394f8c5dad258c377f01a9e113ad7"
+    },
+    {
+      "relative_path": "X_TMscore_matrix_row_reference_normalized.csv",
+      "original_sha256": "ef63bc808b13e81097efae8f5d177b3a32fb54ce4c9a119f49762a11ff6c35d8",
+      "release_sha256": "ef63bc808b13e81097efae8f5d177b3a32fb54ce4c9a119f49762a11ff6c35d8"
+    },
+    {
+      "relative_path": "独立局部映射审查报告.md",
+      "original_sha256": "66bc9ca58cf7a109cc3f83df0728961f8f7456785fc978ca095f86857e863687",
+      "release_sha256": "b700e21a1851d00efbea9f4131aec14ee3a62985bb1e7f044c4ca89633a76410"
+    }
+  ]
+}

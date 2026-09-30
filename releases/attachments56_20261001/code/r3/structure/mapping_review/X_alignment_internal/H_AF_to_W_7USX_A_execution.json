@@ -1,0 +1,18 @@
+{
+  "command": [
+    "tool:USalign_20260920",
+    "coordinate_input:H_AF_observed_TM_region_CA.pdb",
+    "coordinate_input:W_7USX_A_observed_TM_region_CA.pdb",
+    "-m",
+    "alignment_output:H_AF_to_W_7USX_A_rotation.txt"
+  ],
+  "started_utc": "2026-09-30T14:08:05.739913+00:00",
+  "finished_utc": "2026-09-30T14:08:06.240063+00:00",
+  "returncode": 0,
+  "tool_sha256": "51fe2687ebc642ea76abb7f76c7e9ba18f25c03e355f46a4c1615a8147e448c3",
+  "log_sha256": "cad86f5c982e209d82901475d15c47adae69e4d31ec2f73fbfe2128c102f4d70",
+  "threads": 1,
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "original_log_sha256": "664bb752e5cb294c5f7f9635ccddd2e2023b2300de047c4daa3e06d1f4629ba9",
+  "anonymization": "absolute host paths replaced by stable labels; numerical output unchanged; coordinate inputs are internal only"
+}

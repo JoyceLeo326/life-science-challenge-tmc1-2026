@@ -1,0 +1,11 @@
+official_candidates exit 1 seconds 0.846
+Traceback (most recent call last):
+  File "$PUBLIC_CODE\replay_integrated.py", line 110, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "$PUBLIC_CODE\replay_integrated.py", line 59, in main
+    run('official_candidates',ROOT/'make_results.py',['--output',work/'candidate/results.csv'])
+  File "$PUBLIC_CODE\replay_integrated.py", line 51, in run
+    if r.returncode:raise RuntimeError('Failed replay step '+name+'; inspect independent output logs')
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Failed replay step official_candidates; inspect independent output logs

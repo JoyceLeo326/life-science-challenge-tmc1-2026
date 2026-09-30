@@ -1,0 +1,10 @@
+{
+  "figure_id": "F4",
+  "generated_at_cst": "2026-09-30T19:08:06.337871+08:00",
+  "data_path": "<ORIGINAL_CODE_PACKAGE>\\data\\confirmation_plot.csv",
+  "data_sha256": "a527d9e2eeeb556b0e3e3bb0be1bb2863e2b4f814fbf877682d928c56d4cae21",
+  "evidence_paths": [
+    "<ORIGINAL_COMPUTE>\\05_independent_audit\\confirmation_four_condition_independent_table.csv"
+  ],
+  "visual_checked": false
+}

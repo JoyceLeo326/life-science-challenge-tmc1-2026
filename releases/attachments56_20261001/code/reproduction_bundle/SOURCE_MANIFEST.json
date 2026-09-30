@@ -1,0 +1,366 @@
+{
+  "schema_version": 1,
+  "scope": "R2 restored scientific methods, explicitly configured publication copies and frozen support",
+  "source_expected_authority": "R2 HANDOFF.md method table; original replay inputs dictionary; prior package chemistry manifest; physical-input SHA guards in original methods; original formal SELFIES training manifest",
+  "records": [
+    {
+      "published_path": "science/R2/evidence/03_compute/method/chemistry_rules.py",
+      "source_role": "R2 scientific compute/chemistry_rules.py",
+      "original_expected_sha256": "f595cdc49a82ef6a0305677f2c92b60f4ee38e1ac21a97f54b93fd04a9e2a535",
+      "original_sha256": "f595cdc49a82ef6a0305677f2c92b60f4ee38e1ac21a97f54b93fd04a9e2a535",
+      "original_expected_match": true,
+      "published_sha256": "f595cdc49a82ef6a0305677f2c92b60f4ee38e1ac21a97f54b93fd04a9e2a535",
+      "published_bytes": 2977,
+      "changed": false,
+      "migration_diff": []
+    },
+    {
+      "published_path": "science/R2/evidence/03_compute/method/rank_library.py",
+      "source_role": "R2 scientific compute/rank_library.py",
+      "original_expected_sha256": "45ac3cbd00eb7fbeadd3d04d12c9ffaead5715d3ccbc6d4657ea04f09b2aa564",
+      "original_sha256": "45ac3cbd00eb7fbeadd3d04d12c9ffaead5715d3ccbc6d4657ea04f09b2aa564",
+      "original_expected_match": true,
+      "published_sha256": "bda05d409ccb72eae08355b07f433bfc9435d865830bb5873aae404fc2377509",
+      "published_bytes": 12759,
+      "changed": true,
+      "migration_diff": [
+        "reproduction/migration_diffs/rank_library.py.diff"
+      ]
+    },
+    {
+      "published_path": "science/R2/evidence/03_compute/method/active_acquire.py",
+      "source_role": "R2 scientific compute/active_acquire.py",
+      "original_expected_sha256": "85177eda356903aed9d63ebad50e110c60701155134435a6ded4d32d5620050f",
+      "original_sha256": "85177eda356903aed9d63ebad50e110c60701155134435a6ded4d32d5620050f",
+      "original_expected_match": true,
+      "published_sha256": "998b2efcf4c59c5d4357a6bc68b015c4af1c213df16e0c3d62f4638fa61787d8",
+      "published_bytes": 8705,
+      "changed": true,
+      "migration_diff": [
+        "reproduction/migration_diffs/active_acquire.py.diff"
+      ]
+    },
+    {
+      "published_path": "science/R2/evidence/03_compute/method/dock_batch.py",
+      "source_role": "R2 scientific compute/dock_batch.py",
+      "original_expected_sha256": "6865951aa4092d01cb18b0f5f2090310bd0ed48964dfd53a805a45c18c2eba6e",
+      "original_sha256": "6865951aa4092d01cb18b0f5f2090310bd0ed48964dfd53a805a45c18c2eba6e",
+      "original_expected_match": true,
+      "published_sha256": "15112887c4d435fe2c5955892b9d5948c048896b6d9381101f94e9de65cc41e5",
+      "published_bytes": 17662,
+      "changed": true,
+      "migration_diff": [
+        "reproduction/migration_diffs/dock_batch.py.diff"
+      ]
+    },
+    {
+      "published_path": "science/R2/evidence/03_compute/method/evaluate_forward.py",
+      "source_role": "R2 scientific compute/evaluate_forward.py",
+      "original_expected_sha256": "01ef789a7011c8950f9739b4f6cb3a8412898448aa3c7ba02c2e69e46c55e9f4",
+      "original_sha256": "01ef789a7011c8950f9739b4f6cb3a8412898448aa3c7ba02c2e69e46c55e9f4",
+      "original_expected_match": true,
+      "published_sha256": "7288b0e2edc0dd251b21a61b821352a3a64e6dc37c94275451df51cb0cd7d3a8",
+      "published_bytes": 22000,
+      "changed": true,
+      "migration_diff": [
+        "reproduction/migration_diffs/evaluate_forward.py.diff"
+      ]
+    },
+    {
+      "published_path": "science/R2/evidence/03_compute/method/prepare_active_physical.py",
+      "source_role": "R2 scientific compute/prepare_active_physical.py",
+      "original_expected_sha256": null,
+      "original_sha256": "41bf325f26aff2897f34d2513c42dabfac3fb3a03a127c3da64660074bac81df",
+      "original_expected_match": null,
+      "published_sha256": "9b48b03599c382b3e2b32031c8e71a128fe3890d03581548b6a6d1c29482448a",
+      "published_bytes": 2931,
+      "changed": true,
+      "migration_diff": [
+        "reproduction/migration_diffs/prepare_active_physical.py.diff"
+      ]
+    },
+    {
+      "published_path": "science/R2/evidence/03_compute/method/freeze_preflight_v2.py",
+      "source_role": "R2 scientific compute/freeze_preflight_v2.py",
+      "original_expected_sha256": null,
+      "original_sha256": "c11f8d0437eb19be64d995d960c5e8c1fa362ab09e0d09fc211f795102a01ebf",
+      "original_expected_match": null,
+      "published_sha256": "48233e53b3f3d59b3e51eb706e7687cff15886040f67f7f25545a4379f7dfd5d",
+      "published_bytes": 2589,
+      "changed": true,
+      "migration_diff": [
+        "reproduction/migration_diffs/freeze_preflight_v2.py.diff"
+      ]
+    },
+    {
+      "published_path": "science/R2/evidence/03_compute/method/freeze_active_resume.py",
+      "source_role": "R2 scientific compute/freeze_active_resume.py",
+      "original_expected_sha256": null,
+      "original_sha256": "1e979326c2b47a11c2cf143676b66dce3db958253b4a0678a83ee55af9fce07e",
+      "original_expected_match": null,
+      "published_sha256": "9b9d5aa22e374ea019ee51c7815f82667aa4e9de2b5da110b6eb0f7364ab0e00",
+      "published_bytes": 3394,
+      "changed": true,
+      "migration_diff": [
+        "reproduction/migration_diffs/freeze_active_resume.py.diff"
+      ]
+    },
+    {
+      "published_path": "science/R2/evidence/03_compute/method/merge_formal_batches.py",
+      "source_role": "R2 scientific compute/merge_formal_batches.py",
+      "original_expected_sha256": null,
+      "original_sha256": "4e178b832d167aace67b6d10bad19a48a2f3fbd7fafe571f51bab85c3ceb53ce",
+      "original_expected_match": null,
+      "published_sha256": "ccc780f10121bbcb7a34f7ede06dd9d6a6f3a3c7987bee62e486312170ddc221",
+      "published_bytes": 5229,
+      "changed": true,
+      "migration_diff": [
+        "reproduction/migration_diffs/merge_formal_batches.py.diff"
+      ]
+    },
+    {
+      "published_path": "science/R2/evidence/03_compute/method/merge_active_batches.py",
+      "source_role": "R2 scientific compute/merge_active_batches.py",
+      "original_expected_sha256": null,
+      "original_sha256": "abc5f3f7742e6947dd45d36c96141521adffcb0df137d2c77b21e27e9f452bb7",
+      "original_expected_match": null,
+      "published_sha256": "7b91182ea1b1f824e1b8498294213147a24f71fde5a548bde3f8117dce35ce40",
+      "published_bytes": 5405,
+      "changed": true,
+      "migration_diff": [
+        "reproduction/migration_diffs/merge_active_batches.py.diff"
+      ]
+    },
+    {
+      "published_path": "science/R2/evidence/04_design/method_results/run_design.py",
+      "source_role": "R2 scientific design/run_design.py",
+      "original_expected_sha256": "ffb44b72188cdc3dd919bc83d99da4755f80c80dd2e13a1faa66b823a73b4dce",
+      "original_sha256": "ffb44b72188cdc3dd919bc83d99da4755f80c80dd2e13a1faa66b823a73b4dce",
+      "original_expected_match": true,
+      "published_sha256": "d387f2d9fa86184719935c7457aba28005dd856ebe71c0b930c9bd0d24e67bf1",
+      "published_bytes": 15041,
+      "changed": true,
+      "migration_diff": [
+        "reproduction/migration_diffs/run_design.py.diff"
+      ]
+    },
+    {
+      "published_path": "science/R2/evidence/04_design/method_results/train_smiles_gru.py",
+      "source_role": "R2 scientific design/train_smiles_gru.py",
+      "original_expected_sha256": "90fec66b8ad5e8c8533046f4ef00526736bf1a1cc87a42a792110c91d8beb574",
+      "original_sha256": "90fec66b8ad5e8c8533046f4ef00526736bf1a1cc87a42a792110c91d8beb574",
+      "original_expected_match": true,
+      "published_sha256": "9a147f3ade0fed2137b7874986976f9eca435f4056e727ad46ee94ff0126356f",
+      "published_bytes": 17881,
+      "changed": true,
+      "migration_diff": [
+        "reproduction/migration_diffs/train_smiles_gru.py.diff"
+      ]
+    },
+    {
+      "published_path": "science/R2/evidence/04_design/method_results/train_selfies_gru.py",
+      "source_role": "R2 scientific design/train_selfies_gru.py",
+      "original_expected_sha256": "b0b3e0ea97e9f4a4d298d4f3ee326deb46d652c6a1e303c020c75e9e33f102f7",
+      "original_sha256": "b0b3e0ea97e9f4a4d298d4f3ee326deb46d652c6a1e303c020c75e9e33f102f7",
+      "original_expected_match": true,
+      "published_sha256": "ec19186f0cdb6b3513f6dda75a947abd881315e76b47fe8ad8041e0e8c592e46",
+      "published_bytes": 18992,
+      "changed": true,
+      "migration_diff": [
+        "reproduction/migration_diffs/train_selfies_gru.py.diff"
+      ]
+    },
+    {
+      "published_path": "science/R2/evidence/03_compute/method/portable_config.py",
+      "source_role": "new explicit replay location helper",
+      "original_expected_sha256": null,
+      "original_sha256": null,
+      "original_expected_match": null,
+      "published_sha256": "7436aab61a47fb9dab58ac0fd189fe1fc4744beff5ae78457e01aa70724790cb",
+      "changed": true,
+      "migration_diff": []
+    },
+    {
+      "published_path": "science/R2/evidence/04_design/method_results/portable_config.py",
+      "source_role": "new explicit replay location helper",
+      "original_expected_sha256": null,
+      "original_sha256": null,
+      "original_expected_match": null,
+      "published_sha256": "7436aab61a47fb9dab58ac0fd189fe1fc4744beff5ae78457e01aa70724790cb",
+      "changed": true,
+      "migration_diff": []
+    },
+    {
+      "published_path": "science/R2/evidence/03_compute/method/frozen_publication.py",
+      "source_role": "new fixed original-to-publication ledger identity gate",
+      "original_expected_sha256": null,
+      "original_sha256": null,
+      "original_expected_match": null,
+      "published_sha256": "1f4b537ef34fae59ba0677ea497c6d35f84702a495816d36055efede15185f66",
+      "published_bytes": 989,
+      "changed": true,
+      "migration_diff": []
+    },
+    {
+      "published_path": "science/R2/evidence/03_compute/method/publication_hashes.json",
+      "source_role": "new fixed original-to-publication ledger identity gate",
+      "original_expected_sha256": null,
+      "original_sha256": null,
+      "original_expected_match": null,
+      "published_sha256": "ea75d204141b8b6170172cb64513747729f82970f9ccdf1d2085a90c5e227226",
+      "published_bytes": 1229,
+      "changed": true,
+      "migration_diff": []
+    },
+    {
+      "published_path": "science/R2/evidence/03_compute/method/formal_charge_warning_ids.csv",
+      "source_role": "R2 scientific compute/formal_charge_warning_ids.csv",
+      "original_expected_sha256": "f1a83142364dac1a1dc2bbe58cb67c4158acf93c9ba6f9ebc2b94e6f46946f73",
+      "original_sha256": "f1a83142364dac1a1dc2bbe58cb67c4158acf93c9ba6f9ebc2b94e6f46946f73",
+      "original_expected_match": true,
+      "published_sha256": "f1a83142364dac1a1dc2bbe58cb67c4158acf93c9ba6f9ebc2b94e6f46946f73",
+      "published_bytes": 369,
+      "changed": false,
+      "migration_diff": []
+    },
+    {
+      "published_path": "science/R2/evidence/03_compute/method/standby_intervals_20260929.csv",
+      "source_role": "R2 scientific compute/standby_intervals_20260929.csv",
+      "original_expected_sha256": "d0430853a75f7de8171dd2abdba3d0c9b4a02566efc2d048a301a2dfcbec6cf1",
+      "original_sha256": "d0430853a75f7de8171dd2abdba3d0c9b4a02566efc2d048a301a2dfcbec6cf1",
+      "original_expected_match": true,
+      "published_sha256": "d0430853a75f7de8171dd2abdba3d0c9b4a02566efc2d048a301a2dfcbec6cf1",
+      "published_bytes": 605,
+      "changed": false,
+      "migration_diff": []
+    },
+    {
+      "published_path": "science/R2/evidence/03_compute/method/runtime_pilot_12.csv",
+      "source_role": "R2 scientific compute/runtime_pilot_12.csv",
+      "original_expected_sha256": "1d19f7b911e533db8a01a78c5f44e7c669d0cff6b56719d70c6848c3e57446fc",
+      "original_sha256": "1d19f7b911e533db8a01a78c5f44e7c669d0cff6b56719d70c6848c3e57446fc",
+      "original_expected_match": true,
+      "published_sha256": "1d19f7b911e533db8a01a78c5f44e7c669d0cff6b56719d70c6848c3e57446fc",
+      "published_bytes": 8376,
+      "changed": false,
+      "migration_diff": []
+    },
+    {
+      "published_path": "science/R2/evidence/04_design/method_results/design_constraints_all.csv",
+      "source_role": "R2 scientific design/design_constraints_all.csv",
+      "original_expected_sha256": "2a46fc4c47441b6773cc95c72311d4ff1b7e6ea1399b79657d83bdf853629f9b",
+      "original_sha256": "2a46fc4c47441b6773cc95c72311d4ff1b7e6ea1399b79657d83bdf853629f9b",
+      "original_expected_match": true,
+      "published_sha256": "2a46fc4c47441b6773cc95c72311d4ff1b7e6ea1399b79657d83bdf853629f9b",
+      "published_bytes": 7929,
+      "changed": false,
+      "migration_diff": []
+    },
+    {
+      "published_path": "science/R2/evidence/03_compute/method/active_settings_interrupt_checkpoint_20260929/interrupted_inflight_attempts.csv",
+      "source_role": "R2 scientific compute/interrupted_inflight_attempts.csv",
+      "original_expected_sha256": "95156f2f5f100bc817df714e98dc31b7ba0a3c41e5b7c8b4741c3db83dd5aead",
+      "original_sha256": "95156f2f5f100bc817df714e98dc31b7ba0a3c41e5b7c8b4741c3db83dd5aead",
+      "original_expected_match": true,
+      "published_sha256": "a0bc2721711597ae84280db883f541e19381030940ebf42a677d1ddd9e96a8f4",
+      "published_bytes": 1394,
+      "changed": true,
+      "migration_diff": [
+        "reproduction/migration_diffs/interrupted_inflight_attempts.csv.diff"
+      ]
+    },
+    {
+      "published_path": "science/R2/evidence/03_compute/ranking_formal_v2_16698/physical_union_docking_list.csv",
+      "source_role": "R2 scientific compute/physical_union_docking_list.csv",
+      "original_expected_sha256": "3b53b86471eaed6f5bc49fbef381b811ec81153c69376fc4f20bf2c0161790b9",
+      "original_sha256": "3b53b86471eaed6f5bc49fbef381b811ec81153c69376fc4f20bf2c0161790b9",
+      "original_expected_match": true,
+      "published_sha256": "3b53b86471eaed6f5bc49fbef381b811ec81153c69376fc4f20bf2c0161790b9",
+      "published_bytes": 203264,
+      "changed": false,
+      "migration_diff": []
+    },
+    {
+      "published_path": "science/R2/evidence/03_compute/active_physical_v2/active_physical_new.csv",
+      "source_role": "R2 scientific compute/active_physical_new.csv",
+      "original_expected_sha256": "24b4687a8f7421dc57a5edf5be3302388787f1e49c399a0c5afed7d7a35f31c7",
+      "original_sha256": "24b4687a8f7421dc57a5edf5be3302388787f1e49c399a0c5afed7d7a35f31c7",
+      "original_expected_match": true,
+      "published_sha256": "24b4687a8f7421dc57a5edf5be3302388787f1e49c399a0c5afed7d7a35f31c7",
+      "published_bytes": 32906,
+      "changed": false,
+      "migration_diff": []
+    },
+    {
+      "published_path": "science/R2/evidence/03_compute/method/active_settings_interrupt_checkpoint_20260929/active_resume_freeze/remaining_active_14.csv",
+      "source_role": "R2 scientific compute/remaining_active_14.csv",
+      "original_expected_sha256": "09ab9293ef2114cdf59041f6971a4e8318f14f264fbb00635cc8b1e2954855eb",
+      "original_sha256": "09ab9293ef2114cdf59041f6971a4e8318f14f264fbb00635cc8b1e2954855eb",
+      "original_expected_match": true,
+      "published_sha256": "09ab9293ef2114cdf59041f6971a4e8318f14f264fbb00635cc8b1e2954855eb",
+      "published_bytes": 11804,
+      "changed": false,
+      "migration_diff": []
+    },
+    {
+      "published_path": "science/R2/evidence/04_design/model_artifacts/final_selfies_17645/base_model_state.pt",
+      "source_role": "R2 scientific design/base_model_state.pt",
+      "original_expected_sha256": "58a3de0c2a038ca602f2af14d6f23404b58ceb73ae06949d6b1442f9a9fb136c",
+      "original_sha256": "58a3de0c2a038ca602f2af14d6f23404b58ceb73ae06949d6b1442f9a9fb136c",
+      "original_expected_match": true,
+      "published_sha256": "58a3de0c2a038ca602f2af14d6f23404b58ceb73ae06949d6b1442f9a9fb136c",
+      "published_bytes": 210023,
+      "changed": false,
+      "migration_diff": []
+    },
+    {
+      "published_path": "science/R2/evidence/04_design/model_artifacts/final_selfies_17645/base_raw_generated.csv.gz",
+      "source_role": "R2 scientific design/base_raw_generated.csv.gz",
+      "original_expected_sha256": "12bc38a228ddc6859ed94d3529e75782fc92d980538202bf39a6aef3a40dd8f0",
+      "original_sha256": "12bc38a228ddc6859ed94d3529e75782fc92d980538202bf39a6aef3a40dd8f0",
+      "original_expected_match": true,
+      "published_sha256": "12bc38a228ddc6859ed94d3529e75782fc92d980538202bf39a6aef3a40dd8f0",
+      "published_bytes": 1480667,
+      "changed": false,
+      "migration_diff": []
+    },
+    {
+      "published_path": "science/R2/evidence/04_design/model_artifacts/final_selfies_17645/vocab.json",
+      "source_role": "R2 scientific design/vocab.json",
+      "original_expected_sha256": null,
+      "original_sha256": "97a3216a5faa3e18850664a2cbc6015bb33bd2b8d985aa20f7a74999101aa4c3",
+      "original_expected_match": null,
+      "published_sha256": "97a3216a5faa3e18850664a2cbc6015bb33bd2b8d985aa20f7a74999101aa4c3",
+      "published_bytes": 629,
+      "changed": false,
+      "migration_diff": []
+    },
+    {
+      "published_path": "science/R2/evidence/04_design/model_artifacts/final_selfies_17645/training_manifest.json",
+      "source_role": "R2 scientific design/final_selfies_17645_manifest.json",
+      "original_expected_sha256": null,
+      "original_sha256": "597e5539677ef06bb2d21b3ddf683710ae1db021af5a62b9f2e18388e68365a9",
+      "original_expected_match": null,
+      "published_sha256": "49661b5b20f736bae4c8a916e4975760acb421d3d2da7a220a04be34f664b09f",
+      "published_bytes": 4726,
+      "changed": true,
+      "migration_diff": [
+        "reproduction/migration_diffs/final_selfies_17645_manifest.json.diff"
+      ]
+    }
+  ],
+  "external_inputs": [
+    {
+      "role": "M_PUB_ALL receptor",
+      "sha256": "c024cc9efaf910ac11642cea4a4c701a0a88a335d7deb0d040320516d5a2eda1",
+      "expected_match": true,
+      "redistributed": false,
+      "reason": "Upstream receptor source lacks an explicit license; supply original local receptor with --receptor"
+    }
+  ],
+  "validation": {
+    "mode": "static only",
+    "frozen_expected_matches": 18,
+    "frozen_expected_mismatches": 0
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "library_rows": 5067,
+  "invalid_smiles": [],
+  "recorded_full_inchikey_mismatch_count": 1512,
+  "recorded_full_inchikey_mismatch_examples": [
+    {
+      "compound_id": "LIB_AACCKHROFFBPIY",
+      "source_id": "CHEMBL102611",
+      "recorded_inchi_key": "AACCKHROFFBPIY-UHFFFAOYSA-N",
+      "computed_isomeric_inchi_key": "AACCKHROFFBPIY-KNQAVFIVSA-N",
+      "smiles": "COc1ccc([C@@H](Cc2ccccc2)NC[C@H](O)c2ccc(O)c(NS(C)(=O)=O)c2)c(OC)n1"
+    },
+    {
+      "compound_id": "LIB_ACMPQUAKYNONQE",
+      "source_id": "CHEMBL103001",
+      "recorded_inchi_key": "ACMPQUAKYNONQE-UHFFFAOYSA-N",
+      "computed_isomeric_inchi_key": "ACMPQUAKYNONQE-LGTSYYJHSA-N",
+      "smiles": "COc1ccc([C@@H]2c3nc(C)ccc3[C@H](c3ccc4c(c3)OCO4)C2C(=O)O)cc1"
+    },
+    {
+      "compound_id": "LIB_ACNJLYWBDFAHMX",
+      "source_id": "CHEMBL101369",
+      "recorded_inchi_key": "ACNJLYWBDFAHMX-UHFFFAOYSA-N",
+      "computed_isomeric_inchi_key": "ACNJLYWBDFAHMX-AILMZELKSA-N",
+      "smiles": "C/C(=C\\c1csc(C)n1)[C@@H]1C[C@H](O)[C@@](C)(Cl)CCC[C@H](C)[C@H](O)C(C)C(=O)C(C)(C)[C@@H](O)CC(=O)O1"
+    },
+    {
+      "compound_id": "LIB_ACOOMDBVWCJRIF",
+      "source_id": "CHEMBL10018",
+      "recorded_inchi_key": "ACOOMDBVWCJRIF-UHFFFAOYSA-N",
+      "computed_isomeric_inchi_key": "ACOOMDBVWCJRIF-FHWBHSKLSA-N",
+      "smiles": "CN1C(=O)CC[C@]2(C)C3CC[C@@]4(C)C(CC[C@@]4(O)C#CCCCBr)C3CCC12"
+    },
+    {
+      "compound_id": "LIB_ACRHBAYQBXXRTO",
+      "source_id": "CHEMBL2145077",
+      "recorded_inchi_key": "ACRHBAYQBXXRTO-UHFFFAOYSA-N",
+      "computed_isomeric_inchi_key": "ACRHBAYQBXXRTO-OAQYLSRUSA-N",
+      "smiles": "COc1cc2c(cc1OC)CC(=O)N(CCCN(C)C[C@H]1Cc3cc(OC)c(OC)cc31)CC2"
+    },
+    {
+      "compound_id": "LIB_ADFOJJHRTBFFOF",
+      "source_id": "CHEMBL1200721",
+      "recorded_inchi_key": "ADFOJJHRTBFFOF-UHFFFAOYSA-N",
+      "computed_isomeric_inchi_key": "ADFOJJHRTBFFOF-RBRWEJTLSA-N",
+      "smiles": "C[C@]12CC[C@@H]3c4ccc(OC(=O)N(CCCl)CCCl)cc4CC[C@H]3[C@@H]1CC[C@@H]2OP(=O)(O)O"
+    },
+    {
+      "compound_id": "LIB_ADQGTRKXDRRMKR",
+      "source_id": "CHEMBL103186",
+      "recorded_inchi_key": "ADQGTRKXDRRMKR-UHFFFAOYSA-N",
+      "computed_isomeric_inchi_key": "ADQGTRKXDRRMKR-LSFURLLWSA-N",
+      "smiles": "Cc1ccc2n(c1)cc(-c1ccc(/C=N/Nc3nc(N)nc(N)n3)cc1)[n+]2C"
+    },
+    {
+      "compound_id": "LIB_ADVCGXWUUOVPPB",
+      "source_id": "CHEMBL103356",
+      "recorded_inchi_key": "ADVCGXWUUOVPPB-UHFFFAOYSA-N",
+      "computed_isomeric_inchi_key": "ADVCGXWUUOVPPB-XLPZGREQSA-N",
+      "smiles": "Cc1cn([C@H]2C[C@H](N)[C@@H](CO)O2)c(=O)[nH]c1=O"
+    }
+  ],
+  "parent_key_mismatch_count": 0,
+  "multiple_stereo_forms_parent_count": 81,
+  "multiple_stereo_forms_examples": [
+    [
+      "LIB_BPZSYCZIITTYBL",
+      "2"
+    ],
+    [
+      "LIB_BZZKEPGENYLQSC",
+      "2"
+    ],
+    [
+      "LIB_CORFWQGVBFFZHF",
+      "3"
+    ],
+    [
+      "LIB_DBGIVFWFUFKIQN",
+      "2"
+    ],
+    [
+      "LIB_DKOQGJHPHLTOJR",
+      "2"
+    ],
+    [
+      "LIB_DUGOZIWVEXMGBE",
+      "2"
+    ],
+    [
+      "LIB_FBINLPWZDBDJAV",
+      "2"
+    ],
+    [
+      "LIB_FFRVSIQAOWTEAA",
+      "2"
+    ]
+  ],
+  "arm_rows": 90,
+  "per_arm_rows": {
+    "random": 30,
+    "descriptor_ridge": 30,
+    "AI_static": 30
+  },
+  "physical_unique_compounds": 81,
+  "cross_arm_repeated_rows": 9,
+  "selected_not_eligible": [],
+  "selected_historical_label_overlap": [],
+  "source_lib_sha256": "b13b1be7fa0198e0c51dfcfe92912552c2c836ba9b591494c40223e5dbdda3d0",
+  "freeze_input_sha256": "b13b1be7fa0198e0c51dfcfe92912552c2c836ba9b591494c40223e5dbdda3d0",
+  "freeze_input_matches_current_lib": true
+}

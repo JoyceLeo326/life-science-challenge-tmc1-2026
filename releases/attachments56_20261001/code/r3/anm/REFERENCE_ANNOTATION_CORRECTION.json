@@ -1,0 +1,16 @@
+[
+  {
+    "scope": "H_AF_full_chainA",
+    "original_sha256": "34998089c8a63c4db9065f5ca9dd42af9bcaf3059be23d2862a1fd039b78992b",
+    "corrected_sha256": "61a588e81d82a189c568c6265802dd23a70ce99bc96a4fd2a06b980aa91c2b81",
+    "atom_records_identical": true,
+    "edit": "generic reference REMARK corrected to all observed chain A"
+  },
+  {
+    "scope": "M_PUB_ALL_full_chainA",
+    "original_sha256": "7f98dae2ec3f01387eb7a8f8202dfdf41f0ea10f7e994c1b8e20caba3c3b8adf",
+    "corrected_sha256": "d00f32d31a6f9941af1abbe00d66b4dbd6397778112c2cbb62a5c5ce8cc77762",
+    "atom_records_identical": true,
+    "edit": "generic reference REMARK corrected to all observed chain A"
+  }
+]

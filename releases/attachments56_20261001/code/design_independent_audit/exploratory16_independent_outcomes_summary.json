@@ -1,0 +1,30 @@
+{
+  "batch": "design_exploratory16_proxy_vs_matched",
+  "threshold_kcal_mol": -8.07960033416748,
+  "group_summary": {
+    "proxy_top12": {
+      "attempted": 12,
+      "qc_pass": 12,
+      "favorable": 1,
+      "middle_contact": 11,
+      "favorable_and_middle": 1
+    },
+    "matched_random_control": {
+      "attempted": 4,
+      "qc_pass": 4,
+      "favorable": 0,
+      "middle_contact": 3,
+      "favorable_and_middle": 0
+    }
+  },
+  "errors": [],
+  "all_checks_pass": true,
+  "not_equal_budget_significance_test": true,
+  "source_hashes": {
+    "frozen": "c97d139dae375e925ab6d672c0fc6226cac72d0d027cd6443e82e533e4bcc176",
+    "qc": "97e57a788a9ec211b3542d1c93d90a93bf90963292be8b02142eed6bf6df693c",
+    "producer_contacts": "650b6535b5c54abcc0d0612526c123517ea6a6522e4e5d2ecfbfd6a792f618d8",
+    "job_ledger": "d57bb7e98b17c0db2e557961c52ef56beb3a38f070edda8750d448252a790271",
+    "outcomes": "c3b9a646e272a96a4d9e05aeeef7e6c9a0ee1e9d75e847cf43004f117fc58059"
+  }
+}

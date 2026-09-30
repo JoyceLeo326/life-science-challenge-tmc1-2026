@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "$COMPUTE\portable_validation\portable_method\04_design\run_design.py", line 275, in <module>
+    main()
+  File "$COMPUTE\portable_validation\portable_method\04_design\run_design.py", line 196, in main
+    write_csv(HERE / "design_constraints_all.csv", candidates, keys)
+  File "$COMPUTE\portable_validation\portable_method\04_design\run_design.py", line 40, in write_csv
+    with path.open("w", encoding="utf-8-sig", newline="") as handle:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<PYTHON_RUNTIME>\Lib\pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '$COMPUTE\\portable_validation\\rule_design\\design_constraints_all.csv'

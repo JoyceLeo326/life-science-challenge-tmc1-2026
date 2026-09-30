@@ -1,0 +1,97 @@
+[
+  {
+    "figure": "confirmation_four_conditions",
+    "files": [
+      {
+        "path": "figures/confirmation_four_conditions.png",
+        "sha256": "765537b2de69de339d9c8d899f32ea70b4d71bb3ca05760263fdfc76877e4f40"
+      },
+      {
+        "path": "figures/confirmation_four_conditions.pdf",
+        "sha256": "d1271cd91b11cca607a6f6ef816eb945281a859b38d3cc15452b06f658d98936"
+      },
+      {
+        "path": "figures/confirmation_four_conditions.svg",
+        "sha256": "b54fa1ded62425d1e87c68546841b8bba0de430a100dd314d78a7b1139c79951"
+      }
+    ],
+    "visual_checked": false,
+    "status": "rendered and file-integrity verified; visual approval remains separate"
+  },
+  {
+    "figure": "F1_正式公共库分母",
+    "files": [
+      {
+        "path": "figures/F1_正式公共库分母.png",
+        "sha256": "1ddc75ac8d90c90515dbbd439292cd003364a3bf18f2b7f3ec6a3b20f2a68d0c"
+      },
+      {
+        "path": "figures/F1_正式公共库分母.pdf",
+        "sha256": "77b6c78905de9a445117a3b757db6e575ba047c019bdc9d9351c2e77dfc01ecc"
+      },
+      {
+        "path": "figures/F1_正式公共库分母.svg",
+        "sha256": "5db4712d11b54d8589ddd6871536a4702798498de097cee4b9d68d1eaaeb118e"
+      }
+    ],
+    "visual_checked": false,
+    "status": "rendered and file-integrity verified; visual approval remains separate"
+  },
+  {
+    "figure": "F2_五切分固定预算",
+    "files": [
+      {
+        "path": "figures/F2_五切分固定预算.png",
+        "sha256": "3af893e5d4b435ba9e8147117a9851f6ac9a5d128f39e6a08b25bed3c07bf3e0"
+      },
+      {
+        "path": "figures/F2_五切分固定预算.pdf",
+        "sha256": "b8186bddd6c57541318984e5d4f4fe02571a13e1af2c53c1de2d591caf679561"
+      },
+      {
+        "path": "figures/F2_五切分固定预算.svg",
+        "sha256": "5e4301f9a23aa31548c1dd33c587fba83397761c6a355e6f3d30f26c65fee1e4"
+      }
+    ],
+    "visual_checked": false,
+    "status": "rendered and file-integrity verified; visual approval remains separate"
+  },
+  {
+    "figure": "F5_生成设计联合门槛",
+    "files": [
+      {
+        "path": "figures/F5_生成设计联合门槛.png",
+        "sha256": "8a628c70ee4e3b0a3ed51f169435f8246bc393b743f5dff64e9b94f6d148ab69"
+      },
+      {
+        "path": "figures/F5_生成设计联合门槛.pdf",
+        "sha256": "3ef3da8f1ac2177ceed4b72c6bef2219a001d1093c17e050b4d863f6debb37fd"
+      },
+      {
+        "path": "figures/F5_生成设计联合门槛.svg",
+        "sha256": "82099d33735475744deda354dd5529ad942cf22a8f03de4344759c6724eadee5"
+      }
+    ],
+    "visual_checked": false,
+    "status": "rendered and file-integrity verified; visual approval remains separate"
+  },
+  {
+    "figure": "F8_正式前瞻三臂固定预算",
+    "files": [
+      {
+        "path": "figures/F8_正式前瞻三臂固定预算.png",
+        "sha256": "cc00d08049724e37399fa4875fdeed254002cee0bfd60b7899b6420807a8f576"
+      },
+      {
+        "path": "figures/F8_正式前瞻三臂固定预算.pdf",
+        "sha256": "f9e308e5028ae7d91702eec3d148333de814fae5a92375bcde877d9a7f030499"
+      },
+      {
+        "path": "figures/F8_正式前瞻三臂固定预算.svg",
+        "sha256": "8a3262a0d21a719e282b1c01e642cc54b473448be729465cc0680c33d3b0d35c"
+      }
+    ],
+    "visual_checked": false,
+    "status": "rendered and file-integrity verified; visual approval remains separate"
+  }
+]

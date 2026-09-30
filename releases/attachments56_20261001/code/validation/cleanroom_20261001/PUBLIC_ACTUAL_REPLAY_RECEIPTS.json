@@ -1,0 +1,441 @@
+[
+  {
+    "id": "official_candidates",
+    "command": [
+      "python",
+      "-B",
+      "$PACKAGE\\make_results.py",
+      "--output",
+      "$WORK\\candidate\\results.csv"
+    ],
+    "script_sha256": "908d631cb7994097bd85b16ff18a9bbfe10a46962a5400d3bccdd8ccc5952d74",
+    "started_utc": "2026-09-30T18:25:21.897922+00:00",
+    "elapsed_seconds": 0.846,
+    "exit_code": 1,
+    "log_sha256": "1505d14abbd835eda94d0fff51dfef010218e6e6580ecf43f28a6abb55efbb18"
+  },
+  {
+    "id": "official_candidates",
+    "command": [
+      "python",
+      "-B",
+      "$PACKAGE\\make_results.py",
+      "--output",
+      "$WORK\\candidate\\results.csv"
+    ],
+    "script_sha256": "908d631cb7994097bd85b16ff18a9bbfe10a46962a5400d3bccdd8ccc5952d74",
+    "started_utc": "2026-09-30T18:28:30.214757+00:00",
+    "elapsed_seconds": 2.103,
+    "exit_code": 0,
+    "log_sha256": "8644de2253b99e3bfd75a86aaf1ed4a213ef8417b18e0a8fbdc8d0989f299e31"
+  },
+  {
+    "id": "prepare_check",
+    "command": [
+      "python",
+      "-B",
+      "$PACKAGE\\reproduction_bundle\\reproduction\\prepare_portable.py",
+      "--r1",
+      "$PACKAGE\\reproduction_bundle\\science\\R1",
+      "--r2",
+      "$PACKAGE\\reproduction_bundle\\science\\R2\\evidence",
+      "--work",
+      "$WORK\\portable",
+      "--receptor",
+      "$EXTERNAL_MOUSE_PDBQT",
+      "--check-only"
+    ],
+    "script_sha256": "b37fcfaddab6f9713460104550b3306b5e2ab53042bf1b8884630b389020f40e",
+    "started_utc": "2026-09-30T18:28:32.342885+00:00",
+    "elapsed_seconds": 0.252,
+    "exit_code": 0,
+    "log_sha256": "69470782e57747dc69172790bdeaab4d6fd5a09e3b44caa5fc5859e95ec46573"
+  },
+  {
+    "id": "prepare_actual",
+    "command": [
+      "python",
+      "-B",
+      "$PACKAGE\\reproduction_bundle\\reproduction\\prepare_portable.py",
+      "--r1",
+      "$PACKAGE\\reproduction_bundle\\science\\R1",
+      "--r2",
+      "$PACKAGE\\reproduction_bundle\\science\\R2\\evidence",
+      "--work",
+      "$WORK\\portable",
+      "--receptor",
+      "$EXTERNAL_MOUSE_PDBQT"
+    ],
+    "script_sha256": "b37fcfaddab6f9713460104550b3306b5e2ab53042bf1b8884630b389020f40e",
+    "started_utc": "2026-09-30T18:28:32.598147+00:00",
+    "elapsed_seconds": 0.656,
+    "exit_code": 0,
+    "log_sha256": "57e426c99b52533c21b577ad82cf169e499bb057a5ea2b9c04c4a5616fdf3c8c"
+  },
+  {
+    "id": "rank_all16698",
+    "command": [
+      "python",
+      "-B",
+      "$WORK\\portable\\portable_method\\03_compute\\rank_library.py",
+      "--library",
+      "$PACKAGE\\reproduction_bundle\\science\\R2\\evidence\\02_library\\formal_snapshot\\forward_unlabeled_pool.csv",
+      "--output",
+      "$WORK\\ranking_replay",
+      "--per-arm",
+      "120",
+      "--ai-initial",
+      "60",
+      "--exclude-ids",
+      "$WORK\\portable\\portable_method\\03_compute\\runtime_pilot_12.csv",
+      "--expected-library-sha256",
+      "8fd8424797e441a3921ba3805dd8e9bf87d3421e5fe3440a32211753ec964c1e"
+    ],
+    "script_sha256": "bda05d409ccb72eae08355b07f433bfc9435d865830bb5873aae404fc2377509",
+    "started_utc": "2026-09-30T18:28:33.268561+00:00",
+    "elapsed_seconds": 306.452,
+    "exit_code": 0,
+    "log_sha256": "8c0f9fb1cd038b7364b85fd6e2ab0e8ecb24ce5d4034d322b3ff28bc3249b672"
+  },
+  {
+    "id": "rank_preflight",
+    "command": [
+      "python",
+      "-B",
+      "$WORK\\portable\\portable_method\\03_compute\\freeze_preflight_v2.py"
+    ],
+    "script_sha256": "48233e53b3f3d59b3e51eb706e7687cff15886040f67f7f25545a4379f7dfd5d",
+    "started_utc": "2026-09-30T18:33:39.846918+00:00",
+    "elapsed_seconds": 0.619,
+    "exit_code": 0,
+    "log_sha256": "d3ce18e24ed65c77acb489582fda2cec9e413c31c1ab00d3a1e038c7779f8256"
+  },
+  {
+    "id": "active_acquire60",
+    "command": [
+      "python",
+      "-B",
+      "$WORK\\portable\\portable_method\\03_compute\\active_acquire.py",
+      "--freeze",
+      "$PACKAGE\\reproduction_bundle\\science\\R2\\evidence\\03_compute\\ranking_formal_v2_16698",
+      "--ai-attempts",
+      "$PACKAGE\\reproduction_bundle\\science\\R2\\evidence\\05_independent_audit\\AI_initial_60_independent_outcomes.csv",
+      "--output",
+      "$WORK\\active_replay"
+    ],
+    "script_sha256": "998b2efcf4c59c5d4357a6bc68b015c4af1c213df16e0c3d62f4638fa61787d8",
+    "started_utc": "2026-09-30T18:33:40.476356+00:00",
+    "elapsed_seconds": 26.706,
+    "exit_code": 0,
+    "log_sha256": "a2acb84d4997a427469d9376967a1c18b28ebf1867cadee902dacb2914d91890"
+  },
+  {
+    "id": "active_physical",
+    "command": [
+      "python",
+      "-B",
+      "$WORK\\portable\\portable_method\\03_compute\\prepare_active_physical.py",
+      "--freeze",
+      "$PACKAGE\\reproduction_bundle\\science\\R2\\evidence\\03_compute\\ranking_formal_v2_16698",
+      "--active",
+      "$PACKAGE\\reproduction_bundle\\science\\R2\\evidence\\03_compute\\ranking_active_v2_after_ai60",
+      "--output",
+      "$WORK\\active_physical"
+    ],
+    "script_sha256": "9b48b03599c382b3e2b32031c8e71a128fe3890d03581548b6a6d1c29482448a",
+    "started_utc": "2026-09-30T18:34:07.227637+00:00",
+    "elapsed_seconds": 2.935,
+    "exit_code": 0,
+    "log_sha256": "866fecd071b05abb55daa5a24d7c0417152a0c3c7142980900fa86813862a7eb"
+  },
+  {
+    "id": "initial_merge",
+    "command": [
+      "python",
+      "-B",
+      "$WORK\\portable\\portable_method\\03_compute\\merge_formal_batches.py",
+      "--output",
+      "$WORK\\merged_initial",
+      "--require-complete"
+    ],
+    "script_sha256": "ccc780f10121bbcb7a34f7ede06dd9d6a6f3a3c7987bee62e486312170ddc221",
+    "started_utc": "2026-09-30T18:34:10.174287+00:00",
+    "elapsed_seconds": 3.139,
+    "exit_code": 0,
+    "log_sha256": "b96b59225afcafc3416037da4020f78857e5b75bac868d46b36925155a69621c"
+  },
+  {
+    "id": "active_resume",
+    "command": [
+      "python",
+      "-B",
+      "$WORK\\portable\\portable_method\\03_compute\\freeze_active_resume.py",
+      "--output",
+      "$WORK\\active_resume"
+    ],
+    "script_sha256": "9b9d5aa22e374ea019ee51c7815f82667aa4e9de2b5da110b6eb0f7364ab0e00",
+    "started_utc": "2026-09-30T18:34:13.322466+00:00",
+    "elapsed_seconds": 2.999,
+    "exit_code": 0,
+    "log_sha256": "e4e74d44785869ede95aff392ff3e74a0ceb4743888b9fa95533a0bf54d840d2"
+  },
+  {
+    "id": "active_merge",
+    "command": [
+      "python",
+      "-B",
+      "$WORK\\portable\\portable_method\\03_compute\\merge_active_batches.py",
+      "--output",
+      "$WORK\\merged_active"
+    ],
+    "script_sha256": "7b91182ea1b1f824e1b8498294213147a24f71fde5a548bde3f8117dce35ce40",
+    "started_utc": "2026-09-30T18:34:16.325867+00:00",
+    "elapsed_seconds": 3.026,
+    "exit_code": 0,
+    "log_sha256": "7436aa1e82392cb5592c7e0d5414269e2a48bd8777976b0d3acfdd63442cb8c5"
+  },
+  {
+    "id": "evaluate_full360",
+    "command": [
+      "python",
+      "-B",
+      "$WORK\\portable\\portable_method\\03_compute\\evaluate_forward.py",
+      "--freeze",
+      "$PACKAGE\\reproduction_bundle\\science\\R2\\evidence\\03_compute\\ranking_formal_v2_16698",
+      "--active",
+      "$PACKAGE\\reproduction_bundle\\science\\R2\\evidence\\03_compute\\ranking_active_v2_after_ai60",
+      "--initial-old-batch",
+      "$PACKAGE\\reproduction_bundle\\science\\R2\\evidence\\03_compute\\raw_runs\\formal_forward_v2_initial278",
+      "--initial-resumed-batch",
+      "$PACKAGE\\reproduction_bundle\\science\\R2\\evidence\\03_compute\\raw_runs\\formal_forward_v2_resume124",
+      "--active-old-batch",
+      "$PACKAGE\\reproduction_bundle\\science\\R2\\evidence\\03_compute\\raw_runs\\formal_forward_v2_active_new",
+      "--active-resumed-batch",
+      "$PACKAGE\\reproduction_bundle\\science\\R2\\evidence\\03_compute\\raw_runs\\formal_forward_v2_active_resume14",
+      "--initial-batch",
+      "$PACKAGE\\reproduction_bundle\\science\\R2\\evidence\\03_compute\\raw_runs\\formal_forward_v2_merged",
+      "--active-batch",
+      "$PACKAGE\\reproduction_bundle\\science\\R2\\evidence\\03_compute\\raw_runs\\formal_forward_v2_active_merged41",
+      "--initial-qc",
+      "$PACKAGE\\reproduction_bundle\\science\\R2\\evidence\\05_independent_audit\\formal_v2_initial_independent_qc.csv",
+      "--active-qc",
+      "$PACKAGE\\reproduction_bundle\\science\\R2\\evidence\\05_independent_audit\\formal_v2_active_independent_qc.csv",
+      "--initial-contacts",
+      "$PACKAGE\\reproduction_bundle\\science\\R2\\evidence\\03_compute\\method\\formal_v2_initial_middle_contacts.csv",
+      "--active-contacts",
+      "$PACKAGE\\reproduction_bundle\\science\\R2\\evidence\\03_compute\\method\\formal_v2_active_middle_contacts.csv",
+      "--output",
+      "$WORK\\evaluation_replay"
+    ],
+    "script_sha256": "7288b0e2edc0dd251b21a61b821352a3a64e6dc37c94275451df51cb0cd7d3a8",
+    "started_utc": "2026-09-30T18:34:19.364550+00:00",
+    "elapsed_seconds": 4.481,
+    "exit_code": 0,
+    "log_sha256": "e0f9b5a2339d603a548c9c4bb93570cd66d6ea44dc7e9f7c8bceecc9402eec35"
+  },
+  {
+    "id": "small_example",
+    "command": [
+      "python",
+      "-B",
+      "$PACKAGE\\run_example.py",
+      "--output",
+      "$WORK\\small_example",
+      "--train-small"
+    ],
+    "script_sha256": "3bac45574e9b31d5ad606c72f870c6786afa5526b31e060fcb9827931f194097",
+    "started_utc": "2026-09-30T18:34:23.879239+00:00",
+    "elapsed_seconds": 33.306,
+    "exit_code": 0,
+    "log_sha256": "b3f8b82af0db4eff8cd6e7defbaaa9739876b315218bd24e224e78fb5d8ea20c"
+  },
+  {
+    "id": "plot_F8",
+    "command": [
+      "python",
+      "-B",
+      "$WORK\\plot_work\\plots\\plot_forward_three_arms.py"
+    ],
+    "script_sha256": "93091c7b25f28a8ce2fe2c4e51bb03aeeb60dead59687ed9ae1e5f7fbdc9076b",
+    "started_utc": "2026-09-30T18:34:57.236843+00:00",
+    "elapsed_seconds": 2.714,
+    "exit_code": 0,
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "id": "plot_stages",
+    "command": [
+      "python",
+      "-B",
+      "$WORK\\plot_work\\plots\\build_verified_stage_figures.py"
+    ],
+    "script_sha256": "226237d6d6f98f41251d6d38f7b790e323090b242b46cee5ff3720baaf14588d",
+    "started_utc": "2026-09-30T18:34:59.952636+00:00",
+    "elapsed_seconds": 6.513,
+    "exit_code": 0,
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "id": "plot_confirmation",
+    "command": [
+      "python",
+      "-B",
+      "$WORK\\plot_work\\plots\\plot_from_verified_csv.py",
+      "F4",
+      "$WORK\\plot_work\\data\\confirmation_plot.csv",
+      "$WORK\\plot_work\\figures\\confirmation_four_conditions"
+    ],
+    "script_sha256": "c6c5436b692963965079721e22363626aa1577545aaad734628495bab83b7892",
+    "started_utc": "2026-09-30T18:35:06.468289+00:00",
+    "elapsed_seconds": 2.33,
+    "exit_code": 0,
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "id": "chemical_domain9098",
+    "command": [
+      "python",
+      "-B",
+      "$WORK\\chemical_replay\\scripts\\prepare_frozen_domain.py",
+      "$PACKAGE\\reproduction_bundle\\science\\R2\\evidence\\03_compute\\ranking_formal_v2_16698"
+    ],
+    "script_sha256": "679f59194829a9a561eb33cff999a71f304c97d545a0f78f767d99c3d04e6a84",
+    "started_utc": "2026-09-30T18:35:09.047967+00:00",
+    "elapsed_seconds": 0.746,
+    "exit_code": 0,
+    "log_sha256": "db7103c24285bfd12abc603d8b18e167294964cda5471f4d6aef5415217b7f25"
+  },
+  {
+    "id": "chemical_alerts9098",
+    "command": [
+      "python",
+      "-B",
+      "$WORK\\chemical_replay\\scripts\\run_chemical_alerts.py"
+    ],
+    "script_sha256": "7a26f0e9ed006a11a6aaa682f54d7726398c8bb15ec1ee89f3ac74884d9d9ab1",
+    "started_utc": "2026-09-30T18:35:09.805701+00:00",
+    "elapsed_seconds": 97.58,
+    "exit_code": 0,
+    "log_sha256": "5fd98e0bf2ee7378e3da784d0794a5492deb32e25e54cdae827a5b098241991c"
+  },
+  {
+    "id": "ANM_check",
+    "command": [
+      "python",
+      "-B",
+      "$PACKAGE\\r3\\anm\\reproduce_anm.py",
+      "--inputs",
+      "$WORK\\ANM_INPUTS.internal.json",
+      "--out",
+      "$WORK\\anm_replay",
+      "--check-only"
+    ],
+    "script_sha256": "0d1a8827077fee1debb1744192b6286dc7b77827b9ab81b5431fb12146bd041d",
+    "started_utc": "2026-09-30T18:36:47.422807+00:00",
+    "elapsed_seconds": 0.189,
+    "exit_code": 0,
+    "log_sha256": "813e779ac2284670cd6d608f1014279a37413ae479d29e1ba810fc593e4e3966"
+  },
+  {
+    "id": "ANM_actual",
+    "command": [
+      "python",
+      "-B",
+      "$PACKAGE\\r3\\anm\\reproduce_anm.py",
+      "--inputs",
+      "$WORK\\ANM_INPUTS.internal.json",
+      "--out",
+      "$WORK\\anm_replay"
+    ],
+    "script_sha256": "0d1a8827077fee1debb1744192b6286dc7b77827b9ab81b5431fb12146bd041d",
+    "started_utc": "2026-09-30T18:36:47.623806+00:00",
+    "elapsed_seconds": 12.203,
+    "exit_code": 0,
+    "log_sha256": "095b47feff6a5d8de402117a95e6a7258fe7e2b7ad704537a67a976165083099"
+  },
+  {
+    "id": "ANM_figures",
+    "command": [
+      "python",
+      "-B",
+      "$PACKAGE\\r3\\anm\\plot_anm_results.py",
+      "--release",
+      "$WORK\\anm_replay\\release"
+    ],
+    "script_sha256": "fd67fb56990b8ee4c857d54c67a66735c26a20f837339db3085ee5835b258840",
+    "started_utc": "2026-09-30T18:36:59.936781+00:00",
+    "elapsed_seconds": 6.585,
+    "exit_code": 0,
+    "log_sha256": "193ce4387997b028f9866248f16c4f979eb6652f67a8ce80f1dabc5b28c50e8c"
+  },
+  {
+    "id": "structure_raw26",
+    "command": [
+      "python",
+      "-B",
+      "$PACKAGE\\r3\\structure\\readback_qc.py",
+      "--mouse",
+      "$EXTERNAL_MOUSE_PDBQT",
+      "--human",
+      "$EXTERNAL_HUMAN_PDBQT",
+      "--output",
+      "$WORK\\structure_readback.csv"
+    ],
+    "script_sha256": "452902c6ee998682231bcac76d1d1324b3f1e6c547113432dd8e3f15cfca57c1",
+    "started_utc": "2026-09-30T18:37:06.537057+00:00",
+    "elapsed_seconds": 1.738,
+    "exit_code": 0,
+    "log_sha256": "34c5e7685291dadef616b3d84772b891ba8816177aa9cf2ef8e88b38af71ad2d"
+  },
+  {
+    "id": "reference_top10",
+    "command": [
+      "python",
+      "-B",
+      "$PACKAGE\\r3\\reference_generation\\audit_real_jobs_R3.py",
+      "top10",
+      "top10_QC",
+      "$PACKAGE\\r3\\reference_generation\\raw_runs",
+      "$VALIDATION\\private_external\\screen_v2\\inputs\\receptors"
+    ],
+    "script_sha256": "6d3d930f4ee901d136af3242dee49142a084ad46e379c638e8269c3381c640b6",
+    "started_utc": "2026-09-30T18:37:08.289079+00:00",
+    "elapsed_seconds": 0.815,
+    "exit_code": 0,
+    "log_sha256": "2522a7c59d35c7600f02956b9f650f41a6fb65fb240ece03307f6e4989dedb0e"
+  },
+  {
+    "id": "reference_reference_panel",
+    "command": [
+      "python",
+      "-B",
+      "$PACKAGE\\r3\\reference_generation\\audit_real_jobs_R3.py",
+      "reference_panel",
+      "reference_panel_QC",
+      "$PACKAGE\\r3\\reference_generation\\raw_runs",
+      "$VALIDATION\\private_external\\screen_v2\\inputs\\receptors"
+    ],
+    "script_sha256": "6d3d930f4ee901d136af3242dee49142a084ad46e379c638e8269c3381c640b6",
+    "started_utc": "2026-09-30T18:37:09.124484+00:00",
+    "elapsed_seconds": 0.864,
+    "exit_code": 0,
+    "log_sha256": "e160f991a1b3cb7fa426f85f179fb2ede251da29e2b799cab379d5e27475dcfb"
+  },
+  {
+    "id": "reference_denatonium",
+    "command": [
+      "python",
+      "-B",
+      "$PACKAGE\\r3\\reference_generation\\audit_real_jobs_R3.py",
+      "denatonium",
+      "denatonium_QC",
+      "$PACKAGE\\r3\\reference_generation\\raw_runs",
+      "$VALIDATION\\private_external\\screen_v2\\inputs\\receptors"
+    ],
+    "script_sha256": "6d3d930f4ee901d136af3242dee49142a084ad46e379c638e8269c3381c640b6",
+    "started_utc": "2026-09-30T18:37:10.009554+00:00",
+    "elapsed_seconds": 0.578,
+    "exit_code": 0,
+    "log_sha256": "0f68c5788762d87bba44d61a7ad317e1eab0fdee00530ccb808176a6a255ad2f"
+  }
+]

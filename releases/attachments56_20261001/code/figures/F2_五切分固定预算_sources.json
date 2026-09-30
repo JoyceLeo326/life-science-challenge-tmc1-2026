@@ -1,0 +1,15 @@
+{
+  "sources": [
+    {
+      "path": "plot_inputs/benchmark_five_splits.csv",
+      "sha256": "2e3bade025cefa023ad63e964a1ec4774d9f95a38e20d0f34dce79359558ea10"
+    },
+    {
+      "path": "05_independent_audit/benchmark_multisplit_independent_audit.json",
+      "sha256": "c2910f1efa26794b3d7d5c7a72c869452fbbe917480db5476e5c5f377f4c0adc"
+    }
+  ],
+  "script": "plots/build_verified_stage_figures.py",
+  "script_sha256": "226237d6d6f98f41251d6d38f7b790e323090b242b46cee5ff3720baaf14588d",
+  "visual_checked": false
+}

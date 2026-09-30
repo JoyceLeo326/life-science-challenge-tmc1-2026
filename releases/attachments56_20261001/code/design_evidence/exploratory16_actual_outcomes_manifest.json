@@ -1,0 +1,39 @@
+{
+  "source_version": "Independent exploratory16, after formal generation; original fixed40 unmodified",
+  "frozen_input_sha256": "c97d139dae375e925ab6d672c0fc6226cac72d0d027cd6443e82e533e4bcc176",
+  "input_sha256": {
+    "frozen": "c97d139dae375e925ab6d672c0fc6226cac72d0d027cd6443e82e533e4bcc176",
+    "freeze_manifest": "a8d4850a1a049396ed653e2b704776c71248950bf19b5af424955fad73b90295",
+    "independent_outcomes": "c3b9a646e272a96a4d9e05aeeef7e6c9a0ee1e9d75e847cf43004f117fc58059",
+    "independent_summary": "a8dcc3c0cdb7fc51bb9df2af80a70bf7bb341b29b1dab2b8abf2a0b7a904d3a0",
+    "job_ledger": "d57bb7e98b17c0db2e557961c52ef56beb3a38f070edda8750d448252a790271",
+    "job_summary": "f77017a5ba94cc3d0b9b6ecc5ec7eb34815e6c17f93f79fe82016cc2eaf61514"
+  },
+  "output_sha256": "cc8392c75387112cac3f6144fffa64b8852e7296726b2a1fb3081b491071d147",
+  "counts": {
+    "proxy_top12": 12,
+    "matched_random_control": 4
+  },
+  "group_results": {
+    "proxy_top12": {
+      "attempted": 12,
+      "independent_qc_pass": 12,
+      "middle_contact_4A": 11,
+      "favorable_fixed_threshold": 1,
+      "joint_qc_score_middle_pass": 1,
+      "mean_actual_vina_kcal_mol": -6.3717,
+      "min_actual_vina_kcal_mol": -8.26
+    },
+    "matched_random_control": {
+      "attempted": 4,
+      "independent_qc_pass": 4,
+      "middle_contact_4A": 3,
+      "favorable_fixed_threshold": 0,
+      "joint_qc_score_middle_pass": 0,
+      "mean_actual_vina_kcal_mol": -6.4865,
+      "min_actual_vina_kcal_mol": -7.232
+    }
+  },
+  "threshold_kcal_mol": -8.07960033416748,
+  "interpretation_limit": "Small 12:4 unequal-budget descriptive comparison; one proxy-group joint docking threshold/contact case does not establish overall proxy advantage, biological affinity, functional direction, selectivity or ADMET; original fixed40 joint outcome remains 0/40"
+}

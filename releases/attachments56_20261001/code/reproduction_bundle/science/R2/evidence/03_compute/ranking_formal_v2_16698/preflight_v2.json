@@ -1,0 +1,50 @@
+{
+  "status": "v2 corrected freeze before any v2 docking outcome",
+  "source_library_sha256": "8fd8424797e441a3921ba3805dd8e9bf87d3421e5fe3440a32211753ec964c1e",
+  "arm_rows": 300,
+  "physical_unique": 278,
+  "selection_overlap": 22,
+  "by_arm": {
+    "random": {
+      "n": 120,
+      "exchangeable_N_approx": 17,
+      "source_abs_charge_ge2": 0,
+      "rule_abs_charge_ge2": 22
+    },
+    "descriptor_ridge": {
+      "n": 120,
+      "exchangeable_N_approx": 15,
+      "source_abs_charge_ge2": 0,
+      "rule_abs_charge_ge2": 22
+    },
+    "AI_initial": {
+      "n": 60,
+      "exchangeable_N_approx": 3,
+      "source_abs_charge_ge2": 0,
+      "rule_abs_charge_ge2": 4
+    }
+  },
+  "source_formal_charge_counts": {
+    "1": 3,
+    "0": 275
+  },
+  "rule_formal_charge_counts": {
+    "1": 53,
+    "0": 143,
+    "-2": 16,
+    "-1": 34,
+    "-3": 3,
+    "2": 25,
+    "3": 1,
+    "-6": 1,
+    "-4": 2
+  },
+  "all_source_and_rule_stable_stereo_specified": true,
+  "files_sha256": {
+    "all_predictions.csv": "79b775967bfc87ded9a07aae03549c9233691ec4fc3375a2c2662b64ee4b2841",
+    "arm_assignments.csv": "1eb0908109108bba2507efa39e46f7a4561e63bf4d161309175f590b25f3b9ce",
+    "physical_union_docking_list.csv": "3b53b86471eaed6f5bc49fbef381b811ec81153c69376fc4f20bf2c0161790b9",
+    "freeze.json": "93d6bddeaa1a8ff716ef59b0c0e5d764f09ef88980f903252951a3b52454185f"
+  },
+  "aborted_prior_freeze": "ranking_formal_16698, 175 preparation logs and zero pose outputs; selection changed before any new docking score existed"
+}

@@ -1,0 +1,11 @@
+{
+  "batch": "design_JMW_parent_H_AF",
+  "jobs_in_ledger": 2,
+  "independent_qc_pass": 2,
+  "independent_qc_failed": 0,
+  "reasons": {},
+  "middle_contact_4A_among_qc_pass": 2,
+  "charge_parameterization_warnings": 0,
+  "score_le_frozen_threshold_among_qc_pass": 2,
+  "source_ledger_file_sha256": "563e18217dfa7a870f9c78ba853f28432d628e4a7c0c8199d118da1d862e3037"
+}

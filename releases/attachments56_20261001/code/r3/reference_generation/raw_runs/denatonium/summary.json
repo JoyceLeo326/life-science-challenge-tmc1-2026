@@ -1,0 +1,81 @@
+{
+  "finished_utc": "2026-09-30T11:08:20.924720+00:00",
+  "plan": {
+    "created_utc": "2026-09-30T11:07:56.061083+00:00",
+    "input_path": "denatonium_input.csv",
+    "input_sha256": "cd3fa0f4e395efd5bad12b418756a0bea395bf0c5313f1c0b218e919519b1184",
+    "input_rows": 1,
+    "unique_ids": 1,
+    "receptor": "external_sources/M_PUB_ALL.pdbqt",
+    "receptor_sha256": "c024cc9efaf910ac11642cea4a4c701a0a88a335d7deb0d040320516d5a2eda1",
+    "box": {
+      "site_id": "table6_middle_15_common_union",
+      "center": [
+        2.3955,
+        -12.9641,
+        0.9145
+      ],
+      "size": [
+        37.687,
+        31.3744,
+        31.1908
+      ],
+      "volume_A3": 36880.180360534134,
+      "human_site_residues": [
+        414,
+        417,
+        418,
+        449,
+        450,
+        453,
+        454,
+        531,
+        534,
+        535,
+        539,
+        582,
+        583,
+        585,
+        604
+      ],
+      "mouse_site_residues": [
+        "S408",
+        "G411",
+        "M412",
+        "L443",
+        "L444",
+        "N447",
+        "L448",
+        "D528",
+        "T531",
+        "T532",
+        "I536",
+        "F579",
+        "N580",
+        "G582",
+        "R601"
+      ],
+      "rule": "Union of all heavy atoms of the 15 Supplementary Table 6 middle-site mapped residues in H_AF, M_AF, M_PUB_ALL chain A, after conserved-TM rigid alignment; 5 A padding per face; SAME center/size for every receptor and ligand",
+      "source_conflict": "Paper body calls mouse M407 middle, Supplementary Table 6 calls it Top. Project pre-specifies Table 6 region labels; M407 is not in this 15-residue middle set.",
+      "interpretation": "Literature-informed regional hypothesis, not a validated human binding pocket or gate state"
+    },
+    "box_file": "protocol_inputs/vina_box.txt",
+    "box_sha256": "3e4c7eb2c313edbe496068c9fb17790e7ca746567519836ed46131e5e7570d49",
+    "vina_sha256": "e0c4b2715e0c1a74f6e92d0f3be0328ac97542eafbc111e6b1efad897a73cce5",
+    "rdkit": "2025.09.6",
+    "chemical_identity_rule_version": "exchangeable_tertiary_ring_NH_and_full_potential_stereo_v3_20260929",
+    "seed": 20260927,
+    "conformer_seed": 20260927,
+    "exhaustiveness": 8,
+    "workers": 1,
+    "protocol": "one pH7.4 rule form only; ETKDGv3 10 conformers, converged MMFF94s min; Vina first pose; no biological claim"
+  },
+  "prepared": 1,
+  "prepared_success": 1,
+  "preparation_blocked": 0,
+  "jobs": 1,
+  "completed": 1,
+  "local_pre_qc_pass": 1,
+  "sum_job_seconds": 23.951,
+  "scratch_path": "external_sources/denatonium"
+}

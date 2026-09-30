@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "source_byte_checks": [
+    {
+      "scope": "code",
+      "source_archive_sha256": "f8ad02077d56648bfa4e79a7bacac07a6ebcf6c480d98ee0c4a792a7b1d7f996",
+      "files_byte_identical": 4212
+    },
+    {
+      "scope": "materials",
+      "source_archive_sha256": "6a988ad5b9b63fcd78b31c4a2ad3bde58955991ef182d318456601b9245ca237",
+      "files_byte_identical": 431
+    },
+    {
+      "scope": "data_chinese",
+      "frozen_source_files_identical": 134
+    },
+    {
+      "scope": "video",
+      "frozen_source_files_identical": 22
+    },
+    {
+      "scope": "recording_to_latest_code",
+      "core_entry_input_output_hashes_identical": 6,
+      "code_zip_sha256": "f8ad02077d56648bfa4e79a7bacac07a6ebcf6c480d98ee0c4a792a7b1d7f996",
+      "video_sha256": "c7ca6128681dfaf72e6d9cf3454f1f83cad08d2c86f7c030aceb2248d5667bb7"
+    }
+  ],
+  "local_document_links_validated": 39,
+  "largest_tracked_file_bytes": 54370979,
+  "source_originals_unchanged": true,
+  "delivery_archives_not_duplicated_in_git": true,
+  "main_code_manifest_sha256": "afd907d6d81ecbb1d2ede254127cb921e77a409cd55967a3c56f3d93ad92b41b",
+  "public_materials_metadata_derivation": "materials/PUBLIC_DERIVATION.json",
+  "runtime_acceptance": "Scientific runtime tests are inside code/validation and code/notebooks; repository-entry tests are separately maintained by CI."
+}

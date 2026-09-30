@@ -1,0 +1,13 @@
+{
+  "source_sha256": {
+    "external_source/design_amides_seed27_contacts.csv": "bf3e1c5f6d7bbad8a4fd84f71bd8459ac3b44d7a2fbc1d4381d6ca8a7511297f",
+    "external_source/design_amides_seed27_independent_qc.csv": "cdb735bde452cddf5706638fa082c5be1328cce58493fd7b6df55b72d3dc0895",
+    "external_source/design_JMW_parent_M_CORE_contacts.csv": "27b6b315e5dc6e770f9d9313a0a9fd2c4fe4d7e9be935976d61dae5db1da9942",
+    "external_source/design_JMW_parent_M_CORE_independent_qc.csv": "8ab2b618e1288357ed6ed0cc978e8672e9eca0330f1ff5413fa7e4787df7b049",
+    "external_source/design_JMW_parent_H_AF_contacts.csv": "9a8f2a565e910545722ab775348fd1742c5ad79e2acb7f797d2223d0db5ecfce",
+    "external_source/design_JMW_parent_H_AF_independent_qc.csv": "487eeaa4b73989c64c6f8214d4748096867db2c7670b1b95f28d66aab5777d34"
+  },
+  "output_sha256": "87a2d1255844966b4cda5d862ab99c17375fa4444dc5d46502230859c984e54a",
+  "all_six_independent_qc_pass": true,
+  "interpretation_limit": "Three receptor settings each show a within-receptor lower JMW Vina score and Middle contact; these are static model calculations, not cross-receptor absolute score comparisons or measured affinity/selectivity/function"
+}

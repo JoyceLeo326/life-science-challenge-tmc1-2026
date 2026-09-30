@@ -1,0 +1,4 @@
+﻿method,library_sha256,requested_samples,valid_samples,unique_valid_samples,property_and_alert_pass_unique,identity_safe_property_and_alert_pass_unique,property_pass_and_similarity_ge_0p15,property_pass_and_similarity_ge_0p25,finetune_structures,notes
+SMILES char GRU,b13b1be7fa0198e0c51dfcfe92912552c2c836ba9b591494c40223e5dbdda3d0,10000,1449,1403,410,248,149,4,0,nearest of 12 first-round candidates; exploratory 0.15 is weak structural proximity; no affinity conditioning
+SELFIES GRU base,b13b1be7fa0198e0c51dfcfe92912552c2c836ba9b591494c40223e5dbdda3d0,10000,10000,9961,1492,214,93,0,0,nearest of 12 first-round candidates; exploratory 0.15 is weak structural proximity; no affinity conditioning
+SELFIES GRU focused,b13b1be7fa0198e0c51dfcfe92912552c2c836ba9b591494c40223e5dbdda3d0,10000,10000,9958,986,102,46,1,116,nearest of 12 first-round candidates; exploratory 0.15 is weak structural proximity; no affinity conditioning

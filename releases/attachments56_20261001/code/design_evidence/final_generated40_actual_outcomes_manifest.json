@@ -1,0 +1,27 @@
+{
+  "counts": {
+    "fixed_generated": 150,
+    "selected_before_docking": 40,
+    "preparation_success": 30,
+    "preparation_blocked": 10,
+    "actual_docking_completed": 30,
+    "independent_qc_pass": 29,
+    "middle_4A_contact_among_qc_pass": 14,
+    "favorable_score_among_qc_pass": 1,
+    "joint_qc_score_middle_pass": 0
+  },
+  "frozen_threshold_kcal_mol": -8.07960033416748,
+  "input_sha256": {
+    "fixed150": "216154bbf19119220da773ca75b9c2b0cbb1b2b8b2891099fcdeaff1cde56192",
+    "selected40": "0a2114bf29576b22917e6c09f22b5e835857d4ee9b3aeb0fdb9afe0924fce71e",
+    "freeze": "e726ef60cfcb23cc7c65d35671ffdc1b14b4d14cef05ac9eb408f7c9f5d2a47e",
+    "preparation": "ed454741b7876f5188dd0482fd69de1407b338d8ecaec3d55f1b669b77a6ffa5",
+    "independent_qc": "76e99ce2add23df8b2aa000b0ffbae9a1d6d3c66c73a7e02443dd03bc5178134",
+    "provenance_qc": "be4ffa60b2e213d42b00d72cc3037a07ab4dca23f08bd9bfcb9325f4a05a590e",
+    "threshold": "b8b922302bdcffff175cfb2c65f8a3aad1b2bf51fccc5f6b1efe2a7b314475e2"
+  },
+  "full150_identity_readback_errors": [],
+  "source_version": "final_selfies_17645_base only; 5067-pilot lists excluded",
+  "independent_qc_note": "05 line full independent QC; 29 pass, one pose outside box",
+  "interpretation_limit": "No joint technical QC, frozen score threshold, and predeclared Middle 4A contact success; no biological activity conclusion"
+}

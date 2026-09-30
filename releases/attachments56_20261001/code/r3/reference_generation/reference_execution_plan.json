@@ -1,0 +1,40 @@
+{
+  "started_utc": "2026-09-30T11:00:11.333489+00:00",
+  "command": [
+    "external_tools/python.exe",
+    "protocol_inputs/dock_batch.py",
+    "--input",
+    "reference_identity_inputs.csv",
+    "--batch",
+    "reference_panel",
+    "--scratch",
+    "external_sources/raw_runs",
+    "--receptor",
+    "M_PUB_ALL",
+    "--receptor-dir",
+    "external_sources/receptors",
+    "--vina-bin",
+    "external_tools/vina_1.2.7_win.exe",
+    "--export-bin",
+    "external_tools/mk_export.exe",
+    "--box",
+    "protocol_inputs/vina_box.txt",
+    "--box-meta",
+    "protocol_inputs/common_box.json",
+    "--seed",
+    "20260927",
+    "--exhaustiveness",
+    "8",
+    "--workers",
+    "2",
+    "--timeout",
+    "600"
+  ],
+  "env_overrides": {
+    "PYTHONPATH": "external_sources/pydeps",
+    "PYTHONUTF8": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "input_sha256": "53fa5980703fd8ea0c3caefae12080d9f11992d4ed1881c4a144a998ea557e0b"
+}

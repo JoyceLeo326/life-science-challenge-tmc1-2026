@@ -1,0 +1,3 @@
+# Minimal dependencies for saved-source A1-A3 checks. No Torch or docking tools.
+numpy==2.5.3
+rdkit==2025.9.6

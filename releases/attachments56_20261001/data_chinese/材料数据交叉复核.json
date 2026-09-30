@@ -1,0 +1,262 @@
+{
+  "status": "PASS",
+  "scope": "scientific report MD, pharmacology-ADMET supplement MD, two 18-slide PPT text editions",
+  "frozen_science_manifest_sha256": "08b28625ad81d3a31ed2e50c7e2a25004042d2be31abcdaa59393d5126c9ae9b",
+  "checks": [
+    {
+      "check": "YWD SA/GI/BBB/ESOL",
+      "pass": true,
+      "detail": {
+        "rendered": [
+          "3.71",
+          "2.424",
+          "Low",
+          "No",
+          "-6.47"
+        ],
+        "source": [
+          "3.71",
+          "2.424",
+          "Low",
+          "No",
+          "-6.47"
+        ]
+      }
+    },
+    {
+      "check": "YWD CYP/hERG/DILI",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "MYA SA/GI/BBB/ESOL",
+      "pass": true,
+      "detail": {
+        "rendered": [
+          "3.63",
+          "2.450",
+          "Low",
+          "No",
+          "-6.44"
+        ],
+        "source": [
+          "3.63",
+          "2.450",
+          "Low",
+          "No",
+          "-6.44"
+        ]
+      }
+    },
+    {
+      "check": "MYA CYP/hERG/DILI",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "ZND SA/GI/BBB/ESOL",
+      "pass": true,
+      "detail": {
+        "rendered": [
+          "3.61",
+          "2.677",
+          "Low",
+          "No",
+          "-5.93"
+        ],
+        "source": [
+          "3.61",
+          "2.677",
+          "Low",
+          "No",
+          "-5.93"
+        ]
+      }
+    },
+    {
+      "check": "ZND CYP/hERG/DILI",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "FCR SA/GI/BBB/ESOL",
+      "pass": true,
+      "detail": {
+        "rendered": [
+          "3.93",
+          "2.543",
+          "Low",
+          "No",
+          "-6.33"
+        ],
+        "source": [
+          "3.93",
+          "2.543",
+          "Low",
+          "No",
+          "-6.33"
+        ]
+      }
+    },
+    {
+      "check": "FCR CYP/hERG/DILI",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "DND SA/GI/BBB/ESOL",
+      "pass": true,
+      "detail": {
+        "rendered": [
+          "3.95",
+          "2.665",
+          "High",
+          "No",
+          "-6.18"
+        ],
+        "source": [
+          "3.95",
+          "2.665",
+          "High",
+          "No",
+          "-6.18"
+        ]
+      }
+    },
+    {
+      "check": "DND CYP/hERG/DILI",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "ZVH SA/GI/BBB/ESOL",
+      "pass": true,
+      "detail": {
+        "rendered": [
+          "3.63",
+          "2.580",
+          "Low",
+          "No",
+          "-5.79"
+        ],
+        "source": [
+          "3.63",
+          "2.580",
+          "Low",
+          "No",
+          "-5.79"
+        ]
+      }
+    },
+    {
+      "check": "ZVH CYP/hERG/DILI",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Lumacaftor exploration table",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Trilaciclib exploration table",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "JMW exploration table",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "LDAG exploration table",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "GEN_YUOYQOBVJWRGGY exploration table",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "generation denominators",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "unverified68 clearly scoped",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "31 short-list rows vs33 queried molecules",
+      "pass": true,
+      "detail": "31 is candidate-neighbor selected pairs; 33 unique query IDs incl six candidates; no contradictory claim found"
+    },
+    {
+      "check": "threshold counts in report",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "8 published experimental rows source values",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "single-dose inhibition distinguished",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "IC50 unit conversion",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "靶向TMC1机械转导通道的小分子变构调节剂AI辅助筛选——用于Usher综合征1B的听力代偿保护策略项目介绍（区赛）.pptx 18 pages",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "靶向TMC1机械转导通道的小分子变构调节剂AI辅助筛选——用于Usher综合征1B的听力代偿保护策略项目介绍（区赛）_无配音编辑版.pptx 18 pages",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "two PPT text editions identical",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "PPT key limitations retained",
+      "pass": true,
+      "detail": null
+    }
+  ],
+  "passed": 28,
+  "failed": 0,
+  "notes": [
+    "未发现阻断性数值或文字错误；科学报告与补充报告准确区分文献实验和本团队预测。",
+    "31为短名单候选—邻居配对行；药理查询为33个去重分子（含六候选）；报告未把二者混为同一分母。",
+    "本次为文字与数值只读复核，不包含PPT图像内部文字的视觉验收，视觉由材料线负责。"
+  ],
+  "reviewed_files": [
+    {
+      "file": "靶向TMC1机械转导通道的小分子变构调节剂AI辅助筛选——用于Usher综合征1B的听力代偿保护策略项目介绍（区赛）.pptx",
+      "sha256": "3978fc53236339e4a8103132db06c34a00e6855df2a7d0d0b232968bb97ee418"
+    },
+    {
+      "file": "靶向TMC1机械转导通道的小分子变构调节剂AI辅助筛选——用于Usher综合征1B的听力代偿保护策略项目介绍（区赛）_无配音编辑版.pptx",
+      "sha256": "be8aa4154811cb72f64451b0d892a9d70dd26683dd4362bfecae8d46349a2c6e"
+    },
+    {
+      "file": "科研报告_附件56口径修订版.md",
+      "sha256": "7815f282ccaa307e153c8d73cc07d3d85a08845a33d96dff0c1e8176d79d1f01"
+    },
+    {
+      "file": "候选身份、既有药理与ADMET预测补充报告.md",
+      "sha256": "8839adeb9e1553fe139f5bdafe3dc2f9cc76541926c2fa98bf9d42dba58706e4"
+    }
+  ]
+}

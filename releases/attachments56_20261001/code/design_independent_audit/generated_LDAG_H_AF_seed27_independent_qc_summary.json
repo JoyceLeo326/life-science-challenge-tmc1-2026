@@ -1,0 +1,11 @@
+{
+  "batch": "generated_LDAG_H_AF_seed27",
+  "jobs_in_ledger": 1,
+  "independent_qc_pass": 1,
+  "independent_qc_failed": 0,
+  "reasons": {},
+  "middle_contact_4A_among_qc_pass": 1,
+  "charge_parameterization_warnings": 0,
+  "score_le_frozen_threshold_among_qc_pass": 1,
+  "source_ledger_file_sha256": "4f72f83a036bbd66a3a5e156e8a7cdc8422edd0f97fdf518590fa5aed291fb9f"
+}

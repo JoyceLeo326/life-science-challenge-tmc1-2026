@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "files": {
+    "NOTEBOOK_EXECUTION_RECEIPT.json": {
+      "sha256": "43c029e2cd5d8ca0b9ef161d8008111f479854dfeb6825289363cf68f9d67b56",
+      "bytes": 2830
+    },
+    "NOTEBOOK_RUNNER_REPLAY.json": {
+      "sha256": "e468fce6bcc72c721c5241eb13228b9369bf2e9d59609957ba897a64ff6738c8",
+      "bytes": 1575
+    },
+    "README.md": {
+      "sha256": "16b816e2d0268a389c817bd46ce03e07b87a6b843580344a7fc5dc69384a3ea2",
+      "bytes": 1574
+    },
+    "requirements-notebook.txt": {
+      "sha256": "4e8176fa1d1e60ec677b1912ae1cb27c71c19f2948d3dfb4f06cf2b908ea887b",
+      "bytes": 52
+    },
+    "run_notebook.py": {
+      "sha256": "d2f41c62320522c5445f8ff301400bed6762f6650d46f341be142b8f7f7b8ba7",
+      "bytes": 814
+    },
+    "six_candidate_confirmation.png": {
+      "sha256": "23787a9c135b42bf115fb8ac24965ebe849ec121210c6784f15d3c3b937bfc98",
+      "bytes": 39038
+    },
+    "TMC1_walkthrough.ipynb": {
+      "sha256": "b9554cb7362b1f7b075cc2684b3574d5ec1150f8d8e4bab4375eb967015b7873",
+      "bytes": 49197
+    }
+  },
+  "privacy_scan_hits": 0,
+  "required_placement": "notebooks/",
+  "scientific_inputs_unmodified": true
+}

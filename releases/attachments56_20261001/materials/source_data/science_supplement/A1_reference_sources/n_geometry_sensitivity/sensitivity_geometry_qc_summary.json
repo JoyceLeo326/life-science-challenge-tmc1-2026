@@ -1,0 +1,11 @@
+{
+  "batch": "n_geometry6",
+  "jobs_in_ledger": 6,
+  "independent_qc_pass": 6,
+  "independent_qc_failed": 0,
+  "reasons": {},
+  "middle_contact_4A_among_qc_pass": 3,
+  "charge_parameterization_warnings": 0,
+  "score_le_frozen_threshold_among_qc_pass": 0,
+  "source_ledger_file_sha256": "bc142423d01f73b05e5e6951edfa3dd8951e12941f0712312afce828b29ece2b"
+}

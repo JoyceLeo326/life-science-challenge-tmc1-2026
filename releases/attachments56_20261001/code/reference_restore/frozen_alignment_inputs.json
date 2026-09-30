@@ -1,0 +1,103 @@
+{
+  "description": "Frozen numeric inputs extracted from the original UniProt feature file and mouse-human map; no coordinates included.",
+  "human_tm_ranges": [
+    [
+      183,
+      220
+    ],
+    [
+      272,
+      303
+    ],
+    [
+      360,
+      390
+    ],
+    [
+      403,
+      430
+    ],
+    [
+      435,
+      469
+    ],
+    [
+      516,
+      553
+    ],
+    [
+      573,
+      593
+    ],
+    [
+      597,
+      619
+    ],
+    [
+      634,
+      657
+    ],
+    [
+      701,
+      734
+    ]
+  ],
+  "middle_mouse_tokens": [
+    "S408",
+    "G411",
+    "M412",
+    "L443",
+    "L444",
+    "N447",
+    "L448",
+    "D528",
+    "T531",
+    "T532",
+    "I536",
+    "F579",
+    "N580",
+    "G582",
+    "R601"
+  ],
+  "middle_human_resnums": [
+    414,
+    417,
+    418,
+    449,
+    450,
+    453,
+    454,
+    531,
+    534,
+    535,
+    539,
+    582,
+    583,
+    585,
+    604
+  ],
+  "origin_sha256": {
+    "data/raw/uniprot_Q8TDI8.json": "99db0cff1b66882f68083aef98e8650318c35446d66696a55e607c432fed6890",
+    "results/mouse_human_residue_map.csv": "71418491206ac06ce4dffded2e56b1afa3f75de77f518c8f5198bb228274e1fd",
+    "src/prepare_receptors_v2.py": "76a534122dd35c0593ceea26fda721439634ef8d91aa53e671d00edc1b9f512a"
+  },
+  "expected_aligned_sha256": "a0c2c7b07eb3a4939397ffb104d0d8b8bdc5ef4ab9b7af732deef03944385baa",
+  "expected_pdbqt_sha256": "c024cc9efaf910ac11642cea4a4c701a0a88a335d7deb0d040320516d5a2eda1",
+  "expected_core_pdbqt_sha256": "66991c40f0be17f82c1d2146f93b69cec69d9909fdf3f02ef1eaf8b7f4f9e98d",
+  "historical_preflight": {
+    "source_heavy_atoms": 15070,
+    "source_chains": {
+      "A": 5390,
+      "E": 1523,
+      "C": 622,
+      "B": 5390,
+      "F": 1523,
+      "D": 622
+    },
+    "chainA_ca_count": 666,
+    "aligned_pairs": 663,
+    "conserved_tm_fit_pairs": 301,
+    "tm_ca_rmsd_A": 3.961899856436029,
+    "middle_residues_present": 15
+  }
+}

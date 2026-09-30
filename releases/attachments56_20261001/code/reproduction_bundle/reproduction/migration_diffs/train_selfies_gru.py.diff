@@ -1,0 +1,33 @@
+--- scientific_source/04_design/method_results/train_selfies_gru.py
++++ published/04_design/method_results/train_selfies_gru.py
+@@ -18,9 +18,10 @@
+ from collections import Counter
+ from datetime import datetime, timezone
+ from pathlib import Path
+-
+-SCRATCH = Path(r"[original design scratch]")
+-sys.path.insert(0, str(SCRATCH / "pydeps"))
++from portable_config import required_path
++
++SCRATCH = required_path("TMC1_WORK_ROOT") / "04_design"
++
+ os.environ["OMP_NUM_THREADS"] = "1"
+ os.environ["MKL_NUM_THREADS"] = "1"
+ import selfies as sf
+@@ -273,13 +274,15 @@
+         records.append({"inchikey": key, "smiles": smiles, "tokens": tokens,
+                         "scaffold": common.scaffold(mol), "nearest_similarity": sim})
+     assert len(records) >= 300
+-    legacy_path = Path(r"[original R1 research root]\screen_v2\inputs\library\eligible_pool.csv")
++    legacy_path = required_path("TMC1_R1_ROOT") / "screen_v2/inputs/library/eligible_pool.csv"
+     legacy_screen_keys = set()
+     for legacy in common.read_rows(legacy_path):
+         legacy_mol = Chem.MolFromSmiles(legacy["source_smiles"])
+         if legacy_mol is not None:
+             legacy_screen_keys.add(Chem.MolToInchiKey(legacy_mol))
+     enumeration_path = HERE/"design_constraints_all.csv"
++    if hashlib.sha256(enumeration_path.read_bytes()).hexdigest() != "2a46fc4c47441b6773cc95c72311d4ff1b7e6ea1399b79657d83bdf853629f9b":
++        raise ValueError("Frozen rule-enumeration SHA256 mismatch")
+     enumerated_keys = {r["inchikey"] for r in common.read_rows(enumeration_path)}
+     train_records = [r for r in records if int(hashlib.sha256(r["scaffold"].encode()).hexdigest()[:8], 16)%10 != 0]
+     val_records = [r for r in records if int(hashlib.sha256(r["scaffold"].encode()).hexdigest()[:8], 16)%10 == 0]

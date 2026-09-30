@@ -1,0 +1,24 @@
+{
+  "finished_utc": "2026-09-29T01:12:44.776711+00:00",
+  "plan": {
+    "created_utc": "2026-09-29T01:12:44.776711+00:00",
+    "input_path": "<PACKAGE_ROOT>\\03_算法与计算\\active_physical_v2\\active_physical_new.csv",
+    "input_sha256": "24b4687a8f7421dc57a5edf5be3302388787f1e49c399a0c5afed7d7a35f31c7",
+    "input_rows": 41,
+    "unique_ids": 41,
+    "logical_view": true,
+    "source_batches": [
+      "formal_forward_v2_active_new",
+      "formal_forward_v2_active_resume14"
+    ],
+    "not_a_separate_physical_docking_run": true
+  },
+  "prepared": 41,
+  "jobs": 41,
+  "completed": 41,
+  "logical_view": true,
+  "source_batches": [
+    "<PACKAGE_ROOT>\\03_compute\\formal_forward_v2_active_new",
+    "<PACKAGE_ROOT>\\03_compute\\formal_forward_v2_active_resume14"
+  ]
+}

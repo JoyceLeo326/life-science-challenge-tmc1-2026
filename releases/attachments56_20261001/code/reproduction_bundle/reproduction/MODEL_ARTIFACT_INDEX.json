@@ -1,0 +1,24 @@
+{
+  "model": "formal SELFIES base, 20000 original samples, no finetuning",
+  "artifacts": [
+    {
+      "path": "science/R2/evidence/04_design/model_artifacts/final_selfies_17645/base_model_state.pt",
+      "bytes": 210023,
+      "sha256": "58a3de0c2a038ca602f2af14d6f23404b58ceb73ae06949d6b1442f9a9fb136c",
+      "loaded": false
+    },
+    {
+      "path": "science/R2/evidence/04_design/model_artifacts/final_selfies_17645/base_raw_generated.csv.gz",
+      "bytes": 1480667,
+      "sha256": "12bc38a228ddc6859ed94d3529e75782fc92d980538202bf39a6aef3a40dd8f0",
+      "loaded": false
+    },
+    {
+      "path": "science/R2/evidence/04_design/model_artifacts/final_selfies_17645/vocab.json",
+      "bytes": 629,
+      "sha256": "97a3216a5faa3e18850664a2cbc6015bb33bd2b8d985aa20f7a74999101aa4c3",
+      "loaded": false
+    }
+  ],
+  "large_file_release_assets_required": false
+}

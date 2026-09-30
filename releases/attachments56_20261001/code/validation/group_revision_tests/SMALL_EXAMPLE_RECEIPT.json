@@ -1,0 +1,17 @@
+{
+  "command": [
+    "python",
+    "-B",
+    "run_example.py",
+    "--train-small",
+    "--output",
+    "../group_revision_tests/example"
+  ],
+  "exit_code": 0,
+  "seconds": 31.484,
+  "source_entry_sha256": "3bac45574e9b31d5ad606c72f870c6786afa5526b31e060fcb9827931f194097",
+  "example_results_sha256": "7d79324fa534d876c63d7ca08695669274a13c435715bd6a484e9e8d489e0f93",
+  "seven_rule_results_equal_frozen": true,
+  "scope": "Actual small training from unchanged source; 7 rule-enumeration outputs remain separate from neural sampling and formal six candidates.",
+  "original_log_sha256": "0068002453220aefdcc070b2f8fc4cae30506ad0dcbe5dc74ce5b59aea00e526"
+}

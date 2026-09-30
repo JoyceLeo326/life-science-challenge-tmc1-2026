@@ -1,0 +1,98 @@
+PREP 1 10 REF_CHEMBL115 prepared
+PREP 2 10 REF_CHEMBL1201046 blocked
+PREP 3 10 REF_CHEMBL1397 prepared
+PREP 4 10 REF_CHEMBL1735 blocked
+PREP 5 10 REF_CHEMBL488093 prepared
+PREP 6 10 REF_CHEMBL554 prepared
+PREP 7 10 REF_CHEMBL623 prepared
+PREP 8 10 REF_CHEMBL945 blocked
+PREP 9 10 REF_CHEMBL449782 prepared
+PREP 10 10 REF_CHEMBL1365675 prepared
+DOCK 1 7 REF_CHEMBL115__M_PUB_ALL__e8__s20260927 completed -9.102 150.461
+DOCK 2 7 REF_CHEMBL1397__M_PUB_ALL__e8__s20260927 completed -8.71 152.614
+DOCK 3 7 REF_CHEMBL488093__M_PUB_ALL__e8__s20260927 completed -6.595 35.213
+DOCK 4 7 REF_CHEMBL554__M_PUB_ALL__e8__s20260927 completed -8.403 98.82
+DOCK 5 7 REF_CHEMBL623__M_PUB_ALL__e8__s20260927 completed -6.421 67.427
+DOCK 6 7 REF_CHEMBL1365675__M_PUB_ALL__e8__s20260927 completed -6.982 14.816
+DOCK 7 7 REF_CHEMBL449782__M_PUB_ALL__e8__s20260927 completed -7.015 191.819
+{
+  "finished_utc": "2026-09-30T11:07:53.233055+00:00",
+  "plan": {
+    "created_utc": "2026-09-30T11:00:16.822309+00:00",
+    "input_path": "reference_identity_inputs.csv",
+    "input_sha256": "53fa5980703fd8ea0c3caefae12080d9f11992d4ed1881c4a144a998ea557e0b",
+    "input_rows": 10,
+    "unique_ids": 10,
+    "receptor": "external_sources/M_PUB_ALL.pdbqt",
+    "receptor_sha256": "c024cc9efaf910ac11642cea4a4c701a0a88a335d7deb0d040320516d5a2eda1",
+    "box": {
+      "site_id": "table6_middle_15_common_union",
+      "center": [
+        2.3955,
+        -12.9641,
+        0.9145
+      ],
+      "size": [
+        37.687,
+        31.3744,
+        31.1908
+      ],
+      "volume_A3": 36880.180360534134,
+      "human_site_residues": [
+        414,
+        417,
+        418,
+        449,
+        450,
+        453,
+        454,
+        531,
+        534,
+        535,
+        539,
+        582,
+        583,
+        585,
+        604
+      ],
+      "mouse_site_residues": [
+        "S408",
+        "G411",
+        "M412",
+        "L443",
+        "L444",
+        "N447",
+        "L448",
+        "D528",
+        "T531",
+        "T532",
+        "I536",
+        "F579",
+        "N580",
+        "G582",
+        "R601"
+      ],
+      "rule": "Union of all heavy atoms of the 15 Supplementary Table 6 middle-site mapped residues in H_AF, M_AF, M_PUB_ALL chain A, after conserved-TM rigid alignment; 5 A padding per face; SAME center/size for every receptor and ligand",
+      "source_conflict": "Paper body calls mouse M407 middle, Supplementary Table 6 calls it Top. Project pre-specifies Table 6 region labels; M407 is not in this 15-residue middle set.",
+      "interpretation": "Literature-informed regional hypothesis, not a validated human binding pocket or gate state"
+    },
+    "box_file": "protocol_inputs/vina_box.txt",
+    "box_sha256": "3e4c7eb2c313edbe496068c9fb17790e7ca746567519836ed46131e5e7570d49",
+    "vina_sha256": "e0c4b2715e0c1a74f6e92d0f3be0328ac97542eafbc111e6b1efad897a73cce5",
+    "rdkit": "2025.09.6",
+    "chemical_identity_rule_version": "exchangeable_tertiary_ring_NH_and_full_potential_stereo_v3_20260929",
+    "seed": 20260927,
+    "conformer_seed": 20260927,
+    "exhaustiveness": 8,
+    "workers": 2,
+    "protocol": "one pH7.4 rule form only; ETKDGv3 10 conformers, converged MMFF94s min; Vina first pose; no biological claim"
+  },
+  "prepared": 10,
+  "prepared_success": 7,
+  "preparation_blocked": 3,
+  "jobs": 7,
+  "completed": 7,
+  "local_pre_qc_pass": 7,
+  "sum_job_seconds": 711.17,
+  "scratch_path": "external_sources/reference_panel"
+}

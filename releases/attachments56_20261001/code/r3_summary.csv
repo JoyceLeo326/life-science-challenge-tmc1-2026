@@ -1,0 +1,26 @@
+component,metric,value,denominator,scope
+chemical_alerts,primary_pains_hit_molecules,552,9098,"structural alert, not biological activity or measured toxicity"
+chemical_alerts,primary_pains_A_hit_molecules,166,9098,"structural alert, not biological activity or measured toxicity"
+chemical_alerts,primary_pains_B_hit_molecules,351,9098,"structural alert, not biological activity or measured toxicity"
+chemical_alerts,primary_pains_C_hit_molecules,42,9098,"structural alert, not biological activity or measured toxicity"
+chemical_alerts,primary_brenk_hit_molecules,3498,9098,"structural alert, not biological activity or measured toxicity"
+chemical_alerts,primary_reactive_hit_molecules,447,9098,"structural alert, not biological activity or measured toxicity"
+chemical_alerts,sensitivity_pains_hit_molecules,649,9098,"structural alert, not biological activity or measured toxicity"
+chemical_alerts,sensitivity_pains_A_hit_molecules,179,9098,"structural alert, not biological activity or measured toxicity"
+chemical_alerts,sensitivity_pains_B_hit_molecules,429,9098,"structural alert, not biological activity or measured toxicity"
+chemical_alerts,sensitivity_pains_C_hit_molecules,49,9098,"structural alert, not biological activity or measured toxicity"
+chemical_alerts,sensitivity_brenk_hit_molecules,3568,9098,"structural alert, not biological activity or measured toxicity"
+chemical_alerts,sensitivity_reactive_hit_molecules,447,9098,"structural alert, not biological activity or measured toxicity"
+chemical_alerts,union_pains_hit_molecules,653,9098,"structural alert, not biological activity or measured toxicity"
+chemical_alerts,union_pains_A_hit_molecules,182,9098,"structural alert, not biological activity or measured toxicity"
+chemical_alerts,union_pains_B_hit_molecules,430,9098,"structural alert, not biological activity or measured toxicity"
+chemical_alerts,union_pains_C_hit_molecules,49,9098,"structural alert, not biological activity or measured toxicity"
+chemical_alerts,union_brenk_hit_molecules,3626,9098,"structural alert, not biological activity or measured toxicity"
+chemical_alerts,union_reactive_hit_molecules,447,9098,"structural alert, not biological activity or measured toxicity"
+structure,static_matrix_protein_QC,23,24,protein-only technical QC; worm omitted-HET conflict retained; not cross-species affinity
+structure,all_raw_jobs_protein_QC,25,26,protein-only technical QC; worm omitted-HET conflict retained; not cross-species affinity
+structure,worm_matrix_omitted_HET_clash,8,8,protein-only technical QC; worm omitted-HET conflict retained; not cross-species affinity
+ANM,0.25A_coarse_geometry_pass,8,8,C-alpha deterministic traversal only; no MD and no full-atom docking receptor
+ANM,0.5A_coarse_geometry_pass,6,8,C-alpha deterministic traversal only; no MD and no full-atom docking receptor
+ANM,1.0A_coarse_geometry_pass,0,8,C-alpha deterministic traversal only; no MD and no full-atom docking receptor
+generation_supplement,joint_pass_selected,0,10,"frozen cached proxy top10;9 docked,1 identity blocked; original40 unchanged"

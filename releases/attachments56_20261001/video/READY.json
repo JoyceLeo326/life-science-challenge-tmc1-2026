@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "video": "靶向TMC1机械转导通道的小分子变构调节剂AI辅助筛选——用于Usher综合征1B的听力代偿保护策略代码运行录屏（区赛）.mp4",
+  "video_sha256": "c7ca6128681dfaf72e6d9cf3454f1f83cad08d2c86f7c030aceb2248d5667bb7",
+  "bytes": 8494463,
+  "seconds": 143.708333,
+  "source_zip_sha256": "9db537c002f3d87cc118bb9510b1e53db723c947db5b1803f20e3c245e8f5515",
+  "scope": "continuous authentic input-to-run-to-output recording, silent Chinese captions",
+  "visual_review": "VISUAL_ACCEPTANCE.json",
+  "execution_evidence": "RECORDING_RECEIPT.json",
+  "future_code_package_linking": "Compare recorded entry/input/output hashes before associating with a repacked code ZIP."
+}

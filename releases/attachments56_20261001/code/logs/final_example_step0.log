@@ -1,0 +1,21 @@
+{
+  "timestamp_utc": "2026-09-30T11:20:04.006155+00:00",
+  "method": "deterministic reaction/terminal-substituent enumeration",
+  "is_trained_generative_model": false,
+  "rdkit_version": "2025.09.6",
+  "input_paths_and_sha256": {
+    "$COMPUTE\\release\\reproduction_bundle\\science\\R1\\confirmation_v1\\inputs\\library\\selected_candidates.csv": "8445df639801042763fe2cc6dfedc77045c59125aec50807f7fd19239c08062c",
+    "$COMPUTE\\release\\reproduction_bundle\\science\\R1\\confirmation_v1\\analysis\\parent_setting_complete_denominators.csv": "d094ad3d1f0136f5c64bf2902c3a8a1a756b06d3894a4e819082694c7177aab8"
+  },
+  "parent_ids": [
+    "CHEMBL2103870",
+    "CHEMBL3894860"
+  ],
+  "attempted_transformations": 10,
+  "valid_unique_structures": 10,
+  "constraint_pass": 8,
+  "fixed_for_03_line": 7,
+  "sdf_success": 7,
+  "proxy_definition": "median parent Vina across independently QC-passing receptor/representation settings + 2.0*(1-Morgan radius2/2048 Tanimoto); uncalibrated neighborhood prior, NOT a measured or predicted affinity",
+  "design_status": "in silico enumerated only; no binding, function, synthesis or availability demonstrated"
+}

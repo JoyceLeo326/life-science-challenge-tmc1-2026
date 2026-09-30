@@ -1,0 +1,221 @@
+{
+
+  "compound_id": "LIB_DNDVGFIEWOHGAH",
+
+  "source_dataset": "ChEMBL",
+
+  "source_id": "CHEMBL1076497",
+
+  "source_ids": "CHEMBL1076497",
+
+  "source_url": "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1076497/",
+
+  "raw_smiles": "CN1CCN(c2ccc(-c3cnn4c(-c5cccc(NC(=O)c6cccc(C(F)(F)F)c6)c5)ccnc34)cn2)CC1",
+
+  "standardized_isomeric_smiles": "CN1CCN(c2ccc(-c3cnn4c(-c5cccc(NC(=O)c6cccc(C(F)(F)F)c6)c5)ccnc34)cn2)CC1",
+
+  "standardized_parent_smiles": "CN1CCN(c2ccc(-c3cnn4c(-c5cccc(NC(=O)c6cccc(C(F)(F)F)c6)c5)ccnc34)cn2)CC1",
+
+  "inchi_key": "DNDVGFIEWOHGAH-UHFFFAOYSA-N",
+
+  "parent_key": "DNDVGFIEWOHGAH",
+
+  "processing_status": "eligible",
+
+  "mw": "557.58",
+
+  "clogp": "5.481",
+
+  "tpsa": "78.66",
+
+  "hbd": "1",
+
+  "hba": "6",
+
+  "rotatable_bonds": "5",
+
+  "heavy_atoms": 41,
+
+  "rings": "6",
+
+  "qed": "0.3084",
+
+  "formal_charge": "0",
+
+  "source_record_count": "1",
+
+  "stereo_form_count": "1",
+
+  "historical_label_overlap": "False",
+
+  "prediction_status": "predicted",
+
+  "docking_eligibility": "eligible",
+
+  "source_stereo_unspecified": "False",
+
+  "source_unspecified_potential_stereo": "[]",
+
+  "rule_variant_count": 1,
+
+  "rule_smiles": "C[NH+]1CCN(c2ccc(-c3cnn4c(-c5cccc(NC(=O)c6cccc(C(F)(F)F)c6)c5)ccnc34)cn2)CC1",
+
+  "rule_inchikey": "DNDVGFIEWOHGAH-UHFFFAOYSA-O",
+
+  "rule_stereo_unspecified": "False",
+
+  "rule_unspecified_potential_stereo": "[]",
+
+  "rule_exchangeable_N_indices": "[1]",
+
+  "rule_stable_stereo_unspecified": "False",
+
+  "exchangeable_N_geometry_approximation": false,
+
+  "murcko_scaffold": "O=C(Nc1cccc(-c2ccnc3c(-c4ccc(N5CC[NH2+]CC5)nc4)cnn23)c1)c1ccccc1",
+
+  "descriptor_pred_kcal_mol": "-8.384055137634277",
+
+  "ai_pred_kcal_mol": "-8.374531745910645",
+
+  "ai_tree_sd_kcal_mol": "0.4907935857772827",
+
+  "max_train_tanimoto": "0.3333333333333333",
+
+  "ood_flag_max_tanimoto_below_0p3": "False",
+
+  "selected_arms": "AI_initial",
+
+  "preparation_started_utc": "2026-09-28T20:43:58.888591+00:00",
+
+  "input_isomeric_smiles": "CN1CCN(c2ccc(-c3cnn4c(-c5cccc(NC(=O)c6cccc(C(F)(F)F)c6)c5)ccnc34)cn2)CC1",
+
+  "input_inchikey": "DNDVGFIEWOHGAH-UHFFFAOYSA-N",
+
+  "state_inchikey": "DNDVGFIEWOHGAH-UHFFFAOYSA-O",
+
+  "rule_unspecified_stereocenters": "[]",
+
+  "exchangeable_protonated_N_indices": "[1]",
+
+  "chemical_identity_rule_version": "exchangeable_tertiary_ring_NH_and_full_potential_stereo_v3_20260929",
+
+  "conformers_generated": 10,
+
+  "conformers_converged": 10,
+
+  "selected_mmff_energy_kcal_mol": 191.14447451247014,
+
+  "selected_conformer": 4,
+
+  "sdf_graph_isomeric_smiles": "C[NH+]1CCN(c2ccc(-c3cnn4c(-c5cccc(NC(=O)c6cccc(C(F)(F)F)c6)c5)ccnc34)cn2)CC1",
+
+  "sdf_graph_identity_equal": true,
+
+  "sdf_graph_identity_stable_equal": true,
+
+  "sdf_3d_isomeric_smiles": "C[NH+]1CCN(c2ccc(-c3cnn4c(-c5cccc(NC(=O)c6cccc(C(F)(F)F)c6)c5)ccnc34)cn2)CC1",
+
+  "sdf_3d_stereo_equal": true,
+
+  "sdf_3d_stable_identity_equal": true,
+
+  "preparation_status": "prepared",
+
+  "sdf_file": "<PACKAGE_ROOT>\\03_compute\\formal_forward_v2_resume124\\ligands\\LIB_DNDVGFIEWOHGAH.sdf",
+
+  "sdf_sha256": "68c36d04d335f4bc901849087008cb6b65fc98f3fdb7f44b56d5e6004cc72abb",
+
+  "ligand_pdbqt": "<PACKAGE_ROOT>\\03_compute\\formal_forward_v2_resume124\\ligands\\LIB_DNDVGFIEWOHGAH.pdbqt",
+
+  "ligand_sha256": "cc3446717e231aacec53a5063e676b2803f43e83544cd381c09325d4082ab795",
+
+  "preparation_elapsed_seconds": 1.354,
+
+  "run_id": "LIB_DNDVGFIEWOHGAH__M_PUB_ALL__e8__s20260927",
+
+  "receptor_id": "M_PUB_ALL",
+
+  "protein_context": "mouse TMC1-CIB2-TMIE six-protein complex",
+
+  "lipids_present": false,
+
+  "conformation_evidence": "author computational model, static",
+
+  "binding_hypothesis": "literature-informed middle-region pose",
+
+  "functional_direction": "unknown",
+
+  "disease_fit": "unverified",
+
+  "scoring_engine": "AutoDock Vina 1.2.7",
+
+  "score_kind": "Vina docking score, not MMGBSA",
+
+  "seed": 20260927,
+
+  "exhaustiveness": 8,
+
+  "num_modes": 9,
+
+  "energy_range": 3.0,
+
+  "cpu_per_job": 2,
+
+  "receptor_file": "<PACKAGE_ROOT>\\01_计算筛选\\screen_v2\\inputs\\receptors\\M_PUB_ALL.pdbqt",
+
+  "receptor_sha256": "c024cc9efaf910ac11642cea4a4c701a0a88a335d7deb0d040320516d5a2eda1",
+
+  "box_file": "<PACKAGE_ROOT>\\01_计算筛选\\coarse_v1\\config\\vina_box.txt",
+
+  "box_sha256": "3e4c7eb2c313edbe496068c9fb17790e7ca746567519836ed46131e5e7570d49",
+
+  "box_id": "table6_middle_15_common_union",
+
+  "box_center_A": "[2.3955, -12.9641, 0.9145]",
+
+  "box_size_A": "[37.687, 31.3744, 31.1908]",
+
+  "pose_file": "<PACKAGE_ROOT>\\03_compute\\formal_forward_v2_resume124\\poses\\LIB_DNDVGFIEWOHGAH__M_PUB_ALL__e8__s20260927.pdbqt",
+
+  "log_file": "<PACKAGE_ROOT>\\03_compute\\formal_forward_v2_resume124\\logs\\LIB_DNDVGFIEWOHGAH__M_PUB_ALL__e8__s20260927.log",
+
+  "export_log_file": "<PACKAGE_ROOT>\\03_compute\\formal_forward_v2_resume124\\logs\\LIB_DNDVGFIEWOHGAH__M_PUB_ALL__e8__s20260927_export.log",
+
+  "independent_qc_status": "pending",
+
+  "command": "[\"<PACKAGE_ROOT>\", \"--receptor\", \"<PACKAGE_ROOT>\", \"--ligand\", \"<PACKAGE_ROOT>\", \"--config\", \"<PACKAGE_ROOT>\", \"--scoring\", \"vina\", \"--exhaustiveness\", \"8\", \"--num_modes\", \"9\", \"--energy_range\", \"3.0\", \"--cpu\", \"2\", \"--seed\", \"20260927\", \"--out\", \"<PACKAGE_ROOT>\"]",
+
+  "started_utc": "2026-09-29T00:21:11.281834+00:00",
+
+  "returncode": 0,
+
+  "status": "completed",
+
+  "score_kcal_mol": -9.934,
+
+  "pose_count": 9,
+
+  "pose_sha256": "26c3a373e2f121619567b4dc19fa129ffeff7f5aa9e8103945976443e42854ae",
+
+  "pose_heavy_atoms": 41,
+
+  "min_receptor_heavy_distance_A": 2.8995182358453953,
+
+  "severe_heavy_atoms_below_1p5A": 0,
+
+  "min_box_margin_A": 7.1579999999999995,
+
+  "sdf_export_returncode": 0,
+
+  "exported_sdf_file": "<PACKAGE_ROOT>\\03_compute\\formal_forward_v2_resume124\\poses\\LIB_DNDVGFIEWOHGAH__M_PUB_ALL__e8__s20260927.sdf",
+
+  "exported_sdf_sha256": "771bfe3325c35b173a76db16d6a926e803db1282640c1c9b2cf7016dae732011",
+
+  "local_pre_qc_pass": true,
+
+  "elapsed_seconds": 61.859,
+
+  "finished_utc": "2026-09-29T00:22:13.140672+00:00"
+
+}

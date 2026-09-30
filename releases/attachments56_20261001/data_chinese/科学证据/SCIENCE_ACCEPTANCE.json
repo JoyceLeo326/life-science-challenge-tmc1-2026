@@ -1,0 +1,153 @@
+{
+  "utc": "2026-09-30T18:58:53.252504+00:00",
+  "checks": [
+    {
+      "check": "SwissADME11_exact_InChIKey_identity",
+      "passed": true,
+      "detail": 11
+    },
+    {
+      "check": "SwissADME_no_duplicate_missing",
+      "passed": true,
+      "detail": 11
+    },
+    {
+      "check": "A2_pair_count",
+      "passed": true,
+      "detail": 1458
+    },
+    {
+      "check": "A2_unique_ChEMBL_ID_count",
+      "passed": true,
+      "detail": 847
+    },
+    {
+      "check": "A2_pharmacology_actual_records",
+      "passed": true,
+      "detail": 622
+    },
+    {
+      "check": "A2_source_identity",
+      "passed": true,
+      "detail": 6
+    },
+    {
+      "check": "A2_all_40_scores",
+      "passed": true,
+      "detail": "actual API values"
+    },
+    {
+      "check": "A2_CHEMBL1079964_counts",
+      "passed": true,
+      "detail": "separate60 count checked at retrieval"
+    },
+    {
+      "check": "A2_CHEMBL1080362_counts",
+      "passed": true,
+      "detail": "separate60 count checked at retrieval"
+    },
+    {
+      "check": "A2_CHEMBL1081740_counts",
+      "passed": true,
+      "detail": "separate60 count checked at retrieval"
+    },
+    {
+      "check": "A2_CHEMBL1080669_counts",
+      "passed": true,
+      "detail": "separate60 count checked at retrieval"
+    },
+    {
+      "check": "A2_CHEMBL1076497_counts",
+      "passed": true,
+      "detail": "separate60 count checked at retrieval"
+    },
+    {
+      "check": "A2_CHEMBL1080205_counts",
+      "passed": true,
+      "detail": "separate60 count checked at retrieval"
+    },
+    {
+      "check": "LIB_YWDIXVZCRMMQQY_SA_recompute",
+      "passed": true,
+      "detail": "RDKit 2025.09.6"
+    },
+    {
+      "check": "LIB_MYAFDHCCQBIZLC_SA_recompute",
+      "passed": true,
+      "detail": "RDKit 2025.09.6"
+    },
+    {
+      "check": "LIB_ZNDXPRCORYDEAP_SA_recompute",
+      "passed": true,
+      "detail": "RDKit 2025.09.6"
+    },
+    {
+      "check": "LIB_FCRHJSNRFAAYQD_SA_recompute",
+      "passed": true,
+      "detail": "RDKit 2025.09.6"
+    },
+    {
+      "check": "LIB_DNDVGFIEWOHGAH_SA_recompute",
+      "passed": true,
+      "detail": "RDKit 2025.09.6"
+    },
+    {
+      "check": "LIB_ZVHBDYFMHCQADD_SA_recompute",
+      "passed": true,
+      "detail": "RDKit 2025.09.6"
+    },
+    {
+      "check": "LIB_CHEMBL2103870_SA_recompute",
+      "passed": true,
+      "detail": "RDKit 2025.09.6"
+    },
+    {
+      "check": "LIB_CHEMBL3894860_SA_recompute",
+      "passed": true,
+      "detail": "RDKit 2025.09.6"
+    },
+    {
+      "check": "DES_JMWNSKZCTCNWSL_SA_recompute",
+      "passed": true,
+      "detail": "RDKit 2025.09.6"
+    },
+    {
+      "check": "GEN_LDAGBLZIWYMUFJ_SA_recompute",
+      "passed": true,
+      "detail": "RDKit 2025.09.6"
+    },
+    {
+      "check": "GEN_YUOYQOBVJWRGGY_SA_recompute",
+      "passed": true,
+      "detail": "RDKit 2025.09.6"
+    },
+    {
+      "check": "ADMET_AI11x41_finite",
+      "passed": true,
+      "detail": 451
+    },
+    {
+      "check": "ADMET_AI_range_exceptions_retained",
+      "passed": true,
+      "detail": 10
+    },
+    {
+      "check": "A1_no_false68_denominator",
+      "passed": true,
+      "detail": "68 not claimed completed"
+    },
+    {
+      "check": "A1_limited_training12_overlap",
+      "passed": true,
+      "detail": 0
+    }
+  ],
+  "passed": 28,
+  "failed": 0,
+  "scientific_limitations": [
+    "68-member source not established",
+    "not team wet-lab measurements",
+    "no clinical approval claim for six",
+    "ADMET-AI10 invalid-range predictions retained"
+  ]
+}

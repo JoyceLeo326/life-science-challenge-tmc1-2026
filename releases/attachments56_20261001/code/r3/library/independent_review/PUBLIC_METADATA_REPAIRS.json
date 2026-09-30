@@ -1,0 +1,12 @@
+{
+  "at_utc": "2026-09-30T15:06:34.338541+00:00",
+  "changed_public_paths": [
+    "library/CURRENT_MANIFEST.json",
+    "provenance/legacy_acquisition_manifest.json",
+    "provenance/DATA_SOURCES.md",
+    "provenance/REPLAY_LIBRARY.md"
+  ],
+  "source_map_updated": true,
+  "scientific_data_changed": false,
+  "old_historical_audit_retained_and_labelled": true
+}

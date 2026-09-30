@@ -1,0 +1,4 @@
+﻿identity_gate_excluded,identity_safe_broad_pool,identity_safe_fixed_diverse,identity_safe_property_alert_pass,method,old_property_alert_pass,similarity_ge_0.15,similarity_ge_0.18,similarity_ge_0.2,similarity_ge_0.25
+162,,,248,SMILES char GRU,410,149,53,25,4
+1278,93,82,214,SELFIES GRU base,1492,93,23,9,
+884,46,43,102,SELFIES GRU focused,986,46,13,7,1

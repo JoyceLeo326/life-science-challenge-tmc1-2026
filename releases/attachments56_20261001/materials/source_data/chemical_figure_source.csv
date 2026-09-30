@@ -1,0 +1,16 @@
+﻿panel,representation,category,molecules,denominator,percent
+A,primary,pains,552,9098,6.067268
+A,primary,brenk,3498,9098,38.448011
+A,primary,reactive,447,9098,4.913168
+A,sensitivity,pains,649,9098,7.133436
+A,sensitivity,brenk,3568,9098,39.21741
+A,sensitivity,reactive,447,9098,4.913168
+A,union,pains,653,9098,7.177402
+A,union,brenk,3626,9098,39.854913
+A,union,reactive,447,9098,4.913168
+B,union,无上述结构提示,5338,9098,58.672236
+B,union,BRENK,2719,9098,29.885689
+B,union,BRENK + 含反应性子集,388,9098,4.264674
+B,union,PAINS,134,9098,1.472851
+B,union,PAINS + BRENK,460,9098,5.056056
+B,union,PAINS + BRENK + 含反应性子集,59,9098,0.648494

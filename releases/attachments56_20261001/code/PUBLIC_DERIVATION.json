@@ -1,0 +1,81 @@
+{
+  "source_official_archive_sha256": "55100dd627da724f0dda6b1135ef26c03511bd29a7223b9d1ce4dae13289e7d1",
+  "original_archive_unchanged": true,
+  "changes": [
+    {
+      "path": "code/logs/representative_original_docking.log",
+      "source_sha256": "607c8897357a7e81f0aa6d1b6e5bf775378e4fcde53cac48bac9a598b202baf9",
+      "public_sha256": "bd97c3a006e94af5023b33a95802a8c5f80434095c37fc4f4fafe27fab8cf7a4",
+      "change": "Recorded receptor path only; scientific log content preserved."
+    },
+    {
+      "path": "code/logs/supplement_top10_docking.log",
+      "source_sha256": "8aaeb6d2dbbbbf920166d4ef9156fa98601c656838a053ee4b7024f16396ae37",
+      "public_sha256": "6855d15ffabdad14989ca48016e770ad43b8416e3a1c8a7c360b337a2ab2443a",
+      "change": "Recorded receptor path only; scientific log content preserved."
+    },
+    {
+      "path": "code/validation/ACTUAL_REPLAY_RECEIPTS.json",
+      "source_sha256": "6105e137904ecc5e7ec196b0dfeff156d783308b086ad6bf3dff55f22392719a",
+      "public_sha256": "a7d104cf5c7815d39a7978e9155d754cabadbe2e02843a33fdd07bb54b6dc512",
+      "change": "Three recorded historical command arguments replaced by portable external-input label; execution records preserved."
+    },
+    {
+      "path": "code/r3/anm/REPRODUCE.md",
+      "source_sha256": "f5168c4b47be2bf2f275ac418178bac39119d863e402b775710fa1154c064420",
+      "public_sha256": "e7df477d4c7931ebb2f8d12975f0bc792f394a0af283e53c96db6bb407f62341",
+      "change": "Example output directories changed to relative paths."
+    },
+    {
+      "path": "code/README.md",
+      "source_sha256": "bff3cc3415b844c1ae0c203cacc7644f3f299f20594ace627343e9c926736aa3",
+      "public_sha256": "9876a71d54a63a8d64d008b6b4157e374c94a7e1a6b11df2e681acfa23abafe2",
+      "change": "Formal title, duplicate paragraph removal, distinguish original environment receipt from new public migration tests; no scientific values changed. Isolated environment install and short-chain replay now actually passed."
+    },
+    {
+      "path": "code/reference_restore/README.md",
+      "source_sha256": "5b1aa6c40482b3a95f6bef3fa0215f02b2cd4f2f9172ebf9ba6a9687a7639dc7",
+      "public_sha256": "ccd9b28aff2632c28b330ff56b4c263e0d263f47076ebe9a0b6350e6418d3ef4",
+      "change": "Document complete four-input restoration; preserve original frozen method and earlier receipts below."
+    },
+    {
+      "path": "code/r3/anm/MANIFEST.json",
+      "source_sha256": "5e77314bf40f01a41453691918e673fbbf990eb9a560a4eb518c45bf56712acb",
+      "public_sha256": "2d6eaa127d6f4cb95ee40ec34818594b6cd6b7645c64c73f8433b6722612acb9",
+      "change": "ANM component manifest now hashes the disclosed relative-path README; all numeric and code entries unchanged."
+    },
+    {
+      "path": "code/r3/anm/SHA256SUMS.txt",
+      "source_sha256": "9c7571838c4c60e8949e4066f6842c40dcfe32230a501f893e9ce26cc7aa353d",
+      "public_sha256": "4038230184cf198a828b48cecd1a47da5ed5bd076222f4ef97bcc90ed3b025a3",
+      "change": "ANM component checksum list consistent with its updated manifest."
+    },
+    {
+      "path": "code/INTEGRATED_SOURCE_SNAPSHOT_INDEX.json",
+      "source_sha256": "0a9276403e2e2da299abff6ee3f0c95d9469a26209893224cbbc756b18985dfa",
+      "public_sha256": "e148ac748f13b988bef64caeb0d8ceff14d370f2c4d6b68bce2ec8cb56552e41",
+      "change": "Update integrated hashes of six disclosed public-derived metadata documents; preserve every original source/copied hash and all verifier checks."
+    }
+  ],
+  "coordinate_redistribution": "Author receptor coordinates remain excluded; use reference_restore and assemble_candidate_complexes.py with lawful local inputs.",
+  "added_files": [
+    {
+      "path": "code/reference_restore/restore_human_af.py",
+      "sha256": "15f00e73115112f067f5008f3a3ac61d7a2c4a1dee47a35667f1e529b0945cbf",
+      "purpose": "Restore missing two human external inputs by the original scientific method and exact historical SHA checks."
+    }
+  ],
+  "ledger_repair": {
+    "initial_public_make_results": "failed on original integrated hash of r3/anm/REPRODUCE.md",
+    "repair": "Updated public integrated hashes and matching ANM component manifests; verifier logic untouched.",
+    "entries": [
+      "logs/representative_original_docking.log",
+      "logs/supplement_top10_docking.log",
+      "reference_restore/README.md",
+      "r3/anm/MANIFEST.json",
+      "r3/anm/REPRODUCE.md",
+      "r3/anm/SHA256SUMS.txt"
+    ]
+  },
+  "document_scope": "Historical derivation of the prior accepted public snapshot (ZIP 9db537c002f3d87cc118bb9510b1e53db723c947db5b1803f20e3c245e8f5515); current additional group-request changes are described in GROUP_REVISION_DERIVATION.json."
+}

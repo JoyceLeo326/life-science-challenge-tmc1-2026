@@ -1,0 +1,17 @@
+﻿compound,membership_source,group,source_doi,membership_name_confirmed,full_chemical_identity_claim,human_TMC1_positive_binding_label
+UoS-7692,SupplementaryTable1,13_pharmacophore_training,10.1038/s42003-025-07943-x,True,not_inferred_from_name,False
+UoS-3607,SupplementaryTable1,13_pharmacophore_training,10.1038/s42003-025-07943-x,True,not_inferred_from_name,False
+UoS-3606,SupplementaryTable1,13_pharmacophore_training,10.1038/s42003-025-07943-x,True,not_inferred_from_name,False
+UoS-5247,SupplementaryTable1,13_pharmacophore_training,10.1038/s42003-025-07943-x,True,not_inferred_from_name,False
+UoS-962,SupplementaryTable1,13_pharmacophore_training,10.1038/s42003-025-07943-x,True,not_inferred_from_name,False
+Proto-1,SupplementaryTable1,13_pharmacophore_training,10.1038/s42003-025-07943-x,True,not_inferred_from_name,False
+E6-berbamine,SupplementaryTable1,13_pharmacophore_training,10.1038/s42003-025-07943-x,True,not_inferred_from_name,False
+hexamethyleneamiloride,SupplementaryTable1,13_pharmacophore_training,10.1038/s42003-025-07943-x,True,not_inferred_from_name,False
+amsacrine,SupplementaryTable1,13_pharmacophore_training,10.1038/s42003-025-07943-x,True,not_inferred_from_name,False
+phenoxybenzamine,SupplementaryTable1,13_pharmacophore_training,10.1038/s42003-025-07943-x,True,not_inferred_from_name,False
+carvedilol derivative13,SupplementaryTable1,13_pharmacophore_training,10.1038/s42003-025-07943-x,True,not_inferred_from_name,False
+ORC-13661,SupplementaryTable1,13_pharmacophore_training,10.1038/s42003-025-07943-x,True,not_inferred_from_name,False
+FM1-43,SupplementaryTable1,13_pharmacophore_training,10.1038/s42003-025-07943-x,True,not_inferred_from_name,False
+benzamil,article_results_added_potent_MET_blockers,3_extra_docking_references,10.1038/s42003-025-07943-x,True,not_inferred_from_name,False
+tubocurarine,article_results_added_potent_MET_blockers,3_extra_docking_references,10.1038/s42003-025-07943-x,True,not_inferred_from_name,False
+DHS,article_results_added_potent_MET_blockers,3_extra_docking_references,10.1038/s42003-025-07943-x,True,not_inferred_from_name,False

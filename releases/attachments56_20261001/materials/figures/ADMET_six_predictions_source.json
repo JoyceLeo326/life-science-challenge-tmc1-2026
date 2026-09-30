@@ -1,0 +1,6 @@
+{
+  "figure": "ADMET_six_predictions.png",
+  "source": "source_data/science_supplement/A3_ADMET_SA/multiparameter_druglikeness11.csv",
+  "source_sha256": "e6e88ed8018747602b22059b8e346e00dc4b1633271984a3c3ae54a8807d3e07",
+  "evidence": "calculation_only_not_experiment"
+}

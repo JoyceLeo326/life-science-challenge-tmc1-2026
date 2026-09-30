@@ -1,0 +1,2474 @@
+{
+  "passed": 617,
+  "failed": 0,
+  "checks": [
+    {
+      "check": "SHA256:A1_reference_sources/A1_README.md",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A1_reference_sources/author_source_inventory.json",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A1_reference_sources/author_training_unique12.csv",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A1_reference_sources/author_tree.tsv",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A1_reference_sources/formal6_author_training12_overlap.csv",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A1_reference_sources/paper_13_plus_3_author_source_map.csv",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A1_reference_sources/paper_dye_uptake12_plus_amitraz.csv",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A1_reference_sources/QUERY_LEDGER.json",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A1_reference_sources/reference_source_claim_audit.csv",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A1_reference_sources/REFERENCE_SOURCE_CLARIFICATION.md",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A1_reference_sources/ZINC_primary_identity_verification.csv",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A2_chembl_neighbors/A2_README.md",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A2_chembl_neighbors/candidate_neighbor_annotations.csv",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A2_chembl_neighbors/candidate_neighbor_ge0p6.csv",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A2_chembl_neighbors/candidate_similarity_identity_audit.csv",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A2_chembl_neighbors/candidate_similarity_summary.csv",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A2_chembl_neighbors/CHEMBL_FETCH_COMPLETE.json",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A2_chembl_neighbors/chembl_raw/CHEMBL1076497/molecule.json",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A2_chembl_neighbors/chembl_raw/CHEMBL1076497/molecule.receipt.json",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A2_chembl_neighbors/chembl_raw/CHEMBL1076497/similarity40_page000.json",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A2_chembl_neighbors/chembl_raw/CHEMBL1076497/similarity40_page000.receipt.json",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A2_chembl_neighbors/chembl_raw/CHEMBL1076497/similarity60_count.json",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A2_chembl_neighbors/chembl_raw/CHEMBL1076497/similarity60_count.receipt.json",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A2_chembl_neighbors/chembl_raw/CHEMBL1079964/molecule.json",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A2_chembl_neighbors/chembl_raw/CHEMBL1079964/molecule.receipt.json",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A2_chembl_neighbors/chembl_raw/CHEMBL1079964/similarity40_page000.json",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A2_chembl_neighbors/chembl_raw/CHEMBL1079964/similarity40_page000.receipt.json",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A2_chembl_neighbors/chembl_raw/CHEMBL1079964/similarity60_count.json",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A2_chembl_neighbors/chembl_raw/CHEMBL1079964/similarity60_count.receipt.json",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A2_chembl_neighbors/chembl_raw/CHEMBL1080205/molecule.json",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A2_chembl_neighbors/chembl_raw/CHEMBL1080205/molecule.receipt.json",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A2_chembl_neighbors/chembl_raw/CHEMBL1080205/similarity40_page000.json",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A2_chembl_neighbors/chembl_raw/CHEMBL1080205/similarity40_page000.receipt.json",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A2_chembl_neighbors/chembl_raw/CHEMBL1080205/similarity60_count.json",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A2_chembl_neighbors/chembl_raw/CHEMBL1080205/similarity60_count.receipt.json",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A2_chembl_neighbors/chembl_raw/CHEMBL1080362/molecule.json",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A2_chembl_neighbors/chembl_raw/CHEMBL1080362/molecule.receipt.json",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A2_chembl_neighbors/chembl_raw/CHEMBL1080362/similarity40_page000.json",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A2_chembl_neighbors/chembl_raw/CHEMBL1080362/similarity40_page000.receipt.json",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A2_chembl_neighbors/chembl_raw/CHEMBL1080362/similarity60_count.json",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A2_chembl_neighbors/chembl_raw/CHEMBL1080362/similarity60_count.receipt.json",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A2_chembl_neighbors/chembl_raw/CHEMBL1080669/molecule.json",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A2_chembl_neighbors/chembl_raw/CHEMBL1080669/molecule.receipt.json",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A2_chembl_neighbors/chembl_raw/CHEMBL1080669/similarity40_page000.json",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A2_chembl_neighbors/chembl_raw/CHEMBL1080669/similarity40_page000.receipt.json",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A2_chembl_neighbors/chembl_raw/CHEMBL1080669/similarity60_count.json",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A2_chembl_neighbors/chembl_raw/CHEMBL1080669/similarity60_count.receipt.json",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A2_chembl_neighbors/chembl_raw/CHEMBL1081740/molecule.json",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A2_chembl_neighbors/chembl_raw/CHEMBL1081740/molecule.receipt.json",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A2_chembl_neighbors/chembl_raw/CHEMBL1081740/similarity40_page000.json",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A2_chembl_neighbors/chembl_raw/CHEMBL1081740/similarity40_page000.receipt.json",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A2_chembl_neighbors/chembl_raw/CHEMBL1081740/similarity60_count.json",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A2_chembl_neighbors/chembl_raw/CHEMBL1081740/similarity60_count.receipt.json",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A2_chembl_neighbors/formal6_original_assays.csv",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A2_chembl_neighbors/formal_six_input.csv",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A2_chembl_neighbors/pharmacology_actual_activity_records.csv",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A2_chembl_neighbors/PHARMACOLOGY_FETCH_COMPLETE.json",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A2_chembl_neighbors/pharmacology_molecule_summary.csv",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A2_chembl_neighbors/PHARMACOLOGY_QUERY_PLAN.json",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A2_chembl_neighbors/pharmacology_raw/activity_batch00_page000.json",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A2_chembl_neighbors/pharmacology_raw/activity_batch00_page000.receipt.json",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A2_chembl_neighbors/pharmacology_raw/assay_batch00_page000.json",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A2_chembl_neighbors/pharmacology_raw/assay_batch00_page000.receipt.json",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A2_chembl_neighbors/pharmacology_raw/assay_batch01_page000.json",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A2_chembl_neighbors/pharmacology_raw/assay_batch01_page000.receipt.json",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A2_chembl_neighbors/pharmacology_raw/assay_batch02_page000.json",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A2_chembl_neighbors/pharmacology_raw/assay_batch02_page000.receipt.json",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A2_chembl_neighbors/pharmacology_raw/assay_batch03_page000.json",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A2_chembl_neighbors/pharmacology_raw/assay_batch03_page000.receipt.json",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A2_chembl_neighbors/pharmacology_raw/assay_batch04_page000.json",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A2_chembl_neighbors/pharmacology_raw/assay_batch04_page000.receipt.json",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A2_chembl_neighbors/pharmacology_raw/assay_batch05_page000.json",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A2_chembl_neighbors/pharmacology_raw/assay_batch05_page000.receipt.json",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A2_chembl_neighbors/pharmacology_raw/assay_batch06_page000.json",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A2_chembl_neighbors/pharmacology_raw/assay_batch06_page000.receipt.json",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A2_chembl_neighbors/pharmacology_raw/assay_batch07_page000.json",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A2_chembl_neighbors/pharmacology_raw/assay_batch07_page000.receipt.json",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A2_chembl_neighbors/pharmacology_raw/assay_batch08_page000.json",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A2_chembl_neighbors/pharmacology_raw/assay_batch08_page000.receipt.json",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A2_chembl_neighbors/pharmacology_raw/assay_batch09_page000.json",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A2_chembl_neighbors/pharmacology_raw/assay_batch09_page000.receipt.json",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A2_chembl_neighbors/pharmacology_raw/assay_batch10_page000.json",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A2_chembl_neighbors/pharmacology_raw/assay_batch10_page000.receipt.json",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A2_chembl_neighbors/pharmacology_raw/assay_batch11_page000.json",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A2_chembl_neighbors/pharmacology_raw/assay_batch11_page000.receipt.json",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A2_chembl_neighbors/pharmacology_raw/assay_batch12_page000.json",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A2_chembl_neighbors/pharmacology_raw/assay_batch12_page000.receipt.json",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A2_chembl_neighbors/pharmacology_raw/document_batch00_page000.json",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A2_chembl_neighbors/pharmacology_raw/document_batch00_page000.receipt.json",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A2_chembl_neighbors/pharmacology_raw/document_batch01_page000.json",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A2_chembl_neighbors/pharmacology_raw/document_batch01_page000.receipt.json",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A2_chembl_neighbors/pharmacology_raw/mechanism_batch00_page000.json",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A2_chembl_neighbors/pharmacology_raw/mechanism_batch00_page000.receipt.json",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A2_chembl_neighbors/pharmacology_representative_shortlist.csv",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A2_chembl_neighbors/representative_neighbor_pharmacology.csv",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A3_ADMET_SA/A3_README.md",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A3_ADMET_SA/ADMET_AI_v2_11_full_predictions.csv",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A3_ADMET_SA/ADMET_AI_v2_endpoint_metadata.csv",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A3_ADMET_SA/ADMET_AI_v2_inference_manifest.json",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A3_ADMET_SA/ADMET_AI_v2_MIT_LICENSE.txt",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A3_ADMET_SA/ADMET_AI_v2_out_of_range.csv",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A3_ADMET_SA/ADMET_AI_v2_range_qc_all.csv",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A3_ADMET_SA/ADMET_CPU_REPLAY.json",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A3_ADMET_SA/ADMET_SA_panel11.csv",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A3_ADMET_SA/multiparameter_druglikeness11.csv",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A3_ADMET_SA/range_qc11.py",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A3_ADMET_SA/requirements_admet_ai_exploratory.txt",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A3_ADMET_SA/run_admet_ai11.py",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A3_ADMET_SA/SA_physchem_actual11.csv",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A3_ADMET_SA/SERVICE_RECEIPT.json",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A3_ADMET_SA/swissadme_actual.csv",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A3_ADMET_SA/SwissADME_combined11.csv",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A3_ADMET_SA/SwissADME_identity_acceptance.csv",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A3_ADMET_SA/swissadme_input11.smi",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A3_ADMET_SA/swissadme_remaining6.smi",
+      "pass": true
+    },
+    {
+      "check": "SHA256:A3_ADMET_SA/swissadme_remaining6_actual.csv",
+      "pass": true
+    },
+    {
+      "check": "SHA256:OFFLINE_REBUILD_ACTUAL.json",
+      "pass": true
+    },
+    {
+      "check": "SHA256:README.md",
+      "pass": true
+    },
+    {
+      "check": "SHA256:rebuild_science_tables.py",
+      "pass": true
+    },
+    {
+      "check": "SHA256:REPRODUCE.md",
+      "pass": true
+    },
+    {
+      "check": "SHA256:requirements_offline_audit.txt",
+      "pass": true
+    },
+    {
+      "check": "SHA256:SCIENCE_ACCEPTANCE.csv",
+      "pass": true
+    },
+    {
+      "check": "SHA256:SCIENCE_ACCEPTANCE.json",
+      "pass": true
+    },
+    {
+      "check": "SHA256:SOURCE_INDEX.json",
+      "pass": true
+    },
+    {
+      "check": "SHA256:verify_science_supplement.py",
+      "pass": true
+    },
+    {
+      "check": "11 unique SwissADME IDs",
+      "pass": true
+    },
+    {
+      "check": "SwissADME identity LIB_YWDIXVZCRMMQQY",
+      "pass": true
+    },
+    {
+      "check": "SA actual recompute LIB_YWDIXVZCRMMQQY",
+      "pass": true
+    },
+    {
+      "check": "SwissADME identity LIB_MYAFDHCCQBIZLC",
+      "pass": true
+    },
+    {
+      "check": "SA actual recompute LIB_MYAFDHCCQBIZLC",
+      "pass": true
+    },
+    {
+      "check": "SwissADME identity LIB_ZNDXPRCORYDEAP",
+      "pass": true
+    },
+    {
+      "check": "SA actual recompute LIB_ZNDXPRCORYDEAP",
+      "pass": true
+    },
+    {
+      "check": "SwissADME identity LIB_FCRHJSNRFAAYQD",
+      "pass": true
+    },
+    {
+      "check": "SA actual recompute LIB_FCRHJSNRFAAYQD",
+      "pass": true
+    },
+    {
+      "check": "SwissADME identity LIB_DNDVGFIEWOHGAH",
+      "pass": true
+    },
+    {
+      "check": "SA actual recompute LIB_DNDVGFIEWOHGAH",
+      "pass": true
+    },
+    {
+      "check": "SwissADME identity LIB_ZVHBDYFMHCQADD",
+      "pass": true
+    },
+    {
+      "check": "SA actual recompute LIB_ZVHBDYFMHCQADD",
+      "pass": true
+    },
+    {
+      "check": "SwissADME identity LIB_CHEMBL2103870",
+      "pass": true
+    },
+    {
+      "check": "SA actual recompute LIB_CHEMBL2103870",
+      "pass": true
+    },
+    {
+      "check": "SwissADME identity LIB_CHEMBL3894860",
+      "pass": true
+    },
+    {
+      "check": "SA actual recompute LIB_CHEMBL3894860",
+      "pass": true
+    },
+    {
+      "check": "SwissADME identity DES_JMWNSKZCTCNWSL",
+      "pass": true
+    },
+    {
+      "check": "SA actual recompute DES_JMWNSKZCTCNWSL",
+      "pass": true
+    },
+    {
+      "check": "SwissADME identity GEN_LDAGBLZIWYMUFJ",
+      "pass": true
+    },
+    {
+      "check": "SA actual recompute GEN_LDAGBLZIWYMUFJ",
+      "pass": true
+    },
+    {
+      "check": "SwissADME identity GEN_YUOYQOBVJWRGGY",
+      "pass": true
+    },
+    {
+      "check": "SA actual recompute GEN_YUOYQOBVJWRGGY",
+      "pass": true
+    },
+    {
+      "check": "1458 pairs",
+      "pass": true
+    },
+    {
+      "check": "847 unique full keys",
+      "pass": true
+    },
+    {
+      "check": "40pct count CHEMBL1079964",
+      "pass": true
+    },
+    {
+      "check": "60pct count CHEMBL1079964",
+      "pass": true
+    },
+    {
+      "check": "40pct count CHEMBL1080362",
+      "pass": true
+    },
+    {
+      "check": "60pct count CHEMBL1080362",
+      "pass": true
+    },
+    {
+      "check": "40pct count CHEMBL1081740",
+      "pass": true
+    },
+    {
+      "check": "60pct count CHEMBL1081740",
+      "pass": true
+    },
+    {
+      "check": "40pct count CHEMBL1080669",
+      "pass": true
+    },
+    {
+      "check": "60pct count CHEMBL1080669",
+      "pass": true
+    },
+    {
+      "check": "40pct count CHEMBL1076497",
+      "pass": true
+    },
+    {
+      "check": "60pct count CHEMBL1076497",
+      "pass": true
+    },
+    {
+      "check": "40pct count CHEMBL1080205",
+      "pass": true
+    },
+    {
+      "check": "60pct count CHEMBL1080205",
+      "pass": true
+    },
+    {
+      "check": "622 activities",
+      "pass": true
+    },
+    {
+      "check": "LIB_YWDIXVZCRMMQQY finite AMES",
+      "pass": true
+    },
+    {
+      "check": "LIB_YWDIXVZCRMMQQY finite BBB_Martins",
+      "pass": true
+    },
+    {
+      "check": "LIB_YWDIXVZCRMMQQY finite Bioavailability_Ma",
+      "pass": true
+    },
+    {
+      "check": "LIB_YWDIXVZCRMMQQY finite CYP1A2_Veith",
+      "pass": true
+    },
+    {
+      "check": "LIB_YWDIXVZCRMMQQY finite CYP2C19_Veith",
+      "pass": true
+    },
+    {
+      "check": "LIB_YWDIXVZCRMMQQY finite CYP2C9_Substrate_CarbonMangels",
+      "pass": true
+    },
+    {
+      "check": "LIB_YWDIXVZCRMMQQY finite CYP2C9_Veith",
+      "pass": true
+    },
+    {
+      "check": "LIB_YWDIXVZCRMMQQY finite CYP2D6_Substrate_CarbonMangels",
+      "pass": true
+    },
+    {
+      "check": "LIB_YWDIXVZCRMMQQY finite CYP2D6_Veith",
+      "pass": true
+    },
+    {
+      "check": "LIB_YWDIXVZCRMMQQY finite CYP3A4_Substrate_CarbonMangels",
+      "pass": true
+    },
+    {
+      "check": "LIB_YWDIXVZCRMMQQY finite CYP3A4_Veith",
+      "pass": true
+    },
+    {
+      "check": "LIB_YWDIXVZCRMMQQY finite Carcinogens_Lagunin",
+      "pass": true
+    },
+    {
+      "check": "LIB_YWDIXVZCRMMQQY finite ClinTox",
+      "pass": true
+    },
+    {
+      "check": "LIB_YWDIXVZCRMMQQY finite DILI",
+      "pass": true
+    },
+    {
+      "check": "LIB_YWDIXVZCRMMQQY finite HIA_Hou",
+      "pass": true
+    },
+    {
+      "check": "LIB_YWDIXVZCRMMQQY finite NR-AR-LBD",
+      "pass": true
+    },
+    {
+      "check": "LIB_YWDIXVZCRMMQQY finite NR-AR",
+      "pass": true
+    },
+    {
+      "check": "LIB_YWDIXVZCRMMQQY finite NR-AhR",
+      "pass": true
+    },
+    {
+      "check": "LIB_YWDIXVZCRMMQQY finite NR-Aromatase",
+      "pass": true
+    },
+    {
+      "check": "LIB_YWDIXVZCRMMQQY finite NR-ER-LBD",
+      "pass": true
+    },
+    {
+      "check": "LIB_YWDIXVZCRMMQQY finite NR-ER",
+      "pass": true
+    },
+    {
+      "check": "LIB_YWDIXVZCRMMQQY finite NR-PPAR-gamma",
+      "pass": true
+    },
+    {
+      "check": "LIB_YWDIXVZCRMMQQY finite PAMPA_NCATS",
+      "pass": true
+    },
+    {
+      "check": "LIB_YWDIXVZCRMMQQY finite Pgp_Broccatelli",
+      "pass": true
+    },
+    {
+      "check": "LIB_YWDIXVZCRMMQQY finite SR-ARE",
+      "pass": true
+    },
+    {
+      "check": "LIB_YWDIXVZCRMMQQY finite SR-ATAD5",
+      "pass": true
+    },
+    {
+      "check": "LIB_YWDIXVZCRMMQQY finite SR-HSE",
+      "pass": true
+    },
+    {
+      "check": "LIB_YWDIXVZCRMMQQY finite SR-MMP",
+      "pass": true
+    },
+    {
+      "check": "LIB_YWDIXVZCRMMQQY finite SR-p53",
+      "pass": true
+    },
+    {
+      "check": "LIB_YWDIXVZCRMMQQY finite Skin_Reaction",
+      "pass": true
+    },
+    {
+      "check": "LIB_YWDIXVZCRMMQQY finite hERG",
+      "pass": true
+    },
+    {
+      "check": "LIB_YWDIXVZCRMMQQY finite Caco2_Wang",
+      "pass": true
+    },
+    {
+      "check": "LIB_YWDIXVZCRMMQQY finite Clearance_Hepatocyte_AZ",
+      "pass": true
+    },
+    {
+      "check": "LIB_YWDIXVZCRMMQQY finite Clearance_Microsome_AZ",
+      "pass": true
+    },
+    {
+      "check": "LIB_YWDIXVZCRMMQQY finite Half_Life_Obach",
+      "pass": true
+    },
+    {
+      "check": "LIB_YWDIXVZCRMMQQY finite HydrationFreeEnergy_FreeSolv",
+      "pass": true
+    },
+    {
+      "check": "LIB_YWDIXVZCRMMQQY finite LD50_Zhu",
+      "pass": true
+    },
+    {
+      "check": "LIB_YWDIXVZCRMMQQY finite Lipophilicity_AstraZeneca",
+      "pass": true
+    },
+    {
+      "check": "LIB_YWDIXVZCRMMQQY finite PPBR_AZ",
+      "pass": true
+    },
+    {
+      "check": "LIB_YWDIXVZCRMMQQY finite Solubility_AqSolDB",
+      "pass": true
+    },
+    {
+      "check": "LIB_YWDIXVZCRMMQQY finite VDss_Lombardo",
+      "pass": true
+    },
+    {
+      "check": "LIB_MYAFDHCCQBIZLC finite AMES",
+      "pass": true
+    },
+    {
+      "check": "LIB_MYAFDHCCQBIZLC finite BBB_Martins",
+      "pass": true
+    },
+    {
+      "check": "LIB_MYAFDHCCQBIZLC finite Bioavailability_Ma",
+      "pass": true
+    },
+    {
+      "check": "LIB_MYAFDHCCQBIZLC finite CYP1A2_Veith",
+      "pass": true
+    },
+    {
+      "check": "LIB_MYAFDHCCQBIZLC finite CYP2C19_Veith",
+      "pass": true
+    },
+    {
+      "check": "LIB_MYAFDHCCQBIZLC finite CYP2C9_Substrate_CarbonMangels",
+      "pass": true
+    },
+    {
+      "check": "LIB_MYAFDHCCQBIZLC finite CYP2C9_Veith",
+      "pass": true
+    },
+    {
+      "check": "LIB_MYAFDHCCQBIZLC finite CYP2D6_Substrate_CarbonMangels",
+      "pass": true
+    },
+    {
+      "check": "LIB_MYAFDHCCQBIZLC finite CYP2D6_Veith",
+      "pass": true
+    },
+    {
+      "check": "LIB_MYAFDHCCQBIZLC finite CYP3A4_Substrate_CarbonMangels",
+      "pass": true
+    },
+    {
+      "check": "LIB_MYAFDHCCQBIZLC finite CYP3A4_Veith",
+      "pass": true
+    },
+    {
+      "check": "LIB_MYAFDHCCQBIZLC finite Carcinogens_Lagunin",
+      "pass": true
+    },
+    {
+      "check": "LIB_MYAFDHCCQBIZLC finite ClinTox",
+      "pass": true
+    },
+    {
+      "check": "LIB_MYAFDHCCQBIZLC finite DILI",
+      "pass": true
+    },
+    {
+      "check": "LIB_MYAFDHCCQBIZLC finite HIA_Hou",
+      "pass": true
+    },
+    {
+      "check": "LIB_MYAFDHCCQBIZLC finite NR-AR-LBD",
+      "pass": true
+    },
+    {
+      "check": "LIB_MYAFDHCCQBIZLC finite NR-AR",
+      "pass": true
+    },
+    {
+      "check": "LIB_MYAFDHCCQBIZLC finite NR-AhR",
+      "pass": true
+    },
+    {
+      "check": "LIB_MYAFDHCCQBIZLC finite NR-Aromatase",
+      "pass": true
+    },
+    {
+      "check": "LIB_MYAFDHCCQBIZLC finite NR-ER-LBD",
+      "pass": true
+    },
+    {
+      "check": "LIB_MYAFDHCCQBIZLC finite NR-ER",
+      "pass": true
+    },
+    {
+      "check": "LIB_MYAFDHCCQBIZLC finite NR-PPAR-gamma",
+      "pass": true
+    },
+    {
+      "check": "LIB_MYAFDHCCQBIZLC finite PAMPA_NCATS",
+      "pass": true
+    },
+    {
+      "check": "LIB_MYAFDHCCQBIZLC finite Pgp_Broccatelli",
+      "pass": true
+    },
+    {
+      "check": "LIB_MYAFDHCCQBIZLC finite SR-ARE",
+      "pass": true
+    },
+    {
+      "check": "LIB_MYAFDHCCQBIZLC finite SR-ATAD5",
+      "pass": true
+    },
+    {
+      "check": "LIB_MYAFDHCCQBIZLC finite SR-HSE",
+      "pass": true
+    },
+    {
+      "check": "LIB_MYAFDHCCQBIZLC finite SR-MMP",
+      "pass": true
+    },
+    {
+      "check": "LIB_MYAFDHCCQBIZLC finite SR-p53",
+      "pass": true
+    },
+    {
+      "check": "LIB_MYAFDHCCQBIZLC finite Skin_Reaction",
+      "pass": true
+    },
+    {
+      "check": "LIB_MYAFDHCCQBIZLC finite hERG",
+      "pass": true
+    },
+    {
+      "check": "LIB_MYAFDHCCQBIZLC finite Caco2_Wang",
+      "pass": true
+    },
+    {
+      "check": "LIB_MYAFDHCCQBIZLC finite Clearance_Hepatocyte_AZ",
+      "pass": true
+    },
+    {
+      "check": "LIB_MYAFDHCCQBIZLC finite Clearance_Microsome_AZ",
+      "pass": true
+    },
+    {
+      "check": "LIB_MYAFDHCCQBIZLC finite Half_Life_Obach",
+      "pass": true
+    },
+    {
+      "check": "LIB_MYAFDHCCQBIZLC finite HydrationFreeEnergy_FreeSolv",
+      "pass": true
+    },
+    {
+      "check": "LIB_MYAFDHCCQBIZLC finite LD50_Zhu",
+      "pass": true
+    },
+    {
+      "check": "LIB_MYAFDHCCQBIZLC finite Lipophilicity_AstraZeneca",
+      "pass": true
+    },
+    {
+      "check": "LIB_MYAFDHCCQBIZLC finite PPBR_AZ",
+      "pass": true
+    },
+    {
+      "check": "LIB_MYAFDHCCQBIZLC finite Solubility_AqSolDB",
+      "pass": true
+    },
+    {
+      "check": "LIB_MYAFDHCCQBIZLC finite VDss_Lombardo",
+      "pass": true
+    },
+    {
+      "check": "LIB_ZNDXPRCORYDEAP finite AMES",
+      "pass": true
+    },
+    {
+      "check": "LIB_ZNDXPRCORYDEAP finite BBB_Martins",
+      "pass": true
+    },
+    {
+      "check": "LIB_ZNDXPRCORYDEAP finite Bioavailability_Ma",
+      "pass": true
+    },
+    {
+      "check": "LIB_ZNDXPRCORYDEAP finite CYP1A2_Veith",
+      "pass": true
+    },
+    {
+      "check": "LIB_ZNDXPRCORYDEAP finite CYP2C19_Veith",
+      "pass": true
+    },
+    {
+      "check": "LIB_ZNDXPRCORYDEAP finite CYP2C9_Substrate_CarbonMangels",
+      "pass": true
+    },
+    {
+      "check": "LIB_ZNDXPRCORYDEAP finite CYP2C9_Veith",
+      "pass": true
+    },
+    {
+      "check": "LIB_ZNDXPRCORYDEAP finite CYP2D6_Substrate_CarbonMangels",
+      "pass": true
+    },
+    {
+      "check": "LIB_ZNDXPRCORYDEAP finite CYP2D6_Veith",
+      "pass": true
+    },
+    {
+      "check": "LIB_ZNDXPRCORYDEAP finite CYP3A4_Substrate_CarbonMangels",
+      "pass": true
+    },
+    {
+      "check": "LIB_ZNDXPRCORYDEAP finite CYP3A4_Veith",
+      "pass": true
+    },
+    {
+      "check": "LIB_ZNDXPRCORYDEAP finite Carcinogens_Lagunin",
+      "pass": true
+    },
+    {
+      "check": "LIB_ZNDXPRCORYDEAP finite ClinTox",
+      "pass": true
+    },
+    {
+      "check": "LIB_ZNDXPRCORYDEAP finite DILI",
+      "pass": true
+    },
+    {
+      "check": "LIB_ZNDXPRCORYDEAP finite HIA_Hou",
+      "pass": true
+    },
+    {
+      "check": "LIB_ZNDXPRCORYDEAP finite NR-AR-LBD",
+      "pass": true
+    },
+    {
+      "check": "LIB_ZNDXPRCORYDEAP finite NR-AR",
+      "pass": true
+    },
+    {
+      "check": "LIB_ZNDXPRCORYDEAP finite NR-AhR",
+      "pass": true
+    },
+    {
+      "check": "LIB_ZNDXPRCORYDEAP finite NR-Aromatase",
+      "pass": true
+    },
+    {
+      "check": "LIB_ZNDXPRCORYDEAP finite NR-ER-LBD",
+      "pass": true
+    },
+    {
+      "check": "LIB_ZNDXPRCORYDEAP finite NR-ER",
+      "pass": true
+    },
+    {
+      "check": "LIB_ZNDXPRCORYDEAP finite NR-PPAR-gamma",
+      "pass": true
+    },
+    {
+      "check": "LIB_ZNDXPRCORYDEAP finite PAMPA_NCATS",
+      "pass": true
+    },
+    {
+      "check": "LIB_ZNDXPRCORYDEAP finite Pgp_Broccatelli",
+      "pass": true
+    },
+    {
+      "check": "LIB_ZNDXPRCORYDEAP finite SR-ARE",
+      "pass": true
+    },
+    {
+      "check": "LIB_ZNDXPRCORYDEAP finite SR-ATAD5",
+      "pass": true
+    },
+    {
+      "check": "LIB_ZNDXPRCORYDEAP finite SR-HSE",
+      "pass": true
+    },
+    {
+      "check": "LIB_ZNDXPRCORYDEAP finite SR-MMP",
+      "pass": true
+    },
+    {
+      "check": "LIB_ZNDXPRCORYDEAP finite SR-p53",
+      "pass": true
+    },
+    {
+      "check": "LIB_ZNDXPRCORYDEAP finite Skin_Reaction",
+      "pass": true
+    },
+    {
+      "check": "LIB_ZNDXPRCORYDEAP finite hERG",
+      "pass": true
+    },
+    {
+      "check": "LIB_ZNDXPRCORYDEAP finite Caco2_Wang",
+      "pass": true
+    },
+    {
+      "check": "LIB_ZNDXPRCORYDEAP finite Clearance_Hepatocyte_AZ",
+      "pass": true
+    },
+    {
+      "check": "LIB_ZNDXPRCORYDEAP finite Clearance_Microsome_AZ",
+      "pass": true
+    },
+    {
+      "check": "LIB_ZNDXPRCORYDEAP finite Half_Life_Obach",
+      "pass": true
+    },
+    {
+      "check": "LIB_ZNDXPRCORYDEAP finite HydrationFreeEnergy_FreeSolv",
+      "pass": true
+    },
+    {
+      "check": "LIB_ZNDXPRCORYDEAP finite LD50_Zhu",
+      "pass": true
+    },
+    {
+      "check": "LIB_ZNDXPRCORYDEAP finite Lipophilicity_AstraZeneca",
+      "pass": true
+    },
+    {
+      "check": "LIB_ZNDXPRCORYDEAP finite PPBR_AZ",
+      "pass": true
+    },
+    {
+      "check": "LIB_ZNDXPRCORYDEAP finite Solubility_AqSolDB",
+      "pass": true
+    },
+    {
+      "check": "LIB_ZNDXPRCORYDEAP finite VDss_Lombardo",
+      "pass": true
+    },
+    {
+      "check": "LIB_FCRHJSNRFAAYQD finite AMES",
+      "pass": true
+    },
+    {
+      "check": "LIB_FCRHJSNRFAAYQD finite BBB_Martins",
+      "pass": true
+    },
+    {
+      "check": "LIB_FCRHJSNRFAAYQD finite Bioavailability_Ma",
+      "pass": true
+    },
+    {
+      "check": "LIB_FCRHJSNRFAAYQD finite CYP1A2_Veith",
+      "pass": true
+    },
+    {
+      "check": "LIB_FCRHJSNRFAAYQD finite CYP2C19_Veith",
+      "pass": true
+    },
+    {
+      "check": "LIB_FCRHJSNRFAAYQD finite CYP2C9_Substrate_CarbonMangels",
+      "pass": true
+    },
+    {
+      "check": "LIB_FCRHJSNRFAAYQD finite CYP2C9_Veith",
+      "pass": true
+    },
+    {
+      "check": "LIB_FCRHJSNRFAAYQD finite CYP2D6_Substrate_CarbonMangels",
+      "pass": true
+    },
+    {
+      "check": "LIB_FCRHJSNRFAAYQD finite CYP2D6_Veith",
+      "pass": true
+    },
+    {
+      "check": "LIB_FCRHJSNRFAAYQD finite CYP3A4_Substrate_CarbonMangels",
+      "pass": true
+    },
+    {
+      "check": "LIB_FCRHJSNRFAAYQD finite CYP3A4_Veith",
+      "pass": true
+    },
+    {
+      "check": "LIB_FCRHJSNRFAAYQD finite Carcinogens_Lagunin",
+      "pass": true
+    },
+    {
+      "check": "LIB_FCRHJSNRFAAYQD finite ClinTox",
+      "pass": true
+    },
+    {
+      "check": "LIB_FCRHJSNRFAAYQD finite DILI",
+      "pass": true
+    },
+    {
+      "check": "LIB_FCRHJSNRFAAYQD finite HIA_Hou",
+      "pass": true
+    },
+    {
+      "check": "LIB_FCRHJSNRFAAYQD finite NR-AR-LBD",
+      "pass": true
+    },
+    {
+      "check": "LIB_FCRHJSNRFAAYQD finite NR-AR",
+      "pass": true
+    },
+    {
+      "check": "LIB_FCRHJSNRFAAYQD finite NR-AhR",
+      "pass": true
+    },
+    {
+      "check": "LIB_FCRHJSNRFAAYQD finite NR-Aromatase",
+      "pass": true
+    },
+    {
+      "check": "LIB_FCRHJSNRFAAYQD finite NR-ER-LBD",
+      "pass": true
+    },
+    {
+      "check": "LIB_FCRHJSNRFAAYQD finite NR-ER",
+      "pass": true
+    },
+    {
+      "check": "LIB_FCRHJSNRFAAYQD finite NR-PPAR-gamma",
+      "pass": true
+    },
+    {
+      "check": "LIB_FCRHJSNRFAAYQD finite PAMPA_NCATS",
+      "pass": true
+    },
+    {
+      "check": "LIB_FCRHJSNRFAAYQD finite Pgp_Broccatelli",
+      "pass": true
+    },
+    {
+      "check": "LIB_FCRHJSNRFAAYQD finite SR-ARE",
+      "pass": true
+    },
+    {
+      "check": "LIB_FCRHJSNRFAAYQD finite SR-ATAD5",
+      "pass": true
+    },
+    {
+      "check": "LIB_FCRHJSNRFAAYQD finite SR-HSE",
+      "pass": true
+    },
+    {
+      "check": "LIB_FCRHJSNRFAAYQD finite SR-MMP",
+      "pass": true
+    },
+    {
+      "check": "LIB_FCRHJSNRFAAYQD finite SR-p53",
+      "pass": true
+    },
+    {
+      "check": "LIB_FCRHJSNRFAAYQD finite Skin_Reaction",
+      "pass": true
+    },
+    {
+      "check": "LIB_FCRHJSNRFAAYQD finite hERG",
+      "pass": true
+    },
+    {
+      "check": "LIB_FCRHJSNRFAAYQD finite Caco2_Wang",
+      "pass": true
+    },
+    {
+      "check": "LIB_FCRHJSNRFAAYQD finite Clearance_Hepatocyte_AZ",
+      "pass": true
+    },
+    {
+      "check": "LIB_FCRHJSNRFAAYQD finite Clearance_Microsome_AZ",
+      "pass": true
+    },
+    {
+      "check": "LIB_FCRHJSNRFAAYQD finite Half_Life_Obach",
+      "pass": true
+    },
+    {
+      "check": "LIB_FCRHJSNRFAAYQD finite HydrationFreeEnergy_FreeSolv",
+      "pass": true
+    },
+    {
+      "check": "LIB_FCRHJSNRFAAYQD finite LD50_Zhu",
+      "pass": true
+    },
+    {
+      "check": "LIB_FCRHJSNRFAAYQD finite Lipophilicity_AstraZeneca",
+      "pass": true
+    },
+    {
+      "check": "LIB_FCRHJSNRFAAYQD finite PPBR_AZ",
+      "pass": true
+    },
+    {
+      "check": "LIB_FCRHJSNRFAAYQD finite Solubility_AqSolDB",
+      "pass": true
+    },
+    {
+      "check": "LIB_FCRHJSNRFAAYQD finite VDss_Lombardo",
+      "pass": true
+    },
+    {
+      "check": "LIB_DNDVGFIEWOHGAH finite AMES",
+      "pass": true
+    },
+    {
+      "check": "LIB_DNDVGFIEWOHGAH finite BBB_Martins",
+      "pass": true
+    },
+    {
+      "check": "LIB_DNDVGFIEWOHGAH finite Bioavailability_Ma",
+      "pass": true
+    },
+    {
+      "check": "LIB_DNDVGFIEWOHGAH finite CYP1A2_Veith",
+      "pass": true
+    },
+    {
+      "check": "LIB_DNDVGFIEWOHGAH finite CYP2C19_Veith",
+      "pass": true
+    },
+    {
+      "check": "LIB_DNDVGFIEWOHGAH finite CYP2C9_Substrate_CarbonMangels",
+      "pass": true
+    },
+    {
+      "check": "LIB_DNDVGFIEWOHGAH finite CYP2C9_Veith",
+      "pass": true
+    },
+    {
+      "check": "LIB_DNDVGFIEWOHGAH finite CYP2D6_Substrate_CarbonMangels",
+      "pass": true
+    },
+    {
+      "check": "LIB_DNDVGFIEWOHGAH finite CYP2D6_Veith",
+      "pass": true
+    },
+    {
+      "check": "LIB_DNDVGFIEWOHGAH finite CYP3A4_Substrate_CarbonMangels",
+      "pass": true
+    },
+    {
+      "check": "LIB_DNDVGFIEWOHGAH finite CYP3A4_Veith",
+      "pass": true
+    },
+    {
+      "check": "LIB_DNDVGFIEWOHGAH finite Carcinogens_Lagunin",
+      "pass": true
+    },
+    {
+      "check": "LIB_DNDVGFIEWOHGAH finite ClinTox",
+      "pass": true
+    },
+    {
+      "check": "LIB_DNDVGFIEWOHGAH finite DILI",
+      "pass": true
+    },
+    {
+      "check": "LIB_DNDVGFIEWOHGAH finite HIA_Hou",
+      "pass": true
+    },
+    {
+      "check": "LIB_DNDVGFIEWOHGAH finite NR-AR-LBD",
+      "pass": true
+    },
+    {
+      "check": "LIB_DNDVGFIEWOHGAH finite NR-AR",
+      "pass": true
+    },
+    {
+      "check": "LIB_DNDVGFIEWOHGAH finite NR-AhR",
+      "pass": true
+    },
+    {
+      "check": "LIB_DNDVGFIEWOHGAH finite NR-Aromatase",
+      "pass": true
+    },
+    {
+      "check": "LIB_DNDVGFIEWOHGAH finite NR-ER-LBD",
+      "pass": true
+    },
+    {
+      "check": "LIB_DNDVGFIEWOHGAH finite NR-ER",
+      "pass": true
+    },
+    {
+      "check": "LIB_DNDVGFIEWOHGAH finite NR-PPAR-gamma",
+      "pass": true
+    },
+    {
+      "check": "LIB_DNDVGFIEWOHGAH finite PAMPA_NCATS",
+      "pass": true
+    },
+    {
+      "check": "LIB_DNDVGFIEWOHGAH finite Pgp_Broccatelli",
+      "pass": true
+    },
+    {
+      "check": "LIB_DNDVGFIEWOHGAH finite SR-ARE",
+      "pass": true
+    },
+    {
+      "check": "LIB_DNDVGFIEWOHGAH finite SR-ATAD5",
+      "pass": true
+    },
+    {
+      "check": "LIB_DNDVGFIEWOHGAH finite SR-HSE",
+      "pass": true
+    },
+    {
+      "check": "LIB_DNDVGFIEWOHGAH finite SR-MMP",
+      "pass": true
+    },
+    {
+      "check": "LIB_DNDVGFIEWOHGAH finite SR-p53",
+      "pass": true
+    },
+    {
+      "check": "LIB_DNDVGFIEWOHGAH finite Skin_Reaction",
+      "pass": true
+    },
+    {
+      "check": "LIB_DNDVGFIEWOHGAH finite hERG",
+      "pass": true
+    },
+    {
+      "check": "LIB_DNDVGFIEWOHGAH finite Caco2_Wang",
+      "pass": true
+    },
+    {
+      "check": "LIB_DNDVGFIEWOHGAH finite Clearance_Hepatocyte_AZ",
+      "pass": true
+    },
+    {
+      "check": "LIB_DNDVGFIEWOHGAH finite Clearance_Microsome_AZ",
+      "pass": true
+    },
+    {
+      "check": "LIB_DNDVGFIEWOHGAH finite Half_Life_Obach",
+      "pass": true
+    },
+    {
+      "check": "LIB_DNDVGFIEWOHGAH finite HydrationFreeEnergy_FreeSolv",
+      "pass": true
+    },
+    {
+      "check": "LIB_DNDVGFIEWOHGAH finite LD50_Zhu",
+      "pass": true
+    },
+    {
+      "check": "LIB_DNDVGFIEWOHGAH finite Lipophilicity_AstraZeneca",
+      "pass": true
+    },
+    {
+      "check": "LIB_DNDVGFIEWOHGAH finite PPBR_AZ",
+      "pass": true
+    },
+    {
+      "check": "LIB_DNDVGFIEWOHGAH finite Solubility_AqSolDB",
+      "pass": true
+    },
+    {
+      "check": "LIB_DNDVGFIEWOHGAH finite VDss_Lombardo",
+      "pass": true
+    },
+    {
+      "check": "LIB_ZVHBDYFMHCQADD finite AMES",
+      "pass": true
+    },
+    {
+      "check": "LIB_ZVHBDYFMHCQADD finite BBB_Martins",
+      "pass": true
+    },
+    {
+      "check": "LIB_ZVHBDYFMHCQADD finite Bioavailability_Ma",
+      "pass": true
+    },
+    {
+      "check": "LIB_ZVHBDYFMHCQADD finite CYP1A2_Veith",
+      "pass": true
+    },
+    {
+      "check": "LIB_ZVHBDYFMHCQADD finite CYP2C19_Veith",
+      "pass": true
+    },
+    {
+      "check": "LIB_ZVHBDYFMHCQADD finite CYP2C9_Substrate_CarbonMangels",
+      "pass": true
+    },
+    {
+      "check": "LIB_ZVHBDYFMHCQADD finite CYP2C9_Veith",
+      "pass": true
+    },
+    {
+      "check": "LIB_ZVHBDYFMHCQADD finite CYP2D6_Substrate_CarbonMangels",
+      "pass": true
+    },
+    {
+      "check": "LIB_ZVHBDYFMHCQADD finite CYP2D6_Veith",
+      "pass": true
+    },
+    {
+      "check": "LIB_ZVHBDYFMHCQADD finite CYP3A4_Substrate_CarbonMangels",
+      "pass": true
+    },
+    {
+      "check": "LIB_ZVHBDYFMHCQADD finite CYP3A4_Veith",
+      "pass": true
+    },
+    {
+      "check": "LIB_ZVHBDYFMHCQADD finite Carcinogens_Lagunin",
+      "pass": true
+    },
+    {
+      "check": "LIB_ZVHBDYFMHCQADD finite ClinTox",
+      "pass": true
+    },
+    {
+      "check": "LIB_ZVHBDYFMHCQADD finite DILI",
+      "pass": true
+    },
+    {
+      "check": "LIB_ZVHBDYFMHCQADD finite HIA_Hou",
+      "pass": true
+    },
+    {
+      "check": "LIB_ZVHBDYFMHCQADD finite NR-AR-LBD",
+      "pass": true
+    },
+    {
+      "check": "LIB_ZVHBDYFMHCQADD finite NR-AR",
+      "pass": true
+    },
+    {
+      "check": "LIB_ZVHBDYFMHCQADD finite NR-AhR",
+      "pass": true
+    },
+    {
+      "check": "LIB_ZVHBDYFMHCQADD finite NR-Aromatase",
+      "pass": true
+    },
+    {
+      "check": "LIB_ZVHBDYFMHCQADD finite NR-ER-LBD",
+      "pass": true
+    },
+    {
+      "check": "LIB_ZVHBDYFMHCQADD finite NR-ER",
+      "pass": true
+    },
+    {
+      "check": "LIB_ZVHBDYFMHCQADD finite NR-PPAR-gamma",
+      "pass": true
+    },
+    {
+      "check": "LIB_ZVHBDYFMHCQADD finite PAMPA_NCATS",
+      "pass": true
+    },
+    {
+      "check": "LIB_ZVHBDYFMHCQADD finite Pgp_Broccatelli",
+      "pass": true
+    },
+    {
+      "check": "LIB_ZVHBDYFMHCQADD finite SR-ARE",
+      "pass": true
+    },
+    {
+      "check": "LIB_ZVHBDYFMHCQADD finite SR-ATAD5",
+      "pass": true
+    },
+    {
+      "check": "LIB_ZVHBDYFMHCQADD finite SR-HSE",
+      "pass": true
+    },
+    {
+      "check": "LIB_ZVHBDYFMHCQADD finite SR-MMP",
+      "pass": true
+    },
+    {
+      "check": "LIB_ZVHBDYFMHCQADD finite SR-p53",
+      "pass": true
+    },
+    {
+      "check": "LIB_ZVHBDYFMHCQADD finite Skin_Reaction",
+      "pass": true
+    },
+    {
+      "check": "LIB_ZVHBDYFMHCQADD finite hERG",
+      "pass": true
+    },
+    {
+      "check": "LIB_ZVHBDYFMHCQADD finite Caco2_Wang",
+      "pass": true
+    },
+    {
+      "check": "LIB_ZVHBDYFMHCQADD finite Clearance_Hepatocyte_AZ",
+      "pass": true
+    },
+    {
+      "check": "LIB_ZVHBDYFMHCQADD finite Clearance_Microsome_AZ",
+      "pass": true
+    },
+    {
+      "check": "LIB_ZVHBDYFMHCQADD finite Half_Life_Obach",
+      "pass": true
+    },
+    {
+      "check": "LIB_ZVHBDYFMHCQADD finite HydrationFreeEnergy_FreeSolv",
+      "pass": true
+    },
+    {
+      "check": "LIB_ZVHBDYFMHCQADD finite LD50_Zhu",
+      "pass": true
+    },
+    {
+      "check": "LIB_ZVHBDYFMHCQADD finite Lipophilicity_AstraZeneca",
+      "pass": true
+    },
+    {
+      "check": "LIB_ZVHBDYFMHCQADD finite PPBR_AZ",
+      "pass": true
+    },
+    {
+      "check": "LIB_ZVHBDYFMHCQADD finite Solubility_AqSolDB",
+      "pass": true
+    },
+    {
+      "check": "LIB_ZVHBDYFMHCQADD finite VDss_Lombardo",
+      "pass": true
+    },
+    {
+      "check": "LIB_CHEMBL2103870 finite AMES",
+      "pass": true
+    },
+    {
+      "check": "LIB_CHEMBL2103870 finite BBB_Martins",
+      "pass": true
+    },
+    {
+      "check": "LIB_CHEMBL2103870 finite Bioavailability_Ma",
+      "pass": true
+    },
+    {
+      "check": "LIB_CHEMBL2103870 finite CYP1A2_Veith",
+      "pass": true
+    },
+    {
+      "check": "LIB_CHEMBL2103870 finite CYP2C19_Veith",
+      "pass": true
+    },
+    {
+      "check": "LIB_CHEMBL2103870 finite CYP2C9_Substrate_CarbonMangels",
+      "pass": true
+    },
+    {
+      "check": "LIB_CHEMBL2103870 finite CYP2C9_Veith",
+      "pass": true
+    },
+    {
+      "check": "LIB_CHEMBL2103870 finite CYP2D6_Substrate_CarbonMangels",
+      "pass": true
+    },
+    {
+      "check": "LIB_CHEMBL2103870 finite CYP2D6_Veith",
+      "pass": true
+    },
+    {
+      "check": "LIB_CHEMBL2103870 finite CYP3A4_Substrate_CarbonMangels",
+      "pass": true
+    },
+    {
+      "check": "LIB_CHEMBL2103870 finite CYP3A4_Veith",
+      "pass": true
+    },
+    {
+      "check": "LIB_CHEMBL2103870 finite Carcinogens_Lagunin",
+      "pass": true
+    },
+    {
+      "check": "LIB_CHEMBL2103870 finite ClinTox",
+      "pass": true
+    },
+    {
+      "check": "LIB_CHEMBL2103870 finite DILI",
+      "pass": true
+    },
+    {
+      "check": "LIB_CHEMBL2103870 finite HIA_Hou",
+      "pass": true
+    },
+    {
+      "check": "LIB_CHEMBL2103870 finite NR-AR-LBD",
+      "pass": true
+    },
+    {
+      "check": "LIB_CHEMBL2103870 finite NR-AR",
+      "pass": true
+    },
+    {
+      "check": "LIB_CHEMBL2103870 finite NR-AhR",
+      "pass": true
+    },
+    {
+      "check": "LIB_CHEMBL2103870 finite NR-Aromatase",
+      "pass": true
+    },
+    {
+      "check": "LIB_CHEMBL2103870 finite NR-ER-LBD",
+      "pass": true
+    },
+    {
+      "check": "LIB_CHEMBL2103870 finite NR-ER",
+      "pass": true
+    },
+    {
+      "check": "LIB_CHEMBL2103870 finite NR-PPAR-gamma",
+      "pass": true
+    },
+    {
+      "check": "LIB_CHEMBL2103870 finite PAMPA_NCATS",
+      "pass": true
+    },
+    {
+      "check": "LIB_CHEMBL2103870 finite Pgp_Broccatelli",
+      "pass": true
+    },
+    {
+      "check": "LIB_CHEMBL2103870 finite SR-ARE",
+      "pass": true
+    },
+    {
+      "check": "LIB_CHEMBL2103870 finite SR-ATAD5",
+      "pass": true
+    },
+    {
+      "check": "LIB_CHEMBL2103870 finite SR-HSE",
+      "pass": true
+    },
+    {
+      "check": "LIB_CHEMBL2103870 finite SR-MMP",
+      "pass": true
+    },
+    {
+      "check": "LIB_CHEMBL2103870 finite SR-p53",
+      "pass": true
+    },
+    {
+      "check": "LIB_CHEMBL2103870 finite Skin_Reaction",
+      "pass": true
+    },
+    {
+      "check": "LIB_CHEMBL2103870 finite hERG",
+      "pass": true
+    },
+    {
+      "check": "LIB_CHEMBL2103870 finite Caco2_Wang",
+      "pass": true
+    },
+    {
+      "check": "LIB_CHEMBL2103870 finite Clearance_Hepatocyte_AZ",
+      "pass": true
+    },
+    {
+      "check": "LIB_CHEMBL2103870 finite Clearance_Microsome_AZ",
+      "pass": true
+    },
+    {
+      "check": "LIB_CHEMBL2103870 finite Half_Life_Obach",
+      "pass": true
+    },
+    {
+      "check": "LIB_CHEMBL2103870 finite HydrationFreeEnergy_FreeSolv",
+      "pass": true
+    },
+    {
+      "check": "LIB_CHEMBL2103870 finite LD50_Zhu",
+      "pass": true
+    },
+    {
+      "check": "LIB_CHEMBL2103870 finite Lipophilicity_AstraZeneca",
+      "pass": true
+    },
+    {
+      "check": "LIB_CHEMBL2103870 finite PPBR_AZ",
+      "pass": true
+    },
+    {
+      "check": "LIB_CHEMBL2103870 finite Solubility_AqSolDB",
+      "pass": true
+    },
+    {
+      "check": "LIB_CHEMBL2103870 finite VDss_Lombardo",
+      "pass": true
+    },
+    {
+      "check": "LIB_CHEMBL3894860 finite AMES",
+      "pass": true
+    },
+    {
+      "check": "LIB_CHEMBL3894860 finite BBB_Martins",
+      "pass": true
+    },
+    {
+      "check": "LIB_CHEMBL3894860 finite Bioavailability_Ma",
+      "pass": true
+    },
+    {
+      "check": "LIB_CHEMBL3894860 finite CYP1A2_Veith",
+      "pass": true
+    },
+    {
+      "check": "LIB_CHEMBL3894860 finite CYP2C19_Veith",
+      "pass": true
+    },
+    {
+      "check": "LIB_CHEMBL3894860 finite CYP2C9_Substrate_CarbonMangels",
+      "pass": true
+    },
+    {
+      "check": "LIB_CHEMBL3894860 finite CYP2C9_Veith",
+      "pass": true
+    },
+    {
+      "check": "LIB_CHEMBL3894860 finite CYP2D6_Substrate_CarbonMangels",
+      "pass": true
+    },
+    {
+      "check": "LIB_CHEMBL3894860 finite CYP2D6_Veith",
+      "pass": true
+    },
+    {
+      "check": "LIB_CHEMBL3894860 finite CYP3A4_Substrate_CarbonMangels",
+      "pass": true
+    },
+    {
+      "check": "LIB_CHEMBL3894860 finite CYP3A4_Veith",
+      "pass": true
+    },
+    {
+      "check": "LIB_CHEMBL3894860 finite Carcinogens_Lagunin",
+      "pass": true
+    },
+    {
+      "check": "LIB_CHEMBL3894860 finite ClinTox",
+      "pass": true
+    },
+    {
+      "check": "LIB_CHEMBL3894860 finite DILI",
+      "pass": true
+    },
+    {
+      "check": "LIB_CHEMBL3894860 finite HIA_Hou",
+      "pass": true
+    },
+    {
+      "check": "LIB_CHEMBL3894860 finite NR-AR-LBD",
+      "pass": true
+    },
+    {
+      "check": "LIB_CHEMBL3894860 finite NR-AR",
+      "pass": true
+    },
+    {
+      "check": "LIB_CHEMBL3894860 finite NR-AhR",
+      "pass": true
+    },
+    {
+      "check": "LIB_CHEMBL3894860 finite NR-Aromatase",
+      "pass": true
+    },
+    {
+      "check": "LIB_CHEMBL3894860 finite NR-ER-LBD",
+      "pass": true
+    },
+    {
+      "check": "LIB_CHEMBL3894860 finite NR-ER",
+      "pass": true
+    },
+    {
+      "check": "LIB_CHEMBL3894860 finite NR-PPAR-gamma",
+      "pass": true
+    },
+    {
+      "check": "LIB_CHEMBL3894860 finite PAMPA_NCATS",
+      "pass": true
+    },
+    {
+      "check": "LIB_CHEMBL3894860 finite Pgp_Broccatelli",
+      "pass": true
+    },
+    {
+      "check": "LIB_CHEMBL3894860 finite SR-ARE",
+      "pass": true
+    },
+    {
+      "check": "LIB_CHEMBL3894860 finite SR-ATAD5",
+      "pass": true
+    },
+    {
+      "check": "LIB_CHEMBL3894860 finite SR-HSE",
+      "pass": true
+    },
+    {
+      "check": "LIB_CHEMBL3894860 finite SR-MMP",
+      "pass": true
+    },
+    {
+      "check": "LIB_CHEMBL3894860 finite SR-p53",
+      "pass": true
+    },
+    {
+      "check": "LIB_CHEMBL3894860 finite Skin_Reaction",
+      "pass": true
+    },
+    {
+      "check": "LIB_CHEMBL3894860 finite hERG",
+      "pass": true
+    },
+    {
+      "check": "LIB_CHEMBL3894860 finite Caco2_Wang",
+      "pass": true
+    },
+    {
+      "check": "LIB_CHEMBL3894860 finite Clearance_Hepatocyte_AZ",
+      "pass": true
+    },
+    {
+      "check": "LIB_CHEMBL3894860 finite Clearance_Microsome_AZ",
+      "pass": true
+    },
+    {
+      "check": "LIB_CHEMBL3894860 finite Half_Life_Obach",
+      "pass": true
+    },
+    {
+      "check": "LIB_CHEMBL3894860 finite HydrationFreeEnergy_FreeSolv",
+      "pass": true
+    },
+    {
+      "check": "LIB_CHEMBL3894860 finite LD50_Zhu",
+      "pass": true
+    },
+    {
+      "check": "LIB_CHEMBL3894860 finite Lipophilicity_AstraZeneca",
+      "pass": true
+    },
+    {
+      "check": "LIB_CHEMBL3894860 finite PPBR_AZ",
+      "pass": true
+    },
+    {
+      "check": "LIB_CHEMBL3894860 finite Solubility_AqSolDB",
+      "pass": true
+    },
+    {
+      "check": "LIB_CHEMBL3894860 finite VDss_Lombardo",
+      "pass": true
+    },
+    {
+      "check": "DES_JMWNSKZCTCNWSL finite AMES",
+      "pass": true
+    },
+    {
+      "check": "DES_JMWNSKZCTCNWSL finite BBB_Martins",
+      "pass": true
+    },
+    {
+      "check": "DES_JMWNSKZCTCNWSL finite Bioavailability_Ma",
+      "pass": true
+    },
+    {
+      "check": "DES_JMWNSKZCTCNWSL finite CYP1A2_Veith",
+      "pass": true
+    },
+    {
+      "check": "DES_JMWNSKZCTCNWSL finite CYP2C19_Veith",
+      "pass": true
+    },
+    {
+      "check": "DES_JMWNSKZCTCNWSL finite CYP2C9_Substrate_CarbonMangels",
+      "pass": true
+    },
+    {
+      "check": "DES_JMWNSKZCTCNWSL finite CYP2C9_Veith",
+      "pass": true
+    },
+    {
+      "check": "DES_JMWNSKZCTCNWSL finite CYP2D6_Substrate_CarbonMangels",
+      "pass": true
+    },
+    {
+      "check": "DES_JMWNSKZCTCNWSL finite CYP2D6_Veith",
+      "pass": true
+    },
+    {
+      "check": "DES_JMWNSKZCTCNWSL finite CYP3A4_Substrate_CarbonMangels",
+      "pass": true
+    },
+    {
+      "check": "DES_JMWNSKZCTCNWSL finite CYP3A4_Veith",
+      "pass": true
+    },
+    {
+      "check": "DES_JMWNSKZCTCNWSL finite Carcinogens_Lagunin",
+      "pass": true
+    },
+    {
+      "check": "DES_JMWNSKZCTCNWSL finite ClinTox",
+      "pass": true
+    },
+    {
+      "check": "DES_JMWNSKZCTCNWSL finite DILI",
+      "pass": true
+    },
+    {
+      "check": "DES_JMWNSKZCTCNWSL finite HIA_Hou",
+      "pass": true
+    },
+    {
+      "check": "DES_JMWNSKZCTCNWSL finite NR-AR-LBD",
+      "pass": true
+    },
+    {
+      "check": "DES_JMWNSKZCTCNWSL finite NR-AR",
+      "pass": true
+    },
+    {
+      "check": "DES_JMWNSKZCTCNWSL finite NR-AhR",
+      "pass": true
+    },
+    {
+      "check": "DES_JMWNSKZCTCNWSL finite NR-Aromatase",
+      "pass": true
+    },
+    {
+      "check": "DES_JMWNSKZCTCNWSL finite NR-ER-LBD",
+      "pass": true
+    },
+    {
+      "check": "DES_JMWNSKZCTCNWSL finite NR-ER",
+      "pass": true
+    },
+    {
+      "check": "DES_JMWNSKZCTCNWSL finite NR-PPAR-gamma",
+      "pass": true
+    },
+    {
+      "check": "DES_JMWNSKZCTCNWSL finite PAMPA_NCATS",
+      "pass": true
+    },
+    {
+      "check": "DES_JMWNSKZCTCNWSL finite Pgp_Broccatelli",
+      "pass": true
+    },
+    {
+      "check": "DES_JMWNSKZCTCNWSL finite SR-ARE",
+      "pass": true
+    },
+    {
+      "check": "DES_JMWNSKZCTCNWSL finite SR-ATAD5",
+      "pass": true
+    },
+    {
+      "check": "DES_JMWNSKZCTCNWSL finite SR-HSE",
+      "pass": true
+    },
+    {
+      "check": "DES_JMWNSKZCTCNWSL finite SR-MMP",
+      "pass": true
+    },
+    {
+      "check": "DES_JMWNSKZCTCNWSL finite SR-p53",
+      "pass": true
+    },
+    {
+      "check": "DES_JMWNSKZCTCNWSL finite Skin_Reaction",
+      "pass": true
+    },
+    {
+      "check": "DES_JMWNSKZCTCNWSL finite hERG",
+      "pass": true
+    },
+    {
+      "check": "DES_JMWNSKZCTCNWSL finite Caco2_Wang",
+      "pass": true
+    },
+    {
+      "check": "DES_JMWNSKZCTCNWSL finite Clearance_Hepatocyte_AZ",
+      "pass": true
+    },
+    {
+      "check": "DES_JMWNSKZCTCNWSL finite Clearance_Microsome_AZ",
+      "pass": true
+    },
+    {
+      "check": "DES_JMWNSKZCTCNWSL finite Half_Life_Obach",
+      "pass": true
+    },
+    {
+      "check": "DES_JMWNSKZCTCNWSL finite HydrationFreeEnergy_FreeSolv",
+      "pass": true
+    },
+    {
+      "check": "DES_JMWNSKZCTCNWSL finite LD50_Zhu",
+      "pass": true
+    },
+    {
+      "check": "DES_JMWNSKZCTCNWSL finite Lipophilicity_AstraZeneca",
+      "pass": true
+    },
+    {
+      "check": "DES_JMWNSKZCTCNWSL finite PPBR_AZ",
+      "pass": true
+    },
+    {
+      "check": "DES_JMWNSKZCTCNWSL finite Solubility_AqSolDB",
+      "pass": true
+    },
+    {
+      "check": "DES_JMWNSKZCTCNWSL finite VDss_Lombardo",
+      "pass": true
+    },
+    {
+      "check": "GEN_LDAGBLZIWYMUFJ finite AMES",
+      "pass": true
+    },
+    {
+      "check": "GEN_LDAGBLZIWYMUFJ finite BBB_Martins",
+      "pass": true
+    },
+    {
+      "check": "GEN_LDAGBLZIWYMUFJ finite Bioavailability_Ma",
+      "pass": true
+    },
+    {
+      "check": "GEN_LDAGBLZIWYMUFJ finite CYP1A2_Veith",
+      "pass": true
+    },
+    {
+      "check": "GEN_LDAGBLZIWYMUFJ finite CYP2C19_Veith",
+      "pass": true
+    },
+    {
+      "check": "GEN_LDAGBLZIWYMUFJ finite CYP2C9_Substrate_CarbonMangels",
+      "pass": true
+    },
+    {
+      "check": "GEN_LDAGBLZIWYMUFJ finite CYP2C9_Veith",
+      "pass": true
+    },
+    {
+      "check": "GEN_LDAGBLZIWYMUFJ finite CYP2D6_Substrate_CarbonMangels",
+      "pass": true
+    },
+    {
+      "check": "GEN_LDAGBLZIWYMUFJ finite CYP2D6_Veith",
+      "pass": true
+    },
+    {
+      "check": "GEN_LDAGBLZIWYMUFJ finite CYP3A4_Substrate_CarbonMangels",
+      "pass": true
+    },
+    {
+      "check": "GEN_LDAGBLZIWYMUFJ finite CYP3A4_Veith",
+      "pass": true
+    },
+    {
+      "check": "GEN_LDAGBLZIWYMUFJ finite Carcinogens_Lagunin",
+      "pass": true
+    },
+    {
+      "check": "GEN_LDAGBLZIWYMUFJ finite ClinTox",
+      "pass": true
+    },
+    {
+      "check": "GEN_LDAGBLZIWYMUFJ finite DILI",
+      "pass": true
+    },
+    {
+      "check": "GEN_LDAGBLZIWYMUFJ finite HIA_Hou",
+      "pass": true
+    },
+    {
+      "check": "GEN_LDAGBLZIWYMUFJ finite NR-AR-LBD",
+      "pass": true
+    },
+    {
+      "check": "GEN_LDAGBLZIWYMUFJ finite NR-AR",
+      "pass": true
+    },
+    {
+      "check": "GEN_LDAGBLZIWYMUFJ finite NR-AhR",
+      "pass": true
+    },
+    {
+      "check": "GEN_LDAGBLZIWYMUFJ finite NR-Aromatase",
+      "pass": true
+    },
+    {
+      "check": "GEN_LDAGBLZIWYMUFJ finite NR-ER-LBD",
+      "pass": true
+    },
+    {
+      "check": "GEN_LDAGBLZIWYMUFJ finite NR-ER",
+      "pass": true
+    },
+    {
+      "check": "GEN_LDAGBLZIWYMUFJ finite NR-PPAR-gamma",
+      "pass": true
+    },
+    {
+      "check": "GEN_LDAGBLZIWYMUFJ finite PAMPA_NCATS",
+      "pass": true
+    },
+    {
+      "check": "GEN_LDAGBLZIWYMUFJ finite Pgp_Broccatelli",
+      "pass": true
+    },
+    {
+      "check": "GEN_LDAGBLZIWYMUFJ finite SR-ARE",
+      "pass": true
+    },
+    {
+      "check": "GEN_LDAGBLZIWYMUFJ finite SR-ATAD5",
+      "pass": true
+    },
+    {
+      "check": "GEN_LDAGBLZIWYMUFJ finite SR-HSE",
+      "pass": true
+    },
+    {
+      "check": "GEN_LDAGBLZIWYMUFJ finite SR-MMP",
+      "pass": true
+    },
+    {
+      "check": "GEN_LDAGBLZIWYMUFJ finite SR-p53",
+      "pass": true
+    },
+    {
+      "check": "GEN_LDAGBLZIWYMUFJ finite Skin_Reaction",
+      "pass": true
+    },
+    {
+      "check": "GEN_LDAGBLZIWYMUFJ finite hERG",
+      "pass": true
+    },
+    {
+      "check": "GEN_LDAGBLZIWYMUFJ finite Caco2_Wang",
+      "pass": true
+    },
+    {
+      "check": "GEN_LDAGBLZIWYMUFJ finite Clearance_Hepatocyte_AZ",
+      "pass": true
+    },
+    {
+      "check": "GEN_LDAGBLZIWYMUFJ finite Clearance_Microsome_AZ",
+      "pass": true
+    },
+    {
+      "check": "GEN_LDAGBLZIWYMUFJ finite Half_Life_Obach",
+      "pass": true
+    },
+    {
+      "check": "GEN_LDAGBLZIWYMUFJ finite HydrationFreeEnergy_FreeSolv",
+      "pass": true
+    },
+    {
+      "check": "GEN_LDAGBLZIWYMUFJ finite LD50_Zhu",
+      "pass": true
+    },
+    {
+      "check": "GEN_LDAGBLZIWYMUFJ finite Lipophilicity_AstraZeneca",
+      "pass": true
+    },
+    {
+      "check": "GEN_LDAGBLZIWYMUFJ finite PPBR_AZ",
+      "pass": true
+    },
+    {
+      "check": "GEN_LDAGBLZIWYMUFJ finite Solubility_AqSolDB",
+      "pass": true
+    },
+    {
+      "check": "GEN_LDAGBLZIWYMUFJ finite VDss_Lombardo",
+      "pass": true
+    },
+    {
+      "check": "GEN_YUOYQOBVJWRGGY finite AMES",
+      "pass": true
+    },
+    {
+      "check": "GEN_YUOYQOBVJWRGGY finite BBB_Martins",
+      "pass": true
+    },
+    {
+      "check": "GEN_YUOYQOBVJWRGGY finite Bioavailability_Ma",
+      "pass": true
+    },
+    {
+      "check": "GEN_YUOYQOBVJWRGGY finite CYP1A2_Veith",
+      "pass": true
+    },
+    {
+      "check": "GEN_YUOYQOBVJWRGGY finite CYP2C19_Veith",
+      "pass": true
+    },
+    {
+      "check": "GEN_YUOYQOBVJWRGGY finite CYP2C9_Substrate_CarbonMangels",
+      "pass": true
+    },
+    {
+      "check": "GEN_YUOYQOBVJWRGGY finite CYP2C9_Veith",
+      "pass": true
+    },
+    {
+      "check": "GEN_YUOYQOBVJWRGGY finite CYP2D6_Substrate_CarbonMangels",
+      "pass": true
+    },
+    {
+      "check": "GEN_YUOYQOBVJWRGGY finite CYP2D6_Veith",
+      "pass": true
+    },
+    {
+      "check": "GEN_YUOYQOBVJWRGGY finite CYP3A4_Substrate_CarbonMangels",
+      "pass": true
+    },
+    {
+      "check": "GEN_YUOYQOBVJWRGGY finite CYP3A4_Veith",
+      "pass": true
+    },
+    {
+      "check": "GEN_YUOYQOBVJWRGGY finite Carcinogens_Lagunin",
+      "pass": true
+    },
+    {
+      "check": "GEN_YUOYQOBVJWRGGY finite ClinTox",
+      "pass": true
+    },
+    {
+      "check": "GEN_YUOYQOBVJWRGGY finite DILI",
+      "pass": true
+    },
+    {
+      "check": "GEN_YUOYQOBVJWRGGY finite HIA_Hou",
+      "pass": true
+    },
+    {
+      "check": "GEN_YUOYQOBVJWRGGY finite NR-AR-LBD",
+      "pass": true
+    },
+    {
+      "check": "GEN_YUOYQOBVJWRGGY finite NR-AR",
+      "pass": true
+    },
+    {
+      "check": "GEN_YUOYQOBVJWRGGY finite NR-AhR",
+      "pass": true
+    },
+    {
+      "check": "GEN_YUOYQOBVJWRGGY finite NR-Aromatase",
+      "pass": true
+    },
+    {
+      "check": "GEN_YUOYQOBVJWRGGY finite NR-ER-LBD",
+      "pass": true
+    },
+    {
+      "check": "GEN_YUOYQOBVJWRGGY finite NR-ER",
+      "pass": true
+    },
+    {
+      "check": "GEN_YUOYQOBVJWRGGY finite NR-PPAR-gamma",
+      "pass": true
+    },
+    {
+      "check": "GEN_YUOYQOBVJWRGGY finite PAMPA_NCATS",
+      "pass": true
+    },
+    {
+      "check": "GEN_YUOYQOBVJWRGGY finite Pgp_Broccatelli",
+      "pass": true
+    },
+    {
+      "check": "GEN_YUOYQOBVJWRGGY finite SR-ARE",
+      "pass": true
+    },
+    {
+      "check": "GEN_YUOYQOBVJWRGGY finite SR-ATAD5",
+      "pass": true
+    },
+    {
+      "check": "GEN_YUOYQOBVJWRGGY finite SR-HSE",
+      "pass": true
+    },
+    {
+      "check": "GEN_YUOYQOBVJWRGGY finite SR-MMP",
+      "pass": true
+    },
+    {
+      "check": "GEN_YUOYQOBVJWRGGY finite SR-p53",
+      "pass": true
+    },
+    {
+      "check": "GEN_YUOYQOBVJWRGGY finite Skin_Reaction",
+      "pass": true
+    },
+    {
+      "check": "GEN_YUOYQOBVJWRGGY finite hERG",
+      "pass": true
+    },
+    {
+      "check": "GEN_YUOYQOBVJWRGGY finite Caco2_Wang",
+      "pass": true
+    },
+    {
+      "check": "GEN_YUOYQOBVJWRGGY finite Clearance_Hepatocyte_AZ",
+      "pass": true
+    },
+    {
+      "check": "GEN_YUOYQOBVJWRGGY finite Clearance_Microsome_AZ",
+      "pass": true
+    },
+    {
+      "check": "GEN_YUOYQOBVJWRGGY finite Half_Life_Obach",
+      "pass": true
+    },
+    {
+      "check": "GEN_YUOYQOBVJWRGGY finite HydrationFreeEnergy_FreeSolv",
+      "pass": true
+    },
+    {
+      "check": "GEN_YUOYQOBVJWRGGY finite LD50_Zhu",
+      "pass": true
+    },
+    {
+      "check": "GEN_YUOYQOBVJWRGGY finite Lipophilicity_AstraZeneca",
+      "pass": true
+    },
+    {
+      "check": "GEN_YUOYQOBVJWRGGY finite PPBR_AZ",
+      "pass": true
+    },
+    {
+      "check": "GEN_YUOYQOBVJWRGGY finite Solubility_AqSolDB",
+      "pass": true
+    },
+    {
+      "check": "GEN_YUOYQOBVJWRGGY finite VDss_Lombardo",
+      "pass": true
+    },
+    {
+      "check": "451 predicted endpoints",
+      "pass": true
+    },
+    {
+      "check": "10 raw range exceptions",
+      "pass": true
+    },
+    {
+      "check": "unverified68 not converted into members",
+      "pass": true
+    }
+  ]
+}

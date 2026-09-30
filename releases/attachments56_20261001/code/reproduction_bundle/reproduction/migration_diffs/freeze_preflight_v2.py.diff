@@ -1,0 +1,15 @@
+--- scientific_source/03_compute/method/freeze_preflight_v2.py
++++ published/03_compute/method/freeze_preflight_v2.py
+@@ -4,10 +4,11 @@
+ import json
+ from collections import Counter
+ from pathlib import Path
++from portable_config import required_path
+ from rdkit import Chem
+ 
+ HERE=Path(__file__).resolve().parent
+-ROOT=HERE/"ranking_formal_v2_16698"
++ROOT=required_path("TMC1_PREFLIGHT_ROOT")
+ def read(p):
+     with p.open(newline="",encoding="utf-8") as f:return list(csv.DictReader(f))
+ def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()

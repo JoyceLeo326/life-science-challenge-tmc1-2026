@@ -1,0 +1,12 @@
+{
+  "batch": "design_final40",
+  "jobs_in_ledger": 30,
+  "independent_qc_pass": 29,
+  "independent_qc_failed": 1,
+  "reasons": {
+    "outside_docking_box": 1
+  },
+  "middle_contact_4A_among_qc_pass": 14,
+  "score_le_frozen_threshold_among_qc_pass": 1,
+  "source_ledger_file_sha256": "acafc3d8200164d82f473620e79f16912f978da354c66b7ed98fb4ea376e9eac"
+}

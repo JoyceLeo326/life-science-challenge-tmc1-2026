@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "scope": "Latest tracked release plus root entry documents and LATEST configuration",
+  "counts": {
+    "members": 5284,
+    "text_segments": 3376,
+    "archives": 13,
+    "gzip_streams": 3,
+    "pdfs": 34,
+    "images": 147
+  },
+  "detected_private_text_items": 0,
+  "remaining_office_custom_metadata_parts": 0,
+  "nonempty_image_exif": 0,
+  "checks": "Nested Office and model members, gzip input streams, PDF text/metadata, image metadata, Notebook text, source and documentation; public repository URL and Windows system font paths are recognized context.",
+  "public_materials_derivation": "materials/PUBLIC_DERIVATION.json"
+}

@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "private_path_or_credential_findings": [],
+  "all_python_AST_pass": [
+    "scripts/prepare_frozen_domain.py",
+    "scripts/run_chemical_alerts.py",
+    "source_scripts/add_fullprops_sdf.py",
+    "source_scripts/audit_historical_unmatched.py",
+    "source_scripts/audit_repaired_sdf.py",
+    "source_scripts/build_library.py",
+    "source_scripts/create_snapshot_manifest.py",
+    "source_scripts/make_overlap.py",
+    "source_scripts/repair_sdf_exact_stereo.py",
+    "source_scripts/replay_library.py",
+    "source_scripts/verify_and_profile.py",
+    "verify_manifest.py"
+  ],
+  "scientific_value_changes": false,
+  "public_raw_data_is_chembl_api_not_chat_history": true,
+  "source_licensing_page_verified": "https://chembl.github.io/chembl-licensing/",
+  "verified_date": "2026-09-30",
+  "check_only_actual_exit": 0,
+  "full_library_rebuild_this_acceptance": false
+}

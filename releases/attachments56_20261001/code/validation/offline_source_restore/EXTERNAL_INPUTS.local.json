@@ -1,0 +1,6 @@
+{
+  "mouse_pdbqt": "screen_v2/inputs/receptors/M_PUB_ALL.pdbqt",
+  "human_pdbqt": "screen_v2/inputs/receptors/H_AF.pdbqt",
+  "mouse_aligned_pdb": "screen_v2/inputs/receptors/M_PUB_ALL_aligned_heavy.pdb",
+  "human_aligned_pdb": "screen_v2/inputs/receptors/H_AF_aligned_heavy.pdb"
+}

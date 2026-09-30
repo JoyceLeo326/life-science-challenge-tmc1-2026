@@ -1,0 +1,9 @@
+{
+  "input_sha256": {
+    "20260927": "16967c5badcb8a6c9a38d6d2417a2c5b6f2f4a52be48b13d15ccf6afde5072fd",
+    "20260928": "1024297fb8c0286dcdedd5bf5c13f30e09825dd0ec7191935c1f8366c919fad4",
+    "20260929": "4ee651054d34c55dbd932b69d1cbf8aaaed812e3ac378a6aaeafd81090c98131"
+  },
+  "same_receptor_box_protocol": "03 confirmed M_PUB_ALL middle box Vina e8; seeds 20260927/28/29",
+  "conclusion": "no robust same-region score improvement across three seeds"
+}

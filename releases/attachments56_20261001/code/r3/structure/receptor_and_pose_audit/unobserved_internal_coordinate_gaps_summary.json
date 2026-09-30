@@ -1,0 +1,5 @@
+{
+  "observed_internal_gap_count": 2,
+  "gaps_with_endpoint_within_box_plus8A": [],
+  "warning": "Complete observed heavy-atom coverage inside box+8A does not prove absence or position of unobserved protein segments. No coordinates invented."
+}

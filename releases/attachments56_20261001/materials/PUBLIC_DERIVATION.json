@@ -1,0 +1,158 @@
+{
+  "source_materials_zip_sha256": "3bb6a72fcfcd4719f2ff29bd957f4b1be59f9d9d04b95ef0f4dea5563ba56432",
+  "transform_scope": "Public metadata only; all scientific text, tables, graphics, presentation media and document body parts are unchanged.",
+  "affected_files": [
+    {
+      "path": "documents/靶向TMC1机械转导通道的小分子变构调节剂AI辅助筛选——用于Usher综合征1B的听力代偿保护策略评审表（区赛）.docx",
+      "source_sha256": "38dd45a8c1d90bf363d8d6f50c18dc310376f971d9f864b1578d668d783854e5",
+      "public_sha256": "9e0369aec00408433271429b8f5267b21ac657dc21383ef9dceba155fee38dfa",
+      "removed_parts": [
+        "docProps/custom.xml"
+      ],
+      "modified_package_relationship_parts": [
+        "_rels/.rels",
+        "[Content_Types].xml"
+      ],
+      "all_document_content_and_other_members_byte_identical": true,
+      "reason": "Removed private custom Office template metadata and its package references. No private values are retained in this record."
+    }
+  ],
+  "office_files_reviewed": [
+    {
+      "path": "documents/候选身份、既有药理与ADMET预测补充报告.docx",
+      "custom_metadata_present_after": false,
+      "external_relationships": [],
+      "source_sha256": "0e791eb1408c91823139df2f8d571e5386b7ddee1e9451624dd8a38e61671986",
+      "public_sha256": "0e791eb1408c91823139df2f8d571e5386b7ddee1e9451624dd8a38e61671986"
+    },
+    {
+      "path": "documents/科研报告_附件56口径修订版.docx",
+      "custom_metadata_present_after": false,
+      "external_relationships": [
+        {
+          "relationship_part": "word/_rels/document.xml.rels",
+          "target_is_web": true,
+          "is_attached_template": false
+        },
+        {
+          "relationship_part": "word/_rels/document.xml.rels",
+          "target_is_web": true,
+          "is_attached_template": false
+        },
+        {
+          "relationship_part": "word/_rels/document.xml.rels",
+          "target_is_web": true,
+          "is_attached_template": false
+        },
+        {
+          "relationship_part": "word/_rels/document.xml.rels",
+          "target_is_web": true,
+          "is_attached_template": false
+        },
+        {
+          "relationship_part": "word/_rels/document.xml.rels",
+          "target_is_web": true,
+          "is_attached_template": false
+        },
+        {
+          "relationship_part": "word/_rels/document.xml.rels",
+          "target_is_web": true,
+          "is_attached_template": false
+        },
+        {
+          "relationship_part": "word/_rels/document.xml.rels",
+          "target_is_web": true,
+          "is_attached_template": false
+        },
+        {
+          "relationship_part": "word/_rels/document.xml.rels",
+          "target_is_web": true,
+          "is_attached_template": false
+        },
+        {
+          "relationship_part": "word/_rels/document.xml.rels",
+          "target_is_web": true,
+          "is_attached_template": false
+        },
+        {
+          "relationship_part": "word/_rels/document.xml.rels",
+          "target_is_web": true,
+          "is_attached_template": false
+        },
+        {
+          "relationship_part": "word/_rels/document.xml.rels",
+          "target_is_web": true,
+          "is_attached_template": false
+        },
+        {
+          "relationship_part": "word/_rels/document.xml.rels",
+          "target_is_web": true,
+          "is_attached_template": false
+        },
+        {
+          "relationship_part": "word/_rels/document.xml.rels",
+          "target_is_web": true,
+          "is_attached_template": false
+        },
+        {
+          "relationship_part": "word/_rels/document.xml.rels",
+          "target_is_web": true,
+          "is_attached_template": false
+        },
+        {
+          "relationship_part": "word/_rels/document.xml.rels",
+          "target_is_web": true,
+          "is_attached_template": false
+        },
+        {
+          "relationship_part": "word/_rels/document.xml.rels",
+          "target_is_web": true,
+          "is_attached_template": false
+        },
+        {
+          "relationship_part": "word/_rels/document.xml.rels",
+          "target_is_web": true,
+          "is_attached_template": false
+        }
+      ],
+      "source_sha256": "99a8bd6bcfce77fc411bcfe1b55a83226464597a52e9679f95416bfe6d59601f",
+      "public_sha256": "99a8bd6bcfce77fc411bcfe1b55a83226464597a52e9679f95416bfe6d59601f"
+    },
+    {
+      "path": "documents/逐页中文讲稿_附件56修订版.docx",
+      "custom_metadata_present_after": false,
+      "external_relationships": [],
+      "source_sha256": "7e34ece05457403243256111d542835467458a1b8e6d17ae9194bbe9befe733f",
+      "public_sha256": "7e34ece05457403243256111d542835467458a1b8e6d17ae9194bbe9befe733f"
+    },
+    {
+      "path": "documents/靶向TMC1机械转导通道的小分子变构调节剂AI辅助筛选——用于Usher综合征1B的听力代偿保护策略摘要.docx",
+      "custom_metadata_present_after": false,
+      "external_relationships": [],
+      "source_sha256": "91c1dc9afa37c4f1874b216bb3b2904d07faf58a03067c1d60b31e13fbb57d76",
+      "public_sha256": "91c1dc9afa37c4f1874b216bb3b2904d07faf58a03067c1d60b31e13fbb57d76"
+    },
+    {
+      "path": "documents/靶向TMC1机械转导通道的小分子变构调节剂AI辅助筛选——用于Usher综合征1B的听力代偿保护策略评审表（区赛）.docx",
+      "custom_metadata_present_after": false,
+      "external_relationships": [],
+      "source_sha256": "38dd45a8c1d90bf363d8d6f50c18dc310376f971d9f864b1578d668d783854e5",
+      "public_sha256": "9e0369aec00408433271429b8f5267b21ac657dc21383ef9dceba155fee38dfa"
+    },
+    {
+      "path": "documents/靶向TMC1机械转导通道的小分子变构调节剂AI辅助筛选——用于Usher综合征1B的听力代偿保护策略项目介绍（区赛）.pptx",
+      "custom_metadata_present_after": false,
+      "external_relationships": [],
+      "source_sha256": "04b2c73dd943472de18299f5338fd1cbc0220ca480f42022dd2cbbd4a61e99af",
+      "public_sha256": "04b2c73dd943472de18299f5338fd1cbc0220ca480f42022dd2cbbd4a61e99af"
+    },
+    {
+      "path": "documents/靶向TMC1机械转导通道的小分子变构调节剂AI辅助筛选——用于Usher综合征1B的听力代偿保护策略项目介绍（区赛）_无配音编辑版.pptx",
+      "custom_metadata_present_after": false,
+      "external_relationships": [],
+      "source_sha256": "f189f2c3760890b6e2c5f77249989f8f0f61c3b445d5151e71a7746c4cd060a1",
+      "public_sha256": "f189f2c3760890b6e2c5f77249989f8f0f61c3b445d5151e71a7746c4cd060a1"
+    }
+  ],
+  "originals_unchanged": true
+}

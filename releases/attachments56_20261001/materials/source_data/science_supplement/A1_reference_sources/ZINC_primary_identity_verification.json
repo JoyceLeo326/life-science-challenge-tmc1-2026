@@ -1,0 +1,64 @@
+{
+  "checked_utc": "2026-09-30T18:28:07.816005+00:00",
+  "requested": 5,
+  "resolved": 3,
+  "remaining": 2,
+  "records": [
+    {
+      "paper_id": "ZINC24739924",
+      "database_id": "ZINC000024739924",
+      "status": "EXACT_DATABASE_ID_AND_RECOMPUTED_INCHIKEY_MATCH",
+      "smiles": "CN(Cc1ccccc1OC(F)(F)F)Cn1nnc2ccccc2c1=O",
+      "canonical_isomeric_smiles": "CN(Cc1ccccc1OC(F)(F)F)Cn1nnc2ccccc2c1=O",
+      "inchikey": "FNELXQNHUFREHZ-UHFFFAOYSA-N",
+      "formula": "C17H15F3N4O2",
+      "source_response_sha256": "0108c8f4a6e3340088f6450746177a7b56857abd216bc356b2bdbeb29d23241c",
+      "source_endpoint": "https://cartblanche22.docking.org/substances.json",
+      "source_result_url": "https://cartblanche22.docking.org/search/result/e6b57f52-d6bf-4048-89c9-dc67b58ee28a",
+      "molecular_scope": "database_identity_not_article_salt_or_batch_equivalence"
+    },
+    {
+      "paper_id": "ZINC58438263",
+      "database_id": "ZINC000058438263",
+      "status": "EXACT_DATABASE_ID_AND_RECOMPUTED_INCHIKEY_MATCH",
+      "smiles": "Cc1cccc(OCCN(C)Cn2nc(-c3cc(C)ccc3C)c3ccccc3c2=O)c1",
+      "canonical_isomeric_smiles": "Cc1cccc(OCCN(C)Cn2nc(-c3cc(C)ccc3C)c3ccccc3c2=O)c1",
+      "inchikey": "XRYFBNVEQXAODN-UHFFFAOYSA-N",
+      "formula": "C27H29N3O2",
+      "source_response_sha256": "0108c8f4a6e3340088f6450746177a7b56857abd216bc356b2bdbeb29d23241c",
+      "source_endpoint": "https://cartblanche22.docking.org/substances.json",
+      "source_result_url": "https://cartblanche22.docking.org/search/result/e6b57f52-d6bf-4048-89c9-dc67b58ee28a",
+      "molecular_scope": "database_identity_not_article_salt_or_batch_equivalence"
+    },
+    {
+      "paper_id": "ZINC06530230",
+      "database_id": "ZINC000006530230",
+      "status": "NOT_RETURNED_BY_CARTBLANCHE_ZINC20",
+      "smiles": "",
+      "inchikey": "",
+      "source_response_sha256": "0108c8f4a6e3340088f6450746177a7b56857abd216bc356b2bdbeb29d23241c"
+    },
+    {
+      "paper_id": "ZINC12986242",
+      "database_id": "ZINC000012986242",
+      "status": "EXACT_DATABASE_ID_AND_RECOMPUTED_INCHIKEY_MATCH",
+      "smiles": "COc1ccc(Cl)cc1CN(C)Cc1nc2scc(-c3ccccc3)c2c(=O)[nH]1",
+      "canonical_isomeric_smiles": "COc1ccc(Cl)cc1CN(C)Cc1nc2scc(-c3ccccc3)c2c(=O)[nH]1",
+      "inchikey": "UXASLFCISHUCQI-UHFFFAOYSA-N",
+      "formula": "C22H20ClN3O2S",
+      "source_response_sha256": "0108c8f4a6e3340088f6450746177a7b56857abd216bc356b2bdbeb29d23241c",
+      "source_endpoint": "https://cartblanche22.docking.org/substances.json",
+      "source_result_url": "https://cartblanche22.docking.org/search/result/e6b57f52-d6bf-4048-89c9-dc67b58ee28a",
+      "molecular_scope": "database_identity_not_article_salt_or_batch_equivalence"
+    },
+    {
+      "paper_id": "ZINC12430014",
+      "database_id": "ZINC000012430014",
+      "status": "NOT_RETURNED_BY_CARTBLANCHE_ZINC20",
+      "smiles": "",
+      "inchikey": "",
+      "source_response_sha256": "0108c8f4a6e3340088f6450746177a7b56857abd216bc356b2bdbeb29d23241c"
+    }
+  ],
+  "note": "API missing=[] is not used as evidence of completeness; exact requested-returned ID intersection is checked. Catalog prices in raw API are ignored."
+}

@@ -1,0 +1,116 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "author original files same fixed-source inventory",
+      "passed": true,
+      "detail": [
+        {
+          "path": "3D_Pharmacophores_Models/AHR/AHR_7_actives.sdf",
+          "sha_match": true
+        },
+        {
+          "path": "3D_Pharmacophores_Models/APR-1/APR-1_9_actives.sdf",
+          "sha_match": true
+        },
+        {
+          "path": "3D_Pharmacophores_Models/APR-2/APR-2_8_actives.sdf",
+          "sha_match": true
+        },
+        {
+          "path": "3D_Pharmacophores_Models/APRR/APRR_7_actives.sdf",
+          "sha_match": true
+        },
+        {
+          "path": "3D_Pharmacophores_Models/ARR-1/ARR-1_7_actives.sdf",
+          "sha_match": true
+        },
+        {
+          "path": "3D_Pharmacophores_Models/ARR-1/README.md",
+          "sha_match": true
+        },
+        {
+          "path": "3D_Pharmacophores_Models/ARR-2/ARR-2_9_actives.sdf",
+          "sha_match": true
+        },
+        {
+          "path": "3D_Pharmacophores_Models/ARR-3/ARR-3_7_actives.sdf",
+          "sha_match": true
+        },
+        {
+          "path": "3D_Pharmacophores_Models/ARR-4/ARR-4_8_actives.sdf",
+          "sha_match": true
+        },
+        {
+          "path": "3D_Pharmacophores_Models/HRR/HRR_9_actives.sdf",
+          "sha_match": true
+        },
+        {
+          "path": "3D_Pharmacophores_Models/PRR/PRR_7_actives.sdf",
+          "sha_match": true
+        },
+        {
+          "path": "3D_Pharmacophores_Models/README.md",
+          "sha_match": true
+        },
+        {
+          "path": "Mechano_electrical_transducer_channels_complex/README.md",
+          "sha_match": true
+        },
+        {
+          "path": "README.md",
+          "sha_match": true
+        }
+      ]
+    },
+    {
+      "check": "ten source SDF files",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "all 78 records parse to 12 original exact identities",
+      "passed": true,
+      "detail": {
+        "LTGAWWQODUWZHK-UHFFFAOYSA-O": 9,
+        "OLCUKYIRSDRELH-UHFFFAOYSA-O": 9,
+        "BWGBLXITCWGUFZ-RMKNXTFCSA-O": 2,
+        "PUAVTDKYTXNVBU-OIDHKYIRSA-P": 10,
+        "RQQJJXVETXFINY-UHFFFAOYSA-O": 2,
+        "QZVCTJOXCFMACW-INIZCTEOSA-O": 10,
+        "ZIIMCNZAFNETMV-UHFFFAOYSA-O": 10,
+        "FACJHMYFSONKTJ-SFHVURJKSA-O": 8,
+        "XCPGHVQEEXUHNC-UHFFFAOYSA-O": 7,
+        "DAHGONXBHYVOPI-NEPJUHHUSA-O": 6,
+        "QBLKUVUKIZEWAL-UHFFFAOYSA-O": 4,
+        "OKZXHSSXTVFTDR-UHFFFAOYSA-N": 1
+      }
+    },
+    {
+      "check": "installed actual model environment versions match receipt",
+      "passed": true,
+      "detail": {
+        "admet-ai": "2.0.1",
+        "chemprop": "2.3.1",
+        "lightning": "2.6.6",
+        "torch": "2.8.0",
+        "rdkit": "2026.3.6",
+        "numpy": "2.4.6",
+        "pandas": "3.0.6"
+      }
+    },
+    {
+      "check": "endpoint metadata matches installed official package",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "portable CPU entry and actual replay receipt",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "passed": 6,
+  "total": 6,
+  "scope": "Original fixed-source SDF identity counts and installed ADMET-AI metadata, no new scientific inference."
+}

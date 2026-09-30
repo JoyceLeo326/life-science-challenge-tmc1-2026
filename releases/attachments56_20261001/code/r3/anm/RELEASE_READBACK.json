@@ -1,0 +1,14 @@
+{
+  "status": "Frozen actual ANM evidence; no full-atom docking readiness",
+  "frozen_utc": "2026-09-30T14:42:23.919435+00:00",
+  "networks_numerically_pass": 6,
+  "CA_traversals": 24,
+  "main_display_frames": 8,
+  "main_display_coarse_geometry_pass": 6,
+  "full_atom_docking_ready": 0,
+  "text_files_scanned": 39,
+  "internal_absolute_path_hits": [],
+  "receptor_coordinate_files_in_public_package": 0,
+  "independent_QA_pass": true,
+  "source_model_coordinates_and_all_CA_frames_retained_internal": true
+}

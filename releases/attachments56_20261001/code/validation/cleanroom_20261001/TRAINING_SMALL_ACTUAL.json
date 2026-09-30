@@ -1,0 +1,62 @@
+{
+  "SMILES": {
+    "epoch_record": {
+      "epoch": 1,
+      "train_token_loss": 1.83942,
+      "val_token_loss": 1.40245,
+      "wall_seconds_cumulative": 10.6
+    },
+    "summary": {
+      "run_id": "example_smiles",
+      "training_molecules": 1846,
+      "heldout_scaffold_molecules": 169,
+      "model_parameters": 46978,
+      "sample_counts": {
+        "invalid_smiles": 32
+      },
+      "unique_eligible": 0,
+      "fixed_diverse_list": 0,
+      "wall_seconds": 10.7
+    }
+  },
+  "SELFIES": {
+    "epoch_record": {
+      "epoch": 1,
+      "train_token_loss": 2.68613,
+      "scaffold_heldout_token_loss": 2.19461,
+      "wall_seconds_cumulative": 9.8
+    },
+    "summary": {
+      "run_id": "example_selfies",
+      "base_result": {
+        "raw_path": "small_example/04_design/example_selfies/base_raw_generated.csv.gz",
+        "raw_sha256": "3c6e59b280204ac880fa1279dbc523059cb1848924e834b701021407d0b46645",
+        "sample_counts": {
+          "valid_samples": 31,
+          "unique_valid": 29,
+          "constraint_excluded": 29,
+          "duplicate_generated": 2,
+          "invalid_decode_or_rdkit": 1
+        },
+        "similarity_yield_after_properties": {},
+        "eligible": 0,
+        "fixed_diverse": 0
+      },
+      "focused_result": null,
+      "wall_seconds": 10.6
+    }
+  },
+  "weight_files": [
+    {
+      "path": "04_design/example_selfies/base_model_state.pt",
+      "bytes": 202471,
+      "sha256": "3c0a88ba002e349d292d0245b95caf63e9ac1ea75d2b5b3368549b50e8d18e4e"
+    },
+    {
+      "path": "04_design/example_smiles/model_state.pt",
+      "bytes": 190832,
+      "sha256": "6cc2cf7d1370e5a8ce55b308f82f4d507da45f87aed3fd254d9e2df00f153e8d"
+    }
+  ],
+  "interpretation": "One-epoch tutorial model execution; no eligible neural designs; seven tutorial candidates are independent rule enumeration, not these neural samples."
+}

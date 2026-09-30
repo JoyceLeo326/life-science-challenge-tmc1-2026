@@ -1,0 +1,56 @@
+[
+  {
+    "compound_id": "LIB_DNDVGFIEWOHGAH",
+    "conditions": 4,
+    "scores_min": -11.102,
+    "scores_max": -9.505,
+    "middle_count": 4,
+    "box_margin_min": 2.844,
+    "receptor_distance_min": 2.703
+  },
+  {
+    "compound_id": "LIB_FCRHJSNRFAAYQD",
+    "conditions": 4,
+    "scores_min": -11.179,
+    "scores_max": -9.842,
+    "middle_count": 4,
+    "box_margin_min": 2.822,
+    "receptor_distance_min": 2.984
+  },
+  {
+    "compound_id": "LIB_MYAFDHCCQBIZLC",
+    "conditions": 4,
+    "scores_min": -10.663,
+    "scores_max": -10.062,
+    "middle_count": 3,
+    "box_margin_min": -0.047,
+    "receptor_distance_min": 2.877
+  },
+  {
+    "compound_id": "LIB_YWDIXVZCRMMQQY",
+    "conditions": 4,
+    "scores_min": -10.616,
+    "scores_max": -10.108,
+    "middle_count": 4,
+    "box_margin_min": 2.476,
+    "receptor_distance_min": 2.916
+  },
+  {
+    "compound_id": "LIB_ZNDXPRCORYDEAP",
+    "conditions": 4,
+    "scores_min": -10.923,
+    "scores_max": -10.045,
+    "middle_count": 4,
+    "box_margin_min": 2.577,
+    "receptor_distance_min": 2.912
+  },
+  {
+    "compound_id": "LIB_ZVHBDYFMHCQADD",
+    "conditions": 4,
+    "scores_min": -10.842,
+    "scores_max": -9.911,
+    "middle_count": 3,
+    "box_margin_min": 0.06,
+    "receptor_distance_min": 2.803
+  }
+]

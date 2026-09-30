@@ -1,0 +1,22 @@
+{
+  "weights_loaded_safely": true,
+  "state_dict_matched": true,
+  "forward_shape": [
+    1,
+    1,
+    67
+  ],
+  "finite": true,
+  "vocabulary_size": 67,
+  "parameters": 51763,
+  "formal_raw_sample_rows": 20000,
+  "sample_status_counts": {
+    "constraint_excluded": 19714,
+    "eligible": 233,
+    "duplicate_generated": 52,
+    "seen_in_training": 1
+  },
+  "weights_sha256": "58a3de0c2a038ca602f2af14d6f23404b58ceb73ae06949d6b1442f9a9fb136c",
+  "samples_sha256": "12bc38a228ddc6859ed94d3529e75782fc92d980538202bf39a6aef3a40dd8f0",
+  "operation": "saved formal model load and one forward pass; no formal retraining or new generation"
+}

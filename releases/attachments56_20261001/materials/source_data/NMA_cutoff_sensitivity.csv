@@ -1,0 +1,3 @@
+structure_id,cutoffs_compared,low20_RMSIP,largest_principal_angle_deg,MSF_low20_normalized_Spearman,both_networks_numerical_QC_pass
+H_AF_domain,15A vs 13A,0.9528749481465533,69.05433797188839,0.9869843321415337,True
+M_PUB_ALL_domain,15A vs 13A,0.9683508207882566,60.789728121325,0.9898288023888626,True

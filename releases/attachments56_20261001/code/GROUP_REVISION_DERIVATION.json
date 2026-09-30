@@ -1,0 +1,1053 @@
+{
+  "baseline_code_zip_sha256": "9db537c002f3d87cc118bb9510b1e53db723c947db5b1803f20e3c245e8f5515",
+  "baseline_code_manifest_sha256": "2f6545857c6874dd0ad252e17280fca4a9a92b5fabbd14444fe37b5ace17e271",
+  "changes": [
+    {
+      "path": "ENTRY_TEST_MATRIX.csv",
+      "previous_public_sha256": "67d8ed0d0612f50e65f9e1c0931878a56ee4b8763ade753d01dc2e1078267b1b",
+      "current_sha256": "1de8072cd4e6b7682eebc35337e39a4028ad9ceef3ab9d937f5fd868cf056950"
+    },
+    {
+      "path": "INTEGRATED_SOURCE_SNAPSHOT_INDEX.json",
+      "previous_public_sha256": "e148ac748f13b988bef64caeb0d8ceff14d370f2c4d6b68bce2ec8cb56552e41",
+      "current_sha256": "09038a04965048571efdfd910fa92162ee63643ca07922588d0560ee16cb43de"
+    },
+    {
+      "path": "PUBLIC_DERIVATION.json",
+      "previous_public_sha256": "a29579e2c5aa7b636eb79a4a187c17257bd7c1bd29df25a9d981d1cf76058f71",
+      "current_sha256": "9e66e8752daa6ccf035dc90b9deb2002eedc41ddf03b622fa94a134a37627bf5"
+    },
+    {
+      "path": "README.md",
+      "previous_public_sha256": "9876a71d54a63a8d64d008b6b4157e374c94a7e1a6b11df2e681acfa23abafe2",
+      "current_sha256": "d9aa87ff21691adb1defd3208bc284b61a31e9ef7975387ecc10d8bb8319d0b1"
+    },
+    {
+      "path": "reference_restore/PUBLIC_FILE_MANIFEST.json",
+      "previous_public_sha256": "cf2d3f8830ca45890103c63bc40275012aefce14a647ebc26eed46249537e0b4",
+      "current_sha256": "a9d657adafbca6939b86b5b48963df105535c94ee6b637f032857af4fea7dcdd"
+    },
+    {
+      "path": "reference_restore/README.md",
+      "previous_public_sha256": "ccd9b28aff2632c28b330ff56b4c263e0d263f47076ebe9a0b6350e6418d3ef4",
+      "current_sha256": "1d82d51b6ea01c533d94160742e16d5a8690e80a33338314fdf03d0100ef8db1"
+    },
+    {
+      "path": "SOURCE_INDEX.json",
+      "previous_public_sha256": "5c04590b2032d7c748ebc63da47ec0af6645447951a3d642083d7595c9b6ee54",
+      "current_sha256": "558a8daf53a13b2ef5be07cc3dc8525ab5fb08be6c0d5727231f81ffadb2377c"
+    },
+    {
+      "path": "TEST_REPORT.md",
+      "previous_public_sha256": "0d9d7aa9ed8323617fa45a881d2d782021aa6b4cc555e46189e22a383d17f066",
+      "current_sha256": "1022e6d5cc1392d23fd51dd6fad86a926a3041b285e26cc8781e9462811148fd"
+    }
+  ],
+  "added_files": [
+    {
+      "path": "data/group_supplement/A1_reference_sources/A1_README.md",
+      "bytes": 1339,
+      "sha256": "69fb755ff700b80d4079bc12cc71df8f79905f3e32f7a61b2fa854ae8d9ae560"
+    },
+    {
+      "path": "data/group_supplement/A1_reference_sources/author_source_inventory.json",
+      "bytes": 2454,
+      "sha256": "2c00e9dc5b8b59e8b66fc19c29262d4951fb6b80541c09151ce1132532c6e421"
+    },
+    {
+      "path": "data/group_supplement/A1_reference_sources/author_training_unique12.csv",
+      "bytes": 5048,
+      "sha256": "50e1360c5d726cd920c9e3490dd8b7f58c7bca4babbce50f15c2b2b35b567c6c"
+    },
+    {
+      "path": "data/group_supplement/A1_reference_sources/author_tree.tsv",
+      "bytes": 4530,
+      "sha256": "f8a692a8e3c94f2e1bee0d0ca44ccf04d46646e58605ecb62b4689a694b60742"
+    },
+    {
+      "path": "data/group_supplement/A1_reference_sources/formal6_author_training12_overlap.csv",
+      "bytes": 847,
+      "sha256": "4b37ec3d64b60667f6fab27609b4d4070cc5962e6901bf7b358a132dc4d43a54"
+    },
+    {
+      "path": "data/group_supplement/A1_reference_sources/paper_13_plus_3_author_source_map.csv",
+      "bytes": 3139,
+      "sha256": "8c511ef445b9b4e37b2689863e46c968ad4e6e2368ff2a8027ecba4bf45bb9ef"
+    },
+    {
+      "path": "data/group_supplement/A1_reference_sources/paper_dye_uptake12_plus_amitraz.csv",
+      "bytes": 4824,
+      "sha256": "23a8f557ffece0426ac756a5910de8189a17f212ce127a5f210a7ef9ef4c984b"
+    },
+    {
+      "path": "data/group_supplement/A1_reference_sources/QUERY_LEDGER.json",
+      "bytes": 3469,
+      "sha256": "c1696cdf646266f89583d6e0a8cbf4ebbb21db28f32ee99c78b0e9fd3b672d59"
+    },
+    {
+      "path": "data/group_supplement/A1_reference_sources/reference_source_claim_audit.csv",
+      "bytes": 1213,
+      "sha256": "d24a8ef1c54a26623bbe7c7bb64e4a4928baadd5a391d348b27451689b3268f7"
+    },
+    {
+      "path": "data/group_supplement/A1_reference_sources/REFERENCE_SOURCE_CLARIFICATION.md",
+      "bytes": 6142,
+      "sha256": "77fd7a6497191599883eef0ed6d8d2492e881c2880a0e72fd0f1d571f688f24a"
+    },
+    {
+      "path": "data/group_supplement/A1_reference_sources/ZINC_primary_identity_verification.csv",
+      "bytes": 1847,
+      "sha256": "8cd2d6b25a8e4459715aee8d79cdbe08328ccbed7fab01ccf54d703708647a32"
+    },
+    {
+      "path": "data/group_supplement/A2_chembl_neighbors/A2_README.md",
+      "bytes": 2626,
+      "sha256": "cb4502d120633b3f53e4a2be779170e0299fe2f4f0ce8af805d1a9dc21d21d8e"
+    },
+    {
+      "path": "data/group_supplement/A2_chembl_neighbors/candidate_neighbor_annotations.csv",
+      "bytes": 540219,
+      "sha256": "4db8911612a7db3899089905c3c1e057346c1343bed7ea7d220ff9bc7c60cd9b"
+    },
+    {
+      "path": "data/group_supplement/A2_chembl_neighbors/candidate_neighbor_ge0p6.csv",
+      "bytes": 109663,
+      "sha256": "8c5c8bcddad2e7a36db568a262e966cd18d920def7fad1f9cea10adeb8a3d00f"
+    },
+    {
+      "path": "data/group_supplement/A2_chembl_neighbors/candidate_similarity_identity_audit.csv",
+      "bytes": 1325,
+      "sha256": "3d51299865b89e356cb1b7c91ad04aafbccfbb7fb39be7e4daad3b9f66ce998c"
+    },
+    {
+      "path": "data/group_supplement/A2_chembl_neighbors/candidate_similarity_summary.csv",
+      "bytes": 1386,
+      "sha256": "446bcc36cda3e3a8aa7c3bbd3d4a32bacdc8a364a38ab18ea2fe1fc19abc00ed"
+    },
+    {
+      "path": "data/group_supplement/A2_chembl_neighbors/CHEMBL_FETCH_COMPLETE.json",
+      "bytes": 4158,
+      "sha256": "dc9e6047840662b79ba921ab1be42d62e6565772bde1602296dbd2fd16ca6fe7"
+    },
+    {
+      "path": "data/group_supplement/A2_chembl_neighbors/chembl_raw/CHEMBL1076497/molecule.json",
+      "bytes": 5257,
+      "sha256": "65bc8d488779c9eb93c29a9a8156c02a018ca4221dca65fb2976a5426b5306ae"
+    },
+    {
+      "path": "data/group_supplement/A2_chembl_neighbors/chembl_raw/CHEMBL1076497/molecule.receipt.json",
+      "bytes": 268,
+      "sha256": "46913d72badc0896dd92110fdba0227e60a343016f589a3beaf4b062249c0032"
+    },
+    {
+      "path": "data/group_supplement/A2_chembl_neighbors/chembl_raw/CHEMBL1076497/similarity40_page000.json",
+      "bytes": 1082046,
+      "sha256": "659342a0a7cdd10c7f49bf4a5b3f7787f46152640a7a09c81924021a7b3aa74a"
+    },
+    {
+      "path": "data/group_supplement/A2_chembl_neighbors/chembl_raw/CHEMBL1076497/similarity40_page000.receipt.json",
+      "bytes": 406,
+      "sha256": "9c6568d471720a43f2f19ee22b43976b82dbdeeb83c4c1f9457d0d2bbecebbb2"
+    },
+    {
+      "path": "data/group_supplement/A2_chembl_neighbors/chembl_raw/CHEMBL1076497/similarity60_count.json",
+      "bytes": 312,
+      "sha256": "8a812bd3cc86dd6d298fce2ae5ff86e40b7ac9427fc9366f7a2dc964afb00614"
+    },
+    {
+      "path": "data/group_supplement/A2_chembl_neighbors/chembl_raw/CHEMBL1076497/similarity60_count.receipt.json",
+      "bytes": 315,
+      "sha256": "11baa2554a37ab655276c9c88d9523f7ba21ce32cdd6573501504cd3cdf311ea"
+    },
+    {
+      "path": "data/group_supplement/A2_chembl_neighbors/chembl_raw/CHEMBL1079964/molecule.json",
+      "bytes": 4783,
+      "sha256": "a7338868964f6211b1fbd1f3c6411994e005c6c158e9c65e54d1bbc4e8b4d6b9"
+    },
+    {
+      "path": "data/group_supplement/A2_chembl_neighbors/chembl_raw/CHEMBL1079964/molecule.receipt.json",
+      "bytes": 268,
+      "sha256": "aa5cbda38c91c31e1bf231065ab062983990b126847bd2398661174641336a51"
+    },
+    {
+      "path": "data/group_supplement/A2_chembl_neighbors/chembl_raw/CHEMBL1079964/similarity40_page000.json",
+      "bytes": 1414333,
+      "sha256": "18811f4e235ab6e24eae782bf3f47bb2318f0cc028480885f57de6cb9d15744e"
+    },
+    {
+      "path": "data/group_supplement/A2_chembl_neighbors/chembl_raw/CHEMBL1079964/similarity40_page000.receipt.json",
+      "bytes": 406,
+      "sha256": "7e7c057fa66c723cd16f8a7c3aec8d7db438937caf07ea2491012f10dd81d1f1"
+    },
+    {
+      "path": "data/group_supplement/A2_chembl_neighbors/chembl_raw/CHEMBL1079964/similarity60_count.json",
+      "bytes": 311,
+      "sha256": "ae63aacecaf03e785ab9a6b6b7b55936daa4e81cd896fea71717fb33a43e8221"
+    },
+    {
+      "path": "data/group_supplement/A2_chembl_neighbors/chembl_raw/CHEMBL1079964/similarity60_count.receipt.json",
+      "bytes": 315,
+      "sha256": "f1cf261ec79a5d5bdb7978959665a333b6c0be7ae8b3a922ebf38a5268945716"
+    },
+    {
+      "path": "data/group_supplement/A2_chembl_neighbors/chembl_raw/CHEMBL1080205/molecule.json",
+      "bytes": 4880,
+      "sha256": "023ecdcad1a91851e19b2ee3758b62b9e3f547d4d53aa385d59a161bd0b2f610"
+    },
+    {
+      "path": "data/group_supplement/A2_chembl_neighbors/chembl_raw/CHEMBL1080205/molecule.receipt.json",
+      "bytes": 268,
+      "sha256": "565a42f0a881f85766796eb28e20c6fe571af9c1bbbb8de0db230141d22687cb"
+    },
+    {
+      "path": "data/group_supplement/A2_chembl_neighbors/chembl_raw/CHEMBL1080205/similarity40_page000.json",
+      "bytes": 584690,
+      "sha256": "c43e3d24ece502d542e40803038c1082be1e92eb007d19f4f03715768d2610bc"
+    },
+    {
+      "path": "data/group_supplement/A2_chembl_neighbors/chembl_raw/CHEMBL1080205/similarity40_page000.receipt.json",
+      "bytes": 405,
+      "sha256": "0eadbacce1f103d0f61c89a1fec4d04cb4b8e901fa96707015257d0f9fab92a4"
+    },
+    {
+      "path": "data/group_supplement/A2_chembl_neighbors/chembl_raw/CHEMBL1080205/similarity60_count.json",
+      "bytes": 312,
+      "sha256": "0e57c000d4d46eaf6ad3b4733c96200ab30a2d5179c0ebff06e437e609db214a"
+    },
+    {
+      "path": "data/group_supplement/A2_chembl_neighbors/chembl_raw/CHEMBL1080205/similarity60_count.receipt.json",
+      "bytes": 315,
+      "sha256": "6c01b2eeddf5e94aca76a30cfa135c79096dbe3fa6f0def25d0b3ad2593f5adf"
+    },
+    {
+      "path": "data/group_supplement/A2_chembl_neighbors/chembl_raw/CHEMBL1080362/molecule.json",
+      "bytes": 4880,
+      "sha256": "1500fbec8f0b2a3402406d3206213f1345b10eaa7ab2bbbe2b743d9ca6b8f930"
+    },
+    {
+      "path": "data/group_supplement/A2_chembl_neighbors/chembl_raw/CHEMBL1080362/molecule.receipt.json",
+      "bytes": 268,
+      "sha256": "4777d3701274b86c2d34688f5643957d52cd04f7566b4bf29563a3e46c687a2d"
+    },
+    {
+      "path": "data/group_supplement/A2_chembl_neighbors/chembl_raw/CHEMBL1080362/similarity40_page000.json",
+      "bytes": 862327,
+      "sha256": "63968e2ffea53466c6410c3b19578e444327ab240d935bad7beffbcf45a67f28"
+    },
+    {
+      "path": "data/group_supplement/A2_chembl_neighbors/chembl_raw/CHEMBL1080362/similarity40_page000.receipt.json",
+      "bytes": 405,
+      "sha256": "48f32ba6cb582a485f06e75cd99946cf98d0062d4d92a28da07f0171599e62db"
+    },
+    {
+      "path": "data/group_supplement/A2_chembl_neighbors/chembl_raw/CHEMBL1080362/similarity60_count.json",
+      "bytes": 294,
+      "sha256": "a4f4cb97f077b97aeb3af23ccb02caf6cf853bab08521ff005267a7f9bee0a29"
+    },
+    {
+      "path": "data/group_supplement/A2_chembl_neighbors/chembl_raw/CHEMBL1080362/similarity60_count.receipt.json",
+      "bytes": 315,
+      "sha256": "eca9813a07a50458f2997c55b0617612aed3c0a735f2f648977b39e5ead2b652"
+    },
+    {
+      "path": "data/group_supplement/A2_chembl_neighbors/chembl_raw/CHEMBL1080669/molecule.json",
+      "bytes": 5161,
+      "sha256": "36dab778ef835fb62063f7a0b6d43aefdeb5f6d8e63eb2a37bdf34ce570e2a5d"
+    },
+    {
+      "path": "data/group_supplement/A2_chembl_neighbors/chembl_raw/CHEMBL1080669/molecule.receipt.json",
+      "bytes": 268,
+      "sha256": "ef84c94800a9132474cf67d96a76d0c3f2eb97b3661819ef3a1989dac8dcdfb9"
+    },
+    {
+      "path": "data/group_supplement/A2_chembl_neighbors/chembl_raw/CHEMBL1080669/similarity40_page000.json",
+      "bytes": 535664,
+      "sha256": "fe8a3c2f800c3b38302b4bb6c036711688a3c4e984fd98a0ad74b6e8652cdfd7"
+    },
+    {
+      "path": "data/group_supplement/A2_chembl_neighbors/chembl_raw/CHEMBL1080669/similarity40_page000.receipt.json",
+      "bytes": 405,
+      "sha256": "aee8faf830f3858d7e366b8a6897609a80dfa2b0f5e0e043f3182e50ab57e53a"
+    },
+    {
+      "path": "data/group_supplement/A2_chembl_neighbors/chembl_raw/CHEMBL1080669/similarity60_count.json",
+      "bytes": 311,
+      "sha256": "9b195ba29f44f976893fd60e872b1d5e62410302068be4a35a1a544bd4a6aeb6"
+    },
+    {
+      "path": "data/group_supplement/A2_chembl_neighbors/chembl_raw/CHEMBL1080669/similarity60_count.receipt.json",
+      "bytes": 315,
+      "sha256": "d78fc1bc24fb7419cb14a4993afbfc94c119b85e0b54707f5b42d46a8d7b09a8"
+    },
+    {
+      "path": "data/group_supplement/A2_chembl_neighbors/chembl_raw/CHEMBL1081740/molecule.json",
+      "bytes": 4971,
+      "sha256": "dd4c74cd88f5e0eec19ff21ee2c4a89fa4f7c64345cdf4e01ed1d2283e51ce10"
+    },
+    {
+      "path": "data/group_supplement/A2_chembl_neighbors/chembl_raw/CHEMBL1081740/molecule.receipt.json",
+      "bytes": 268,
+      "sha256": "f5c18b719050a51b9e40c4b6be71cb66aa19863a84ff8af9c85fe406e4cb276a"
+    },
+    {
+      "path": "data/group_supplement/A2_chembl_neighbors/chembl_raw/CHEMBL1081740/similarity40_page000.json",
+      "bytes": 522921,
+      "sha256": "4997ef38e00d7be7a634cefde67f5e2c07cfdd9ed894b2fc838f85925dfe4626"
+    },
+    {
+      "path": "data/group_supplement/A2_chembl_neighbors/chembl_raw/CHEMBL1081740/similarity40_page000.receipt.json",
+      "bytes": 405,
+      "sha256": "78bb9bdc1bad9c6d7689152b3ce5dde9f1c91485c83e569fb2e51d836c8b8b73"
+    },
+    {
+      "path": "data/group_supplement/A2_chembl_neighbors/chembl_raw/CHEMBL1081740/similarity60_count.json",
+      "bytes": 312,
+      "sha256": "7f301708ca45ed1aabe6f954188e276171437472f30db1f93502d7748245f9a9"
+    },
+    {
+      "path": "data/group_supplement/A2_chembl_neighbors/chembl_raw/CHEMBL1081740/similarity60_count.receipt.json",
+      "bytes": 315,
+      "sha256": "4b99f552e07f7540889e647f59c5abefa09ffb73059b3297ef07f9f319b01d91"
+    },
+    {
+      "path": "data/group_supplement/A2_chembl_neighbors/formal6_original_assays.csv",
+      "bytes": 3492,
+      "sha256": "c53398a1af0dcb8d148ab9954075d0b3e2958f5dbc5a507193ed19c5a651e6e6"
+    },
+    {
+      "path": "data/group_supplement/A2_chembl_neighbors/formal_six_input.csv",
+      "bytes": 1684,
+      "sha256": "f389adbea2aa48122927e7de0ceebd71a10aa75195144bb9116ef29abc7fc961"
+    },
+    {
+      "path": "data/group_supplement/A2_chembl_neighbors/pharmacology_actual_activity_records.csv",
+      "bytes": 253003,
+      "sha256": "000b0a903eb0197edccc2376b31eac2c90c463de6e0a4bcb8f52738a11c330b8"
+    },
+    {
+      "path": "data/group_supplement/A2_chembl_neighbors/PHARMACOLOGY_FETCH_COMPLETE.json",
+      "bytes": 16007,
+      "sha256": "5a8a657ad60ae6484e3194bd0d88f3add8764d78b81bd257aeacb70314c9c42d"
+    },
+    {
+      "path": "data/group_supplement/A2_chembl_neighbors/pharmacology_molecule_summary.csv",
+      "bytes": 12917,
+      "sha256": "24c13696d7f81548cb96c3331b74a28d6a3f82d5c4135602cb6fb5f6d954a973"
+    },
+    {
+      "path": "data/group_supplement/A2_chembl_neighbors/PHARMACOLOGY_QUERY_PLAN.json",
+      "bytes": 944,
+      "sha256": "c48e9b025dd95289faf06ed2f95fe7b0d3ccd4da781f6f693bb444383511a42d"
+    },
+    {
+      "path": "data/group_supplement/A2_chembl_neighbors/pharmacology_raw/activity_batch00_page000.json",
+      "bytes": 928173,
+      "sha256": "72785032b60db840b07aa7644b983755acb07217596fbb364f152d74d3aa3565"
+    },
+    {
+      "path": "data/group_supplement/A2_chembl_neighbors/pharmacology_raw/activity_batch00_page000.receipt.json",
+      "bytes": 813,
+      "sha256": "389944d37b624c7629d39e9e8a477cdc09b449fe7fc81eac3a63a981d69da272"
+    },
+    {
+      "path": "data/group_supplement/A2_chembl_neighbors/pharmacology_raw/assay_batch00_page000.json",
+      "bytes": 30881,
+      "sha256": "32427c5f9b5854bb2adda5bff6094f530c4ba0ff72cf686bd0bf5ae500d12a97"
+    },
+    {
+      "path": "data/group_supplement/A2_chembl_neighbors/pharmacology_raw/assay_batch00_page000.receipt.json",
+      "bytes": 841,
+      "sha256": "6dc2a06ae11358803cb2a74b8c942a6b210fbd6c0e4becf6533624d6f8b04ace"
+    },
+    {
+      "path": "data/group_supplement/A2_chembl_neighbors/pharmacology_raw/assay_batch01_page000.json",
+      "bytes": 31846,
+      "sha256": "8932b176a56dd82362d9c68cce9c53baeb9959a26dc5a34927f773fcedcd6716"
+    },
+    {
+      "path": "data/group_supplement/A2_chembl_neighbors/pharmacology_raw/assay_batch01_page000.receipt.json",
+      "bytes": 841,
+      "sha256": "c77a1a4bc9318835fdac66f01c2a6a191b105abe6dab145cc04bd1d757d7a7c6"
+    },
+    {
+      "path": "data/group_supplement/A2_chembl_neighbors/pharmacology_raw/assay_batch02_page000.json",
+      "bytes": 34986,
+      "sha256": "05884fbab36a70a6dda77709a8b3388a18d30d466a06fb5332b6cf92a2f4e390"
+    },
+    {
+      "path": "data/group_supplement/A2_chembl_neighbors/pharmacology_raw/assay_batch02_page000.receipt.json",
+      "bytes": 841,
+      "sha256": "8e0c8a7025a92d9fb52bd08d3516c0832e46cf825be44b1c66372e10f5122690"
+    },
+    {
+      "path": "data/group_supplement/A2_chembl_neighbors/pharmacology_raw/assay_batch03_page000.json",
+      "bytes": 34504,
+      "sha256": "8d23dde55b5b80319800b270ff355a8b610e53f54bdac0b50272362d57413a2c"
+    },
+    {
+      "path": "data/group_supplement/A2_chembl_neighbors/pharmacology_raw/assay_batch03_page000.receipt.json",
+      "bytes": 841,
+      "sha256": "715278004b54258361c39eecd318dfa61444b5df0792f9bdb9b0be32cfa3451c"
+    },
+    {
+      "path": "data/group_supplement/A2_chembl_neighbors/pharmacology_raw/assay_batch04_page000.json",
+      "bytes": 33376,
+      "sha256": "f4dc1cd386efe0eea0a7e3f7ea613fa4326b677f26056832944f21c9661745a1"
+    },
+    {
+      "path": "data/group_supplement/A2_chembl_neighbors/pharmacology_raw/assay_batch04_page000.receipt.json",
+      "bytes": 841,
+      "sha256": "7b3d0d3b4a0fd37a8cf107df6e7206286ce033f9f5f0de18d473211fd15e5fbc"
+    },
+    {
+      "path": "data/group_supplement/A2_chembl_neighbors/pharmacology_raw/assay_batch05_page000.json",
+      "bytes": 33637,
+      "sha256": "7fbcfddf0ac7d9d11c74e299ae6ba5e57b3cd01113be60a26ede3fd90f1b4e28"
+    },
+    {
+      "path": "data/group_supplement/A2_chembl_neighbors/pharmacology_raw/assay_batch05_page000.receipt.json",
+      "bytes": 841,
+      "sha256": "a413215f4fd15793ef78eb0f26ae8e58fd07e9e8c52a5a889c8de76c79b8e6db"
+    },
+    {
+      "path": "data/group_supplement/A2_chembl_neighbors/pharmacology_raw/assay_batch06_page000.json",
+      "bytes": 33748,
+      "sha256": "f6fe1694217b45deabd7d3381be6b11107be6533475a02766033b222afab2cae"
+    },
+    {
+      "path": "data/group_supplement/A2_chembl_neighbors/pharmacology_raw/assay_batch06_page000.receipt.json",
+      "bytes": 841,
+      "sha256": "62dba09daf8065cc2f45669f14b207319d69fa8280f262e0668f622dc6cfa602"
+    },
+    {
+      "path": "data/group_supplement/A2_chembl_neighbors/pharmacology_raw/assay_batch07_page000.json",
+      "bytes": 40239,
+      "sha256": "af18a5b15e3404d2dca4baba36cca155273b41a5fcf7d3cf60210c2eee49b201"
+    },
+    {
+      "path": "data/group_supplement/A2_chembl_neighbors/pharmacology_raw/assay_batch07_page000.receipt.json",
+      "bytes": 841,
+      "sha256": "76373ab956d9b3216c4d144f3d41c7c4d5501ccdf12eecda0c39b15ab99f9d64"
+    },
+    {
+      "path": "data/group_supplement/A2_chembl_neighbors/pharmacology_raw/assay_batch08_page000.json",
+      "bytes": 36153,
+      "sha256": "101d35aeed5f2c98581565787fc55d5002d1d66e97a5d58e374dee30a6aac6bf"
+    },
+    {
+      "path": "data/group_supplement/A2_chembl_neighbors/pharmacology_raw/assay_batch08_page000.receipt.json",
+      "bytes": 841,
+      "sha256": "6d5dcefc03142826f8d9488878afda2537f740a3a4dc96da2279ff8228a5ff62"
+    },
+    {
+      "path": "data/group_supplement/A2_chembl_neighbors/pharmacology_raw/assay_batch09_page000.json",
+      "bytes": 35459,
+      "sha256": "8b4e99539587490fb3775a718602927afb14bbe40b1aadd8ebd0ee04f160eeee"
+    },
+    {
+      "path": "data/group_supplement/A2_chembl_neighbors/pharmacology_raw/assay_batch09_page000.receipt.json",
+      "bytes": 841,
+      "sha256": "c101d0e4d0ea63e130c8c94f347bde4612e0ad5778c98539f3bfcf80b417f42a"
+    },
+    {
+      "path": "data/group_supplement/A2_chembl_neighbors/pharmacology_raw/assay_batch10_page000.json",
+      "bytes": 33870,
+      "sha256": "acf9638669e2241095d8129c144e5631d28f1396253cfa1fbd83f10aafd8e610"
+    },
+    {
+      "path": "data/group_supplement/A2_chembl_neighbors/pharmacology_raw/assay_batch10_page000.receipt.json",
+      "bytes": 841,
+      "sha256": "e1081d9fc45f4905e38c26cae6cc4f5766d0848cc18c9bd8101c952e6260910e"
+    },
+    {
+      "path": "data/group_supplement/A2_chembl_neighbors/pharmacology_raw/assay_batch11_page000.json",
+      "bytes": 36353,
+      "sha256": "dd49b8f0029a420e42bedfe697b435e852849989bf5fb3f0012a8170d9c74dcd"
+    },
+    {
+      "path": "data/group_supplement/A2_chembl_neighbors/pharmacology_raw/assay_batch11_page000.receipt.json",
+      "bytes": 839,
+      "sha256": "3e7293a58d80b093783c2187f95bb5bf6c7c66fcbe9187e0d62823aa9623a116"
+    },
+    {
+      "path": "data/group_supplement/A2_chembl_neighbors/pharmacology_raw/assay_batch12_page000.json",
+      "bytes": 1951,
+      "sha256": "c57e3eed3b24cd6af2c55be46762049e9f98a9d626c6aebda7805d405a6678a9"
+    },
+    {
+      "path": "data/group_supplement/A2_chembl_neighbors/pharmacology_raw/assay_batch12_page000.receipt.json",
+      "bytes": 310,
+      "sha256": "89c7eaf7ad0c501360d4c23b0ec907c7c429cf417cfe2f5fd5460dce7e6b4c5a"
+    },
+    {
+      "path": "data/group_supplement/A2_chembl_neighbors/pharmacology_raw/document_batch00_page000.json",
+      "bytes": 52124,
+      "sha256": "0fe9c6aaab6b06de8b432b59b593c222844f25951e7c4c512714bc62bd0271fc"
+    },
+    {
+      "path": "data/group_supplement/A2_chembl_neighbors/pharmacology_raw/document_batch00_page000.receipt.json",
+      "bytes": 847,
+      "sha256": "59aa3de70aa65f8e2729483a169b4b36c0b4f7372178ef8c5f248bebe806d51e"
+    },
+    {
+      "path": "data/group_supplement/A2_chembl_neighbors/pharmacology_raw/document_batch01_page000.json",
+      "bytes": 21424,
+      "sha256": "440fed555624151c25490af4dd277e91fa941e6a7c7114c2693d42696c3567a0"
+    },
+    {
+      "path": "data/group_supplement/A2_chembl_neighbors/pharmacology_raw/document_batch01_page000.receipt.json",
+      "bytes": 495,
+      "sha256": "8fb7a9e159dd0d72b1700ff6f4c06839cda9dd3a77dd5b2d5f163657354fb0f5"
+    },
+    {
+      "path": "data/group_supplement/A2_chembl_neighbors/pharmacology_raw/mechanism_batch00_page000.json",
+      "bytes": 111,
+      "sha256": "4602fc528c371fde69c19534951ba13dfdf908f51fd8588fc974b18428d7a8dd"
+    },
+    {
+      "path": "data/group_supplement/A2_chembl_neighbors/pharmacology_raw/mechanism_batch00_page000.receipt.json",
+      "bytes": 811,
+      "sha256": "5e2f2972f3805ccc5de5d26dc4806fb9dd1ac20edd27699db667b9afaf7e8306"
+    },
+    {
+      "path": "data/group_supplement/A2_chembl_neighbors/pharmacology_representative_shortlist.csv",
+      "bytes": 10835,
+      "sha256": "4e3dd8774663eab29ae09a4e6bdc579d7ff877a5848e31b0631b298088fc4c95"
+    },
+    {
+      "path": "data/group_supplement/A2_chembl_neighbors/representative_neighbor_pharmacology.csv",
+      "bytes": 17834,
+      "sha256": "926217393a53446e9d08bf6b983e86eb483b6c80ed5e849c932c77dd95977871"
+    },
+    {
+      "path": "data/group_supplement/A3_ADMET_SA/A3_README.md",
+      "bytes": 3388,
+      "sha256": "68798477e0d06f006229b05c3853834d7bc618f4942360efd20522e9fc5eaf12"
+    },
+    {
+      "path": "data/group_supplement/A3_ADMET_SA/ADMET_AI_v2_11_full_predictions.csv",
+      "bytes": 10625,
+      "sha256": "10d576899f6c7f472c3b9bdb6588bc0982b5534b4f3f062ee899bbfaddb21bb1"
+    },
+    {
+      "path": "data/group_supplement/A3_ADMET_SA/ADMET_AI_v2_endpoint_metadata.csv",
+      "bytes": 9971,
+      "sha256": "32d46092deab7a553e319bdecaaed5e7dc2300c992d74d0a68c13c37f4af9d2d"
+    },
+    {
+      "path": "data/group_supplement/A3_ADMET_SA/ADMET_AI_v2_inference_manifest.json",
+      "bytes": 3800,
+      "sha256": "4c6d7aa368614b75330c3d1037e4f6b7b3739c283c8ad86269623196f74199f5"
+    },
+    {
+      "path": "data/group_supplement/A3_ADMET_SA/ADMET_AI_v2_MIT_LICENSE.txt",
+      "bytes": 1069,
+      "sha256": "98ef26c4e033aba896312dea2d2e57541deb64ad9cb7fe7749143ebc97f3d113"
+    },
+    {
+      "path": "data/group_supplement/A3_ADMET_SA/ADMET_AI_v2_out_of_range.csv",
+      "bytes": 1264,
+      "sha256": "549d84bd8da4d7ab2224bbb0fdf41c1fece180f31a8b69127675c9332c77b17e"
+    },
+    {
+      "path": "data/group_supplement/A3_ADMET_SA/ADMET_AI_v2_range_qc_all.csv",
+      "bytes": 49996,
+      "sha256": "b4fe35c8decc9e1536d741c6cf13d6f672376f119cee6ee40a2b8afbcfa02f9e"
+    },
+    {
+      "path": "data/group_supplement/A3_ADMET_SA/ADMET_CPU_REPLAY.json",
+      "bytes": 235,
+      "sha256": "2cee846fd7617adbf384663840ebe75691a13592c71850d7147dc61cc46b0065"
+    },
+    {
+      "path": "data/group_supplement/A3_ADMET_SA/ADMET_SA_panel11.csv",
+      "bytes": 3123,
+      "sha256": "fdf3fc27df85ce7d5bc5dde6528ba101ac4f1d21be215298ac73fd00838e8cfe"
+    },
+    {
+      "path": "data/group_supplement/A3_ADMET_SA/multiparameter_druglikeness11.csv",
+      "bytes": 6705,
+      "sha256": "e6e88ed8018747602b22059b8e346e00dc4b1633271984a3c3ae54a8807d3e07"
+    },
+    {
+      "path": "data/group_supplement/A3_ADMET_SA/range_qc11.py",
+      "bytes": 1486,
+      "sha256": "73bf7504dba40f45a203ff9d2606913eee5ed2af894a279887275d11715e9dc7"
+    },
+    {
+      "path": "data/group_supplement/A3_ADMET_SA/requirements_admet_ai_exploratory.txt",
+      "bytes": 112,
+      "sha256": "13301502939931feecbff4f4b70e90f0f1e294f78eaa450fc5c0456126df48e0"
+    },
+    {
+      "path": "data/group_supplement/A3_ADMET_SA/run_admet_ai11.py",
+      "bytes": 3227,
+      "sha256": "859f9bd3a32e902cb0e6687b253fa2d34285664cef7a5af7e550582957b04922"
+    },
+    {
+      "path": "data/group_supplement/A3_ADMET_SA/SA_physchem_actual11.csv",
+      "bytes": 5114,
+      "sha256": "c7c020c6df9f4ec8a74c70c2cfd7be364ef2e00e6a0109f3cecfa27f764e541b"
+    },
+    {
+      "path": "data/group_supplement/A3_ADMET_SA/SERVICE_RECEIPT.json",
+      "bytes": 1492,
+      "sha256": "fc514b218f9466fd4d65cefe477340fd7d6c6fc97f90e8a5ea069e42cc20ea69"
+    },
+    {
+      "path": "data/group_supplement/A3_ADMET_SA/swissadme_actual.csv",
+      "bytes": 2460,
+      "sha256": "cc0ff105b9d77ae16c5a9a328ee4ca3f2eacf329140c1509b7c9e3c5f2b8cccc"
+    },
+    {
+      "path": "data/group_supplement/A3_ADMET_SA/SwissADME_combined11.csv",
+      "bytes": 5265,
+      "sha256": "cf1543de105bb84a9617284265a5f6caa5afb7566041b12a390a21eb40653047"
+    },
+    {
+      "path": "data/group_supplement/A3_ADMET_SA/SwissADME_identity_acceptance.csv",
+      "bytes": 1074,
+      "sha256": "e0db549f6ba0b1f743393930dc344f0d4a1915b43287f5491611e153376beb1d"
+    },
+    {
+      "path": "data/group_supplement/A3_ADMET_SA/swissadme_input11.smi",
+      "bytes": 857,
+      "sha256": "7ae5efdc81fb6161996ffcf56f30cc934f55ebfb9a5480fae07fc76c919a50cd"
+    },
+    {
+      "path": "data/group_supplement/A3_ADMET_SA/swissadme_remaining6.smi",
+      "bytes": 433,
+      "sha256": "2dea70d1ec161054cb69c87d9b9183b3f0d1bfb2ad0bcafd81a983d78484e9e0"
+    },
+    {
+      "path": "data/group_supplement/A3_ADMET_SA/swissadme_remaining6_actual.csv",
+      "bytes": 2774,
+      "sha256": "3113025fd530cc0f6e084262701006435cab6d556a0221624a00189dc4e36d9b"
+    },
+    {
+      "path": "data/group_supplement/FILE_MANIFEST.json",
+      "bytes": 24601,
+      "sha256": "08b28625ad81d3a31ed2e50c7e2a25004042d2be31abcdaa59393d5126c9ae9b"
+    },
+    {
+      "path": "data/group_supplement/OFFLINE_REBUILD_ACTUAL.json",
+      "bytes": 677,
+      "sha256": "ab7b37f05f2ee3b1cd23f24922ed5de9c7cacbf445ed6ca463d1dc565248d514"
+    },
+    {
+      "path": "data/group_supplement/README.md",
+      "bytes": 963,
+      "sha256": "c7ed738b1c98df0ac24ab37878e4a3fe0edbfccc997fe5849f31f5715ff4a1c5"
+    },
+    {
+      "path": "data/group_supplement/rebuild_science_tables.py",
+      "bytes": 5878,
+      "sha256": "e7594231b96c756269bb012fa07459e382ed10c30020bd8cb96697040dca6038"
+    },
+    {
+      "path": "data/group_supplement/REPRODUCE.md",
+      "bytes": 2640,
+      "sha256": "dcee4f24611555833dcd09d4cb3304681b7cc4329fdaf2283c012fb2d375aee4"
+    },
+    {
+      "path": "data/group_supplement/requirements_offline_audit.txt",
+      "bytes": 17,
+      "sha256": "2b809cc848b1f927b1f14c9fa9a83bffe438335cdeace18d91cc797bc490eac6"
+    },
+    {
+      "path": "data/group_supplement/SCIENCE_ACCEPTANCE.csv",
+      "bytes": 1449,
+      "sha256": "a3bb44b586a2bfe21cdd4bf66e4b267b02afcf598c8a26b7a81f251dca9f5974"
+    },
+    {
+      "path": "data/group_supplement/SCIENCE_ACCEPTANCE.json",
+      "bytes": 3681,
+      "sha256": "48b3c7d7b84b1d17267f3537b0a415aaae58fe76dc3768db1d9cb279798b712e"
+    },
+    {
+      "path": "data/group_supplement/SOURCE_INDEX.json",
+      "bytes": 1044,
+      "sha256": "6bb71f3f8ffd81ee41adceb574bdf119732cede95aeb8a10c47a9daf23dd6f1e"
+    },
+    {
+      "path": "data/group_supplement/verify_science_supplement.py",
+      "bytes": 2590,
+      "sha256": "e7757e99d2bfb26a8eecc768e41116258b6bf1c0d0005770365b490dad287d6f"
+    },
+    {
+      "path": "notebooks/NOTEBOOK_DELIVERY_MANIFEST.json",
+      "bytes": 1183,
+      "sha256": "a4fc9a138263fcc6e5939dd0e17bb3982970dde084fb709f29a2813fb882a347"
+    },
+    {
+      "path": "notebooks/NOTEBOOK_EXECUTION_RECEIPT.json",
+      "bytes": 2830,
+      "sha256": "43c029e2cd5d8ca0b9ef161d8008111f479854dfeb6825289363cf68f9d67b56"
+    },
+    {
+      "path": "notebooks/NOTEBOOK_RUNNER_REPLAY.json",
+      "bytes": 1575,
+      "sha256": "e468fce6bcc72c721c5241eb13228b9369bf2e9d59609957ba897a64ff6738c8"
+    },
+    {
+      "path": "notebooks/README.md",
+      "bytes": 1574,
+      "sha256": "16b816e2d0268a389c817bd46ce03e07b87a6b843580344a7fc5dc69384a3ea2"
+    },
+    {
+      "path": "notebooks/requirements-notebook.txt",
+      "bytes": 52,
+      "sha256": "4e8176fa1d1e60ec677b1912ae1cb27c71c19f2948d3dfb4f06cf2b908ea887b"
+    },
+    {
+      "path": "notebooks/run_notebook.py",
+      "bytes": 814,
+      "sha256": "d2f41c62320522c5445f8ff301400bed6762f6650d46f341be142b8f7f7b8ba7"
+    },
+    {
+      "path": "notebooks/six_candidate_confirmation.png",
+      "bytes": 39038,
+      "sha256": "23787a9c135b42bf115fb8ac24965ebe849ec121210c6784f15d3c3b937bfc98"
+    },
+    {
+      "path": "notebooks/TMC1_walkthrough.ipynb",
+      "bytes": 49197,
+      "sha256": "b9554cb7362b1f7b075cc2684b3574d5ec1150f8d8e4bab4375eb967015b7873"
+    },
+    {
+      "path": "validation/cleanroom_20261001/ACTUAL_COMMANDS.json",
+      "bytes": 3468,
+      "sha256": "6144a7620ed9dd1378f4646d413be3de3ce67180399ea27452b9bd7061ba2360"
+    },
+    {
+      "path": "validation/cleanroom_20261001/create_venv.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "validation/cleanroom_20261001/declared_dependency_install.log",
+      "bytes": 8091,
+      "sha256": "e8296431af6cf8a985f1938070e805f6857e04fa9d79df6c8fba32c08db9efad"
+    },
+    {
+      "path": "validation/cleanroom_20261001/ENVIRONMENT_FULL_LOCK.txt",
+      "bytes": 620,
+      "sha256": "d3ccb89f82c5747d4dbf3bb3639c8f8432a53af723ea8b43c14d50d6872a6263"
+    },
+    {
+      "path": "validation/cleanroom_20261001/final_pip_check.log",
+      "bytes": 31,
+      "sha256": "672aec65a45bed50e70229c70934a7eebf0462595c459b83023027645d57cccf"
+    },
+    {
+      "path": "validation/cleanroom_20261001/formal_six_replay.log",
+      "bytes": 1144,
+      "sha256": "8644de2253b99e3bfd75a86aaf1ed4a213ef8417b18e0a8fbdc8d0989f299e31"
+    },
+    {
+      "path": "validation/cleanroom_20261001/FRESH_HUMAN_RESTORE.json",
+      "bytes": 1491,
+      "sha256": "0b8570b6a0a0930c0a2c6b58c4284526f064b9f88e39cc5c325b06818779606d"
+    },
+    {
+      "path": "validation/cleanroom_20261001/FRESH_MOUSE_RESTORE.json",
+      "bytes": 2370,
+      "sha256": "cde13ab7e5ea5c6df4a4bfceaa097e0f03f059059cb79f2cbe745666a10e0b39"
+    },
+    {
+      "path": "validation/cleanroom_20261001/FRESH_SOURCE_FETCH.json",
+      "bytes": 870,
+      "sha256": "2f85cc9aa512e3c08cc99876c9d4589889aeec22c89ab6a3486f9776accd2e29"
+    },
+    {
+      "path": "validation/cleanroom_20261001/installed_versions.log",
+      "bytes": 450,
+      "sha256": "2c3b465a656db84e02407a3e40e3581b2af82b11189001ed5b88a992d7861ba8"
+    },
+    {
+      "path": "validation/cleanroom_20261001/isolation_before_install.log",
+      "bytes": 425,
+      "sha256": "557a35b4f731bcff9057017e101329e314210504f6cddfdb868d178d576b8c5b"
+    },
+    {
+      "path": "validation/cleanroom_20261001/MANIFEST.json",
+      "bytes": 5648,
+      "sha256": "d061e9346b4ee9db0766f8b893fe14e7048af7ab5c8db00f81ab685fc83da168"
+    },
+    {
+      "path": "validation/cleanroom_20261001/pip_check.log",
+      "bytes": 31,
+      "sha256": "672aec65a45bed50e70229c70934a7eebf0462595c459b83023027645d57cccf"
+    },
+    {
+      "path": "validation/cleanroom_20261001/PUBLIC_ACTUAL_COMMANDS.json",
+      "bytes": 1735,
+      "sha256": "4be66dcd0b01222fcfce07a5cb9f591261b62c7f00997089f44f56fa8a26e169"
+    },
+    {
+      "path": "validation/cleanroom_20261001/PUBLIC_ACTUAL_REPLAY_RECEIPTS.json",
+      "bytes": 16020,
+      "sha256": "2e072e2c15b68518b66e56b251329aa869234682eeb2b084ff483a9028871822"
+    },
+    {
+      "path": "validation/cleanroom_20261001/PUBLIC_FULL_REPLAY_REPORT.md",
+      "bytes": 5773,
+      "sha256": "52f6542ada9e64da7698248778f26e3bc5a661fb35d131d394932c7f16ec4b30"
+    },
+    {
+      "path": "validation/cleanroom_20261001/PUBLIC_FULL_STATUS.json",
+      "bytes": 390,
+      "sha256": "0c791c081fae18cc065efb10dd2073b396b1a373ccf4b890edd3f5641bc80d70"
+    },
+    {
+      "path": "validation/cleanroom_20261001/public_integrated_full.log",
+      "bytes": 732,
+      "sha256": "feb1bb99e0eac077045d8deceea14558ed34789e3d3c30c1a5d724c1075d3b72"
+    },
+    {
+      "path": "validation/cleanroom_20261001/public_integrated_full_after_repair.log",
+      "bytes": 952,
+      "sha256": "5e555e09d2001d8e4105e809ca5f02a72eea6c9736b5c95f7f777bf2e379e904"
+    },
+    {
+      "path": "validation/cleanroom_20261001/PUBLIC_INTEGRATED_REPLAY_REPORT.json",
+      "bytes": 7761,
+      "sha256": "2c44b5e8b0c1a5086c9fde8014abdaa03a1f3adeb36507620bb63b128a726560"
+    },
+    {
+      "path": "validation/cleanroom_20261001/public_manifest.log",
+      "bytes": 28,
+      "sha256": "c5432eb56d7678ddbe5531cca36b935906dfff9359deb0dd52937e8578ebc20a"
+    },
+    {
+      "path": "validation/cleanroom_20261001/public_manifest_after_repair.log",
+      "bytes": 28,
+      "sha256": "c5432eb56d7678ddbe5531cca36b935906dfff9359deb0dd52937e8578ebc20a"
+    },
+    {
+      "path": "validation/cleanroom_20261001/PUBLIC_METADATA_REPAIR.json",
+      "bytes": 1844,
+      "sha256": "e53da0daf0b09ed102d155c81dbdbb6da588b4fd12ed61c782996b7f50520ace"
+    },
+    {
+      "path": "validation/cleanroom_20261001/public_official_candidates_before_metadata_repair.log",
+      "bytes": 1718,
+      "sha256": "1ce722f72210ab9d0761b9a59bf9cff6964bd8f324e4f4fbe8e80ebe88379bdf"
+    },
+    {
+      "path": "validation/cleanroom_20261001/reference_fixed_source_fetch.log",
+      "bytes": 870,
+      "sha256": "2f85cc9aa512e3c08cc99876c9d4589889aeec22c89ab6a3486f9776accd2e29"
+    },
+    {
+      "path": "validation/cleanroom_20261001/reference_human_restore.log",
+      "bytes": 1491,
+      "sha256": "0b8570b6a0a0930c0a2c6b58c4284526f064b9f88e39cc5c325b06818779606d"
+    },
+    {
+      "path": "validation/cleanroom_20261001/reference_mouse_restore.log",
+      "bytes": 2370,
+      "sha256": "cde13ab7e5ea5c6df4a4bfceaa097e0f03f059059cb79f2cbe745666a10e0b39"
+    },
+    {
+      "path": "validation/cleanroom_20261001/restore_dependency_install.log",
+      "bytes": 1488,
+      "sha256": "6a4eae870138d5c9dc28968737f9cc589d6498250fbdfa7221cfa46c3b79616c"
+    },
+    {
+      "path": "validation/cleanroom_20261001/RESULT_CHECKS.json",
+      "bytes": 1540,
+      "sha256": "16be6c1fedc96469876898515d4fb69b8c31be4fd8a72cd218761d68ab228e37"
+    },
+    {
+      "path": "validation/cleanroom_20261001/SMALL_EXAMPLE_COMPARISON.json",
+      "bytes": 510,
+      "sha256": "651ed03303c7011ea6753153a88cf614e39468ec1401da22a2b72072fc6dc854"
+    },
+    {
+      "path": "validation/cleanroom_20261001/STATUS.json",
+      "bytes": 519,
+      "sha256": "bd19afabec826f4fd8c426da663e21b3571c485dd8a21152be80d7528fdd9df0"
+    },
+    {
+      "path": "validation/cleanroom_20261001/training_generation_screening_small.log",
+      "bytes": 103,
+      "sha256": "b3f8b82af0db4eff8cd6e7defbaaa9739876b315218bd24e224e78fb5d8ea20c"
+    },
+    {
+      "path": "validation/cleanroom_20261001/TRAINING_SMALL_ACTUAL.json",
+      "bytes": 1927,
+      "sha256": "c7352dea9036d41f736feeb2cdb2f19f866a5158828d0ca5015c7ab4233b6256"
+    },
+    {
+      "path": "validation/cleanroom_20261001/VALIDATION_REPORT.md",
+      "bytes": 2373,
+      "sha256": "387ed4cc6a919e5c4f75554b5486d8d2bbd4260332bc2b399405d691a7ad8f57"
+    },
+    {
+      "path": "validation/group_revision_tests/A1_SOURCE_AND_A3_VERSIONS.json",
+      "bytes": 3360,
+      "sha256": "8593e151177bb60c8fca3e5953b4f3f1344db50a356d2df4a80c68eb83a2e279"
+    },
+    {
+      "path": "validation/group_revision_tests/A2_INDEPENDENT_TABLE_READBACK.json",
+      "bytes": 5145,
+      "sha256": "531a2e017125608731922ad36982deec7cebd8528ba27f2760bca5cf585a7b03"
+    },
+    {
+      "path": "validation/group_revision_tests/A2_PHARMACOLOGY_A3_INDEPENDENT_CHECK.json",
+      "bytes": 25578,
+      "sha256": "64362edadff908dc6967b6f3d13d40bab862343e241d58188af54656902ef16e"
+    },
+    {
+      "path": "validation/group_revision_tests/formal6_training12_overlap_rebuilt.csv",
+      "bytes": 400,
+      "sha256": "bba37097f9875d32cd468a5e114830a7fef67dc57548041aa0b0317968b1a584"
+    },
+    {
+      "path": "validation/group_revision_tests/INDEPENDENT_REVIEW_PUBLIC_MANIFEST.json",
+      "bytes": 950,
+      "sha256": "f1131940a5822b3959ca93039b2cb8fff7fce3af2e90bbad1a555d76d712788c"
+    },
+    {
+      "path": "validation/group_revision_tests/INDEPENDENT_SCIENCE_REVIEW.md",
+      "bytes": 4042,
+      "sha256": "e74fac0f0702717069dc91b6cffa7f970fc7169a4a222c4a63be0bfa94ff7201"
+    },
+    {
+      "path": "validation/group_revision_tests/multiparameter_druglikeness_rebuilt.csv",
+      "bytes": 4595,
+      "sha256": "34cf242d75b3e3ed8f4f4b0e6f754af5e02c1fe07bbac63aeeb7cc54b97d3643"
+    },
+    {
+      "path": "validation/group_revision_tests/OFFLINE_REBUILD_RECEIPT.json",
+      "bytes": 677,
+      "sha256": "ab7b37f05f2ee3b1cd23f24922ed5de9c7cacbf445ed6ca463d1dc565248d514"
+    },
+    {
+      "path": "validation/group_revision_tests/pharmacology_actual_activity_records.csv",
+      "bytes": 253003,
+      "sha256": "000b0a903eb0197edccc2376b31eac2c90c463de6e0a4bcb8f52738a11c330b8"
+    },
+    {
+      "path": "validation/group_revision_tests/PUBLIC_SCIENCE_INDEPENDENT_ACCEPTANCE.json",
+      "bytes": 5085,
+      "sha256": "3faffef9029a8247bc5477203151be424037624b22946cb0ba124d7537b75ba2"
+    },
+    {
+      "path": "validation/group_revision_tests/SCIENCE_ENTRY_RECEIPTS.json",
+      "bytes": 673,
+      "sha256": "53c93e15a75cc36434145f94eacc1b3199fb2a65eec8ef25ae6d08ef26da098d"
+    },
+    {
+      "path": "validation/group_revision_tests/SCIENCE_VERIFIER_CHECKS.json",
+      "bytes": 60586,
+      "sha256": "9dbb1815c86f7fdc6bc5fc41c1b23756e25f6f727f71d435586470e15770dfcc"
+    },
+    {
+      "path": "validation/group_revision_tests/SMALL_EXAMPLE_RECEIPT.json",
+      "bytes": 675,
+      "sha256": "36b86ff64c5007890ffcfbbc5961f290414a692ccd765367fb18d86e0a6959de"
+    },
+    {
+      "path": "validation/group_revision_tests/SMALL_EXAMPLE_STEPS.json",
+      "bytes": 387,
+      "sha256": "24a093018fac5e89110812bf497ad1bb65e23f0aa7fe7ff9a6e559b6d3907992"
+    },
+    {
+      "path": "validation/group_revision_tests/two_threshold_neighbors_rebuilt.csv",
+      "bytes": 233245,
+      "sha256": "d1cdb644bfb1ed5e80fc0152fe5b0190bf39ff17028cf2ce072591349cf64c94"
+    },
+    {
+      "path": "validation/offline_source_restore/EXTERNAL_INPUTS.local.json",
+      "bytes": 287,
+      "sha256": "63d993fe1f6867c9aeda6845fea09b184bd504326ec4f28976e93eda29942a2c"
+    },
+    {
+      "path": "validation/offline_source_restore/human_offline.log",
+      "bytes": 1495,
+      "sha256": "3d315fcf220924db6cd46d54e016037774605489de40c309a5fafec5fb6214af"
+    },
+    {
+      "path": "validation/offline_source_restore/human_restore_receipt.json",
+      "bytes": 1493,
+      "sha256": "7674261249244a79f6a628e97e0d43af83cb3ed5e10fa10994c026f38a6fd575"
+    },
+    {
+      "path": "validation/offline_source_restore/mouse_offline.log",
+      "bytes": 2378,
+      "sha256": "09109f6b973720a188d2fc9dc72b21b35f4e6c19b95cceb5898a23ac33e66c06"
+    },
+    {
+      "path": "validation/offline_source_restore/OFFLINE_RESTORE_VALIDATION.json",
+      "bytes": 2822,
+      "sha256": "0455ca19382f9087748c758be07f50ce328bd6d085f022414096cbaa8e1d74a4"
+    },
+    {
+      "path": "validation/offline_source_restore/restore_receipt.json",
+      "bytes": 2376,
+      "sha256": "bf135c124ae527b3ef129f1aed45b04d8862fed8cb05b268842f4f04cc2c86cd"
+    },
+    {
+      "path": "validation/recording_20261001/BROWSER_PLAYBACK_CHECK.json",
+      "bytes": 762,
+      "sha256": "f9ad4ccdf845e7cfb13c925173a4c9aad3e797ec4eab620fe4e9cd7bc63d54d9"
+    },
+    {
+      "path": "validation/recording_20261001/CORE_BINDING_TO_UPDATED_CODE.json",
+      "bytes": 1553,
+      "sha256": "0c0d97368243f6dfcf95fbf481a768f9b9b9d56072c58829fb38df8cb8b70af3"
+    },
+    {
+      "path": "validation/recording_20261001/RECORDING_RECEIPT.json",
+      "bytes": 2786,
+      "sha256": "6aa3931d253d94f9e244acb3b6238df4232070d66be1c338adc7f78b7bdd5759"
+    },
+    {
+      "path": "validation/recording_20261001/VISUAL_ACCEPTANCE.json",
+      "bytes": 3953,
+      "sha256": "3de1eb1548ca5246c55db13459cb6ea58b325d133b34df60c905fb895944979b"
+    }
+  ],
+  "integrated_ledger_changes": [
+    {
+      "path": "ENTRY_TEST_MATRIX.csv",
+      "previous_integrated_sha256": "67d8ed0d0612f50e65f9e1c0931878a56ee4b8763ade753d01dc2e1078267b1b",
+      "current_integrated_sha256": "1de8072cd4e6b7682eebc35337e39a4028ad9ceef3ab9d937f5fd868cf056950"
+    },
+    {
+      "path": "reference_restore/PUBLIC_FILE_MANIFEST.json",
+      "previous_integrated_sha256": "cf2d3f8830ca45890103c63bc40275012aefce14a647ebc26eed46249537e0b4",
+      "current_integrated_sha256": "a9d657adafbca6939b86b5b48963df105535c94ee6b637f032857af4fea7dcdd"
+    },
+    {
+      "path": "reference_restore/README.md",
+      "previous_integrated_sha256": "ccd9b28aff2632c28b330ff56b4c263e0d263f47076ebe9a0b6350e6418d3ef4",
+      "current_integrated_sha256": "1d82d51b6ea01c533d94160742e16d5a8690e80a33338314fdf03d0100ef8db1"
+    },
+    {
+      "path": "SOURCE_INDEX.json",
+      "previous_integrated_sha256": "5c04590b2032d7c748ebc63da47ec0af6645447951a3d642083d7595c9b6ee54",
+      "current_integrated_sha256": "558a8daf53a13b2ef5be07cc3dc8525ab5fb08be6c0d5727231f81ffadb2377c"
+    },
+    {
+      "path": "TEST_REPORT.md",
+      "previous_integrated_sha256": "0d9d7aa9ed8323617fa45a881d2d782021aa6b4cc555e46189e22a383d17f066",
+      "current_integrated_sha256": "1022e6d5cc1392d23fd51dd6fad86a926a3041b285e26cc8781e9462811148fd"
+    }
+  ],
+  "core_and_frozen_results_unchanged": [
+    "make_results.py",
+    "make_results_r2.py",
+    "verify_r3_evidence.py",
+    "verify_manifest.py",
+    "run_example.py",
+    "replay_integrated.py",
+    "results.csv",
+    "summary_metrics.csv",
+    "r3_summary.csv"
+  ],
+  "scientific_scope": "A1 source clarification, A2 structural neighbors, A3 explicitly labeled predictions, tested local-source restoration and an actually executed notebook using unchanged scientific entries; historical R1/R2/R3 denominators and negative results unchanged.",
+  "historical_public_derivation": "PUBLIC_DERIVATION.json describes the preceding accepted snapshot; this file describes the current additional group-request revision."
+}

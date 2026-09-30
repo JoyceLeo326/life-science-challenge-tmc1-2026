@@ -1,0 +1,63 @@
+{
+  "coordinate_payload_publicly_distributed": false,
+  "scientific_operations": [
+    "fixed-source retrieval and hash checking",
+    "historical rigid alignment",
+    "Meeko template-based receptor conversion"
+  ],
+  "python": "3.12.10",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "sources": {
+    "author": {
+      "url": "https://raw.githubusercontent.com/ramirezlab/Drug-design-targeting-TMC1/74274dad76201258adbd76c7058b705170c4b857/Mechano_electrical_transducer_channels_complex/MET-channel_complex.pdb",
+      "sha256": "14b5d4010eb2220ebddca0ef5cd0be346e6ba9bcc6db14311745b684e9807d82",
+      "method": "verified_local_cache"
+    },
+    "human_reference": {
+      "url": "https://alphafold.ebi.ac.uk/files/AF-Q8TDI8-F1-model_v6.pdb",
+      "sha256": "ba6b438b036b9386f4f04534cfa1dda3b6a35fbe05dd7fb2ec1b415bc6768d3b",
+      "method": "verified_local_cache"
+    }
+  },
+  "dependencies": {
+    "biopython": "1.88",
+    "gemmi": "0.7.5",
+    "meeko": "0.8.0",
+    "numpy": "2.5.3",
+    "rdkit": "2025.9.6",
+    "scipy": "1.18.1"
+  },
+  "alignment": {
+    "source_heavy_atoms": 15070,
+    "chainA_ca_count": 666,
+    "aligned_pairs": 663,
+    "conserved_tm_fit_pairs": 301,
+    "tm_ca_rmsd_A": 3.961899856436029,
+    "middle_residues_present": 15,
+    "aligned_sha256": "a0c2c7b07eb3a4939397ffb104d0d8b8bdc5ef4ab9b7af732deef03944385baa",
+    "aligned_matches_historical": true
+  },
+  "meeko_arguments": [
+    "meeko.cli.mk_prepare_receptor",
+    "--read_pdb",
+    "screen_v2/inputs/receptors/M_PUB_ALL_aligned_heavy.pdb",
+    "-o",
+    "screen_v2/inputs/receptors/M_PUB_ALL",
+    "-p",
+    "-j",
+    "--write_pdb",
+    "screen_v2/inputs/receptors/M_PUB_ALL_H.pdb"
+  ],
+  "meeko_returncode": 0,
+  "pdbqt": {
+    "sha256": "c024cc9efaf910ac11642cea4a4c701a0a88a335d7deb0d040320516d5a2eda1",
+    "expected_sha256": "c024cc9efaf910ac11642cea4a4c701a0a88a335d7deb0d040320516d5a2eda1",
+    "matches_historical": true
+  },
+  "meeko_template_sha256": {
+    "NAKB_templates.json": "654e9ccfda92dce442ba2c1472d5616d501f175d2a072fa0b9d55f071b75a437",
+    "residue_chem_templates.json": "535dc75a2cc5db579a3114090c9ab1273892c556cb7cc1a850ce2c4cd57c7cde",
+    "template_charges.json": "61e51a377a2d3713a623472a1b2087a42ac2da3b094a7bcaaf6a3528a86ef45c"
+  },
+  "status": "restored_and_historical_sha256_verified"
+}

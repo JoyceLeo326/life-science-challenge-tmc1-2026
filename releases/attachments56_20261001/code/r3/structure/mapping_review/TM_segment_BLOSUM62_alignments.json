@@ -1,0 +1,142 @@
+[
+  {
+    "TM": 1,
+    "human_interval": [
+      183,
+      220
+    ],
+    "worm_interval": [
+      165,
+      202
+    ],
+    "alignment_score": 74.0,
+    "optimal_count": 1,
+    "formatted_alignment": "target            0 SSVASYFLFLRWMYGVNMVLFILTFSLIMLPEYLWGLP 38\n                  0 |.|.|||.||||...||............|||.|.... 38\nquery             0 SVVSSYFTFLRWIVFVNIMITLIALVFVVLPETLADSV 38\n"
+  },
+  {
+    "TM": 2,
+    "human_interval": [
+      272,
+      303
+    ],
+    "worm_interval": [
+      261,
+      292
+    ],
+    "alignment_score": 61.0,
+    "optimal_count": 1,
+    "formatted_alignment": "target            0 RLPLSYFLVGIMCIGYSFLVVLKAMTKNIGDD 32\n                  0 .|||.||.|......|||...|..|..|.... 32\nquery             0 ALPLAYFMVTLTIFAYSFFAILRKMAANARMS 32\n"
+  },
+  {
+    "TM": 3,
+    "human_interval": [
+      360,
+      390
+    ],
+    "worm_interval": [
+      350,
+      381
+    ],
+    "alignment_score": 53.0,
+    "optimal_count": 1,
+    "formatted_alignment": "target            0 LIRF-LRFLANFFVFLTLGGSGYLIFWAVKRS 31\n                  0 |..|-||..||......||.|.|.|..||..| 32\nquery             0 LLQFSLRVFANIIICAMLGFSIYCIIFAVQKS 32\n"
+  },
+  {
+    "TM": 4,
+    "human_interval": [
+      403,
+      430
+    ],
+    "worm_interval": [
+      389,
+      416
+    ],
+    "alignment_score": 39.0,
+    "optimal_count": 1,
+    "formatted_alignment": "target            0 WWEKNEMNMVMSLLGMFCPTLFDLFAEL 28\n                  0 ...||....|.|......|..|||.... 28\nquery             0 LFTKNQVPSVVSTITHVFPMIFDLIGKM 28\n"
+  },
+  {
+    "TM": 5,
+    "human_interval": [
+      435,
+      469
+    ],
+    "worm_interval": [
+      421,
+      455
+    ],
+    "alignment_score": 37.0,
+    "optimal_count": 1,
+    "formatted_alignment": "target            0 PLIALKWLLGRIFALLLGNLYVFILALMDEINNKI 35\n                  0 |..||...|||...|...|....|.||........ 35\nquery             0 PRTALRAHLGRVLILYTVNYITLIFALFEKMTALR 35\n"
+  },
+  {
+    "TM": 6,
+    "human_interval": [
+      516,
+      553
+    ],
+    "worm_interval": [
+      668,
+      705
+    ],
+    "alignment_score": 98.0,
+    "optimal_count": 1,
+    "formatted_alignment": "target            0 WETMVGQEFVRLTVSDVLTTYVTILIGDFLRACFVRFC 38\n                  0 |||..|||.|.|...|...|...||..|..|......| 38\nquery             0 WETIIGQEIVKLVTMDLIFTILSILVIDLFRGLWIKYC 38\n"
+  },
+  {
+    "TM": 7,
+    "human_interval": [
+      573,
+      593
+    ],
+    "worm_interval": [
+      725,
+      745
+    ],
+    "alignment_score": 72.0,
+    "optimal_count": 1,
+    "formatted_alignment": "target            0 ISGNVLALIFNQGMIWMGSFF 21\n                  0 ...|||..|.||||||.|.|| 21\nquery             0 VAENVLHIINNQGMIWLGLFF 21\n"
+  },
+  {
+    "TM": 8,
+    "human_interval": [
+      597,
+      619
+    ],
+    "worm_interval": [
+      749,
+      771
+    ],
+    "alignment_score": 62.0,
+    "optimal_count": 1,
+    "formatted_alignment": "target            0 LPGINILRLHTSMYFQCWAVMCC 23\n                  0 ||.||...|...||...||||.| 23\nquery             0 LPAINNIKLIILMYIRGWAVMTC 23\n"
+  },
+  {
+    "TM": 9,
+    "human_interval": [
+      634,
+      657
+    ],
+    "worm_interval": [
+      786,
+      809
+    ],
+    "alignment_score": 70.0,
+    "optimal_count": 1,
+    "formatted_alignment": "target            0 NFYLGMLLLILFLSTMPVLYMIVS 24\n                  0 |||||.||..|.|.|.||...|.| 24\nquery             0 NFYLGILLIWLLLCTLPVGFVIAS 24\n"
+  },
+  {
+    "TM": 10,
+    "human_interval": [
+      701,
+      734
+    ],
+    "worm_interval": [
+      853,
+      886
+    ],
+    "alignment_score": 70.0,
+    "optimal_count": 1,
+    "formatted_alignment": "target            0 LVIAVILVMVLAIYYLNATAKGQKAANLDLKKKM 34\n                  0 .||..||...|.||.|.....|...||.||.... 34\nquery             0 VVIPIILFLILIIYFLFSLVRGLREANTDLQAQL 34\n"
+  }
+]

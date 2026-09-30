@@ -1,0 +1,76 @@
+{
+  "scope": "independent read-only numerical and source QA; no new docking/MD or frozen output edits",
+  "network_count": 6,
+  "verified_networks": 6,
+  "CA_frames": 24,
+  "frame_metrics_verified": 24,
+  "freeze_script_hash_match": true,
+  "freeze_protocol_hash_match": true,
+  "source_and_node_identity_pass": true,
+  "insertion_code_ambiguities": 0,
+  "independent_H_AF_domain15_low26_recalculation": true,
+  "coarse_pass_counts": [
+    {
+      "structure_id": "H_AF_domain",
+      "amplitude_A": 0.25,
+      "frames": 4,
+      "coarse_pass": 4
+    },
+    {
+      "structure_id": "H_AF_domain",
+      "amplitude_A": 0.5,
+      "frames": 4,
+      "coarse_pass": 2
+    },
+    {
+      "structure_id": "H_AF_domain",
+      "amplitude_A": 1.0,
+      "frames": 4,
+      "coarse_pass": 0
+    },
+    {
+      "structure_id": "M_PUB_ALL_domain",
+      "amplitude_A": 0.25,
+      "frames": 4,
+      "coarse_pass": 4
+    },
+    {
+      "structure_id": "M_PUB_ALL_domain",
+      "amplitude_A": 0.5,
+      "frames": 4,
+      "coarse_pass": 4
+    },
+    {
+      "structure_id": "M_PUB_ALL_domain",
+      "amplitude_A": 1.0,
+      "frames": 4,
+      "coarse_pass": 0
+    }
+  ],
+  "full_atom_docking_eligible": 0,
+  "actual_threadpool": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 2,
+      "prefix": "libscipy_openblas",
+      "filepath": "libscipy_openblas64_-ed4f167a5330424524f45258e7ca2c8d.dll",
+      "version": "0.3.34.106.0",
+      "threading_layer": "pthreads",
+      "architecture": "SkylakeX"
+    },
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 2,
+      "prefix": "libscipy_openblas",
+      "filepath": "libscipy_openblas-197ee2fc9b4d071f7e048078cac74115.dll",
+      "version": "0.3.31.dev",
+      "threading_layer": "pthreads",
+      "architecture": "SkylakeX"
+    }
+  ],
+  "elapsed_seconds": 0.6602098000003025,
+  "numerical_QA_failures": 0,
+  "original_internal_receipt_sha256": "8bfb6b9b6d09da2c42a76a735e7c76ec6b53e2f0bb223bdcf26d73835c84bebd"
+}

@@ -1,0 +1,3 @@
+domain_scope,full_chain_scope,common_CA_nodes,restricted_full_low20_rank,domain_vs_restricted_full_low20_RMSIP,domain_vs_full_restricted_MSF_Spearman,both_networks_numerical_QC_pass,interpretation
+H_AF_domain,H_AF_full_chainA,552,20,0.6688197426773564,0.6366637990607817,True,Boundary-condition sensitivity; not evidence of physiological fluctuation amplitude
+M_PUB_ALL_domain,M_PUB_ALL_full_chainA,555,20,0.7692324605103217,0.7256188531465781,True,Boundary-condition sensitivity; not evidence of physiological fluctuation amplitude

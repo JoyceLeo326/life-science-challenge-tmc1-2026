@@ -1,0 +1,7 @@
+stage,molecules,denominator_note
+Fixed designs,150,150 fixed; 40 selected without generated-docking scores; threshold -8.0796 kcal/mol; Middle contact <=4 A
+Preselected,40,150 fixed; 40 selected without generated-docking scores; threshold -8.0796 kcal/mol; Middle contact <=4 A
+Prepared + docked,30,150 fixed; 40 selected without generated-docking scores; threshold -8.0796 kcal/mol; Middle contact <=4 A
+Independent QC,29,150 fixed; 40 selected without generated-docking scores; threshold -8.0796 kcal/mol; Middle contact <=4 A
+QC + score threshold,1,150 fixed; 40 selected without generated-docking scores; threshold -8.0796 kcal/mol; Middle contact <=4 A
+QC + score + Middle,0,150 fixed; 40 selected without generated-docking scores; threshold -8.0796 kcal/mol; Middle contact <=4 A

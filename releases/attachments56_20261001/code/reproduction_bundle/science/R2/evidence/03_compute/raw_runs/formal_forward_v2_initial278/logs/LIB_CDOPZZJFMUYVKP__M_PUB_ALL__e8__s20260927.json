@@ -1,0 +1,221 @@
+{
+
+  "compound_id": "LIB_CDOPZZJFMUYVKP",
+
+  "source_dataset": "ChEMBL",
+
+  "source_id": "CHEMBL1084293",
+
+  "source_ids": "CHEMBL1084293",
+
+  "source_url": "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1084293/",
+
+  "raw_smiles": "CC(C)(C)COc1nc(C(F)(F)F)ccc1CNC(=O)Nc1cccc2[nH]ncc12",
+
+  "standardized_isomeric_smiles": "CC(C)(C)COc1nc(C(F)(F)F)ccc1CNC(=O)Nc1cccc2[nH]ncc12",
+
+  "standardized_parent_smiles": "CC(C)(C)COc1nc(C(F)(F)F)ccc1CNC(=O)Nc1cccc2[nH]ncc12",
+
+  "inchi_key": "CDOPZZJFMUYVKP-UHFFFAOYSA-N",
+
+  "parent_key": "CDOPZZJFMUYVKP",
+
+  "processing_status": "eligible",
+
+  "mw": "421.423",
+
+  "clogp": "4.723",
+
+  "tpsa": "91.93",
+
+  "hbd": "3",
+
+  "hba": "4",
+
+  "rotatable_bonds": "5",
+
+  "heavy_atoms": 30,
+
+  "rings": "3",
+
+  "qed": "0.5557",
+
+  "formal_charge": "0",
+
+  "source_record_count": "1",
+
+  "stereo_form_count": "1",
+
+  "historical_label_overlap": "False",
+
+  "prediction_status": "predicted",
+
+  "docking_eligibility": "eligible",
+
+  "source_stereo_unspecified": "False",
+
+  "source_unspecified_potential_stereo": "[]",
+
+  "rule_variant_count": 1,
+
+  "rule_smiles": "CC(C)(C)COc1nc(C(F)(F)F)ccc1CNC(=O)Nc1cccc2[n-]ncc12",
+
+  "rule_inchikey": "ZZFAQDSESFPGDB-UHFFFAOYSA-M",
+
+  "rule_stereo_unspecified": "False",
+
+  "rule_unspecified_potential_stereo": "[]",
+
+  "rule_exchangeable_N_indices": "[]",
+
+  "rule_stable_stereo_unspecified": "False",
+
+  "exchangeable_N_geometry_approximation": false,
+
+  "murcko_scaffold": "O=C(NCc1cccnc1)Nc1cccc2[n-]ncc12",
+
+  "descriptor_pred_kcal_mol": "-7.664681434631348",
+
+  "ai_pred_kcal_mol": "-7.77816915512085",
+
+  "ai_tree_sd_kcal_mol": "0.5139341354370117",
+
+  "max_train_tanimoto": "0.25",
+
+  "ood_flag_max_tanimoto_below_0p3": "True",
+
+  "selected_arms": "random",
+
+  "preparation_started_utc": "2026-09-28T18:21:13.158045+00:00",
+
+  "input_isomeric_smiles": "CC(C)(C)COc1nc(C(F)(F)F)ccc1CNC(=O)Nc1cccc2[nH]ncc12",
+
+  "input_inchikey": "CDOPZZJFMUYVKP-UHFFFAOYSA-N",
+
+  "state_inchikey": "ZZFAQDSESFPGDB-UHFFFAOYSA-M",
+
+  "rule_unspecified_stereocenters": "[]",
+
+  "exchangeable_protonated_N_indices": "[]",
+
+  "chemical_identity_rule_version": "exchangeable_tertiary_ring_NH_and_full_potential_stereo_v3_20260929",
+
+  "conformers_generated": 10,
+
+  "conformers_converged": 10,
+
+  "selected_mmff_energy_kcal_mol": -8.27178693918415,
+
+  "selected_conformer": 1,
+
+  "sdf_graph_isomeric_smiles": "CC(C)(C)COc1nc(C(F)(F)F)ccc1CNC(=O)Nc1cccc2[n-]ncc12",
+
+  "sdf_graph_identity_equal": true,
+
+  "sdf_graph_identity_stable_equal": true,
+
+  "sdf_3d_isomeric_smiles": "CC(C)(C)COc1nc(C(F)(F)F)ccc1CNC(=O)Nc1cccc2[n-]ncc12",
+
+  "sdf_3d_stereo_equal": true,
+
+  "sdf_3d_stable_identity_equal": true,
+
+  "preparation_status": "prepared",
+
+  "sdf_file": "<PACKAGE_ROOT>\\03_compute\\formal_forward_v2_initial278\\ligands\\LIB_CDOPZZJFMUYVKP.sdf",
+
+  "sdf_sha256": "1f55a01adcb04f2860106be5750b6794b8ab7f10aae5a9cd36b04d5098b66ebd",
+
+  "ligand_pdbqt": "<PACKAGE_ROOT>\\03_compute\\formal_forward_v2_initial278\\ligands\\LIB_CDOPZZJFMUYVKP.pdbqt",
+
+  "ligand_sha256": "4fb2eb8690a1c2a4cf13548040263fb6e13a14a975829d5216fe030afc8b196d",
+
+  "preparation_elapsed_seconds": 1.024,
+
+  "run_id": "LIB_CDOPZZJFMUYVKP__M_PUB_ALL__e8__s20260927",
+
+  "receptor_id": "M_PUB_ALL",
+
+  "protein_context": "mouse TMC1-CIB2-TMIE six-protein complex",
+
+  "lipids_present": false,
+
+  "conformation_evidence": "author computational model, static",
+
+  "binding_hypothesis": "literature-informed middle-region pose",
+
+  "functional_direction": "unknown",
+
+  "disease_fit": "unverified",
+
+  "scoring_engine": "AutoDock Vina 1.2.7",
+
+  "score_kind": "Vina docking score, not MMGBSA",
+
+  "seed": 20260927,
+
+  "exhaustiveness": 8,
+
+  "num_modes": 9,
+
+  "energy_range": 3.0,
+
+  "cpu_per_job": 2,
+
+  "receptor_file": "<PACKAGE_ROOT>\\01_计算筛选\\screen_v2\\inputs\\receptors\\M_PUB_ALL.pdbqt",
+
+  "receptor_sha256": "c024cc9efaf910ac11642cea4a4c701a0a88a335d7deb0d040320516d5a2eda1",
+
+  "box_file": "<PACKAGE_ROOT>\\01_计算筛选\\coarse_v1\\config\\vina_box.txt",
+
+  "box_sha256": "3e4c7eb2c313edbe496068c9fb17790e7ca746567519836ed46131e5e7570d49",
+
+  "box_id": "table6_middle_15_common_union",
+
+  "box_center_A": "[2.3955, -12.9641, 0.9145]",
+
+  "box_size_A": "[37.687, 31.3744, 31.1908]",
+
+  "pose_file": "<PACKAGE_ROOT>\\03_compute\\formal_forward_v2_initial278\\poses\\LIB_CDOPZZJFMUYVKP__M_PUB_ALL__e8__s20260927.pdbqt",
+
+  "log_file": "<PACKAGE_ROOT>\\03_compute\\formal_forward_v2_initial278\\logs\\LIB_CDOPZZJFMUYVKP__M_PUB_ALL__e8__s20260927.log",
+
+  "export_log_file": "<PACKAGE_ROOT>\\03_compute\\formal_forward_v2_initial278\\logs\\LIB_CDOPZZJFMUYVKP__M_PUB_ALL__e8__s20260927_export.log",
+
+  "independent_qc_status": "pending",
+
+  "command": "[\"<PACKAGE_ROOT>\", \"--receptor\", \"<PACKAGE_ROOT>\", \"--ligand\", \"<PACKAGE_ROOT>\", \"--config\", \"<PACKAGE_ROOT>\", \"--scoring\", \"vina\", \"--exhaustiveness\", \"8\", \"--num_modes\", \"9\", \"--energy_range\", \"3.0\", \"--cpu\", \"2\", \"--seed\", \"20260927\", \"--out\", \"<PACKAGE_ROOT>\"]",
+
+  "started_utc": "2026-09-28T18:32:07.791591+00:00",
+
+  "returncode": 0,
+
+  "status": "completed",
+
+  "score_kcal_mol": -8.246,
+
+  "pose_count": 9,
+
+  "pose_sha256": "67edf4af6fd7aaf35a0c4bb2a6f4763b05ec7e90b3f90fff44021f4899eae76d",
+
+  "pose_heavy_atoms": 30,
+
+  "min_receptor_heavy_distance_A": 2.9447242655297967,
+
+  "severe_heavy_atoms_below_1p5A": 0,
+
+  "min_box_margin_A": 1.6768999999999998,
+
+  "sdf_export_returncode": 0,
+
+  "exported_sdf_file": "<PACKAGE_ROOT>\\03_compute\\formal_forward_v2_initial278\\poses\\LIB_CDOPZZJFMUYVKP__M_PUB_ALL__e8__s20260927.sdf",
+
+  "exported_sdf_sha256": "72e8d373c2c46c02482a9ef7feb30361e78d1fcbb4fc12a95a7bf2624239d667",
+
+  "local_pre_qc_pass": true,
+
+  "elapsed_seconds": 31.406,
+
+  "finished_utc": "2026-09-28T18:32:39.197343+00:00"
+
+}

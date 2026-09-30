@@ -1,0 +1,29 @@
+entry,actual_test_scope,status
+make_results.py,360 attempts/QC joins/319 IDs/24 conditions/MW350/6 candidates,PASS
+prepare_portable.py,check-only and configured copy; strict support hashes,PASS
+rank_library.py,full16698 with935 historical labels;3 CSV exactSHA,PASS
+active_acquire.py,60 acquisition;2 CSV exactSHA; no other arms scores used,PASS
+evaluate_forward.py,original and portable full360;4 original CSV exactSHA,PASS
+dock_batch.py,one original task actual Vina; original score and poseSHA match,PASS
+prepare_active_physical.py,60 active attempts split41 new19 reused,PASS
+freeze_preflight_v2.py,recomputed full rankings300 arm slots/278 physical IDs,PASS
+freeze_active_resume.py,27 completed14 missing explicit cost,PASS
+merge_formal_batches.py,published original154+resume124; fixed hash mapping enforced,PASS
+merge_active_batches.py,published original27+resume14; fixed hash mapping enforced,PASS
+run_design.py,"10 valid designs8 constraints passed7 fixed,7 SDF",PASS
+train_smiles_gru.py,2048 input/1epoch/32 samples;0 eligible retained,PASS
+train_selfies_gru.py,2048 input/1epoch/32 samples;0 eligible retained,PASS
+plot_forward_three_arms.py,real F8 render and numerical assertions,PASS
+build_verified_stage_figures.py,real library/5-split/original40 funnel plots,PASS
+plot_from_verified_csv.py,real 24 confirmation condition plot,PASS
+register_reviewed_figures.py,real rendered file registration; no invented visual approval,PASS
+formal_saved_SELFIES_model,"safe state_dict load,51763 parameters,67 vocab,finite forward,20000 rawrows",PASS
+run_example.py --train-small,final published wrapper; 2048 input/2 one-epoch train runs/32 samples each/actual design10->constraint8->fixed7->screen7; exit0,PASS
+historical recording [2026-09-30 superseded],anonymous real child-process output;16.88s/H264/340100bytes;exit0;6 candidate rows readable,PASS
+reference_restore/restore_m_pub_all.py --source-pdb --human-pdb,New independent output; both fixed local sources; full mouse alignment and Meeko conversion; historical SHA exact; 21.219 sec,PASS
+reference_restore/restore_human_af.py --human-pdb,Full human alignment and conversion; all four external inputs exact historical SHA; 8.937 sec,PASS
+run_example.py --train-small [2026-10-01 group revision],Actual SMILES/SELFIES one epoch and 32 samples each; separate 7 rule outputs exact frozen CSV; 31.484 sec,PASS
+recording core binding [2026-10-01 143.71sec video],Actual example and formal subprocesses; six source/input/output file hashes bound to updated code; no video inside code package,PASS
+data/group_supplement/verify_science_supplement.py,"617 checks: hashes, molecular identity, SA recompute, thresholds, all endpoint finite/range flags; 1.047 sec",PASS
+data/group_supplement/rebuild_science_tables.py,Offline saved raw sources -> 622 activity / 1458 pair / 11 ADMET-SA / 6 overlap rows; shared fields 0 difference; 1.297 sec,PASS
+notebooks/run_notebook.py,Two actual full executions of 8 code cells; existing small training/formal entry/617 supplement checks/4 table rebuilds; outputs outside package; frozen candidate SHA unchanged,PASS

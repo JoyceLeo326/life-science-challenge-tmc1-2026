@@ -1,0 +1,7 @@
+﻿candidate_id,candidate_chembl_id,candidate_name,candidate_max_phase,candidate_first_approval,candidate_withdrawn_flag,count_ge_0p4_including_self,count_ge_0p6_including_self,count_ge_0p4_excluding_self,count_ge_0p6_excluding_self,pages,all_pages_complete,official_60_count_crosscheck,approved_status_wording
+LIB_YWDIXVZCRMMQQY,CHEMBL1079964,,,,False,427,26,427,26,1,True,True,ChEMBL phase4/first approval record only if present; missing data does not prove clinical approval or absence
+LIB_MYAFDHCCQBIZLC,CHEMBL1080362,,,,False,258,63,258,63,1,True,True,ChEMBL phase4/first approval record only if present; missing data does not prove clinical approval or absence
+LIB_ZNDXPRCORYDEAP,CHEMBL1081740,,,,False,150,62,150,62,1,True,True,ChEMBL phase4/first approval record only if present; missing data does not prove clinical approval or absence
+LIB_FCRHJSNRFAAYQD,CHEMBL1080669,,,,False,158,59,158,59,1,True,True,ChEMBL phase4/first approval record only if present; missing data does not prove clinical approval or absence
+LIB_DNDVGFIEWOHGAH,CHEMBL1076497,,,,False,292,32,292,32,1,True,True,ChEMBL phase4/first approval record only if present; missing data does not prove clinical approval or absence
+LIB_ZVHBDYFMHCQADD,CHEMBL1080205,,,,False,173,34,173,34,1,True,True,ChEMBL phase4/first approval record only if present; missing data does not prove clinical approval or absence

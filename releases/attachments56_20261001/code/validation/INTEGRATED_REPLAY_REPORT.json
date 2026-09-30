@@ -1,0 +1,169 @@
+{
+  "status": "PASS",
+  "scope": "full existing replay: rankings, acquisition,360-attempt evaluation,small example,figures,9098 alerts,6 ANM networks/24 CA traversals,26 static pose readback,17 earlierR3 raw jobs (9 generated+7 paper references+1 denatonium)",
+  "actual_steps": 26,
+  "successful_unique_steps": 24,
+  "failed_child_invocations_retained": 2,
+  "full_ranking_run": true,
+  "small_training_run": true,
+  "original_scientific_components_changed": false,
+  "new_docking_jobs": 0,
+  "new_MD_or_full_atom_dynamic_receptors": 0,
+  "byte_identity_checks": [
+    {
+      "check": "six_candidate_CSV_byte_identical",
+      "pass": true,
+      "source_sha256": "478e0d624b158ef5e42a454ea412e3ca392fa694af1556a3d48587e6b170908c",
+      "replay_sha256": "478e0d624b158ef5e42a454ea412e3ca392fa694af1556a3d48587e6b170908c"
+    },
+    {
+      "check": "R2_summary_byte_identical",
+      "pass": true,
+      "source_sha256": "a9ecdcd9f4406293e5c58c4a004419c4259855a103308f9ded9b14c077635833",
+      "replay_sha256": "a9ecdcd9f4406293e5c58c4a004419c4259855a103308f9ded9b14c077635833"
+    },
+    {
+      "check": "R2_ranking_all_predictions.csv",
+      "pass": true,
+      "source_sha256": "79b775967bfc87ded9a07aae03549c9233691ec4fc3375a2c2662b64ee4b2841",
+      "replay_sha256": "79b775967bfc87ded9a07aae03549c9233691ec4fc3375a2c2662b64ee4b2841"
+    },
+    {
+      "check": "R2_ranking_arm_assignments.csv",
+      "pass": true,
+      "source_sha256": "1eb0908109108bba2507efa39e46f7a4561e63bf4d161309175f590b25f3b9ce",
+      "replay_sha256": "1eb0908109108bba2507efa39e46f7a4561e63bf4d161309175f590b25f3b9ce"
+    },
+    {
+      "check": "R2_ranking_physical_union_docking_list.csv",
+      "pass": true,
+      "source_sha256": "3b53b86471eaed6f5bc49fbef381b811ec81153c69376fc4f20bf2c0161790b9",
+      "replay_sha256": "3b53b86471eaed6f5bc49fbef381b811ec81153c69376fc4f20bf2c0161790b9"
+    },
+    {
+      "check": "R2_active_active_predictions_all_eligible.csv",
+      "pass": true,
+      "source_sha256": "4ff78ae04b87ab4f0c86fcb46f7bc672c8aafa7f783c1667b861b93eec13385a",
+      "replay_sha256": "4ff78ae04b87ab4f0c86fcb46f7bc672c8aafa7f783c1667b861b93eec13385a"
+    },
+    {
+      "check": "R2_active_AI_active_60.csv",
+      "pass": true,
+      "source_sha256": "bd50bc8de9433b4b7dcade109355822cac0439308f761ba7e72c2f850cbe5183",
+      "replay_sha256": "bd50bc8de9433b4b7dcade109355822cac0439308f761ba7e72c2f850cbe5183"
+    },
+    {
+      "check": "R2_evaluation_forward_arm_summary.csv",
+      "pass": true,
+      "source_sha256": "77ff7e7e6b70b80e7309983775b0b45cf15235712fbc95d4fa1989bafafa712b",
+      "replay_sha256": "77ff7e7e6b70b80e7309983775b0b45cf15235712fbc95d4fa1989bafafa712b"
+    },
+    {
+      "check": "R2_evaluation_forward_attempt_level.csv",
+      "pass": true,
+      "source_sha256": "d02a4128ce59e9f3270f18cf90cf431392e483fdb5169c2002fb0c46ffa08848",
+      "replay_sha256": "f5d39d3bc93e266c2b96833ebc0db41d0bb1622e3bc3f16f48cb2bb393acbad6",
+      "comparison": "every scientific cell exact; published evidence-path metadata normalized",
+      "excluded_metadata_fields": [
+        "independent_qc_evidence"
+      ]
+    },
+    {
+      "check": "R2_evaluation_forward_charge_sensitivity.csv",
+      "pass": true,
+      "source_sha256": "fb7232af98ba0045fab9b5e7560069faaf6c07ee69fcd207df15d012630b74a3",
+      "replay_sha256": "fb7232af98ba0045fab9b5e7560069faaf6c07ee69fcd207df15d012630b74a3"
+    },
+    {
+      "check": "R2_evaluation_forward_strata.csv",
+      "pass": true,
+      "source_sha256": "a0b9ab8a86f3f4a889985139f9138f32de3f8b93aea7abc782404c6967e339d4",
+      "replay_sha256": "a0b9ab8a86f3f4a889985139f9138f32de3f8b93aea7abc782404c6967e339d4"
+    },
+    {
+      "check": "R3_chemical_chemical_alerts_9098.csv",
+      "pass": true,
+      "source_sha256": "4d85d4eb1c304a733ef28a3263e5e2c3394cef85aeeff7dd054317467fdab640",
+      "replay_sha256": "4d85d4eb1c304a733ef28a3263e5e2c3394cef85aeeff7dd054317467fdab640"
+    },
+    {
+      "check": "R3_chemical_alert_summary.csv",
+      "pass": true,
+      "source_sha256": "5eb31b540be3d1600ffe7c8be132800af71bd84b26e9d38623b62a8891e4965b",
+      "replay_sha256": "5eb31b540be3d1600ffe7c8be132800af71bd84b26e9d38623b62a8891e4965b"
+    },
+    {
+      "check": "R3_chemical_rule_frequencies.csv",
+      "pass": true,
+      "source_sha256": "43585e0d70f53b9830dd2dab8ae9c773145aec5215461b8c54f7d41bace1f310",
+      "replay_sha256": "43585e0d70f53b9830dd2dab8ae9c773145aec5215461b8c54f7d41bace1f310"
+    },
+    {
+      "check": "R3_chemical_figure_source.csv",
+      "pass": true,
+      "source_sha256": "a590b010e936ff18cac8e97913b0eb44984acffaaa58c195970399572140b9e2",
+      "replay_sha256": "a590b010e936ff18cac8e97913b0eb44984acffaaa58c195970399572140b9e2"
+    },
+    {
+      "check": "R3_ANM_all_eigenvalues.csv",
+      "pass": true,
+      "source_sha256": "a8e4ec9e069542fb4ccde57f7ef859a847f3c1d174fbce4a753baac3d1d308b0",
+      "replay_sha256": "a8e4ec9e069542fb4ccde57f7ef859a847f3c1d174fbce4a753baac3d1d308b0"
+    },
+    {
+      "check": "R3_ANM_low20_modes.csv",
+      "pass": true,
+      "source_sha256": "e17a55f94f7fee184e3e6147b9a08f7e182f600b59b12ee5280691f4b91515f8",
+      "replay_sha256": "e17a55f94f7fee184e3e6147b9a08f7e182f600b59b12ee5280691f4b91515f8"
+    },
+    {
+      "check": "R3_ANM_low20_relative_MSF.csv",
+      "pass": true,
+      "source_sha256": "fb008dc8bec0ec5b3d3164e208ecc8e8604eb82e6aed3c67f2fcdb520e04136e",
+      "replay_sha256": "fb008dc8bec0ec5b3d3164e208ecc8e8604eb82e6aed3c67f2fcdb520e04136e"
+    },
+    {
+      "check": "R3_ANM_boundary_sensitivity.csv",
+      "pass": true,
+      "source_sha256": "1f8713561811818737ab4ee66c697d71f12b99bd303883769872b3d55b2536c0",
+      "replay_sha256": "1f8713561811818737ab4ee66c697d71f12b99bd303883769872b3d55b2536c0"
+    },
+    {
+      "check": "R3_ANM_cutoff_sensitivity.csv",
+      "pass": true,
+      "source_sha256": "7cd1d00abd8112eb4ab59477adb391b19e3d1e114f41e54b57cbc3a9168658d7",
+      "replay_sha256": "7cd1d00abd8112eb4ab59477adb391b19e3d1e114f41e54b57cbc3a9168658d7"
+    },
+    {
+      "check": "R3_ANM_CA_node_index.csv",
+      "pass": true,
+      "source_sha256": "2f172ee71ee01588eb83251f81fab517abe0349900b0e7547a902c2f99931a7d",
+      "replay_sha256": "2f172ee71ee01588eb83251f81fab517abe0349900b0e7547a902c2f99931a7d"
+    },
+    {
+      "check": "R3_ANM_conformation_diagnostics.csv",
+      "pass": true,
+      "source_sha256": "66db24fb86c623f1b8f111c2a664fce0353e2455414bb32a927a4b72d30253f4",
+      "replay_sha256": "66db24fb86c623f1b8f111c2a664fce0353e2455414bb32a927a4b72d30253f4"
+    },
+    {
+      "check": "R3_ANM_conformation_displacements.csv",
+      "pass": true,
+      "source_sha256": "093cee1976c7d620763d97fd269be97ba678ca3881f681621735dccdb1b18701",
+      "replay_sha256": "093cee1976c7d620763d97fd269be97ba678ca3881f681621735dccdb1b18701"
+    },
+    {
+      "check": "R3_ANM_mode_localization.csv",
+      "pass": true,
+      "source_sha256": "58d0a722d6dfd6eafb5884de0182774045d6b0daf6cc05c933b269d8777ec679",
+      "replay_sha256": "58d0a722d6dfd6eafb5884de0182774045d6b0daf6cc05c933b269d8777ec679"
+    }
+  ],
+  "external_input_sha256": {
+    "mouse_pdbqt": "c024cc9efaf910ac11642cea4a4c701a0a88a335d7deb0d040320516d5a2eda1",
+    "human_pdbqt": "35b4acccd44a5c2c5c8aa7e756abe26c081018a2c26d0899190751c23392f2c1",
+    "mouse_aligned_pdb": "a0c2c7b07eb3a4939397ffb104d0d8b8bdc5ef4ab9b7af732deef03944385baa",
+    "human_aligned_pdb": "93572ba54235e6e338205e6272d81093d5c938ba21594a676b029fa8dd5a8044"
+  },
+  "logs_contain_local_paths": "independent work/internal only; publish sanitized receipts"
+}

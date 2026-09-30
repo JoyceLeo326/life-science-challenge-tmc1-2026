@@ -1,0 +1,5 @@
+structure_id,mode_1based,imposed_global_CA_RMS_displacement_A,maximum_CA_displacement_A,maximum_displacement_residue,source_B_column_at_max,middle15_fraction_of_squared_mode_norm
+H_AF_domain,1,0.5,4.293664406335503,497,64.81,0.001012007519145482
+H_AF_domain,2,0.5,4.518603183350113,326,82.25,0.0012132764978271407
+M_PUB_ALL_domain,1,0.5,4.137697017304639,494,53.38,0.001390468375548475
+M_PUB_ALL_domain,2,0.5,2.6038773720128816,715,79.27,0.003217251315457879

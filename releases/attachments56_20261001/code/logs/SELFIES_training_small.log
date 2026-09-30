@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "$COMPUTE\portable_validation\portable_method\04_design\train_selfies_gru.py", line 352, in <module>
+    main()
+  File "$COMPUTE\portable_validation\portable_method\04_design\train_selfies_gru.py", line 276, in main
+    assert len(records) >= 300
+           ^^^^^^^^^^^^^^^^^^^
+AssertionError

@@ -1,0 +1,38 @@
+{
+  "reason": "Public path redaction changed ANM replay documentation; nested integration ledger required the declared derived SHA. Original source/copied SHAs preserved; no validation bypass or scientific data change.",
+  "changes": [
+    {
+      "file": "INTEGRATED_SOURCE_SNAPSHOT_INDEX.json",
+      "before_sha256": "0a9276403e2e2da299abff6ee3f0c95d9469a26209893224cbbc756b18985dfa",
+      "after_sha256": "e148ac748f13b988bef64caeb0d8ceff14d370f2c4d6b68bce2ec8cb56552e41"
+    },
+    {
+      "file": "MANIFEST.json",
+      "before_sha256": "f65efa11d1691a13aac0abb663be949a61be1904574c88807271061c9f2e497d",
+      "after_sha256": "2f6545857c6874dd0ad252e17280fca4a9a92b5fabbd14444fe37b5ace17e271"
+    },
+    {
+      "file": "PUBLIC_DERIVATION.json",
+      "before_sha256": "c2e429483d6802f7d49b8669359a58003b55914664f612f40f8916a11b7f88ab",
+      "after_sha256": "a29579e2c5aa7b636eb79a4a187c17257bd7c1bd29df25a9d981d1cf76058f71"
+    },
+    {
+      "file": "SHA256SUMS.txt",
+      "before_sha256": "c0e32e7c2faee4db48ebe898d5c7214fe0983e729bbab50afe8fe677b12cfca1",
+      "after_sha256": "efb509ebc3f07eda5fd64ed2e847719a5e0e567f2bf95118b89599deaa8a37b8"
+    },
+    {
+      "file": "r3/anm/MANIFEST.json",
+      "before_sha256": "5e77314bf40f01a41453691918e673fbbf990eb9a560a4eb518c45bf56712acb",
+      "after_sha256": "2d6eaa127d6f4cb95ee40ec34818594b6cd6b7645c64c73f8433b6722612acb9"
+    },
+    {
+      "file": "r3/anm/SHA256SUMS.txt",
+      "before_sha256": "9c7571838c4c60e8949e4066f6842c40dcfe32230a501f893e9ce26cc7aa353d",
+      "after_sha256": "4038230184cf198a828b48cecd1a47da5ed5bd076222f4ef97bcc90ed3b025a3"
+    }
+  ],
+  "earlier_failed_phase": "official_candidates",
+  "earlier_exit_code": 1,
+  "failed_child_log_sha256": "1505d14abbd835eda94d0fff51dfef010218e6e6580ecf43f28a6abb55efbb18"
+}

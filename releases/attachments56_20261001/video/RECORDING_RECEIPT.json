@@ -1,0 +1,53 @@
+{
+  "status": "PASS",
+  "source_zip_sha256": "9db537c002f3d87cc118bb9510b1e53db723c947db5b1803f20e3c245e8f5515",
+  "source_files_sha256": {
+    "run_example.py": "3bac45574e9b31d5ad606c72f870c6786afa5526b31e060fcb9827931f194097",
+    "make_results.py": "908d631cb7994097bd85b16ff18a9bbfe10a46962a5400d3bccdd8ccc5952d74",
+    "make_results_r2.py": "11553b860bc705775f55b949f4aa7f1d44991e0c1fab78be391847b4b73325d6",
+    "verify_r3_evidence.py": "bfed393817ad2d80c0051560395496bb4ed44b29cedb0bb23c37a91760762da8",
+    "results.csv": "478e0d624b158ef5e42a454ea412e3ca392fa694af1556a3d48587e6b170908c",
+    "data/tutorial_library2048.csv": "390985b4dfd56a7a3a874fc370bb122628b17ba8850c90880bbf367f524eb805"
+  },
+  "video": "靶向TMC1机械转导通道的小分子变构调节剂AI辅助筛选——用于Usher综合征1B的听力代偿保护策略代码运行录屏（区赛）.mp4",
+  "sha256": "c7ca6128681dfaf72e6d9cf3454f1f83cad08d2c86f7c030aceb2248d5667bb7",
+  "bytes": 8494463,
+  "seconds": 143.708333,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "video_codec": "h264",
+  "audio": "intentionally absent; readable Chinese subtitles; human narration script supplied separately",
+  "capture": "Continuous browser screen capture of actual new subprocess executions and their live files; only initial blank loading trimmed. No synthesized or replayed process results.",
+  "actual_jobs": [
+    {
+      "kind": "example",
+      "command": "python run_example.py --train-small --output ../recording_outputs/example",
+      "exit_code": 0,
+      "seconds": 33.25
+    },
+    {
+      "kind": "formal",
+      "command": "python make_results.py --output ../recording_outputs/formal/results.csv",
+      "exit_code": 0,
+      "seconds": 7.87
+    }
+  ],
+  "formal_candidate_rows": 6,
+  "formal_result_same_SHA": true,
+  "example_rule_candidates": 7,
+  "no_new_full_docking_or_MD": true,
+  "official_size_under_50MB": true,
+  "official_suggested_duration_under_10min": true,
+  "visual_checks": "12 actual decoded frames visually inspected; see VISUAL_ACCEPTANCE.json",
+  "audio_listening": "not applicable: no audio track",
+  "output_files_sha256": {
+    "formal/R3_READBACK_REPORT.json": "dd83dcf4498bb12ff52fd4f65b1e76db704a0bcb9d11857d58aab17d4c8e25c8",
+    "formal/r3_summary.csv": "b4dde2f294b261a7cf7585593544ef78d8e04dc7413dcfb472175a6973f64403",
+    "formal/results.csv": "478e0d624b158ef5e42a454ea412e3ca392fa694af1556a3d48587e6b170908c",
+    "formal/RUN_REPORT.json": "2e628b6ec2e9886f11aea1d4ec26b22c6337c90e151d6c5a3f7a2db4942c1885",
+    "formal/summary_metrics.csv": "a9ecdcd9f4406293e5c58c4a004419c4259855a103308f9ded9b14c077635833"
+  },
+  "example_results_sha256": "7d79324fa534d876c63d7ca08695669274a13c435715bd6a484e9e8d489e0f93"
+}

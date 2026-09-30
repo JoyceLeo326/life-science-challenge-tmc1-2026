@@ -1,0 +1,49 @@
+name: Validate public delivery
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+env:
+  PYTHONUTF8: '1'
+
+jobs:
+  verify:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 15
+    steps:
+      - name: Enable long paths for the preserved evidence tree
+        if: runner.os == 'Windows'
+        run: git config --global core.longpaths true
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: scripts/requirements-ci.txt
+      - name: Install minimal replay dependencies
+        run: python -m pip install -r scripts/requirements-ci.txt
+      - name: Check the validation script
+        run: python -m unittest discover -s scripts/tests -p "test_*.py" -v
+      - name: Check repository file hashes
+        run: python scripts/verify_files.py
+      - name: Replay the latest results and saved-source supplement
+        run: python scripts/check_latest_release.py --with-supplement --report-dir verification/latest
+      - name: Save execution receipts
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: latest-release-check-${{ matrix.os }}
+          path: verification/latest/
+          if-no-files-found: ignore
+          retention-days: 14

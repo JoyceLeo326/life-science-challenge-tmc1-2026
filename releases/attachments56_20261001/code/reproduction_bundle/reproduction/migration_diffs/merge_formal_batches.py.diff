@@ -1,0 +1,31 @@
+--- scientific_source/03_compute/method/merge_formal_batches.py
++++ published/03_compute/method/merge_formal_batches.py
+@@ -11,11 +11,13 @@
+ import json
+ from datetime import datetime, timezone
+ from pathlib import Path
++from portable_config import required_path
++from frozen_publication import frozen_matches
+ 
+ from rank_library import read_csv, write_csv, sha
+ 
+-HERE=Path(__file__).resolve().parent
+-SCRATCH=Path(r"[original compute scratch]")
++HERE=required_path("TMC1_R2_ROOT") / "03_compute"
++SCRATCH=required_path("TMC1_R2_ROOT") / "03_compute/raw_runs"
+ OLD=SCRATCH/"formal_forward_v2_initial278"
+ NEW=SCRATCH/"formal_forward_v2_resume124"
+ FROZEN=HERE/"ranking_formal_v2_16698"/"physical_union_docking_list.csv"
+@@ -34,10 +36,10 @@
+ 
+ def main():
+     p=argparse.ArgumentParser()
+-    p.add_argument("--output",type=Path,default=SCRATCH/"formal_forward_v2_merged")
++    p.add_argument("--output",type=Path,required=True)
+     p.add_argument("--require-complete",action="store_true")
+     a=p.parse_args()
+-    if sha(FROZEN)!=EXPECTED_FROZEN or sha(OLD/"job_ledger.csv")!=OLD_LEDGER_SHA:
++    if sha(FROZEN)!=EXPECTED_FROZEN or not frozen_matches(OLD/"job_ledger.csv",OLD_LEDGER_SHA):
+         raise ValueError("original freeze or paused job ledger hash changed")
+     frozen=read_csv(FROZEN)
+     old_prep=keyed(read_csv(OLD/"preparation_ledger.csv"),"old prep")

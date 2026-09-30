@@ -1,0 +1,14 @@
+# make_results.py uses only Python 3.10+ standard library.
+# Full example/replay: actual validated Windows Python3.12 CPU environment.
+rdkit==2025.9.6
+numpy==2.5.3
+scipy==1.18.1
+scikit-learn==1.7.2
+dimorphite-dl==2.0.2
+meeko==0.8.0
+torch==2.5.1+cpu
+selfies==2.2.0
+joblib==1.5.2
+threadpoolctl==3.6.0
+# Plotting exact installed version is recorded in ENVIRONMENT_ACTUAL.json.
+matplotlib==3.11.2

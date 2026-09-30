@@ -1,0 +1,59 @@
+[
+  {
+    "phase": "public_manifest",
+    "command": [
+      "$VALIDATION\\.venv\\Scripts\\python.exe",
+      "-B",
+      "verify_manifest.py"
+    ],
+    "started_utc": "2026-09-30T18:25:19.547177+00:00",
+    "seconds": 2.163,
+    "exit_code": 0,
+    "raw_log_sha256": "c5432eb56d7678ddbe5531cca36b935906dfff9359deb0dd52937e8578ebc20a"
+  },
+  {
+    "phase": "public_integrated_full",
+    "command": [
+      "$VALIDATION\\.venv\\Scripts\\python.exe",
+      "-B",
+      "replay_integrated.py",
+      "--inputs",
+      "../../private_external/EXTERNAL_INPUTS.local.json",
+      "--work",
+      "../../public_full_replay"
+    ],
+    "started_utc": "2026-09-30T18:25:21.723828+00:00",
+    "seconds": 1.084,
+    "exit_code": 1,
+    "raw_log_sha256": "dc0a4aaedc2cbb9b64bd2e4c708d40dd1470b7b87dcb5b667cdc15fd908883f7"
+  },
+  {
+    "phase": "public_manifest_after_repair",
+    "command": [
+      "$VALIDATION\\.venv\\Scripts\\python.exe",
+      "-B",
+      "verify_manifest.py"
+    ],
+    "started_utc": "2026-09-30T18:28:27.928739+00:00",
+    "seconds": 2.074,
+    "exit_code": 0,
+    "raw_log_sha256": "c5432eb56d7678ddbe5531cca36b935906dfff9359deb0dd52937e8578ebc20a"
+  },
+  {
+    "phase": "public_integrated_full_after_repair",
+    "command": [
+      "$VALIDATION\\.venv\\Scripts\\python.exe",
+      "-B",
+      "replay_integrated.py",
+      "--inputs",
+      "../../private_external/EXTERNAL_INPUTS.local.json",
+      "--work",
+      "../../public_full_replay",
+      "--resume"
+    ],
+    "started_utc": "2026-09-30T18:28:30.008311+00:00",
+    "seconds": 520.64,
+    "exit_code": 0,
+    "raw_log_sha256": "5e555e09d2001d8e4105e809ca5f02a72eea6c9736b5c95f7f777bf2e379e904"
+  }
+]

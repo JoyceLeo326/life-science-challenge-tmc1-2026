@@ -1,0 +1,81 @@
+{
+  "finished_utc": "2026-09-30T14:51:23.438320+00:00",
+  "plan": {
+    "created_utc": "2026-09-30T14:47:47.319695+00:00",
+    "input_path": "<NEW_CONDITION_ROOT>\\frozen_human_reference2.csv",
+    "input_sha256": "d8499ca0dcce312ca8b4c2dcd7b8a133ebd74445718d0905d117c08763050941",
+    "input_rows": 2,
+    "unique_ids": 2,
+    "receptor": "<SOURCE_PROJECT>\\接管推进_2026-09-27\\01_计算筛选\\screen_v2\\inputs\\receptors\\H_AF.pdbqt",
+    "receptor_sha256": "35b4acccd44a5c2c5c8aa7e756abe26c081018a2c26d0899190751c23392f2c1",
+    "box": {
+      "site_id": "table6_middle_15_common_union",
+      "center": [
+        2.3955,
+        -12.9641,
+        0.9145
+      ],
+      "size": [
+        37.687,
+        31.3744,
+        31.1908
+      ],
+      "volume_A3": 36880.180360534134,
+      "human_site_residues": [
+        414,
+        417,
+        418,
+        449,
+        450,
+        453,
+        454,
+        531,
+        534,
+        535,
+        539,
+        582,
+        583,
+        585,
+        604
+      ],
+      "mouse_site_residues": [
+        "S408",
+        "G411",
+        "M412",
+        "L443",
+        "L444",
+        "N447",
+        "L448",
+        "D528",
+        "T531",
+        "T532",
+        "I536",
+        "F579",
+        "N580",
+        "G582",
+        "R601"
+      ],
+      "rule": "Union of all heavy atoms of the 15 Supplementary Table 6 middle-site mapped residues in H_AF, M_AF, M_PUB_ALL chain A, after conserved-TM rigid alignment; 5 A padding per face; SAME center/size for every receptor and ligand",
+      "source_conflict": "Paper body calls mouse M407 middle, Supplementary Table 6 calls it Top. Project pre-specifies Table 6 region labels; M407 is not in this 15-residue middle set.",
+      "interpretation": "Literature-informed regional hypothesis, not a validated human binding pocket or gate state"
+    },
+    "box_file": "<SOURCE_PROJECT>\\接管推进_2026-09-27\\01_计算筛选\\coarse_v1\\config\\vina_box.txt",
+    "box_sha256": "3e4c7eb2c313edbe496068c9fb17790e7ca746567519836ed46131e5e7570d49",
+    "vina_sha256": "e0c4b2715e0c1a74f6e92d0f3be0328ac97542eafbc111e6b1efad897a73cce5",
+    "rdkit": "2025.09.6",
+    "chemical_identity_rule_version": "exchangeable_tertiary_ring_NH_and_full_potential_stereo_v3_20260929",
+    "seed": 20260927,
+    "conformer_seed": 20260927,
+    "exhaustiveness": 8,
+    "workers": 2,
+    "protocol": "one pH7.4 rule form only; ETKDGv3 10 conformers, converged MMFF94s min; Vina first pose; no biological claim"
+  },
+  "prepared": 2,
+  "prepared_success": 2,
+  "preparation_blocked": 0,
+  "jobs": 2,
+  "completed": 2,
+  "local_pre_qc_pass": 2,
+  "sum_job_seconds": 401.553,
+  "scratch_path": "<NEW_CONDITION_ROOT>\\raw_runs\\human_reference2"
+}

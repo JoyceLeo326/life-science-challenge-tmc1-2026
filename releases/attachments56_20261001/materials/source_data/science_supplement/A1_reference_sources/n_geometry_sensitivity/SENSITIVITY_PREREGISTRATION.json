@@ -1,0 +1,18 @@
+{
+  "scientific_change": "Enumerate both configurations only at exactly one acyclic non-amide tertiary N made stereogenic by pH7.4 protonation",
+  "unchanged": [
+    "source-defined carbon/double-bond stereochemistry",
+    "pH7.4 chemical form",
+    "source structures",
+    "10 ETKDG/MMFF conformers",
+    "receptor/box/seed/exhaustiveness",
+    "per-job 2 Vina CPUs",
+    "QC thresholds"
+  ],
+  "parent_compounds": 3,
+  "requested_geometries": 6,
+  "workers": 1,
+  "combine_with_frozen_R2_R3_statistics": false,
+  "ceforanide_excluded": true,
+  "reporting": "report each geometry and full min/max spread, never best-only as validation"
+}

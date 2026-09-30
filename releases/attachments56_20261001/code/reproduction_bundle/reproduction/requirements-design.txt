@@ -1,0 +1,4 @@
+# Original formal model used the CPU build; use PyTorch's CPU wheel index.
+-r requirements-runtime.txt
+selfies==2.2.0
+torch==2.5.1+cpu

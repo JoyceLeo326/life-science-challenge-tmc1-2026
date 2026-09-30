@@ -1,0 +1,788 @@
+{
+  "checked_at_utc": "2026-09-30T15:55:20.295977+00:00",
+  "status": "PASS",
+  "scope": "Actual file/SDF-property/raw-API/CSV evidence checks and independent aggregate recount; existing SHA-bound graph/stereo audit reused, no whole library rebuild or alert rematching",
+  "counts": {
+    "source_records": 23475,
+    "unique_source_ids": 23403,
+    "standardized_unique_parents": 21356,
+    "property_filtered_unique_parents": 17645,
+    "forward_unlabeled_unique_parents": 16698
+  },
+  "checks": [
+    {
+      "check": "54 archived source files tracked",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Public source-map SHA library/all_source_records.csv",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Public source-map SHA library/all_unique_parents.csv",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Public source-map SHA library/filtered_for_screening.csv",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Public source-map SHA library/forward_unlabeled_pool.csv",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Public source-map SHA library/historical_overlap.csv",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Public source-map SHA library/sdf_exact_stereo_exclusions.csv",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Public source-map SHA library/filtered_for_screening_exact_stereo_fullprops_2d.sdf",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Public source-map SHA library/CURRENT_MANIFEST.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Public source-map SHA provenance/summary.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Public source-map SHA provenance/snapshot_manifest.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Public source-map SHA provenance/quality_profile.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Public source-map SHA provenance/historical_overlap_summary.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Public source-map SHA provenance/sdf_exact_stereo_manifest.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Public source-map SHA provenance/repaired_sdf_independent_audit.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Public source-map SHA provenance/final_library_independent_audit.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Public source-map SHA provenance/library_split_audit.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Public source-map SHA provenance/DATA_SOURCES.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Public source-map SHA provenance/chembl_status.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Public source-map SHA provenance/raw/legacy_approved/molecules_offset_00000.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Public source-map SHA provenance/raw/legacy_approved/molecules_offset_01000.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Public source-map SHA provenance/raw/legacy_approved/molecules_offset_02000.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Public source-map SHA provenance/raw/legacy_approved/molecules_offset_03000.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Public source-map SHA provenance/raw/expanded/offset_0000000.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Public source-map SHA provenance/raw/expanded/offset_0001000.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Public source-map SHA provenance/raw/expanded/offset_0002000.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Public source-map SHA provenance/raw/expanded/offset_0003000.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Public source-map SHA provenance/raw/expanded/offset_0004000.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Public source-map SHA provenance/raw/expanded/offset_0005000.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Public source-map SHA provenance/raw/expanded/offset_0006000.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Public source-map SHA provenance/raw/expanded/offset_0007000.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Public source-map SHA provenance/raw/expanded/offset_0008000.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Public source-map SHA provenance/raw/expanded/offset_0009000.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Public source-map SHA provenance/raw/expanded/offset_0010000.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Public source-map SHA provenance/raw/expanded/offset_0011000.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Public source-map SHA provenance/raw/expanded/offset_0012000.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Public source-map SHA provenance/raw/expanded/offset_0013000.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Public source-map SHA provenance/raw/expanded/offset_0014000.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Public source-map SHA provenance/raw/expanded/offset_0015000.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Public source-map SHA provenance/raw/expanded/offset_0016000.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Public source-map SHA provenance/raw/expanded/offset_0017000.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Public source-map SHA provenance/raw/expanded/offset_0018000.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Public source-map SHA provenance/raw/expanded/offset_0019000.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Public source-map SHA provenance/expanded_acquisition_manifest.jsonl",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Public source-map SHA provenance/legacy_acquisition_manifest.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Public source-map SHA provenance/historical/coarse_v1/inputs/library/selected_candidates.csv",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Public source-map SHA provenance/historical/coarse_v1/analysis/job_audit_join.csv",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Public source-map SHA source_scripts/build_library.py",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Public source-map SHA source_scripts/make_overlap.py",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Public source-map SHA source_scripts/verify_and_profile.py",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Public source-map SHA source_scripts/add_fullprops_sdf.py",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Public source-map SHA source_scripts/repair_sdf_exact_stereo.py",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Public source-map SHA source_scripts/create_snapshot_manifest.py",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Public source-map SHA source_scripts/audit_historical_unmatched.py",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Public source-map SHA source_scripts/audit_repaired_sdf.py",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Actual source and parent count chain",
+      "pass": true,
+      "detail": {
+        "source_records": 23475,
+        "unique_source_ids": 23403,
+        "standardized_unique_parents": 21356,
+        "property_filtered_unique_parents": 17645,
+        "forward_unlabeled_unique_parents": 16698
+      }
+    },
+    {
+      "check": "Unique parent and compound identifiers",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Forward subset and 947 historical removals",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "13 unique quarantine rows",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "CURRENT_MANIFEST authoritative_csv",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "CURRENT_MANIFEST forward_unlabeled_csv",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "CURRENT_MANIFEST stereo_verified_sdf",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "CURRENT_MANIFEST sdf_exclusions",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Exact formal SDF fixed SHA and size",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "17632 SDF records +13 quarantine exhaust eligible",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Every SDF identity property matches authoritative CSV",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Existing graph/stereo audit binds exact current SDF",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Raw-page SHA and count molecules_offset_00000.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Raw-page SHA and count molecules_offset_01000.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Raw-page SHA and count molecules_offset_02000.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Raw-page SHA and count molecules_offset_03000.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Raw-page SHA and count offset_0000000.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Raw-page SHA and count offset_0001000.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Raw-page SHA and count offset_0002000.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Raw-page SHA and count offset_0003000.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Raw-page SHA and count offset_0004000.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Raw-page SHA and count offset_0005000.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Raw-page SHA and count offset_0006000.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Raw-page SHA and count offset_0007000.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Raw-page SHA and count offset_0008000.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Raw-page SHA and count offset_0009000.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Raw-page SHA and count offset_0010000.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Raw-page SHA and count offset_0011000.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Raw-page SHA and count offset_0012000.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Raw-page SHA and count offset_0013000.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Raw-page SHA and count offset_0014000.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Raw-page SHA and count offset_0015000.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Raw-page SHA and count offset_0016000.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Raw-page SHA and count offset_0017000.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Raw-page SHA and count offset_0018000.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Raw-page SHA and count offset_0019000.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "24 pages yield source identifiers unchanged",
+      "pass": true,
+      "detail": {
+        "legacy_approved": 3475,
+        "expanded": 20000
+      }
+    },
+    {
+      "check": "All acquisition records have URL time SHA counts",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Acquisition SHA corresponds to raw-page source SHA",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Parent first-failure reasons sum to 21356",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "AST add_fullprops_sdf.py",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "AST audit_historical_unmatched.py",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "AST audit_repaired_sdf.py",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "AST build_library.py",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "AST create_snapshot_manifest.py",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "AST make_overlap.py",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "AST repair_sdf_exact_stereo.py",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "AST replay_library.py",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "AST verify_and_profile.py",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "P0 public private-path and credential patterns",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "9098 unique completed rows",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "All diagnostic IDs belong to forward eligible pool",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "13 SDF-quarantined identities absent from 9098 domain",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Exact ordered frozen eligibility domain",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Executed source binding frozen_rules_sha256",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Executed source binding rule_catalog_sha256",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Executed source binding original_all_predictions_sha256",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Executed source binding eligible_9098_csv_sha256",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Executed source binding domain_freeze_sha256",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Executed source binding script_sha256",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Summary denominator and count primary/pains",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Summary denominator and count primary/pains_A",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Summary denominator and count primary/pains_B",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Summary denominator and count primary/pains_C",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Summary denominator and count primary/brenk",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Summary denominator and count primary/reactive",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Summary denominator and count sensitivity/pains",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Summary denominator and count sensitivity/pains_A",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Summary denominator and count sensitivity/pains_B",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Summary denominator and count sensitivity/pains_C",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Summary denominator and count sensitivity/brenk",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Summary denominator and count sensitivity/reactive",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Summary denominator and count union/pains",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Summary denominator and count union/pains_A",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Summary denominator and count union/pains_B",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Summary denominator and count union/pains_C",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Summary denominator and count union/brenk",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Summary denominator and count union/reactive",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Alert-list counts and duplicates consistent",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Required headline values",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Per-row unions and reactive subset relationships",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Every per-rule frequency matches 9098 rows",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Six candidate full-row evidence matches",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "585 source/runtime entries and 21060 existing direct SMARTS checks",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Diagnostic freeze SHA alert_summary.csv",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Diagnostic freeze SHA catalog_runtime_checks.csv",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Diagnostic freeze SHA chemical_alerts_9098.csv",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Diagnostic freeze SHA chemical_alerts_9098.pdf",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Diagnostic freeze SHA chemical_alerts_9098.png",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Diagnostic freeze SHA direct_smarts_spotchecks.csv",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Diagnostic freeze SHA execution_receipt.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Diagnostic freeze SHA figure_source.csv",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Diagnostic freeze SHA overlap_patterns.csv",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Diagnostic freeze SHA README.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Diagnostic freeze SHA rule_frequencies.csv",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Diagnostic freeze SHA six_candidate_alerts.csv",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Diagnostic freeze SHA summary.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Diagnostic freeze SHA independent_validation.json",
+      "pass": true,
+      "detail": null
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "frozen_at_cst": "2026-09-30T22:54:42.930411+08:00",
+  "source": "Frozen R2 ranking_formal_v2_16698 all_predictions.csv, bound by original preflight_v2.json",
+  "all_predictions_sha256": "79b775967bfc87ded9a07aae03549c9233691ec4fc3375a2c2662b64ee4b2841",
+  "selection_predicate": "docking_eligibility == 'eligible'",
+  "forward_rows": 16698,
+  "eligible_rows": 9098,
+  "unique_compound_ids": 9098,
+  "unique_parent_keys": 9098,
+  "excluded_by_reason": {
+    "prepilot_already_attempted": 12,
+    "unspecified_rule_stable_stereo": 1076,
+    "unspecified_source_stereo": 6512
+  },
+  "eligible_csv_sha256": "fcc7c01e37838bed09b519a6816a9b9a3ed82841353f112cad22cd3e5e220d26",
+  "ordered_ids_sha256": "fb7abb26d9d37d3b87e5bcb68e3cc7a2fdb70a34d7ecd0b852c3853fcd5e4e6b",
+  "primary_representation": "rule_smiles: exact frozen pH7.4 docking-rule representation",
+  "predeclared_representation_sensitivity": "standardized_isomeric_smiles as standardized source representation; report both separately and union as a diagnostic alert, never as exclusion",
+  "changes_to_original_library_or_rank": false
+}

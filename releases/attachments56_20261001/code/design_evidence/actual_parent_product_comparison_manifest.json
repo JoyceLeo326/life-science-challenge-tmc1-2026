@@ -1,0 +1,18 @@
+{
+  "inputs_sha256": {
+    "fixed": "257a5e4727008066b638fdbf576ff359acafd2f61f685724516b49578a49d5aa",
+    "identity": "72c4971971c9d9fa895af96dcbf6da3112b575862a3eb96a79acee2a39a32cf6",
+    "pilot2": "30962f87d2e864ede628010248ec3762774247ba69de9d257a9fac1ae062a969",
+    "remaining5": "c96a0664abf41608a1638eb3f49424a26da763b796773409b8e42d3d1c21c883",
+    "parents": "0cfffcb614dc1f21033de11334a9c450f34cc5d556983aaa475c02ac1b2594fb",
+    "qc": "4ee651054d34c55dbd932b69d1cbf8aaaed812e3ac378a6aaeafd81090c98131",
+    "contacts": "e4f7ae60a0c74dd7f73540e7cd85ce17481113d8a70727ba6abab0810a1aec04"
+  },
+  "actual_pairs": 7,
+  "shared_middle_contact_pairs": 5,
+  "same_protocol_pairs": 7,
+  "independent_qc_pass_pairs": 7,
+  "score_improved_pairs": 5,
+  "score_improved_and_shared_middle_pairs": 4,
+  "caption": "Same-protocol exploratory Vina e8 scores (kcal/mol) for two commercial parents and seven deterministic analogues, seed 20260929; 05 line independent graph/pose/score/file QC. Negative delta means more favorable score only. Orange analogues have no 4 A contact to predeclared 15-residue Middle region; no biological activity inference. Single seed and box/protonation limitations remain."
+}

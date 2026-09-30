@@ -1,0 +1,5 @@
+figure,source_csv_or_npz,caption
+F1_network_and_solver_QC,network_numerical_QC.csv,One connected component and six rigid-body zero modes per network. Relative eigenvalues are not physical frequencies.
+F2_relative_MSF_and_boundary,low20_relative_MSF.csv;boundary_sensitivity.csv;cutoff_sensitivity.csv,"Weighted low20 ANM covariance diagonal, normalized to mean one. Full-chain curves are renormalized on the common domain. No temperature or MD RMSF interpretation."
+F3_traversal_geometry_diagnostics,conformation_diagnostics.csv,"First two modes, both signs, all predeclared amplitudes retained. The 0.5 A display setting has 2/4 human and 4/4 mouse coarse diagnostic passes. None is full-atom docking-ready."
+F4_low_mode_displacement_localization,CA_node_index.csv;H_AF_domain_cutoff15_modes.npz;M_PUB_ALL_domain_cutoff15_modes.npz,"Magnitude of fixed 0.5 A CA RMS traversal, identical for +/- direction. Residue-wise localization does not identify channel gating or drug action."

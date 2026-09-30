@@ -1,0 +1,35 @@
+{
+  "checked_at_utc": "2026-09-30T19:38:51.908654+00:00",
+  "status": "PASS",
+  "command": [
+    "python",
+    "-I",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "scripts/tests",
+    "-p",
+    "test_*.py",
+    "-v"
+  ],
+  "exit_code": 0,
+  "output": "test_dynamic_pointer_actual_execution_and_no_source_change (test_check_latest_release.ReleaseCheckTests.test_dynamic_pointer_actual_execution_and_no_source_change) ... ok\ntest_manifest_pointer_mismatch_fails (test_check_latest_release.ReleaseCheckTests.test_manifest_pointer_mismatch_fails) ... ok\ntest_pointer_cannot_leave_repository (test_check_latest_release.ReleaseCheckTests.test_pointer_cannot_leave_repository) ... ok\ntest_replay_source_mutation_fails (test_check_latest_release.ReleaseCheckTests.test_replay_source_mutation_fails) ... ok\ntest_result_drift_fails (test_check_latest_release.ReleaseCheckTests.test_result_drift_fails) ... ok\n\n----------------------------------------------------------------------\nRan 5 tests in 0.918s\n\nOK\n",
+  "github_hosted_matrix": {
+    "operating_systems": [
+      "ubuntu-latest",
+      "windows-latest"
+    ],
+    "executed_locally": false,
+    "result": "pending actual GitHub Actions run after publication"
+  },
+  "local_linux_check": {
+    "status": "NOT_RUN",
+    "reason": "The existing WSL distribution has no Python interpreter; no system packages were modified."
+  },
+  "pypi_cp312_wheel_availability_verified": {
+    "numpy": "2.5.3 Windows x86_64 and manylinux x86_64",
+    "rdkit": "2025.9.6 Windows x86_64 and manylinux x86_64"
+  }
+}

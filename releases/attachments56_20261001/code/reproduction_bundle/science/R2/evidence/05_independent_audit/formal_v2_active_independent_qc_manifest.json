@@ -1,0 +1,15 @@
+{
+  "frozen_new_physical_ids": 41,
+  "source_old_rows": 27,
+  "source_resume_rows": 14,
+  "merged_rows": 41,
+  "independent_qc_pass": 41,
+  "middle_contact_4A": 35,
+  "favorable_fixed_threshold": 41,
+  "source_hashes": {
+    "frozen": "24b4687a8f7421dc57a5edf5be3302388787f1e49c399a0c5afed7d7a35f31c7",
+    "old27_qc": "ca82caae5143065d02a3b4cbe3d5b538bba99ea371236d1d599aeefeede6df3d",
+    "resume14_qc": "d157427f0f32341f759dcc847eb1bffab744ae5695fa134499e94c4cf4d2a934"
+  },
+  "merged_qc_sha256": "4ca883c1c0ac826f019534588d7e490b5bc13a969a97e94772dfe92a01e5407c"
+}

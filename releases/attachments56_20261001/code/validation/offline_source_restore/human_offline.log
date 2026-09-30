@@ -1,0 +1,47 @@
+{
+  "coordinate_payload_publicly_distributed": false,
+  "python": "3.12.10",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "method": "Original H_AF self-reference rigid alignment and original Meeko flags; no new modelling, docking or MD.",
+  "dependencies": {
+    "biopython": "1.88",
+    "gemmi": "0.7.5",
+    "meeko": "0.8.0",
+    "numpy": "2.5.3",
+    "rdkit": "2025.9.6",
+    "scipy": "1.18.1"
+  },
+  "source": {
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q8TDI8-F1-model_v6.pdb",
+    "sha256": "ba6b438b036b9386f4f04534cfa1dda3b6a35fbe05dd7fb2ec1b415bc6768d3b",
+    "method": "verified_existing_input"
+  },
+  "alignment": {
+    "source_heavy_atoms": 6177,
+    "aligned_pairs": 760,
+    "conserved_tm_fit_pairs": 304,
+    "tm_ca_rmsd_A": 9.91653629418143e-15,
+    "aligned_sha256": "93572ba54235e6e338205e6272d81093d5c938ba21594a676b029fa8dd5a8044",
+    "matches_historical": true
+  },
+  "meeko_arguments": [
+    "meeko.cli.mk_prepare_receptor",
+    "--read_pdb",
+    "screen_v2/inputs/receptors/H_AF_aligned_heavy.pdb",
+    "-o",
+    "screen_v2/inputs/receptors/H_AF",
+    "-p",
+    "-j",
+    "--write_pdb",
+    "screen_v2/inputs/receptors/H_AF_H.pdb"
+  ],
+  "meeko_returncode": 0,
+  "pdbqt": {
+    "sha256": "35b4acccd44a5c2c5c8aa7e756abe26c081018a2c26d0899190751c23392f2c1",
+    "matches_historical": true
+  },
+  "four_external_inputs_verified": true,
+  "status": "restored_and_historical_sha256_verified",
+  "elapsed_seconds": 8.57
+}
+

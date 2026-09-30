@@ -1,0 +1,57 @@
+{
+  "freeze_utc": "2026-09-28T21:02:55.702037+00:00",
+  "task": "Separate post-generation docking-score proxy guided multiobjective exploratory selection; no selectivity evidence",
+  "selection_rule": "From formal 233 property/identity-safe similarity-qualified pool, exclude every formal40 previously attempted ID, apply unique pH7.4 rule form and stable-stereochemistry gate; rank eligible by historical935 ExtraTrees predicted Vina score ascending, ID tie break; greedily choose at most 12 with one per existing scaffold and pairwise ECFP4 <=0.70. No replacement after docking.",
+  "control_rule": "Match proxy selection ranks 1,4,7,10 by original-source MW bins [150,250),[250,350),[350,450),[450,550] and exact pH7.4 rule formal charge. From other eligible not selected or used controls, take smallest SHA256(20260929:control:target_id:candidate_id); no score-based replacement. If bin empty retain fewer than four.",
+  "model": "ExtraTreesRegressor 160 trees, max_features=0.5, min_samples_leaf=2, seed=20260929; same 1024 Morgan2 bits + standardized eight descriptors as 03 rank_library.py",
+  "label_count": 935,
+  "new_docking_scores_read_for_training_or_selection": 0,
+  "input_sha256": {
+    "external_source/final_selfies_17645_base_all_eligible.csv": "43969cefd66f814d1387f395a5b631b8f8c97268bc0d247730d752e6e4250ac2",
+    "external_source/final_selfies_17645_base_fixed_list.csv": "216154bbf19119220da773ca75b9c2b0cbb1b2b8b2891099fcdeaff1cde56192",
+    "external_source/design_final_40.csv": "0a2114bf29576b22917e6c09f22b5e835857d4ee9b3aeb0fdb9afe0924fce71e",
+    "external_source/job_audit_join.csv": "65b19d87b9c0ee25e009e439217b35df1001c22c78129d3282f34b7820c36ea4",
+    "external_source/selected_candidates.csv": "484b0dddc59531abf6e0cd53414be0ee3ccf482aeb222e75797eedf2c0d9d809"
+  },
+  "pool_rows": 233,
+  "attempted_excluded": 40,
+  "eligibility_counts": {
+    "previously_attempted": 40,
+    "eligible": 178,
+    "blocked": 15
+  },
+  "selected_count": 12,
+  "control_count": 4,
+  "combined_count": 16,
+  "selected_source_counts": {
+    "fixed150_unattempted": 7,
+    "eligible233_outside_fixed150": 5
+  },
+  "selected_ids": [
+    "GEN_BQMVNRFBDASMNE",
+    "GEN_PSZRBNRPZWRWIQ",
+    "GEN_SDBKOTKHSQBSQB",
+    "GEN_OXPWMAXMMNOGDO",
+    "GEN_RWDRFHGCYHQYSE",
+    "GEN_KSCWJFLDWBJDGF",
+    "GEN_LDAGBLZIWYMUFJ",
+    "GEN_NFHPXWSINRISJS",
+    "GEN_OYNOJWBMIKOIOK",
+    "GEN_XZOLNSVKEZCDEB",
+    "GEN_UDPUDCYIYCQPFU",
+    "GEN_JIEGCKSWVHRGNR"
+  ],
+  "selected_file": "external_source/exploratory12_proxy_guided_fixed_list.csv",
+  "selected_sha256": "702540fa55016cc36906853c42f84c4ba0e316a7fae0ca80101c20597a7292c1",
+  "control_file": "external_source/exploratory4_matched_control_fixed_list.csv",
+  "control_sha256": "51dd891864d3ee2e91113234c4f1303c560500a40543ed915c0506c99f25ab55",
+  "combined_file": "external_source/exploratory16_docking_fixed_list.csv",
+  "combined_sha256": "c97d139dae375e925ab6d672c0fc6226cac72d0d027cd6443e82e533e4bcc176",
+  "all_predictions_file": "external_source/exploratory12_proxy_guided_all_predictions.csv",
+  "all_predictions_sha256": "49f39d22df2ffc5c578799324a5b60bd33336e1ba36fae22e1132f2c67a13d96",
+  "software": {
+    "rdkit": "2025.09.6",
+    "sklearn": "1.7.2"
+  },
+  "interpretation": "Exploratory docking-score proxy only, independent of frozen 40 main design batch; no biological affinity, selectivity, or drug-likeness conclusion"
+}

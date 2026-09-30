@@ -1,0 +1,8 @@
+compound_id,role,parent_id,name,mw,clogp,tpsa_A2,qed,sa_score,parent_ecfp4_tanimoto,docking_neighborhood_prior_kcal_mol,actual_docking_score_available,example_rank,score_type,mode
+DES_YAZKHWIVYWHKHW,enumerated_analogue,LIB_CHEMBL2103870,primary_amide,451.429,4.148,103.54,0.6067,2.784,0.8571,-9.054,False,1,uncalibrated parent-neighborhood prior; not affinity,separate reproducible rule-enumeration example
+DES_JMWNSKZCTCNWSL,enumerated_analogue,LIB_CHEMBL2103870,methylamide,465.456,4.408,89.55,0.5828,2.79,0.8438,-9.028,False,2,uncalibrated parent-neighborhood prior; not affinity,separate reproducible rule-enumeration example
+DES_AFGHMHSPPSRMJL,enumerated_analogue,LIB_CHEMBL2103870,hydroxyethylamide,495.482,3.771,109.78,0.4605,2.833,0.7826,-8.905,False,3,uncalibrated parent-neighborhood prior; not affinity,separate reproducible rule-enumeration example
+DES_LYIDGSVTVBVLGU,enumerated_analogue,LIB_CHEMBL3894860,ethyl,460.586,3.115,91.21,0.6181,3.523,0.8333,-8.431,False,4,uncalibrated parent-neighborhood prior; not affinity,separate reproducible rule-enumeration example
+DES_TWTKMJWAXOPXSX,enumerated_analogue,LIB_CHEMBL3894860,desmethyl,432.532,2.382,100.0,0.5843,3.598,0.8281,-8.42,False,5,uncalibrated parent-neighborhood prior; not affinity,separate reproducible rule-enumeration example
+DES_FBGMOLGYPGIRPG,enumerated_analogue,LIB_CHEMBL3894860,acetyl,474.569,2.641,108.28,0.6008,3.54,0.8209,-8.406,False,6,uncalibrated parent-neighborhood prior; not affinity,separate reproducible rule-enumeration example
+DES_JWEMMDYMRYGOAJ,enumerated_analogue,LIB_CHEMBL3894860,hydroxyethyl,476.585,2.087,111.44,0.5134,3.561,0.8088,-8.382,False,7,uncalibrated parent-neighborhood prior; not affinity,separate reproducible rule-enumeration example

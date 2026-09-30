@@ -1,0 +1,56 @@
+[
+  {
+    "file": "all_predictions.csv",
+    "original_sha256": "79b775967bfc87ded9a07aae03549c9233691ec4fc3375a2c2662b64ee4b2841",
+    "replay_sha256": "79b775967bfc87ded9a07aae03549c9233691ec4fc3375a2c2662b64ee4b2841",
+    "byte_identical": true
+  },
+  {
+    "file": "arm_assignments.csv",
+    "original_sha256": "1eb0908109108bba2507efa39e46f7a4561e63bf4d161309175f590b25f3b9ce",
+    "replay_sha256": "1eb0908109108bba2507efa39e46f7a4561e63bf4d161309175f590b25f3b9ce",
+    "byte_identical": true
+  },
+  {
+    "file": "physical_union_docking_list.csv",
+    "original_sha256": "3b53b86471eaed6f5bc49fbef381b811ec81153c69376fc4f20bf2c0161790b9",
+    "replay_sha256": "3b53b86471eaed6f5bc49fbef381b811ec81153c69376fc4f20bf2c0161790b9",
+    "byte_identical": true
+  },
+  {
+    "file": "active_predictions_all_eligible.csv",
+    "original_sha256": "4ff78ae04b87ab4f0c86fcb46f7bc672c8aafa7f783c1667b861b93eec13385a",
+    "replay_sha256": "4ff78ae04b87ab4f0c86fcb46f7bc672c8aafa7f783c1667b861b93eec13385a",
+    "byte_identical": true
+  },
+  {
+    "file": "AI_active_60.csv",
+    "original_sha256": "bd50bc8de9433b4b7dcade109355822cac0439308f761ba7e72c2f850cbe5183",
+    "replay_sha256": "bd50bc8de9433b4b7dcade109355822cac0439308f761ba7e72c2f850cbe5183",
+    "byte_identical": true
+  },
+  {
+    "file": "forward_arm_summary.csv",
+    "original_sha256": "77ff7e7e6b70b80e7309983775b0b45cf15235712fbc95d4fa1989bafafa712b",
+    "replay_sha256": "77ff7e7e6b70b80e7309983775b0b45cf15235712fbc95d4fa1989bafafa712b",
+    "byte_identical": true
+  },
+  {
+    "file": "forward_attempt_level.csv",
+    "original_sha256": "7dd47674dfa633f9a47f4d8d49b05809aca366f398303586b255530e2195a596",
+    "replay_sha256": "7dd47674dfa633f9a47f4d8d49b05809aca366f398303586b255530e2195a596",
+    "byte_identical": true
+  },
+  {
+    "file": "forward_charge_sensitivity.csv",
+    "original_sha256": "fb7232af98ba0045fab9b5e7560069faaf6c07ee69fcd207df15d012630b74a3",
+    "replay_sha256": "fb7232af98ba0045fab9b5e7560069faaf6c07ee69fcd207df15d012630b74a3",
+    "byte_identical": true
+  },
+  {
+    "file": "forward_strata.csv",
+    "original_sha256": "a0b9ab8a86f3f4a889985139f9138f32de3f8b93aea7abc782404c6967e339d4",
+    "replay_sha256": "a0b9ab8a86f3f4a889985139f9138f32de3f8b93aea7abc782404c6967e339d4",
+    "byte_identical": true
+  }
+]

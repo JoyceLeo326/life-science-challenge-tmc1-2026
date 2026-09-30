@@ -1,0 +1,32 @@
+{
+  "actual_frozen_public_jobs": 26,
+  "independent_protein_pose_QC_pass": 25,
+  "independent_protein_pose_QC_fail": 1,
+  "independent_QC_agreement_with_packaged_adjudication": 26,
+  "QC_failure_rows": [
+    {
+      "compound_id": "REF_CHEMBL115",
+      "run_id": "REF_CHEMBL115__W_7USX_LOCAL_COMPLETE__e8__s20260927",
+      "independent_qc_pass": false,
+      "failure_reason": "outside_docking_box",
+      "score_kcal_mol": -7.996,
+      "pose_sha256": "6001b8e5ec8ab54b35c8781701e75498971d4c07998117380fe0e7f0cf502d35",
+      "status": "completed",
+      "independent_qc_evidence": "<NEW_CONDITION_ROOT>\\independent_receptor_audit\\public26_independent_pose_core.csv",
+      "rule_charge": 2,
+      "exchangeable_N_indices": "[9, 19]",
+      "pdbqt_partial_charge_sum": 2.004,
+      "pdbqt_charge_abs_difference": 0.004,
+      "charge_parameterization_warning": false,
+      "vina_log_table_score_kcal_mol": -7.996,
+      "pose_heavy_atoms": 45,
+      "min_receptor_A": 2.858,
+      "severe_pairs_under1p5_A": 0,
+      "min_box_margin_A": -0.148,
+      "closest_middle_A": 3.736,
+      "middle_contact_4A": true,
+      "log_sha256": "1997ff00a0a060705b0648dcba7341a978440dd73261c83ee50701ac8b93d35e"
+    }
+  ],
+  "scope": "Read-only independent raw first-mode stable-graph/hash/log/score/geometry audit; correct separate mouse/human/worm residue sets; no docking, no score threshold."
+}

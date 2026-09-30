@@ -1,0 +1,669 @@
+{
+  "files": [
+    {
+      "path": "A1_A3_科学补充数据.xlsx",
+      "bytes": 163940,
+      "sha256": "7abaf6823ac4ada35a9da8ac9f99e3421645750aba53aea87e35fd71b7cbcd25"
+    },
+    {
+      "path": "先读我.md",
+      "bytes": 886,
+      "sha256": "1081f9c1361cdd136d5b7dd6a127563db71756925212f421bac1c1f86485a55d"
+    },
+    {
+      "path": "包装验收.json",
+      "bytes": 2340,
+      "sha256": "23c69e5ae58f26712095672cc5aa314b6aabae499b997c7f34a6a601b2d67a5c"
+    },
+    {
+      "path": "独立复核/A1_SOURCE_AND_A3_VERSIONS.json",
+      "bytes": 3360,
+      "sha256": "8593e151177bb60c8fca3e5953b4f3f1344db50a356d2df4a80c68eb83a2e279"
+    },
+    {
+      "path": "独立复核/A2_PHARMACOLOGY_A3_INDEPENDENT_CHECK.json",
+      "bytes": 25578,
+      "sha256": "64362edadff908dc6967b6f3d13d40bab862343e241d58188af54656902ef16e"
+    },
+    {
+      "path": "独立复核/INDEPENDENT_SCIENCE_REVIEW.md",
+      "bytes": 4042,
+      "sha256": "e74fac0f0702717069dc91b6cffa7f970fc7169a4a222c4a63be0bfa94ff7201"
+    },
+    {
+      "path": "独立复核/PUBLIC_SCIENCE_INDEPENDENT_ACCEPTANCE.json",
+      "bytes": 5085,
+      "sha256": "3faffef9029a8247bc5477203151be424037624b22946cb0ba124d7537b75ba2"
+    },
+    {
+      "path": "科学证据/A1_reference_sources/A1_README.md",
+      "bytes": 1339,
+      "sha256": "69fb755ff700b80d4079bc12cc71df8f79905f3e32f7a61b2fa854ae8d9ae560"
+    },
+    {
+      "path": "科学证据/A1_reference_sources/author_source_inventory.json",
+      "bytes": 2454,
+      "sha256": "2c00e9dc5b8b59e8b66fc19c29262d4951fb6b80541c09151ce1132532c6e421"
+    },
+    {
+      "path": "科学证据/A1_reference_sources/author_training_unique12.csv",
+      "bytes": 5048,
+      "sha256": "50e1360c5d726cd920c9e3490dd8b7f58c7bca4babbce50f15c2b2b35b567c6c"
+    },
+    {
+      "path": "科学证据/A1_reference_sources/author_tree.tsv",
+      "bytes": 4530,
+      "sha256": "f8a692a8e3c94f2e1bee0d0ca44ccf04d46646e58605ecb62b4689a694b60742"
+    },
+    {
+      "path": "科学证据/A1_reference_sources/formal6_author_training12_overlap.csv",
+      "bytes": 847,
+      "sha256": "4b37ec3d64b60667f6fab27609b4d4070cc5962e6901bf7b358a132dc4d43a54"
+    },
+    {
+      "path": "科学证据/A1_reference_sources/paper_13_plus_3_author_source_map.csv",
+      "bytes": 3139,
+      "sha256": "8c511ef445b9b4e37b2689863e46c968ad4e6e2368ff2a8027ecba4bf45bb9ef"
+    },
+    {
+      "path": "科学证据/A1_reference_sources/paper_dye_uptake12_plus_amitraz.csv",
+      "bytes": 4824,
+      "sha256": "23a8f557ffece0426ac756a5910de8189a17f212ce127a5f210a7ef9ef4c984b"
+    },
+    {
+      "path": "科学证据/A1_reference_sources/QUERY_LEDGER.json",
+      "bytes": 3469,
+      "sha256": "c1696cdf646266f89583d6e0a8cbf4ebbb21db28f32ee99c78b0e9fd3b672d59"
+    },
+    {
+      "path": "科学证据/A1_reference_sources/reference_source_claim_audit.csv",
+      "bytes": 1213,
+      "sha256": "d24a8ef1c54a26623bbe7c7bb64e4a4928baadd5a391d348b27451689b3268f7"
+    },
+    {
+      "path": "科学证据/A1_reference_sources/REFERENCE_SOURCE_CLARIFICATION.md",
+      "bytes": 6142,
+      "sha256": "77fd7a6497191599883eef0ed6d8d2492e881c2880a0e72fd0f1d571f688f24a"
+    },
+    {
+      "path": "科学证据/A1_reference_sources/ZINC_primary_identity_verification.csv",
+      "bytes": 1847,
+      "sha256": "8cd2d6b25a8e4459715aee8d79cdbe08328ccbed7fab01ccf54d703708647a32"
+    },
+    {
+      "path": "科学证据/A2_chembl_neighbors/A2_README.md",
+      "bytes": 2626,
+      "sha256": "cb4502d120633b3f53e4a2be779170e0299fe2f4f0ce8af805d1a9dc21d21d8e"
+    },
+    {
+      "path": "科学证据/A2_chembl_neighbors/candidate_neighbor_annotations.csv",
+      "bytes": 540219,
+      "sha256": "4db8911612a7db3899089905c3c1e057346c1343bed7ea7d220ff9bc7c60cd9b"
+    },
+    {
+      "path": "科学证据/A2_chembl_neighbors/candidate_neighbor_ge0p6.csv",
+      "bytes": 109663,
+      "sha256": "8c5c8bcddad2e7a36db568a262e966cd18d920def7fad1f9cea10adeb8a3d00f"
+    },
+    {
+      "path": "科学证据/A2_chembl_neighbors/candidate_similarity_identity_audit.csv",
+      "bytes": 1325,
+      "sha256": "3d51299865b89e356cb1b7c91ad04aafbccfbb7fb39be7e4daad3b9f66ce998c"
+    },
+    {
+      "path": "科学证据/A2_chembl_neighbors/candidate_similarity_summary.csv",
+      "bytes": 1386,
+      "sha256": "446bcc36cda3e3a8aa7c3bbd3d4a32bacdc8a364a38ab18ea2fe1fc19abc00ed"
+    },
+    {
+      "path": "科学证据/A2_chembl_neighbors/CHEMBL_FETCH_COMPLETE.json",
+      "bytes": 4158,
+      "sha256": "dc9e6047840662b79ba921ab1be42d62e6565772bde1602296dbd2fd16ca6fe7"
+    },
+    {
+      "path": "科学证据/A2_chembl_neighbors/chembl_raw/CHEMBL1076497/molecule.json",
+      "bytes": 5257,
+      "sha256": "65bc8d488779c9eb93c29a9a8156c02a018ca4221dca65fb2976a5426b5306ae"
+    },
+    {
+      "path": "科学证据/A2_chembl_neighbors/chembl_raw/CHEMBL1076497/molecule.receipt.json",
+      "bytes": 268,
+      "sha256": "46913d72badc0896dd92110fdba0227e60a343016f589a3beaf4b062249c0032"
+    },
+    {
+      "path": "科学证据/A2_chembl_neighbors/chembl_raw/CHEMBL1076497/similarity40_page000.json",
+      "bytes": 1082046,
+      "sha256": "659342a0a7cdd10c7f49bf4a5b3f7787f46152640a7a09c81924021a7b3aa74a"
+    },
+    {
+      "path": "科学证据/A2_chembl_neighbors/chembl_raw/CHEMBL1076497/similarity40_page000.receipt.json",
+      "bytes": 406,
+      "sha256": "9c6568d471720a43f2f19ee22b43976b82dbdeeb83c4c1f9457d0d2bbecebbb2"
+    },
+    {
+      "path": "科学证据/A2_chembl_neighbors/chembl_raw/CHEMBL1076497/similarity60_count.json",
+      "bytes": 312,
+      "sha256": "8a812bd3cc86dd6d298fce2ae5ff86e40b7ac9427fc9366f7a2dc964afb00614"
+    },
+    {
+      "path": "科学证据/A2_chembl_neighbors/chembl_raw/CHEMBL1076497/similarity60_count.receipt.json",
+      "bytes": 315,
+      "sha256": "11baa2554a37ab655276c9c88d9523f7ba21ce32cdd6573501504cd3cdf311ea"
+    },
+    {
+      "path": "科学证据/A2_chembl_neighbors/chembl_raw/CHEMBL1079964/molecule.json",
+      "bytes": 4783,
+      "sha256": "a7338868964f6211b1fbd1f3c6411994e005c6c158e9c65e54d1bbc4e8b4d6b9"
+    },
+    {
+      "path": "科学证据/A2_chembl_neighbors/chembl_raw/CHEMBL1079964/molecule.receipt.json",
+      "bytes": 268,
+      "sha256": "aa5cbda38c91c31e1bf231065ab062983990b126847bd2398661174641336a51"
+    },
+    {
+      "path": "科学证据/A2_chembl_neighbors/chembl_raw/CHEMBL1079964/similarity40_page000.json",
+      "bytes": 1414333,
+      "sha256": "18811f4e235ab6e24eae782bf3f47bb2318f0cc028480885f57de6cb9d15744e"
+    },
+    {
+      "path": "科学证据/A2_chembl_neighbors/chembl_raw/CHEMBL1079964/similarity40_page000.receipt.json",
+      "bytes": 406,
+      "sha256": "7e7c057fa66c723cd16f8a7c3aec8d7db438937caf07ea2491012f10dd81d1f1"
+    },
+    {
+      "path": "科学证据/A2_chembl_neighbors/chembl_raw/CHEMBL1079964/similarity60_count.json",
+      "bytes": 311,
+      "sha256": "ae63aacecaf03e785ab9a6b6b7b55936daa4e81cd896fea71717fb33a43e8221"
+    },
+    {
+      "path": "科学证据/A2_chembl_neighbors/chembl_raw/CHEMBL1079964/similarity60_count.receipt.json",
+      "bytes": 315,
+      "sha256": "f1cf261ec79a5d5bdb7978959665a333b6c0be7ae8b3a922ebf38a5268945716"
+    },
+    {
+      "path": "科学证据/A2_chembl_neighbors/chembl_raw/CHEMBL1080205/molecule.json",
+      "bytes": 4880,
+      "sha256": "023ecdcad1a91851e19b2ee3758b62b9e3f547d4d53aa385d59a161bd0b2f610"
+    },
+    {
+      "path": "科学证据/A2_chembl_neighbors/chembl_raw/CHEMBL1080205/molecule.receipt.json",
+      "bytes": 268,
+      "sha256": "565a42f0a881f85766796eb28e20c6fe571af9c1bbbb8de0db230141d22687cb"
+    },
+    {
+      "path": "科学证据/A2_chembl_neighbors/chembl_raw/CHEMBL1080205/similarity40_page000.json",
+      "bytes": 584690,
+      "sha256": "c43e3d24ece502d542e40803038c1082be1e92eb007d19f4f03715768d2610bc"
+    },
+    {
+      "path": "科学证据/A2_chembl_neighbors/chembl_raw/CHEMBL1080205/similarity40_page000.receipt.json",
+      "bytes": 405,
+      "sha256": "0eadbacce1f103d0f61c89a1fec4d04cb4b8e901fa96707015257d0f9fab92a4"
+    },
+    {
+      "path": "科学证据/A2_chembl_neighbors/chembl_raw/CHEMBL1080205/similarity60_count.json",
+      "bytes": 312,
+      "sha256": "0e57c000d4d46eaf6ad3b4733c96200ab30a2d5179c0ebff06e437e609db214a"
+    },
+    {
+      "path": "科学证据/A2_chembl_neighbors/chembl_raw/CHEMBL1080205/similarity60_count.receipt.json",
+      "bytes": 315,
+      "sha256": "6c01b2eeddf5e94aca76a30cfa135c79096dbe3fa6f0def25d0b3ad2593f5adf"
+    },
+    {
+      "path": "科学证据/A2_chembl_neighbors/chembl_raw/CHEMBL1080362/molecule.json",
+      "bytes": 4880,
+      "sha256": "1500fbec8f0b2a3402406d3206213f1345b10eaa7ab2bbbe2b743d9ca6b8f930"
+    },
+    {
+      "path": "科学证据/A2_chembl_neighbors/chembl_raw/CHEMBL1080362/molecule.receipt.json",
+      "bytes": 268,
+      "sha256": "4777d3701274b86c2d34688f5643957d52cd04f7566b4bf29563a3e46c687a2d"
+    },
+    {
+      "path": "科学证据/A2_chembl_neighbors/chembl_raw/CHEMBL1080362/similarity40_page000.json",
+      "bytes": 862327,
+      "sha256": "63968e2ffea53466c6410c3b19578e444327ab240d935bad7beffbcf45a67f28"
+    },
+    {
+      "path": "科学证据/A2_chembl_neighbors/chembl_raw/CHEMBL1080362/similarity40_page000.receipt.json",
+      "bytes": 405,
+      "sha256": "48f32ba6cb582a485f06e75cd99946cf98d0062d4d92a28da07f0171599e62db"
+    },
+    {
+      "path": "科学证据/A2_chembl_neighbors/chembl_raw/CHEMBL1080362/similarity60_count.json",
+      "bytes": 294,
+      "sha256": "a4f4cb97f077b97aeb3af23ccb02caf6cf853bab08521ff005267a7f9bee0a29"
+    },
+    {
+      "path": "科学证据/A2_chembl_neighbors/chembl_raw/CHEMBL1080362/similarity60_count.receipt.json",
+      "bytes": 315,
+      "sha256": "eca9813a07a50458f2997c55b0617612aed3c0a735f2f648977b39e5ead2b652"
+    },
+    {
+      "path": "科学证据/A2_chembl_neighbors/chembl_raw/CHEMBL1080669/molecule.json",
+      "bytes": 5161,
+      "sha256": "36dab778ef835fb62063f7a0b6d43aefdeb5f6d8e63eb2a37bdf34ce570e2a5d"
+    },
+    {
+      "path": "科学证据/A2_chembl_neighbors/chembl_raw/CHEMBL1080669/molecule.receipt.json",
+      "bytes": 268,
+      "sha256": "ef84c94800a9132474cf67d96a76d0c3f2eb97b3661819ef3a1989dac8dcdfb9"
+    },
+    {
+      "path": "科学证据/A2_chembl_neighbors/chembl_raw/CHEMBL1080669/similarity40_page000.json",
+      "bytes": 535664,
+      "sha256": "fe8a3c2f800c3b38302b4bb6c036711688a3c4e984fd98a0ad74b6e8652cdfd7"
+    },
+    {
+      "path": "科学证据/A2_chembl_neighbors/chembl_raw/CHEMBL1080669/similarity40_page000.receipt.json",
+      "bytes": 405,
+      "sha256": "aee8faf830f3858d7e366b8a6897609a80dfa2b0f5e0e043f3182e50ab57e53a"
+    },
+    {
+      "path": "科学证据/A2_chembl_neighbors/chembl_raw/CHEMBL1080669/similarity60_count.json",
+      "bytes": 311,
+      "sha256": "9b195ba29f44f976893fd60e872b1d5e62410302068be4a35a1a544bd4a6aeb6"
+    },
+    {
+      "path": "科学证据/A2_chembl_neighbors/chembl_raw/CHEMBL1080669/similarity60_count.receipt.json",
+      "bytes": 315,
+      "sha256": "d78fc1bc24fb7419cb14a4993afbfc94c119b85e0b54707f5b42d46a8d7b09a8"
+    },
+    {
+      "path": "科学证据/A2_chembl_neighbors/chembl_raw/CHEMBL1081740/molecule.json",
+      "bytes": 4971,
+      "sha256": "dd4c74cd88f5e0eec19ff21ee2c4a89fa4f7c64345cdf4e01ed1d2283e51ce10"
+    },
+    {
+      "path": "科学证据/A2_chembl_neighbors/chembl_raw/CHEMBL1081740/molecule.receipt.json",
+      "bytes": 268,
+      "sha256": "f5c18b719050a51b9e40c4b6be71cb66aa19863a84ff8af9c85fe406e4cb276a"
+    },
+    {
+      "path": "科学证据/A2_chembl_neighbors/chembl_raw/CHEMBL1081740/similarity40_page000.json",
+      "bytes": 522921,
+      "sha256": "4997ef38e00d7be7a634cefde67f5e2c07cfdd9ed894b2fc838f85925dfe4626"
+    },
+    {
+      "path": "科学证据/A2_chembl_neighbors/chembl_raw/CHEMBL1081740/similarity40_page000.receipt.json",
+      "bytes": 405,
+      "sha256": "78bb9bdc1bad9c6d7689152b3ce5dde9f1c91485c83e569fb2e51d836c8b8b73"
+    },
+    {
+      "path": "科学证据/A2_chembl_neighbors/chembl_raw/CHEMBL1081740/similarity60_count.json",
+      "bytes": 312,
+      "sha256": "7f301708ca45ed1aabe6f954188e276171437472f30db1f93502d7748245f9a9"
+    },
+    {
+      "path": "科学证据/A2_chembl_neighbors/chembl_raw/CHEMBL1081740/similarity60_count.receipt.json",
+      "bytes": 315,
+      "sha256": "4b99f552e07f7540889e647f59c5abefa09ffb73059b3297ef07f9f319b01d91"
+    },
+    {
+      "path": "科学证据/A2_chembl_neighbors/formal6_original_assays.csv",
+      "bytes": 3492,
+      "sha256": "c53398a1af0dcb8d148ab9954075d0b3e2958f5dbc5a507193ed19c5a651e6e6"
+    },
+    {
+      "path": "科学证据/A2_chembl_neighbors/formal_six_input.csv",
+      "bytes": 1684,
+      "sha256": "f389adbea2aa48122927e7de0ceebd71a10aa75195144bb9116ef29abc7fc961"
+    },
+    {
+      "path": "科学证据/A2_chembl_neighbors/pharmacology_actual_activity_records.csv",
+      "bytes": 253003,
+      "sha256": "000b0a903eb0197edccc2376b31eac2c90c463de6e0a4bcb8f52738a11c330b8"
+    },
+    {
+      "path": "科学证据/A2_chembl_neighbors/PHARMACOLOGY_FETCH_COMPLETE.json",
+      "bytes": 16007,
+      "sha256": "5a8a657ad60ae6484e3194bd0d88f3add8764d78b81bd257aeacb70314c9c42d"
+    },
+    {
+      "path": "科学证据/A2_chembl_neighbors/pharmacology_molecule_summary.csv",
+      "bytes": 12917,
+      "sha256": "24c13696d7f81548cb96c3331b74a28d6a3f82d5c4135602cb6fb5f6d954a973"
+    },
+    {
+      "path": "科学证据/A2_chembl_neighbors/PHARMACOLOGY_QUERY_PLAN.json",
+      "bytes": 944,
+      "sha256": "c48e9b025dd95289faf06ed2f95fe7b0d3ccd4da781f6f693bb444383511a42d"
+    },
+    {
+      "path": "科学证据/A2_chembl_neighbors/pharmacology_raw/activity_batch00_page000.json",
+      "bytes": 928173,
+      "sha256": "72785032b60db840b07aa7644b983755acb07217596fbb364f152d74d3aa3565"
+    },
+    {
+      "path": "科学证据/A2_chembl_neighbors/pharmacology_raw/activity_batch00_page000.receipt.json",
+      "bytes": 813,
+      "sha256": "389944d37b624c7629d39e9e8a477cdc09b449fe7fc81eac3a63a981d69da272"
+    },
+    {
+      "path": "科学证据/A2_chembl_neighbors/pharmacology_raw/assay_batch00_page000.json",
+      "bytes": 30881,
+      "sha256": "32427c5f9b5854bb2adda5bff6094f530c4ba0ff72cf686bd0bf5ae500d12a97"
+    },
+    {
+      "path": "科学证据/A2_chembl_neighbors/pharmacology_raw/assay_batch00_page000.receipt.json",
+      "bytes": 841,
+      "sha256": "6dc2a06ae11358803cb2a74b8c942a6b210fbd6c0e4becf6533624d6f8b04ace"
+    },
+    {
+      "path": "科学证据/A2_chembl_neighbors/pharmacology_raw/assay_batch01_page000.json",
+      "bytes": 31846,
+      "sha256": "8932b176a56dd82362d9c68cce9c53baeb9959a26dc5a34927f773fcedcd6716"
+    },
+    {
+      "path": "科学证据/A2_chembl_neighbors/pharmacology_raw/assay_batch01_page000.receipt.json",
+      "bytes": 841,
+      "sha256": "c77a1a4bc9318835fdac66f01c2a6a191b105abe6dab145cc04bd1d757d7a7c6"
+    },
+    {
+      "path": "科学证据/A2_chembl_neighbors/pharmacology_raw/assay_batch02_page000.json",
+      "bytes": 34986,
+      "sha256": "05884fbab36a70a6dda77709a8b3388a18d30d466a06fb5332b6cf92a2f4e390"
+    },
+    {
+      "path": "科学证据/A2_chembl_neighbors/pharmacology_raw/assay_batch02_page000.receipt.json",
+      "bytes": 841,
+      "sha256": "8e0c8a7025a92d9fb52bd08d3516c0832e46cf825be44b1c66372e10f5122690"
+    },
+    {
+      "path": "科学证据/A2_chembl_neighbors/pharmacology_raw/assay_batch03_page000.json",
+      "bytes": 34504,
+      "sha256": "8d23dde55b5b80319800b270ff355a8b610e53f54bdac0b50272362d57413a2c"
+    },
+    {
+      "path": "科学证据/A2_chembl_neighbors/pharmacology_raw/assay_batch03_page000.receipt.json",
+      "bytes": 841,
+      "sha256": "715278004b54258361c39eecd318dfa61444b5df0792f9bdb9b0be32cfa3451c"
+    },
+    {
+      "path": "科学证据/A2_chembl_neighbors/pharmacology_raw/assay_batch04_page000.json",
+      "bytes": 33376,
+      "sha256": "f4dc1cd386efe0eea0a7e3f7ea613fa4326b677f26056832944f21c9661745a1"
+    },
+    {
+      "path": "科学证据/A2_chembl_neighbors/pharmacology_raw/assay_batch04_page000.receipt.json",
+      "bytes": 841,
+      "sha256": "7b3d0d3b4a0fd37a8cf107df6e7206286ce033f9f5f0de18d473211fd15e5fbc"
+    },
+    {
+      "path": "科学证据/A2_chembl_neighbors/pharmacology_raw/assay_batch05_page000.json",
+      "bytes": 33637,
+      "sha256": "7fbcfddf0ac7d9d11c74e299ae6ba5e57b3cd01113be60a26ede3fd90f1b4e28"
+    },
+    {
+      "path": "科学证据/A2_chembl_neighbors/pharmacology_raw/assay_batch05_page000.receipt.json",
+      "bytes": 841,
+      "sha256": "a413215f4fd15793ef78eb0f26ae8e58fd07e9e8c52a5a889c8de76c79b8e6db"
+    },
+    {
+      "path": "科学证据/A2_chembl_neighbors/pharmacology_raw/assay_batch06_page000.json",
+      "bytes": 33748,
+      "sha256": "f6fe1694217b45deabd7d3381be6b11107be6533475a02766033b222afab2cae"
+    },
+    {
+      "path": "科学证据/A2_chembl_neighbors/pharmacology_raw/assay_batch06_page000.receipt.json",
+      "bytes": 841,
+      "sha256": "62dba09daf8065cc2f45669f14b207319d69fa8280f262e0668f622dc6cfa602"
+    },
+    {
+      "path": "科学证据/A2_chembl_neighbors/pharmacology_raw/assay_batch07_page000.json",
+      "bytes": 40239,
+      "sha256": "af18a5b15e3404d2dca4baba36cca155273b41a5fcf7d3cf60210c2eee49b201"
+    },
+    {
+      "path": "科学证据/A2_chembl_neighbors/pharmacology_raw/assay_batch07_page000.receipt.json",
+      "bytes": 841,
+      "sha256": "76373ab956d9b3216c4d144f3d41c7c4d5501ccdf12eecda0c39b15ab99f9d64"
+    },
+    {
+      "path": "科学证据/A2_chembl_neighbors/pharmacology_raw/assay_batch08_page000.json",
+      "bytes": 36153,
+      "sha256": "101d35aeed5f2c98581565787fc55d5002d1d66e97a5d58e374dee30a6aac6bf"
+    },
+    {
+      "path": "科学证据/A2_chembl_neighbors/pharmacology_raw/assay_batch08_page000.receipt.json",
+      "bytes": 841,
+      "sha256": "6d5dcefc03142826f8d9488878afda2537f740a3a4dc96da2279ff8228a5ff62"
+    },
+    {
+      "path": "科学证据/A2_chembl_neighbors/pharmacology_raw/assay_batch09_page000.json",
+      "bytes": 35459,
+      "sha256": "8b4e99539587490fb3775a718602927afb14bbe40b1aadd8ebd0ee04f160eeee"
+    },
+    {
+      "path": "科学证据/A2_chembl_neighbors/pharmacology_raw/assay_batch09_page000.receipt.json",
+      "bytes": 841,
+      "sha256": "c101d0e4d0ea63e130c8c94f347bde4612e0ad5778c98539f3bfcf80b417f42a"
+    },
+    {
+      "path": "科学证据/A2_chembl_neighbors/pharmacology_raw/assay_batch10_page000.json",
+      "bytes": 33870,
+      "sha256": "acf9638669e2241095d8129c144e5631d28f1396253cfa1fbd83f10aafd8e610"
+    },
+    {
+      "path": "科学证据/A2_chembl_neighbors/pharmacology_raw/assay_batch10_page000.receipt.json",
+      "bytes": 841,
+      "sha256": "e1081d9fc45f4905e38c26cae6cc4f5766d0848cc18c9bd8101c952e6260910e"
+    },
+    {
+      "path": "科学证据/A2_chembl_neighbors/pharmacology_raw/assay_batch11_page000.json",
+      "bytes": 36353,
+      "sha256": "dd49b8f0029a420e42bedfe697b435e852849989bf5fb3f0012a8170d9c74dcd"
+    },
+    {
+      "path": "科学证据/A2_chembl_neighbors/pharmacology_raw/assay_batch11_page000.receipt.json",
+      "bytes": 839,
+      "sha256": "3e7293a58d80b093783c2187f95bb5bf6c7c66fcbe9187e0d62823aa9623a116"
+    },
+    {
+      "path": "科学证据/A2_chembl_neighbors/pharmacology_raw/assay_batch12_page000.json",
+      "bytes": 1951,
+      "sha256": "c57e3eed3b24cd6af2c55be46762049e9f98a9d626c6aebda7805d405a6678a9"
+    },
+    {
+      "path": "科学证据/A2_chembl_neighbors/pharmacology_raw/assay_batch12_page000.receipt.json",
+      "bytes": 310,
+      "sha256": "89c7eaf7ad0c501360d4c23b0ec907c7c429cf417cfe2f5fd5460dce7e6b4c5a"
+    },
+    {
+      "path": "科学证据/A2_chembl_neighbors/pharmacology_raw/document_batch00_page000.json",
+      "bytes": 52124,
+      "sha256": "0fe9c6aaab6b06de8b432b59b593c222844f25951e7c4c512714bc62bd0271fc"
+    },
+    {
+      "path": "科学证据/A2_chembl_neighbors/pharmacology_raw/document_batch00_page000.receipt.json",
+      "bytes": 847,
+      "sha256": "59aa3de70aa65f8e2729483a169b4b36c0b4f7372178ef8c5f248bebe806d51e"
+    },
+    {
+      "path": "科学证据/A2_chembl_neighbors/pharmacology_raw/document_batch01_page000.json",
+      "bytes": 21424,
+      "sha256": "440fed555624151c25490af4dd277e91fa941e6a7c7114c2693d42696c3567a0"
+    },
+    {
+      "path": "科学证据/A2_chembl_neighbors/pharmacology_raw/document_batch01_page000.receipt.json",
+      "bytes": 495,
+      "sha256": "8fb7a9e159dd0d72b1700ff6f4c06839cda9dd3a77dd5b2d5f163657354fb0f5"
+    },
+    {
+      "path": "科学证据/A2_chembl_neighbors/pharmacology_raw/mechanism_batch00_page000.json",
+      "bytes": 111,
+      "sha256": "4602fc528c371fde69c19534951ba13dfdf908f51fd8588fc974b18428d7a8dd"
+    },
+    {
+      "path": "科学证据/A2_chembl_neighbors/pharmacology_raw/mechanism_batch00_page000.receipt.json",
+      "bytes": 811,
+      "sha256": "5e2f2972f3805ccc5de5d26dc4806fb9dd1ac20edd27699db667b9afaf7e8306"
+    },
+    {
+      "path": "科学证据/A2_chembl_neighbors/pharmacology_representative_shortlist.csv",
+      "bytes": 10835,
+      "sha256": "4e3dd8774663eab29ae09a4e6bdc579d7ff877a5848e31b0631b298088fc4c95"
+    },
+    {
+      "path": "科学证据/A2_chembl_neighbors/representative_neighbor_pharmacology.csv",
+      "bytes": 17834,
+      "sha256": "926217393a53446e9d08bf6b983e86eb483b6c80ed5e849c932c77dd95977871"
+    },
+    {
+      "path": "科学证据/A3_ADMET_SA/A3_README.md",
+      "bytes": 3388,
+      "sha256": "68798477e0d06f006229b05c3853834d7bc618f4942360efd20522e9fc5eaf12"
+    },
+    {
+      "path": "科学证据/A3_ADMET_SA/ADMET_AI_v2_11_full_predictions.csv",
+      "bytes": 10625,
+      "sha256": "10d576899f6c7f472c3b9bdb6588bc0982b5534b4f3f062ee899bbfaddb21bb1"
+    },
+    {
+      "path": "科学证据/A3_ADMET_SA/ADMET_AI_v2_endpoint_metadata.csv",
+      "bytes": 9971,
+      "sha256": "32d46092deab7a553e319bdecaaed5e7dc2300c992d74d0a68c13c37f4af9d2d"
+    },
+    {
+      "path": "科学证据/A3_ADMET_SA/ADMET_AI_v2_inference_manifest.json",
+      "bytes": 3800,
+      "sha256": "4c6d7aa368614b75330c3d1037e4f6b7b3739c283c8ad86269623196f74199f5"
+    },
+    {
+      "path": "科学证据/A3_ADMET_SA/ADMET_AI_v2_MIT_LICENSE.txt",
+      "bytes": 1069,
+      "sha256": "98ef26c4e033aba896312dea2d2e57541deb64ad9cb7fe7749143ebc97f3d113"
+    },
+    {
+      "path": "科学证据/A3_ADMET_SA/ADMET_AI_v2_out_of_range.csv",
+      "bytes": 1264,
+      "sha256": "549d84bd8da4d7ab2224bbb0fdf41c1fece180f31a8b69127675c9332c77b17e"
+    },
+    {
+      "path": "科学证据/A3_ADMET_SA/ADMET_AI_v2_range_qc_all.csv",
+      "bytes": 49996,
+      "sha256": "b4fe35c8decc9e1536d741c6cf13d6f672376f119cee6ee40a2b8afbcfa02f9e"
+    },
+    {
+      "path": "科学证据/A3_ADMET_SA/ADMET_CPU_REPLAY.json",
+      "bytes": 235,
+      "sha256": "2cee846fd7617adbf384663840ebe75691a13592c71850d7147dc61cc46b0065"
+    },
+    {
+      "path": "科学证据/A3_ADMET_SA/ADMET_SA_panel11.csv",
+      "bytes": 3123,
+      "sha256": "fdf3fc27df85ce7d5bc5dde6528ba101ac4f1d21be215298ac73fd00838e8cfe"
+    },
+    {
+      "path": "科学证据/A3_ADMET_SA/multiparameter_druglikeness11.csv",
+      "bytes": 6705,
+      "sha256": "e6e88ed8018747602b22059b8e346e00dc4b1633271984a3c3ae54a8807d3e07"
+    },
+    {
+      "path": "科学证据/A3_ADMET_SA/range_qc11.py",
+      "bytes": 1486,
+      "sha256": "73bf7504dba40f45a203ff9d2606913eee5ed2af894a279887275d11715e9dc7"
+    },
+    {
+      "path": "科学证据/A3_ADMET_SA/requirements_admet_ai_exploratory.txt",
+      "bytes": 112,
+      "sha256": "13301502939931feecbff4f4b70e90f0f1e294f78eaa450fc5c0456126df48e0"
+    },
+    {
+      "path": "科学证据/A3_ADMET_SA/run_admet_ai11.py",
+      "bytes": 3227,
+      "sha256": "859f9bd3a32e902cb0e6687b253fa2d34285664cef7a5af7e550582957b04922"
+    },
+    {
+      "path": "科学证据/A3_ADMET_SA/SA_physchem_actual11.csv",
+      "bytes": 5114,
+      "sha256": "c7c020c6df9f4ec8a74c70c2cfd7be364ef2e00e6a0109f3cecfa27f764e541b"
+    },
+    {
+      "path": "科学证据/A3_ADMET_SA/SERVICE_RECEIPT.json",
+      "bytes": 1492,
+      "sha256": "fc514b218f9466fd4d65cefe477340fd7d6c6fc97f90e8a5ea069e42cc20ea69"
+    },
+    {
+      "path": "科学证据/A3_ADMET_SA/swissadme_actual.csv",
+      "bytes": 2460,
+      "sha256": "cc0ff105b9d77ae16c5a9a328ee4ca3f2eacf329140c1509b7c9e3c5f2b8cccc"
+    },
+    {
+      "path": "科学证据/A3_ADMET_SA/SwissADME_combined11.csv",
+      "bytes": 5265,
+      "sha256": "cf1543de105bb84a9617284265a5f6caa5afb7566041b12a390a21eb40653047"
+    },
+    {
+      "path": "科学证据/A3_ADMET_SA/SwissADME_identity_acceptance.csv",
+      "bytes": 1074,
+      "sha256": "e0db549f6ba0b1f743393930dc344f0d4a1915b43287f5491611e153376beb1d"
+    },
+    {
+      "path": "科学证据/A3_ADMET_SA/swissadme_input11.smi",
+      "bytes": 857,
+      "sha256": "7ae5efdc81fb6161996ffcf56f30cc934f55ebfb9a5480fae07fc76c919a50cd"
+    },
+    {
+      "path": "科学证据/A3_ADMET_SA/swissadme_remaining6.smi",
+      "bytes": 433,
+      "sha256": "2dea70d1ec161054cb69c87d9b9183b3f0d1bfb2ad0bcafd81a983d78484e9e0"
+    },
+    {
+      "path": "科学证据/A3_ADMET_SA/swissadme_remaining6_actual.csv",
+      "bytes": 2774,
+      "sha256": "3113025fd530cc0f6e084262701006435cab6d556a0221624a00189dc4e36d9b"
+    },
+    {
+      "path": "科学证据/FILE_MANIFEST.json",
+      "bytes": 24601,
+      "sha256": "08b28625ad81d3a31ed2e50c7e2a25004042d2be31abcdaa59393d5126c9ae9b"
+    },
+    {
+      "path": "科学证据/OFFLINE_REBUILD_ACTUAL.json",
+      "bytes": 677,
+      "sha256": "ab7b37f05f2ee3b1cd23f24922ed5de9c7cacbf445ed6ca463d1dc565248d514"
+    },
+    {
+      "path": "科学证据/README.md",
+      "bytes": 963,
+      "sha256": "c7ed738b1c98df0ac24ab37878e4a3fe0edbfccc997fe5849f31f5715ff4a1c5"
+    },
+    {
+      "path": "科学证据/rebuild_science_tables.py",
+      "bytes": 5878,
+      "sha256": "e7594231b96c756269bb012fa07459e382ed10c30020bd8cb96697040dca6038"
+    },
+    {
+      "path": "科学证据/REPRODUCE.md",
+      "bytes": 2640,
+      "sha256": "dcee4f24611555833dcd09d4cb3304681b7cc4329fdaf2283c012fb2d375aee4"
+    },
+    {
+      "path": "科学证据/requirements_offline_audit.txt",
+      "bytes": 17,
+      "sha256": "2b809cc848b1f927b1f14c9fa9a83bffe438335cdeace18d91cc797bc490eac6"
+    },
+    {
+      "path": "科学证据/SCIENCE_ACCEPTANCE.csv",
+      "bytes": 1449,
+      "sha256": "a3bb44b586a2bfe21cdd4bf66e4b267b02afcf598c8a26b7a81f251dca9f5974"
+    },
+    {
+      "path": "科学证据/SCIENCE_ACCEPTANCE.json",
+      "bytes": 3681,
+      "sha256": "48b3c7d7b84b1d17267f3537b0a415aaae58fe76dc3768db1d9cb279798b712e"
+    },
+    {
+      "path": "科学证据/SOURCE_INDEX.json",
+      "bytes": 1044,
+      "sha256": "6bb71f3f8ffd81ee41adceb574bdf119732cede95aeb8a10c47a9daf23dd6f1e"
+    },
+    {
+      "path": "科学证据/verify_science_supplement.py",
+      "bytes": 2590,
+      "sha256": "e7757e99d2bfb26a8eecc768e41116258b6bf1c0d0005770365b490dad287d6f"
+    }
+  ]
+}

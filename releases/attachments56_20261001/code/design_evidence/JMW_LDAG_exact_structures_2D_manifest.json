@@ -1,0 +1,17 @@
+{
+  "source_file": "external_source/designs.csv",
+  "source_sha256": "38e41ea3b80ac888305aaecf21b7a8ae6640843b4852c29160bd758480037ed3",
+  "compound_ids": [
+    "DES_JMWNSKZCTCNWSL",
+    "GEN_LDAGBLZIWYMUFJ"
+  ],
+  "inchikeys": [
+    "JMWNSKZCTCNWSL-UHFFFAOYSA-N",
+    "LDAGBLZIWYMUFJ-UHFFFAOYSA-N"
+  ],
+  "files_sha256": {
+    "png": "47d7c1b4af078984645cafde8769051e7c2f79b3047c3ca44841a094a9bd3e63",
+    "svg": "9cb9f07ff0e207a8189515a6d207b566b3ad721e261f08ebcf5e87e38f9a1c84"
+  },
+  "caption": "Exact 2D structures read from standardized isomeric SMILES and checked against complete InChIKey. JMW is a Lumacaftor-derived methylamide. LDAG is an independently generated exploratory structure with a toolkit-identified 10-member aromatic ring. RDKit 2D sanitization and low calculated SA score do not demonstrate chemical stability, synthetic access, or drug suitability; LDAG requires chemistry review before experimental prioritization."
+}

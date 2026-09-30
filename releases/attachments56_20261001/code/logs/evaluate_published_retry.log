@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "$COMPUTE\portable_validation\portable_method\03_compute\evaluate_forward.py", line 356, in <module>
+    main()
+  File "$COMPUTE\portable_validation\portable_method\03_compute\evaluate_forward.py", line 182, in main
+    qc=by_id(read_csv(a.initial_qc)+(read_csv(a.active_qc) if a.active_qc else []),"QC")
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "$COMPUTE\portable_validation\portable_method\03_compute\rank_library.py", line 46, in read_csv
+    with open(path, newline="", encoding="utf-8-sig") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '$COMPUTE\\reproducible_package\\science\\R2\\evidence\\05_independent_audit\\formal_v2_initial_independent_qc.csv'

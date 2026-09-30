@@ -1,0 +1,10 @@
+{
+  "batch": "design_TWT_parent_seed27",
+  "jobs_in_ledger": 2,
+  "independent_qc_pass": 2,
+  "independent_qc_failed": 0,
+  "reasons": {},
+  "middle_contact_4A_among_qc_pass": 1,
+  "score_le_frozen_threshold_among_qc_pass": 2,
+  "source_ledger_file_sha256": "5e06087d31ab9dd184cf77f1a7f74978bab82c248a9bf7ddf32e727fd62cb28f"
+}

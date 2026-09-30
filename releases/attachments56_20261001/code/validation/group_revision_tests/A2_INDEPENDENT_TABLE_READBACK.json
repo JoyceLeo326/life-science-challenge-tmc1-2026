@@ -1,0 +1,227 @@
+{
+  "status": "PASS_CURRENT_A2_FILES",
+  "check_count": 45,
+  "rows": 1458,
+  "at_least_0p6": 276,
+  "checks": [
+    {
+      "check": "six formal candidates",
+      "pass": true
+    },
+    {
+      "check": "40 pct table equals full table",
+      "pass": true
+    },
+    {
+      "check": "60 pct subset exactly correct",
+      "pass": true
+    },
+    {
+      "check": "CHEMBL1079964 raw SHA similarity40_page000.json",
+      "pass": true
+    },
+    {
+      "check": "CHEMBL1079964 HTTP 200 similarity40_page000.json",
+      "pass": true
+    },
+    {
+      "check": "CHEMBL1079964 complete count",
+      "pass": true
+    },
+    {
+      "check": "CHEMBL1079964 exact ID set",
+      "pass": true
+    },
+    {
+      "check": "CHEMBL1079964 actual score conversion",
+      "pass": true
+    },
+    {
+      "check": "CHEMBL1079964 nested sixty count",
+      "pass": true
+    },
+    {
+      "check": "CHEMBL1079964 molecular identity",
+      "pass": true
+    },
+    {
+      "check": "CHEMBL1080362 raw SHA similarity40_page000.json",
+      "pass": true
+    },
+    {
+      "check": "CHEMBL1080362 HTTP 200 similarity40_page000.json",
+      "pass": true
+    },
+    {
+      "check": "CHEMBL1080362 complete count",
+      "pass": true
+    },
+    {
+      "check": "CHEMBL1080362 exact ID set",
+      "pass": true
+    },
+    {
+      "check": "CHEMBL1080362 actual score conversion",
+      "pass": true
+    },
+    {
+      "check": "CHEMBL1080362 nested sixty count",
+      "pass": true
+    },
+    {
+      "check": "CHEMBL1080362 molecular identity",
+      "pass": true
+    },
+    {
+      "check": "CHEMBL1081740 raw SHA similarity40_page000.json",
+      "pass": true
+    },
+    {
+      "check": "CHEMBL1081740 HTTP 200 similarity40_page000.json",
+      "pass": true
+    },
+    {
+      "check": "CHEMBL1081740 complete count",
+      "pass": true
+    },
+    {
+      "check": "CHEMBL1081740 exact ID set",
+      "pass": true
+    },
+    {
+      "check": "CHEMBL1081740 actual score conversion",
+      "pass": true
+    },
+    {
+      "check": "CHEMBL1081740 nested sixty count",
+      "pass": true
+    },
+    {
+      "check": "CHEMBL1081740 molecular identity",
+      "pass": true
+    },
+    {
+      "check": "CHEMBL1080669 raw SHA similarity40_page000.json",
+      "pass": true
+    },
+    {
+      "check": "CHEMBL1080669 HTTP 200 similarity40_page000.json",
+      "pass": true
+    },
+    {
+      "check": "CHEMBL1080669 complete count",
+      "pass": true
+    },
+    {
+      "check": "CHEMBL1080669 exact ID set",
+      "pass": true
+    },
+    {
+      "check": "CHEMBL1080669 actual score conversion",
+      "pass": true
+    },
+    {
+      "check": "CHEMBL1080669 nested sixty count",
+      "pass": true
+    },
+    {
+      "check": "CHEMBL1080669 molecular identity",
+      "pass": true
+    },
+    {
+      "check": "CHEMBL1076497 raw SHA similarity40_page000.json",
+      "pass": true
+    },
+    {
+      "check": "CHEMBL1076497 HTTP 200 similarity40_page000.json",
+      "pass": true
+    },
+    {
+      "check": "CHEMBL1076497 complete count",
+      "pass": true
+    },
+    {
+      "check": "CHEMBL1076497 exact ID set",
+      "pass": true
+    },
+    {
+      "check": "CHEMBL1076497 actual score conversion",
+      "pass": true
+    },
+    {
+      "check": "CHEMBL1076497 nested sixty count",
+      "pass": true
+    },
+    {
+      "check": "CHEMBL1076497 molecular identity",
+      "pass": true
+    },
+    {
+      "check": "CHEMBL1080205 raw SHA similarity40_page000.json",
+      "pass": true
+    },
+    {
+      "check": "CHEMBL1080205 HTTP 200 similarity40_page000.json",
+      "pass": true
+    },
+    {
+      "check": "CHEMBL1080205 complete count",
+      "pass": true
+    },
+    {
+      "check": "CHEMBL1080205 exact ID set",
+      "pass": true
+    },
+    {
+      "check": "CHEMBL1080205 actual score conversion",
+      "pass": true
+    },
+    {
+      "check": "CHEMBL1080205 nested sixty count",
+      "pass": true
+    },
+    {
+      "check": "CHEMBL1080205 molecular identity",
+      "pass": true
+    }
+  ],
+  "counts": [
+    {
+      "candidate": "CHEMBL1079964",
+      "ge_0p4": 427,
+      "ge_0p6": 26,
+      "same_id_returned": false
+    },
+    {
+      "candidate": "CHEMBL1080362",
+      "ge_0p4": 258,
+      "ge_0p6": 63,
+      "same_id_returned": false
+    },
+    {
+      "candidate": "CHEMBL1081740",
+      "ge_0p4": 150,
+      "ge_0p6": 62,
+      "same_id_returned": false
+    },
+    {
+      "candidate": "CHEMBL1080669",
+      "ge_0p4": 158,
+      "ge_0p6": 59,
+      "same_id_returned": false
+    },
+    {
+      "candidate": "CHEMBL1076497",
+      "ge_0p4": 292,
+      "ge_0p6": 32,
+      "same_id_returned": false
+    },
+    {
+      "candidate": "CHEMBL1080205",
+      "ge_0p4": 173,
+      "ge_0p6": 34,
+      "same_id_returned": false
+    }
+  ],
+  "scope": "Independent table/raw official response crosscheck; API search snapshot, no assertion of pharmacological equivalence or global novelty; no self rows fabricated."
+}

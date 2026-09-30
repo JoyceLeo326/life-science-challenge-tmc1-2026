@@ -1,0 +1,11 @@
+{
+  "batch": "reference_panel",
+  "jobs_in_ledger": 7,
+  "independent_qc_pass": 7,
+  "independent_qc_failed": 0,
+  "reasons": {},
+  "middle_contact_4A_among_qc_pass": 6,
+  "charge_parameterization_warnings": 1,
+  "score_le_frozen_threshold_among_qc_pass": 3,
+  "source_ledger_file_sha256": "4ecf0d4eea0f071d50825637ae7617cdbc7e26faa297e0e0fc6a81c5750ecaa8"
+}

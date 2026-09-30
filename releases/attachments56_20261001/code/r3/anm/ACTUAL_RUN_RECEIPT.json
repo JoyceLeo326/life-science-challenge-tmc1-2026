@@ -1,0 +1,42 @@
+{
+  "started_utc": "2026-09-30T13:54:40.192026+00:00",
+  "completed_utc": "2026-09-30T13:54:47.270940+00:00",
+  "elapsed_seconds": 7.08,
+  "python": "3.12.10",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "implementation": "transparent SciPy ANM, independently matched to reviewed hash-checked ProDy v2.6.1 buildHessian source; full ProDy package not installed",
+  "network_count": 6,
+  "numerically_valid_networks": 6,
+  "CA_traversal_count": 24,
+  "primary_illustrative_frames": 8,
+  "full_atom_docking_eligible_frames": 0,
+  "maximum_threads_per_BLAS_library": 2,
+  "threadpool_actual": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 2,
+      "prefix": "libscipy_openblas",
+      "filepath": "libscipy_openblas64_-ed4f167a5330424524f45258e7ca2c8d.dll",
+      "version": "0.3.34.106.0",
+      "threading_layer": "pthreads",
+      "architecture": "SkylakeX"
+    },
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 2,
+      "prefix": "libscipy_openblas",
+      "filepath": "libscipy_openblas-197ee2fc9b4d071f7e048078cac74115.dll",
+      "version": "0.3.31.dev",
+      "threading_layer": "pthreads",
+      "architecture": "SkylakeX"
+    }
+  ],
+  "random_sampling_used": false,
+  "MD_performed": false,
+  "docking_performed": false,
+  "original_internal_receipt_sha256": "4e343342558f36f99dadc7aff0df17e3016d20bd9187d9de2bec4f43c087ab7f",
+  "publication_edit": "Threadpool DLL path reduced to filename; all scientific values and runtime preserved"
+}

@@ -1,0 +1,88 @@
+{
+  "status": "PASS",
+  "python": "3.12.10",
+  "jobs": [
+    {
+      "entry": "run_example.py",
+      "arguments": [
+        "--train-small",
+        "--output",
+        "../notebook_outputs/20260930T190832Z/example"
+      ],
+      "exit_code": 0,
+      "seconds": 32.222
+    },
+    {
+      "entry": "make_results.py",
+      "arguments": [
+        "--output",
+        "../notebook_outputs/20260930T190832Z/formal/results.csv"
+      ],
+      "exit_code": 0,
+      "seconds": 8.701
+    },
+    {
+      "entry": "data/group_supplement/verify_science_supplement.py",
+      "arguments": [],
+      "exit_code": 0,
+      "seconds": 1.022
+    },
+    {
+      "entry": "data/group_supplement/rebuild_science_tables.py",
+      "arguments": [
+        "--output",
+        "../notebook_outputs/20260930T190832Z/supplement_rebuilt"
+      ],
+      "exit_code": 0,
+      "seconds": 1.265
+    }
+  ],
+  "input_rows": 2048,
+  "example_rule_rows": 7,
+  "formal_rows": 6,
+  "tutorial_vs_formal_separate": true,
+  "formal_results_sha256": "478e0d624b158ef5e42a454ea412e3ca392fa694af1556a3d48587e6b170908c",
+  "tutorial_input_sha256": "390985b4dfd56a7a3a874fc370bb122628b17ba8850c90880bbf367f524eb805",
+  "supplement_manifest_sha256": "08b28625ad81d3a31ed2e50c7e2a25004042d2be31abcdaa59393d5126c9ae9b",
+  "core_entry_sha256": {
+    "run_example.py": "3bac45574e9b31d5ad606c72f870c6786afa5526b31e060fcb9827931f194097",
+    "make_results.py": "908d631cb7994097bd85b16ff18a9bbfe10a46962a5400d3bccdd8ccc5952d74",
+    "make_results_r2.py": "11553b860bc705775f55b949f4aa7f1d44991e0c1fab78be391847b4b73325d6",
+    "verify_r3_evidence.py": "bfed393817ad2d80c0051560395496bb4ed44b29cedb0bb23c37a91760762da8"
+  },
+  "supplement_checks_passed": 617,
+  "offline_rebuild": {
+    "status": "PASS",
+    "mode": "offline_saved_primary_responses_and_predictions",
+    "comparisons": [
+      {
+        "table": "pharmacology_actual_activity_records.csv",
+        "rows": 622,
+        "differing_shared_fields": 0
+      },
+      {
+        "table": "two_threshold_neighbors_rebuilt.csv",
+        "rows": 1458,
+        "differing_shared_fields": 0
+      },
+      {
+        "table": "multiparameter_druglikeness_rebuilt.csv",
+        "rows": 11,
+        "differing_shared_fields": 0
+      },
+      {
+        "table": "formal6_training12_overlap_rebuilt.csv",
+        "rows": 6,
+        "differing_shared_fields": 0
+      }
+    ],
+    "not_new_docking_or_ADMET_model_training": true
+  },
+  "ADMET_AI_out_of_range_retained": 10,
+  "all_outputs_outside_code_package": true,
+  "notebook_execution_seconds": 46.354,
+  "code_cells_executed": 8,
+  "notebook_sha256": "b9554cb7362b1f7b075cc2684b3574d5ec1150f8d8e4bab4375eb967015b7873",
+  "notebook_schema_validation": "PASS",
+  "output_errors": 0
+}

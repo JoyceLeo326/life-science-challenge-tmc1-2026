@@ -1,0 +1,6 @@
+biopython==1.88
+gemmi==0.7.5
+meeko==0.8.0
+numpy==2.5.3
+rdkit==2025.9.6
+scipy==1.18.1

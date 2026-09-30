@@ -1,0 +1,11 @@
+{
+  "batch": "design_exploratory16_proxy_vs_matched",
+  "jobs_in_ledger": 16,
+  "independent_qc_pass": 16,
+  "independent_qc_failed": 0,
+  "reasons": {},
+  "middle_contact_4A_among_qc_pass": 14,
+  "charge_parameterization_warnings": 0,
+  "score_le_frozen_threshold_among_qc_pass": 1,
+  "source_ledger_file_sha256": "d57bb7e98b17c0db2e557961c52ef56beb3a38f070edda8750d448252a790271"
+}

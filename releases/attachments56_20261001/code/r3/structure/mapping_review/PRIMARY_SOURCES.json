@@ -1,0 +1,46 @@
+[
+  {
+    "source_id": "human_Q8TDI8_canonical",
+    "primary_url": "https://www.uniprot.org/uniprotkb/Q8TDI8/entry",
+    "upstream_structure_url": "https://alphafold.ebi.ac.uk/entry/Q8TDI8",
+    "structure_scope": "H_AF is a project-aligned heavy-atom derivative; its input hash is separate from the upstream AFDB file"
+  },
+  {
+    "source_id": "mouse_Q8R4P5_canonical",
+    "primary_url": "https://www.uniprot.org/uniprotkb/Q8R4P5/entry",
+    "structure_scope": "M_PUB_ALL is the frozen project author-model input; this mapping release records its input hash and does not redistribute coordinates"
+  },
+  {
+    "source_id": "worm_D3KZG3_canonical",
+    "primary_url": "https://www.uniprot.org/uniprotkb/D3KZG3/entry"
+  },
+  {
+    "source_id": "paper_2022_Jeong",
+    "primary_url": "https://doi.org/10.1038/s41586-022-05314-8",
+    "full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9605866/"
+  },
+  {
+    "source_id": "7USW",
+    "primary_url": "https://www.rcsb.org/structure/7USW",
+    "coordinate_source_url": "https://files.rcsb.org/download/7USW.pdb",
+    "original_pdb_sha256": "2732f2f8337ed9dd89f39607495ce03c3c19d20eb6e1adcf7aae3362d219a9a3",
+    "protomer_sha256": "d335bacf95a4844d2c4053278ddd4b5de79c4048962dd8398d606ae3a3bb0b38",
+    "source_coordinate_equivalence": true
+  },
+  {
+    "source_id": "7USX",
+    "primary_url": "https://www.rcsb.org/structure/7USX",
+    "coordinate_source_url": "https://files.rcsb.org/download/7USX.pdb",
+    "original_pdb_sha256": "c0888d1eacef231d9ec4a53ba2aac582ab3cbc0176065b55009f7f7410a19caf",
+    "protomer_sha256": "4e82b4f3c87c290f193a7ce708507e4bdee66f1a662ac3de14814fe8af7a5511",
+    "source_coordinate_equivalence": true
+  },
+  {
+    "source_id": "7USY",
+    "primary_url": "https://www.rcsb.org/structure/7USY",
+    "coordinate_source_url": "https://files.rcsb.org/download/7USY.pdb",
+    "original_pdb_sha256": "d395fc051beb1071e1399d302f514dee24c0b4ebc8ab22727e78c232f9336a8a",
+    "protomer_sha256": "ae4fe1080940e27e08a63d73bc0fd7c13e01c3813eaa9f99c7d3321fc94b7b93",
+    "source_coordinate_equivalence": true
+  }
+]

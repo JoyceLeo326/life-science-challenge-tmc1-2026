@@ -1,0 +1,11 @@
+﻿id,endpoint,value,name,task_type,units,metadata_minimum,metadata_maximum,outside_metadata_range
+LIB_YWDIXVZCRMMQQY,PPBR_AZ,100.37042236328125,Plasma Protein Binding Rate,regression,%,0.0,100.0,True
+LIB_MYAFDHCCQBIZLC,PPBR_AZ,100.62251281738281,Plasma Protein Binding Rate,regression,%,0.0,100.0,True
+LIB_MYAFDHCCQBIZLC,VDss_Lombardo,-0.11043677479028702,Volume of Distribution at Steady State,regression,L/kg,0.0,inf,True
+LIB_FCRHJSNRFAAYQD,PPBR_AZ,101.9618148803711,Plasma Protein Binding Rate,regression,%,0.0,100.0,True
+LIB_FCRHJSNRFAAYQD,VDss_Lombardo,-1.1946314573287964,Volume of Distribution at Steady State,regression,L/kg,0.0,inf,True
+LIB_CHEMBL2103870,PPBR_AZ,102.51126861572266,Plasma Protein Binding Rate,regression,%,0.0,100.0,True
+LIB_CHEMBL2103870,VDss_Lombardo,-6.8522820472717285,Volume of Distribution at Steady State,regression,L/kg,0.0,inf,True
+LIB_CHEMBL2103870,Clearance_Hepatocyte_AZ,-2.149930953979492,Drug Clearance (Hepatocyte),regression,uL/min/10^6 cells,0.0,inf,True
+DES_JMWNSKZCTCNWSL,Clearance_Hepatocyte_AZ,-4.703006267547607,Drug Clearance (Hepatocyte),regression,uL/min/10^6 cells,0.0,inf,True
+GEN_LDAGBLZIWYMUFJ,VDss_Lombardo,-0.09622611850500107,Volume of Distribution at Steady State,regression,L/kg,0.0,inf,True

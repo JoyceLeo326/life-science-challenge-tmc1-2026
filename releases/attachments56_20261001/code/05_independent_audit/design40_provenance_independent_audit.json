@@ -1,0 +1,19 @@
+{
+  "fixed_list_rows": 150,
+  "frozen_docking_input_rows": 40,
+  "unique_docking_input_ids": 40,
+  "docking_input_hash": "0a2114bf29576b22917e6c09f22b5e835857d4ee9b3aeb0fdb9afe0924fce71e",
+  "source_fixed_list_match_count": 40,
+  "identity_or_provenance_errors": 0,
+  "first_errors": [],
+  "preparation_rows": 40,
+  "preparation_status_counts": {
+    "prepared": 30,
+    "blocked": 10
+  },
+  "block_reason_counts": {
+    "rule pH7.4 form contains stable or unsupported unspecified stereocenter": 8,
+    "no conformer or MMFF parameters": 2
+  },
+  "no_duplicated_selection_ranks": true
+}

@@ -1,0 +1,2 @@
+compound_id,name,source_smiles,source_inchikey,source_url,identity_scope,reference_role
+REF_DENATONIUM_GTOP12433,denatonium,CC[N+](CC)(CC1=CC=CC=C1)CC(=O)NC2=C(C=CC=C2C)C,ZFQMTVNLDNXRNQ-UHFFFAOYSA-O,https://www.guidetopharmacology.org/GRAC/LigandDisplayForward?ligandId=12433,cation_only_benzoate_counterion_excluded_no_stable_stereocentre,specificity_comparator_no_direct_TMC1_positive_label

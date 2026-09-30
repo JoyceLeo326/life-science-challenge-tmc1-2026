@@ -1,0 +1,49 @@
+{
+  "coordinate_files_in_public_package": 0,
+  "files": [
+    {
+      "name": "conversion_acceptance_receipt.json",
+      "bytes": 2376,
+      "sha256": "bf135c124ae527b3ef129f1aed45b04d8862fed8cb05b268842f4f04cc2c86cd"
+    },
+    {
+      "name": "download_attempt_receipt.json",
+      "bytes": 370,
+      "sha256": "3f4e6eca1efd99df637ff2f5963155ebadc01f464c42d6214699c8f79d8f401e"
+    },
+    {
+      "name": "frozen_alignment_inputs.json",
+      "bytes": 1980,
+      "sha256": "e3b87c3ffa7022c8ab7d50098d2f4b516411d7a99e83e9cc0c9f6dbf27958391"
+    },
+    {
+      "name": "original_prepare_receptors_v2.py",
+      "bytes": 9020,
+      "sha256": "76a534122dd35c0593ceea26fda721439634ef8d91aa53e671d00edc1b9f512a"
+    },
+    {
+      "name": "README.md",
+      "bytes": 9348,
+      "sha256": "1d82d51b6ea01c533d94160742e16d5a8690e80a33338314fdf03d0100ef8db1",
+      "historical_recorded_sha256": "349da247d380a9763a9e1b84e9f829d3fad6f521c49aa3b11db7a67a13e83dc2",
+      "change": "Current documented offline recovery and online replay; original historical hash retained."
+    },
+    {
+      "name": "requirements-restore.txt",
+      "bytes": 91,
+      "sha256": "d8ff61d77758f53402498f49501aca4f3ed18648bcb2c914c9b061e6520fbf6e"
+    },
+    {
+      "name": "restore_m_pub_all.py",
+      "bytes": 9678,
+      "sha256": "2dfc836e84d3688a60feec8bff1685e147a9150114a621b575bbddcfddd8b2db"
+    },
+    {
+      "name": "restore_human_af.py",
+      "bytes": 6218,
+      "sha256": "15f00e73115112f067f5008f3a3ac61d7a2c4a1dee47a35667f1e529b0945cbf",
+      "change": "Human restoration entry validated against frozen historical outputs."
+    }
+  ],
+  "scope": "Current reference restoration source and documentation; no coordinates included."
+}

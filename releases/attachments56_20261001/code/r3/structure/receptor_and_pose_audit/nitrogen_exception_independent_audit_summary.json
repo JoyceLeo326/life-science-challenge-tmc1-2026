@@ -1,0 +1,6 @@
+{
+  "prepared_rows": 12,
+  "narrow_N_exception_independent_qc_pass": 12,
+  "failures": [],
+  "interpretation": "Transient protonated tertiary ring N geometry exception only; stable/source-defined stereochemistry never relaxed."
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "path": "3D_Pharmacophores_Models/AHR/AHR_7_actives.sdf",
+    "bytes": 28930,
+    "sha256": "bcd8020d76275c6e9577773f6efbb28118e51b58177a6cc8134a4b79b66e536f"
+  },
+  {
+    "path": "3D_Pharmacophores_Models/APR-1/APR-1_9_actives.sdf",
+    "bytes": 36100,
+    "sha256": "4cf8ff8c77500d2e6e8b1757f48a83ea8d5bb6cd6dae2f78874a4c061c5af2be"
+  },
+  {
+    "path": "3D_Pharmacophores_Models/APR-2/APR-2_8_actives.sdf",
+    "bytes": 33098,
+    "sha256": "fe31a7f5c794961c15073e3745ff2d29839116551429b26c7eccb78e966c325a"
+  },
+  {
+    "path": "3D_Pharmacophores_Models/APRR/APRR_7_actives.sdf",
+    "bytes": 29645,
+    "sha256": "a6d7e1a8f8b36c600e8abc0a234c67d7608dba48cf3c7eae3e12766b7a8669f3"
+  },
+  {
+    "path": "3D_Pharmacophores_Models/ARR-1/ARR-1_7_actives.sdf",
+    "bytes": 29644,
+    "sha256": "8b3f0628df6b0c9919e49b2367d6b517d7b4451125aa3af5f4308b57c2971b0b"
+  },
+  {
+    "path": "3D_Pharmacophores_Models/ARR-1/README.md",
+    "bytes": 1,
+    "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+  },
+  {
+    "path": "3D_Pharmacophores_Models/ARR-2/ARR-2_9_actives.sdf",
+    "bytes": 36459,
+    "sha256": "f248a96de045ca1cb151486705b18202a35c003b0e9b43376d4db5a57d0e1b1c"
+  },
+  {
+    "path": "3D_Pharmacophores_Models/ARR-3/ARR-3_7_actives.sdf",
+    "bytes": 29078,
+    "sha256": "89f6f65689357b90c386fd8df283c3c61f62ddb7bf4eb97c54c2296882dfba0b"
+  },
+  {
+    "path": "3D_Pharmacophores_Models/ARR-4/ARR-4_8_actives.sdf",
+    "bytes": 32864,
+    "sha256": "d7b2cc7ee5ded23f8358d5978a0ce1a42f58466c63c4bb58ea83533a52ef48da"
+  },
+  {
+    "path": "3D_Pharmacophores_Models/HRR/HRR_9_actives.sdf",
+    "bytes": 38683,
+    "sha256": "28c3284601f22533b06c307eff9d4a7e760b234b3bdbb4c3bb59d6e22f96b500"
+  },
+  {
+    "path": "3D_Pharmacophores_Models/PRR/PRR_7_actives.sdf",
+    "bytes": 29645,
+    "sha256": "9d207d8a2de5e626160ae2af900e81988e892b8e2d1f020c92a98dd2805f15a6"
+  },
+  {
+    "path": "3D_Pharmacophores_Models/README.md",
+    "bytes": 2224,
+    "sha256": "9015d70656107127ef8810626ef4cf7b13d259960ce155497c3685253ca7d146"
+  },
+  {
+    "path": "Mechano_electrical_transducer_channels_complex/README.md",
+    "bytes": 2137,
+    "sha256": "a26eeb8da3ba0b7d1f33d263200c4f34cd6033f06dee788c6600ec90d468b717"
+  },
+  {
+    "path": "README.md",
+    "bytes": 308,
+    "sha256": "92c97aae72ca446662ef6abaf6ad91234504c3e3ade225182375ad6c2a56a88b"
+  }
+]

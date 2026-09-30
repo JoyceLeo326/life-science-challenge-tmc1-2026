@@ -1,0 +1,11 @@
+{
+  "coordinate_payload_publicly_distributed": false,
+  "scientific_operations": [
+    "fixed-source retrieval and hash checking"
+  ],
+  "python": "3.12.10",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "sources": {},
+  "status": "failed",
+  "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>"
+}

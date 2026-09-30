@@ -1,0 +1,12 @@
+compound_id,preparation_status,preparation_reason,independently_detected_source_unknown_potential_stereo,source_single_component_stereo_gate_pass,independent_pH7p4_variant_count,independent_pH7p4_unique_rule_matches,conformers_generated,conformers_converged,selected_mmff_energy_kcal_mol,exchangeable_N_indices,independent_input_3D_stable_identity_matches,input_sdf_file_hash_matches_ledger,input_pdbqt_file_hash_matches_ledger,R2_original_ligand_pdbqt_SHA_match,R2_original_ligand_sdf_SHA_match,R2_original_rule_smiles_match,independent_preparation_qc_pass,independent_preparation_failure_reason,original_mouse_reference_PDBQT_SHA_match,original_mouse_reference_SDF_SHA_match,original_mouse_reference_rule_match,blocked_original_amiloride_gate_reproduced
+LIB_YWDIXVZCRMMQQY,prepared,,[],True,1,True,10,10,12.949177459859921,[],True,True,True,True,True,True,True,,,,,
+LIB_MYAFDHCCQBIZLC,prepared,,[],True,1,True,9,9,-2.636665684898908,[],True,True,True,True,True,True,True,,,,,
+LIB_ZNDXPRCORYDEAP,prepared,,[],True,1,True,8,8,-32.993819256482595,[],True,True,True,True,True,True,True,,,,,
+LIB_FCRHJSNRFAAYQD,prepared,,[],True,1,True,10,10,-5.674219940209845,[],True,True,True,True,True,True,True,,,,,
+LIB_DNDVGFIEWOHGAH,prepared,,[],True,1,True,10,10,191.14447451247014,[1],True,True,True,True,True,True,True,,,,,
+LIB_ZVHBDYFMHCQADD,prepared,,[],True,1,True,10,10,12.927923318080413,[],True,True,True,True,True,True,True,,,,,
+REF_CHEMBL115,prepared,,[],True,1,True,10,10,252.22797844980042,"[9, 19]",True,True,True,,,,True,,True,True,True,
+REF_CHEMBL1397,prepared,,[],True,1,True,10,10,184.47321365821512,[],True,True,True,,,,True,,True,True,True,
+REF_CHEMBL554,prepared,,[],True,1,True,10,10,18.921782200703905,[],True,True,True,,,,True,,True,True,True,
+REF_CHEMBL945,blocked,input has unspecified potentially stable atom or double-bond stereochemistry,"[[""Bond_Double"", 0]]",False,,,,,,,,,,,,,False,,,,,True
+REF_DENATONIUM_GTOP12433,prepared,,[],True,1,True,9,9,85.94065974482288,[],True,True,True,,,,True,,True,True,True,

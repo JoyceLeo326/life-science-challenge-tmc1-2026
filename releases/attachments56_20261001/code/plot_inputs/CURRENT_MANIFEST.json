@@ -1,0 +1,42 @@
+{
+  "library_version": "v2_20000_new_plus_stereo_sdf_correction",
+  "authoritative_csv": {
+    "path": "snapshots/v2_20000_new/filtered_for_screening.csv",
+    "sha256": "439f74756bc786709f318a4379037c4df186bc4d40957bdbe245910ba48e8229",
+    "eligible_unique_parents": 17645
+  },
+  "forward_unlabeled_csv": {
+    "path": "snapshots/v2_20000_new/forward_unlabeled_pool.csv",
+    "sha256": "8fd8424797e441a3921ba3805dd8e9bf87d3421e5fe3440a32211753ec964c1e",
+    "unique_parents": 16698
+  },
+  "stereo_verified_sdf": {
+    "path": "snapshots/v2_20000_new/filtered_for_screening_exact_stereo_fullprops_2d.sdf",
+    "sha256": "46d1073b15e93aca106c5c8ba03ce5d8d1be3537522323c1148671b9712c691a",
+    "records": 17632
+  },
+  "sdf_exclusions": {
+    "path": "snapshots/v2_20000_new/sdf_exact_stereo_exclusions.csv",
+    "sha256": "cc40ed4a3fc4cf6e3f436a6d2a999caf4200767b91785a62c7b3d3ee81436682",
+    "records": 13,
+    "reason": "RDKit CTAB serialization did not preserve full stereochemical InChIKey; authoritative CSV remains available"
+  },
+  "counts": {
+    "source_records": 23475,
+    "unique_source_ids": 23403,
+    "standardized_unique_parents": 21356,
+    "property_filtered_unique_parents": 17645,
+    "forward_unlabeled_unique_parents": 16698
+  },
+  "base_snapshot_manifest": "snapshots/v2_20000_new/snapshot_manifest.json",
+  "sdf_correction_manifest": "snapshots/v2_20000_new/sdf_exact_stereo_manifest.json",
+  "independent_audit": "../05_独立方法复核/repaired_sdf_independent_audit.json",
+  "superseded_sdf_files": [
+    "snapshots/v2_20000_new/filtered_for_screening_2d.sdf",
+    "snapshots/v2_20000_new/filtered_for_screening_fullprops_2d.sdf",
+    "snapshots/v2_20000_new/filtered_for_screening_stereo_safe_2d.sdf",
+    "snapshots/v2_20000_new/filtered_for_screening_stereo_verified_2d.sdf"
+  ],
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://chembl.github.io/chembl-licensing/"
+}

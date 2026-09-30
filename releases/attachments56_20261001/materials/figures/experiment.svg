@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="728.64pt" height="313.776pt" viewBox="0 0 728.64 313.776" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-09-30T18:59:59.251897</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.9, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 313.776 
+L 728.64 313.776 
+L 728.64 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 28.6272 208.380672 
+L 175.0464 208.380672 
+Q 183.61728 208.380672 183.61728 204.78816 
+L 183.61728 91.02528 
+Q 183.61728 87.432768 175.0464 87.432768 
+L 28.6272 87.432768 
+Q 20.05632 87.432768 20.05632 91.02528 
+L 20.05632 204.78816 
+Q 20.05632 208.380672 28.6272 208.380672 
+z
+" clip-path="url(#p95b31f827a)" style="fill: #eaf3f4; stroke: #2e7d8a; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 203.616 208.380672 
+L 350.0352 208.380672 
+Q 358.60608 208.380672 358.60608 204.78816 
+L 358.60608 91.02528 
+Q 358.60608 87.432768 350.0352 87.432768 
+L 203.616 87.432768 
+Q 195.04512 87.432768 195.04512 91.02528 
+L 195.04512 204.78816 
+Q 195.04512 208.380672 203.616 208.380672 
+z
+" clip-path="url(#p95b31f827a)" style="fill: #eaf3f4; stroke: #2e7d8a; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 378.6048 208.380672 
+L 525.024 208.380672 
+Q 533.59488 208.380672 533.59488 204.78816 
+L 533.59488 91.02528 
+Q 533.59488 87.432768 525.024 87.432768 
+L 378.6048 87.432768 
+Q 370.03392 87.432768 370.03392 91.02528 
+L 370.03392 204.78816 
+Q 370.03392 208.380672 378.6048 208.380672 
+z
+" clip-path="url(#p95b31f827a)" style="fill: #eaf3f4; stroke: #2e7d8a; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 553.5936 208.380672 
+L 700.0128 208.380672 
+Q 708.58368 208.380672 708.58368 204.78816 
+L 708.58368 91.02528 
+Q 708.58368 87.432768 700.0128 87.432768 
+L 553.5936 87.432768 
+Q 545.02272 87.432768 545.02272 91.02528 
+L 545.02272 204.78816 
+Q 545.02272 208.380672 553.5936 208.380672 
+z
+" clip-path="url(#p95b31f827a)" style="fill: #eaf3f4; stroke: #2e7d8a; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 20px; font-family: 'Microsoft YaHei'; text-anchor: start" x="28.6272" y="25.16256" transform="rotate(-0 28.6272 25.16256)">真实功能验证：从前提到选择性</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 700; font-size: 15px; font-family: 'Microsoft YaHei'; text-anchor: middle" x="101.8368" y="125.093739" transform="rotate(-0 101.8368 125.093739)">体系确认</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 12px; font-family: 'Microsoft YaHei'" transform="translate(49.751175 164.920665)">正常 / MYO7A异常</text>
+    <text style="font-size: 12px; font-family: 'Microsoft YaHei'" transform="translate(53.8368 179.41479)">细胞与毛束完整性</text>
+   </g>
+   <g id="patch_6">
+    <path d="M 182.043023 147.90672 
+Q 190.044057 147.90672 195.809023 147.90672 
+" style="fill: none; stroke: #d97a3e; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 191.809023 145.90672 
+L 195.809023 147.90672 
+L 191.809023 149.90672 
+" style="fill: none; stroke: #d97a3e; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 700; font-size: 15px; font-family: 'Microsoft YaHei'; text-anchor: middle" x="276.8256" y="125.093739" transform="rotate(-0 276.8256 125.093739)">剂量与功能</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 12px; font-family: 'Microsoft YaHei'" transform="translate(240.8256 164.920665)">机械刺激电流</text>
+    <text style="font-size: 12px; font-family: 'Microsoft YaHei'" transform="translate(234.711225 179.41479)">浓度梯度 / 洗脱</text>
+   </g>
+   <g id="patch_7">
+    <path d="M 357.031823 147.90672 
+Q 365.032857 147.90672 370.797823 147.90672 
+" style="fill: none; stroke: #d97a3e; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 366.797823 145.90672 
+L 370.797823 147.90672 
+L 366.797823 149.90672 
+" style="fill: none; stroke: #d97a3e; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="text_6">
+    <text style="font-weight: 700; font-size: 15px; font-family: 'Microsoft YaHei'; text-anchor: middle" x="451.8144" y="125.093739" transform="rotate(-0 451.8144 125.093739)">靶点依赖性</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 12px; font-family: 'Microsoft YaHei'" transform="translate(400.032525 164.920665)">TMC1 / TMC2对照</text>
+    <text style="font-size: 12px; font-family: 'Microsoft YaHei'" transform="translate(397.8144 179.41479)">相似表达与基础功能</text>
+   </g>
+   <g id="patch_8">
+    <path d="M 532.020622 147.90672 
+Q 540.021657 147.90672 545.786623 147.90672 
+" style="fill: none; stroke: #d97a3e; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 541.786623 145.90672 
+L 545.786623 147.90672 
+L 541.786623 149.90672 
+" style="fill: none; stroke: #d97a3e; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="text_8">
+    <text style="font-weight: 700; font-size: 15px; font-family: 'Microsoft YaHei'; text-anchor: middle" x="626.8032" y="125.093739" transform="rotate(-0 626.8032 125.093739)">疾病模型证据</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 12px; font-family: 'Microsoft YaHei'" transform="translate(578.8032 164.920665)">功能改善与重复性</text>
+    <text style="font-size: 12px; font-family: 'Microsoft YaHei'" transform="translate(572.8032 179.41479)">再讨论后续动物研究</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 12px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #5e6b70" x="28.6272" y="267.65712" transform="rotate(-0 28.6272 267.65712)">以上为验证计划；本轮未提供新的湿实验数据。</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p95b31f827a">
+   <rect x="7.2" y="7.2" width="714.24" height="299.376"/>
+  </clipPath>
+ </defs>
+</svg>

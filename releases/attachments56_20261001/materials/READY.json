@@ -1,0 +1,27 @@
+{
+  "status": "READY_MATERIALS_A1_A2_A3_INTEGRATED",
+  "frozen_at_cst": "2026-10-01T03:17:08.130598+08:00",
+  "formal_project_title": "靶向TMC1机械转导通道的小分子变构调节剂AI辅助筛选——用于Usher综合征1B的听力代偿保护策略",
+  "slide_count": 18,
+  "audio_total_seconds": 443.352,
+  "automatic_presentation_seconds": 448.752,
+  "under8minutes": true,
+  "formal_ppt": "documents/靶向TMC1机械转导通道的小分子变构调节剂AI辅助筛选——用于Usher综合征1B的听力代偿保护策略项目介绍（区赛）.pptx",
+  "pdf_preview": "documents/靶向TMC1机械转导通道的小分子变构调节剂AI辅助筛选——用于Usher综合征1B的听力代偿保护策略项目介绍（区赛）.pdf",
+  "report_docx": "documents/科研报告_附件56口径修订版.docx",
+  "report_md": "documents/科研报告_附件56口径修订版.md",
+  "supplement_docx": "documents/候选身份、既有药理与ADMET预测补充报告.docx",
+  "script_docx": "documents/逐页中文讲稿_附件56修订版.docx",
+  "checks_passed": 112,
+  "checks_total": 112,
+  "source_science_files": 126,
+  "N_geometry_evidence_files": 66,
+  "source_results_modified": false,
+  "prior_release_unchanged": true,
+  "A_sources_integrated": [
+    "A1_paper13_author12_dye12_and_separate_Ngeometry6",
+    "A2_full_neighbors_and_exact_six_pharmacology",
+    "A3_SwissADME11_two_SA_versions_ADMET_AI451_range_flags"
+  ],
+  "release": "."
+}

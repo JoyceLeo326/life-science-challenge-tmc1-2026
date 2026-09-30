@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "audio_video_or_animated_image_files": [],
+  "embedded_old_zip_files": [],
+  "static_scientific_images_retained": 36,
+  "source_file_decisions": 4002,
+  "source_components_scientific_bytes_preserved": true,
+  "original_components_modified": false,
+  "scope": "official code/model only; recording and private compound-target PDB attachment separately delivered"
+}

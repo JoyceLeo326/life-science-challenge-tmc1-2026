@@ -1,0 +1,38 @@
+--- scientific_source/03_compute/method/merge_active_batches.py
++++ published/03_compute/method/merge_active_batches.py
+@@ -5,15 +5,17 @@
+ import json
+ from datetime import datetime, timezone
+ from pathlib import Path
++from portable_config import required_path
++from frozen_publication import frozen_matches
+ 
+ from rank_library import read_csv, write_csv, sha
+ 
+-HERE=Path(__file__).resolve().parent
+-SCRATCH=Path(r"[original compute scratch]")
++HERE=required_path("TMC1_R2_ROOT") / "03_compute"
++SCRATCH=required_path("TMC1_R2_ROOT") / "03_compute/raw_runs"
+ OLD=SCRATCH/"formal_forward_v2_active_new"
+ NEW=SCRATCH/"formal_forward_v2_active_resume14"
+ FROZEN=HERE/"active_physical_v2"/"active_physical_new.csv"
+-RESUME=HERE/"active_settings_interrupt_checkpoint_20260929"/"active_resume_freeze"/"remaining_active_14.csv"
++RESUME=HERE/"method/active_settings_interrupt_checkpoint_20260929"/"active_resume_freeze"/"remaining_active_14.csv"
+ EXPECTED_FROZEN="24b4687a8f7421dc57a5edf5be3302388787f1e49c399a0c5afed7d7a35f31c7"
+ EXPECTED_RESUME="09ab9293ef2114cdf59041f6971a4e8318f14f264fbb00635cc8b1e2954855eb"
+ EXPECTED_OLD_JOBS="4c11c0ad5fffe2fc639503eb2424120846ce248e831db0f4d39db553996ca161"
+@@ -32,12 +34,12 @@
+ 
+ def main():
+     parser=argparse.ArgumentParser()
+-    parser.add_argument("--output",type=Path,default=SCRATCH/"formal_forward_v2_active_merged41")
++    parser.add_argument("--output",type=Path,required=True)
+     args=parser.parse_args()
+     if (OLD/"summary.json").exists() or not (NEW/"summary.json").exists():
+         raise ValueError("source batches must be interrupted old and completed resumed")
+     if sha(FROZEN)!=EXPECTED_FROZEN or sha(RESUME)!=EXPECTED_RESUME or \
+-       sha(OLD/"job_ledger.csv")!=EXPECTED_OLD_JOBS or sha(OLD/"preparation_ledger.csv")!=EXPECTED_OLD_PREP:
++       not frozen_matches(OLD/"job_ledger.csv",EXPECTED_OLD_JOBS) or not frozen_matches(OLD/"preparation_ledger.csv",EXPECTED_OLD_PREP):
+         raise ValueError("frozen input or interrupted source changed")
+     frozen=read_csv(FROZEN)
+     remaining=read_csv(RESUME)

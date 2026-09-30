@@ -1,0 +1,39 @@
+[
+  {
+    "attempt": "first environment attempt",
+    "status": "FAILED",
+    "reason": "scientific venv needed the previously used sklearn/vendor and torch/SELFIES dependency directories; restored prior environment, no global installation",
+    "long_ranking_completed": false
+  },
+  {
+    "attempt": "full replay v2",
+    "status": "FAILED_AFTER_SUCCESSFUL_CALCULATIONS",
+    "reason": "strict byte comparison incorrectly applied to published evidence-path metadata;360 rows/column order match; only independent_qc_evidence differs; all scientific cells exact",
+    "long_ranking_completed": true
+  },
+  {
+    "attempt": "resume1",
+    "status": "FAILED",
+    "reason": "F8 plot source lived outside PACKAGE_ROOT; fixed by copying original unchanged plotting scripts into independent plot work"
+  },
+  {
+    "attempt": "resume2",
+    "status": "FAILED",
+    "reason": "plot_inputs not copied into plot work; added frozen plot_inputs snapshot"
+  },
+  {
+    "attempt": "resume3",
+    "status": "FAILED_AFTER_SUCCESSFUL_ANM",
+    "reason": "mode_localization.csv comparison ran before its generating plot entry; moved check after actual plot generation"
+  },
+  {
+    "attempt": "resume4",
+    "status": "FAILED_AFTER_SUCCESSFUL_QC",
+    "reason": "reference_panel ledger has7 paper references plus separate1 denatonium, not8 within that batch; checked frozen original QC summary and corrected asserted batch denominator"
+  },
+  {
+    "attempt": "resume5",
+    "status": "PASS",
+    "reason": "24 distinct stages complete;26 child-process records retained,2 early plotting failures followed by success; all scientific comparisons passed"
+  }
+]

@@ -1,0 +1,13 @@
+﻿compound_id,role,parent_id,name,mw,clogp,tpsa_A2,qed,sa_score,parent_ecfp4_tanimoto,docking_neighborhood_prior_kcal_mol,actual_docking_score_available
+LIB_CHEMBL2103870,commercial_parent,,LUMACAFTOR,452.413,4.747,97.75,0.5801,2.756,1.0,-9.34,True
+LIB_CHEMBL3894860,commercial_parent,,TRILACICLIB,446.559,2.725,91.21,0.6392,3.526,1.0,-8.764,True
+DES_GWCFZXVCHASDMH,enumerated_analogue,LIB_CHEMBL2103870,cyclopropylamide,491.494,4.54,89.55,0.6557,4.654,0.5679,-8.476,False
+DES_AFGHMHSPPSRMJL,enumerated_analogue,LIB_CHEMBL2103870,hydroxyethylamide,495.482,3.771,109.78,0.4605,2.833,0.7826,-8.905,False
+DES_JMWNSKZCTCNWSL,enumerated_analogue,LIB_CHEMBL2103870,methylamide,465.456,4.408,89.55,0.5828,2.79,0.8438,-9.028,False
+DES_AXKSVFWIFUIWPK,enumerated_analogue,LIB_CHEMBL2103870,morpholine_amide,521.52,4.468,89.99,0.6389,4.633,0.5476,-8.435,False
+DES_YAZKHWIVYWHKHW,enumerated_analogue,LIB_CHEMBL2103870,primary_amide,451.429,4.148,103.54,0.6067,2.784,0.8571,-9.054,False
+DES_FBGMOLGYPGIRPG,enumerated_analogue,LIB_CHEMBL3894860,acetyl,474.569,2.641,108.28,0.6008,3.54,0.8209,-8.406,False
+DES_DHQGMIBIHVXYPA,enumerated_analogue,LIB_CHEMBL3894860,cyclopropyl,472.597,3.257,91.21,0.6023,3.576,0.806,-8.376,False
+DES_TWTKMJWAXOPXSX,enumerated_analogue,LIB_CHEMBL3894860,desmethyl,432.532,2.382,100.0,0.5843,3.598,0.8281,-8.42,False
+DES_LYIDGSVTVBVLGU,enumerated_analogue,LIB_CHEMBL3894860,ethyl,460.586,3.115,91.21,0.6181,3.523,0.8333,-8.431,False
+DES_JWEMMDYMRYGOAJ,enumerated_analogue,LIB_CHEMBL3894860,hydroxyethyl,476.585,2.087,111.44,0.5134,3.561,0.8088,-8.382,False

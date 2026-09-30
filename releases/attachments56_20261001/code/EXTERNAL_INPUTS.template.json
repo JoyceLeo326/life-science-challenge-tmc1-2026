@@ -1,0 +1,6 @@
+{
+  "mouse_pdbqt": "<EXTERNAL_M_PUB_ALL_PDBQT>",
+  "human_pdbqt": "<EXTERNAL_H_AF_PDBQT>",
+  "mouse_aligned_pdb": "<EXTERNAL_M_PUB_ALL_ALIGNED_PDB>",
+  "human_aligned_pdb": "<EXTERNAL_H_AF_ALIGNED_PDB>"
+}

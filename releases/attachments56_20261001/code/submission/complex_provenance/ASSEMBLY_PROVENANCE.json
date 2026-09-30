@@ -1,0 +1,30 @@
+{
+  "status": "ASSEMBLED",
+  "created_utc": "2026-09-30T17:12:51.859470+00:00",
+  "complex_count": 6,
+  "receptor_source_sha256": "a0c2c7b07eb3a4939397ffb104d0d8b8bdc5ef4ab9b7af732deef03944385baa",
+  "receptor_pdbqt_source_sha256": "c024cc9efaf910ac11642cea4a4c701a0a88a335d7deb0d040320516d5a2eda1",
+  "receptor_coordinate_frame_match": true,
+  "receptor_heavy_atoms": 15070,
+  "candidate_csv_sha256": "478e0d624b158ef5e42a454ea412e3ca392fa694af1556a3d48587e6b170908c",
+  "ligand_source_sha256": {
+    "LIB_YWDIXVZCRMMQQY": "f343d3dbd35db6dfe3c87c1747fab211dbce1582f64e79f58f3a6b561a96684b",
+    "LIB_MYAFDHCCQBIZLC": "9c8db65fd60cbd45f169393740263e478ebc55bd336ec9e754f158f450423789",
+    "LIB_ZNDXPRCORYDEAP": "7b16d878580e3ed359e0d3ca6ad5ad3ef744ab09e6e65baa0d677299a8a25dbc",
+    "LIB_FCRHJSNRFAAYQD": "c24a49e30fea0e7ff414f5ae9a285d307eedc29874799961b24ea4a96de8ceef",
+    "LIB_DNDVGFIEWOHGAH": "771bfe3325c35b173a76db16d6a926e803db1282640c1c9b2cf7016dae732011",
+    "LIB_ZVHBDYFMHCQADD": "9138a9bda3aef30111a6a0a4b91cfeef9d5fe10ec6e78dc9fcbac63213fbea58"
+  },
+  "script_sha256": "7875735d972806c255ff5b581196ccb792c0f4149ade4e290125a5deca83f0ef",
+  "software": {
+    "RDKit": "2025.09.6"
+  },
+  "receptor_coordinate_change_A": 0,
+  "max_ligand_rounding_coordinate_A": 0.0005000000000006111,
+  "new_docking_jobs": 0,
+  "new_prediction": false,
+  "minimization": false,
+  "explicit_ligand_hydrogens": "all source SDF atoms retained",
+  "bond_orders": "authoritative original SDF copied unchanged; bond mapping also supplied",
+  "redistribution_scope": "team-private competition materials; author receptor redistribution license not independently established; not for public GitHub distribution"
+}

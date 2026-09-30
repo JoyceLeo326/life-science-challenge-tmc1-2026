@@ -1,0 +1,82 @@
+{
+  "scientific_frozen_source_modified": false,
+  "renamed": [
+    {
+      "source": "make_results.py",
+      "integrated": "make_results_r2.py",
+      "byte_changes": false
+    },
+    {
+      "source": "README.md",
+      "integrated": "FROZEN_R2_README.md",
+      "byte_changes": false
+    }
+  ],
+  "new_entry": "make_results.py",
+  "new_R3_evidence_check": "verify_r3_evidence.py",
+  "complete_replay": "replay_integrated.py",
+  "manifest_policy": "new root manifest supersedes old root manifest; component frozen manifests retained",
+  "media_policy": "exclude audio/video and animated images, retain static PNG/PDF/SVG and numerical NPZ/CSV; source file decisions in source index",
+  "existing_representative_docking_receipt": "REPRESENTATIVE_DOCKING_COMPARISON.json",
+  "ligand_scope": "SDF files contain ligand coordinates, not full receptor-ligand complexes",
+  "metadata_path_repairs": [
+    {
+      "path": "ACTUAL_TEST_RECEIPTS.json",
+      "before_sha256": "8728b203b0aa67cd0b83cd5c940112b554a4b0887e10b48bccfb20be82fe01a8",
+      "after_sha256": "8728b203b0aa67cd0b83cd5c940112b554a4b0887e10b48bccfb20be82fe01a8",
+      "edit": "machine paths in descriptive metadata/logs replaced by logical source labels; scientific values and methods unchanged"
+    },
+    {
+      "path": "figures/confirmation_four_conditions_caption.md",
+      "before_sha256": "a1c5fda1d83642079dfc80dd432f5d2c3ceea494639e5c44a917a1518fbbdb3f",
+      "after_sha256": "a1c5fda1d83642079dfc80dd432f5d2c3ceea494639e5c44a917a1518fbbdb3f",
+      "edit": "machine paths in descriptive metadata/logs replaced by logical source labels; scientific values and methods unchanged"
+    },
+    {
+      "path": "figures/confirmation_four_conditions_sources.json",
+      "before_sha256": "84a983123618726ab8d0fcb5284a6f2a39930bff4edc920eb68d7fe3623675fb",
+      "after_sha256": "84a983123618726ab8d0fcb5284a6f2a39930bff4edc920eb68d7fe3623675fb",
+      "edit": "machine paths in descriptive metadata/logs replaced by logical source labels; scientific values and methods unchanged"
+    },
+    {
+      "path": "logs/representative_original_docking.log",
+      "before_sha256": "607c8897357a7e81f0aa6d1b6e5bf775378e4fcde53cac48bac9a598b202baf9",
+      "after_sha256": "607c8897357a7e81f0aa6d1b6e5bf775378e4fcde53cac48bac9a598b202baf9",
+      "edit": "machine paths in descriptive metadata/logs replaced by logical source labels; scientific values and methods unchanged"
+    },
+    {
+      "path": "logs/rule_design_full.log",
+      "before_sha256": "7eb802fecc90f05d5493a4a28d705b7c9526499a05a3f4cec6f3f39d80902e86",
+      "after_sha256": "7eb802fecc90f05d5493a4a28d705b7c9526499a05a3f4cec6f3f39d80902e86",
+      "edit": "machine paths in descriptive metadata/logs replaced by logical source labels; scientific values and methods unchanged"
+    },
+    {
+      "path": "logs/supplement_top10_docking.log",
+      "before_sha256": "8aaeb6d2dbbbbf920166d4ef9156fa98601c656838a053ee4b7024f16396ae37",
+      "after_sha256": "8aaeb6d2dbbbbf920166d4ef9156fa98601c656838a053ee4b7024f16396ae37",
+      "edit": "machine paths in descriptive metadata/logs replaced by logical source labels; scientific values and methods unchanged"
+    },
+    {
+      "path": "reference_restore/README.md",
+      "before_sha256": "5b1aa6c40482b3a95f6bef3fa0215f02b2cd4f2f9172ebf9ba6a9687a7639dc7",
+      "after_sha256": "5b1aa6c40482b3a95f6bef3fa0215f02b2cd4f2f9172ebf9ba6a9687a7639dc7",
+      "edit": "machine paths in descriptive metadata/logs replaced by logical source labels; scientific values and methods unchanged"
+    },
+    {
+      "path": "reproduction_bundle/science/R2/evidence/04_design/method_results/example_selfies_manifest.json",
+      "before_sha256": "350fcbb52126cf7b4ac04f441eeab1090501ffecdf06233f7b47419321c08845",
+      "after_sha256": "350fcbb52126cf7b4ac04f441eeab1090501ffecdf06233f7b47419321c08845",
+      "edit": "machine paths in descriptive metadata/logs replaced by logical source labels; scientific values and methods unchanged"
+    },
+    {
+      "path": "reproduction_bundle/science/R2/evidence/04_design/method_results/example_smiles_manifest.json",
+      "before_sha256": "7ea5cd5d7e7c0e6941d73bc9ccdda9d7769e745df4f01691c0c12a4eea6477bd",
+      "after_sha256": "7ea5cd5d7e7c0e6941d73bc9ccdda9d7769e745df4f01691c0c12a4eea6477bd",
+      "edit": "machine paths in descriptive metadata/logs replaced by logical source labels; scientific values and methods unchanged"
+    }
+  ],
+  "proxy_models": "classical frozen-seed model reconstruction from identical labels/features; original SELFIES weights retained; no new optional model training introduced",
+  "candidate_excel": "original6x17 scientific source cells unchanged; descriptive structure paths completed and complex index sheet added",
+  "actual_replay_stages": 24,
+  "retained_child_execution_records": 26
+}

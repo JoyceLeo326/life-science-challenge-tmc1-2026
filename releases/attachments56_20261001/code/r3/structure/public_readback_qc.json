@@ -1,0 +1,8 @@
+{
+  "jobs": 26,
+  "protein_qc_passed": 25,
+  "protein_qc_failed": 1,
+  "original_qc_agreement": 26,
+  "unexpected_disagreements": 0,
+  "scope": "frozen protein-only poses; original worm HET clashes separately preserved; known worm indinavir box failure retained; no score threshold"
+}

@@ -1,0 +1,113 @@
+{
+  "status": "PASS",
+  "release_version": "attachments56-20261001",
+  "code_path": "releases/attachments56_20261001/code",
+  "code_manifest_sha256": "afd907d6d81ecbb1d2ede254127cb921e77a409cd55967a3c56f3d93ad92b41b",
+  "source_code_zip_sha256": "f8ad02077d56648bfa4e79a7bacac07a6ebcf6c480d98ee0c4a792a7b1d7f996",
+  "platform": "Windows",
+  "python": "3.12.10",
+  "scope": "frozen result readback and optional saved-source supplement rebuild",
+  "new_docking_training_or_MD": false,
+  "receptor_download_required": false,
+  "jobs": [
+    {
+      "name": "release_manifest",
+      "command": [
+        "python",
+        "-I",
+        "-B",
+        "verify_manifest.py"
+      ],
+      "exit_code": 0,
+      "seconds": 2.08
+    },
+    {
+      "name": "formal_results",
+      "command": [
+        "python",
+        "-I",
+        "-B",
+        "make_results.py",
+        "--output",
+        "<temporary-output>\\results.csv"
+      ],
+      "exit_code": 0,
+      "seconds": 2.154
+    },
+    {
+      "name": "supplement_verify",
+      "command": [
+        "python",
+        "-I",
+        "-B",
+        "data\\group_supplement\\verify_science_supplement.py"
+      ],
+      "exit_code": 0,
+      "seconds": 1.065
+    },
+    {
+      "name": "supplement_rebuild",
+      "command": [
+        "python",
+        "-I",
+        "-B",
+        "data\\group_supplement\\rebuild_science_tables.py",
+        "--output",
+        "<temporary-output>\\supplement"
+      ],
+      "exit_code": 0,
+      "seconds": 1.283
+    }
+  ],
+  "result_comparisons": [
+    {
+      "file": "results.csv",
+      "expected_sha256": "478e0d624b158ef5e42a454ea412e3ca392fa694af1556a3d48587e6b170908c",
+      "actual_sha256": "478e0d624b158ef5e42a454ea412e3ca392fa694af1556a3d48587e6b170908c",
+      "identical": true
+    },
+    {
+      "file": "summary_metrics.csv",
+      "expected_sha256": "a9ecdcd9f4406293e5c58c4a004419c4259855a103308f9ded9b14c077635833",
+      "actual_sha256": "a9ecdcd9f4406293e5c58c4a004419c4259855a103308f9ded9b14c077635833",
+      "identical": true
+    },
+    {
+      "file": "r3_summary.csv",
+      "expected_sha256": "b4dde2f294b261a7cf7585593544ef78d8e04dc7413dcfb472175a6973f64403",
+      "actual_sha256": "b4dde2f294b261a7cf7585593544ef78d8e04dc7413dcfb472175a6973f64403",
+      "identical": true
+    }
+  ],
+  "supplement_check_count": 617,
+  "supplement_rebuild": {
+    "status": "PASS",
+    "mode": "offline_saved_primary_responses_and_predictions",
+    "comparisons": [
+      {
+        "table": "pharmacology_actual_activity_records.csv",
+        "rows": 622,
+        "differing_shared_fields": 0
+      },
+      {
+        "table": "two_threshold_neighbors_rebuilt.csv",
+        "rows": 1458,
+        "differing_shared_fields": 0
+      },
+      {
+        "table": "multiparameter_druglikeness_rebuilt.csv",
+        "rows": 11,
+        "differing_shared_fields": 0
+      },
+      {
+        "table": "formal6_training12_overlap_rebuilt.csv",
+        "rows": 6,
+        "differing_shared_fields": 0
+      }
+    ],
+    "not_new_docking_or_ADMET_model_training": true
+  },
+  "code_files_checked": 4212,
+  "source_files_changed": [],
+  "seconds": 12.01
+}

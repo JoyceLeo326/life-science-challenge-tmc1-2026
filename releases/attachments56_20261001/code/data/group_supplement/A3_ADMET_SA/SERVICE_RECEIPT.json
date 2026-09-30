@@ -1,0 +1,31 @@
+{
+  "retrieved_utc": "2026-09-30T18:58:52.793450+00:00",
+  "website": "https://www.swissadme.ch/index.php",
+  "method": "Observed official POST form field smiles; two sequential batches; no simultaneous SwissADME jobs",
+  "input_sha256": "7ae5efdc81fb6161996ffcf56f30cc934f55ebfb9a5480fae07fc76c919a50cd",
+  "first_job": {
+    "id": "1602571327",
+    "http": 200,
+    "client_timeout_seconds": 55,
+    "received_complete_csv_rows": 5,
+    "csv_sha256": "cc0ff105b9d77ae16c5a9a328ee4ca3f2eacf329140c1509b7c9e3c5f2b8cccc",
+    "post_html_sha256": "1ac5faef41922c88800b17e4a2fcd0711cdac75592cdc73efeda50189a90f307",
+    "note": "Initial 11-input response connection timed out; two later same-job CSV reads remained five complete records; only remaining six resubmitted"
+  },
+  "remaining_job": {
+    "id": "1151797087",
+    "http": 200,
+    "curl_exit": 0,
+    "request_elapsed_seconds": 61.05294,
+    "rows": 6,
+    "csv_sha256": "3113025fd530cc0f6e084262701006435cab6d556a0221624a00189dc4e36d9b",
+    "post_html_sha256": "a92d21fbe8e63b961f174612fce25c1a7e1b6a4879e64356183031dc238e8093"
+  },
+  "ADMETlab3": {
+    "documented_endpoint": "https://admetlab3.scbdd.com/api/admet",
+    "observed_status": 404,
+    "prediction_used": false,
+    "response_sha256": "5547992afdadb59737c5c0feb1a35dff294cd27145bf290c031737ecf8a2577d"
+  },
+  "limitations": "SwissADME predictors and local ADMET-AI models differ; neither is experimental; BBB not blood-labyrinth barrier"
+}

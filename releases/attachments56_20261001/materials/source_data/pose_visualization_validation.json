@@ -1,0 +1,236 @@
+{
+  "generated_beijing": "2026-10-01T01:25:24.428425+08:00",
+  "candidate_id": "LIB_DNDVGFIEWOHGAH",
+  "renderer": "PyMOL 3.1.0, ray-traced real coordinates",
+  "no_docking_no_rescoring": true,
+  "camera_view": [
+    0.3265484571456909,
+    -0.27239859104156494,
+    0.905077338218689,
+    0.15860247611999512,
+    0.9597852826118469,
+    0.23164069652557373,
+    -0.931778609752655,
+    0.06790560483932495,
+    0.35661959648132324,
+    0.0,
+    0.0,
+    -77.80708312988281,
+    2.3040733337402344,
+    -14.77351188659668,
+    -2.414487838745117,
+    61.34369659423828,
+    94.27046966552734,
+    20.0
+  ],
+  "conditions": [
+    {
+      "condition": "formal_confirmation_ALL_seed28",
+      "receptor": "M_PUB_ALL",
+      "seed": 20260928,
+      "score_kcal_mol": -9.524,
+      "heavy_atoms": 41,
+      "first_pose_coordinate_max_deviation_A": 0.0,
+      "labeled_middle_residues": [
+        {
+          "chain": "A",
+          "residue": "SER408",
+          "minimum_heavy_distance_A": 3.0856
+        },
+        {
+          "chain": "A",
+          "residue": "LEU444",
+          "minimum_heavy_distance_A": 3.3647
+        },
+        {
+          "chain": "A",
+          "residue": "GLY411",
+          "minimum_heavy_distance_A": 3.5702
+        }
+      ],
+      "image": "pose_1.png",
+      "image_sha256": "2d5963430176bc857864f6b76fd9611e155c3e017e46e3f7ea26deabbe73bc16",
+      "four_condition_displayed_middle_residues": [
+        {
+          "chain": "A",
+          "residue": "SER408",
+          "minimum_heavy_distance_A": 3.0856
+        }
+      ],
+      "simplified_panel_image": "pose_1.png",
+      "simplified_panel_sha256": "f39d2131331fee30cba9772a3cd634aac067f4722974f42694ed45e603d00fe9"
+    },
+    {
+      "condition": "formal_confirmation_ALL_seed29",
+      "receptor": "M_PUB_ALL",
+      "seed": 20260929,
+      "score_kcal_mol": -9.505,
+      "heavy_atoms": 41,
+      "first_pose_coordinate_max_deviation_A": 0.0,
+      "labeled_middle_residues": [
+        {
+          "chain": "A",
+          "residue": "SER408",
+          "minimum_heavy_distance_A": 3.0449
+        },
+        {
+          "chain": "A",
+          "residue": "LEU444",
+          "minimum_heavy_distance_A": 3.3528
+        },
+        {
+          "chain": "A",
+          "residue": "ASP528",
+          "minimum_heavy_distance_A": 3.5725
+        }
+      ],
+      "image": "pose_2.png",
+      "image_sha256": "f4bb566f08b49e7a0e40ca360508d01ec31688d7eb56a41cd8b3d7b4b124862f",
+      "four_condition_displayed_middle_residues": [
+        {
+          "chain": "A",
+          "residue": "SER408",
+          "minimum_heavy_distance_A": 3.0449
+        }
+      ],
+      "simplified_panel_image": "pose_2.png",
+      "simplified_panel_sha256": "bd5014dd1c8fc647927bf01db4a5e630071a31e3c2287081e77548b0b057580f"
+    },
+    {
+      "condition": "formal_confirmation_CORE_seed27",
+      "receptor": "M_PUB_CORE",
+      "seed": 20260927,
+      "score_kcal_mol": -9.581,
+      "heavy_atoms": 41,
+      "first_pose_coordinate_max_deviation_A": 0.0,
+      "labeled_middle_residues": [
+        {
+          "chain": "A",
+          "residue": "SER408",
+          "minimum_heavy_distance_A": 3.0336
+        },
+        {
+          "chain": "A",
+          "residue": "LEU444",
+          "minimum_heavy_distance_A": 3.307
+        },
+        {
+          "chain": "A",
+          "residue": "ASP528",
+          "minimum_heavy_distance_A": 3.5048
+        }
+      ],
+      "image": "pose_3.png",
+      "image_sha256": "d1d3fcb2f3a66cd0bfe763a9ed89c32213672b37c5d78f6c85e732c2431a86ca",
+      "four_condition_displayed_middle_residues": [
+        {
+          "chain": "A",
+          "residue": "SER408",
+          "minimum_heavy_distance_A": 3.0336
+        }
+      ],
+      "simplified_panel_image": "pose_3.png",
+      "simplified_panel_sha256": "83dd77f4f03ea87f2eb5bdca7afc0509a82b5595b8c5db09ef3d9c40c302a676"
+    },
+    {
+      "condition": "formal_confirmation_H_AF_seed27",
+      "receptor": "H_AF",
+      "seed": 20260927,
+      "score_kcal_mol": -11.102,
+      "heavy_atoms": 41,
+      "first_pose_coordinate_max_deviation_A": 0.0,
+      "labeled_middle_residues": [
+        {
+          "chain": "A",
+          "residue": "LEU454",
+          "minimum_heavy_distance_A": 3.0573
+        },
+        {
+          "chain": "A",
+          "residue": "ASP531",
+          "minimum_heavy_distance_A": 3.1134
+        },
+        {
+          "chain": "A",
+          "residue": "PHE582",
+          "minimum_heavy_distance_A": 3.156
+        }
+      ],
+      "image": "pose_4.png",
+      "image_sha256": "27039b66e8e734937028660cbab24bff514d027a6148e2271974a4cbee5e2b31",
+      "four_condition_displayed_middle_residues": [
+        {
+          "chain": "A",
+          "residue": "LEU454",
+          "minimum_heavy_distance_A": 3.0573
+        }
+      ],
+      "simplified_panel_image": "pose_4.png",
+      "simplified_panel_sha256": "68ebb68e554979b568cb17b7f6a68eddf49b9df7525d536dd9454e19f05d074d"
+    }
+  ],
+  "coordinate_checks_pass": true,
+  "scientific_limit": "Static calculated poses; no assertion of binding affinity, activity, H bonds or same conformation across receptor contexts.",
+  "composite_images": [
+    {
+      "path": "figures/pose_focus_example.png",
+      "sha256": "8b88c611aad41bb62cf905ca16d2008a998e4b7a5a8a3756193f545db67fcfd1"
+    },
+    {
+      "path": "figures/pose_four_conditions.png",
+      "sha256": "bc92949791771797a75c48be1cea5d850acb451c2165f59b8ef5277d8462510e"
+    }
+  ],
+  "visual_processing": "Only outer white-margin crop, proportional resize, Chinese panel headings and legends. No coordinate, shape, conformation, contact or structure alterations. SVG embeds exact generated raster; PDF is raster scientific visualization.",
+  "visual_inspection_pass": true,
+  "source_rows": 20,
+  "delivered_files": [
+    {
+      "path": "figures/pose_focus_example.png",
+      "size": 1291881,
+      "sha256": "8b88c611aad41bb62cf905ca16d2008a998e4b7a5a8a3756193f545db67fcfd1"
+    },
+    {
+      "path": "figures/pose_focus_example.pdf",
+      "size": 320624,
+      "sha256": "8696c4161c0da4f2ccee1b8d4b734435da489bc133d93b3212c2039bee0d7d1d"
+    },
+    {
+      "path": "figures/pose_focus_example.svg",
+      "size": 1722747,
+      "sha256": "16ae5601a90069ef91f841e0e1811a4a160824ef24f10880494dbe196bea9cad"
+    },
+    {
+      "path": "figures/pose_four_conditions.png",
+      "size": 1559228,
+      "sha256": "bc92949791771797a75c48be1cea5d850acb451c2165f59b8ef5277d8462510e"
+    },
+    {
+      "path": "figures/pose_four_conditions.pdf",
+      "size": 560570,
+      "sha256": "30f97f44eadb70a156783d022c4e7c3395c68647854f44c88301ddbcb51783b9"
+    },
+    {
+      "path": "figures/pose_four_conditions.svg",
+      "size": 2079211,
+      "sha256": "141fb30e773845e9ac1dfb37c009a766b38d9a4823188b8d21a20181d9d08518"
+    },
+    {
+      "path": "source_data/pose_visualization_source.csv",
+      "size": 13214,
+      "sha256": "b3112acc4e064b9dc6e4cbaefc15fc7a3ad88645ae251913345d18df1c5f84a3"
+    },
+    {
+      "path": "source_data/pose_visualization_caption.md",
+      "size": 1556,
+      "sha256": "6f3deb5c4fe4febd6d26baf2ca4a5be60caa44f98645c2cd23b90bdd7ea25488"
+    }
+  ],
+  "four_condition_label_revision": {
+    "beijing": "2026-10-01T01:37:23.598936+08:00",
+    "change": "Four-condition figure only: label nearest one middle residue per panel; original coordinate files, camera, distance results, cartoon/pocket definitions unchanged. Focus example figure unchanged.",
+    "status": "PASS",
+    "original_focus_images_unchanged": true,
+    "original_crop_boxes_unchanged": true
+  }
+}

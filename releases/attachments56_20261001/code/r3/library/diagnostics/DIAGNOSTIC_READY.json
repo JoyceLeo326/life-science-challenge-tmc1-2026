@@ -1,0 +1,33 @@
+{
+  "status": "DIAGNOSTIC_READY",
+  "ready_at_cst": "2026-09-30T23:00:53.920965+08:00",
+  "rows": 9098,
+  "all_checks_pass": true,
+  "failed_primary": 0,
+  "failed_sensitivity": 0,
+  "union_alert_counts": {
+    "pains": 653,
+    "brenk": 3626,
+    "reactive": 447
+  },
+  "public_outputs_sha256": {
+    "alert_summary.csv": "5eb31b540be3d1600ffe7c8be132800af71bd84b26e9d38623b62a8891e4965b",
+    "catalog_runtime_checks.csv": "87a35bef32a989a3da53056bbcecc6080fd2c70c898a25826d6830c665cbdc8a",
+    "chemical_alerts_9098.csv": "4d85d4eb1c304a733ef28a3263e5e2c3394cef85aeeff7dd054317467fdab640",
+    "chemical_alerts_9098.pdf": "cc1e6c997c3f19bf576d9826d48156b48a1922bd682ae71f3c1951cc4bfda9f5",
+    "chemical_alerts_9098.png": "3a289d3447c812a0b8e4af42c1dc941afd50101525fe112d4a46c51e597856fa",
+    "direct_smarts_spotchecks.csv": "5e37aa10d9295a4b3f0996f21582c7bf479057ddd3a78ffcca3f1e743a631631",
+    "execution_receipt.json": "f3d3ff2faca8c8042b32049b389eb8c21c53dcece7256f122c0c751f6168f543",
+    "figure_source.csv": "a590b010e936ff18cac8e97913b0eb44984acffaaa58c195970399572140b9e2",
+    "overlap_patterns.csv": "e2982d0a640e0730e8e05fea9413012f8350fa4c8905a52f03cfb4bcafccf62d",
+    "README.md": "7fce6312e8ba1afbd8a35c74eb95309a6bafbb624b81a56cf5f9c8b4cb1646ec",
+    "rule_frequencies.csv": "43585e0d70f53b9830dd2dab8ae9c773145aec5215461b8c54f7d41bace1f310",
+    "six_candidate_alerts.csv": "94dcb5347ed9fd3b72fb086c26767fd7747dcc362cedc77dfea7665dd7280e1c",
+    "summary.json": "b678c3bb949beb12ed766498ce17f333f4fd5c52f7d019a9c4a497700fa0dc66",
+    "independent_validation.json": "a308c1d211c3af62cc1f90fbf69663391247d8a16f830e881a29b3dc60e7eacb"
+  },
+  "no_changes_to_original_library_or_ranking": true,
+  "scope": "Frozen structural-alert diagnostic only; not measured biology, reactivity or toxicity.",
+  "independent_validation": "independent_validation.json",
+  "final_checked_at_cst": "2026-09-30T23:03:29.015245+08:00"
+}

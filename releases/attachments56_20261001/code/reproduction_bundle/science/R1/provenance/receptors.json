@@ -1,0 +1,61 @@
+[
+  {
+    "receptor_id": "H_AF",
+    "species": "human",
+    "description": "AFDB v6 canonical Q8TDI8 monomer",
+    "source": "structure_bundle/raw/AFDB/Q8TDI8/AF-Q8TDI8-F1.pdb",
+    "source_sha256": "ba6b438b036b9386f4f04534cfa1dda3b6a35fbe05dd7fb2ec1b415bc6768d3b",
+    "aligned_pdb": "screen_v2\\inputs\\receptors\\H_AF_aligned_heavy.pdb",
+    "pdbqt": "screen_v2/inputs/receptors/H_AF.pdbqt",
+    "pdbqt_sha256": "35b4acccd44a5c2c5c8aa7e756abe26c081018a2c26d0899190751c23392f2c1",
+    "interpretation": "model-condition sensitivity; no experimentally assigned open/closed state",
+    "heavy_atoms_within_box_plus8A_by_chain": {
+      "A": 2688
+    }
+  },
+  {
+    "receptor_id": "M_AF",
+    "species": "mouse",
+    "description": "AFDB v6 canonical Q8R4P5 monomer",
+    "source": "structure_bundle/raw/AFDB/Q8R4P5/AF-Q8R4P5-F1.pdb",
+    "source_sha256": "ce74a4396dbed5ea6487eb53057fff40a0a6e9238b18e85a4e513ef88fca19c8",
+    "aligned_pdb": "screen_v2\\inputs\\receptors\\M_AF_aligned_heavy.pdb",
+    "pdbqt": "screen_v2/inputs/receptors/M_AF.pdbqt",
+    "pdbqt_sha256": "14eb7d90b62e9cd4fb2700df5d12f3ea2eda79cfc7bc6610b3f8802cb5d7ad16",
+    "interpretation": "model-condition sensitivity; no experimentally assigned open/closed state",
+    "heavy_atoms_within_box_plus8A_by_chain": {
+      "A": 2694
+    }
+  },
+  {
+    "receptor_id": "M_PUB_ALL",
+    "species": "mouse",
+    "description": "Published authors AF2/MD six-protein coordinate model; no lipids/ions/water in supplied file",
+    "source": "data/raw/public_MET_complex.pdb",
+    "source_sha256": "14b5d4010eb2220ebddca0ef5cd0be346e6ba9bcc6db14311745b684e9807d82",
+    "aligned_pdb": "screen_v2\\inputs\\receptors\\M_PUB_ALL_aligned_heavy.pdb",
+    "pdbqt": "screen_v2/inputs/receptors/M_PUB_ALL.pdbqt",
+    "pdbqt_sha256": "c024cc9efaf910ac11642cea4a4c701a0a88a335d7deb0d040320516d5a2eda1",
+    "interpretation": "model-condition sensitivity; no experimentally assigned open/closed state",
+    "heavy_atoms_within_box_plus8A_by_chain": {
+      "A": 2678,
+      "E": 4,
+      "C": 182,
+      "B": 64
+    }
+  },
+  {
+    "receptor_id": "M_PUB_CORE",
+    "species": "mouse",
+    "description": "Chain A subset of identical parameterized M_PUB_ALL; controlled protein-context ablation",
+    "source": "screen_v2/inputs/receptors/M_PUB_ALL.pdbqt",
+    "source_sha256": "c024cc9efaf910ac11642cea4a4c701a0a88a335d7deb0d040320516d5a2eda1",
+    "aligned_pdb": "screen_v2/inputs/receptors/M_PUB_CORE_aligned_heavy.pdb",
+    "pdbqt": "screen_v2/inputs/receptors/M_PUB_CORE.pdbqt",
+    "pdbqt_sha256": "66991c40f0be17f82c1d2146f93b69cec69d9909fdf3f02ef1eaf8b7f4f9e98d",
+    "interpretation": "Removing other protein chains only; not isolating lipids, membrane or gating",
+    "heavy_atoms_within_box_plus8A_by_chain": {
+      "A": 2678
+    }
+  }
+]

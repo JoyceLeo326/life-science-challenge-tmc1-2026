@@ -1,0 +1,5 @@
+comparison,reference_count,target_count,retained_count,removed_count,added_count,max_retained_coordinate_displacement_A,nonzero_displacement_count
+official_ATOM_to_protein_input,13544,13544,13544,0,0,0.0,0
+protein_input_to_prepared_PDB,13544,13304,13304,240,0,2.103923477695925,4
+protein_input_to_prepared_PDBQT,13544,13304,13304,240,0,2.103923477695925,4
+prepared_PDB_to_prepared_PDBQT,13304,13304,13304,0,0,0.0,0

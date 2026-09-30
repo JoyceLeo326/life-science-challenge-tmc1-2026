@@ -1,0 +1,31 @@
+{
+  "checks": {
+    "source_input_hashes": true,
+    "formal_selection_output_hashes": true,
+    "pool_233_unique": true,
+    "all_predictions_233_unique": true,
+    "eligibility_counts_match": true,
+    "old_attempted_40_excluded": true,
+    "combined_exact_selected_plus_controls": true,
+    "selected_order_replayed": true,
+    "matched_control_lottery_replayed": true,
+    "all_16_from_eligible_pool": true,
+    "all_16_source_and_rule_keys": true,
+    "no_parent_claim": true
+  },
+  "all_checks_pass": true,
+  "pool_rows": 233,
+  "eligibility_counts": {
+    "previously_attempted": 40,
+    "eligible": 178,
+    "blocked": 15
+  },
+  "selected_count": 12,
+  "control_count": 4,
+  "combined_count": 16,
+  "source_stage_counts": {
+    "fixed150_unattempted": 10,
+    "eligible233_outside_fixed150": 6
+  },
+  "combined_sha256": "c97d139dae375e925ab6d672c0fc6226cac72d0d027cd6443e82e533e4bcc176"
+}

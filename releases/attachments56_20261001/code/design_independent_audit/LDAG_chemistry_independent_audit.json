@@ -1,0 +1,201 @@
+{
+  "compound_id": "GEN_LDAGBLZIWYMUFJ",
+  "source_file": "external_source/exploratory16_docking_fixed_list.csv",
+  "source_smiles": "N1=C(N)C=CC=CC(C2=CC=NC=N2)=CC=C1C(=O)NC3=CC=CC=C3",
+  "full_inchi_key": "LDAGBLZIWYMUFJ-UHFFFAOYSA-N",
+  "canonical_isomeric_smiles": "Nc1ccccc(-c2ccncn2)ccc(C(=O)Nc2ccccc2)n1",
+  "sanitize_success": true,
+  "kekulize_success": true,
+  "ring_count": 3,
+  "rings": [
+    {
+      "size": 10,
+      "atom_indices": [
+        0,
+        16,
+        15,
+        14,
+        7,
+        6,
+        5,
+        4,
+        3,
+        1
+      ],
+      "all_aromatic": true,
+      "elements": "NCCCCCCCCC"
+    },
+    {
+      "size": 6,
+      "atom_indices": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        8
+      ],
+      "all_aromatic": true,
+      "elements": "CCNCNC"
+    },
+    {
+      "size": 6,
+      "atom_indices": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        20
+      ],
+      "all_aromatic": true,
+      "elements": "CCCCCC"
+    }
+  ],
+  "largest_ring_size": 10,
+  "molecular_weight": 343.39,
+  "conformers_embedded": 20,
+  "conformers": [
+    {
+      "conformer_id": 18,
+      "initial_energy_kcal_mol": 366.977,
+      "optimized_energy_kcal_mol": 73.934,
+      "ring_plane_rms_A": 0.234,
+      "ring_plane_max_A": 0.575
+    },
+    {
+      "conformer_id": 0,
+      "initial_energy_kcal_mol": 344.06,
+      "optimized_energy_kcal_mol": 80.421,
+      "ring_plane_rms_A": 0.286,
+      "ring_plane_max_A": 0.61
+    },
+    {
+      "conformer_id": 10,
+      "initial_energy_kcal_mol": 328.479,
+      "optimized_energy_kcal_mol": 80.687,
+      "ring_plane_rms_A": 0.097,
+      "ring_plane_max_A": 0.274
+    },
+    {
+      "conformer_id": 13,
+      "initial_energy_kcal_mol": 283.541,
+      "optimized_energy_kcal_mol": 82.987,
+      "ring_plane_rms_A": 0.56,
+      "ring_plane_max_A": 0.749
+    },
+    {
+      "conformer_id": 15,
+      "initial_energy_kcal_mol": 273.979,
+      "optimized_energy_kcal_mol": 82.987,
+      "ring_plane_rms_A": 0.56,
+      "ring_plane_max_A": 0.749
+    },
+    {
+      "conformer_id": 19,
+      "initial_energy_kcal_mol": 270.787,
+      "optimized_energy_kcal_mol": 82.987,
+      "ring_plane_rms_A": 0.56,
+      "ring_plane_max_A": 0.749
+    },
+    {
+      "conformer_id": 17,
+      "initial_energy_kcal_mol": 354.789,
+      "optimized_energy_kcal_mol": 83.256,
+      "ring_plane_rms_A": 0.266,
+      "ring_plane_max_A": 0.559
+    },
+    {
+      "conformer_id": 7,
+      "initial_energy_kcal_mol": 272.469,
+      "optimized_energy_kcal_mol": 86.362,
+      "ring_plane_rms_A": 0.366,
+      "ring_plane_max_A": 0.576
+    },
+    {
+      "conformer_id": 5,
+      "initial_energy_kcal_mol": 271.415,
+      "optimized_energy_kcal_mol": 87.364,
+      "ring_plane_rms_A": 0.424,
+      "ring_plane_max_A": 0.737
+    },
+    {
+      "conformer_id": 12,
+      "initial_energy_kcal_mol": 255.481,
+      "optimized_energy_kcal_mol": 87.658,
+      "ring_plane_rms_A": 0.57,
+      "ring_plane_max_A": 0.771
+    },
+    {
+      "conformer_id": 6,
+      "initial_energy_kcal_mol": 283.703,
+      "optimized_energy_kcal_mol": 87.818,
+      "ring_plane_rms_A": 0.333,
+      "ring_plane_max_A": 0.733
+    },
+    {
+      "conformer_id": 8,
+      "initial_energy_kcal_mol": 356.809,
+      "optimized_energy_kcal_mol": 87.842,
+      "ring_plane_rms_A": 0.339,
+      "ring_plane_max_A": 0.751
+    },
+    {
+      "conformer_id": 11,
+      "initial_energy_kcal_mol": 273.277,
+      "optimized_energy_kcal_mol": 87.842,
+      "ring_plane_rms_A": 0.339,
+      "ring_plane_max_A": 0.751
+    },
+    {
+      "conformer_id": 1,
+      "initial_energy_kcal_mol": 322.883,
+      "optimized_energy_kcal_mol": 89.135,
+      "ring_plane_rms_A": 0.477,
+      "ring_plane_max_A": 0.72
+    },
+    {
+      "conformer_id": 3,
+      "initial_energy_kcal_mol": 275.096,
+      "optimized_energy_kcal_mol": 91.282,
+      "ring_plane_rms_A": 0.337,
+      "ring_plane_max_A": 0.75
+    },
+    {
+      "conformer_id": 4,
+      "initial_energy_kcal_mol": 362.417,
+      "optimized_energy_kcal_mol": 91.888,
+      "ring_plane_rms_A": 0.359,
+      "ring_plane_max_A": 0.733
+    },
+    {
+      "conformer_id": 14,
+      "initial_energy_kcal_mol": 327.33,
+      "optimized_energy_kcal_mol": 93.681,
+      "ring_plane_rms_A": 0.521,
+      "ring_plane_max_A": 0.896
+    },
+    {
+      "conformer_id": 2,
+      "initial_energy_kcal_mol": 262.208,
+      "optimized_energy_kcal_mol": 96.19,
+      "ring_plane_rms_A": 0.546,
+      "ring_plane_max_A": 0.916
+    },
+    {
+      "conformer_id": 9,
+      "initial_energy_kcal_mol": 315.377,
+      "optimized_energy_kcal_mol": 97.433,
+      "ring_plane_rms_A": 0.545,
+      "ring_plane_max_A": 0.918
+    },
+    {
+      "conformer_id": 16,
+      "initial_energy_kcal_mol": 319.28,
+      "optimized_energy_kcal_mol": 116.381,
+      "ring_plane_rms_A": 0.511,
+      "ring_plane_max_A": 0.81
+    }
+  ],
+  "caveat": "RDKit graph, aromaticity and MMFF conformers do not establish synthesis, isolate stability or biological activity."
+}

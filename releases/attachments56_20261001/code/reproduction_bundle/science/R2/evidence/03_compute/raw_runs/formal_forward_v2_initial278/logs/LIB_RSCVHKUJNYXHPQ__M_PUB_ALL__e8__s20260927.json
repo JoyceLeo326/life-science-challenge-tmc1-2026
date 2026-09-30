@@ -1,0 +1,221 @@
+{
+
+  "compound_id": "LIB_RSCVHKUJNYXHPQ",
+
+  "source_dataset": "ChEMBL",
+
+  "source_id": "CHEMBL1077059",
+
+  "source_ids": "CHEMBL1077059",
+
+  "source_url": "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1077059/",
+
+  "raw_smiles": "C/C=C(\\C)C(=O)O[C@@H]1[C@@H]2OC[C@]3(C)[C@H](OC(C)=O)C[C@H](OC(C)=O)[C@@](C)([C@@H]23)[C@H]2CCO[C@H]3C[C@@H](C4=CCOC4=O)C(C)=C3[C@]12C",
+
+  "standardized_isomeric_smiles": "C/C=C(\\C)C(=O)O[C@@H]1[C@@H]2OC[C@]3(C)[C@H](OC(C)=O)C[C@H](OC(C)=O)[C@@](C)([C@@H]23)[C@H]2CCO[C@H]3C[C@@H](C4=CCOC4=O)C(C)=C3[C@]12C",
+
+  "standardized_parent_smiles": "CC=C(C)C(=O)OC1C2OCC3(C)C(OC(C)=O)CC(OC(C)=O)C(C)(C23)C2CCOC3CC(C4=CCOC4=O)C(C)=C3C12C",
+
+  "inchi_key": "RSCVHKUJNYXHPQ-BAYFQJDRSA-N",
+
+  "parent_key": "RSCVHKUJNYXHPQ",
+
+  "processing_status": "eligible",
+
+  "mw": "626.743",
+
+  "clogp": "4.404",
+
+  "tpsa": "123.66",
+
+  "hbd": "0",
+
+  "hba": "10",
+
+  "rotatable_bonds": "5",
+
+  "heavy_atoms": 45,
+
+  "rings": "6",
+
+  "qed": "0.1877",
+
+  "formal_charge": "0",
+
+  "source_record_count": "1",
+
+  "stereo_form_count": "1",
+
+  "historical_label_overlap": "False",
+
+  "prediction_status": "predicted",
+
+  "docking_eligibility": "eligible",
+
+  "source_stereo_unspecified": "False",
+
+  "source_unspecified_potential_stereo": "[]",
+
+  "rule_variant_count": 1,
+
+  "rule_smiles": "C/C=C(\\C)C(=O)O[C@@H]1[C@@H]2OC[C@]3(C)[C@H](OC(C)=O)C[C@H](OC(C)=O)[C@@](C)([C@@H]23)[C@H]2CCO[C@H]3C[C@@H](C4=CCOC4=O)C(C)=C3[C@]12C",
+
+  "rule_inchikey": "RSCVHKUJNYXHPQ-BAYFQJDRSA-N",
+
+  "rule_stereo_unspecified": "False",
+
+  "rule_unspecified_potential_stereo": "[]",
+
+  "rule_exchangeable_N_indices": "[]",
+
+  "rule_stable_stereo_unspecified": "False",
+
+  "exchangeable_N_geometry_approximation": false,
+
+  "murcko_scaffold": "O=C1OCC=C1C1C=C2C(C1)OCCC1C2CC2OCC3CCCC1C32",
+
+  "descriptor_pred_kcal_mol": "-8.73749828338623",
+
+  "ai_pred_kcal_mol": "-7.545779228210449",
+
+  "ai_tree_sd_kcal_mol": "1.0411813259124756",
+
+  "max_train_tanimoto": "0.2336448598130841",
+
+  "ood_flag_max_tanimoto_below_0p3": "True",
+
+  "selected_arms": "descriptor_ridge",
+
+  "preparation_started_utc": "2026-09-28T18:23:48.841832+00:00",
+
+  "input_isomeric_smiles": "C/C=C(\\C)C(=O)O[C@@H]1[C@@H]2OC[C@]3(C)[C@H](OC(C)=O)C[C@H](OC(C)=O)[C@@](C)([C@@H]23)[C@H]2CCO[C@H]3C[C@@H](C4=CCOC4=O)C(C)=C3[C@]12C",
+
+  "input_inchikey": "RSCVHKUJNYXHPQ-BAYFQJDRSA-N",
+
+  "state_inchikey": "RSCVHKUJNYXHPQ-BAYFQJDRSA-N",
+
+  "rule_unspecified_stereocenters": "[]",
+
+  "exchangeable_protonated_N_indices": "[]",
+
+  "chemical_identity_rule_version": "exchangeable_tertiary_ring_NH_and_full_potential_stereo_v3_20260929",
+
+  "conformers_generated": 9,
+
+  "conformers_converged": 9,
+
+  "selected_mmff_energy_kcal_mol": 109.2525983520803,
+
+  "selected_conformer": 0,
+
+  "sdf_graph_isomeric_smiles": "C/C=C(\\C)C(=O)O[C@@H]1[C@@H]2OC[C@]3(C)[C@H](OC(C)=O)C[C@H](OC(C)=O)[C@@](C)([C@@H]23)[C@H]2CCO[C@H]3C[C@@H](C4=CCOC4=O)C(C)=C3[C@]12C",
+
+  "sdf_graph_identity_equal": true,
+
+  "sdf_graph_identity_stable_equal": true,
+
+  "sdf_3d_isomeric_smiles": "C/C=C(\\C)C(=O)O[C@@H]1[C@@H]2OC[C@]3(C)[C@H](OC(C)=O)C[C@H](OC(C)=O)[C@@](C)([C@@H]23)[C@H]2CCO[C@H]3C[C@@H](C4=CCOC4=O)C(C)=C3[C@]12C",
+
+  "sdf_3d_stereo_equal": true,
+
+  "sdf_3d_stable_identity_equal": true,
+
+  "preparation_status": "prepared",
+
+  "sdf_file": "<PACKAGE_ROOT>\\03_compute\\formal_forward_v2_initial278\\ligands\\LIB_RSCVHKUJNYXHPQ.sdf",
+
+  "sdf_sha256": "f6e947a0f5bfdbe7d4bad732d5b00bcbfd2b571a50d4dfece327992c21e05568",
+
+  "ligand_pdbqt": "<PACKAGE_ROOT>\\03_compute\\formal_forward_v2_initial278\\ligands\\LIB_RSCVHKUJNYXHPQ.pdbqt",
+
+  "ligand_sha256": "e7a78b07d6baab4c2ef40f1489f061470166abf0a6522b1fe653e49e5dfe961e",
+
+  "preparation_elapsed_seconds": 4.127,
+
+  "run_id": "LIB_RSCVHKUJNYXHPQ__M_PUB_ALL__e8__s20260927",
+
+  "receptor_id": "M_PUB_ALL",
+
+  "protein_context": "mouse TMC1-CIB2-TMIE six-protein complex",
+
+  "lipids_present": false,
+
+  "conformation_evidence": "author computational model, static",
+
+  "binding_hypothesis": "literature-informed middle-region pose",
+
+  "functional_direction": "unknown",
+
+  "disease_fit": "unverified",
+
+  "scoring_engine": "AutoDock Vina 1.2.7",
+
+  "score_kind": "Vina docking score, not MMGBSA",
+
+  "seed": 20260927,
+
+  "exhaustiveness": 8,
+
+  "num_modes": 9,
+
+  "energy_range": 3.0,
+
+  "cpu_per_job": 2,
+
+  "receptor_file": "<PACKAGE_ROOT>\\01_计算筛选\\screen_v2\\inputs\\receptors\\M_PUB_ALL.pdbqt",
+
+  "receptor_sha256": "c024cc9efaf910ac11642cea4a4c701a0a88a335d7deb0d040320516d5a2eda1",
+
+  "box_file": "<PACKAGE_ROOT>\\01_计算筛选\\coarse_v1\\config\\vina_box.txt",
+
+  "box_sha256": "3e4c7eb2c313edbe496068c9fb17790e7ca746567519836ed46131e5e7570d49",
+
+  "box_id": "table6_middle_15_common_union",
+
+  "box_center_A": "[2.3955, -12.9641, 0.9145]",
+
+  "box_size_A": "[37.687, 31.3744, 31.1908]",
+
+  "pose_file": "<PACKAGE_ROOT>\\03_compute\\formal_forward_v2_initial278\\poses\\LIB_RSCVHKUJNYXHPQ__M_PUB_ALL__e8__s20260927.pdbqt",
+
+  "log_file": "<PACKAGE_ROOT>\\03_compute\\formal_forward_v2_initial278\\logs\\LIB_RSCVHKUJNYXHPQ__M_PUB_ALL__e8__s20260927.log",
+
+  "export_log_file": "<PACKAGE_ROOT>\\03_compute\\formal_forward_v2_initial278\\logs\\LIB_RSCVHKUJNYXHPQ__M_PUB_ALL__e8__s20260927_export.log",
+
+  "independent_qc_status": "pending",
+
+  "command": "[\"<PACKAGE_ROOT>\", \"--receptor\", \"<PACKAGE_ROOT>\", \"--ligand\", \"<PACKAGE_ROOT>\", \"--config\", \"<PACKAGE_ROOT>\", \"--scoring\", \"vina\", \"--exhaustiveness\", \"8\", \"--num_modes\", \"9\", \"--energy_range\", \"3.0\", \"--cpu\", \"2\", \"--seed\", \"20260927\", \"--out\", \"<PACKAGE_ROOT>\"]",
+
+  "started_utc": "2026-09-28T19:13:23.729189+00:00",
+
+  "returncode": 0,
+
+  "status": "completed",
+
+  "score_kcal_mol": -6.577,
+
+  "pose_count": 9,
+
+  "pose_sha256": "b2e2943b821adfa5e8eccb4d889cdfb79dafd8db40c9c93bfa22e8953b65c447",
+
+  "pose_heavy_atoms": 45,
+
+  "min_receptor_heavy_distance_A": 3.0480593826236393,
+
+  "severe_heavy_atoms_below_1p5A": 0,
+
+  "min_box_margin_A": 10.2609,
+
+  "sdf_export_returncode": 0,
+
+  "exported_sdf_file": "<PACKAGE_ROOT>\\03_compute\\formal_forward_v2_initial278\\poses\\LIB_RSCVHKUJNYXHPQ__M_PUB_ALL__e8__s20260927.sdf",
+
+  "exported_sdf_sha256": "e5e0dcf818f3d11b5bf9359b8b9456ac1eb30f3a67ddd3ea45b9f17c31217f7b",
+
+  "local_pre_qc_pass": true,
+
+  "elapsed_seconds": 256.443,
+
+  "finished_utc": "2026-09-28T19:17:40.172248+00:00"
+
+}

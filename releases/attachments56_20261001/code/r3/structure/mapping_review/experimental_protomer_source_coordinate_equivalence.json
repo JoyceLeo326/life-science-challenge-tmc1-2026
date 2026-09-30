@@ -1,0 +1,29 @@
+[
+  {
+    "structure": "7USW",
+    "raw_chainA_ATOM": 4897,
+    "protomer_chainA_ATOM": 4897,
+    "coordinate_or_residue_difference_count": 0,
+    "differences": [],
+    "raw_pdb_sha256": "2732f2f8337ed9dd89f39607495ce03c3c19d20eb6e1adcf7aae3362d219a9a3",
+    "protomer_sha256": "d335bacf95a4844d2c4053278ddd4b5de79c4048962dd8398d606ae3a3bb0b38"
+  },
+  {
+    "structure": "7USX",
+    "raw_chainA_ATOM": 4883,
+    "protomer_chainA_ATOM": 4883,
+    "coordinate_or_residue_difference_count": 0,
+    "differences": [],
+    "raw_pdb_sha256": "c0888d1eacef231d9ec4a53ba2aac582ab3cbc0176065b55009f7f7410a19caf",
+    "protomer_sha256": "4e82b4f3c87c290f193a7ce708507e4bdee66f1a662ac3de14814fe8af7a5511"
+  },
+  {
+    "structure": "7USY",
+    "raw_chainA_ATOM": 4864,
+    "protomer_chainA_ATOM": 4864,
+    "coordinate_or_residue_difference_count": 0,
+    "differences": [],
+    "raw_pdb_sha256": "d395fc051beb1071e1399d302f514dee24c0b4ebc8ab22727e78c232f9336a8a",
+    "protomer_sha256": "ae4fe1080940e27e08a63d73bc0fd7c13e01c3813eaa9f99c7d3321fc94b7b93"
+  }
+]

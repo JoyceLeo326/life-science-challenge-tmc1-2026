@@ -1,0 +1,22 @@
+{
+  "created_utc": "2026-09-30T11:12:28.821224+00:00",
+  "original40_joint_pass": "0/40 unchanged",
+  "remaining177": 177,
+  "stable_identity_eligible": 162,
+  "frozen_selected10": 10,
+  "preparation_blocked": 1,
+  "docked9": 9,
+  "independent_QC_pass9": 9,
+  "middle4A_contact5": 5,
+  "score_threshold_pass": 0,
+  "joint_pass_selected": "0/10",
+  "joint_pass_docked": "0/9",
+  "reference_selected_identity_rows": 11,
+  "reference_actual_docked": 8,
+  "reference_independent_QC_pass": 8,
+  "paper_dye_active_members": 12,
+  "verified_paper_MET_members": 16,
+  "asserted68_library_status": "unverified_do_not_claim68_or_fabricate_members",
+  "no_new_training_or_generation": true,
+  "no_own_biological_validation": true
+}

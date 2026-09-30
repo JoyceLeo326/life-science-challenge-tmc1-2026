@@ -1,0 +1,6 @@
+﻿stage_order,stage,count,denominator_kind
+1,Fixed for docking,40,fixed designs
+2,Docking completed,30,actual jobs
+3,Technical QC passed,29,jobs
+4,Middle contact ≤4 Å,14,QC-passed jobs
+5,QC + score + Middle,0,joint-criterion jobs

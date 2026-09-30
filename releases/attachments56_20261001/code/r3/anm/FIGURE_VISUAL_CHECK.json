@@ -1,0 +1,10 @@
+{
+  "actual_rendering": "4 PNG and 4 PDF from numeric CSV/NPZ; plot command exit0",
+  "visual_review": "all four final PNGs viewed by primary agent",
+  "F1_repaired": "residual axis starts0; scale1e-17, ticks0/2/4/6; short title",
+  "F2_repaired": "legend outside plotting panels; peaks unoccluded; short title",
+  "F3_checked": "all amplitudes/signs labelled, failure counts retained, legends outside",
+  "F4_checked": "unoccluded max-displacement peaks, middle15 legend outside",
+  "scientific_values_changed": false,
+  "plot_script_sha256": "fd67fb56990b8ee4c857d54c67a66735c26a20f837339db3085ee5835b258840"
+}

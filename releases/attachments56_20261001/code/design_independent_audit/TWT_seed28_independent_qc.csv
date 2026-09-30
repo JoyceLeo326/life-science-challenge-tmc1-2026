@@ -1,0 +1,3 @@
+compound_id,run_id,independent_qc_pass,failure_reason,score_kcal_mol,pose_sha256,status,rule_charge,exchangeable_N_indices,pose_heavy_atoms,min_receptor_A,severe_pairs_under1p5_A,min_box_margin_A,closest_middle_A,middle_contact_4A,log_sha256
+DES_TWTKMJWAXOPXSX,DES_TWTKMJWAXOPXSX__M_PUB_ALL__e8__s20260928,True,,-8.77,41b85b2984bbc2a01259d8c3d49306f6faa6c1d9a5b352281fea1a6556bbac7a,completed,1,[],32,2.885,0,9.269,2.885,True,fa65d8d61d601e8f2b389534324ff247d39edb6046558e9b279090d99791f565
+LIB_CHEMBL3894860,LIB_CHEMBL3894860__M_PUB_ALL__e8__s20260928,True,,-8.816,09ce78f65c8920b9036988635a1cac696ed66c976d331a5205902acb63db41bf,completed,1,[1],33,2.873,0,6.288,3.237,True,099241b70a4662e4feda3a196c36bfc2c676aa600967a6fb709645e08d3e0c6a

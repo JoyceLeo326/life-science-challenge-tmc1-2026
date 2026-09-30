@@ -1,0 +1,22 @@
+[
+  {
+    "structure": "7USW",
+    "CA_chainA_count": 608,
+    "CA_auth_label_differences": [],
+    "missing_TM5_6_loop_auth_min": 460,
+    "missing_TM5_6_loop_auth_max": 663,
+    "missing_TM5_6_loop_auth_count": 204,
+    "cif_path": "primary_source:7USW.cif",
+    "cif_sha256": "f80a6000f916fdef6ac68e0031950219a1df63e7887c7c4d664dd999846c80f7"
+  },
+  {
+    "structure": "7USX",
+    "CA_chainA_count": 605,
+    "CA_auth_label_differences": [],
+    "missing_TM5_6_loop_auth_min": 460,
+    "missing_TM5_6_loop_auth_max": 663,
+    "missing_TM5_6_loop_auth_count": 204,
+    "cif_path": "structure_input:7USX.cif",
+    "cif_sha256": "25c99ab4f6273e1ddc5b9979cdefd744b51717bf51e00575249183bdc866d914"
+  }
+]

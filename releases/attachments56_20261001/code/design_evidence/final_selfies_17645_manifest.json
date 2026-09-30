@@ -1,0 +1,139 @@
+{
+  "run_id": "final_selfies_17645",
+  "timestamp_utc": "2026-09-28T18:04:11.288317+00:00",
+  "method": "locally trained unconditional SELFIES single-layer GRU; base model only",
+  "formal_candidate_origin": "All 150 fixed designs and the 40 molecule docking sample came from base_result only; no structural-neighbor fine-tuning was run in this formal batch (focused_result is null).",
+  "not_pretrained": true,
+  "not_TMC1_affinity_conditioned": true,
+  "torch_version": "2.5.1+cpu",
+  "selfies_package_metadata_version": "2.2.0",
+  "selfies_runtime_version_reported": "2.1.1",
+  "rdkit_version": "2025.09.6",
+  "library_path": "external_source/library_17645_snapshot.csv",
+  "library_sha256": "439f74756bc786709f318a4379037c4df186bc4d40957bdbe245910ba48e8229",
+  "raw_input_rows": 17645,
+  "first_round_screen_path": "external_source/eligible_pool.csv",
+  "first_round_screen_sha256": "9add7f2a901293c7d2be2f748d17f08e35bcc1dc6f47c7573fcc5d6fbbd15916",
+  "rule_enumeration_path": "external_source/design_constraints_all.csv",
+  "rule_enumeration_sha256": "2a46fc4c47441b6773cc95c72311d4ff1b7e6ea1399b79657d83bdf853629f9b",
+  "unique_structures_in_model_scope": 17472,
+  "smiles_augmented_examples": 0,
+  "base_training_structures": 15952,
+  "scaffold_heldout_structures": 1520,
+  "focused_finetune_structures": 0,
+  "focus_parameters_configured_not_executed": true,
+  "potential_neighbor_training_structures_not_used": 298,
+  "focused_similarity_threshold": 0.25,
+  "focused_examples_from_training_only": true,
+  "input_rejections": {
+    "element": 142,
+    "token_length": 31
+  },
+  "vocab_size": 67,
+  "model_parameters": 51763,
+  "architecture": {
+    "embedding": 48,
+    "hidden": 96,
+    "layers": 1
+  },
+  "base_optimizer": "Adam lr=0.002",
+  "focus_optimizer": "Adam lr=0.0005",
+  "base_history": [
+    {
+      "epoch": 1,
+      "train_token_loss": 1.82923,
+      "scaffold_heldout_token_loss": 1.47024,
+      "wall_seconds_cumulative": 34.6
+    },
+    {
+      "epoch": 2,
+      "train_token_loss": 1.37338,
+      "scaffold_heldout_token_loss": 1.3174,
+      "wall_seconds_cumulative": 47.1
+    },
+    {
+      "epoch": 3,
+      "train_token_loss": 1.26841,
+      "scaffold_heldout_token_loss": 1.25365,
+      "wall_seconds_cumulative": 59.2
+    },
+    {
+      "epoch": 4,
+      "train_token_loss": 1.2132,
+      "scaffold_heldout_token_loss": 1.21453,
+      "wall_seconds_cumulative": 70.9
+    },
+    {
+      "epoch": 5,
+      "train_token_loss": 1.17484,
+      "scaffold_heldout_token_loss": 1.18947,
+      "wall_seconds_cumulative": 82.4
+    },
+    {
+      "epoch": 6,
+      "train_token_loss": 1.14577,
+      "scaffold_heldout_token_loss": 1.17141,
+      "wall_seconds_cumulative": 94.2
+    },
+    {
+      "epoch": 7,
+      "train_token_loss": 1.1213,
+      "scaffold_heldout_token_loss": 1.15572,
+      "wall_seconds_cumulative": 106.3
+    },
+    {
+      "epoch": 8,
+      "train_token_loss": 1.10188,
+      "scaffold_heldout_token_loss": 1.14588,
+      "wall_seconds_cumulative": 118.0
+    },
+    {
+      "epoch": 9,
+      "train_token_loss": 1.08544,
+      "scaffold_heldout_token_loss": 1.13175,
+      "wall_seconds_cumulative": 129.0
+    },
+    {
+      "epoch": 10,
+      "train_token_loss": 1.07129,
+      "scaffold_heldout_token_loss": 1.12163,
+      "wall_seconds_cumulative": 143.2
+    }
+  ],
+  "focused_history": [],
+  "seed_training": 20260929,
+  "seed_sample_base": 20260930,
+  "seed_sample_focused": 20260931,
+  "temperature": 0.85,
+  "sample_max_tokens": 140,
+  "sample_requested_each_model": 20000,
+  "base_weights_path": "external_source/base_model_state.pt",
+  "base_weights_sha256": "58a3de0c2a038ca602f2af14d6f23404b58ceb73ae06949d6b1442f9a9fb136c",
+  "focused_weights_path": null,
+  "focused_weights_sha256": null,
+  "base_result": {
+    "raw_path": "external_source/base_raw_generated.csv.gz",
+    "raw_sha256": "12bc38a228ddc6859ed94d3529e75782fc92d980538202bf39a6aef3a40dd8f0",
+    "sample_counts": {
+      "valid_samples": 20000,
+      "unique_valid": 19948,
+      "constraint_excluded": 19714,
+      "property_and_alert_pass": 416,
+      "eligible": 233,
+      "duplicate_generated": 52,
+      "seen_in_training": 1
+    },
+    "similarity_yield_after_properties": {
+      "0.15": 233,
+      "0.18": 92,
+      "0.2": 45,
+      "0.22": 8,
+      "0.25": 1
+    },
+    "eligible": 233,
+    "fixed_diverse": 150
+  },
+  "focused_result": null,
+  "wall_seconds": 299.0,
+  "selection_note": "post-sampling physicochemical/PAINS/Brenk filters; nearest first-round similarity 0.15-0.80 is exploratory, not a parent-child synthetic lineage; <=2 per scaffold, pairwise ECFP4 <=0.7; no docking scores used"
+}

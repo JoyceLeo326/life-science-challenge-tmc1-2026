@@ -1,0 +1,187 @@
+[
+  {
+    "file": "author_training_unique12.csv",
+    "original_sha256": "92b0bdc10a833da469c9e03b5ca7aa83d9736760d7b09cba58a174219bce1ee0",
+    "reason": "local path only; numerical results and molecular bytes unmodified"
+  },
+  {
+    "file": "paper_13_plus_3_author_source_map.csv",
+    "original_sha256": "18bf7fc95bae23f73fcfc2db98ac3058c3bed6eaae822df3953e9f7d16c93a33",
+    "reason": "local path only; numerical results and molecular bytes unmodified"
+  },
+  {
+    "file": "resolved_ZINC_reference_inputs.csv",
+    "original_sha256": "0db21702356917a8236ff4713677247cfc9a60e97bba144b9ce0aeaa6aea3241",
+    "reason": "local path only; numerical results and molecular bytes unmodified"
+  },
+  {
+    "file": "ZINC_primary_identity_verification.csv",
+    "original_sha256": "6e609eb9db497e1351aa1546d2b363409b84f2f8f405d445c502cb3674a294ce",
+    "reason": "local path only; numerical results and molecular bytes unmodified"
+  },
+  {
+    "file": "n_geometry_sensitivity/all_six_geometry_results.csv",
+    "original_sha256": "3826f175d8d0861e0f8eb9d82bd565e5959ede8ad4a6d8b596d18818c5628208",
+    "reason": "local path only; numerical results and molecular bytes unmodified"
+  },
+  {
+    "file": "n_geometry_sensitivity/audit_real_jobs_R3.py",
+    "original_sha256": "22cf2bbb2fd585fd29bd5f9bb67dd8d28ec3aa9dda2b188f079806afb97e9d2b",
+    "reason": "local path only; numerical results and molecular bytes unmodified"
+  },
+  {
+    "file": "n_geometry_sensitivity/parent_geometry_sensitivity_summary.csv",
+    "original_sha256": "caf0663e8f4295cb50089abc1a054fdb3440ec82ca30062e9b7a19a508560cfd",
+    "reason": "local path only; numerical results and molecular bytes unmodified"
+  },
+  {
+    "file": "n_geometry_sensitivity/sensitivity_geometry_qc.csv",
+    "original_sha256": "bec48db627763e40e72f0203dca38ae8385f39902fa4a146784ad0c27baf1156",
+    "reason": "local path only; numerical results and molecular bytes unmodified"
+  },
+  {
+    "file": "n_geometry_sensitivity/sensitivity_inputs.csv",
+    "original_sha256": "fd3af45c3e605fdaae79dc1d0116f6f01b3b68a06814625ddefc8fec904fe979",
+    "reason": "local path only; numerical results and molecular bytes unmodified"
+  },
+  {
+    "file": "frozen_protocol_failure/raw_runs/zinc_reference_followup3/plan.json",
+    "original_sha256": "96b83014b0c9719ce15beb638ced3fca1bebd6a9f3d6d3cd9834732018091fd2",
+    "reason": "local path only; numerical results and molecular bytes unmodified"
+  },
+  {
+    "file": "frozen_protocol_failure/raw_runs/zinc_reference_followup3/preparation_ledger.csv",
+    "original_sha256": "fcc68e3d8c36e832dafde905253dde8e06cec4889bf0337bea00ccc1ead635af",
+    "reason": "local path only; numerical results and molecular bytes unmodified"
+  },
+  {
+    "file": "frozen_protocol_failure/raw_runs/zinc_reference_followup3/summary.json",
+    "original_sha256": "35b734ab6e97460726b5151e1bebebfe54439d38e9eff2677140dcd139b763c4",
+    "reason": "local path only; numerical results and molecular bytes unmodified"
+  },
+  {
+    "file": "frozen_protocol_failure/raw_runs/zinc_reference_followup3/logs/REF_ZINC12986242_preparation.json",
+    "original_sha256": "9aaad65c6b1dc36fb485d910414ef9a898bba0191ebe4578cc1418025a8a30ea",
+    "reason": "local path only; numerical results and molecular bytes unmodified"
+  },
+  {
+    "file": "frozen_protocol_failure/raw_runs/zinc_reference_followup3/logs/REF_ZINC24739924_preparation.json",
+    "original_sha256": "cce13736376de17b48eb28eff8244453b99bab9d7fd69af21af08440746d90e5",
+    "reason": "local path only; numerical results and molecular bytes unmodified"
+  },
+  {
+    "file": "frozen_protocol_failure/raw_runs/zinc_reference_followup3/logs/REF_ZINC58438263_preparation.json",
+    "original_sha256": "9d99855994935f38bbd2cfb3127a53d5a94ac0195ed680e2df62a830af5ea0a7",
+    "reason": "local path only; numerical results and molecular bytes unmodified"
+  },
+  {
+    "file": "n_geometry_sensitivity/raw_runs/n_geometry6/job_ledger.csv",
+    "original_sha256": "bc142423d01f73b05e5e6951edfa3dd8951e12941f0712312afce828b29ece2b",
+    "reason": "local path only; numerical results and molecular bytes unmodified"
+  },
+  {
+    "file": "n_geometry_sensitivity/raw_runs/n_geometry6/plan.json",
+    "original_sha256": "08b2ecd935ea3fff02e0ec3266cac126bf07c7d4157681a8bf4758806d84de7a",
+    "reason": "local path only; numerical results and molecular bytes unmodified"
+  },
+  {
+    "file": "n_geometry_sensitivity/raw_runs/n_geometry6/preparation_ledger.csv",
+    "original_sha256": "5c58f672a364cd45d2c1382605fe498ff6e44e96e06870a0e1ef745ea3b061ce",
+    "reason": "local path only; numerical results and molecular bytes unmodified"
+  },
+  {
+    "file": "n_geometry_sensitivity/raw_runs/n_geometry6/summary.json",
+    "original_sha256": "b148f7ef85a452ca0de893fa2481e540a170564ffda5db4628273b27b59f0c61",
+    "reason": "local path only; numerical results and molecular bytes unmodified"
+  },
+  {
+    "file": "n_geometry_sensitivity/raw_runs/n_geometry6/logs/REF_ZINC12986242__Ngeom1_preparation.json",
+    "original_sha256": "1d52f5fe09044eff72de5eca63ad2ebd1ef4060c7b6b1d065c43717ed5d2fb20",
+    "reason": "local path only; numerical results and molecular bytes unmodified"
+  },
+  {
+    "file": "n_geometry_sensitivity/raw_runs/n_geometry6/logs/REF_ZINC12986242__Ngeom1__M_PUB_ALL__e8__s20260927.json",
+    "original_sha256": "326fc3b652f6ea009b6a94b3fe7beb85c6c8b1930b68e6368babdba7910b4384",
+    "reason": "local path only; numerical results and molecular bytes unmodified"
+  },
+  {
+    "file": "n_geometry_sensitivity/raw_runs/n_geometry6/logs/REF_ZINC12986242__Ngeom1__M_PUB_ALL__e8__s20260927.log",
+    "original_sha256": "3f806e08b47291f441b942a066076e2cf4f3e372b7b798c1629e4f6f376da30e",
+    "reason": "local path only; numerical results and molecular bytes unmodified"
+  },
+  {
+    "file": "n_geometry_sensitivity/raw_runs/n_geometry6/logs/REF_ZINC12986242__Ngeom2_preparation.json",
+    "original_sha256": "d7d0016ab359e49567939802881397e9cc27ca3c4cb4888a1fa20663fc18b6cb",
+    "reason": "local path only; numerical results and molecular bytes unmodified"
+  },
+  {
+    "file": "n_geometry_sensitivity/raw_runs/n_geometry6/logs/REF_ZINC12986242__Ngeom2__M_PUB_ALL__e8__s20260927.json",
+    "original_sha256": "1a7984fc97f15bfc0a6bdde27f488de17adccf6a59470bf4893cb09a30435b92",
+    "reason": "local path only; numerical results and molecular bytes unmodified"
+  },
+  {
+    "file": "n_geometry_sensitivity/raw_runs/n_geometry6/logs/REF_ZINC12986242__Ngeom2__M_PUB_ALL__e8__s20260927.log",
+    "original_sha256": "96207f23cafa5f7201323d27e69345c7ab4a60b327f3d4ea3ffedfa6caf10f1c",
+    "reason": "local path only; numerical results and molecular bytes unmodified"
+  },
+  {
+    "file": "n_geometry_sensitivity/raw_runs/n_geometry6/logs/REF_ZINC24739924__Ngeom1_preparation.json",
+    "original_sha256": "43cc40b21c28aa2b22c10e85281a244c7448f0d7034d8cd1a59d70d75f44b7b1",
+    "reason": "local path only; numerical results and molecular bytes unmodified"
+  },
+  {
+    "file": "n_geometry_sensitivity/raw_runs/n_geometry6/logs/REF_ZINC24739924__Ngeom1__M_PUB_ALL__e8__s20260927.json",
+    "original_sha256": "7f909149146a9d6c8337b4940886257980d387e5e42e5601c00757ead7778593",
+    "reason": "local path only; numerical results and molecular bytes unmodified"
+  },
+  {
+    "file": "n_geometry_sensitivity/raw_runs/n_geometry6/logs/REF_ZINC24739924__Ngeom1__M_PUB_ALL__e8__s20260927.log",
+    "original_sha256": "fd9ed89d3f8e3d4735c982f112ec4ce570d838237d4585db3d44054d656d73ac",
+    "reason": "local path only; numerical results and molecular bytes unmodified"
+  },
+  {
+    "file": "n_geometry_sensitivity/raw_runs/n_geometry6/logs/REF_ZINC24739924__Ngeom2_preparation.json",
+    "original_sha256": "4deddca16d2cef2f2141c6f242e1e85a3b7db37091004e9921a79c6dded34930",
+    "reason": "local path only; numerical results and molecular bytes unmodified"
+  },
+  {
+    "file": "n_geometry_sensitivity/raw_runs/n_geometry6/logs/REF_ZINC24739924__Ngeom2__M_PUB_ALL__e8__s20260927.json",
+    "original_sha256": "3619726abd05d9f839384f9f2397a643f9477ed6b188c9e59c14f5473b45d02d",
+    "reason": "local path only; numerical results and molecular bytes unmodified"
+  },
+  {
+    "file": "n_geometry_sensitivity/raw_runs/n_geometry6/logs/REF_ZINC24739924__Ngeom2__M_PUB_ALL__e8__s20260927.log",
+    "original_sha256": "42c5f0a9a81e5d3c94b187790d759a4e12223cce3ce7c4f220fdaf54b489fae2",
+    "reason": "local path only; numerical results and molecular bytes unmodified"
+  },
+  {
+    "file": "n_geometry_sensitivity/raw_runs/n_geometry6/logs/REF_ZINC58438263__Ngeom1_preparation.json",
+    "original_sha256": "54f813118573293dde04f36a249f1efb21a4633c0bffea803b23081287d1fe0e",
+    "reason": "local path only; numerical results and molecular bytes unmodified"
+  },
+  {
+    "file": "n_geometry_sensitivity/raw_runs/n_geometry6/logs/REF_ZINC58438263__Ngeom1__M_PUB_ALL__e8__s20260927.json",
+    "original_sha256": "10fa5235a4e34be1a63368f1ac02a7a52a64f90a8893499135450124abde589f",
+    "reason": "local path only; numerical results and molecular bytes unmodified"
+  },
+  {
+    "file": "n_geometry_sensitivity/raw_runs/n_geometry6/logs/REF_ZINC58438263__Ngeom1__M_PUB_ALL__e8__s20260927.log",
+    "original_sha256": "5d64d71e8f283bf44988709f1f139b39006031641bc123523dd030f7c8fb8ff0",
+    "reason": "local path only; numerical results and molecular bytes unmodified"
+  },
+  {
+    "file": "n_geometry_sensitivity/raw_runs/n_geometry6/logs/REF_ZINC58438263__Ngeom2_preparation.json",
+    "original_sha256": "5428f2ebd4ffbc971c88b561abe11d55d11d84fda53b83bf876b887baf227846",
+    "reason": "local path only; numerical results and molecular bytes unmodified"
+  },
+  {
+    "file": "n_geometry_sensitivity/raw_runs/n_geometry6/logs/REF_ZINC58438263__Ngeom2__M_PUB_ALL__e8__s20260927.json",
+    "original_sha256": "5f7a95e6531153fb1a41a3a63115aaa5f4b94de75c6069a371b5f0cd3fcaaa6a",
+    "reason": "local path only; numerical results and molecular bytes unmodified"
+  },
+  {
+    "file": "n_geometry_sensitivity/raw_runs/n_geometry6/logs/REF_ZINC58438263__Ngeom2__M_PUB_ALL__e8__s20260927.log",
+    "original_sha256": "a5af6f9b214ef97eaf79a2b5af7b2954f5f73e9941c8e52117ab7c21c9247b80",
+    "reason": "local path only; numerical results and molecular bytes unmodified"
+  }
+]

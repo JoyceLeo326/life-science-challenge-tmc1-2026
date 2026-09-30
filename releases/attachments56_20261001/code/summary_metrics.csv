@@ -1,0 +1,8 @@
+scope,arm,attempted,qc_pass,favorable_score,middle_contact_4A,favorable_and_middle_contact
+R2_all,random,120,120,36,91,29
+R2_all,descriptor_ridge,120,120,86,119,85
+R2_all,AI,120,120,115,107,103
+R3_MW350_matched,random,81,81,35,70,29
+R3_MW350_matched,descriptor_ridge,120,120,86,119,85
+R3_MW350_matched,AI,120,120,115,107,103
+R2_confirmation_four_conditions,six_candidates,24,24,24,22,22

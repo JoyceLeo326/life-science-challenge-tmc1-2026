@@ -1,0 +1,452 @@
+[
+  {
+    "path": "author_source_inventory.json",
+    "bytes": 2454,
+    "sha256": "2c00e9dc5b8b59e8b66fc19c29262d4951fb6b80541c09151ce1132532c6e421"
+  },
+  {
+    "path": "author_training_unique12.csv",
+    "bytes": 5048,
+    "sha256": "50e1360c5d726cd920c9e3490dd8b7f58c7bca4babbce50f15c2b2b35b567c6c"
+  },
+  {
+    "path": "author_tree.tsv",
+    "bytes": 4530,
+    "sha256": "f8a692a8e3c94f2e1bee0d0ca44ccf04d46646e58605ecb62b4689a694b60742"
+  },
+  {
+    "path": "ceforanide_atom_diagnosis.json",
+    "bytes": 2242,
+    "sha256": "1803552fd7368bafb28bd013937173abbfb909e6c09431b75755f5f2a522fede"
+  },
+  {
+    "path": "frozen_protocol_failure/protocol_inputs/chemistry_rules.py",
+    "bytes": 2977,
+    "sha256": "f595cdc49a82ef6a0305677f2c92b60f4ee38e1ac21a97f54b93fd04a9e2a535"
+  },
+  {
+    "path": "frozen_protocol_failure/protocol_inputs/common_box.json",
+    "bytes": 1106,
+    "sha256": "0494df1e01269f3e2ce367cffc747996961f6d443b3370a3823732189547a277"
+  },
+  {
+    "path": "frozen_protocol_failure/protocol_inputs/dock_batch.py",
+    "bytes": 17506,
+    "sha256": "b5cc1fd410f85d7251ed4343307ac10f3aab91590052f2de4aef4e7c49a6f543"
+  },
+  {
+    "path": "frozen_protocol_failure/protocol_inputs/portable_config.py",
+    "bytes": 688,
+    "sha256": "7436aab61a47fb9dab58ac0fd189fe1fc4744beff5ae78457e01aa70724790cb"
+  },
+  {
+    "path": "frozen_protocol_failure/protocol_inputs/vina_box.txt",
+    "bytes": 113,
+    "sha256": "3e4c7eb2c313edbe496068c9fb17790e7ca746567519836ed46131e5e7570d49"
+  },
+  {
+    "path": "frozen_protocol_failure/raw_runs/zinc_reference_followup3/logs/REF_ZINC12986242_preparation.json",
+    "bytes": 1688,
+    "sha256": "44a8017e623a1af0145a202835d087075be3295204dfed52427dc4856d283014"
+  },
+  {
+    "path": "frozen_protocol_failure/raw_runs/zinc_reference_followup3/logs/REF_ZINC24739924_preparation.json",
+    "bytes": 1650,
+    "sha256": "a3177344178f4b5de7b63687f6ca71b88572ce2a01c58216141d2a8d70d2c8a8"
+  },
+  {
+    "path": "frozen_protocol_failure/raw_runs/zinc_reference_followup3/logs/REF_ZINC58438263_preparation.json",
+    "bytes": 1684,
+    "sha256": "387d3e5307157e61a2d993963144acc62e240efeb0cfa4db232c327fb8707416"
+  },
+  {
+    "path": "frozen_protocol_failure/raw_runs/zinc_reference_followup3/plan.json",
+    "bytes": 2243,
+    "sha256": "ca8f57fb67242e8da744ef3de4f9b8ad67325fb74fc8c8c4d6143a320e2ee147"
+  },
+  {
+    "path": "frozen_protocol_failure/raw_runs/zinc_reference_followup3/preparation_ledger.csv",
+    "bytes": 3546,
+    "sha256": "cda1b9939b694046047a6980d818f219bed125ccb16ace018459b771b1e8a5f6"
+  },
+  {
+    "path": "frozen_protocol_failure/raw_runs/zinc_reference_followup3/summary.json",
+    "bytes": 2682,
+    "sha256": "4d975cc7544668ec79a2c0a6eb6cfd6fbb738d66c82605e9b34ac17f82a59b1a"
+  },
+  {
+    "path": "n_geometry_sensitivity/all_six_geometry_results.csv",
+    "bytes": 1762,
+    "sha256": "82bd8631d8e1c1e3c7c3a405745e19fead0a2a2dd45262f0682bfb3b37de0ef5"
+  },
+  {
+    "path": "n_geometry_sensitivity/audit_real_jobs_R3.py",
+    "bytes": 9054,
+    "sha256": "f77963c239d2d2131896ea603d080c457a18289bb2ae30308fae17e312f182ef"
+  },
+  {
+    "path": "n_geometry_sensitivity/METHOD.md",
+    "bytes": 2868,
+    "sha256": "17903811de65dd0d0938b01a726d5dc0b78bf742564b207f0d4e962f0abf1fe1"
+  },
+  {
+    "path": "n_geometry_sensitivity/parent_geometry_sensitivity_summary.csv",
+    "bytes": 584,
+    "sha256": "c70556b3321fa37c0e5f655cabf55f33c6fb75cd5dea5b66ed056a27fbdec43e"
+  },
+  {
+    "path": "n_geometry_sensitivity/protocol_inputs/chemistry_rules.py",
+    "bytes": 3051,
+    "sha256": "d35aac85762c62e8341b8776a26a24cb6e70648b95d0d0cd38e918fc67aaecf1"
+  },
+  {
+    "path": "n_geometry_sensitivity/protocol_inputs/dock_batch.py",
+    "bytes": 18182,
+    "sha256": "88992208490f186613b244f83b2782270c92f80adcd59dcedf6fe1dabc01da2c"
+  },
+  {
+    "path": "n_geometry_sensitivity/protocol_inputs/n_geometry_rule.py",
+    "bytes": 2943,
+    "sha256": "9210eb6792373ca16357f7fecc94eb998585d9e3e5a4e4b43c539bcbbe786380"
+  },
+  {
+    "path": "n_geometry_sensitivity/protocol_inputs/portable_config.py",
+    "bytes": 688,
+    "sha256": "7436aab61a47fb9dab58ac0fd189fe1fc4744beff5ae78457e01aa70724790cb"
+  },
+  {
+    "path": "n_geometry_sensitivity/raw_runs/n_geometry6/job_ledger.csv",
+    "bytes": 22141,
+    "sha256": "78d43559703f49bd104fb97f3a836082585acdfffa1f1f772019f99f1eba6b3a"
+  },
+  {
+    "path": "n_geometry_sensitivity/raw_runs/n_geometry6/ligands/REF_ZINC12986242__Ngeom1.pdbqt",
+    "bytes": 2975,
+    "sha256": "981127b8008f5e14f3041d38c6fe95179019bbc274307dd9c7a0a03f2998b0cb"
+  },
+  {
+    "path": "n_geometry_sensitivity/raw_runs/n_geometry6/ligands/REF_ZINC12986242__Ngeom1.sdf",
+    "bytes": 4317,
+    "sha256": "ddbbf24d17e2d7d405d2c7868c0439ef9209ccc79120c16513a34b940bcaaf24"
+  },
+  {
+    "path": "n_geometry_sensitivity/raw_runs/n_geometry6/ligands/REF_ZINC12986242__Ngeom2.pdbqt",
+    "bytes": 2974,
+    "sha256": "a1853755481c95fa18b9a3a58d2a0bb5202310edf33192057b70b0235f0ad70e"
+  },
+  {
+    "path": "n_geometry_sensitivity/raw_runs/n_geometry6/ligands/REF_ZINC12986242__Ngeom2.sdf",
+    "bytes": 4317,
+    "sha256": "a6c666b4496f56fb6351ce6eb3ea7a17cf8d3e815282574e821f410f53e9b8d7"
+  },
+  {
+    "path": "n_geometry_sensitivity/raw_runs/n_geometry6/ligands/REF_ZINC24739924__Ngeom1.pdbqt",
+    "bytes": 2701,
+    "sha256": "4629243f28e91543a0860afa6e6ab90ea581d2cee35714df5331b03426427fbd"
+  },
+  {
+    "path": "n_geometry_sensitivity/raw_runs/n_geometry6/ligands/REF_ZINC24739924__Ngeom1.sdf",
+    "bytes": 3700,
+    "sha256": "21e0ee8d6bb7c58ab6bb3481f39f7ef500ddf583540f872ae3695e58bcb82218"
+  },
+  {
+    "path": "n_geometry_sensitivity/raw_runs/n_geometry6/ligands/REF_ZINC24739924__Ngeom2.pdbqt",
+    "bytes": 2700,
+    "sha256": "3840257e3450438fb302330e445b59d1974ffa07d2e762d1f4dfea80f42567c2"
+  },
+  {
+    "path": "n_geometry_sensitivity/raw_runs/n_geometry6/ligands/REF_ZINC24739924__Ngeom2.sdf",
+    "bytes": 3700,
+    "sha256": "17c748f5077b5ba77c5c5057abf416c1f359d16aef5252f2ea90bf987791772e"
+  },
+  {
+    "path": "n_geometry_sensitivity/raw_runs/n_geometry6/ligands/REF_ZINC58438263__Ngeom1.pdbqt",
+    "bytes": 3270,
+    "sha256": "933fc23732691f038d4a91ee90f5bcfeda2cabf6acf338447dcd4a9a1a3c0f6b"
+  },
+  {
+    "path": "n_geometry_sensitivity/raw_runs/n_geometry6/ligands/REF_ZINC58438263__Ngeom1.sdf",
+    "bytes": 5414,
+    "sha256": "32c757721fa98230b0c777ab390405cd0714de4c3569d9e3789f878fc39e44bc"
+  },
+  {
+    "path": "n_geometry_sensitivity/raw_runs/n_geometry6/ligands/REF_ZINC58438263__Ngeom2.pdbqt",
+    "bytes": 3269,
+    "sha256": "3b74395f1b9e25643b97901f8bb6e56e29dfec8acf41373b193f1fefad023115"
+  },
+  {
+    "path": "n_geometry_sensitivity/raw_runs/n_geometry6/ligands/REF_ZINC58438263__Ngeom2.sdf",
+    "bytes": 5414,
+    "sha256": "93f22e80da2daecfa8fab9a4c239c19fb7aae696ee0202b649ae30f2a2b12a11"
+  },
+  {
+    "path": "n_geometry_sensitivity/raw_runs/n_geometry6/logs/REF_ZINC12986242__Ngeom1__M_PUB_ALL__e8__s20260927.json",
+    "bytes": 5676,
+    "sha256": "8a9e928bdb776621bcc406b22b45058370ea5893d589aa55bc2f4857365bd2fc"
+  },
+  {
+    "path": "n_geometry_sensitivity/raw_runs/n_geometry6/logs/REF_ZINC12986242__Ngeom1__M_PUB_ALL__e8__s20260927.log",
+    "bytes": 2300,
+    "sha256": "55ad8ba2d5f081726db7f301bb3a2e8044217657c674610601b00e028ed045c1"
+  },
+  {
+    "path": "n_geometry_sensitivity/raw_runs/n_geometry6/logs/REF_ZINC12986242__Ngeom1__M_PUB_ALL__e8__s20260927_export.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "n_geometry_sensitivity/raw_runs/n_geometry6/logs/REF_ZINC12986242__Ngeom1_preparation.json",
+    "bytes": 2763,
+    "sha256": "fea1e4d3b5fcddbcbbdb4fcf7c30ee6da685841a0b698aa6637dc50abbd3f275"
+  },
+  {
+    "path": "n_geometry_sensitivity/raw_runs/n_geometry6/logs/REF_ZINC12986242__Ngeom2__M_PUB_ALL__e8__s20260927.json",
+    "bytes": 5670,
+    "sha256": "408f6e22836663ba6c00e15dc0f361098a391c8238678a57c3cd86dfcb7a899e"
+  },
+  {
+    "path": "n_geometry_sensitivity/raw_runs/n_geometry6/logs/REF_ZINC12986242__Ngeom2__M_PUB_ALL__e8__s20260927.log",
+    "bytes": 2300,
+    "sha256": "07b6b90edafe5dd4fc6e068638ef2702ecb2b1d5edd3f46e22ed1f47958010a2"
+  },
+  {
+    "path": "n_geometry_sensitivity/raw_runs/n_geometry6/logs/REF_ZINC12986242__Ngeom2__M_PUB_ALL__e8__s20260927_export.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "n_geometry_sensitivity/raw_runs/n_geometry6/logs/REF_ZINC12986242__Ngeom2_preparation.json",
+    "bytes": 2757,
+    "sha256": "c36bb0073a3642a0c165d312b92763b780b1b45c36430927326ccbd51e649c4f"
+  },
+  {
+    "path": "n_geometry_sensitivity/raw_runs/n_geometry6/logs/REF_ZINC24739924__Ngeom1__M_PUB_ALL__e8__s20260927.json",
+    "bytes": 5589,
+    "sha256": "6d52e0d396ee8c4eaba6c9f45f1e85daff0722f19981e01aea5f7924910a10d7"
+  },
+  {
+    "path": "n_geometry_sensitivity/raw_runs/n_geometry6/logs/REF_ZINC24739924__Ngeom1__M_PUB_ALL__e8__s20260927.log",
+    "bytes": 2300,
+    "sha256": "341125eb267b3691269589b3b8bc1d9a655274f6eb0659cb0d3a4833da781f75"
+  },
+  {
+    "path": "n_geometry_sensitivity/raw_runs/n_geometry6/logs/REF_ZINC24739924__Ngeom1__M_PUB_ALL__e8__s20260927_export.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "n_geometry_sensitivity/raw_runs/n_geometry6/logs/REF_ZINC24739924__Ngeom1_preparation.json",
+    "bytes": 2675,
+    "sha256": "c9bd651298af460b4ecf72103f25cd9f0139df64c369a161ab567de6179a31b0"
+  },
+  {
+    "path": "n_geometry_sensitivity/raw_runs/n_geometry6/logs/REF_ZINC24739924__Ngeom2__M_PUB_ALL__e8__s20260927.json",
+    "bytes": 5588,
+    "sha256": "2115cfbd460d976d2165d87f0519b0a21c709c432ec1368b0694e8e6a764af72"
+  },
+  {
+    "path": "n_geometry_sensitivity/raw_runs/n_geometry6/logs/REF_ZINC24739924__Ngeom2__M_PUB_ALL__e8__s20260927.log",
+    "bytes": 2300,
+    "sha256": "605cbcf779a7a93af77d7fdef903d907614a90431bee5610a4446f2977d9e1fd"
+  },
+  {
+    "path": "n_geometry_sensitivity/raw_runs/n_geometry6/logs/REF_ZINC24739924__Ngeom2__M_PUB_ALL__e8__s20260927_export.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "n_geometry_sensitivity/raw_runs/n_geometry6/logs/REF_ZINC24739924__Ngeom2_preparation.json",
+    "bytes": 2675,
+    "sha256": "f2cf076d00f1951eb026690103a2f08cb9504c5825a11ef8a1faa517d173acca"
+  },
+  {
+    "path": "n_geometry_sensitivity/raw_runs/n_geometry6/logs/REF_ZINC58438263__Ngeom1__M_PUB_ALL__e8__s20260927.json",
+    "bytes": 5656,
+    "sha256": "a954ed716289d829d1f1415326f3558b7085d4528984b5fec57ea04af850eed9"
+  },
+  {
+    "path": "n_geometry_sensitivity/raw_runs/n_geometry6/logs/REF_ZINC58438263__Ngeom1__M_PUB_ALL__e8__s20260927.log",
+    "bytes": 2300,
+    "sha256": "80541d87dd869dc84b68db58093fb64de9969e8bc46993b9b140858618c6ec34"
+  },
+  {
+    "path": "n_geometry_sensitivity/raw_runs/n_geometry6/logs/REF_ZINC58438263__Ngeom1__M_PUB_ALL__e8__s20260927_export.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "n_geometry_sensitivity/raw_runs/n_geometry6/logs/REF_ZINC58438263__Ngeom1_preparation.json",
+    "bytes": 2753,
+    "sha256": "0934ce2911da3c2dc647b13b20c73249cd0192bc29851f519ce7d38e60b3472c"
+  },
+  {
+    "path": "n_geometry_sensitivity/raw_runs/n_geometry6/logs/REF_ZINC58438263__Ngeom2__M_PUB_ALL__e8__s20260927.json",
+    "bytes": 5650,
+    "sha256": "b0f5258dc6a6fe83522d13d8271777ab7fe76c77624ba464698b8bbd9d52d7ba"
+  },
+  {
+    "path": "n_geometry_sensitivity/raw_runs/n_geometry6/logs/REF_ZINC58438263__Ngeom2__M_PUB_ALL__e8__s20260927.log",
+    "bytes": 2300,
+    "sha256": "ab2b05de046f8118f510aec5f491dfd719edbdbc5eca3d573b0bb81705103583"
+  },
+  {
+    "path": "n_geometry_sensitivity/raw_runs/n_geometry6/logs/REF_ZINC58438263__Ngeom2__M_PUB_ALL__e8__s20260927_export.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "n_geometry_sensitivity/raw_runs/n_geometry6/logs/REF_ZINC58438263__Ngeom2_preparation.json",
+    "bytes": 2748,
+    "sha256": "ad0daed33b522bf8b24c08bdfffcbc1823efa122b6a8357f45443ce80e19a0d1"
+  },
+  {
+    "path": "n_geometry_sensitivity/raw_runs/n_geometry6/plan.json",
+    "bytes": 2339,
+    "sha256": "f795d864b2c269be3b258f1aa35b50bfbcd22e02e19605c9e5b6063fcf9cfe4d"
+  },
+  {
+    "path": "n_geometry_sensitivity/raw_runs/n_geometry6/poses/REF_ZINC12986242__Ngeom1__M_PUB_ALL__e8__s20260927.pdbqt",
+    "bytes": 29277,
+    "sha256": "ed6a9e5d652d2048815e3a080d87d336eb5692962fe0c973c7f5c702496b6c8f"
+  },
+  {
+    "path": "n_geometry_sensitivity/raw_runs/n_geometry6/poses/REF_ZINC12986242__Ngeom1__M_PUB_ALL__e8__s20260927.sdf",
+    "bytes": 40470,
+    "sha256": "a2730dd521644ff27b55e90c65d7115157be6288c1736200d86886fc70a0cdc8"
+  },
+  {
+    "path": "n_geometry_sensitivity/raw_runs/n_geometry6/poses/REF_ZINC12986242__Ngeom2__M_PUB_ALL__e8__s20260927.pdbqt",
+    "bytes": 29268,
+    "sha256": "55323da4ed17d5ee8a16b99b2bf4dbe6fda8513d2f3f894560802d29cdc7f58c"
+  },
+  {
+    "path": "n_geometry_sensitivity/raw_runs/n_geometry6/poses/REF_ZINC12986242__Ngeom2__M_PUB_ALL__e8__s20260927.sdf",
+    "bytes": 40469,
+    "sha256": "9e2c084730ba32122ad24b3940f5d41b9e190dd04293f0e2df65d6b150317265"
+  },
+  {
+    "path": "n_geometry_sensitivity/raw_runs/n_geometry6/poses/REF_ZINC24739924__Ngeom1__M_PUB_ALL__e8__s20260927.pdbqt",
+    "bytes": 26784,
+    "sha256": "5cfd9917bceae0aff20e52982a48bfb1dc38b7a9e284c8f1e139ebdd457df031"
+  },
+  {
+    "path": "n_geometry_sensitivity/raw_runs/n_geometry6/poses/REF_ZINC24739924__Ngeom1__M_PUB_ALL__e8__s20260927.sdf",
+    "bytes": 34917,
+    "sha256": "fa6bbf490814d18024b6a80927de45ac8341227e6d2b1acd118bc5bbac39951f"
+  },
+  {
+    "path": "n_geometry_sensitivity/raw_runs/n_geometry6/poses/REF_ZINC24739924__Ngeom2__M_PUB_ALL__e8__s20260927.pdbqt",
+    "bytes": 26775,
+    "sha256": "44501c8b960a3a5b379b57298726af5f85de6e2435eae560dffe2a1d19c92ea9"
+  },
+  {
+    "path": "n_geometry_sensitivity/raw_runs/n_geometry6/poses/REF_ZINC24739924__Ngeom2__M_PUB_ALL__e8__s20260927.sdf",
+    "bytes": 34917,
+    "sha256": "13506ba9003234a127d6dad7a330733e19ad0d8cd06c3da0d9058f923ada2a13"
+  },
+  {
+    "path": "n_geometry_sensitivity/raw_runs/n_geometry6/poses/REF_ZINC58438263__Ngeom1__M_PUB_ALL__e8__s20260927.pdbqt",
+    "bytes": 31977,
+    "sha256": "4c05d6cbcb8405db7c163b685af753fce4e955ea79f84ab89c230f42f70b0047"
+  },
+  {
+    "path": "n_geometry_sensitivity/raw_runs/n_geometry6/poses/REF_ZINC58438263__Ngeom1__M_PUB_ALL__e8__s20260927.sdf",
+    "bytes": 50347,
+    "sha256": "c3cd13ca3fe7a7cf0e3f37df4d12522a7c9ad81e06142bb80981fe6bdc6f6b02"
+  },
+  {
+    "path": "n_geometry_sensitivity/raw_runs/n_geometry6/poses/REF_ZINC58438263__Ngeom2__M_PUB_ALL__e8__s20260927.pdbqt",
+    "bytes": 31968,
+    "sha256": "63be8f846bf6e50b324b0c920faf9bee9711d244602a563fc3b585f2e1201cb8"
+  },
+  {
+    "path": "n_geometry_sensitivity/raw_runs/n_geometry6/poses/REF_ZINC58438263__Ngeom2__M_PUB_ALL__e8__s20260927.sdf",
+    "bytes": 50346,
+    "sha256": "3af681cce66fcccde82f8e444cceebba977d83964c77b28a942be5ed141c9f18"
+  },
+  {
+    "path": "n_geometry_sensitivity/raw_runs/n_geometry6/preparation_ledger.csv",
+    "bytes": 10189,
+    "sha256": "c75441d251f8084dd299eb85f9235438998c6a06999cfb9e12d8f5d7442dccca"
+  },
+  {
+    "path": "n_geometry_sensitivity/raw_runs/n_geometry6/summary.json",
+    "bytes": 2794,
+    "sha256": "3ab8097d0c93ec2cc4a23b0c620bf1febffdff0e2fdbd823731979045f3fc07b"
+  },
+  {
+    "path": "n_geometry_sensitivity/RESULTS.md",
+    "bytes": 1382,
+    "sha256": "f977d0756453cfcf1f89d646a1686461f2753079e126eb294240688426377679"
+  },
+  {
+    "path": "n_geometry_sensitivity/rule_validation.json",
+    "bytes": 3769,
+    "sha256": "6aa14100f09bd38bc7632733765e0cce1049095d11fbe7da3d4259472e52aada"
+  },
+  {
+    "path": "n_geometry_sensitivity/sensitivity_geometry_qc.csv",
+    "bytes": 2510,
+    "sha256": "8a5bc9864932447f25a14bd8e3e9cd1cb547c5e8d7938a4c930c1adf8b272ec0"
+  },
+  {
+    "path": "n_geometry_sensitivity/sensitivity_geometry_qc_summary.json",
+    "bytes": 364,
+    "sha256": "8fd3f4ab228c34379ed18abe0b1a04caf2c606fd7cf4bafa8807844c1fc21118"
+  },
+  {
+    "path": "n_geometry_sensitivity/sensitivity_inputs.csv",
+    "bytes": 2644,
+    "sha256": "eb3f81559e6e3d494f97ed6ee1928e34149b5067cb8cc69e101f1c59e9d76dad"
+  },
+  {
+    "path": "n_geometry_sensitivity/SENSITIVITY_PREREGISTRATION.json",
+    "bytes": 656,
+    "sha256": "e5350959ece02452b9720a758fa595f4ceb8beabfbe07739d146e68b60bf7e43"
+  },
+  {
+    "path": "paper_13_plus_3_author_source_map.csv",
+    "bytes": 3139,
+    "sha256": "8c511ef445b9b4e37b2689863e46c968ad4e6e2368ff2a8027ecba4bf45bb9ef"
+  },
+  {
+    "path": "PATH_REDACTION.json",
+    "bytes": 10423,
+    "sha256": "612be2cd869ab08da09bd1baf25491d4c739416c845e065494fe8393f230e540"
+  },
+  {
+    "path": "QUERY_LEDGER.json",
+    "bytes": 3469,
+    "sha256": "c1696cdf646266f89583d6e0a8cbf4ebbb21db28f32ee99c78b0e9fd3b672d59"
+  },
+  {
+    "path": "README.md",
+    "bytes": 1318,
+    "sha256": "5b33e22db0d5ef1a9ccf6fbc62817cd61baae5f2aa500c0d383a2483d66d252b"
+  },
+  {
+    "path": "REFERENCE_SOURCE_CLARIFICATION.md",
+    "bytes": 6142,
+    "sha256": "77fd7a6497191599883eef0ed6d8d2492e881c2880a0e72fd0f1d571f688f24a"
+  },
+  {
+    "path": "resolved_ZINC_primary_identity_2D.sdf",
+    "bytes": 10402,
+    "sha256": "a9d9b43093f4159092d181b115b261684526fedbd34fc6141bb795d25a780d30"
+  },
+  {
+    "path": "resolved_ZINC_reference_inputs.csv",
+    "bytes": 1175,
+    "sha256": "49ae8894d47025a04f894faae738afa403ea4c2a6c407ac7990ddb1034303783"
+  },
+  {
+    "path": "ZINC_primary_identity_verification.csv",
+    "bytes": 1847,
+    "sha256": "8cd2d6b25a8e4459715aee8d79cdbe08328ccbed7fab01ccf54d703708647a32"
+  },
+  {
+    "path": "ZINC_primary_identity_verification.json",
+    "bytes": 3212,
+    "sha256": "cd5e1106e308c78e9e9aa64c01a78bdade3b29321a48ac5b65c3e5ebfe7d046f"
+  }
+]

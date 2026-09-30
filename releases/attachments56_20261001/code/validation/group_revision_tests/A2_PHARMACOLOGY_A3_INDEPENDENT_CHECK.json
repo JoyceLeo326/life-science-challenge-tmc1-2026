@@ -1,0 +1,602 @@
+{
+  "status": "PASS",
+  "scope": "independent read-only checks of A2 pharmacology and A3 outputs, no repeat network/model jobs",
+  "rdkit_validation_version": "2025.09.6",
+  "checks": [
+    {
+      "check": "panel counts and identifiers",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "panel groups",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "inference input SHA",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "inference prediction SHA",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "41 endpoints",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "451 finite predictions",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "prediction row identities",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "input identity LIB_YWDIXVZCRMMQQY",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "input identity LIB_MYAFDHCCQBIZLC",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "input identity LIB_ZNDXPRCORYDEAP",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "input identity LIB_FCRHJSNRFAAYQD",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "input identity LIB_DNDVGFIEWOHGAH",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "input identity LIB_ZVHBDYFMHCQADD",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "input identity LIB_CHEMBL2103870",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "input identity LIB_CHEMBL3894860",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "input identity DES_JMWNSKZCTCNWSL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "input identity GEN_LDAGBLZIWYMUFJ",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "input identity GEN_YUOYQOBVJWRGGY",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "independent RDKit SA and descriptors",
+      "pass": true,
+      "detail": {
+        "MW": 0.0,
+        "cLogP": 0.0,
+        "TPSA_A2": 0.0,
+        "HBD": 0.0,
+        "HBA": 0.0,
+        "rotatable_bonds": 0.0,
+        "SA_score": 0.0,
+        "QED": 0.0
+      }
+    },
+    {
+      "check": "10 model weights match manifest",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "range QC all values",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "all 10 out-of-range retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "range flags exact",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Swiss two batches all 11",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Swiss returned structures exact identities",
+      "pass": true,
+      "detail": [
+        {
+          "id": "LIB_YWDIXVZCRMMQQY",
+          "returned_inchikey": "YWDIXVZCRMMQQY-UHFFFAOYSA-N",
+          "input_inchikey": "YWDIXVZCRMMQQY-UHFFFAOYSA-N",
+          "exact_match": true,
+          "SwissADME_SA": "3.71",
+          "RDKit_SA": "2.4241605118301663"
+        },
+        {
+          "id": "LIB_MYAFDHCCQBIZLC",
+          "returned_inchikey": "MYAFDHCCQBIZLC-UHFFFAOYSA-N",
+          "input_inchikey": "MYAFDHCCQBIZLC-UHFFFAOYSA-N",
+          "exact_match": true,
+          "SwissADME_SA": "3.63",
+          "RDKit_SA": "2.450496585166068"
+        },
+        {
+          "id": "LIB_ZNDXPRCORYDEAP",
+          "returned_inchikey": "ZNDXPRCORYDEAP-UHFFFAOYSA-N",
+          "input_inchikey": "ZNDXPRCORYDEAP-UHFFFAOYSA-N",
+          "exact_match": true,
+          "SwissADME_SA": "3.61",
+          "RDKit_SA": "2.6773814150166757"
+        },
+        {
+          "id": "LIB_FCRHJSNRFAAYQD",
+          "returned_inchikey": "FCRHJSNRFAAYQD-UHFFFAOYSA-N",
+          "input_inchikey": "FCRHJSNRFAAYQD-UHFFFAOYSA-N",
+          "exact_match": true,
+          "SwissADME_SA": "3.93",
+          "RDKit_SA": "2.542591185079049"
+        },
+        {
+          "id": "LIB_DNDVGFIEWOHGAH",
+          "returned_inchikey": "DNDVGFIEWOHGAH-UHFFFAOYSA-N",
+          "input_inchikey": "DNDVGFIEWOHGAH-UHFFFAOYSA-N",
+          "exact_match": true,
+          "SwissADME_SA": "3.95",
+          "RDKit_SA": "2.665172536538952"
+        },
+        {
+          "id": "LIB_ZVHBDYFMHCQADD",
+          "returned_inchikey": "ZVHBDYFMHCQADD-UHFFFAOYSA-N",
+          "input_inchikey": "ZVHBDYFMHCQADD-UHFFFAOYSA-N",
+          "exact_match": true,
+          "SwissADME_SA": "3.63",
+          "RDKit_SA": "2.580473148789359"
+        },
+        {
+          "id": "LIB_CHEMBL2103870",
+          "returned_inchikey": "UFSKUSARDNFIRC-UHFFFAOYSA-N",
+          "input_inchikey": "UFSKUSARDNFIRC-UHFFFAOYSA-N",
+          "exact_match": true,
+          "SwissADME_SA": "3.28",
+          "RDKit_SA": "2.7563124500803955"
+        },
+        {
+          "id": "LIB_CHEMBL3894860",
+          "returned_inchikey": "PDGKHKMBHVFCMG-UHFFFAOYSA-N",
+          "input_inchikey": "PDGKHKMBHVFCMG-UHFFFAOYSA-N",
+          "exact_match": true,
+          "SwissADME_SA": "4.11",
+          "RDKit_SA": "3.526180912510976"
+        },
+        {
+          "id": "DES_JMWNSKZCTCNWSL",
+          "returned_inchikey": "JMWNSKZCTCNWSL-UHFFFAOYSA-N",
+          "input_inchikey": "JMWNSKZCTCNWSL-UHFFFAOYSA-N",
+          "exact_match": true,
+          "SwissADME_SA": "3.42",
+          "RDKit_SA": "2.7899093515323283"
+        },
+        {
+          "id": "GEN_LDAGBLZIWYMUFJ",
+          "returned_inchikey": "LDAGBLZIWYMUFJ-UHFFFAOYSA-N",
+          "input_inchikey": "LDAGBLZIWYMUFJ-UHFFFAOYSA-N",
+          "exact_match": true,
+          "SwissADME_SA": "2.95",
+          "RDKit_SA": "2.4338764875085257"
+        },
+        {
+          "id": "GEN_YUOYQOBVJWRGGY",
+          "returned_inchikey": "YUOYQOBVJWRGGY-UHFFFAOYSA-N",
+          "input_inchikey": "YUOYQOBVJWRGGY-UHFFFAOYSA-N",
+          "exact_match": true,
+          "SwissADME_SA": "1.91",
+          "RDKit_SA": "1.6009902459408885"
+        }
+      ]
+    },
+    {
+      "check": "Swiss independent implementation labeled distinctly",
+      "pass": true,
+      "detail": "SwissADME and local RDKit SA differ; they must retain separate labels."
+    },
+    {
+      "check": "raw receipt activity_batch00_page000.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "pagination complete activity_batch00_page000.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "raw receipt assay_batch00_page000.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "pagination complete assay_batch00_page000.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "raw receipt assay_batch01_page000.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "pagination complete assay_batch01_page000.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "raw receipt assay_batch02_page000.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "pagination complete assay_batch02_page000.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "raw receipt assay_batch03_page000.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "pagination complete assay_batch03_page000.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "raw receipt assay_batch04_page000.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "pagination complete assay_batch04_page000.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "raw receipt assay_batch05_page000.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "pagination complete assay_batch05_page000.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "raw receipt assay_batch06_page000.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "pagination complete assay_batch06_page000.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "raw receipt assay_batch07_page000.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "pagination complete assay_batch07_page000.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "raw receipt assay_batch08_page000.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "pagination complete assay_batch08_page000.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "raw receipt assay_batch09_page000.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "pagination complete assay_batch09_page000.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "raw receipt assay_batch10_page000.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "pagination complete assay_batch10_page000.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "raw receipt assay_batch11_page000.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "pagination complete assay_batch11_page000.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "raw receipt assay_batch12_page000.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "pagination complete assay_batch12_page000.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "raw receipt document_batch00_page000.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "pagination complete document_batch00_page000.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "raw receipt document_batch01_page000.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "pagination complete document_batch01_page000.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "raw receipt mechanism_batch00_page000.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "pagination complete mechanism_batch00_page000.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "raw activity assay document counts",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "33 specified molecule coverage",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "622 unique exported activities",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "all activity fields join actual assay document",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "33 summaries exact activity counts",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "six candidate pharmacology",
+      "pass": true,
+      "detail": [
+        {
+          "molecule_chembl_id": "CHEMBL1076497",
+          "is_formal_candidate": "True",
+          "activity_records": "3",
+          "mechanism_records": "0",
+          "targets": "HT-29; NON-PROTEIN TARGET; Serine/threonine-protein kinase B-raf",
+          "types": "IC50",
+          "document_dois": "10.1016/j.bmcl.2009.10.049",
+          "status": "actual_ChEMBL_assays_not_TMC1_efficacy_confirmation"
+        },
+        {
+          "molecule_chembl_id": "CHEMBL1079964",
+          "is_formal_candidate": "True",
+          "activity_records": "1",
+          "mechanism_records": "0",
+          "targets": "Ephrin type-B receptor 4",
+          "types": "Inhibition",
+          "document_dois": "10.1016/j.bmcl.2009.10.037",
+          "status": "actual_ChEMBL_assays_not_TMC1_efficacy_confirmation"
+        },
+        {
+          "molecule_chembl_id": "CHEMBL1080205",
+          "is_formal_candidate": "True",
+          "activity_records": "1",
+          "mechanism_records": "0",
+          "targets": "Ephrin type-B receptor 4",
+          "types": "Inhibition",
+          "document_dois": "10.1016/j.bmcl.2009.10.037",
+          "status": "actual_ChEMBL_assays_not_TMC1_efficacy_confirmation"
+        },
+        {
+          "molecule_chembl_id": "CHEMBL1080362",
+          "is_formal_candidate": "True",
+          "activity_records": "1",
+          "mechanism_records": "0",
+          "targets": "Ephrin type-B receptor 4",
+          "types": "IC50",
+          "document_dois": "10.1016/j.bmcl.2009.10.037",
+          "status": "actual_ChEMBL_assays_not_TMC1_efficacy_confirmation"
+        },
+        {
+          "molecule_chembl_id": "CHEMBL1080669",
+          "is_formal_candidate": "True",
+          "activity_records": "1",
+          "mechanism_records": "0",
+          "targets": "Ephrin type-B receptor 4",
+          "types": "IC50",
+          "document_dois": "10.1016/j.bmcl.2009.10.037",
+          "status": "actual_ChEMBL_assays_not_TMC1_efficacy_confirmation"
+        },
+        {
+          "molecule_chembl_id": "CHEMBL1081740",
+          "is_formal_candidate": "True",
+          "activity_records": "1",
+          "mechanism_records": "0",
+          "targets": "Ephrin type-B receptor 4",
+          "types": "IC50",
+          "document_dois": "10.1016/j.bmcl.2009.10.037",
+          "status": "actual_ChEMBL_assays_not_TMC1_efficacy_confirmation"
+        }
+      ]
+    },
+    {
+      "check": "assays not misstated TMC1 efficacy",
+      "pass": true,
+      "detail": null
+    }
+  ],
+  "checks_total": 67,
+  "checks_pass": 67,
+  "source_file_hashes": {
+    "admetlab_request.json": "37e601397f7e7f6bc5004d4822d990dbb0de2939243b1ecba9d63376b2999145",
+    "ADMET_AI_v2_11_first_predictions.csv": "10d576899f6c7f472c3b9bdb6588bc0982b5534b4f3f062ee899bbfaddb21bb1",
+    "ADMET_AI_v2_11_full_predictions.csv": "10d576899f6c7f472c3b9bdb6588bc0982b5534b4f3f062ee899bbfaddb21bb1",
+    "ADMET_AI_v2_endpoint_metadata.csv": "32d46092deab7a553e319bdecaaed5e7dc2300c992d74d0a68c13c37f4af9d2d",
+    "ADMET_AI_v2_inference_manifest.json": "4c6d7aa368614b75330c3d1037e4f6b7b3739c283c8ad86269623196f74199f5",
+    "ADMET_AI_v2_out_of_range.csv": "549d84bd8da4d7ab2224bbb0fdf41c1fece180f31a8b69127675c9332c77b17e",
+    "ADMET_AI_v2_range_qc_all.csv": "b4fe35c8decc9e1536d741c6cf13d6f672376f119cee6ee40a2b8afbcfa02f9e",
+    "ADMET_SA_panel11.csv": "fdf3fc27df85ce7d5bc5dde6528ba101ac4f1d21be215298ac73fd00838e8cfe",
+    "candidate_neighbor_annotations.csv": "c810b6c00c04fc20a05b1aa9009889240202cfa7c29b1cc987dea444e7a27ec9",
+    "candidate_neighbor_ge0p4.csv": "c810b6c00c04fc20a05b1aa9009889240202cfa7c29b1cc987dea444e7a27ec9",
+    "candidate_neighbor_ge0p6.csv": "1127a42af0edbb0572c1d5370c5896b13038acf8c0be872f0348ed79bc0c4688",
+    "candidate_similarity_identity_audit.csv": "3d51299865b89e356cb1b7c91ad04aafbccfbb7fb39be7e4daad3b9f66ce998c",
+    "candidate_similarity_summary.csv": "446bcc36cda3e3a8aa7c3bbd3d4a32bacdc8a364a38ab18ea2fe1fc19abc00ed",
+    "CHEMBL_FETCH_COMPLETE.json": "dc9e6047840662b79ba921ab1be42d62e6565772bde1602296dbd2fd16ca6fe7",
+    "formal_six_input.csv": "f389adbea2aa48122927e7de0ceebd71a10aa75195144bb9116ef29abc7fc961",
+    "pharmacology_actual_activity_records.csv": "000b0a903eb0197edccc2376b31eac2c90c463de6e0a4bcb8f52738a11c330b8",
+    "PHARMACOLOGY_FETCH_COMPLETE.json": "5a8a657ad60ae6484e3194bd0d88f3add8764d78b81bd257aeacb70314c9c42d",
+    "pharmacology_molecule_summary.csv": "24c13696d7f81548cb96c3331b74a28d6a3f82d5c4135602cb6fb5f6d954a973",
+    "PHARMACOLOGY_QUERY_PLAN.json": "c48e9b025dd95289faf06ed2f95fe7b0d3ccd4da781f6f693bb444383511a42d",
+    "pharmacology_representative_shortlist.csv": "4e3dd8774663eab29ae09a4e6bdc579d7ff877a5848e31b0631b298088fc4c95",
+    "SA_physchem_actual11.csv": "c7c020c6df9f4ec8a74c70c2cfd7be364ef2e00e6a0109f3cecfa27f764e541b",
+    "pharmacology_raw/activity_batch00_page000.json": "72785032b60db840b07aa7644b983755acb07217596fbb364f152d74d3aa3565",
+    "pharmacology_raw/activity_batch00_page000.receipt.json": "389944d37b624c7629d39e9e8a477cdc09b449fe7fc81eac3a63a981d69da272",
+    "pharmacology_raw/assay_batch00_page000.json": "32427c5f9b5854bb2adda5bff6094f530c4ba0ff72cf686bd0bf5ae500d12a97",
+    "pharmacology_raw/assay_batch00_page000.receipt.json": "6dc2a06ae11358803cb2a74b8c942a6b210fbd6c0e4becf6533624d6f8b04ace",
+    "pharmacology_raw/assay_batch01_page000.json": "8932b176a56dd82362d9c68cce9c53baeb9959a26dc5a34927f773fcedcd6716",
+    "pharmacology_raw/assay_batch01_page000.receipt.json": "c77a1a4bc9318835fdac66f01c2a6a191b105abe6dab145cc04bd1d757d7a7c6",
+    "pharmacology_raw/assay_batch02_page000.json": "05884fbab36a70a6dda77709a8b3388a18d30d466a06fb5332b6cf92a2f4e390",
+    "pharmacology_raw/assay_batch02_page000.receipt.json": "8e0c8a7025a92d9fb52bd08d3516c0832e46cf825be44b1c66372e10f5122690",
+    "pharmacology_raw/assay_batch03_page000.json": "8d23dde55b5b80319800b270ff355a8b610e53f54bdac0b50272362d57413a2c",
+    "pharmacology_raw/assay_batch03_page000.receipt.json": "715278004b54258361c39eecd318dfa61444b5df0792f9bdb9b0be32cfa3451c",
+    "pharmacology_raw/assay_batch04_page000.json": "f4dc1cd386efe0eea0a7e3f7ea613fa4326b677f26056832944f21c9661745a1",
+    "pharmacology_raw/assay_batch04_page000.receipt.json": "7b3d0d3b4a0fd37a8cf107df6e7206286ce033f9f5f0de18d473211fd15e5fbc",
+    "pharmacology_raw/assay_batch05_page000.json": "7fbcfddf0ac7d9d11c74e299ae6ba5e57b3cd01113be60a26ede3fd90f1b4e28",
+    "pharmacology_raw/assay_batch05_page000.receipt.json": "a413215f4fd15793ef78eb0f26ae8e58fd07e9e8c52a5a889c8de76c79b8e6db",
+    "pharmacology_raw/assay_batch06_page000.json": "f6fe1694217b45deabd7d3381be6b11107be6533475a02766033b222afab2cae",
+    "pharmacology_raw/assay_batch06_page000.receipt.json": "62dba09daf8065cc2f45669f14b207319d69fa8280f262e0668f622dc6cfa602",
+    "pharmacology_raw/assay_batch07_page000.json": "af18a5b15e3404d2dca4baba36cca155273b41a5fcf7d3cf60210c2eee49b201",
+    "pharmacology_raw/assay_batch07_page000.receipt.json": "76373ab956d9b3216c4d144f3d41c7c4d5501ccdf12eecda0c39b15ab99f9d64",
+    "pharmacology_raw/assay_batch08_page000.json": "101d35aeed5f2c98581565787fc55d5002d1d66e97a5d58e374dee30a6aac6bf",
+    "pharmacology_raw/assay_batch08_page000.receipt.json": "6d5dcefc03142826f8d9488878afda2537f740a3a4dc96da2279ff8228a5ff62",
+    "pharmacology_raw/assay_batch09_page000.json": "8b4e99539587490fb3775a718602927afb14bbe40b1aadd8ebd0ee04f160eeee",
+    "pharmacology_raw/assay_batch09_page000.receipt.json": "c101d0e4d0ea63e130c8c94f347bde4612e0ad5778c98539f3bfcf80b417f42a",
+    "pharmacology_raw/assay_batch10_page000.json": "acf9638669e2241095d8129c144e5631d28f1396253cfa1fbd83f10aafd8e610",
+    "pharmacology_raw/assay_batch10_page000.receipt.json": "e1081d9fc45f4905e38c26cae6cc4f5766d0848cc18c9bd8101c952e6260910e",
+    "pharmacology_raw/assay_batch11_page000.json": "dd49b8f0029a420e42bedfe697b435e852849989bf5fb3f0012a8170d9c74dcd",
+    "pharmacology_raw/assay_batch11_page000.receipt.json": "3e7293a58d80b093783c2187f95bb5bf6c7c66fcbe9187e0d62823aa9623a116",
+    "pharmacology_raw/assay_batch12_page000.json": "c57e3eed3b24cd6af2c55be46762049e9f98a9d626c6aebda7805d405a6678a9",
+    "pharmacology_raw/assay_batch12_page000.receipt.json": "89c7eaf7ad0c501360d4c23b0ec907c7c429cf417cfe2f5fd5460dce7e6b4c5a",
+    "pharmacology_raw/document_batch00_page000.json": "0fe9c6aaab6b06de8b432b59b593c222844f25951e7c4c512714bc62bd0271fc",
+    "pharmacology_raw/document_batch00_page000.receipt.json": "59aa3de70aa65f8e2729483a169b4b36c0b4f7372178ef8c5f248bebe806d51e",
+    "pharmacology_raw/document_batch01_page000.json": "440fed555624151c25490af4dd277e91fa941e6a7c7114c2693d42696c3567a0",
+    "pharmacology_raw/document_batch01_page000.receipt.json": "8fb7a9e159dd0d72b1700ff6f4c06839cda9dd3a77dd5b2d5f163657354fb0f5",
+    "pharmacology_raw/mechanism_batch00_page000.json": "4602fc528c371fde69c19534951ba13dfdf908f51fd8588fc974b18428d7a8dd",
+    "pharmacology_raw/mechanism_batch00_page000.receipt.json": "5e2f2972f3805ccc5de5d26dc4806fb9dd1ac20edd27699db667b9afaf7e8306",
+    "source_access/admetlab_prediction_response.json": "5547992afdadb59737c5c0feb1a35dff294cd27145bf290c031737ecf8a2577d",
+    "source_access/swissadme_actual.csv": "cc0ff105b9d77ae16c5a9a328ee4ca3f2eacf329140c1509b7c9e3c5f2b8cccc",
+    "source_access/swissadme_actual_recheck.csv": "cc0ff105b9d77ae16c5a9a328ee4ca3f2eacf329140c1509b7c9e3c5f2b8cccc",
+    "source_access/swissadme_remaining6_actual.csv": "3113025fd530cc0f6e084262701006435cab6d556a0221624a00189dc4e36d9b",
+    "chembl_raw/CHEMBL1076497/molecule.json": "65bc8d488779c9eb93c29a9a8156c02a018ca4221dca65fb2976a5426b5306ae",
+    "chembl_raw/CHEMBL1076497/molecule.receipt.json": "46913d72badc0896dd92110fdba0227e60a343016f589a3beaf4b062249c0032",
+    "chembl_raw/CHEMBL1076497/similarity40_page000.json": "659342a0a7cdd10c7f49bf4a5b3f7787f46152640a7a09c81924021a7b3aa74a",
+    "chembl_raw/CHEMBL1076497/similarity40_page000.receipt.json": "9c6568d471720a43f2f19ee22b43976b82dbdeeb83c4c1f9457d0d2bbecebbb2",
+    "chembl_raw/CHEMBL1076497/similarity60_count.json": "8a812bd3cc86dd6d298fce2ae5ff86e40b7ac9427fc9366f7a2dc964afb00614",
+    "chembl_raw/CHEMBL1076497/similarity60_count.receipt.json": "11baa2554a37ab655276c9c88d9523f7ba21ce32cdd6573501504cd3cdf311ea",
+    "chembl_raw/CHEMBL1079964/molecule.json": "a7338868964f6211b1fbd1f3c6411994e005c6c158e9c65e54d1bbc4e8b4d6b9",
+    "chembl_raw/CHEMBL1079964/molecule.receipt.json": "aa5cbda38c91c31e1bf231065ab062983990b126847bd2398661174641336a51",
+    "chembl_raw/CHEMBL1079964/similarity40_page000.json": "18811f4e235ab6e24eae782bf3f47bb2318f0cc028480885f57de6cb9d15744e",
+    "chembl_raw/CHEMBL1079964/similarity40_page000.receipt.json": "7e7c057fa66c723cd16f8a7c3aec8d7db438937caf07ea2491012f10dd81d1f1",
+    "chembl_raw/CHEMBL1079964/similarity60_count.json": "ae63aacecaf03e785ab9a6b6b7b55936daa4e81cd896fea71717fb33a43e8221",
+    "chembl_raw/CHEMBL1079964/similarity60_count.receipt.json": "f1cf261ec79a5d5bdb7978959665a333b6c0be7ae8b3a922ebf38a5268945716",
+    "chembl_raw/CHEMBL1080205/molecule.json": "023ecdcad1a91851e19b2ee3758b62b9e3f547d4d53aa385d59a161bd0b2f610",
+    "chembl_raw/CHEMBL1080205/molecule.receipt.json": "565a42f0a881f85766796eb28e20c6fe571af9c1bbbb8de0db230141d22687cb",
+    "chembl_raw/CHEMBL1080205/similarity40_page000.json": "c43e3d24ece502d542e40803038c1082be1e92eb007d19f4f03715768d2610bc",
+    "chembl_raw/CHEMBL1080205/similarity40_page000.receipt.json": "0eadbacce1f103d0f61c89a1fec4d04cb4b8e901fa96707015257d0f9fab92a4",
+    "chembl_raw/CHEMBL1080205/similarity60_count.json": "0e57c000d4d46eaf6ad3b4733c96200ab30a2d5179c0ebff06e437e609db214a",
+    "chembl_raw/CHEMBL1080205/similarity60_count.receipt.json": "6c01b2eeddf5e94aca76a30cfa135c79096dbe3fa6f0def25d0b3ad2593f5adf",
+    "chembl_raw/CHEMBL1080362/molecule.json": "1500fbec8f0b2a3402406d3206213f1345b10eaa7ab2bbbe2b743d9ca6b8f930",
+    "chembl_raw/CHEMBL1080362/molecule.receipt.json": "4777d3701274b86c2d34688f5643957d52cd04f7566b4bf29563a3e46c687a2d",
+    "chembl_raw/CHEMBL1080362/similarity40_page000.json": "63968e2ffea53466c6410c3b19578e444327ab240d935bad7beffbcf45a67f28",
+    "chembl_raw/CHEMBL1080362/similarity40_page000.receipt.json": "48f32ba6cb582a485f06e75cd99946cf98d0062d4d92a28da07f0171599e62db",
+    "chembl_raw/CHEMBL1080362/similarity60_count.json": "a4f4cb97f077b97aeb3af23ccb02caf6cf853bab08521ff005267a7f9bee0a29",
+    "chembl_raw/CHEMBL1080362/similarity60_count.receipt.json": "eca9813a07a50458f2997c55b0617612aed3c0a735f2f648977b39e5ead2b652",
+    "chembl_raw/CHEMBL1080669/molecule.json": "36dab778ef835fb62063f7a0b6d43aefdeb5f6d8e63eb2a37bdf34ce570e2a5d",
+    "chembl_raw/CHEMBL1080669/molecule.receipt.json": "ef84c94800a9132474cf67d96a76d0c3f2eb97b3661819ef3a1989dac8dcdfb9",
+    "chembl_raw/CHEMBL1080669/similarity40_page000.json": "fe8a3c2f800c3b38302b4bb6c036711688a3c4e984fd98a0ad74b6e8652cdfd7",
+    "chembl_raw/CHEMBL1080669/similarity40_page000.receipt.json": "aee8faf830f3858d7e366b8a6897609a80dfa2b0f5e0e043f3182e50ab57e53a",
+    "chembl_raw/CHEMBL1080669/similarity60_count.json": "9b195ba29f44f976893fd60e872b1d5e62410302068be4a35a1a544bd4a6aeb6",
+    "chembl_raw/CHEMBL1080669/similarity60_count.receipt.json": "d78fc1bc24fb7419cb14a4993afbfc94c119b85e0b54707f5b42d46a8d7b09a8",
+    "chembl_raw/CHEMBL1081740/molecule.json": "dd4c74cd88f5e0eec19ff21ee2c4a89fa4f7c64345cdf4e01ed1d2283e51ce10",
+    "chembl_raw/CHEMBL1081740/molecule.receipt.json": "f5c18b719050a51b9e40c4b6be71cb66aa19863a84ff8af9c85fe406e4cb276a",
+    "chembl_raw/CHEMBL1081740/similarity40_page000.json": "4997ef38e00d7be7a634cefde67f5e2c07cfdd9ed894b2fc838f85925dfe4626",
+    "chembl_raw/CHEMBL1081740/similarity40_page000.receipt.json": "78bb9bdc1bad9c6d7689152b3ce5dde9f1c91485c83e569fb2e51d836c8b8b73",
+    "chembl_raw/CHEMBL1081740/similarity60_count.json": "7f301708ca45ed1aabe6f954188e276171437472f30db1f93502d7748245f9a9",
+    "chembl_raw/CHEMBL1081740/similarity60_count.receipt.json": "4b99f552e07f7540889e647f59c5abefa09ffb73059b3297ef07f9f319b01d91"
+  },
+  "ADMETlab": "retained request returned Not Found; this is not a completed ADMETlab calculation",
+  "A1": "separate source scope review required"
+}

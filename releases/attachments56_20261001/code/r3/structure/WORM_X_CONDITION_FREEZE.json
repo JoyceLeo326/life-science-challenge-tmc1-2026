@@ -1,0 +1,112 @@
+{
+  "created_utc": "2026-09-30T14:04:53.632567+00:00",
+  "condition_id": "R3_W7USX_native_mapped_middle15_complete_region_v1",
+  "condition_status": "frozen_before_first_ligand_docking",
+  "ligand_ids": [
+    "LIB_YWDIXVZCRMMQQY",
+    "LIB_MYAFDHCCQBIZLC",
+    "LIB_ZNDXPRCORYDEAP",
+    "LIB_FCRHJSNRFAAYQD",
+    "LIB_DNDVGFIEWOHGAH",
+    "LIB_ZVHBDYFMHCQADD",
+    "REF_CHEMBL115",
+    "REF_CHEMBL1397",
+    "REF_CHEMBL554",
+    "REF_CHEMBL945",
+    "REF_DENATONIUM_GTOP12433"
+  ],
+  "n_candidates": 6,
+  "n_source_references": 5,
+  "expected_amiloride_preparation_gate": "same frozen source representation and strict potential stereo gate; do not change tautomer or rule; if blocked keep denominator11",
+  "input_sha256": "e995866f75eaee3a818955f9d62c82aff31c949e02af2d74db33d79db8908a74",
+  "receptor_sha256": "907ef675c3f92bbb3efbec7234cbbbf8a3fb1bd412f4191ce574e238ae9b6651",
+  "source_pdb_sha256": "c0888d1eacef231d9ec4a53ba2aac582ab3cbc0176065b55009f7f7410a19caf",
+  "box_sha256": "17100e6a2f415d440b9f1aa74b3ecf2d53c681a0edd49d2b0573531512e4e149",
+  "box_metadata": {
+    "site_id": "R3_W7USX_native_mapped_middle15_complete_region_v1",
+    "center": [
+      136.5105,
+      174.4235,
+      172.819
+    ],
+    "size": [
+      33.721,
+      32.575,
+      26.328
+    ],
+    "volume_A3": 28920.296346600022,
+    "mouse_site_residues": null,
+    "worm_site_residues": [
+      400,
+      403,
+      404,
+      435,
+      436,
+      439,
+      440,
+      683,
+      686,
+      687,
+      691,
+      734,
+      735,
+      737,
+      756
+    ],
+    "human_site_residues": [
+      414,
+      417,
+      418,
+      449,
+      450,
+      453,
+      454,
+      531,
+      534,
+      535,
+      539,
+      582,
+      583,
+      585,
+      604
+    ],
+    "source": "7USX official experimental contracted complex chainA, native frame; contracted is geometric class, not verified closed state",
+    "rule": "AABB of all experimentally observed heavy atoms of 15 two-way structure-guided and topology/sequence-reviewed worm homologous Middle positions, plus5A per face; native worm frame; same fixed box for every ligand; no inherited mouse box coordinates or score threshold",
+    "mapping_scope": "Independent new R3 worm condition; original760 mapping andR2unchanged",
+    "functional_direction": "unknown",
+    "species_transfer_score_threshold": "not_defined_do_not_apply_mouse_threshold",
+    "selection_reason": "All15 site residues+126 heavy atoms and protein local context within box+8A complete in7USX;7USW and7USY have incomplete local sidechains; select structural completeness before docking results"
+  },
+  "receptor_policy": "native experimental heavy coordinates; addH/template charges only; omit incomplete protein residues only beyond box+8A; no invented heavy atoms; nonprotein HET context excluded but postpose collisions reported separately",
+  "selection_reason": "7USW and7USY have incomplete experimental protein heavy sidechains within box+8A;7USX has locally complete protein region; selected before docking scores",
+  "alignment_scope": "newX metrics separate from historical7USW metrics; old760 is archived source not generally corrected by replacing15rows",
+  "docking": {
+    "engine": "Vina1.2.7",
+    "scoring": "vina",
+    "exhaustiveness": 8,
+    "seed": 20260927,
+    "workers": 2,
+    "cpu_per_job": 2,
+    "num_modes": 9,
+    "energy_range": 3,
+    "timeout_seconds": 1800
+  },
+  "ligand_preparation": "original R3 chemistry_rules.py unchanged; pH7.4 unique rule form, ETKDGv3 ten conformers seed20260927, convergedMMFF94s min",
+  "first_pose_policy": "primary first Vina mode only; all modes archived; no outcome-dependent choosing",
+  "primary_geometry_qc": {
+    "stable_identity_required": true,
+    "score_log_pose_agreement": true,
+    "heavy_atom_count_match": true,
+    "min_retained_protein_distance_A": 1.5,
+    "min_box_margin_A": -0.1
+  },
+  "site_readout": "minimum distance to chainA correctedMiddle15 heavy atoms;4A contact is descriptive inherited geometric criterion, not potency criterion",
+  "omitted_context_policy": "report minimum heavyatom distance to original experimental HETATM; <1.5A incompatibility flag separate from protein-only QC; no hidden removal of challenging poses",
+  "species_score_threshold": "not_defined; no mouse-9.8 threshold; no cross-species affinity/efficacy interpretation",
+  "rank_policy": "do not update R2 main rank; worm ranks descriptive within this condition only",
+  "script_hashes": {
+    "chemistry_rules.py": "f595cdc49a82ef6a0305677f2c92b60f4ee38e1ac21a97f54b93fd04a9e2a535",
+    "dock_worm_batch.py": "072b57bf8872526573bc6062a1df2a6dd44ecb2f0c265e7fc46d18d72e0de69e",
+    "portable_config.py": "7436aab61a47fb9dab58ac0fd189fe1fc4744beff5ae78457e01aa70724790cb"
+  }
+}

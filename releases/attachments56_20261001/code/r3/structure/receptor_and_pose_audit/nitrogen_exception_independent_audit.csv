@@ -1,0 +1,13 @@
+batch,compound_id,full_heavy_element_bond_order_graph_maps,ledger_exchangeable_N_indices,independent_allowed_exchangeable_N_indices,N_exception_indices_exactly_match,independent_rule_unknown_potential_stereo,all_rule_unknown_stereo_permitted_transient_N,independent_exception_qc_pass,N_exception_details
+worm_X11,LIB_YWDIXVZCRMMQQY,True,[],[],True,[],True,True,[]
+worm_X11,LIB_MYAFDHCCQBIZLC,True,[],[],True,[],True,True,[]
+worm_X11,LIB_ZNDXPRCORYDEAP,True,[],[],True,[],True,True,[]
+worm_X11,LIB_FCRHJSNRFAAYQD,True,[],[],True,[],True,True,[]
+worm_X11,LIB_DNDVGFIEWOHGAH,True,[1],[1],True,[],True,True,"[{""rule_idx"": 1, ""source_idx"": 1, ""rule_element"": ""N"", ""rule_charge"": 1, ""rule_degree"": 3, ""rule_total_H"": 1, ""rule_ring_count"": 1, ""source_charge"": 0, ""source_degree"": 3, ""source_total_H"": 0, ""permitted_narrow_exchangeable_N"": true}]"
+worm_X11,LIB_ZVHBDYFMHCQADD,True,[],[],True,[],True,True,[]
+worm_X11,REF_CHEMBL115,True,"[9, 19]","[9, 19]",True,"[[""Atom_Tetrahedral"", 9], [""Atom_Tetrahedral"", 19]]",True,True,"[{""rule_idx"": 9, ""source_idx"": 9, ""rule_element"": ""N"", ""rule_charge"": 1, ""rule_degree"": 3, ""rule_total_H"": 1, ""rule_ring_count"": 1, ""source_charge"": 0, ""source_degree"": 3, ""source_total_H"": 0, ""permitted_narrow_exchangeable_N"": true}, {""rule_idx"": 19, ""source_idx"": 19, ""rule_element"": ""N"", ""rule_charge"": 1, ""rule_degree"": 3, ""rule_total_H"": 1, ""rule_ring_count"": 1, ""source_charge"": 0, ""source_degree"": 3, ""source_total_H"": 0, ""permitted_narrow_exchangeable_N"": true}]"
+worm_X11,REF_CHEMBL1397,True,[],[],True,[],True,True,[]
+worm_X11,REF_CHEMBL554,True,[],[],True,[],True,True,[]
+worm_X11,REF_DENATONIUM_GTOP12433,True,[],[],True,[],True,True,[]
+human_reference2,REF_CHEMBL115,True,"[9, 19]","[9, 19]",True,"[[""Atom_Tetrahedral"", 9], [""Atom_Tetrahedral"", 19]]",True,True,"[{""rule_idx"": 9, ""source_idx"": 9, ""rule_element"": ""N"", ""rule_charge"": 1, ""rule_degree"": 3, ""rule_total_H"": 1, ""rule_ring_count"": 1, ""source_charge"": 0, ""source_degree"": 3, ""source_total_H"": 0, ""permitted_narrow_exchangeable_N"": true}, {""rule_idx"": 19, ""source_idx"": 19, ""rule_element"": ""N"", ""rule_charge"": 1, ""rule_degree"": 3, ""rule_total_H"": 1, ""rule_ring_count"": 1, ""source_charge"": 0, ""source_degree"": 3, ""source_total_H"": 0, ""permitted_narrow_exchangeable_N"": true}]"
+human_reference2,REF_CHEMBL1397,True,[],[],True,[],True,True,[]

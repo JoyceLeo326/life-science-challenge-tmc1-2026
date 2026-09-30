@@ -1,0 +1,85 @@
+{
+  "status": "PASS",
+  "review_method": "Actual decoded video frames displayed and visually inspected, plus whole-video decode and output-content checks.",
+  "frames": [
+    {
+      "frame": "frames/intro.png",
+      "sha256": "aa13d6faa56d8c28a9aeefa7ccf58e8361bf4466a1652c59b421320bb6e16f2e",
+      "observations": "输入前三条编号、来源和分子量完整可读；2048条输入及示例/正式用途清楚；底部字幕未截断。"
+    },
+    {
+      "frame": "frames/example.png",
+      "sha256": "70c62e60317f49c4577d0ab9ec53dea61ce28c70820ceca91ee5a5bdc27d9fba",
+      "observations": "真实命令与待执行按钮完整可读，三个步骤等待状态可见。"
+    },
+    {
+      "frame": "frames/running_30.png",
+      "sha256": "246a38ffc7aa3060815486e52844d10569f0367c6c6ae4d0b7d7226b1fba08e7",
+      "observations": "程序真实运行6.7秒，规则设计日志已出现，训练步骤仍等待。"
+    },
+    {
+      "frame": "frames/running_45.png",
+      "sha256": "1e3fbd8866c7d38a168f12eec317b07ec0e5b8214500e2d4f5f7cec19585d4fb",
+      "observations": "程序真实运行21.7秒，SMILES第一轮训练损失1.83942和0合格可见，SELFIES未结束。"
+    },
+    {
+      "frame": "frames/running_53.png",
+      "sha256": "64f2d07c4df0897c98b1eb61a7ee2684f2eb9cf25935f279f64f620f8bad92dd",
+      "observations": "真实计时29.8秒，训练仍进行；结果尚未提前填入。"
+    },
+    {
+      "frame": "frames/training_complete.png",
+      "sha256": "ff7eed8e583574f6eba2405d21e92bb10fa79a712814b76b86daf7d7c3100ab8",
+      "observations": "两个训练支路第一轮损失和0合格均完整可见，退出码0及33.3秒可见。"
+    },
+    {
+      "frame": "frames/demo_results.png",
+      "sha256": "a7eb7b0a1fe11f0d4519733272d399641f296178e59b1c80c6d8b2a84ef31931",
+      "observations": "7项规则设计完整显示到最后一行；示例与正式六候选区分明确。"
+    },
+    {
+      "frame": "frames/formal.png",
+      "sha256": "30c1055c8894594ab21906ec3e0720589793595c94ae3d9aae57c43f130c167b",
+      "observations": "真实正式入口命令与等待执行状态完整可读。"
+    },
+    {
+      "frame": "frames/running_94.png",
+      "sha256": "6813e4af111267b7997fc3e48713b08948ea43feaaa6808e380c9e2dc50fbdc6",
+      "observations": "真实正式入口运行4.3秒，20项输入检查、319既有任务和四条件24次检查日志可见。"
+    },
+    {
+      "frame": "frames/formal_complete.png",
+      "sha256": "655b0fc617f0642ab1b6bedc02609cb59f08e3d5e99410008247c2978c50339f",
+      "observations": "正式入口退出码0和7.9秒可见，656项R3来源检查完成；日志为滚动窗口，完整日志单独保留。"
+    },
+    {
+      "frame": "frames/results.png",
+      "sha256": "1e12dd40524335046dbc64e4e6da39e9658a9eb9df0ab1ff88f054901529fa08",
+      "observations": "6个候选ID、评分、四条件质量检查和接触分母完整可读，六行均未裁切。"
+    },
+    {
+      "frame": "frames/finish.png",
+      "sha256": "2f2019824c83de22aa58511e00387dac5ee924f810440e532a6db9acd30471a1",
+      "observations": "输出文件清单和完成状态完整可读，无底部遮挡。"
+    }
+  ],
+  "scientific_labels": {
+    "example_rule_rows": 7,
+    "neural_one_epoch_eligible_each": 0,
+    "formal_candidates": 6,
+    "formal_QC_each": "4/4",
+    "formal_contact_pass": [
+      "4/4",
+      "3/4",
+      "4/4",
+      "4/4",
+      "4/4",
+      "3/4"
+    ],
+    "initial_score_unit": "Vina kcal/mol, explained in companion description"
+  },
+  "privacy_visual_review": "No names, school or mentor identifiers, desktop/user paths or credentials visible in inspected frames.",
+  "audio": "No audio stream; caption-only by design. No listening claim.",
+  "whole_video_decode": "PASS with no decoder error",
+  "source_zip_is_recording_source_not_future_supplement_package": true
+}

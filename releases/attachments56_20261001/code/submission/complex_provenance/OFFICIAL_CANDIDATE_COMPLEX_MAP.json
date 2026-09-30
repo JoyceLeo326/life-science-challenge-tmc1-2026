@@ -1,0 +1,62 @@
+{
+  "excel_file": "AI辅助的TMC1小分子候选调节剂筛选与验证候选清单（区赛）.xlsx",
+  "excel_source_project_relative_path": "08_submission_completion/materials/release/AI辅助的TMC1小分子候选调节剂筛选与验证候选清单（区赛）.xlsx",
+  "excel_sha256": "7b74a3bbe7ecda2fa736c2259bc42b6a2859dccb2329ba9ab331d2ee2b1d8cc4",
+  "excel_scientific_fields_changed": false,
+  "frozen_candidate_csv_sha256": "478e0d624b158ef5e42a454ea412e3ca392fa694af1556a3d48587e6b170908c",
+  "candidate_complex_map": [
+    {
+      "candidate_id": "LIB_YWDIXVZCRMMQQY",
+      "complex_file": "complexes/LIB_YWDIXVZCRMMQQY__M_PUB_ALL__e8__s20260927_complex.pdb",
+      "complex_sha256": "d7d4ef0120b75022cd22005c879982f64fb44565b8ab7449c57548f8aa05d3c1",
+      "ligand_sdf_file": "ligands/LIB_YWDIXVZCRMMQQY.sdf",
+      "ligand_sdf_sha256": "f343d3dbd35db6dfe3c87c1747fab211dbce1582f64e79f58f3a6b561a96684b",
+      "selected_sdf_record_1based": "1"
+    },
+    {
+      "candidate_id": "LIB_MYAFDHCCQBIZLC",
+      "complex_file": "complexes/LIB_MYAFDHCCQBIZLC__M_PUB_ALL__e8__s20260927_complex.pdb",
+      "complex_sha256": "565b0624ed8a840f87b170c597a8ae3f966e2607ae4184f310aaaf46a7cbd670",
+      "ligand_sdf_file": "ligands/LIB_MYAFDHCCQBIZLC.sdf",
+      "ligand_sdf_sha256": "9c8db65fd60cbd45f169393740263e478ebc55bd336ec9e754f158f450423789",
+      "selected_sdf_record_1based": "1"
+    },
+    {
+      "candidate_id": "LIB_ZNDXPRCORYDEAP",
+      "complex_file": "complexes/LIB_ZNDXPRCORYDEAP__M_PUB_ALL__e8__s20260927_complex.pdb",
+      "complex_sha256": "e6c0985f23457468fa86901163e8493f9b097d3cce16cd0186937a6e25a1001c",
+      "ligand_sdf_file": "ligands/LIB_ZNDXPRCORYDEAP.sdf",
+      "ligand_sdf_sha256": "7b16d878580e3ed359e0d3ca6ad5ad3ef744ab09e6e65baa0d677299a8a25dbc",
+      "selected_sdf_record_1based": "1"
+    },
+    {
+      "candidate_id": "LIB_FCRHJSNRFAAYQD",
+      "complex_file": "complexes/LIB_FCRHJSNRFAAYQD__M_PUB_ALL__e8__s20260927_complex.pdb",
+      "complex_sha256": "b57586b3f26fafa2acbe9287a960019cf6e306643f2dd62b9edd2a6d1b5a4c32",
+      "ligand_sdf_file": "ligands/LIB_FCRHJSNRFAAYQD.sdf",
+      "ligand_sdf_sha256": "c24a49e30fea0e7ff414f5ae9a285d307eedc29874799961b24ea4a96de8ceef",
+      "selected_sdf_record_1based": "1"
+    },
+    {
+      "candidate_id": "LIB_DNDVGFIEWOHGAH",
+      "complex_file": "complexes/LIB_DNDVGFIEWOHGAH__M_PUB_ALL__e8__s20260927_complex.pdb",
+      "complex_sha256": "abb8cd0371eb07252ee62219b3d0ff78aab44a12155de9cbe7691fe3b3b7119c",
+      "ligand_sdf_file": "ligands/LIB_DNDVGFIEWOHGAH.sdf",
+      "ligand_sdf_sha256": "771bfe3325c35b173a76db16d6a926e803db1282640c1c9b2cf7016dae732011",
+      "selected_sdf_record_1based": "1"
+    },
+    {
+      "candidate_id": "LIB_ZVHBDYFMHCQADD",
+      "complex_file": "complexes/LIB_ZVHBDYFMHCQADD__M_PUB_ALL__e8__s20260927_complex.pdb",
+      "complex_sha256": "6216d751df1d79741a677c43a4477f1ae95c6e10ae0cc3170d7b0041ed57d5c8",
+      "ligand_sdf_file": "ligands/LIB_ZVHBDYFMHCQADD.sdf",
+      "ligand_sdf_sha256": "9138a9bda3aef30111a6a0a4b91cfeef9d5fe10ec6e78dc9fcbac63213fbea58",
+      "selected_sdf_record_1based": "1"
+    }
+  ],
+  "scope": "existing first-pose receptor/ligand assembly; new mapping supplements original Excel17 fields unchanged",
+  "source_excel_sha256": "fd8dbbd049d3223b6cf5005d2ace136e13e3e5724ea29ac23a06c818738988ac",
+  "excel_descriptive_sheets_updated": true,
+  "excel_added_sheet": "复合物索引",
+  "frozen_source_CSV_cells_byte_text_unchanged": true
+}

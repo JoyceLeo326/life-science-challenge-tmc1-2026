@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="864pt" height="518.4pt" viewBox="0 0 864 518.4" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-01T01:23:05.043148</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.9, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 518.4 
+L 864 518.4 
+L 864 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 146.88 404.352 
+L 812.16 404.352 
+L 812.16 103.68 
+L 146.88 103.68 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 146.88 103.68 
+L 368.64 103.68 
+L 368.64 153.792 
+L 146.88 153.792 
+z
+" clip-path="url(#pe6be57b26d)" style="fill: #eaf2f6; stroke: #ffffff; stroke-width: 5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 368.64 103.68 
+L 590.4 103.68 
+L 590.4 153.792 
+L 368.64 153.792 
+z
+" clip-path="url(#pe6be57b26d)" style="fill: #eaf2f6; stroke: #ffffff; stroke-width: 5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 590.4 103.68 
+L 812.16 103.68 
+L 812.16 153.792 
+L 590.4 153.792 
+z
+" clip-path="url(#pe6be57b26d)" style="fill: #eaf2f6; stroke: #ffffff; stroke-width: 5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 146.88 153.792 
+L 368.64 153.792 
+L 368.64 203.904 
+L 146.88 203.904 
+z
+" clip-path="url(#pe6be57b26d)" style="fill: #eaf2f6; stroke: #ffffff; stroke-width: 5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 368.64 153.792 
+L 590.4 153.792 
+L 590.4 203.904 
+L 368.64 203.904 
+z
+" clip-path="url(#pe6be57b26d)" style="fill: #eaf2f6; stroke: #ffffff; stroke-width: 5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 590.4 153.792 
+L 812.16 153.792 
+L 812.16 203.904 
+L 590.4 203.904 
+z
+" clip-path="url(#pe6be57b26d)" style="fill: #eaf2f6; stroke: #ffffff; stroke-width: 5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 146.88 203.904 
+L 368.64 203.904 
+L 368.64 254.016 
+L 146.88 254.016 
+z
+" clip-path="url(#pe6be57b26d)" style="fill: #eaf2f6; stroke: #ffffff; stroke-width: 5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 368.64 203.904 
+L 590.4 203.904 
+L 590.4 254.016 
+L 368.64 254.016 
+z
+" clip-path="url(#pe6be57b26d)" style="fill: #eaf2f6; stroke: #ffffff; stroke-width: 5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 590.4 203.904 
+L 812.16 203.904 
+L 812.16 254.016 
+L 590.4 254.016 
+z
+" clip-path="url(#pe6be57b26d)" style="fill: #eaf2f6; stroke: #ffffff; stroke-width: 5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 146.88 254.016 
+L 368.64 254.016 
+L 368.64 304.128 
+L 146.88 304.128 
+z
+" clip-path="url(#pe6be57b26d)" style="fill: #eaf2f6; stroke: #ffffff; stroke-width: 5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 368.64 254.016 
+L 590.4 254.016 
+L 590.4 304.128 
+L 368.64 304.128 
+z
+" clip-path="url(#pe6be57b26d)" style="fill: #eaf2f6; stroke: #ffffff; stroke-width: 5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 590.4 254.016 
+L 812.16 254.016 
+L 812.16 304.128 
+L 590.4 304.128 
+z
+" clip-path="url(#pe6be57b26d)" style="fill: #eaf2f6; stroke: #ffffff; stroke-width: 5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 146.88 304.128 
+L 368.64 304.128 
+L 368.64 354.24 
+L 146.88 354.24 
+z
+" clip-path="url(#pe6be57b26d)" style="fill: #eaf2f6; stroke: #ffffff; stroke-width: 5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 368.64 304.128 
+L 590.4 304.128 
+L 590.4 354.24 
+L 368.64 354.24 
+z
+" clip-path="url(#pe6be57b26d)" style="fill: #eaf2f6; stroke: #ffffff; stroke-width: 5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 590.4 304.128 
+L 812.16 304.128 
+L 812.16 354.24 
+L 590.4 354.24 
+z
+" clip-path="url(#pe6be57b26d)" style="fill: #eaf2f6; stroke: #ffffff; stroke-width: 5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_18">
+    <path d="M 146.88 354.24 
+L 368.64 354.24 
+L 368.64 404.352 
+L 146.88 404.352 
+z
+" clip-path="url(#pe6be57b26d)" style="fill: #eaf2f6; stroke: #ffffff; stroke-width: 5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_19">
+    <path d="M 368.64 354.24 
+L 590.4 354.24 
+L 590.4 404.352 
+L 368.64 404.352 
+z
+" clip-path="url(#pe6be57b26d)" style="fill: #eaf2f6; stroke: #ffffff; stroke-width: 5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_20">
+    <path d="M 590.4 354.24 
+L 812.16 354.24 
+L 812.16 404.352 
+L 590.4 404.352 
+z
+" clip-path="url(#pe6be57b26d)" style="fill: #eaf2f6; stroke: #ffffff; stroke-width: 5; stroke-linejoin: miter"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1"/>
+     <g id="text_1">
+      <text style="font-size: 19px; font-family: 'Microsoft YaHei'; text-anchor: middle" x="257.76" y="86.956719" transform="rotate(-0 257.76 86.956719)">PAINS</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2"/>
+     <g id="text_2">
+      <text style="font-size: 19px; font-family: 'Microsoft YaHei'; text-anchor: middle" x="479.52" y="86.956719" transform="rotate(-0 479.52 86.956719)">BRENK</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3"/>
+     <g id="text_3">
+      <text style="font-size: 19px; font-family: 'Microsoft YaHei'; text-anchor: middle" x="701.28" y="86.956719" transform="rotate(-0 701.28 86.956719)">反应性子集</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_4"/>
+     <g id="text_4">
+      <text style="font-size: 19px; font-family: 'Microsoft YaHei'; text-anchor: end" x="134.88" y="136.330062" transform="rotate(-0 134.88 136.330062)">DND</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_5"/>
+     <g id="text_5">
+      <text style="font-size: 19px; font-family: 'Microsoft YaHei'; text-anchor: end" x="134.88" y="186.442062" transform="rotate(-0 134.88 186.442062)">FCR</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_6"/>
+     <g id="text_6">
+      <text style="font-size: 19px; font-family: 'Microsoft YaHei'; text-anchor: end" x="134.88" y="236.554062" transform="rotate(-0 134.88 236.554062)">MYAF</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_7"/>
+     <g id="text_7">
+      <text style="font-size: 19px; font-family: 'Microsoft YaHei'; text-anchor: end" x="134.88" y="286.666062" transform="rotate(-0 134.88 286.666062)">YWD</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_8"/>
+     <g id="text_8">
+      <text style="font-size: 19px; font-family: 'Microsoft YaHei'; text-anchor: end" x="134.88" y="336.778062" transform="rotate(-0 134.88 336.778062)">ZND</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_9"/>
+     <g id="text_9">
+      <text style="font-size: 19px; font-family: 'Microsoft YaHei'; text-anchor: end" x="134.88" y="386.890062" transform="rotate(-0 134.88 386.890062)">ZVH</text>
+     </g>
+    </g>
+   </g>
+   <g id="text_10">
+    <text style="font-weight: 700; font-size: 25px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #235566" x="257.76" y="135.620766" transform="rotate(-0 257.76 135.620766)">0</text>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 700; font-size: 25px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #235566" x="479.52" y="135.620766" transform="rotate(-0 479.52 135.620766)">0</text>
+   </g>
+   <g id="text_12">
+    <text style="font-weight: 700; font-size: 25px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #235566" x="701.28" y="135.620766" transform="rotate(-0 701.28 135.620766)">0</text>
+   </g>
+   <g id="text_13">
+    <text style="font-weight: 700; font-size: 25px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #235566" x="257.76" y="185.732766" transform="rotate(-0 257.76 185.732766)">0</text>
+   </g>
+   <g id="text_14">
+    <text style="font-weight: 700; font-size: 25px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #235566" x="479.52" y="185.732766" transform="rotate(-0 479.52 185.732766)">0</text>
+   </g>
+   <g id="text_15">
+    <text style="font-weight: 700; font-size: 25px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #235566" x="701.28" y="185.732766" transform="rotate(-0 701.28 185.732766)">0</text>
+   </g>
+   <g id="text_16">
+    <text style="font-weight: 700; font-size: 25px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #235566" x="257.76" y="235.844766" transform="rotate(-0 257.76 235.844766)">0</text>
+   </g>
+   <g id="text_17">
+    <text style="font-weight: 700; font-size: 25px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #235566" x="479.52" y="235.844766" transform="rotate(-0 479.52 235.844766)">0</text>
+   </g>
+   <g id="text_18">
+    <text style="font-weight: 700; font-size: 25px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #235566" x="701.28" y="235.844766" transform="rotate(-0 701.28 235.844766)">0</text>
+   </g>
+   <g id="text_19">
+    <text style="font-weight: 700; font-size: 25px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #235566" x="257.76" y="285.956766" transform="rotate(-0 257.76 285.956766)">0</text>
+   </g>
+   <g id="text_20">
+    <text style="font-weight: 700; font-size: 25px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #235566" x="479.52" y="285.956766" transform="rotate(-0 479.52 285.956766)">0</text>
+   </g>
+   <g id="text_21">
+    <text style="font-weight: 700; font-size: 25px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #235566" x="701.28" y="285.956766" transform="rotate(-0 701.28 285.956766)">0</text>
+   </g>
+   <g id="text_22">
+    <text style="font-weight: 700; font-size: 25px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #235566" x="257.76" y="336.068766" transform="rotate(-0 257.76 336.068766)">0</text>
+   </g>
+   <g id="text_23">
+    <text style="font-weight: 700; font-size: 25px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #235566" x="479.52" y="336.068766" transform="rotate(-0 479.52 336.068766)">0</text>
+   </g>
+   <g id="text_24">
+    <text style="font-weight: 700; font-size: 25px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #235566" x="701.28" y="336.068766" transform="rotate(-0 701.28 336.068766)">0</text>
+   </g>
+   <g id="text_25">
+    <text style="font-weight: 700; font-size: 25px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #235566" x="257.76" y="386.180766" transform="rotate(-0 257.76 386.180766)">0</text>
+   </g>
+   <g id="text_26">
+    <text style="font-weight: 700; font-size: 25px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #235566" x="479.52" y="386.180766" transform="rotate(-0 479.52 386.180766)">0</text>
+   </g>
+   <g id="text_27">
+    <text style="font-weight: 700; font-size: 25px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #235566" x="701.28" y="386.180766" transform="rotate(-0 701.28 386.180766)">0</text>
+   </g>
+  </g>
+  <g id="text_28">
+   <text style="font-weight: 700; font-size: 22px; font-family: 'Microsoft YaHei'; text-anchor: middle" x="432" y="38.32225" transform="rotate(-0 432 38.32225)">六候选在两种结构表示下均未触发固定规则</text>
+  </g>
+  <g id="text_29">
+   <text style="font-size: 16px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #536975" x="69.12" y="451.008" transform="rotate(-0 69.12 451.008)">0表示该规则目录没有命中；不代表无毒、无干扰或已证明安全。</text>
+  </g>
+  <g id="text_30">
+   <text style="font-size: 14px; font-family: 'Microsoft YaHei'; text-anchor: start" x="69.12" y="482.112" transform="rotate(-0 69.12 482.112)">DND等为候选ID缩写，完整身份见源表；两种表示各完成9,098项，解析失败0。</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pe6be57b26d">
+   <rect x="146.88" y="103.68" width="665.28" height="300.672"/>
+  </clipPath>
+ </defs>
+</svg>

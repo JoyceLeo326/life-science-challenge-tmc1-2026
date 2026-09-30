@@ -1,0 +1,23 @@
+Input integrity PASS: 20 bound files
+R2 PASS: 360 attempts / 319 unique physical jobs / 120 per arm
+MW >= 350 PASS: Random 35/81; Ridge 86/120; AI 115/120
+Confirmation PASS: 6 candidates x 4 conditions; QC 24/24; Middle 22/24
+Candidate list PASS: 6 verified identities, SMILES, versions and ligand structures; original generation joint 0/40 retained
+SUCCESS: 6-candidate results.csv and separate summary_metrics.csv written; SHA256 478e0d624b158ef5e42a454ea412e3ca392fa694af1556a3d48587e6b170908c
+Traceback (most recent call last):
+  File "$PUBLIC_CODE\verify_r3_evidence.py", line 68, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "$PUBLIC_CODE\verify_r3_evidence.py", line 16, in main
+    assert sha(ROOT/r['integrated_relative_path'])==r.get('integrated_sha256',r['copied_sha256']),r['integrated_relative_path']
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: r3/anm/REPRODUCE.md
+Traceback (most recent call last):
+  File "$PUBLIC_CODE\make_results.py", line 10, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "$PUBLIC_CODE\make_results.py", line 8, in main
+    subprocess.run([sys.executable,'-B',str(ROOT/'verify_r3_evidence.py'),'--output',str(a.output.parent/'r3_summary.csv')],check=True)
+  File "$PYTHON_BASE\Lib\subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['$VALIDATION\\.venv\\Scripts\\python.exe', '-B', '$PUBLIC_CODE\\verify_r3_evidence.py', '--output', '$VALIDATION\\public_full_replay\\candidate\\r3_summary.csv']' returned non-zero exit status 1.

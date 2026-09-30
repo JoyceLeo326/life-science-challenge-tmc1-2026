@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "checked_at_cst": "2026-09-30T23:03:29.015245+08:00",
+  "rows": 9098,
+  "unique_compound_ids": 9098,
+  "unique_parent_keys": 9098,
+  "ordered_input_domain_exact": true,
+  "original_frozen_input_and_preflight_hashes_pass": true,
+  "all_18_summary_counts_independently_recomputed": true,
+  "all_rule_frequencies_independently_recomputed": true,
+  "overlap_patterns_independently_recomputed": true,
+  "reactive_subset_within_brenk_every_row_and_representation": true,
+  "ready_manifest_hashes_pass": true,
+  "script_receipt_hash_pass": true,
+  "png_pdf_headers_pass": true,
+  "public_text_has_no_local_absolute_paths_or_personal_names": true,
+  "figure_visually_checked": true,
+  "original_source_unchanged": true
+}

@@ -1,0 +1,28 @@
+{
+  "retrieved_utc": "2026-09-30T19:01:11.570405+00:00",
+  "ChEMBL": {
+    "base": "https://www.ebi.ac.uk/chembl/api/data/",
+    "license": "CC BY-SA 3.0",
+    "pair_count": 1458,
+    "unique_ids": 847,
+    "unique_full_inchikeys": 847,
+    "unique_connectivity_blocks": 846,
+    "query_provenance": "A2_chembl_neighbors/chembl_raw/*/*.receipt.json",
+    "pharmacology_provenance": "A2_chembl_neighbors/pharmacology_raw/*.receipt.json"
+  },
+  "SwissADME": {
+    "receipt": "A3_ADMET_SA/SERVICE_RECEIPT.json",
+    "input": "A3_ADMET_SA/ADMET_SA_panel11.csv",
+    "actual_output": "A3_ADMET_SA/SwissADME_combined11.csv"
+  },
+  "ADMET_AI": {
+    "manifest": "A3_ADMET_SA/ADMET_AI_v2_inference_manifest.json",
+    "license": "MIT",
+    "raw_predictions": "A3_ADMET_SA/ADMET_AI_v2_11_full_predictions.csv"
+  },
+  "reference_sources": {
+    "author_commit": "74274dad76201258adbd76c7058b705170c4b857",
+    "paper_doi": "10.1038/s42003-025-07943-x",
+    "scope": "A1_reference_sources/reference_source_claim_audit.csv"
+  }
+}

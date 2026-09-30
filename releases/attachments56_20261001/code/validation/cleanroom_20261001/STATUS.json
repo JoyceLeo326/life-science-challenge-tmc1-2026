@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "scope": "fresh isolated dependency install; three-stage small example; formal six and R2/R3 evidence readback",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "cleared_environment_keys": [],
+  "scientific_originals_modified": false,
+  "new_docking_jobs": 0,
+  "new_md_runs": 0,
+  "full_16698_ranking_replay_run": false,
+  "full_formal_generation_training_run": false,
+  "new_device_claim": "New isolated environment on the same physical Windows host; not a second physical device."
+}

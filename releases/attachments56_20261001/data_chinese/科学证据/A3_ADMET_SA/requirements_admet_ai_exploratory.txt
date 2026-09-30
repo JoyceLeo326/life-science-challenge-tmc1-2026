@@ -1,0 +1,7 @@
+admet-ai==2.0.1
+chemprop==2.3.1
+lightning==2.6.6
+torch==2.8.0
+rdkit==2026.3.6
+numpy==2.4.6
+pandas==3.0.6

@@ -1,0 +1,5 @@
+structure_id,mode_1based,participation_ratio_0to1,middle15_squared_amplitude_fraction,maximum_amplitude_residue,maximum_amplitude_source_B_column
+H_AF_domain,1,0.026935261075344132,0.001012007519145482,497,64.81
+H_AF_domain,2,0.02387666679025339,0.0012132764978271405,326,82.25
+M_PUB_ALL_domain,1,0.029100810980458858,0.0013904683755484749,494,53.38
+M_PUB_ALL_domain,2,0.07864293130922699,0.003217251315457879,715,79.27

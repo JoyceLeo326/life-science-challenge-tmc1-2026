@@ -1,0 +1,16 @@
+[
+  {
+    "manifest": "PUBLIC_CONTENT_MANIFEST.json",
+    "listed": 3163,
+    "passed": 3163,
+    "all_pass": true,
+    "failed": []
+  },
+  {
+    "manifest": "MANIFEST_ANONYMIZED.json",
+    "listed": 3099,
+    "passed": 3099,
+    "all_pass": true,
+    "failed": []
+  }
+]

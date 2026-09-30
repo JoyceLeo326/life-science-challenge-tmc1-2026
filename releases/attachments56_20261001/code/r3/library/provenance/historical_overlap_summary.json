@@ -1,0 +1,19 @@
+{
+  "created_at_utc": "2026-09-28T17:50:24.989512+00:00",
+  "historical_identity_rows": 971,
+  "historical_qc_label_rows": 935,
+  "all_unique_parents": 21356,
+  "eligible_unique_parents": 17645,
+  "forward_unlabeled_pool": 16698,
+  "overlap_counts": {
+    "all_historical_971_overlap": 960,
+    "all_historical_935_qc_label_overlap": 925,
+    "eligible_historical_971_overlap": 947,
+    "eligible_historical_935_qc_label_overlap": 912
+  },
+  "matching_rule": "ChEMBL source ID OR nonstereo InChIKey first block",
+  "historical_file_sha256": {
+    "provenance/historical/coarse_v1/inputs/library/selected_candidates.csv": "484b0dddc59531abf6e0cd53414be0ee3ccf482aeb222e75797eedf2c0d9d809",
+    "provenance/historical/coarse_v1/analysis/job_audit_join.csv": "65b19d87b9c0ee25e009e439217b35df1001c22c78129d3282f34b7820c36ea4"
+  }
+}

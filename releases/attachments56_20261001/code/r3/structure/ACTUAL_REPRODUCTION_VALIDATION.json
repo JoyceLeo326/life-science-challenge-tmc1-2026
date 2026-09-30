@@ -1,0 +1,25 @@
+{
+  "validated_utc": "2026-09-30T15:06:43.578211+00:00",
+  "kind": "actual_public_replay_limit1_and_experimental_receptor_rebuild",
+  "replayed_compound_id": "LIB_YWDIXVZCRMMQQY",
+  "actual_docking_completed": true,
+  "score": -9.283,
+  "frozen_score": -9.283,
+  "score_exact_match": true,
+  "pose_sha256": "dee24b2d9d4acc54323509271331b79ad9014ab0e9868238be6ba879ccfcbbef",
+  "frozen_pose_sha256": "dee24b2d9d4acc54323509271331b79ad9014ab0e9868238be6ba879ccfcbbef",
+  "pose_hash_exact_match": true,
+  "ligand_pdbqt_hash_exact_match": true,
+  "ligand_sdf_hash_exact_match": true,
+  "rebuild_receptor_sha256": "907ef675c3f92bbb3efbec7234cbbbf8a3fb1bd412f4191ce574e238ae9b6651",
+  "rebuild_receptor_exact_match": true,
+  "actual_seconds": 51.365,
+  "public_pose_reread": {
+    "jobs": 26,
+    "protein_qc_passed": 25,
+    "protein_qc_failed": 1,
+    "original_qc_agreement": 26,
+    "unexpected_disagreements": 0,
+    "scope": "frozen protein-only poses; original worm HET clashes separately preserved; known worm indinavir box failure retained; no score threshold"
+  }
+}

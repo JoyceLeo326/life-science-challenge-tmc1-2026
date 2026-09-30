@@ -1,0 +1,400 @@
+[
+  {
+    "structure": "7USW_TMC1_complex_expanded",
+    "site_chain": "A",
+    "site_xyz_atoms": 126,
+    "box_center": [
+      135.8545,
+      173.3625,
+      172.675
+    ],
+    "box_size": [
+      33.997000000000014,
+      31.936999999999983,
+      25.72999999999999
+    ],
+    "incomplete_nearby": [
+      {
+        "chain": "A",
+        "resnum": 298,
+        "resname": "LYS",
+        "missing_atoms": "CD;CE;CG;NZ",
+        "distance_to_box_A": 14.270229710835071,
+        "distance_to_site_heavy_A": 29.57370752881689
+      },
+      {
+        "chain": "A",
+        "resnum": 712,
+        "resname": "ASP",
+        "missing_atoms": "CG;OD1;OD2",
+        "distance_to_box_A": 7.853804492091717,
+        "distance_to_site_heavy_A": 20.34256458758334
+      },
+      {
+        "chain": "A",
+        "resnum": 715,
+        "resname": "THR",
+        "missing_atoms": "CG2;OG1",
+        "distance_to_box_A": 9.680000000000007,
+        "distance_to_site_heavy_A": 19.537969930368927
+      },
+      {
+        "chain": "A",
+        "resnum": 716,
+        "resname": "THR",
+        "missing_atoms": "CG2;OG1",
+        "distance_to_box_A": 6.895679589424093,
+        "distance_to_site_heavy_A": 17.703927502110933
+      },
+      {
+        "chain": "B",
+        "resnum": 838,
+        "resname": "ASP",
+        "missing_atoms": "CG;OD1;OD2",
+        "distance_to_box_A": 12.436788653024534,
+        "distance_to_site_heavy_A": 23.611840610168436
+      },
+      {
+        "chain": "B",
+        "resnum": 840,
+        "resname": "THR",
+        "missing_atoms": "CG2;OG1",
+        "distance_to_box_A": 9.749969948671644,
+        "distance_to_site_heavy_A": 19.038379815520024
+      },
+      {
+        "chain": "D",
+        "resnum": 18,
+        "resname": "VAL",
+        "missing_atoms": "CG1;CG2",
+        "distance_to_box_A": 13.420573944507726,
+        "distance_to_site_heavy_A": 28.307153954433492
+      }
+    ]
+  },
+  {
+    "structure": "7USW_TMC1_complex_expanded",
+    "site_chain": "B",
+    "site_xyz_atoms": 126,
+    "box_center": [
+      199.7465,
+      162.2385,
+      172.6815
+    ],
+    "box_size": [
+      33.995000000000005,
+      31.947000000000003,
+      25.745000000000005
+    ],
+    "incomplete_nearby": [
+      {
+        "chain": "A",
+        "resnum": 838,
+        "resname": "ASP",
+        "missing_atoms": "CG;OD1;OD2",
+        "distance_to_box_A": 12.394166087317057,
+        "distance_to_site_heavy_A": 23.574652107719402
+      },
+      {
+        "chain": "A",
+        "resnum": 840,
+        "resname": "THR",
+        "missing_atoms": "CG2;OG1",
+        "distance_to_box_A": 9.683293861078463,
+        "distance_to_site_heavy_A": 18.98485251457064
+      },
+      {
+        "chain": "B",
+        "resnum": 298,
+        "resname": "LYS",
+        "missing_atoms": "CD;CE;CG;NZ",
+        "distance_to_box_A": 14.245122463496056,
+        "distance_to_site_heavy_A": 29.55938463500213
+      },
+      {
+        "chain": "B",
+        "resnum": 712,
+        "resname": "ASP",
+        "missing_atoms": "CG;OD1;OD2",
+        "distance_to_box_A": 7.837849003393709,
+        "distance_to_site_heavy_A": 20.34900248169428
+      },
+      {
+        "chain": "B",
+        "resnum": 715,
+        "resname": "THR",
+        "missing_atoms": "CG2;OG1",
+        "distance_to_box_A": 9.683999999999997,
+        "distance_to_site_heavy_A": 19.57599052410887
+      },
+      {
+        "chain": "B",
+        "resnum": 716,
+        "resname": "THR",
+        "missing_atoms": "CG2;OG1",
+        "distance_to_box_A": 6.885424750877755,
+        "distance_to_site_heavy_A": 17.72017547881511
+      },
+      {
+        "chain": "F",
+        "resnum": 18,
+        "resname": "VAL",
+        "missing_atoms": "CG1;CG2",
+        "distance_to_box_A": 13.385897429757936,
+        "distance_to_site_heavy_A": 28.287196131819076
+      }
+    ]
+  },
+  {
+    "structure": "7USX_TMC1_complex_contracted",
+    "site_chain": "A",
+    "site_xyz_atoms": 126,
+    "box_center": [
+      136.5105,
+      174.4235,
+      172.81900000000002
+    ],
+    "box_size": [
+      33.721000000000004,
+      32.57500000000002,
+      26.328000000000003
+    ],
+    "incomplete_nearby": [
+      {
+        "chain": "A",
+        "resnum": 298,
+        "resname": "LYS",
+        "missing_atoms": "CD;CE;CG;NZ",
+        "distance_to_box_A": 13.26107273187202,
+        "distance_to_site_heavy_A": 28.86701061765835
+      },
+      {
+        "chain": "A",
+        "resnum": 876,
+        "resname": "ARG",
+        "missing_atoms": "CD;CG;CZ;NE;NH1;NH2",
+        "distance_to_box_A": 14.526557369177302,
+        "distance_to_site_heavy_A": 29.836057950071073
+      },
+      {
+        "chain": "B",
+        "resnum": 875,
+        "resname": "LEU",
+        "missing_atoms": "CD1;CD2;CG",
+        "distance_to_box_A": 13.163521793198038,
+        "distance_to_site_heavy_A": 29.40195445884508
+      },
+      {
+        "chain": "D",
+        "resnum": 18,
+        "resname": "VAL",
+        "missing_atoms": "CG1;CG2",
+        "distance_to_box_A": 13.520487602154,
+        "distance_to_site_heavy_A": 27.68503361023786
+      }
+    ]
+  },
+  {
+    "structure": "7USX_TMC1_complex_contracted",
+    "site_chain": "B",
+    "site_xyz_atoms": 126,
+    "box_center": [
+      199.10250000000002,
+      161.17649999999998,
+      172.817
+    ],
+    "box_size": [
+      33.70099999999999,
+      32.583,
+      26.328000000000003
+    ],
+    "incomplete_nearby": [
+      {
+        "chain": "A",
+        "resnum": 875,
+        "resname": "LEU",
+        "missing_atoms": "CD1;CD2;CG",
+        "distance_to_box_A": 13.166885470755785,
+        "distance_to_site_heavy_A": 29.399417307150827
+      },
+      {
+        "chain": "B",
+        "resnum": 298,
+        "resname": "LYS",
+        "missing_atoms": "CD;CE;CG;NZ",
+        "distance_to_box_A": 13.224345125562929,
+        "distance_to_site_heavy_A": 28.81729761792386
+      },
+      {
+        "chain": "B",
+        "resnum": 876,
+        "resname": "ARG",
+        "missing_atoms": "CD;CG;CZ;NE;NH1;NH2",
+        "distance_to_box_A": 14.529738641833866,
+        "distance_to_site_heavy_A": 29.842174384585316
+      },
+      {
+        "chain": "F",
+        "resnum": 18,
+        "resname": "VAL",
+        "missing_atoms": "CG1;CG2",
+        "distance_to_box_A": 13.519243248052014,
+        "distance_to_site_heavy_A": 27.689092979005284
+      }
+    ]
+  },
+  {
+    "structure": "7USY_TMC1_complex_with_ARRD6",
+    "site_chain": "A",
+    "site_xyz_atoms": 126,
+    "box_center": [
+      137.18,
+      174.7265,
+      173.2225
+    ],
+    "box_size": [
+      34.08200000000001,
+      32.19500000000002,
+      25.814999999999998
+    ],
+    "incomplete_nearby": [
+      {
+        "chain": "A",
+        "resnum": 298,
+        "resname": "LYS",
+        "missing_atoms": "CD;CE;CG;NZ",
+        "distance_to_box_A": 14.860323044940836,
+        "distance_to_site_heavy_A": 30.31827359860715
+      },
+      {
+        "chain": "A",
+        "resnum": 712,
+        "resname": "ASP",
+        "missing_atoms": "CG;OD1;OD2",
+        "distance_to_box_A": 8.536378681853323,
+        "distance_to_site_heavy_A": 20.958108240010585
+      },
+      {
+        "chain": "A",
+        "resnum": 715,
+        "resname": "THR",
+        "missing_atoms": "CG2;OG1",
+        "distance_to_box_A": 9.649177426081458,
+        "distance_to_site_heavy_A": 19.671672679261416
+      },
+      {
+        "chain": "A",
+        "resnum": 716,
+        "resname": "THR",
+        "missing_atoms": "CG2;OG1",
+        "distance_to_box_A": 6.551201492856091,
+        "distance_to_site_heavy_A": 17.998611974260683
+      },
+      {
+        "chain": "B",
+        "resnum": 838,
+        "resname": "ASP",
+        "missing_atoms": "CG;OD1;OD2",
+        "distance_to_box_A": 11.732923506100244,
+        "distance_to_site_heavy_A": 23.488374102947173
+      },
+      {
+        "chain": "B",
+        "resnum": 840,
+        "resname": "THR",
+        "missing_atoms": "CG2;OG1",
+        "distance_to_box_A": 9.066777266482289,
+        "distance_to_site_heavy_A": 18.706124371445842
+      },
+      {
+        "chain": "B",
+        "resnum": 877,
+        "resname": "GLU",
+        "missing_atoms": "CD;CG;OE1;OE2",
+        "distance_to_box_A": 14.665999113596026,
+        "distance_to_site_heavy_A": 33.2519393269024
+      },
+      {
+        "chain": "D",
+        "resnum": 18,
+        "resname": "VAL",
+        "missing_atoms": "CG1;CG2",
+        "distance_to_box_A": 13.772293418309088,
+        "distance_to_site_heavy_A": 28.403321179045268
+      }
+    ]
+  },
+  {
+    "structure": "7USY_TMC1_complex_with_ARRD6",
+    "site_chain": "B",
+    "site_xyz_atoms": 126,
+    "box_center": [
+      200.752,
+      164.327,
+      173.0685
+    ],
+    "box_size": [
+      33.946,
+      31.841999999999985,
+      26.36700000000002
+    ],
+    "incomplete_nearby": [
+      {
+        "chain": "A",
+        "resnum": 838,
+        "resname": "ASP",
+        "missing_atoms": "CG;OD1;OD2",
+        "distance_to_box_A": 12.351608559212028,
+        "distance_to_site_heavy_A": 23.954101569459883
+      },
+      {
+        "chain": "A",
+        "resnum": 840,
+        "resname": "THR",
+        "missing_atoms": "CG2;OG1",
+        "distance_to_box_A": 9.661313575285716,
+        "distance_to_site_heavy_A": 19.18349384236356
+      },
+      {
+        "chain": "B",
+        "resnum": 298,
+        "resname": "LYS",
+        "missing_atoms": "CD;CE;CG;NZ",
+        "distance_to_box_A": 14.376923314812528,
+        "distance_to_site_heavy_A": 29.878564423345377
+      },
+      {
+        "chain": "B",
+        "resnum": 712,
+        "resname": "ASP",
+        "missing_atoms": "CG;OD1;OD2",
+        "distance_to_box_A": 7.998635196081885,
+        "distance_to_site_heavy_A": 20.78327450138692
+      },
+      {
+        "chain": "B",
+        "resnum": 715,
+        "resname": "THR",
+        "missing_atoms": "CG2;OG1",
+        "distance_to_box_A": 9.252379585814655,
+        "distance_to_site_heavy_A": 19.820091952359853
+      },
+      {
+        "chain": "B",
+        "resnum": 716,
+        "resname": "THR",
+        "missing_atoms": "CG2;OG1",
+        "distance_to_box_A": 6.058439733132615,
+        "distance_to_site_heavy_A": 17.78174102836952
+      },
+      {
+        "chain": "F",
+        "resnum": 18,
+        "resname": "VAL",
+        "missing_atoms": "CG1;CG2",
+        "distance_to_box_A": 12.77095239204969,
+        "distance_to_site_heavy_A": 27.589290404068027
+      }
+    ]
+  }
+]

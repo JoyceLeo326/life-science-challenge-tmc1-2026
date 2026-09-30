@@ -1,0 +1,33 @@
+{
+  "started_utc": "2026-09-30T13:58:01.044771+00:00",
+  "command": [
+    "<SOURCE_PROJECT>\\接管推进_2026-09-27\\01_计算筛选\\.venv\\Scripts\\mk_prepare_receptor.exe",
+    "--read_pdb",
+    "<NEW_CONDITION_ROOT>\\internal\\W7USX_ALL_proteins_native_heavy.pdb",
+    "-o",
+    "<NEW_CONDITION_ROOT>\\internal\\receptors\\W_7USX_LOCAL_COMPLETE",
+    "-p",
+    "-j",
+    "--write_pdb",
+    "<NEW_CONDITION_ROOT>\\internal\\receptors\\W_7USX_LOCAL_COMPLETE_H.pdb",
+    "--delete_bad_res_from_box_radius",
+    "8",
+    "--box_center",
+    "136.5105",
+    "174.4235",
+    "172.819",
+    "--box_size",
+    "33.721",
+    "32.575",
+    "26.328"
+  ],
+  "source_sha256": "c0888d1eacef231d9ec4a53ba2aac582ab3cbc0176065b55009f7f7410a19caf",
+  "protein_source_sha256": "11ab27215cc11e40be251a3c84bbfa9f1d898d0a5fa2830febba467b510b3fa0",
+  "no_added_or_imputed_heavy_atoms": true,
+  "preparation_policy": "Meeko0.8.0 Gasteiger template/addH; incomplete residues may be deleted only outside fixed box+8A; strict fail for incomplete residue closer; no forgive_extra_bonds",
+  "condition_scope": "Independent R3 experimental protein-only local-complete worm condition, notR2main",
+  "lipids_waters_ions_excluded": true,
+  "returncode": 0,
+  "finished_utc": "2026-09-30T13:58:09.995838+00:00",
+  "prepared_receptor_sha256": "907ef675c3f92bbb3efbec7234cbbbf8a3fb1bd412f4191ce574e238ae9b6651"
+}

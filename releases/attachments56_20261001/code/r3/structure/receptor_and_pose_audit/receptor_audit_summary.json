@@ -1,0 +1,94 @@
+{
+  "timestamp_utc": "2026-09-30T14:41:53.453060+00:00",
+  "source_hashes": {
+    "official": "c0888d1eacef231d9ec4a53ba2aac582ab3cbc0176065b55009f7f7410a19caf",
+    "input": "11ab27215cc11e40be251a3c84bbfa9f1d898d0a5fa2830febba467b510b3fa0",
+    "prepared_pdb": "f9abdcc7c5a182580044457240937ec505f650014b74d99db01754d68c8843f3",
+    "prepared_pdbqt": "907ef675c3f92bbb3efbec7234cbbbf8a3fb1bd412f4191ce574e238ae9b6651",
+    "prepared_json": "b84112a25bce07a67bb99ccdae7c94700dda6c9c13cc28d609e36453319c4013",
+    "box": "a5c915c607d0e13f0aed962ff221c3a1839d280f4c28efd5687791642bc8118a",
+    "log": "c55f95d5f1229a7386ad62889c9691a1436084a3ac14ab3f8d91698de2c00234",
+    "receipt": "104476b66f85fc53edd0b77f41f1fdea2bf74b15f1f7f76abf434468bdcd5ce1"
+  },
+  "checks": [
+    {
+      "comparison": "official_ATOM_to_protein_input",
+      "reference_count": 13544,
+      "target_count": 13544,
+      "retained_count": 13544,
+      "removed_count": 0,
+      "added_count": 0,
+      "max_retained_coordinate_displacement_A": 0.0,
+      "nonzero_displacement_count": 0
+    },
+    {
+      "comparison": "protein_input_to_prepared_PDB",
+      "reference_count": 13544,
+      "target_count": 13304,
+      "retained_count": 13304,
+      "removed_count": 240,
+      "added_count": 0,
+      "max_retained_coordinate_displacement_A": 2.103923477695925,
+      "nonzero_displacement_count": 4
+    },
+    {
+      "comparison": "protein_input_to_prepared_PDBQT",
+      "reference_count": 13544,
+      "target_count": 13304,
+      "retained_count": 13304,
+      "removed_count": 240,
+      "added_count": 0,
+      "max_retained_coordinate_displacement_A": 2.103923477695925,
+      "nonzero_displacement_count": 4
+    },
+    {
+      "comparison": "prepared_PDB_to_prepared_PDBQT",
+      "reference_count": 13304,
+      "target_count": 13304,
+      "retained_count": 13304,
+      "removed_count": 0,
+      "added_count": 0,
+      "max_retained_coordinate_displacement_A": 0.0,
+      "nonzero_displacement_count": 0
+    }
+  ],
+  "duplicate_atom_keys": {
+    "official": [],
+    "input": [],
+    "PDB": [],
+    "PDBQT": []
+  },
+  "site_residue_count": 15,
+  "site_original_heavy_atom_count": 126,
+  "site_all_heavy_atoms_retained": true,
+  "site_all_standard_heavy_atoms_complete": true,
+  "deleted_residue_count": 48,
+  "deleted_all_whole_residues": true,
+  "deleted_all_outside_box_plus8A": true,
+  "deleted_min_distance_to_box_A": 13.163521793198035,
+  "deleted_all_traceable_to_log": true,
+  "incomplete_original_residue_count": 48,
+  "incomplete_original_residues_inside_box_plus8A": 0,
+  "omitted_nonprotein_residue_count": 56,
+  "omitted_nonprotein_heavy_atom_count": 696,
+  "omitted_context_within_box_plus8A_by_resname": {
+    "CA": 2,
+    "PEE": 1,
+    "D12": 13,
+    "R16": 4,
+    "3PE": 1,
+    "PLM": 2
+  },
+  "omitted_context_inside_box_by_resname": {
+    "CA": 2,
+    "D12": 8,
+    "R16": 3,
+    "3PE": 1,
+    "PLM": 1
+  },
+  "strict_atom_name_coordinate_identity_pass": false,
+  "retained_residue_element_coordinate_multiset_exact_pass": true,
+  "known_terminal_O_OXT_name_exchange_only": true,
+  "terminal_name_exchange_min_distance_to_box_A": 13.52281897386781,
+  "preparation_audit_pass": true
+}

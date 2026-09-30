@@ -1,0 +1,7 @@
+﻿short_number,candidate_id,source_id,standardized_isomeric_smiles,docking_rule_smiles,rdkit_inchikey,connectivity_id_matches,stereo_centers,depiction_formal_charge,docking_formal_charge,confirmation_rank,original_selection_rank,middle_contacts_n,conditions_total_n
+1,LIB_DNDVGFIEWOHGAH,CHEMBL1076497,CN1CCN(c2ccc(-c3cnn4c(-c5cccc(NC(=O)c6cccc(C(F)(F)F)c6)c5)ccnc34)cn2)CC1,C[NH+]1CCN(c2ccc(-c3cnn4c(-c5cccc(NC(=O)c6cccc(C(F)(F)F)c6)c5)ccnc34)cn2)CC1,DNDVGFIEWOHGAH-UHFFFAOYSA-N,True,[],0,1,1,5,4,4
+2,LIB_FCRHJSNRFAAYQD,CHEMBL1080669,O=C(Nc1cccc(Oc2ccccc2)c1)Nc1cccc(-c2cn3ccnc3c(NCc3ccncc3)n2)c1,O=C(Nc1cccc(Oc2ccccc2)c1)Nc1cccc(-c2cn3ccnc3c(NCc3ccncc3)n2)c1,FCRHJSNRFAAYQD-UHFFFAOYSA-N,True,[],0,0,2,4,4,4
+3,LIB_MYAFDHCCQBIZLC,CHEMBL1080362,O=C(Nc1cccc(-c2cn3ccnc3c(NCc3ccccc3)n2)c1)Nc1cccc(C(F)(F)F)c1,O=C(Nc1cccc(-c2cn3ccnc3c(NCc3ccccc3)n2)c1)Nc1cccc(C(F)(F)F)c1,MYAFDHCCQBIZLC-UHFFFAOYSA-N,True,[],0,0,3,2,3,4
+4,LIB_YWDIXVZCRMMQQY,CHEMBL1079964,O=C(Nc1cccc(-c2cn3ccnc3c(Nc3ccccc3)n2)c1)Nc1cccc(C(F)(F)F)c1,O=C(Nc1cccc(-c2cn3ccnc3c(Nc3ccccc3)n2)c1)Nc1cccc(C(F)(F)F)c1,YWDIXVZCRMMQQY-UHFFFAOYSA-N,True,[],0,0,4,1,4,4
+5,LIB_ZNDXPRCORYDEAP,CHEMBL1081740,O=C(Nc1cccc(-c2cn3ccnc3c(NCc3ccncc3)n2)c1)Nc1ccc(F)c(C(F)(F)F)c1,O=C(Nc1cccc(-c2cn3ccnc3c(NCc3ccncc3)n2)c1)Nc1ccc(F)c(C(F)(F)F)c1,ZNDXPRCORYDEAP-UHFFFAOYSA-N,True,[],0,0,5,3,4,4
+6,LIB_ZVHBDYFMHCQADD,CHEMBL1080205,O=C(Nc1cccc(-c2cn3ccnc3c(NCc3ccccn3)n2)c1)Nc1cccc(C(F)(F)F)c1,O=C(Nc1cccc(-c2cn3ccnc3c(NCc3ccccn3)n2)c1)Nc1cccc(C(F)(F)F)c1,ZVHBDYFMHCQADD-UHFFFAOYSA-N,True,[],0,0,6,6,3,4

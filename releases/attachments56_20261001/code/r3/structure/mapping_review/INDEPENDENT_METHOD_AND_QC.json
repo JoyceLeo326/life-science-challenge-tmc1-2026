@@ -1,0 +1,119 @@
+{
+  "created_utc": "2026-09-30T14:01:01.770755+00:00",
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "executable": "tool:scientific_python_3.12.10",
+  "Biopython": "1.88",
+  "numpy": "2.5.3",
+  "threads": 1,
+  "alignment": {
+    "mode": "global, separately within 10 numbered homologous TM helices",
+    "matrix": "BLOSUM62",
+    "gap_open": -10,
+    "gap_extend": -0.5,
+    "sensitivity": [
+      [
+        -5,
+        -0.5
+      ],
+      [
+        -8,
+        -0.5
+      ],
+      [
+        -10,
+        -0.5
+      ],
+      [
+        -12,
+        -0.5
+      ],
+      [
+        -10,
+        -1
+      ]
+    ],
+    "maximum_optimal_alignments_sampled": 100
+  },
+  "independent_Kabsch": {
+    "CAs": 304,
+    "fit_scope": "10 topologically homologous TM helix sequence alignments, all observed positions",
+    "RMSD_A": 5.096484318950728,
+    "rotation_row_vector": [
+      [
+        -0.6683626073889939,
+        -0.14113851066784097,
+        -0.7303227682680097
+      ],
+      [
+        0.5634148308396826,
+        -0.7370953825977481,
+        -0.3731676906472095
+      ],
+      [
+        -0.4856492082090502,
+        -0.6608860096563877,
+        0.5721665219203051
+      ]
+    ],
+    "translation": [
+      143.71681570710095,
+      167.38569058596877,
+      169.47684924390975
+    ]
+  },
+  "independent_pore_Kabsch": {
+    "CAs": 145,
+    "fit_scope": "TM4-8 from same independent sequence alignment, all observed positions",
+    "RMSD_A": 1.4958045560526412,
+    "rotation_row_vector": [
+      [
+        -0.7068258520190513,
+        -0.11202338212181738,
+        -0.6984611490809862
+      ],
+      [
+        0.4562092481541377,
+        -0.8267939878281827,
+        -0.32906659446046266
+      ],
+      [
+        -0.5406203259369542,
+        -0.5512372116876362,
+        0.6355054678243618
+      ]
+    ],
+    "translation": [
+      142.3932229934635,
+      166.2659447371911,
+      169.86047354992155
+    ]
+  },
+  "middle15_exact_structure_guided_agreement": true,
+  "middle15_all5_gap_settings_unique": false,
+  "middle15_all3_CA_observed": true,
+  "middle15_all3_standard_heavy_atoms_complete": true,
+  "TM5_TM6_extracellular_loop_absent_CA_intervals": {
+    "7USW": [
+      [
+        460,
+        663
+      ]
+    ],
+    "7USX": [
+      [
+        460,
+        663
+      ]
+    ],
+    "7USY": [
+      [
+        460,
+        663
+      ]
+    ]
+  },
+  "legacy238_wrong_TM_count": 9,
+  "legacy760_human_TM_rows": 304,
+  "legacy760_wrong_TM_count": 75,
+  "legacy760_diff_independent_TM_alignment_count": 116
+}

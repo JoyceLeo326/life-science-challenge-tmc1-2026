@@ -1,0 +1,49 @@
+{
+  "status": "PASS",
+  "command": "python notebooks/run_notebook.py",
+  "all_8_code_cells_executed": true,
+  "source_notebook_sha256": "b9554cb7362b1f7b075cc2684b3574d5ec1150f8d8e4bab4375eb967015b7873",
+  "runner_sha256": "d2f41c62320522c5445f8ff301400bed6762f6650d46f341be142b8f7f7b8ba7",
+  "jobs": [
+    {
+      "entry": "run_example.py",
+      "arguments": [
+        "--train-small",
+        "--output",
+        "../notebook_outputs/20260930T191002Z/example"
+      ],
+      "exit_code": 0,
+      "seconds": 32.135
+    },
+    {
+      "entry": "make_results.py",
+      "arguments": [
+        "--output",
+        "../notebook_outputs/20260930T191002Z/formal/results.csv"
+      ],
+      "exit_code": 0,
+      "seconds": 2.18
+    },
+    {
+      "entry": "data/group_supplement/verify_science_supplement.py",
+      "arguments": [],
+      "exit_code": 0,
+      "seconds": 0.992
+    },
+    {
+      "entry": "data/group_supplement/rebuild_science_tables.py",
+      "arguments": [
+        "--output",
+        "../notebook_outputs/20260930T191002Z/supplement_rebuilt"
+      ],
+      "exit_code": 0,
+      "seconds": 1.32
+    }
+  ],
+  "formal_result_sha256": "478e0d624b158ef5e42a454ea412e3ca392fa694af1556a3d48587e6b170908c",
+  "supplement_checks_passed": 617,
+  "raw_output_notebook_outside_code_tree": true,
+  "visual_review": "Actual generated confirmation plot viewed: all six labels, legend, integer count axis and paired bars visible; values match actual results.csv.",
+  "schema_validation": "PASS",
+  "output_error_count": 0
+}

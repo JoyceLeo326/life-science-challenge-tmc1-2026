@@ -1,0 +1,46 @@
+{
+  "reason": "RDKit-valid SELFIES samples included radicals and unassigned potential tetrahedral/double-bond stereochemistry; both are now hard exclusions before any docking selection",
+  "superseded_files": [
+    "pilot_selfies_5067_base_fixed_list_v0_superseded.csv",
+    "pilot_selfies_5067_focused_fixed_list_v0_superseded.csv"
+  ],
+  "canonical_files": [
+    "pilot_selfies_5067_base_fixed_list.csv",
+    "pilot_selfies_5067_focused_fixed_list.csv"
+  ],
+  "results": [
+    {
+      "method": "SMILES char GRU",
+      "old_property_alert_pass": 410,
+      "identity_safe_property_alert_pass": 248,
+      "similarity_ge_0.15": 149,
+      "similarity_ge_0.18": 53,
+      "similarity_ge_0.2": 25,
+      "identity_gate_excluded": 162,
+      "similarity_ge_0.25": 4
+    },
+    {
+      "method": "SELFIES GRU base",
+      "old_property_alert_pass": 1492,
+      "identity_gate_excluded": 1278,
+      "identity_safe_property_alert_pass": 214,
+      "similarity_ge_0.15": 93,
+      "similarity_ge_0.18": 23,
+      "similarity_ge_0.2": 9,
+      "identity_safe_broad_pool": 93,
+      "identity_safe_fixed_diverse": 82
+    },
+    {
+      "method": "SELFIES GRU focused",
+      "old_property_alert_pass": 986,
+      "identity_gate_excluded": 884,
+      "identity_safe_property_alert_pass": 102,
+      "similarity_ge_0.15": 46,
+      "similarity_ge_0.18": 13,
+      "similarity_ge_0.2": 7,
+      "similarity_ge_0.25": 1,
+      "identity_safe_broad_pool": 46,
+      "identity_safe_fixed_diverse": 43
+    }
+  ]
+}

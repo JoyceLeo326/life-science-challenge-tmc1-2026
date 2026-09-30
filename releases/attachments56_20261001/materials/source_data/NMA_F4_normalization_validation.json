@@ -1,0 +1,58 @@
+{
+  "status": "PASS",
+  "source": "NMA_conformation_displacements.csv",
+  "source_sha256": "093cee1976c7d620763d97fd269be97ba678ca3881f681621735dccdb1b18701",
+  "caption": "全局RMS归一化0.5 Å的计算位移；非实验测得的运动",
+  "calculation": "sqrt(mean(dx^2+dy^2+dz^2)) over all frame nodes",
+  "frames": [
+    {
+      "frame_id": "H_AF_domain_mode1_minus_rms0.5A",
+      "nodes": 552,
+      "global_RMS_A": 0.5000000000000007,
+      "max_local_displacement_A": 4.293664406335503
+    },
+    {
+      "frame_id": "H_AF_domain_mode1_plus_rms0.5A",
+      "nodes": 552,
+      "global_RMS_A": 0.5000000000000007,
+      "max_local_displacement_A": 4.293664406335503
+    },
+    {
+      "frame_id": "H_AF_domain_mode2_minus_rms0.5A",
+      "nodes": 552,
+      "global_RMS_A": 0.4999999999999995,
+      "max_local_displacement_A": 4.518603183350113
+    },
+    {
+      "frame_id": "H_AF_domain_mode2_plus_rms0.5A",
+      "nodes": 552,
+      "global_RMS_A": 0.4999999999999995,
+      "max_local_displacement_A": 4.518603183350113
+    },
+    {
+      "frame_id": "M_PUB_ALL_domain_mode1_minus_rms0.5A",
+      "nodes": 555,
+      "global_RMS_A": 0.5,
+      "max_local_displacement_A": 4.137697017304639
+    },
+    {
+      "frame_id": "M_PUB_ALL_domain_mode1_plus_rms0.5A",
+      "nodes": 555,
+      "global_RMS_A": 0.5,
+      "max_local_displacement_A": 4.137697017304639
+    },
+    {
+      "frame_id": "M_PUB_ALL_domain_mode2_minus_rms0.5A",
+      "nodes": 555,
+      "global_RMS_A": 0.5,
+      "max_local_displacement_A": 2.603877372012882
+    },
+    {
+      "frame_id": "M_PUB_ALL_domain_mode2_plus_rms0.5A",
+      "nodes": 555,
+      "global_RMS_A": 0.5,
+      "max_local_displacement_A": 2.603877372012882
+    }
+  ],
+  "scientific_results_changed": false
+}

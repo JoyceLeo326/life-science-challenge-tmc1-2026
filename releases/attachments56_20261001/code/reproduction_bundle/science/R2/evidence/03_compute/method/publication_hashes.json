@@ -1,0 +1,17 @@
+{
+  "03_compute/raw_runs/formal_forward_v2_initial278/job_ledger.csv": {
+    "original_expected_sha256": "75a95077a56ea1945b169b984d719b461620704c71b7e3d818771617173e14db",
+    "publication_sha256": "4877643d008fc8761e3885f5cf78eaea1659def61da16e5c79f8ab181679fc72",
+    "migration": "Only path/command location fields and CSV formatting differ; all nonpath scientific fields statically equal original"
+  },
+  "03_compute/raw_runs/formal_forward_v2_active_new/job_ledger.csv": {
+    "original_expected_sha256": "4c11c0ad5fffe2fc639503eb2424120846ce248e831db0f4d39db553996ca161",
+    "publication_sha256": "e028186a18c7dc0e48f96ab241895d2dc71f2bf980205b3746bd3a8491951ca1",
+    "migration": "Only path/command location fields and CSV formatting differ; all nonpath scientific fields statically equal original"
+  },
+  "03_compute/raw_runs/formal_forward_v2_active_new/preparation_ledger.csv": {
+    "original_expected_sha256": "72c1a9b83d99ea507b1397fa8421d398c4b42817d802978deeeb4b60c4aa46ac",
+    "publication_sha256": "873073fbe68bb28d7fbe3cbb388b9e07f71e2ca5fdf35e55b95e8baf6c5df97b",
+    "migration": "Only path/command location fields and CSV formatting differ; all nonpath scientific fields statically equal original"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "batch": "denatonium",
+  "jobs_in_ledger": 1,
+  "independent_qc_pass": 1,
+  "independent_qc_failed": 0,
+  "reasons": {},
+  "middle_contact_4A_among_qc_pass": 1,
+  "charge_parameterization_warnings": 0,
+  "score_le_frozen_threshold_among_qc_pass": 0,
+  "source_ledger_file_sha256": "3182003b6cec502510636a86f993d3275346a0ed9e636e5e34f8b633ed2e4c83"
+}

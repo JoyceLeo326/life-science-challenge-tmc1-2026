@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "$COMPUTE\portable_validation\portable_method\03_compute\evaluate_forward.py", line 356, in <module>
+    main()
+  File "$COMPUTE\portable_validation\portable_method\03_compute\evaluate_forward.py", line 134, in main
+    raise FileNotFoundError(f"Physical batch plan/job ledger missing: {batch}")
+FileNotFoundError: Physical batch plan/job ledger missing: $COMPUTE\reproducible_package\science\R2\evidence\03_compute\raw_runs\formal_forward_v2_resume124

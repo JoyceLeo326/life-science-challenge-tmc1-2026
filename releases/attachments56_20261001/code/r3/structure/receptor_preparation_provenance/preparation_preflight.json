@@ -1,0 +1,771 @@
+{
+  "source_sha256": "2732f2f8337ed9dd89f39607495ce03c3c19d20eb6e1adcf7aae3362d219a9a3",
+  "site_complete15": true,
+  "protein_atom_counts_by_chain": {
+    "A": 4897,
+    "B": 4897,
+    "C": 1536,
+    "D": 343,
+    "E": 1536,
+    "F": 343
+  },
+  "incomplete_protein_residues": [
+    {
+      "chain": "A",
+      "resnum": 75,
+      "resname": "THR",
+      "missing_atoms": [
+        "CG2",
+        "OG1"
+      ],
+      "any_observed_atom_inside_box_plus8A": false
+    },
+    {
+      "chain": "A",
+      "resnum": 76,
+      "resname": "ARG",
+      "missing_atoms": [
+        "CD",
+        "CG",
+        "CZ",
+        "NE",
+        "NH1",
+        "NH2"
+      ],
+      "any_observed_atom_inside_box_plus8A": false
+    },
+    {
+      "chain": "A",
+      "resnum": 77,
+      "resname": "GLN",
+      "missing_atoms": [
+        "CD",
+        "CG",
+        "NE2",
+        "OE1"
+      ],
+      "any_observed_atom_inside_box_plus8A": false
+    },
+    {
+      "chain": "A",
+      "resnum": 79,
+      "resname": "LEU",
+      "missing_atoms": [
+        "CD1",
+        "CD2",
+        "CG"
+      ],
+      "any_observed_atom_inside_box_plus8A": false
+    },
+    {
+      "chain": "A",
+      "resnum": 81,
+      "resname": "GLU",
+      "missing_atoms": [
+        "CD",
+        "CG",
+        "OE1",
+        "OE2"
+      ],
+      "any_observed_atom_inside_box_plus8A": false
+    },
+    {
+      "chain": "A",
+      "resnum": 82,
+      "resname": "ARG",
+      "missing_atoms": [
+        "CD",
+        "CG",
+        "CZ",
+        "NE",
+        "NH1",
+        "NH2"
+      ],
+      "any_observed_atom_inside_box_plus8A": false
+    },
+    {
+      "chain": "A",
+      "resnum": 84,
+      "resname": "ARG",
+      "missing_atoms": [
+        "CD",
+        "CG",
+        "CZ",
+        "NE",
+        "NH1",
+        "NH2"
+      ],
+      "any_observed_atom_inside_box_plus8A": false
+    },
+    {
+      "chain": "A",
+      "resnum": 85,
+      "resname": "GLN",
+      "missing_atoms": [
+        "CD",
+        "CG",
+        "NE2",
+        "OE1"
+      ],
+      "any_observed_atom_inside_box_plus8A": false
+    },
+    {
+      "chain": "A",
+      "resnum": 86,
+      "resname": "LYS",
+      "missing_atoms": [
+        "CD",
+        "CE",
+        "CG",
+        "NZ"
+      ],
+      "any_observed_atom_inside_box_plus8A": false
+    },
+    {
+      "chain": "A",
+      "resnum": 87,
+      "resname": "LYS",
+      "missing_atoms": [
+        "CD",
+        "CE",
+        "CG",
+        "NZ"
+      ],
+      "any_observed_atom_inside_box_plus8A": false
+    },
+    {
+      "chain": "A",
+      "resnum": 298,
+      "resname": "LYS",
+      "missing_atoms": [
+        "CD",
+        "CE",
+        "CG",
+        "NZ"
+      ],
+      "any_observed_atom_inside_box_plus8A": false
+    },
+    {
+      "chain": "A",
+      "resnum": 457,
+      "resname": "ARG",
+      "missing_atoms": [
+        "CD",
+        "CG",
+        "CZ",
+        "NE",
+        "NH1",
+        "NH2"
+      ],
+      "any_observed_atom_inside_box_plus8A": false
+    },
+    {
+      "chain": "A",
+      "resnum": 458,
+      "resname": "VAL",
+      "missing_atoms": [
+        "CG1",
+        "CG2"
+      ],
+      "any_observed_atom_inside_box_plus8A": false
+    },
+    {
+      "chain": "A",
+      "resnum": 459,
+      "resname": "ASN",
+      "missing_atoms": [
+        "CG",
+        "ND2",
+        "OD1"
+      ],
+      "any_observed_atom_inside_box_plus8A": false
+    },
+    {
+      "chain": "A",
+      "resnum": 712,
+      "resname": "ASP",
+      "missing_atoms": [
+        "CG",
+        "OD1",
+        "OD2"
+      ],
+      "any_observed_atom_inside_box_plus8A": true
+    },
+    {
+      "chain": "A",
+      "resnum": 715,
+      "resname": "THR",
+      "missing_atoms": [
+        "CG2",
+        "OG1"
+      ],
+      "any_observed_atom_inside_box_plus8A": false
+    },
+    {
+      "chain": "A",
+      "resnum": 716,
+      "resname": "THR",
+      "missing_atoms": [
+        "CG2",
+        "OG1"
+      ],
+      "any_observed_atom_inside_box_plus8A": true
+    },
+    {
+      "chain": "A",
+      "resnum": 838,
+      "resname": "ASP",
+      "missing_atoms": [
+        "CG",
+        "OD1",
+        "OD2"
+      ],
+      "any_observed_atom_inside_box_plus8A": false
+    },
+    {
+      "chain": "A",
+      "resnum": 840,
+      "resname": "THR",
+      "missing_atoms": [
+        "CG2",
+        "OG1"
+      ],
+      "any_observed_atom_inside_box_plus8A": false
+    },
+    {
+      "chain": "A",
+      "resnum": 876,
+      "resname": "ARG",
+      "missing_atoms": [
+        "CD",
+        "CG",
+        "CZ",
+        "NE",
+        "NH1",
+        "NH2"
+      ],
+      "any_observed_atom_inside_box_plus8A": false
+    },
+    {
+      "chain": "A",
+      "resnum": 877,
+      "resname": "GLU",
+      "missing_atoms": [
+        "CD",
+        "CG",
+        "OE1",
+        "OE2"
+      ],
+      "any_observed_atom_inside_box_plus8A": false
+    },
+    {
+      "chain": "A",
+      "resnum": 881,
+      "resname": "ASP",
+      "missing_atoms": [
+        "CG",
+        "OD1",
+        "OD2"
+      ],
+      "any_observed_atom_inside_box_plus8A": false
+    },
+    {
+      "chain": "A",
+      "resnum": 883,
+      "resname": "GLN",
+      "missing_atoms": [
+        "CD",
+        "CG",
+        "NE2",
+        "OE1"
+      ],
+      "any_observed_atom_inside_box_plus8A": false
+    },
+    {
+      "chain": "A",
+      "resnum": 885,
+      "resname": "GLN",
+      "missing_atoms": [
+        "CD",
+        "CG",
+        "NE2",
+        "OE1"
+      ],
+      "any_observed_atom_inside_box_plus8A": false
+    },
+    {
+      "chain": "A",
+      "resnum": 886,
+      "resname": "LEU",
+      "missing_atoms": [
+        "CD1",
+        "CD2",
+        "CG"
+      ],
+      "any_observed_atom_inside_box_plus8A": false
+    },
+    {
+      "chain": "B",
+      "resnum": 75,
+      "resname": "THR",
+      "missing_atoms": [
+        "CG2",
+        "OG1"
+      ],
+      "any_observed_atom_inside_box_plus8A": false
+    },
+    {
+      "chain": "B",
+      "resnum": 76,
+      "resname": "ARG",
+      "missing_atoms": [
+        "CD",
+        "CG",
+        "CZ",
+        "NE",
+        "NH1",
+        "NH2"
+      ],
+      "any_observed_atom_inside_box_plus8A": false
+    },
+    {
+      "chain": "B",
+      "resnum": 77,
+      "resname": "GLN",
+      "missing_atoms": [
+        "CD",
+        "CG",
+        "NE2",
+        "OE1"
+      ],
+      "any_observed_atom_inside_box_plus8A": false
+    },
+    {
+      "chain": "B",
+      "resnum": 79,
+      "resname": "LEU",
+      "missing_atoms": [
+        "CD1",
+        "CD2",
+        "CG"
+      ],
+      "any_observed_atom_inside_box_plus8A": false
+    },
+    {
+      "chain": "B",
+      "resnum": 81,
+      "resname": "GLU",
+      "missing_atoms": [
+        "CD",
+        "CG",
+        "OE1",
+        "OE2"
+      ],
+      "any_observed_atom_inside_box_plus8A": false
+    },
+    {
+      "chain": "B",
+      "resnum": 82,
+      "resname": "ARG",
+      "missing_atoms": [
+        "CD",
+        "CG",
+        "CZ",
+        "NE",
+        "NH1",
+        "NH2"
+      ],
+      "any_observed_atom_inside_box_plus8A": false
+    },
+    {
+      "chain": "B",
+      "resnum": 84,
+      "resname": "ARG",
+      "missing_atoms": [
+        "CD",
+        "CG",
+        "CZ",
+        "NE",
+        "NH1",
+        "NH2"
+      ],
+      "any_observed_atom_inside_box_plus8A": false
+    },
+    {
+      "chain": "B",
+      "resnum": 85,
+      "resname": "GLN",
+      "missing_atoms": [
+        "CD",
+        "CG",
+        "NE2",
+        "OE1"
+      ],
+      "any_observed_atom_inside_box_plus8A": false
+    },
+    {
+      "chain": "B",
+      "resnum": 86,
+      "resname": "LYS",
+      "missing_atoms": [
+        "CD",
+        "CE",
+        "CG",
+        "NZ"
+      ],
+      "any_observed_atom_inside_box_plus8A": false
+    },
+    {
+      "chain": "B",
+      "resnum": 87,
+      "resname": "LYS",
+      "missing_atoms": [
+        "CD",
+        "CE",
+        "CG",
+        "NZ"
+      ],
+      "any_observed_atom_inside_box_plus8A": false
+    },
+    {
+      "chain": "B",
+      "resnum": 298,
+      "resname": "LYS",
+      "missing_atoms": [
+        "CD",
+        "CE",
+        "CG",
+        "NZ"
+      ],
+      "any_observed_atom_inside_box_plus8A": false
+    },
+    {
+      "chain": "B",
+      "resnum": 457,
+      "resname": "ARG",
+      "missing_atoms": [
+        "CD",
+        "CG",
+        "CZ",
+        "NE",
+        "NH1",
+        "NH2"
+      ],
+      "any_observed_atom_inside_box_plus8A": false
+    },
+    {
+      "chain": "B",
+      "resnum": 458,
+      "resname": "VAL",
+      "missing_atoms": [
+        "CG1",
+        "CG2"
+      ],
+      "any_observed_atom_inside_box_plus8A": false
+    },
+    {
+      "chain": "B",
+      "resnum": 459,
+      "resname": "ASN",
+      "missing_atoms": [
+        "CG",
+        "ND2",
+        "OD1"
+      ],
+      "any_observed_atom_inside_box_plus8A": false
+    },
+    {
+      "chain": "B",
+      "resnum": 712,
+      "resname": "ASP",
+      "missing_atoms": [
+        "CG",
+        "OD1",
+        "OD2"
+      ],
+      "any_observed_atom_inside_box_plus8A": false
+    },
+    {
+      "chain": "B",
+      "resnum": 715,
+      "resname": "THR",
+      "missing_atoms": [
+        "CG2",
+        "OG1"
+      ],
+      "any_observed_atom_inside_box_plus8A": false
+    },
+    {
+      "chain": "B",
+      "resnum": 716,
+      "resname": "THR",
+      "missing_atoms": [
+        "CG2",
+        "OG1"
+      ],
+      "any_observed_atom_inside_box_plus8A": false
+    },
+    {
+      "chain": "B",
+      "resnum": 838,
+      "resname": "ASP",
+      "missing_atoms": [
+        "CG",
+        "OD1",
+        "OD2"
+      ],
+      "any_observed_atom_inside_box_plus8A": false
+    },
+    {
+      "chain": "B",
+      "resnum": 840,
+      "resname": "THR",
+      "missing_atoms": [
+        "CG2",
+        "OG1"
+      ],
+      "any_observed_atom_inside_box_plus8A": true
+    },
+    {
+      "chain": "B",
+      "resnum": 876,
+      "resname": "ARG",
+      "missing_atoms": [
+        "CD",
+        "CG",
+        "CZ",
+        "NE",
+        "NH1",
+        "NH2"
+      ],
+      "any_observed_atom_inside_box_plus8A": false
+    },
+    {
+      "chain": "B",
+      "resnum": 877,
+      "resname": "GLU",
+      "missing_atoms": [
+        "CD",
+        "CG",
+        "OE1",
+        "OE2"
+      ],
+      "any_observed_atom_inside_box_plus8A": false
+    },
+    {
+      "chain": "B",
+      "resnum": 881,
+      "resname": "ASP",
+      "missing_atoms": [
+        "CG",
+        "OD1",
+        "OD2"
+      ],
+      "any_observed_atom_inside_box_plus8A": false
+    },
+    {
+      "chain": "B",
+      "resnum": 883,
+      "resname": "GLN",
+      "missing_atoms": [
+        "CD",
+        "CG",
+        "NE2",
+        "OE1"
+      ],
+      "any_observed_atom_inside_box_plus8A": false
+    },
+    {
+      "chain": "B",
+      "resnum": 885,
+      "resname": "GLN",
+      "missing_atoms": [
+        "CD",
+        "CG",
+        "NE2",
+        "OE1"
+      ],
+      "any_observed_atom_inside_box_plus8A": false
+    },
+    {
+      "chain": "B",
+      "resnum": 886,
+      "resname": "LEU",
+      "missing_atoms": [
+        "CD1",
+        "CD2",
+        "CG"
+      ],
+      "any_observed_atom_inside_box_plus8A": false
+    },
+    {
+      "chain": "D",
+      "resnum": 18,
+      "resname": "VAL",
+      "missing_atoms": [
+        "CG1",
+        "CG2"
+      ],
+      "any_observed_atom_inside_box_plus8A": false
+    },
+    {
+      "chain": "D",
+      "resnum": 54,
+      "resname": "LYS",
+      "missing_atoms": [
+        "CD",
+        "CE",
+        "CG",
+        "NZ"
+      ],
+      "any_observed_atom_inside_box_plus8A": false
+    },
+    {
+      "chain": "D",
+      "resnum": 55,
+      "resname": "ARG",
+      "missing_atoms": [
+        "CD",
+        "CG",
+        "CZ",
+        "NE",
+        "NH1",
+        "NH2"
+      ],
+      "any_observed_atom_inside_box_plus8A": false
+    },
+    {
+      "chain": "D",
+      "resnum": 63,
+      "resname": "LYS",
+      "missing_atoms": [
+        "CD",
+        "CE",
+        "CG",
+        "NZ"
+      ],
+      "any_observed_atom_inside_box_plus8A": false
+    },
+    {
+      "chain": "F",
+      "resnum": 18,
+      "resname": "VAL",
+      "missing_atoms": [
+        "CG1",
+        "CG2"
+      ],
+      "any_observed_atom_inside_box_plus8A": false
+    },
+    {
+      "chain": "F",
+      "resnum": 54,
+      "resname": "LYS",
+      "missing_atoms": [
+        "CD",
+        "CE",
+        "CG",
+        "NZ"
+      ],
+      "any_observed_atom_inside_box_plus8A": false
+    },
+    {
+      "chain": "F",
+      "resnum": 55,
+      "resname": "ARG",
+      "missing_atoms": [
+        "CD",
+        "CG",
+        "CZ",
+        "NE",
+        "NH1",
+        "NH2"
+      ],
+      "any_observed_atom_inside_box_plus8A": false
+    },
+    {
+      "chain": "F",
+      "resnum": 63,
+      "resname": "LYS",
+      "missing_atoms": [
+        "CD",
+        "CE",
+        "CG",
+        "NZ"
+      ],
+      "any_observed_atom_inside_box_plus8A": false
+    }
+  ],
+  "nonprotein_heavy_atoms_omitted": 790,
+  "nonprotein_heavy_atoms_inside_box": 118,
+  "nonprotein_heavy_atoms_inside_box_plus8A": 311,
+  "box": {
+    "site_id": "R3_W7USW_native_mapped_middle15_v1",
+    "center": [
+      135.8545,
+      173.3625,
+      172.675
+    ],
+    "size": [
+      33.997,
+      31.937,
+      25.73
+    ],
+    "volume_A3": 27936.661122969985,
+    "mouse_site_residues": [
+      400,
+      403,
+      404,
+      435,
+      436,
+      439,
+      440,
+      683,
+      686,
+      687,
+      691,
+      734,
+      735,
+      737,
+      756
+    ],
+    "worm_site_residues": [
+      400,
+      403,
+      404,
+      435,
+      436,
+      439,
+      440,
+      683,
+      686,
+      687,
+      691,
+      734,
+      735,
+      737,
+      756
+    ],
+    "human_site_residues": [
+      414,
+      417,
+      418,
+      449,
+      450,
+      453,
+      454,
+      531,
+      534,
+      535,
+      539,
+      582,
+      583,
+      585,
+      604
+    ],
+    "source": "7USW official experimental coordinates chain A; native frame",
+    "rule": "AABB of all experimentally observed heavy atoms of 15 two-way structure-guided and topology/sequence-reviewed worm homologous Middle positions, plus5A per face; native worm frame; same fixed box for every ligand; no inherited mouse box coordinates or score threshold",
+    "mapping_scope": "Independent new R3 worm condition; original760 mapping andR2unchanged",
+    "functional_direction": "unknown",
+    "species_transfer_score_threshold": "not_defined_do_not_apply_mouse_threshold"
+  }
+}

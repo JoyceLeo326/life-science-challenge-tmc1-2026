@@ -1,0 +1,31 @@
+{
+  "code": {
+    "source": "Accepted standalone code ZIP",
+    "sha256": "f8ad02077d56648bfa4e79a7bacac07a6ebcf6c480d98ee0c4a792a7b1d7f996",
+    "entry_count": 4212,
+    "copy_method": "Extracted all members unchanged; only outer directory TMC1_code renamed to code."
+  },
+  "materials": {
+    "source": "Public metadata-sanitized materials release",
+    "archive_sha256": "6a988ad5b9b63fcd78b31c4a2ad3bde58955991ef182d318456601b9245ca237",
+    "original_scientific_content_unchanged": true,
+    "transform_record": "materials/PUBLIC_DERIVATION.json"
+  },
+  "data_chinese": {
+    "source": "Accepted A1-A3 Chinese data handoff",
+    "scientific_originals": "code/data/group_supplement",
+    "copy_method": "All 134 handoff files unchanged, plus public cross-check receipt and navigation preview."
+  },
+  "video": {
+    "source": "Accepted 143.71-second actual-run recording and public receipts",
+    "mp4_sha256": "c7ca6128681dfaf72e6d9cf3454f1f83cad08d2c86f7c030aceb2248d5667bb7"
+  },
+  "excluded_private_material": [
+    "Original group or direct-message transcripts",
+    "Personal identities and credentials",
+    "Internal control logs and machine-local paths",
+    "Restricted upstream receptor coordinates and full-atom complexes",
+    "Original pre-sanitization custom Office metadata"
+  ],
+  "history": "Existing R1/R2/R3 and r3_feedback_20261001 directories remain unchanged."
+}

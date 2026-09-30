@@ -1,0 +1,11 @@
+--- scientific_source/03_compute/method/active_acquire.py
++++ published/03_compute/method/active_acquire.py
+@@ -17,7 +17,7 @@
+ from pathlib import Path
+ 
+ HERE = Path(__file__).resolve().parent
+-sys.path.insert(0, str(HERE / "vendor"))
++
+ import numpy as np
+ from rdkit import Chem, DataStructs, rdBase
+ from rdkit.Chem import Descriptors, rdFingerprintGenerator

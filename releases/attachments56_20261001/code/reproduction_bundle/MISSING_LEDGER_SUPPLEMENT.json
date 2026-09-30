@@ -1,0 +1,26 @@
+[
+  {
+    "path": "science/R2/evidence/03_compute/raw_runs/formal_forward_v2_resume124/job_ledger.csv",
+    "original_sha256": "76de50c71cd3087ef4395318477ab0bab14f1edcb34a79ec9295c8b5b169b0a0",
+    "publication_sha256": "fd0a5725c693335e52175d9732385ce6195cbf9027b974ea9fded1cd1363e8ea",
+    "nonpath_scientific_fields_identical": true
+  },
+  {
+    "path": "science/R2/evidence/03_compute/raw_runs/formal_forward_v2_active_resume14/job_ledger.csv",
+    "original_sha256": "0a77d7bfb3ea5982515c8ce695bb0a897d3ce852f854eecadb45e5c74c0bdb16",
+    "publication_sha256": "029663d0a1c7c1b99f4c3e259473bd645f553a9c4547a0ccf1f0ae7eda8d1547",
+    "nonpath_scientific_fields_identical": true
+  },
+  {
+    "path": "science/R2/evidence/03_compute/raw_runs/formal_forward_v2_merged/job_ledger.csv",
+    "original_sha256": "bb45f24c994466ae86896862600bf0b015cf355301ad9c2a8b1ec20a7d2d56c3",
+    "publication_sha256": "62268e94d39b34952c73bb80d97d4814faf84d69d02f62a4dcf70f64c1aa56ed",
+    "nonpath_scientific_fields_identical": true
+  },
+  {
+    "path": "science/R2/evidence/03_compute/raw_runs/formal_forward_v2_active_merged41/job_ledger.csv",
+    "original_sha256": "9c1bb5613651b11558d28668d33e6ce56f91c8858d3ff4f85dbfb770689fa92f",
+    "publication_sha256": "ec03663e898479a8c278e6fff21bf3d145e398bf44a859a66e004ce613966833",
+    "nonpath_scientific_fields_identical": true
+  }
+]

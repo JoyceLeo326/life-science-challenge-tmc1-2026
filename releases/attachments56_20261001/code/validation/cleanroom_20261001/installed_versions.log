@@ -1,0 +1,17 @@
+{
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "user_site_enabled": false,
+  "packages": {
+    "rdkit": "2025.9.6",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.7.2",
+    "dimorphite-dl": "2.0.2",
+    "meeko": "0.8.0",
+    "torch": "2.5.1+cpu",
+    "selfies": "2.2.0",
+    "joblib": "1.5.2",
+    "threadpoolctl": "3.6.0",
+    "matplotlib": "3.11.2"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "created_at_utc": "2026-09-28T18:21:39.907882+00:00",
+  "snapshot": "v2_20000_new",
+  "status": "frozen_core_files_plus_append_only_fullprops_sdf",
+  "files": {
+    "all_source_records.csv": {
+      "bytes": 10772651,
+      "sha256": "870e066d33df56376af4c9b0f4f56edf754ec07883c94371589142b5ef6c1a7e"
+    },
+    "all_unique_parents.csv": {
+      "bytes": 8297725,
+      "sha256": "b11b1c32ce3f134de77f59f533796b2f1c20f38c212d0fe97b91b2ad876b6b49"
+    },
+    "filtered_for_screening.csv": {
+      "bytes": 6432719,
+      "sha256": "439f74756bc786709f318a4379037c4df186bc4d40957bdbe245910ba48e8229"
+    },
+    "filtered_for_screening_2d.sdf": {
+      "bytes": 46783045,
+      "sha256": "1ff0dfafb8df9951466e200a549f9fcb891e1bd26db80890b0793c6a994642a3"
+    },
+    "filtered_for_screening_fullprops_2d.sdf": {
+      "bytes": 58295502,
+      "sha256": "ec424c2d74fc1cb427926ce7a5e19bee7de1119e5d04bddefd8b88e720c0d9d4"
+    },
+    "forward_unlabeled_pool.csv": {
+      "bytes": 6091135,
+      "sha256": "8fd8424797e441a3921ba3805dd8e9bf87d3421e5fe3440a32211753ec964c1e"
+    },
+    "historical_overlap.csv": {
+      "bytes": 1798289,
+      "sha256": "605225928e554ed02d939a6e99ac6e3fdb1dec4c37abc7e5eb245a32b6cfe7ab"
+    },
+    "historical_overlap_summary.json": {
+      "bytes": 945,
+      "sha256": "4be131f93c3f4c45c60e2ef3668a96eaad7403555e26b18fece5f66986914d62"
+    },
+    "quality_profile.json": {
+      "bytes": 3044,
+      "sha256": "ade0477e8a0f62d9b562080a412297067550e204bd594f2ccd0c20ba747cb036"
+    },
+    "summary.json": {
+      "bytes": 8662,
+      "sha256": "3b3bd8038bf6251cb8abfdfd15266555f5fb138f2423e45b55c1962eb067cd42"
+    }
+  },
+  "script_sha256": {
+    "source_scripts/build_library.py": "ed490023415926dac1af4cece66872fba492e2bc2b04f6c62c3cbc3903168b02",
+    "source_scripts/make_overlap.py": "7253e5ed797bc537276e11187a2d4c67dccd3f65d303e21f37f519ec569bc296",
+    "source_scripts/verify_and_profile.py": "0a28a5f54b9ac4b6c403c4b7d61b84667bdc6b12dacc366b4630d7dd90450e7a",
+    "source_scripts/add_fullprops_sdf.py": "3dc49ef2b7588bb712157bcdee6048e7f967ac5e07a82571099ec7c1ab68109b"
+  },
+  "counts": {
+    "source_records": 23475,
+    "unique_source_ids": 23403,
+    "unique_parents": 21356,
+    "eligible_parents": 17645,
+    "forward_unlabeled_pool": 16698,
+    "sdf_records": 17645
+  },
+  "qc_pass": true,
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://chembl.github.io/chembl-licensing/"
+}

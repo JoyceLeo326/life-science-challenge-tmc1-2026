@@ -1,0 +1,175 @@
+{
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "type": "standard_synthetic_voice_not_cloned",
+  "rate": "+5%",
+  "human_voice_recording": false,
+  "pages": [
+    {
+      "page": 1,
+      "title": "靶向TMC1机械转导通道的小分子变构调节剂AI辅助筛选——用于Usher综合征1B的听力代偿保护策略",
+      "file": "page_01.mp3",
+      "duration_seconds": 29.952,
+      "sha256": "5a7a35b9354ec6e0ae7c2efbe5cbb368c3dfb96981fa94d897948fc7ed8d762c",
+      "text_sha256": "01941ba347885cec460080dae022be18f71b4915f179de6f6d30c3081ed0bb48",
+      "reused_unchanged_audio": true
+    },
+    {
+      "page": 2,
+      "title": "USH1B的听力问题涉及毛细胞机械转导",
+      "file": "page_02.mp3",
+      "duration_seconds": 22.368,
+      "sha256": "701234c7f9f4c8f8eb221a17332de2d325f520fbe520b496eac1f6ff62b561e8",
+      "text_sha256": "e28240bb4f5daac9be7a8825c773815a2416f7872b6205e66dbc45dd4b7220b3",
+      "reused_unchanged_audio": true
+    },
+    {
+      "page": 3,
+      "title": "TMC1值得探索，能否补偿仍取决于残余功能",
+      "file": "page_03.mp3",
+      "duration_seconds": 24.048,
+      "sha256": "e37723b19eef99c1528addb84f47d315700cce9719bdb1a81bdb5e19aa594e3b",
+      "text_sha256": "a9d73297ccfdbfae0e93b4b6383247aafbf32bc7d4817aeb39d7d92adb6af2c8",
+      "reused_unchanged_audio": true
+    },
+    {
+      "page": 4,
+      "title": "计算负责优选，实验负责判断是否有效",
+      "file": "page_04.mp3",
+      "duration_seconds": 24.624,
+      "sha256": "65bb8f33349bcd5ae75d67be7c8e9bb6877d82ac625459dae341b881fd409b8e",
+      "text_sha256": "25328fcd47ddf9186a757b90346db57afe51a5483034ecb05ff6c6b98ec450f4",
+      "reused_unchanged_audio": true
+    },
+    {
+      "page": 5,
+      "title": "逐级整理后，9098个结构满足对接条件",
+      "file": "page_05.mp3",
+      "duration_seconds": 23.52,
+      "sha256": "54d82fb9a0385aa8db1cf984818605ac02552b9e49c9338748798997fefc3bb9",
+      "text_sha256": "433037f960fd2c5377cb478f7e4613ff44396fe64de4f8b6f389a74dd7258aff",
+      "reused_unchanged_audio": true
+    },
+    {
+      "page": 6,
+      "title": "对接模拟候选姿势，用分数安排实验优先级",
+      "file": "page_06.mp3",
+      "duration_seconds": 25.536,
+      "sha256": "62d16a75b6a92c4086d793ec7f812558031ab4375e8d12581e661d2df17b2a15",
+      "text_sha256": "18cc5f4204f4baffb90f9c161ec2e51cfdb626bcbe46192d9521f74318f28c3c",
+      "reused_unchanged_audio": true
+    },
+    {
+      "page": 7,
+      "title": "三种选取方法各用120次尝试进行比较",
+      "file": "page_07.mp3",
+      "duration_seconds": 24.096,
+      "sha256": "ab047f58122503b12b9d17065a0b65ee3da0ff8cb9c7cbf9ce00985ff84cbf48",
+      "text_sha256": "a63c8c30e8dc02a3bfa1e307008865df2722ccd5af0505f29d1d20465a6034fb",
+      "reused_unchanged_audio": true
+    },
+    {
+      "page": 8,
+      "title": "AI提高本次分数达标率，接触优势仍有限",
+      "file": "page_08.mp3",
+      "duration_seconds": 23.4,
+      "sha256": "1d45aa47acac3984ae47385cc9bc785f828a0bd1fdefd17d703ce3e6e9424cf1",
+      "text_sha256": "641a0cee418bdb93f05cd6bf53d4d32f6f100bf33e5ebd8d18746aa78b2e06d9",
+      "reused_unchanged_audio": true
+    },
+    {
+      "page": 9,
+      "title": "已知研究化合物的新用途候选",
+      "file": "page_09.mp3",
+      "duration_seconds": 22.776,
+      "sha256": "78dfcf626b7eaccdcaded269fa3e4a228bed5fbff7ce486ec69f7492b3d53655",
+      "text_sha256": "58f84b2a33144ea5b58c1b2a7494f3897df0b76ca224831b5ea5bf3c8a0555f6",
+      "reused_unchanged_audio": false
+    },
+    {
+      "page": 10,
+      "title": "六候选四条件确认24次计算，接触保留22/24",
+      "file": "page_10.mp3",
+      "duration_seconds": 24.312,
+      "sha256": "ab540e31de785bb20a568958587a1dc0a2d5b8570436f87ba27a6dfc28ada8ec",
+      "text_sha256": "43059cf5ca4a43ea932d580e2647f162eac4711002c230e869849f484d743d61",
+      "reused_unchanged_audio": true
+    },
+    {
+      "page": 11,
+      "title": "ADMET与SA预测提示后续优化重点",
+      "file": "page_11.mp3",
+      "duration_seconds": 27.264,
+      "sha256": "b4de4a02caf27b7df418e618b0a186974ff519130cabde7a841b5a7689a693ab",
+      "text_sha256": "f2621a5bf1a1522ce40338523f94c7f73cd92eb5861fce0f5be8de422a71099e",
+      "reused_unchanged_audio": false
+    },
+    {
+      "page": 12,
+      "title": "三物种比较仅作方向性参考",
+      "file": "page_12.mp3",
+      "duration_seconds": 26.952,
+      "sha256": "36eb11c03a580bb87f025602b538b85ec04fd22375ae381a7e57a8923339d191",
+      "text_sha256": "f1188d7811f0f35e9adc02c95fc5b0c31facf2237028395472c117887002c240",
+      "reused_unchanged_audio": true
+    },
+    {
+      "page": 13,
+      "title": "弹性网络检验结构敏感性，尚未形成动态受体",
+      "file": "page_13.mp3",
+      "duration_seconds": 20.664,
+      "sha256": "2d418d2b1d90c5ed5a3dbcb0b03b43412dd104092006ef89ad0bf4812aa6a4bc",
+      "text_sha256": "fa407e46f40009659d2c1354193e4803bc8140f53716e1d9861d1dcd84603700",
+      "reused_unchanged_audio": false
+    },
+    {
+      "page": 14,
+      "title": "生成设计和追加补筛均未获得联合达标分子",
+      "file": "page_14.mp3",
+      "duration_seconds": 23.544,
+      "sha256": "dfc93132a151fff60392e5973ddece59103b88ed3e662adb16a18a22aeda208b",
+      "text_sha256": "22ded6b983fd0b0da47b22082b2c26aedc15eab2a01601dcd73438903fafa47d",
+      "reused_unchanged_audio": true
+    },
+    {
+      "page": 15,
+      "title": "异质参照检验提示流程仍需校准",
+      "file": "page_15.mp3",
+      "duration_seconds": 25.824,
+      "sha256": "c74bbfda57e8fb3a7d5e6da6e02680e4fc4c80f21919bca629f04e8ce02bdd0b",
+      "text_sha256": "e8899b6f7e8bb85f81cfd4be14efc33bc6c390a513371d731fbc68128735aefb",
+      "reused_unchanged_audio": true
+    },
+    {
+      "page": 16,
+      "title": "功能实验先看剂量与洗脱，再检验靶点依赖性",
+      "file": "page_16.mp3",
+      "duration_seconds": 24.408,
+      "sha256": "5afd4e93b092761fb9988f40e6a3eb1f525c721257d4a6a4bf4609f512a6f398",
+      "text_sha256": "dd646e625c7cc5c0796f0134c89b8634c28ab0dc871a9143a348d45a92bffa95",
+      "reused_unchanged_audio": false
+    },
+    {
+      "page": 17,
+      "title": "疾病模型中的重复改善才支持下游补偿",
+      "file": "page_17.mp3",
+      "duration_seconds": 26.328,
+      "sha256": "71d0e97130810fdc259dee6925ad294037e34e7d653cdc692b16bd59e2da59b6",
+      "text_sha256": "c11d48e82a717873adc30e50634d3f82b04efecf0db67962c15aed9e14846053",
+      "reused_unchanged_audio": true
+    },
+    {
+      "page": 18,
+      "title": "六个计算候选形成了功能验证优先名单",
+      "file": "page_18.mp3",
+      "duration_seconds": 23.736,
+      "sha256": "5f8abc0d39d23e9373de42d31fafce55718b7111b01b2e24ae691706085849e4",
+      "text_sha256": "75490fffeaefa9abe26c5f9988c5f60f3a28801e6b50c5d52a4595c93491cd59",
+      "reused_unchanged_audio": true
+    }
+  ],
+  "updated_at_cst": "2026-10-01T03:05:07.145170+08:00",
+  "audio_total_seconds": 443.352,
+  "presentation_total_seconds": 448.75199999999995,
+  "all_pages_complete": true,
+  "under480seconds": true
+}

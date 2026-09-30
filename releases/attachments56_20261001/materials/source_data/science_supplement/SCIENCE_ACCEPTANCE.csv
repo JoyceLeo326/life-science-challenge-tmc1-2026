@@ -1,0 +1,29 @@
+﻿check,passed,detail
+SwissADME11_exact_InChIKey_identity,True,11
+SwissADME_no_duplicate_missing,True,11
+A2_pair_count,True,1458
+A2_unique_ChEMBL_ID_count,True,847
+A2_pharmacology_actual_records,True,622
+A2_source_identity,True,6
+A2_all_40_scores,True,actual API values
+A2_CHEMBL1079964_counts,True,separate60 count checked at retrieval
+A2_CHEMBL1080362_counts,True,separate60 count checked at retrieval
+A2_CHEMBL1081740_counts,True,separate60 count checked at retrieval
+A2_CHEMBL1080669_counts,True,separate60 count checked at retrieval
+A2_CHEMBL1076497_counts,True,separate60 count checked at retrieval
+A2_CHEMBL1080205_counts,True,separate60 count checked at retrieval
+LIB_YWDIXVZCRMMQQY_SA_recompute,True,RDKit 2025.09.6
+LIB_MYAFDHCCQBIZLC_SA_recompute,True,RDKit 2025.09.6
+LIB_ZNDXPRCORYDEAP_SA_recompute,True,RDKit 2025.09.6
+LIB_FCRHJSNRFAAYQD_SA_recompute,True,RDKit 2025.09.6
+LIB_DNDVGFIEWOHGAH_SA_recompute,True,RDKit 2025.09.6
+LIB_ZVHBDYFMHCQADD_SA_recompute,True,RDKit 2025.09.6
+LIB_CHEMBL2103870_SA_recompute,True,RDKit 2025.09.6
+LIB_CHEMBL3894860_SA_recompute,True,RDKit 2025.09.6
+DES_JMWNSKZCTCNWSL_SA_recompute,True,RDKit 2025.09.6
+GEN_LDAGBLZIWYMUFJ_SA_recompute,True,RDKit 2025.09.6
+GEN_YUOYQOBVJWRGGY_SA_recompute,True,RDKit 2025.09.6
+ADMET_AI11x41_finite,True,451
+ADMET_AI_range_exceptions_retained,True,10
+A1_no_false68_denominator,True,68 not claimed completed
+A1_limited_training12_overlap,True,0

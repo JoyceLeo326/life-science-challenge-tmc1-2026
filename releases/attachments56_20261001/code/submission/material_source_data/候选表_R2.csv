@@ -1,0 +1,7 @@
+﻿confirmation_rank,compound_id,conditions_confirmed_n,conditions_total_n,score_min_kcal_mol,score_max_kcal_mol,middle_contacts_n,middle_contacts_total_n,min_box_margin_A,min_receptor_distance_A,qc_status,charge_warning,interpretation
+1,LIB_DNDVGFIEWOHGAH,4,4,-11.102,-9.505,4,4,2.844,2.703,pass_24_of_24_batch_qc,no,static_Vina_proxy_only; no_experimental_activity
+2,LIB_FCRHJSNRFAAYQD,4,4,-11.179,-9.842,4,4,2.822,2.984,pass_24_of_24_batch_qc,no,static_Vina_proxy_only; no_experimental_activity
+3,LIB_MYAFDHCCQBIZLC,4,4,-10.663,-10.062,3,4,-0.047,2.877,pass_24_of_24_batch_qc,no,static_Vina_proxy_only; no_experimental_activity
+4,LIB_YWDIXVZCRMMQQY,4,4,-10.616,-10.108,4,4,2.476,2.916,pass_24_of_24_batch_qc,no,static_Vina_proxy_only; no_experimental_activity
+5,LIB_ZNDXPRCORYDEAP,4,4,-10.923,-10.045,4,4,2.577,2.912,pass_24_of_24_batch_qc,no,static_Vina_proxy_only; no_experimental_activity
+6,LIB_ZVHBDYFMHCQADD,4,4,-10.842,-9.911,3,4,0.06,2.803,pass_24_of_24_batch_qc,no,static_Vina_proxy_only; no_experimental_activity

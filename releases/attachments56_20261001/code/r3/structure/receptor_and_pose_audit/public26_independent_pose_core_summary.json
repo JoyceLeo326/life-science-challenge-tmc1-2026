@@ -1,0 +1,12 @@
+{
+  "batch": "mixed_public_input",
+  "jobs_in_ledger": 26,
+  "independent_qc_pass": 25,
+  "independent_qc_failed": 1,
+  "reasons": {
+    "outside_docking_box": 1
+  },
+  "middle_contact_4A_among_qc_pass": 19,
+  "charge_parameterization_warnings": 0,
+  "source_ledger_file_sha256": "542560d534fe854061100d9836970f8d8d66ad3220b8d5f95d253b1a5d7740cc"
+}

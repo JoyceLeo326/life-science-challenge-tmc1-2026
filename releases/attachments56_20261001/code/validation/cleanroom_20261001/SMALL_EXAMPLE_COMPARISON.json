@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "check": "Seven teaching-design rows including all15 columns byte-identical",
+  "files": [
+    {
+      "kind": "frozen",
+      "sha256": "7d79324fa534d876c63d7ca08695669274a13c435715bd6a484e9e8d489e0f93"
+    },
+    {
+      "kind": "new_env_short",
+      "sha256": "7d79324fa534d876c63d7ca08695669274a13c435715bd6a484e9e8d489e0f93"
+    },
+    {
+      "kind": "public_full",
+      "sha256": "7d79324fa534d876c63d7ca08695669274a13c435715bd6a484e9e8d489e0f93"
+    }
+  ]
+}

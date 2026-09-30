@@ -1,0 +1,19 @@
+{
+  "python": "3.12.10",
+  "os": "Windows-11-10.0.26200-SP0",
+  "CPU_only": true,
+  "packages": {
+    "rdkit": "2025.9.6",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.7.2",
+    "dimorphite-dl": "2.0.2",
+    "meeko": "0.8.0",
+    "torch": "2.5.1+cpu",
+    "selfies": "2.2.0",
+    "matplotlib": "3.11.2",
+    "joblib": "1.5.2",
+    "threadpoolctl": "3.6.0"
+  },
+  "historical_exact_numpy_scipy": "not established by original frozen records"
+}

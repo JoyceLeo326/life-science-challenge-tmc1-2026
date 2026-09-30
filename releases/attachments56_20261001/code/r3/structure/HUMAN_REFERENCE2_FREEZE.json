@@ -1,0 +1,21 @@
+{
+  "created_utc": "2026-09-30T14:44:21.727203+00:00",
+  "status": "frozen_before_first_human_reference2_docking",
+  "reason": "complete two reference rows of sixcandidate+tworeference threestructure descriptive matrix; original12candidatejobs unchanged",
+  "input_sha256": "d8499ca0dcce312ca8b4c2dcd7b8a133ebd74445718d0905d117c08763050941",
+  "ligand_ids": [
+    "REF_CHEMBL115",
+    "REF_CHEMBL1397"
+  ],
+  "receptor_file": "<SOURCE_PROJECT>\\接管推进_2026-09-27\\01_计算筛选\\screen_v2\\inputs\\receptors\\H_AF.pdbqt",
+  "receptor_sha256": "35b4acccd44a5c2c5c8aa7e756abe26c081018a2c26d0899190751c23392f2c1",
+  "box_file": "<SOURCE_PROJECT>\\接管推进_2026-09-27\\01_计算筛选\\coarse_v1\\config\\vina_box.txt",
+  "box_sha256": "3e4c7eb2c313edbe496068c9fb17790e7ca746567519836ed46131e5e7570d49",
+  "box_meta_file": "<SOURCE_PROJECT>\\接管推进_2026-09-27\\01_计算筛选\\coarse_v1\\config\\common_box.json",
+  "source_original_H_AF_job_id": "LIB_YWDIXVZCRMMQQY__H_AF__e8__s20260927",
+  "protocol": "same original H_AF6 receptor/box; unchanged R3chemicalrules; pH7.4 ETKDGv3 10 MMFF94s min, prepseed20260927; Vina1.2.7 seed20260927 e8 cpu2 workers2 num_modes9 energy_range3 timeout1800",
+  "geometry_qc": "stableidentity/hash/scoreagreement;heavyclash1.5A;boxmargin-.1A;firstpose only;4A Middle contact descriptive",
+  "score_threshold": "not_defined; no pharmacology interpretation orR2rerank",
+  "script_sha256": "a006fc7c1f17bd896b8d5f72825b50e1f9d13e2eed49e3e5b1ddc884112e4237",
+  "run_after_worm_batch_finished": "enforce max2 simultaneous dockingworkers across newjobs"
+}

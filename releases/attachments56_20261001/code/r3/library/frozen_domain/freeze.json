@@ -1,0 +1,41 @@
+{
+  "created_utc": "2026-09-28T18:18:16.632540+00:00",
+  "task": "prospective new-molecule proxy of old M_PUB_ALL e8 Vina score; no new docking used",
+  "input": "external_source/forward_unlabeled_pool.csv",
+  "input_sha256": "8fd8424797e441a3921ba3805dd8e9bf87d3421e5fe3440a32211753ec964c1e",
+  "old_label_sha256": "65b19d87b9c0ee25e009e439217b35df1001c22c78129d3282f34b7820c36ea4",
+  "old_library_sha256": "484b0dddc59531abf6e0cd53414be0ee3ccf482aeb222e75797eedf2c0d9d809",
+  "model_training_qc_labels": 935,
+  "source_rows": 16698,
+  "prediction_status": {
+    "predicted": 16698
+  },
+  "docking_eligibility": {
+    "eligible": 9098,
+    "unspecified_source_stereo": 6512,
+    "unspecified_rule_stable_stereo": 1076,
+    "prepilot_already_attempted": 12
+  },
+  "arm_budget_attempts": 120,
+  "AI_initial_queries": 60,
+  "AI_active_remaining_queries": 60,
+  "physical_union_initial": 278,
+  "arm_overlap_savings_initial": 22,
+  "excluded_pilot_ids": 12,
+  "excluded_pilot_file": "external_source/runtime_pilot_12.csv",
+  "excluded_pilot_sha256": "1d19f7b911e533db8a01a78c5f44e7c669d0cff6b56719d70c6848c3e57446fc",
+  "predeclared_favorable_score_threshold_kcal_mol": -8.07960033416748,
+  "threshold_source": "10th percentile of 935 historical QC-passing M_PUB_ALL e8 scores; docking-score endpoint only",
+  "failure_policy": "Every selected attempted molecule consumes its arm budget even if preparation, execution, or QC fails; failures are not assigned a favorable score.",
+  "primary_endpoint": "Among each arm's 120 attempted new parent molecules, number with finite QC-passing M_PUB_ALL e8 seed20260927 first-pose score <= frozen historical 10th percentile. Same attempt denominator even on failure; no biological activity interpretation.",
+  "secondary_endpoint": "Within successful poses, predeclared middle-site heavy contact within 4A, reported separately from score endpoint; no post hoc replacement or reranking.",
+  "active_learning_rule": "After AI initial batch only, refit same ExtraTrees on historical labels plus QC-passing AI-initial new scores; failed AI initial attempts retained as cost and not imputed. Select remaining by predicted mean minus 0.5 tree SD, deterministic compound ID ties, excluding already AI queried, no non-AI arm labels used.",
+  "cost_policy": "Report per-arm sum actual preparation and docking job CPU-requested seconds plus wall-clock; physical overlapping jobs executed once, each arm charged individually.",
+  "model_seed": 20260929,
+  "chemical_identity_rule_version": "exchangeable_tertiary_ring_NH_and_full_potential_stereo_v3_20260929",
+  "software": {
+    "rdkit": "2025.09.6",
+    "sklearn": "1.7.2"
+  },
+  "wall_seconds": 181.07804439985193
+}

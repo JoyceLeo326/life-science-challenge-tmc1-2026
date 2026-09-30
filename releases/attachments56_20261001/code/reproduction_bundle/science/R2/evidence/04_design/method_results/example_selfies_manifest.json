@@ -1,0 +1,74 @@
+{
+  "run_id": "example_selfies",
+  "timestamp_utc": "2026-09-30T11:13:08.474637+00:00",
+  "method": "locally trained SELFIES single-layer GRU with structural-neighbor fine-tuning",
+  "not_pretrained": true,
+  "not_TMC1_affinity_conditioned": true,
+  "torch_version": "2.5.1+cpu",
+  "selfies_package_metadata_version": "2.2.0",
+  "selfies_runtime_version_reported": "2.1.1",
+  "rdkit_version": "2025.09.6",
+  "library_path": "<ORIGINAL_CODE_PACKAGE>\\data\\tutorial_library2048.csv",
+  "library_sha256": "390985b4dfd56a7a3a874fc370bb122628b17ba8850c90880bbf367f524eb805",
+  "raw_input_rows": 2048,
+  "first_round_screen_path": "<ORIGINAL_COMPUTE>\\reproducible_package\\science\\R1\\screen_v2\\inputs\\library\\eligible_pool.csv",
+  "first_round_screen_sha256": "9add7f2a901293c7d2be2f748d17f08e35bcc1dc6f47c7573fcc5d6fbbd15916",
+  "rule_enumeration_path": "<ORIGINAL_COMPUTE>\\reproducible_package\\science\\R2\\evidence\\04_design\\method_results\\design_constraints_all.csv",
+  "rule_enumeration_sha256": "2a46fc4c47441b6773cc95c72311d4ff1b7e6ea1399b79657d83bdf853629f9b",
+  "unique_structures_in_model_scope": 2022,
+  "smiles_augmented_examples": 0,
+  "base_training_structures": 1851,
+  "scaffold_heldout_structures": 171,
+  "focused_finetune_structures": 44,
+  "focused_similarity_threshold": 0.25,
+  "focused_examples_from_training_only": true,
+  "input_rejections": {
+    "element": 23,
+    "token_length": 3
+  },
+  "vocab_size": 54,
+  "model_parameters": 49878,
+  "architecture": {
+    "embedding": 48,
+    "hidden": 96,
+    "layers": 1
+  },
+  "base_optimizer": "Adam lr=0.002",
+  "focus_optimizer": "Adam lr=0.0005",
+  "base_history": [
+    {
+      "epoch": 1,
+      "train_token_loss": 2.68613,
+      "scaffold_heldout_token_loss": 2.19461,
+      "wall_seconds_cumulative": 6.3
+    }
+  ],
+  "focused_history": [],
+  "seed_training": 20260929,
+  "seed_sample_base": 20260930,
+  "seed_sample_focused": 20260931,
+  "temperature": 0.85,
+  "sample_max_tokens": 140,
+  "sample_requested_each_model": 32,
+  "base_weights_path": "<ORIGINAL_COMPUTE>\\actual_example\\04_design\\example_selfies\\base_model_state.pt",
+  "base_weights_sha256": "3c0a88ba002e349d292d0245b95caf63e9ac1ea75d2b5b3368549b50e8d18e4e",
+  "focused_weights_path": null,
+  "focused_weights_sha256": null,
+  "base_result": {
+    "raw_path": "<ORIGINAL_COMPUTE>\\actual_example\\04_design\\example_selfies\\base_raw_generated.csv.gz",
+    "raw_sha256": "44ba69561c862ac2af3f07d621276c92104b1c9e411f94d8fdfca58d5c64e3ad",
+    "sample_counts": {
+      "valid_samples": 31,
+      "unique_valid": 29,
+      "constraint_excluded": 29,
+      "duplicate_generated": 2,
+      "invalid_decode_or_rdkit": 1
+    },
+    "similarity_yield_after_properties": {},
+    "eligible": 0,
+    "fixed_diverse": 0
+  },
+  "focused_result": null,
+  "wall_seconds": 6.8,
+  "selection_note": "post-sampling physicochemical/PAINS/Brenk filters; nearest first-round similarity 0.15-0.80 is exploratory, not a parent-child synthetic lineage; <=2 per scaffold, pairwise ECFP4 <=0.7; no docking scores used"
+}

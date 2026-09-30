@@ -1,0 +1,8 @@
+{
+  "input_count": 11,
+  "endpoints": 41,
+  "max_absolute_difference": 0.0,
+  "exact_match": true,
+  "script_sha256": "859f9bd3a32e902cb0e6687b253fa2d34285664cef7a5af7e550582957b04922",
+  "CPU_forced_before_torch_import": true
+}

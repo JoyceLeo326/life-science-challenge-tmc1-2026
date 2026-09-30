@@ -1,0 +1,25 @@
+{
+  "rows": 60,
+  "outcomes": {
+    "qc_pass": 60
+  },
+  "ai_initial_assignments_sha256": "1eb0908109108bba2507efa39e46f7a4561e63bf4d161309175f590b25f3b9ce",
+  "job_ledger_sha256": {
+    "old154": "75a95077a56ea1945b169b984d719b461620704c71b7e3d818771617173e14db",
+    "resume124": "76de50c71cd3087ef4395318477ab0bab14f1edcb34a79ec9295c8b5b169b0a0"
+  },
+  "independent_qc_sha256": {
+    "old154": "861d5486b356cd2455e42df24760609dbc968ba1841188ffc74ffa865f93385b",
+    "resume124": "3470839d5f2b4915a26d217dff3e93441c1864a2d4251d8d31662ac05db46a66"
+  },
+  "outcome_file_sha256": "48484f8f50a151603636837d5a1dbc55d0e8e0d9b1adb346258312a5853e5646",
+  "policy": "Exactly 60 terminal AI-initial assigned compounds; only independent QC pass scores exposed for active learning; every attempted item retained. Other arms may still be running.",
+  "job_ledger_rows_at_release": {
+    "old154": 154,
+    "resume124": 124
+  },
+  "independent_qc_rows_at_release": {
+    "old154": 154,
+    "resume124": 124
+  }
+}

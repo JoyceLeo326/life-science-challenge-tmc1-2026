@@ -1,0 +1,241 @@
+{
+  "status": "RULES_FROZEN_PRE_DIAGNOSTIC",
+  "rdkit_version": "2025.09.6",
+  "release_tag": "Release_2025_09_6",
+  "tag_object_sha": "0ece02e9254ef2d5eeade2bd40eb13546522dbd3",
+  "pains_count": 480,
+  "brenk_count": 105,
+  "family_counts": {
+    "PAINS_A": 16,
+    "PAINS_B": 55,
+    "PAINS_C": 409,
+    "BRENK": 105
+  },
+  "reactive_subset": [
+    {
+      "rule_id": "acid_halide",
+      "description": "acid_halide",
+      "smarts": "C(=O)[Cl,Br,I,F]",
+      "source": "https://raw.githubusercontent.com/rdkit/rdkit/0ece02e9254ef2d5eeade2bd40eb13546522dbd3/Code/GraphMol/FilterCatalog/Filters.cpp#L49"
+    },
+    {
+      "rule_id": "aldehyde",
+      "description": "aldehyde",
+      "smarts": "[CH1](=O)",
+      "source": "https://raw.githubusercontent.com/rdkit/rdkit/0ece02e9254ef2d5eeade2bd40eb13546522dbd3/Code/GraphMol/FilterCatalog/Filters.cpp#L53"
+    },
+    {
+      "rule_id": "isocyanate",
+      "description": "isocyanate",
+      "smarts": "N=C=O",
+      "source": "https://raw.githubusercontent.com/rdkit/rdkit/0ece02e9254ef2d5eeade2bd40eb13546522dbd3/Code/GraphMol/FilterCatalog/Filters.cpp#L110"
+    },
+    {
+      "rule_id": "ketene",
+      "description": "ketene",
+      "smarts": "C=C=O",
+      "source": "https://raw.githubusercontent.com/rdkit/rdkit/0ece02e9254ef2d5eeade2bd40eb13546522dbd3/Code/GraphMol/FilterCatalog/Filters.cpp#L115"
+    },
+    {
+      "rule_id": "Michael_acceptor_1",
+      "description": "Michael_acceptor_1",
+      "smarts": "C=!@CC=[O,S]",
+      "source": "https://raw.githubusercontent.com/rdkit/rdkit/0ece02e9254ef2d5eeade2bd40eb13546522dbd3/Code/GraphMol/FilterCatalog/Filters.cpp#L117"
+    },
+    {
+      "rule_id": "Michael_acceptor_2",
+      "description": "Michael_acceptor_2",
+      "smarts": "[$([CH]),$(CC)]#CC(=O)[C,c]",
+      "source": "https://raw.githubusercontent.com/rdkit/rdkit/0ece02e9254ef2d5eeade2bd40eb13546522dbd3/Code/GraphMol/FilterCatalog/Filters.cpp#L118"
+    },
+    {
+      "rule_id": "Michael_acceptor_3",
+      "description": "Michael_acceptor_3",
+      "smarts": "[$([CH]),$(CC)]#CS(=O)(=O)[C,c]",
+      "source": "https://raw.githubusercontent.com/rdkit/rdkit/0ece02e9254ef2d5eeade2bd40eb13546522dbd3/Code/GraphMol/FilterCatalog/Filters.cpp#L119"
+    },
+    {
+      "rule_id": "Michael_acceptor_4",
+      "description": "Michael_acceptor_4",
+      "smarts": "C=C(C=O)C=O",
+      "source": "https://raw.githubusercontent.com/rdkit/rdkit/0ece02e9254ef2d5eeade2bd40eb13546522dbd3/Code/GraphMol/FilterCatalog/Filters.cpp#L120"
+    },
+    {
+      "rule_id": "Michael_acceptor_5",
+      "description": "Michael_acceptor_5",
+      "smarts": "[$([CH]),$(CC)]#CC(=O)O[C,c]",
+      "source": "https://raw.githubusercontent.com/rdkit/rdkit/0ece02e9254ef2d5eeade2bd40eb13546522dbd3/Code/GraphMol/FilterCatalog/Filters.cpp#L121"
+    },
+    {
+      "rule_id": "Three-membered_heterocycle",
+      "description": "Three-membered_heterocycle",
+      "smarts": "*1[O,S,N]*1",
+      "source": "https://raw.githubusercontent.com/rdkit/rdkit/0ece02e9254ef2d5eeade2bd40eb13546522dbd3/Code/GraphMol/FilterCatalog/Filters.cpp#L165"
+    }
+  ],
+  "catalog_csv": "rule_catalog.csv",
+  "catalog_csv_sha256": "1435db734371a481d7259ac6a8f1c88a0940ae5fcab2da0c14a4708606219145",
+  "catalog_rows": 585,
+  "frozen_at_cst": "2026-09-30T22:43:26+08:00",
+  "frozen_at_utc": "2026-09-30T14:43:26+00:00",
+  "scope": "Exact textual extraction of all RDKit Release_2025_09_6 PAINS_A/B/C and BRENK SMARTS; provenance/permission/citation freeze before any library diagnostic",
+  "limitations": [
+    "This is a frozen structural-alert catalog, not measured reactivity, toxicity, assay interference, efficacy or automatic exclusion criteria.",
+    "All reactive_subset rows are exact existing BRENK descriptions and SMARTS; no novel SMARTS were written or changed.",
+    "Three-membered_heterocycle is a broad three-membered heterocycle alert, not an epoxide-only classifier.",
+    "Use installed RDKit 2025.09.6 built-in FilterCatalog PAINS (A+B+C) and BRENK with exact GetDescription mapping. Source construction merges query Hs (mergeHs=true); raw MolFromSmarts without merging can differ for PAINS.",
+    "SMARTS were textually extracted and cross-checked against official source; no RDKit molecule matching, chemistry values or 9098-pool diagnostics were run in this freeze.",
+    "BRENK scope in official source includes potential toxic or unfavorable pharmacokinetic structural functionality; a match is not experimental proof.",
+    "Current public API documentation may describe a newer version. Execution must use this versioned source and RDKit 2025.09.6.",
+    "GitHub API directory/ref request returned HTTP403 rate limit. Official raw source and read-only git tag resolution succeeded; no third-party mirror was used."
+  ],
+  "source_files": [
+    {
+      "file": "official_sources/Filters.cpp",
+      "repository_path": "Code/GraphMol/FilterCatalog/Filters.cpp",
+      "sha256": "bad5c1760f30d860ec99f6cd61e85b25f411948a027bcc5a88c8030162a9365b",
+      "bytes": 25575,
+      "download_url": "https://raw.githubusercontent.com/rdkit/rdkit/Release_2025_09_6/Code/GraphMol/FilterCatalog/Filters.cpp",
+      "pinned_url": "https://raw.githubusercontent.com/rdkit/rdkit/0ece02e9254ef2d5eeade2bd40eb13546522dbd3/Code/GraphMol/FilterCatalog/Filters.cpp"
+    },
+    {
+      "file": "official_sources/FilterCatalog.cpp",
+      "repository_path": "Code/GraphMol/FilterCatalog/FilterCatalog.cpp",
+      "sha256": "6ec8a1d074033e3c0badf6986d91366aa8d46cf8ab5026d7e42ef84d767214af",
+      "bytes": 7562,
+      "download_url": "https://raw.githubusercontent.com/rdkit/rdkit/Release_2025_09_6/Code/GraphMol/FilterCatalog/FilterCatalog.cpp",
+      "pinned_url": "https://raw.githubusercontent.com/rdkit/rdkit/0ece02e9254ef2d5eeade2bd40eb13546522dbd3/Code/GraphMol/FilterCatalog/FilterCatalog.cpp"
+    },
+    {
+      "file": "official_sources/FilterCatalogEntry.cpp",
+      "repository_path": "Code/GraphMol/FilterCatalog/FilterCatalogEntry.cpp",
+      "sha256": "dd4c3d341215124c4f332bbdcd9d0d745dee4ef91901700cdd9a2ea1e988f54c",
+      "bytes": 3979,
+      "download_url": "https://raw.githubusercontent.com/rdkit/rdkit/Release_2025_09_6/Code/GraphMol/FilterCatalog/FilterCatalogEntry.cpp",
+      "pinned_url": "https://raw.githubusercontent.com/rdkit/rdkit/0ece02e9254ef2d5eeade2bd40eb13546522dbd3/Code/GraphMol/FilterCatalog/FilterCatalogEntry.cpp"
+    },
+    {
+      "file": "official_sources/Filters.h",
+      "repository_path": "Code/GraphMol/FilterCatalog/Filters.h",
+      "sha256": "0a6ef0ee3558960fc5729e5b6304c62be6c4f31c110eba0802e94499cfa147b2",
+      "bytes": 2537,
+      "download_url": "https://raw.githubusercontent.com/rdkit/rdkit/Release_2025_09_6/Code/GraphMol/FilterCatalog/Filters.h",
+      "pinned_url": "https://raw.githubusercontent.com/rdkit/rdkit/0ece02e9254ef2d5eeade2bd40eb13546522dbd3/Code/GraphMol/FilterCatalog/Filters.h"
+    },
+    {
+      "file": "official_sources/FilterCatalog.h",
+      "repository_path": "Code/GraphMol/FilterCatalog/FilterCatalog.h",
+      "sha256": "14a0c66794742e14a3821ba1736909f45f0ffa8108113a835d078e8d46d5dbe6",
+      "bytes": 9486,
+      "download_url": "https://raw.githubusercontent.com/rdkit/rdkit/Release_2025_09_6/Code/GraphMol/FilterCatalog/FilterCatalog.h",
+      "pinned_url": "https://raw.githubusercontent.com/rdkit/rdkit/0ece02e9254ef2d5eeade2bd40eb13546522dbd3/Code/GraphMol/FilterCatalog/FilterCatalog.h"
+    },
+    {
+      "file": "official_sources/pains_a.in",
+      "repository_path": "Code/GraphMol/FilterCatalog/pains_a.in",
+      "sha256": "64c709cb38a0bf1ed121fc834a1782cadef9d14f909c325b16a443178231358b",
+      "bytes": 1755,
+      "download_url": "https://raw.githubusercontent.com/rdkit/rdkit/Release_2025_09_6/Code/GraphMol/FilterCatalog/pains_a.in",
+      "pinned_url": "https://raw.githubusercontent.com/rdkit/rdkit/0ece02e9254ef2d5eeade2bd40eb13546522dbd3/Code/GraphMol/FilterCatalog/pains_a.in"
+    },
+    {
+      "file": "official_sources/pains_b.in",
+      "repository_path": "Code/GraphMol/FilterCatalog/pains_b.in",
+      "sha256": "505786afa87eaa71d7d051af0d97e01a1500ebacd89222a39174cd7de6ca5e78",
+      "bytes": 6624,
+      "download_url": "https://raw.githubusercontent.com/rdkit/rdkit/Release_2025_09_6/Code/GraphMol/FilterCatalog/pains_b.in",
+      "pinned_url": "https://raw.githubusercontent.com/rdkit/rdkit/0ece02e9254ef2d5eeade2bd40eb13546522dbd3/Code/GraphMol/FilterCatalog/pains_b.in"
+    },
+    {
+      "file": "official_sources/pains_c.in",
+      "repository_path": "Code/GraphMol/FilterCatalog/pains_c.in",
+      "sha256": "0aaf01d8b7beb703a4fb93fa1f02d61ca8b1bd5dc49c0f887155215321e2464d",
+      "bytes": 54561,
+      "download_url": "https://raw.githubusercontent.com/rdkit/rdkit/Release_2025_09_6/Code/GraphMol/FilterCatalog/pains_c.in",
+      "pinned_url": "https://raw.githubusercontent.com/rdkit/rdkit/0ece02e9254ef2d5eeade2bd40eb13546522dbd3/Code/GraphMol/FilterCatalog/pains_c.in"
+    },
+    {
+      "file": "official_sources/README",
+      "repository_path": "Code/GraphMol/FilterCatalog/README",
+      "sha256": "717744ef4d7b3b9733330b5a8b5183537d045c31f25a53fc9d73b10babe83a30",
+      "bytes": 6821,
+      "download_url": "https://raw.githubusercontent.com/rdkit/rdkit/Release_2025_09_6/Code/GraphMol/FilterCatalog/README",
+      "pinned_url": "https://raw.githubusercontent.com/rdkit/rdkit/0ece02e9254ef2d5eeade2bd40eb13546522dbd3/Code/GraphMol/FilterCatalog/README"
+    },
+    {
+      "file": "official_sources/wehi_pains.csv",
+      "repository_path": "Data/Pains/wehi_pains.csv",
+      "sha256": "806e4328cdc7ccae7453b043b9254fda4615a996ac221092a56ae7369cb54f7c",
+      "bytes": 62838,
+      "download_url": "https://raw.githubusercontent.com/rdkit/rdkit/Release_2025_09_6/Data/Pains/wehi_pains.csv",
+      "pinned_url": "https://raw.githubusercontent.com/rdkit/rdkit/0ece02e9254ef2d5eeade2bd40eb13546522dbd3/Data/Pains/wehi_pains.csv"
+    },
+    {
+      "file": "official_sources/license.txt",
+      "repository_path": "license.txt",
+      "sha256": "daeb8d194502cbcf34c05c39541a0d02be65bc9bada5b891c1974cd24e9fca30",
+      "bytes": 1580,
+      "download_url": "https://raw.githubusercontent.com/rdkit/rdkit/Release_2025_09_6/license.txt",
+      "pinned_url": "https://raw.githubusercontent.com/rdkit/rdkit/0ece02e9254ef2d5eeade2bd40eb13546522dbd3/license.txt"
+    }
+  ],
+  "pinned_definition_byte_checks": [
+    {
+      "file": "official_sources/Filters.cpp",
+      "tag_vs_pinned_bytes_equal": true,
+      "pinned_url": "https://raw.githubusercontent.com/rdkit/rdkit/0ece02e9254ef2d5eeade2bd40eb13546522dbd3/Code/GraphMol/FilterCatalog/Filters.cpp"
+    },
+    {
+      "file": "official_sources/pains_a.in",
+      "tag_vs_pinned_bytes_equal": true,
+      "pinned_url": "https://raw.githubusercontent.com/rdkit/rdkit/0ece02e9254ef2d5eeade2bd40eb13546522dbd3/Code/GraphMol/FilterCatalog/pains_a.in"
+    },
+    {
+      "file": "official_sources/pains_b.in",
+      "tag_vs_pinned_bytes_equal": true,
+      "pinned_url": "https://raw.githubusercontent.com/rdkit/rdkit/0ece02e9254ef2d5eeade2bd40eb13546522dbd3/Code/GraphMol/FilterCatalog/pains_b.in"
+    },
+    {
+      "file": "official_sources/pains_c.in",
+      "tag_vs_pinned_bytes_equal": true,
+      "pinned_url": "https://raw.githubusercontent.com/rdkit/rdkit/0ece02e9254ef2d5eeade2bd40eb13546522dbd3/Code/GraphMol/FilterCatalog/pains_c.in"
+    }
+  ],
+  "wehi_source_crosscheck": {
+    "rows": 480,
+    "unique_name_smarts_pairs": 480,
+    "equals_cpp_pains_mapping": true,
+    "cpp_only_count": 0,
+    "wehi_only_count": 0,
+    "name_normalization": "Remove exact source <regId=...> wrapper only; SMARTS unchanged."
+  },
+  "license": {
+    "license": "BSD-3-Clause repository license plus retained Novartis BSD-style FilterCatalog source notices",
+    "file": "official_sources/license.txt",
+    "sha256": "daeb8d194502cbcf34c05c39541a0d02be65bc9bada5b891c1974cd24e9fca30",
+    "source_notice_files": [
+      "official_sources/Filters.cpp",
+      "official_sources/Filters.h",
+      "official_sources/FilterCatalog.cpp",
+      "official_sources/FilterCatalogEntry.cpp"
+    ],
+    "citation_source": "official_sources/README"
+  },
+  "match_semantics": {
+    "description_is_exact_GetDescription": true,
+    "reactive_subset_uses_BRENK_hits_only": true,
+    "custom_smarts_count": 0,
+    "source_max_all_zero": true,
+    "merge_query_hydrogens": true,
+    "min_count": 1,
+    "max_count": 4294967295,
+    "constructor_source": "official_sources/FilterCatalogEntry.cpp"
+  },
+  "diagnostic_execution": {
+    "performed": false,
+    "molecules_evaluated": 0,
+    "rdkit_imported": false,
+    "required_next_step": "Bind this JSON SHA and catalog CSV SHA; record diagnostic start strictly after frozen_at_cst; validate runtime RDKit version and built-in catalog counts before matching."
+  },
+  "readme_sha256": "13b1630fa5c4b5603123c00d2626ed9b3ecfa4e82ead31939806618089ffe5c4"
+}

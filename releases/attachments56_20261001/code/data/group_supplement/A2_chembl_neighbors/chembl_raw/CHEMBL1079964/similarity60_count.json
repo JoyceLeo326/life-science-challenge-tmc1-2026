@@ -1,0 +1,1 @@
+{"molecules": [{"molecule_chembl_id": "CHEMBL1079796", "similarity": "89.830505847930908203125"}], "page_meta": {"limit": 1, "next": "/chembl/api/data/similarity.json?limit=1&offset=1&chembl_id=CHEMBL1079964&similarity=60&only=molecule_chembl_id%2Csimilarity", "offset": 0, "previous": null, "total_count": 26}}

@@ -1,0 +1,14 @@
+[
+  {
+    "file": "ProDy_v2.6.1_anm.py",
+    "url": "https://raw.githubusercontent.com/prody/ProDy/v2.6.1/prody/dynamics/anm.py",
+    "sha256": "8e1d09bd83e00592855354862960486105706dc4643ae5361500e1e68a1c3169",
+    "bytes": 13624
+  },
+  {
+    "file": "ProDy_v2.6.1_LICENSE",
+    "url": "https://raw.githubusercontent.com/prody/ProDy/v2.6.1/LICENSE.rst",
+    "sha256": "010e2fa23bfe85899e9ed21b47a11054d85da4cd2bb1c962dc5a74c8f88a3ef6",
+    "bytes": 8343
+  }
+]

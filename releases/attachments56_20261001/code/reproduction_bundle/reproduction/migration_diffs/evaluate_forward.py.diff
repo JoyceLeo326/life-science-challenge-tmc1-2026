@@ -1,0 +1,71 @@
+--- scientific_source/03_compute/method/evaluate_forward.py
++++ published/03_compute/method/evaluate_forward.py
+@@ -77,12 +77,12 @@
+     return result if math.isfinite(result) else None
+ 
+ 
+-def batch_wall_seconds(root: Path) -> float:
++def batch_wall_seconds(root: Path, old_override: Path | None = None, resumed_override: Path | None = None) -> float:
+     merged=root/"merge_manifest.json"
+     if merged.exists():
+         meta=json.loads(merged.read_text(encoding="utf-8"))
+-        old=Path(meta["source_paths"]["old"])
+-        new=Path(meta["source_paths"]["resumed"])
++        old=old_override or Path(meta["source_paths"]["old"])
++        new=resumed_override or Path(meta["source_paths"]["resumed"])
+         old_plan=json.loads((old/"plan.json").read_text(encoding="utf-8"))
+         old_jobs=read_csv(old/"job_ledger.csv")
+         old_start=datetime.fromisoformat(old_plan["created_utc"])
+@@ -94,12 +94,12 @@
+     return round((finish-start).total_seconds(),3)
+ 
+ 
+-def batch_awake_wall_seconds(root: Path) -> float:
++def batch_awake_wall_seconds(root: Path, old_override: Path | None = None, resumed_override: Path | None = None) -> float:
+     merged=root/"merge_manifest.json"
+     if merged.exists():
+         meta=json.loads(merged.read_text(encoding="utf-8"))
+-        old=Path(meta["source_paths"]["old"])
+-        new=Path(meta["source_paths"]["resumed"])
++        old=old_override or Path(meta["source_paths"]["old"])
++        new=resumed_override or Path(meta["source_paths"]["resumed"])
+         old_plan=json.loads((old/"plan.json").read_text(encoding="utf-8"))
+         old_jobs=read_csv(old/"job_ledger.csv")
+         old_start=old_plan["created_utc"]
+@@ -116,6 +116,10 @@
+     p=argparse.ArgumentParser()
+     p.add_argument("--freeze",required=True,type=Path)
+     p.add_argument("--active",required=True,type=Path)
++    p.add_argument("--initial-old-batch",required=True,type=Path)
++    p.add_argument("--initial-resumed-batch",required=True,type=Path)
++    p.add_argument("--active-old-batch",required=True,type=Path)
++    p.add_argument("--active-resumed-batch",required=True,type=Path)
+     p.add_argument("--initial-batch",required=True,type=Path)
+     p.add_argument("--active-batch",type=Path,
+                    help="Omit only if all active selections overlap initial physical queries")
+@@ -125,6 +129,9 @@
+     p.add_argument("--active-contacts",type=Path)
+     p.add_argument("--output",required=True,type=Path)
+     a=p.parse_args()
++    for batch in (a.initial_old_batch, a.initial_resumed_batch, a.active_old_batch, a.active_resumed_batch):
++        if not (batch/"plan.json").is_file() or not (batch/"job_ledger.csv").is_file():
++            raise FileNotFoundError(f"Physical batch plan/job ledger missing: {batch}")
+     meta=json.loads((a.freeze/"freeze.json").read_text(encoding="utf-8"))
+     preflight=json.loads((a.freeze/"preflight_v2.json").read_text(encoding="utf-8"))
+     active_meta=json.loads((a.active/"active_freeze.json").read_text(encoding="utf-8"))
+@@ -317,11 +324,11 @@
+            "physical_sum_docking_wall_seconds":round(sum(float(r.get("elapsed_seconds") or 0) for r in jobs.values()),3),
+            "physical_sum_docking_awake_wall_seconds":round(sum(awake_job_seconds(r) for r in jobs.values()),3),
+            "physical_sum_docking_requested_cpu_seconds":round(2*sum(awake_job_seconds(r) for r in jobs.values()),3),
+-           "initial_batch_wall_seconds":batch_wall_seconds(a.initial_batch),
+-           "initial_batch_awake_wall_seconds":batch_awake_wall_seconds(a.initial_batch),
++           "initial_batch_wall_seconds":batch_wall_seconds(a.initial_batch, a.initial_old_batch, a.initial_resumed_batch),
++           "initial_batch_awake_wall_seconds":batch_awake_wall_seconds(a.initial_batch, a.initial_old_batch, a.initial_resumed_batch),
+            "initial_batch_wall_excludes_user_pause":(a.initial_batch/"merge_manifest.json").exists(),
+-           "active_batch_wall_seconds":batch_wall_seconds(a.active_batch) if new_active_ids else 0,
+-           "active_batch_awake_wall_seconds":batch_awake_wall_seconds(a.active_batch) if new_active_ids else 0,
++           "active_batch_wall_seconds":batch_wall_seconds(a.active_batch, a.active_old_batch, a.active_resumed_batch) if new_active_ids else 0,
++           "active_batch_awake_wall_seconds":batch_awake_wall_seconds(a.active_batch, a.active_old_batch, a.active_resumed_batch) if new_active_ids else 0,
+            "active_batch_wall_excludes_settings_switch_gap":bool(new_active_ids and (a.active_batch/"merge_manifest.json").exists()),
+            "interrupted_inflight_active_attempts":len(interrupted_active),
+            "interrupted_inflight_active_attempt_resource_seconds":None if interrupted_active else 0,

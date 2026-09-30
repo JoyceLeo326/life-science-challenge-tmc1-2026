@@ -1,0 +1,4 @@
+arm,attempted,qc_pass,preparation_failed,docking_failed,independent_qc_failed,favorable_score,favorable_score_per_attempt,middle_contact_4A,favorable_and_middle_contact,rule_abs_charge_ge2,historical_scaffold_seen,ood_tanimoto_below_0p3,sum_preparation_wall_seconds,sum_docking_wall_seconds,sum_docking_awake_wall_seconds,sum_docking_requested_cpu_seconds
+random,120,120,0,0,0,36,0.3,91,29,22,7,76,104.115,3606.927,3606.927,7213.854
+descriptor_ridge,120,120,0,0,0,86,0.7166666666666667,119,85,22,1,106,288.641,29617.437,13087.437,26174.874
+AI,120,120,0,0,0,115,0.9583333333333334,107,103,13,8,66,160.966,17462.249,9197.249,18394.498

@@ -1,0 +1,96 @@
+{
+  "status": "PASS",
+  "scope": "packaging, source-field alignment, workbook structure and public-range check; no network or new scientific calculation",
+  "checks": [
+    {
+      "check": "00_阅读导航 row count",
+      "passed": true
+    },
+    {
+      "check": "01_A1来源摘要 row count",
+      "passed": true
+    },
+    {
+      "check": "02_六候选既有药理 row count",
+      "passed": true
+    },
+    {
+      "check": "03_A2检索概览 row count",
+      "passed": true
+    },
+    {
+      "check": "04_A2类似物全表 row count",
+      "passed": true
+    },
+    {
+      "check": "05_A2代表邻居药理 row count",
+      "passed": true
+    },
+    {
+      "check": "06_ADME_SA概览 row count",
+      "passed": true
+    },
+    {
+      "check": "07_ADMET关键输出 row count",
+      "passed": true
+    },
+    {
+      "check": "08_预测异常说明 row count",
+      "passed": true
+    },
+    {
+      "check": "09_字段与证据说明 row count",
+      "passed": true
+    },
+    {
+      "check": "10_来源与验收 row count",
+      "passed": true
+    },
+    {
+      "check": "six candidate assay rows retain original B/F types",
+      "passed": true
+    },
+    {
+      "check": "six candidate values exact",
+      "passed": true
+    },
+    {
+      "check": "1458 pair IDs and scores exact",
+      "passed": true
+    },
+    {
+      "check": "11 SwissADME and RDKit SA exact",
+      "passed": true
+    },
+    {
+      "check": "10 abnormal raw values retained",
+      "passed": true
+    },
+    {
+      "check": "frozen 126 science files byte-identical",
+      "passed": true
+    },
+    {
+      "check": "four independent report copies byte-identical",
+      "passed": true
+    },
+    {
+      "check": "privacy pattern scan",
+      "passed": true
+    }
+  ],
+  "sheets": {
+    "00_阅读导航": 11,
+    "01_A1来源摘要": 6,
+    "02_六候选既有药理": 8,
+    "03_A2检索概览": 6,
+    "04_A2类似物全表": 1458,
+    "05_A2代表邻居药理": 31,
+    "06_ADME_SA概览": 11,
+    "07_ADMET关键输出": 11,
+    "08_预测异常说明": 10,
+    "09_字段与证据说明": 10,
+    "10_来源与验收": 10
+  },
+  "frozen_science_manifest_sha256": "08b28625ad81d3a31ed2e50c7e2a25004042d2be31abcdaa59393d5126c9ae9b"
+}

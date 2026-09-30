@@ -1,0 +1,50 @@
+[
+  {
+    "file": "independent_QA/ACTUAL_INDEPENDENT_QA_RECEIPT.json",
+    "original_internal_sha256": "8bfb6b9b6d09da2c42a76a735e7c76ec6b53e2f0bb223bdcf26d73835c84bebd",
+    "publication_sha256": "506dfc354de01946ab850ad7e9d104c2785b7a304df16ae52643d099f77663c6",
+    "edit": "anonymous paths only; science unchanged"
+  },
+  {
+    "file": "independent_QA/ACTUAL_QA_REPORT.md",
+    "original_internal_sha256": "4d5b1d2ec7ec036432d513feeec9f64abc96db9152186bda0f1cf9a70fc1bd3d",
+    "publication_sha256": "9f137c2c1f7aa5281e7088cd80577c52c8cece737106d6182d222190e32110bd",
+    "edit": "anonymous paths only; science unchanged"
+  },
+  {
+    "file": "independent_QA/INDEPENDENT_FRAME_QA.csv",
+    "original_internal_sha256": "29a55a7cebea9f7efd3e6e338047e19b6795e27b5b7e58873a02bed2602b3107",
+    "publication_sha256": "29a55a7cebea9f7efd3e6e338047e19b6795e27b5b7e58873a02bed2602b3107",
+    "edit": "anonymous paths only; science unchanged"
+  },
+  {
+    "file": "independent_QA/INDEPENDENT_NETWORK_QA.csv",
+    "original_internal_sha256": "4a90854e249c584d24a875c0014f4566c34d2d796fa9bd17cf0148b488bff2f7",
+    "publication_sha256": "4a90854e249c584d24a875c0014f4566c34d2d796fa9bd17cf0148b488bff2f7",
+    "edit": "anonymous paths only; science unchanged"
+  },
+  {
+    "file": "independent_QA/INDEPENDENT_SOURCE_QA.csv",
+    "original_internal_sha256": "20aa0d2047526f5107ab4a04e5425719ed28aa58f4b3b3cab5b8afd1ea677d6d",
+    "publication_sha256": "20aa0d2047526f5107ab4a04e5425719ed28aa58f4b3b3cab5b8afd1ea677d6d",
+    "edit": "anonymous paths only; science unchanged"
+  },
+  {
+    "file": "independent_QA/METHOD_RECOMMENDATION.md",
+    "original_internal_sha256": "401c81a39f26c720a949fc9941f5487e0d99454562a5fb0a7c04ecdff514dbad",
+    "publication_sha256": "e62e4db0d73519de9abc69f249f4e148a4aa76c83ed7413be2eb3637f6b76f53",
+    "edit": "anonymous paths only; science unchanged"
+  },
+  {
+    "file": "independent_QA/MODE_LOCALIZATION_DIAGNOSTIC.csv",
+    "original_internal_sha256": "e2abc6220ce6d125997af10a8fc75de68982588a96432590bf99e0fd35bb15f6",
+    "publication_sha256": "e2abc6220ce6d125997af10a8fc75de68982588a96432590bf99e0fd35bb15f6",
+    "edit": "anonymous paths only; science unchanged"
+  },
+  {
+    "file": "ACTUAL_RUN_RECEIPT.json",
+    "original_internal_sha256": "4e343342558f36f99dadc7aff0df17e3016d20bd9187d9de2bec4f43c087ab7f",
+    "publication_sha256": "a5c0a0125697bd2f5e6f4adf67b2b9093bfb8a3cc6507ba07f9ad80feffdd693",
+    "edit": "threadpool DLL path reduced to filename; scientific values unchanged"
+  }
+]

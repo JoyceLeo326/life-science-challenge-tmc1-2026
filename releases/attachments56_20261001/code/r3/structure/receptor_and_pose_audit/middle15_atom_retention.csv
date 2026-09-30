@@ -1,0 +1,16 @@
+chain,resnum,resname,official_observed_heavy_atoms,prepared_PDB_heavy_atoms,prepared_PDBQT_heavy_atoms,missing_standard_heavy_atoms,all_original_heavy_atoms_retained,max_displacement_A
+A,400,SER,6,6,6,,True,0.0
+A,403,THR,7,7,7,,True,0.0
+A,404,HIS,10,10,10,,True,0.0
+A,435,LEU,8,8,8,,True,0.0
+A,436,TYR,12,12,12,,True,0.0
+A,439,ASN,8,8,8,,True,0.0
+A,440,TYR,12,12,12,,True,0.0
+A,683,ASP,8,8,8,,True,0.0
+A,686,PHE,11,11,11,,True,0.0
+A,687,THR,7,7,7,,True,0.0
+A,691,ILE,8,8,8,,True,0.0
+A,734,ASN,8,8,8,,True,0.0
+A,735,ASN,8,8,8,,True,0.0
+A,737,GLY,4,4,4,,True,0.0
+A,756,LYS,9,9,9,,True,0.0

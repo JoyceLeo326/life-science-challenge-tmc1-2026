@@ -1,0 +1,16 @@
+{
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "prefix": "$VENV",
+  "base_prefix": "$PYTHON_BASE",
+  "user_site_enabled": false,
+  "sys_path": [
+    "$PYTHON_BASE\\python312.zip",
+    "$PYTHON_BASE\\DLLs",
+    "$PYTHON_BASE\\Lib",
+    "$PYTHON_BASE",
+    "$VENV",
+    "$VENV\\Lib\\site-packages"
+  ],
+  "numpy_visible": false,
+  "torch_visible": false
+}

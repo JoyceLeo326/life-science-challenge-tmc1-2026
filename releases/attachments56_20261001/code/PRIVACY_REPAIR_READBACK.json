@@ -1,0 +1,123 @@
+{
+  "issue": "D010",
+  "nested_JSON_commands_parsed": true,
+  "changes": [
+    {
+      "path": "reproduction_bundle/science/R2/evidence/03_compute/raw_runs/formal_forward_v2_resume124/job_ledger.csv",
+      "previous_publication_sha256": "79a14632b581e1f7e43b55eb5ae782ca36a628cc565363b39d60a429ef9dd17a",
+      "publication_sha256": "fd0a5725c693335e52175d9732385ce6195cbf9027b974ea9fded1cd1363e8ea",
+      "rows": 124,
+      "changed_metadata_fields": [
+        "command",
+        "receptor_file"
+      ],
+      "all_other_fields_identical": true
+    },
+    {
+      "path": "reproduction_bundle/science/R2/evidence/03_compute/raw_runs/formal_forward_v2_active_resume14/job_ledger.csv",
+      "previous_publication_sha256": "bc501f86969395bdad6cc54f5c0a17be984e2d698b6c51a4c61672f7b373c750",
+      "publication_sha256": "029663d0a1c7c1b99f4c3e259473bd645f553a9c4547a0ccf1f0ae7eda8d1547",
+      "rows": 14,
+      "changed_metadata_fields": [
+        "command",
+        "receptor_file"
+      ],
+      "all_other_fields_identical": true
+    },
+    {
+      "path": "reproduction_bundle/science/R2/evidence/03_compute/raw_runs/formal_forward_v2_merged/job_ledger.csv",
+      "previous_publication_sha256": "c98e32479753482cbd233f182fe69593c1a5bc7faf912667d11e2f360732f9a4",
+      "publication_sha256": "62268e94d39b34952c73bb80d97d4814faf84d69d02f62a4dcf70f64c1aa56ed",
+      "rows": 278,
+      "changed_metadata_fields": [
+        "command",
+        "receptor_file"
+      ],
+      "all_other_fields_identical": true
+    },
+    {
+      "path": "reproduction_bundle/science/R2/evidence/03_compute/raw_runs/formal_forward_v2_active_merged41/job_ledger.csv",
+      "previous_publication_sha256": "06e1143ddc42670fb39b6ba0d8806f42192414024e14dacc492594ad8962cd89",
+      "publication_sha256": "ec03663e898479a8c278e6fff21bf3d145e398bf44a859a66e004ce613966833",
+      "rows": 41,
+      "changed_metadata_fields": [
+        "command",
+        "receptor_file"
+      ],
+      "all_other_fields_identical": true
+    }
+  ],
+  "original_internal_evidence_retained": true,
+  "actual_retests": [
+    {
+      "id": "privacy_repaired_make_results",
+      "command": [
+        "python",
+        "$COMPUTE\\release\\make_results.py",
+        "--output",
+        "$COMPUTE\\privacy_retest\\results.csv"
+      ],
+      "cwd": "$COMPUTE",
+      "started_utc": "2026-09-30T11:42:51.884684+00:00",
+      "elapsed_seconds": 0.413,
+      "exit_code": 0,
+      "log": "logs/privacy_repaired_make_results.log",
+      "log_sha256": "e3e99ef6bf0f7d2595034e73af28850528df629a41b6d9b5d05eec0f6c092d5a",
+      "outputs": [
+        {
+          "path": "$COMPUTE\\privacy_retest\\results.csv",
+          "sha256": "478e0d624b158ef5e42a454ea412e3ca392fa694af1556a3d48587e6b170908c",
+          "bytes": 4234
+        }
+      ]
+    },
+    {
+      "id": "privacy_repaired_evaluate",
+      "command": [
+        "python",
+        "$COMPUTE\\release\\reproduction_bundle\\science\\R2\\evidence\\03_compute\\method\\evaluate_forward.py",
+        "--freeze",
+        "$COMPUTE\\release\\reproduction_bundle\\science\\R2\\evidence\\03_compute\\ranking_formal_v2_16698",
+        "--active",
+        "$COMPUTE\\release\\reproduction_bundle\\science\\R2\\evidence\\03_compute\\ranking_active_v2_after_ai60",
+        "--initial-old-batch",
+        "$COMPUTE\\release\\reproduction_bundle\\science\\R2\\evidence\\03_compute\\raw_runs\\formal_forward_v2_initial278",
+        "--initial-resumed-batch",
+        "$COMPUTE\\release\\reproduction_bundle\\science\\R2\\evidence\\03_compute\\raw_runs\\formal_forward_v2_resume124",
+        "--active-old-batch",
+        "$COMPUTE\\release\\reproduction_bundle\\science\\R2\\evidence\\03_compute\\raw_runs\\formal_forward_v2_active_new",
+        "--active-resumed-batch",
+        "$COMPUTE\\release\\reproduction_bundle\\science\\R2\\evidence\\03_compute\\raw_runs\\formal_forward_v2_active_resume14",
+        "--initial-batch",
+        "$COMPUTE\\release\\reproduction_bundle\\science\\R2\\evidence\\03_compute\\raw_runs\\formal_forward_v2_merged",
+        "--active-batch",
+        "$COMPUTE\\release\\reproduction_bundle\\science\\R2\\evidence\\03_compute\\raw_runs\\formal_forward_v2_active_merged41",
+        "--initial-qc",
+        "$COMPUTE\\release\\reproduction_bundle\\science\\R2\\evidence\\05_independent_audit\\formal_v2_initial_independent_qc.csv",
+        "--active-qc",
+        "$COMPUTE\\release\\reproduction_bundle\\science\\R2\\evidence\\05_independent_audit\\formal_v2_active_independent_qc.csv",
+        "--initial-contacts",
+        "$COMPUTE\\release\\reproduction_bundle\\science\\R2\\evidence\\03_compute\\method\\formal_v2_initial_middle_contacts.csv",
+        "--active-contacts",
+        "$COMPUTE\\release\\reproduction_bundle\\science\\R2\\evidence\\03_compute\\method\\formal_v2_active_middle_contacts.csv",
+        "--output",
+        "$COMPUTE\\privacy_retest\\evaluation"
+      ],
+      "cwd": "$COMPUTE",
+      "started_utc": "2026-09-30T11:42:52.312325+00:00",
+      "elapsed_seconds": 5.315,
+      "exit_code": 0,
+      "log": "logs/privacy_repaired_evaluate.log",
+      "log_sha256": "e0f9b5a2339d603a548c9c4bb93570cd66d6ea44dc7e9f7c8bceecc9402eec35",
+      "outputs": []
+    }
+  ],
+  "published_candidates_sha256": "478e0d624b158ef5e42a454ea412e3ca392fa694af1556a3d48587e6b170908c",
+  "replayed_candidates_sha256": "478e0d624b158ef5e42a454ea412e3ca392fa694af1556a3d48587e6b170908c",
+  "candidate_bytes_identical": true,
+  "scope": "4 nested JSON command fields normalized; data comparison paths normalized in earlier final run; original records kept internally",
+  "public_text_scan": {
+    "files": 1752,
+    "local_user_path_files": []
+  }
+}

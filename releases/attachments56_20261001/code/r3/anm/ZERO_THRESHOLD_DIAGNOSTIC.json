@@ -1,0 +1,56 @@
+[
+  {
+    "structure_id": "H_AF_domain",
+    "cutoff_A": 15.0,
+    "zero_count_abs_le1e-8": 6,
+    "zero_count_frozen_abs_le1e-6": 6,
+    "zero_count_diagnostic_abs_le1e-5": 6,
+    "lowest_positive_over_frozen_tol": 15286.198520390457,
+    "status": "post-run threshold diagnostic only; frozen mode selection unchanged"
+  },
+  {
+    "structure_id": "H_AF_domain",
+    "cutoff_A": 13.0,
+    "zero_count_abs_le1e-8": 6,
+    "zero_count_frozen_abs_le1e-6": 6,
+    "zero_count_diagnostic_abs_le1e-5": 6,
+    "lowest_positive_over_frozen_tol": 8914.463065812488,
+    "status": "post-run threshold diagnostic only; frozen mode selection unchanged"
+  },
+  {
+    "structure_id": "H_AF_full_chainA",
+    "cutoff_A": 15.0,
+    "zero_count_abs_le1e-8": 6,
+    "zero_count_frozen_abs_le1e-6": 6,
+    "zero_count_diagnostic_abs_le1e-5": 7,
+    "lowest_positive_over_frozen_tol": 6.161213964591943,
+    "status": "post-run threshold diagnostic only; frozen mode selection unchanged"
+  },
+  {
+    "structure_id": "M_PUB_ALL_domain",
+    "cutoff_A": 15.0,
+    "zero_count_abs_le1e-8": 6,
+    "zero_count_frozen_abs_le1e-6": 6,
+    "zero_count_diagnostic_abs_le1e-5": 6,
+    "lowest_positive_over_frozen_tol": 11342.82573357576,
+    "status": "post-run threshold diagnostic only; frozen mode selection unchanged"
+  },
+  {
+    "structure_id": "M_PUB_ALL_domain",
+    "cutoff_A": 13.0,
+    "zero_count_abs_le1e-8": 6,
+    "zero_count_frozen_abs_le1e-6": 6,
+    "zero_count_diagnostic_abs_le1e-5": 6,
+    "lowest_positive_over_frozen_tol": 6289.161418536478,
+    "status": "post-run threshold diagnostic only; frozen mode selection unchanged"
+  },
+  {
+    "structure_id": "M_PUB_ALL_full_chainA",
+    "cutoff_A": 15.0,
+    "zero_count_abs_le1e-8": 6,
+    "zero_count_frozen_abs_le1e-6": 6,
+    "zero_count_diagnostic_abs_le1e-5": 6,
+    "lowest_positive_over_frozen_tol": 38.905836758020364,
+    "status": "post-run threshold diagnostic only; frozen mode selection unchanged"
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "sources": [
+    {
+      "path": "05_independent_audit/design40_job_independent_qc_summary.json",
+      "sha256": "6f23f324329cd3db2e2c902dd0c5bde0f5c7d344195570d8b48a008d891c5d8f"
+    },
+    {
+      "path": "05_independent_audit/design40_provenance_independent_audit.json",
+      "sha256": "be4ffa60b2e213d42b00d72cc3037a07ab4dca23f08bd9bfcb9325f4a05a590e"
+    },
+    {
+      "path": "05_independent_audit/design40_pose_region_contacts.csv",
+      "sha256": "63ae5e6bbd0458768c4ea445cb57338f8df0ba74e8a3c3f246aafbd540ee9861"
+    }
+  ],
+  "script": "plots/build_verified_stage_figures.py",
+  "script_sha256": "226237d6d6f98f41251d6d38f7b790e323090b242b46cee5ff3720baaf14588d",
+  "visual_checked": false
+}

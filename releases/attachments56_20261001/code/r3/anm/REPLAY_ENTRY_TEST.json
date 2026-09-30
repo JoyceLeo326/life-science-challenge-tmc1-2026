@@ -1,0 +1,83 @@
+{
+  "entry": "reproduce_anm.py --inputs external_config --out separate_new_directory",
+  "exit_code": 0,
+  "actual_replay_elapsed_seconds": 6.509,
+  "networks_replayed": 6,
+  "scientific_CSV_comparisons": [
+    {
+      "file": "all_eigenvalues.csv",
+      "source_sha256": "a8e4ec9e069542fb4ccde57f7ef859a847f3c1d174fbce4a753baac3d1d308b0",
+      "replay_sha256": "a8e4ec9e069542fb4ccde57f7ef859a847f3c1d174fbce4a753baac3d1d308b0",
+      "byte_identical": true
+    },
+    {
+      "file": "CA_node_index.csv",
+      "source_sha256": "2f172ee71ee01588eb83251f81fab517abe0349900b0e7547a902c2f99931a7d",
+      "replay_sha256": "2f172ee71ee01588eb83251f81fab517abe0349900b0e7547a902c2f99931a7d",
+      "byte_identical": true
+    },
+    {
+      "file": "low20_modes.csv",
+      "source_sha256": "e17a55f94f7fee184e3e6147b9a08f7e182f600b59b12ee5280691f4b91515f8",
+      "replay_sha256": "e17a55f94f7fee184e3e6147b9a08f7e182f600b59b12ee5280691f4b91515f8",
+      "byte_identical": true
+    },
+    {
+      "file": "low20_relative_MSF.csv",
+      "source_sha256": "fb008dc8bec0ec5b3d3164e208ecc8e8604eb82e6aed3c67f2fcdb520e04136e",
+      "replay_sha256": "fb008dc8bec0ec5b3d3164e208ecc8e8604eb82e6aed3c67f2fcdb520e04136e",
+      "byte_identical": true
+    },
+    {
+      "file": "cutoff_sensitivity.csv",
+      "source_sha256": "7cd1d00abd8112eb4ab59477adb391b19e3d1e114f41e54b57cbc3a9168658d7",
+      "replay_sha256": "7cd1d00abd8112eb4ab59477adb391b19e3d1e114f41e54b57cbc3a9168658d7",
+      "byte_identical": true
+    },
+    {
+      "file": "boundary_sensitivity.csv",
+      "source_sha256": "1f8713561811818737ab4ee66c697d71f12b99bd303883769872b3d55b2536c0",
+      "replay_sha256": "1f8713561811818737ab4ee66c697d71f12b99bd303883769872b3d55b2536c0",
+      "byte_identical": true
+    },
+    {
+      "file": "conformation_diagnostics.csv",
+      "source_sha256": "66db24fb86c623f1b8f111c2a664fce0353e2455414bb32a927a4b72d30253f4",
+      "replay_sha256": "66db24fb86c623f1b8f111c2a664fce0353e2455414bb32a927a4b72d30253f4",
+      "byte_identical": true
+    },
+    {
+      "file": "conformation_displacements.csv",
+      "source_sha256": "093cee1976c7d620763d97fd269be97ba678ca3881f681621735dccdb1b18701",
+      "replay_sha256": "093cee1976c7d620763d97fd269be97ba678ca3881f681621735dccdb1b18701",
+      "byte_identical": true
+    }
+  ],
+  "mode_array_comparisons": [
+    {
+      "file": "H_AF_domain_cutoff13_modes.npz",
+      "all_arrays_identical": true
+    },
+    {
+      "file": "H_AF_domain_cutoff15_modes.npz",
+      "all_arrays_identical": true
+    },
+    {
+      "file": "H_AF_full_chainA_cutoff15_modes.npz",
+      "all_arrays_identical": true
+    },
+    {
+      "file": "M_PUB_ALL_domain_cutoff13_modes.npz",
+      "all_arrays_identical": true
+    },
+    {
+      "file": "M_PUB_ALL_domain_cutoff15_modes.npz",
+      "all_arrays_identical": true
+    },
+    {
+      "file": "M_PUB_ALL_full_chainA_cutoff15_modes.npz",
+      "all_arrays_identical": true
+    }
+  ],
+  "original_inputs_and_R2_unmodified": true
+}

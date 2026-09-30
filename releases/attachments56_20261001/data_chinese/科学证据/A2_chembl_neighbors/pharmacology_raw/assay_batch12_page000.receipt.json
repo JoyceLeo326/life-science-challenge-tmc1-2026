@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/chembl/api/data/assay.json?assay_chembl_id__in=CHEMBL770010%2CCHEMBL881144&limit=1000",
+  "http": 200,
+  "utc": "2026-09-30T18:52:55.304023+00:00",
+  "sha256": "c57e3eed3b24cd6af2c55be46762049e9f98a9d626c6aebda7805d405a6678a9",
+  "bytes": 1951,
+  "attempt_errors": []
+}

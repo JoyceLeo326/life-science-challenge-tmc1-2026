@@ -1,0 +1,7 @@
+﻿claim,verified_count,status,evidence,source
+68 independent blockers,,SOURCE_NOT_ESTABLISHED,"No complete named/structured 68-member source established in audited paper, supplements or frozen author repository; cannot calculate denominator68 overlap",https://pmc.ncbi.nlm.nih.gov/articles/PMC12075566/
+pharmacophore training compounds in paper SupplementaryTable1,13,NAMED_MEMBERS_CONFIRMED,13 training names; UoS-5247 absent from ten active SDF files,paper_13_plus_3_author_source_map.csv
+author active SDF records,12,12_UNIQUE_STRUCTURES_FROM78_REPEATED_ROWS,Not same set as twelve dye-uptake hits,author_training_unique12.csv
+additional docking references,3,NAMED_MEMBERS_CONFIRMED,benzamil; tubocurarine; DHS; separate from thirteen training names,paper_13_plus_3_author_source_map.csv
+paper dye-uptake active candidates,12,PAPER_FUNCTIONAL_PROXY,"Mouse cochlear AM1-43 dye uptake, not direct human TMC1 binding/selectivity or team experiments",paper_dye_uptake12_plus_amitraz.csv
+previously unresolved five ZINC structures,3,3_EXACT_IDENTITIES_RECOVERED_2_UNRESOLVED,ZINC24739924; ZINC58438263; ZINC12986242 recovered; ZINC06530230 and ZINC12430014 unresolved,ZINC_primary_identity_verification.csv

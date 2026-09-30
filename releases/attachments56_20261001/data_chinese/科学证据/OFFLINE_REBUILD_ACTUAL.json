@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "mode": "offline_saved_primary_responses_and_predictions",
+  "comparisons": [
+    {
+      "table": "pharmacology_actual_activity_records.csv",
+      "rows": 622,
+      "differing_shared_fields": 0
+    },
+    {
+      "table": "two_threshold_neighbors_rebuilt.csv",
+      "rows": 1458,
+      "differing_shared_fields": 0
+    },
+    {
+      "table": "multiparameter_druglikeness_rebuilt.csv",
+      "rows": 11,
+      "differing_shared_fields": 0
+    },
+    {
+      "table": "formal6_training12_overlap_rebuilt.csv",
+      "rows": 6,
+      "differing_shared_fields": 0
+    }
+  ],
+  "not_new_docking_or_ADMET_model_training": true
+}

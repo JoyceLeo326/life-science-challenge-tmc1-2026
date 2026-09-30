@@ -1,0 +1,36 @@
+{
+  "created_utc": "2026-09-30T10:46:07.596691+00:00",
+  "frozen_input": "$ORIGINAL_R2\\03_算法与计算\\ranking_formal_v2_16698",
+  "frozen_file_sha256": {
+    "all_predictions.csv": "79b775967bfc87ded9a07aae03549c9233691ec4fc3375a2c2662b64ee4b2841",
+    "arm_assignments.csv": "1eb0908109108bba2507efa39e46f7a4561e63bf4d161309175f590b25f3b9ce",
+    "freeze.json": "b8b922302bdcffff175cfb2c65f8a3aad1b2bf51fccc5f6b1efe2a7b314475e2"
+  },
+  "ai_attempts_file": "$ORIGINAL_R2\\05_独立方法复核\\AI_initial_60_independent_outcomes.csv",
+  "ai_attempts_sha256": "deb906b39b9d5d19b1092c90368798627f749e676e718d1a4fdc2126dabd04b8",
+  "ai_attempts_manifest_sha256": "0a26bffc97c2ea2c0158471eb4134be41cb6742ac1137aeede71d739fcf20607",
+  "independent_qc_pass_training_count": 60,
+  "charge_warning_ids_sha256": "f1a83142364dac1a1dc2bbe58cb67c4158acf93c9ba6f9ebc2b94e6f46946f73",
+  "qc_passing_charge_warning_training_ids": [
+    "LIB_PLFCIUGPHZFBAC"
+  ],
+  "ai_initial_failed_or_qc_failed_cost_count": 0,
+  "historical_training_count": 935,
+  "total_training_count": 995,
+  "unqueried_eligible_count": 9038,
+  "selected_count": 60,
+  "selection_rule": "mean ExtraTrees score minus 0.5 tree SD, ascending, compound ID ties",
+  "labels_used": "935 historical QC scores plus independently QC-passing AI_initial scores only",
+  "other_arms_actual_scores_read": false,
+  "model_seed": 20260929,
+  "chemical_identity_rule_version": "exchangeable_tertiary_ring_NH_and_full_potential_stereo_v3_20260929",
+  "software": {
+    "rdkit": "2025.09.6",
+    "sklearn": "1.7.2"
+  },
+  "output_sha256": {
+    "active_predictions_all_eligible.csv": "4ff78ae04b87ab4f0c86fcb46f7bc672c8aafa7f783c1667b861b93eec13385a",
+    "AI_active_60.csv": "bd50bc8de9433b4b7dcade109355822cac0439308f761ba7e72c2f850cbe5183"
+  },
+  "wall_seconds": 16.474048800067976
+}

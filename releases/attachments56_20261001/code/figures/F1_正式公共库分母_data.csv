@@ -1,0 +1,7 @@
+﻿stage_order,stage,count,count_unit
+1,Source records,23475,source records
+2,Distinct source IDs,23403,source IDs
+3,Deduplicated parents,21356,parent structures
+4,Property eligible,17645,parent structures
+5,Forward unlabeled,16698,parent structures
+6,Docking eligible,9098,parent structures after chemistry gate

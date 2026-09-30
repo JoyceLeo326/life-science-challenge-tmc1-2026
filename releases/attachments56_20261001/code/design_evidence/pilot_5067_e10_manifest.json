@@ -1,0 +1,110 @@
+{
+  "run_id": "pilot_5067_e10",
+  "timestamp_utc": "2026-09-28T17:15:17.788585+00:00",
+  "model": "single_layer_char_gru_v1",
+  "implementation": "local PyTorch GRU; inspired by published SMILES RNN design but not REINVENT implementation or weights",
+  "torch_version": "2.5.1+cpu",
+  "rdkit_version": "2025.09.6",
+  "library_path": "external_source/filtered_for_screening.csv",
+  "library_sha256": "b13b1be7fa0198e0c51dfcfe92912552c2c836ba9b591494c40223e5dbdda3d0",
+  "raw_input_rows": 5067,
+  "dedup_valid_model_scope": 4980,
+  "training_molecules": 4547,
+  "heldout_scaffold_molecules": 433,
+  "input_rejections": {
+    "salt_or_element_out_of_scope": 66,
+    "length_out_of_scope": 21
+  },
+  "vocab_size": 35,
+  "model_parameters": 47123,
+  "architecture": {
+    "embedding": 48,
+    "hidden": 96,
+    "layers": 1
+  },
+  "optimizer": "Adam lr=0.002",
+  "epoch_history": [
+    {
+      "epoch": 1,
+      "train_token_loss": 2.05308,
+      "val_token_loss": 1.55117,
+      "wall_seconds_cumulative": 11.3
+    },
+    {
+      "epoch": 2,
+      "train_token_loss": 1.39797,
+      "val_token_loss": 1.28926,
+      "wall_seconds_cumulative": 16.3
+    },
+    {
+      "epoch": 3,
+      "train_token_loss": 1.22177,
+      "val_token_loss": 1.17148,
+      "wall_seconds_cumulative": 21.3
+    },
+    {
+      "epoch": 4,
+      "train_token_loss": 1.12662,
+      "val_token_loss": 1.10089,
+      "wall_seconds_cumulative": 25.7
+    },
+    {
+      "epoch": 5,
+      "train_token_loss": 1.06541,
+      "val_token_loss": 1.05036,
+      "wall_seconds_cumulative": 29.6
+    },
+    {
+      "epoch": 6,
+      "train_token_loss": 1.01918,
+      "val_token_loss": 1.02462,
+      "wall_seconds_cumulative": 33.2
+    },
+    {
+      "epoch": 7,
+      "train_token_loss": 0.98678,
+      "val_token_loss": 0.99309,
+      "wall_seconds_cumulative": 36.7
+    },
+    {
+      "epoch": 8,
+      "train_token_loss": 0.95707,
+      "val_token_loss": 0.97402,
+      "wall_seconds_cumulative": 40.5
+    },
+    {
+      "epoch": 9,
+      "train_token_loss": 0.93416,
+      "val_token_loss": 0.96526,
+      "wall_seconds_cumulative": 44.3
+    },
+    {
+      "epoch": 10,
+      "train_token_loss": 0.91602,
+      "val_token_loss": 0.95298,
+      "wall_seconds_cumulative": 48.2
+    }
+  ],
+  "train_seed": 20260929,
+  "sample_seed": 20260930,
+  "sample_temperature": 0.85,
+  "sample_max_chars": 110,
+  "sample_requested": 10000,
+  "sample_counts": {
+    "invalid_smiles": 8551,
+    "valid_samples": 1449,
+    "unique_valid": 1403,
+    "constraint_excluded": 1396,
+    "eligible": 6,
+    "duplicate_generated": 46,
+    "seen_in_training": 1
+  },
+  "unique_eligible": 6,
+  "fixed_diverse_list": 6,
+  "weights_path": "external_source/model_state.pt",
+  "weights_sha256": "ada6d3773895490ba909ab740faa23cbf14598afaf09037a5e57f425ae615412",
+  "raw_generated_log": "external_source/raw_generated.csv.gz",
+  "raw_generated_log_sha256": "707118cd7e584d653df52ee3a8fe76e151050e872d206d31712fdda94e8f3427",
+  "wall_seconds": 59.5,
+  "evidence_limit": "No TMC1 affinity/function conditioning, docking, synthesis, PubChem novelty, or patent search performed by this model run"
+}
