@@ -1,0 +1,3 @@
+region_id,model,chain_context,center_x_A,center_y_A,center_z_A,size_x_A,size_y_A,size_z_A,source,interpretation
+table6_middle_15_common_union,M_PUB_ALL,A,2.3955,-12.9641,0.9145,37.6870,31.3744,31.1908,screen_v2/config/common_box.json,literature_informed_middle_search_region
+TM1_2_TMIE_exploratory_v1,M_PUB_ALL,A+C,2.547,-20.084,23.319,22.767,20.833,27.715,01_机制与文献/门控环空间与小面板决策.md,exploratory_geometric_region_not_validated_pocket

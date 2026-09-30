@@ -1,0 +1,21 @@
+{
+  "sources": [
+    {
+      "path": "<PACKAGE_ROOT>\\05_独立方法复核\\design40_job_independent_qc_summary.json",
+      "sha256": "6f23f324329cd3db2e2c902dd0c5bde0f5c7d344195570d8b48a008d891c5d8f"
+    },
+    {
+      "path": "<PACKAGE_ROOT>\\05_独立方法复核\\design40_provenance_independent_audit.json",
+      "sha256": "be4ffa60b2e213d42b00d72cc3037a07ab4dca23f08bd9bfcb9325f4a05a590e"
+    },
+    {
+      "path": "<PACKAGE_ROOT>\\05_独立方法复核\\design40_pose_region_contacts.csv",
+      "sha256": "63ae5e6bbd0458768c4ea445cb57338f8df0ba74e8a3c3f246aafbd540ee9861"
+    }
+  ],
+  "script": "<PACKAGE_ROOT>\\06_交付整合\\科研图表\\build_verified_stage_figures.py",
+  "script_sha256": "0c2e466f27cc68ac5620e40efce35a476f419f858f1bf86fe39f70b0afe35ad3",
+  "visual_checked": true,
+  "visual_checked_at_cst": "2026-09-29T10:11:21.165838+08:00",
+  "visual_note": "PNG opened and inspected for readable labels, counts and clipping."
+}

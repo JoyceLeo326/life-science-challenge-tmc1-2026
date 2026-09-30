@@ -1,0 +1,27 @@
+{
+  "created_utc": "2026-09-29T01:12:44.776711+00:00",
+  "status": "complete",
+  "frozen_count": 41,
+  "old_completed_jobs": 27,
+  "resumed_completed_jobs": 14,
+  "merged_completed_jobs": 41,
+  "source_paths": {
+    "old": "<PACKAGE_ROOT>\\03_compute\\formal_forward_v2_active_new",
+    "resumed": "<PACKAGE_ROOT>\\03_compute\\formal_forward_v2_active_resume14"
+  },
+  "source_hashes": {
+    "frozen": "24b4687a8f7421dc57a5edf5be3302388787f1e49c399a0c5afed7d7a35f31c7",
+    "remaining": "09ab9293ef2114cdf59041f6971a4e8318f14f264fbb00635cc8b1e2954855eb",
+    "old_jobs": "4c11c0ad5fffe2fc639503eb2424120846ce248e831db0f4d39db553996ca161",
+    "resumed_jobs": "0a77d7bfb3ea5982515c8ce695bb0a897d3ce852f854eecadb45e5c74c0bdb16",
+    "old_prep": "72c1a9b83d99ea507b1397fa8421d398c4b42817d802978deeeb4b60c4aa46ac",
+    "resumed_prep": "7e27fa3d0a87c54f9108a1c19ed60c1645b1c7533bc0182d4457ce3017468f5a"
+  },
+  "output_hashes": {
+    "jobs": "9c1bb5613651b11558d28668d33e6ce56f91c8858d3ff4f85dbfb770689fa92f",
+    "prep": "3450ff51c8c7a4e63c429563a7cf167e74db0138e78d7199a1b3c0e65149512a"
+  },
+  "interruption_cause": "settings-switch exec session teardown; no scientific input changed",
+  "no_source_files_modified": true,
+  "no_duplicate_physical_queries": true
+}

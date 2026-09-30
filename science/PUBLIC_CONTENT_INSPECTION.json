@@ -1,0 +1,31 @@
+{
+  "release_date": "2026-09-30",
+  "scope": "R2 anonymous scientific package; R2 three-species scientific revision archive; R3 P0 and stage0 scientific directories only",
+  "counts": {
+    "excluded_internal_workflow": 9,
+    "included": 3162,
+    "excluded_private_contact_or_credential_text": 11,
+    "pdf_metadata_replaced": 10,
+    "office_containers_inspected": 8,
+    "office_author_properties_removed": 7,
+    "science_reports_with_internal_lines_removed": 2,
+    "excluded_private_or_internal_name": 10,
+    "zip_containers_inspected": 1,
+    "excluded_office_private_contact_or_path": 1,
+    "excluded_revision_internal_workflow": 5,
+    "excluded_stale_or_internal_r3_index": 5
+  },
+  "transformed_text_files_by_extension": {
+    ".md": 2,
+    ".log": 323,
+    ".json": 2
+  },
+  "limitations": [
+    "Pattern-based text, container XML/relationship, metadata and PDF text inspection is not a guarantee of anonymization.",
+    "Office XML and relationships were inspected and author properties removed from selected published copies. A document with private/contact/path markers in document XML was withheld. Scientific PNGs and embedded Office images were selected by scientific-source provenance; no OCR of image pixels was performed.",
+    "PDF page text and annotation references were inspected and public-copy metadata replaced. Unreviewed raster-only pages and embedded attachments are withheld; this does not establish that such files contain privacy.",
+    "Removed paths and withheld files can prevent scripts from running without replacement inputs. Existing source manifests describe originals; use the public manifest for published-copy integrity.",
+    "No scientific computation, implementation testing or external-source freshness verification was performed."
+  ],
+  "private_values_in_report": false
+}

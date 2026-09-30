@@ -1,0 +1,27 @@
+{
+  "status": "paused_by_user_before_completion",
+  "paused_local": "2026-09-29 03:29 Asia/Shanghai",
+  "planned_unique": 278,
+  "prepared": 278,
+  "completed_ledger_jobs": 154,
+  "remaining_attempts": 124,
+  "last_completed_compound_id": "LIB_RWVZCSBFQAARFN",
+  "last_completed_run_id": "LIB_RWVZCSBFQAARFN__M_PUB_ALL__e8__s20260927",
+  "last_completed_finished_utc": "2026-09-28T19:28:11.494544+00:00",
+  "interrupted_run_ids": [
+    "LIB_XKOPCBHBBCCNEY__M_PUB_ALL__e8__s20260927",
+    "LIB_REZFVUNAFUHYBW__M_PUB_ALL__e8__s20260927"
+  ],
+  "interrupted_job_json_count": 0,
+  "interrupted_pose_count": 0,
+  "dispatcher_pid_stopped": 63784,
+  "vina_pids_stopped": [
+    23808,
+    9064
+  ],
+  "plan_sha256": "c055d484c4824927532ed3965f91a42e8801883ad2da41d6a3a2bc574a7e8865",
+  "preparation_ledger_sha256": "f5efb8d34114a460cdeb6621701d110c1bbcbff7c710f3246270662048eb3236",
+  "job_ledger_sha256": "75a95077a56ea1945b169b984d719b461620704c71b7e3d818771617173e14db",
+  "frozen_input_sha256": "3b53b86471eaed6f5bc49fbef381b811ec81153c69376fc4f20bf2c0161790b9",
+  "note": "No new score/pose for two interrupted jobs; keep partial logs, resume only missing IDs in a new batch after explicit user request."
+}

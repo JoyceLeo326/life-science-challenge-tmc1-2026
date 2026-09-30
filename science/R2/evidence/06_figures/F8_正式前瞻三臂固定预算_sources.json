@@ -1,0 +1,25 @@
+{
+  "files": [
+    {
+      "path": "<PACKAGE_ROOT>\\03_算法与计算\\formal_forward_v2_final_evaluation\\forward_arm_summary.csv",
+      "sha256": "77ff7e7e6b70b80e7309983775b0b45cf15235712fbc95d4fa1989bafafa712b"
+    },
+    {
+      "path": "<PACKAGE_ROOT>\\03_算法与计算\\formal_forward_v2_final_evaluation\\forward_strata.csv",
+      "sha256": "a0b9ab8a86f3f4a889985139f9138f32de3f8b93aea7abc782404c6967e339d4"
+    },
+    {
+      "path": "<PACKAGE_ROOT>\\03_算法与计算\\formal_forward_v2_final_evaluation\\forward_charge_sensitivity.csv",
+      "sha256": "fb7232af98ba0045fab9b5e7560069faaf6c07ee69fcd207df15d012630b74a3"
+    },
+    {
+      "path": "<PACKAGE_ROOT>\\05_独立方法复核\\forward_evaluation_independent_audit.json",
+      "sha256": "c9e0f3220bf5705417ff1d79c9b19470dba342e5b6cecfbc91707c50618d77b3"
+    }
+  ],
+  "script": "<PACKAGE_ROOT>\\06_交付整合\\科研图表\\plot_forward_three_arms.py",
+  "script_sha256": "d8c92cf9af818a3b1aab01814496cf29b8f558d8ee1d5e58a18e53a4f0b9bdb8",
+  "visual_checked": true,
+  "visual_checked_at_cst": "2026-09-29T10:11:56.3010156+08:00",
+  "visual_note": "PNG opened and inspected: labels, legend, bars, axes and footnote readable; no overlap or clipping."
+}

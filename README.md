@@ -5,7 +5,7 @@
 ## 现在如何接手
 
 1. 克隆本仓库，或从绿色 **Code → Download ZIP** 下载。
-2. 阅读 `collaboration/` 中的三人分工与当前状态。
+2. 阅读 [三人协作细则](collaboration/TEAM_COLLABORATION.md) 和 [科研文件入口](science/README.md)。
 3. 在 Issues 认领工作，从最新 `main` 新建自己的分支。
 4. 每批成果完成后 5 分钟内提交并推送；用 Pull Request 汇合，由另一位成员复核。
 
@@ -21,9 +21,15 @@ git switch -c work/my-task
 
 | 负责人 | 主要工作 | 完成时提交 |
 |---|---|---|
-| A · 总控与发布 | 统筹进度、整合版本、核对提交要求、发布成果 | 总清单、版本说明、交付链接与提交状态 |
-| B · 科学与材料 | 核对文献、整理科学逻辑、修订报告和展示材料 | 来源表、报告、PPT 与讲稿 |
-| C · 计算与复现 | 整理代码与依赖、核对输入输出、复现计算结果 | 运行入口、参数、日志、结果与文件校验清单 |
+| A · 科学依据与项目逻辑 | 核对文献、明确研究问题、修订科学正文与结论 | 来源表、科学正文、规则要求与证据对应表 |
+| B · 计算与复现 | 整理代码与依赖、核对输入输出、复现计算结果 | 运行入口、参数、日志、结果与图表数据 |
+| C · 展示与交付 | 按规则排版报告、制作展示材料、整理交付包 | 报告成稿、PPT、讲稿、交付清单与下载包 |
+
+最终整合与发布负责人由三人稍后认领。A、B、C 的具体职责、互审和交接要求见 [协作细则](collaboration/TEAM_COLLABORATION.md)。
+
+直接领取任务：[A 科学](https://github.com/JoyceLeo326/life-science-challenge-tmc1-2026/issues/1) · [B 计算](https://github.com/JoyceLeo326/life-science-challenge-tmc1-2026/issues/2) · [C 展示与交付](https://github.com/JoyceLeo326/life-science-challenge-tmc1-2026/issues/3) · [最终整合待认领](https://github.com/JoyceLeo326/life-science-challenge-tmc1-2026/issues/4)。
+
+每人的具体文件清单：[A 工作区](work/a_science/README.md) · [B 工作区](work/b_compute/README.md) · [C 工作区](work/c_delivery/README.md)。
 
 ## 文件组织
 
@@ -32,7 +38,11 @@ git switch -c work/my-task
 - `.github/`：提交说明模板。
 - `PUBLIC_FILE_MANIFEST.json`：本次公开文件的大小与 SHA256 校验值。
 
-科研材料正在从已有成果中逐项整理上传。具体覆盖范围以文件清单和当前状态为准。
+已收录 3,165 份科研文件，包括 14 个 Python 脚本、3 份 Word、4 份 PPT、10 份 PDF，以及数据、结构、计算日志和图件。R2、R3 分目录保存；原始聊天及个人资料不在公开包内。
+
+完整重算所需的部分历史 R1 输入和方法尚未收入公开包，详见 [复现说明](science/REPRODUCIBILITY.md)。B 的任务包含补齐可公开的缺失输入与运行入口。
+
+克隆后可运行 `python scripts/verify_files.py` 核对交付文件哈希；这是文件完整性核对，不会启动科研计算。
 
 ## 结果口径
 

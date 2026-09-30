@@ -1,0 +1,26 @@
+{
+  "source_records": 23475,
+  "unique_source_ids": 23403,
+  "all_unique_parents_rows": 21356,
+  "property_eligible_rows": 17645,
+  "forward_rows": 16698,
+  "historical_overlap_rows": 21356,
+  "unique_eligible_parent_keys": 17645,
+  "full_inchikey_or_identity_errors": 0,
+  "first_errors": [],
+  "stereo_sensitive_full_key_differs_from_parent_smiles_count": 5120,
+  "historical_eligible_excluded": 947,
+  "forward_keys_match_expected": true,
+  "forward_duplicate_count": 0,
+  "forward_historical_intersection": 0,
+  "hash_matches_quality_profile": {
+    "all_source_records.csv": true,
+    "all_unique_parents.csv": true,
+    "filtered_for_screening.csv": true,
+    "forward_unlabeled_pool.csv": true,
+    "historical_overlap.csv": true
+  },
+  "sdf_record_count": 17645,
+  "sdf_sample_checked": 108,
+  "sdf_sample_errors": []
+}

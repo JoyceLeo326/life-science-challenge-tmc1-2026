@@ -1,0 +1,26 @@
+{
+  "created_utc": "2026-09-29T02:07:20.015326+00:00",
+  "active_unique_compounds": 60,
+  "active_reused_from_formal278": 19,
+  "active_new_compounds": 41,
+  "new_queried_source_ids": 41,
+  "new_api_full_key_match_source_ids": 41,
+  "new_api_key_mismatch_source_ids": 0,
+  "new_mechanism_records": 0,
+  "new_identity_warning_compounds": 0,
+  "combined_unique_compounds": 319,
+  "confirmation_compounds": 6,
+  "confirmation_old_batch": 3,
+  "confirmation_new_batch": 3,
+  "sha256": {
+    "AI_active_60.csv": "bd50bc8de9433b4b7dcade109355822cac0439308f761ba7e72c2f850cbe5183",
+    "confirmation_panel.csv": "09297efd0c3ff9f308473828a85c5ec12da3c782f0900673a1da6e2cd8840a28",
+    "incremental_query_plan.json": "93cefb7470d2d01062cab4a412556d30e8eaf621736b9c657999d086deea4a73",
+    "incremental_chembl_request_manifest.json": "5e651e474d7e48285dcc77b64648d7c32f26eb344a788db67f47d0d034303031",
+    "active60_new_chembl_source_records.csv": "0881df9742b8e0af2629b1a972d8de7aba2622ed8a9fa5bf7f957a5bec3b6553",
+    "active60_new_pharmacology_prefetch.csv": "28504259ec7bac6045009e1c5e584ae8d9239b0b310dc397683763f9ec5693cf",
+    "formal319_pharmacology_prefetch.csv": "80ca14dc048bb93a2fe6e0fd440f6443bb43b0210ffd72c70637e35ae669034e",
+    "active60_pharmacology_prefetch.csv": "33460c5f86bf6929e914c60538da417e5c04bf4d3a986c046916bf84fe0eda59",
+    "confirmation6_pharmacology_join.csv": "70ee43386cb494a90a98b706c647dff25530745af8b62211b545f7fa31a73344"
+  }
+}

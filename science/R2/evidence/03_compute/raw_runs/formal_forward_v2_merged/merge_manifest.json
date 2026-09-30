@@ -1,0 +1,25 @@
+{
+  "created_utc": "2026-09-29T00:42:07.329026+00:00",
+  "status": "complete",
+  "frozen_count": 278,
+  "prepared_count": 278,
+  "old_completed_jobs": 154,
+  "resumed_completed_jobs": 124,
+  "merged_completed_jobs": 278,
+  "source_paths": {
+    "old": "<PACKAGE_ROOT>\\03_compute\\formal_forward_v2_initial278",
+    "resumed": "<PACKAGE_ROOT>\\03_compute\\formal_forward_v2_resume124"
+  },
+  "source_hashes": {
+    "frozen": "3b53b86471eaed6f5bc49fbef381b811ec81153c69376fc4f20bf2c0161790b9",
+    "old_jobs": "75a95077a56ea1945b169b984d719b461620704c71b7e3d818771617173e14db",
+    "resumed_jobs": "76de50c71cd3087ef4395318477ab0bab14f1edcb34a79ec9295c8b5b169b0a0",
+    "old_prep": "f5efb8d34114a460cdeb6621701d110c1bbcbff7c710f3246270662048eb3236",
+    "resumed_prep": "913c06131b47603ba7bd1d88c3e3140a6ff35a64e444de39fb9509b0ccd4f67c"
+  },
+  "output_hashes": {
+    "jobs": "bb45f24c994466ae86896862600bf0b015cf355301ad9c2a8b1ec20a7d2d56c3",
+    "prep": "9681f0e13b2048a08efda4b69e29aa11bf12934847ab14533558c22e42f8d25a"
+  },
+  "no_source_files_modified": true
+}

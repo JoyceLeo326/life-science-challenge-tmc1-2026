@@ -1,0 +1,17 @@
+{
+  "sources": [
+    {
+      "path": "<PACKAGE_ROOT>\\03_算法与计算\\benchmark_five_splits.csv",
+      "sha256": "2e3bade025cefa023ad63e964a1ec4774d9f95a38e20d0f34dce79359558ea10"
+    },
+    {
+      "path": "<PACKAGE_ROOT>\\05_独立方法复核\\benchmark_multisplit_independent_audit.json",
+      "sha256": "c2910f1efa26794b3d7d5c7a72c869452fbbe917480db5476e5c5f377f4c0adc"
+    }
+  ],
+  "script": "<PACKAGE_ROOT>\\06_交付整合\\科研图表\\build_verified_stage_figures.py",
+  "script_sha256": "0c2e466f27cc68ac5620e40efce35a476f419f858f1bf86fe39f70b0afe35ad3",
+  "visual_checked": true,
+  "visual_checked_at_cst": "2026-09-29T10:11:21.165838+08:00",
+  "visual_note": "PNG opened and inspected for readable labels, counts and clipping."
+}

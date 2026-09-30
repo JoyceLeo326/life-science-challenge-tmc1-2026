@@ -1,0 +1,38 @@
+{
+  "图09_六链结构与双区域": {
+    "png": {
+      "path": "<PACKAGE_ROOT>\\09_结构图\\图09_六链结构与双区域.png",
+      "sha256": "0f7eb978469963a8ffff7e85394f57c37e7672376863141e3413b3d2bb8404bd",
+      "dimensions_px": [
+        4800,
+        2520
+      ]
+    },
+    "svg": {
+      "path": "<PACKAGE_ROOT>\\09_结构图\\图09_六链结构与双区域.svg",
+      "sha256": "2a670b44edd5187d9377898be7a44cea8d0a1426d1b85beee8ceb4d5d26d8d09",
+      "editable_text_nodes": 12,
+      "embedded_structure_images": 3
+    }
+  },
+  "图09_亲本设计物区域迁移": {
+    "png": {
+      "path": "<PACKAGE_ROOT>\\09_结构图\\图09_亲本设计物区域迁移.png",
+      "sha256": "c02adb1299c74dab9c0203e7fd1e58caf14421b0f935029fc7259b6ae1269a9a",
+      "dimensions_px": [
+        4500,
+        2310
+      ]
+    },
+    "svg": {
+      "path": "<PACKAGE_ROOT>\\09_结构图\\图09_亲本设计物区域迁移.svg",
+      "sha256": "610b4d127fa5e05dc5f223f019ffeca11d9c048ae9adf7a5d96922e377ad85b2",
+      "editable_text_nodes": 31,
+      "embedded_structure_images": 1
+    }
+  },
+  "source_table": {
+    "rows": 3,
+    "sha256": "75ff2aba76189050bcc64f10d9935ba5ec2f302d9fc035316e577a27d870348a"
+  }
+}

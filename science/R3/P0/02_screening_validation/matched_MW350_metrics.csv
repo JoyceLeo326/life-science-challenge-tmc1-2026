@@ -1,0 +1,4 @@
+﻿method,favorable_n,favorable_denominator,favorable_pct,contact_n,contact_denominator,contact_pct,matched_basis
+Random,35,81,43.20987654320987,70,81,86.41975308641975,MW >= 350; random arm only matched subset
+Descriptor Ridge,86,120,71.66666666666667,119,120,99.16666666666667,All Ridge attempts satisfy MW >= 350
+AI,115,120,95.83333333333334,107,120,89.16666666666667,All AI attempts satisfy MW >= 350

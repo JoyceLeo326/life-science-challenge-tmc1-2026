@@ -1,0 +1,7 @@
+"method","budget_dockings","hit_count","hit_definition","source_path"
+"random","96","13","Historical scaffold-heldout top 10% of actual Vina e8 scores (36 labels)","<PACKAGE_ROOT>"
+"size_only_MW_descending","96","30","Historical scaffold-heldout top 10% of actual Vina e8 scores (36 labels)","<PACKAGE_ROOT>"
+"descriptor_ridge","96","33","Historical scaffold-heldout top 10% of actual Vina e8 scores (36 labels)","<PACKAGE_ROOT>"
+"nearest_tanimoto","96","16","Historical scaffold-heldout top 10% of actual Vina e8 scores (36 labels)","<PACKAGE_ROOT>"
+"AI_ExtraTrees_static","96","33","Historical scaffold-heldout top 10% of actual Vina e8 scores (36 labels)","<PACKAGE_ROOT>"
+"AI_ExtraTrees_active_mean_minus_0p5sd","96","36","Historical scaffold-heldout top 10% of actual Vina e8 scores (36 labels)","<PACKAGE_ROOT>"

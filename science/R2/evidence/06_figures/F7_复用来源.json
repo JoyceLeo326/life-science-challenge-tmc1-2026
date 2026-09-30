@@ -1,0 +1,32 @@
+{
+  "reused_from": "09_结构图",
+  "files": [
+    {
+      "path": "<PACKAGE_ROOT>\\09_结构图\\图09_亲本设计物区域迁移.png",
+      "sha256": "c02adb1299c74dab9c0203e7fd1e58caf14421b0f935029fc7259b6ae1269a9a"
+    },
+    {
+      "path": "<PACKAGE_ROOT>\\09_结构图\\图09_亲本设计物区域迁移.svg",
+      "sha256": "610b4d127fa5e05dc5f223f019ffeca11d9c048ae9adf7a5d96922e377ad85b2"
+    },
+    {
+      "path": "<PACKAGE_ROOT>\\09_结构图\\图09_区域迁移数据.csv",
+      "sha256": "75ff2aba76189050bcc64f10d9935ba5ec2f302d9fc035316e577a27d870348a"
+    },
+    {
+      "path": "<PACKAGE_ROOT>\\09_结构图\\pose_shift_render_manifest.json",
+      "sha256": "c6b15e7dcabbe985bf7debc2308d6fcf01ea2ac8af306d077575d5667f534e5e"
+    },
+    {
+      "path": "<PACKAGE_ROOT>\\09_结构图\\render_pose_shift.py",
+      "sha256": "37682af6667d0ac68f485ac18258d6537cb907fc372859e01a996cd621a1305e"
+    },
+    {
+      "path": "<PACKAGE_ROOT>\\09_结构图\\compose_pose_shift_figure.py",
+      "sha256": "7b8082afa33f85270409105e2789323f468726e8c341e9ada752eb543f840aca"
+    }
+  ],
+  "visual_checked": true,
+  "visual_checked_at_cst": "2026-09-29T10:11:21.165838+08:00",
+  "visual_note": "PNG opened and inspected after independent six-job QC confirmation."
+}

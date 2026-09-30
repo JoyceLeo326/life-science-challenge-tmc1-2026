@@ -1,0 +1,221 @@
+{
+
+  "compound_id": "LIB_WBNHNWSPTHTRMQ",
+
+  "source_dataset": "ChEMBL",
+
+  "source_id": "CHEMBL1084473",
+
+  "source_ids": "CHEMBL1084473",
+
+  "source_url": "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1084473/",
+
+  "raw_smiles": "CC(C)(C)NC(=O)O[C@H]1C[C@H]2C[C@@H](NCC(=O)N3CCC[C@H]3C#N)C[C@H]2C1.Cl",
+
+  "standardized_isomeric_smiles": "CC(C)(C)NC(=O)O[C@H]1C[C@H]2C[C@@H](NCC(=O)N3CCC[C@H]3C#N)C[C@H]2C1",
+
+  "standardized_parent_smiles": "CC(C)(C)NC(=O)OC1CC2CC(NCC(=O)N3CCCC3C#N)CC2C1",
+
+  "inchi_key": "WBNHNWSPTHTRMQ-BQJWPVKWSA-N",
+
+  "parent_key": "WBNHNWSPTHTRMQ",
+
+  "processing_status": "eligible",
+
+  "mw": "376.501",
+
+  "clogp": "2.172",
+
+  "tpsa": "94.46",
+
+  "hbd": "2",
+
+  "hba": "5",
+
+  "rotatable_bonds": "4",
+
+  "heavy_atoms": 27,
+
+  "rings": "3",
+
+  "qed": "0.7841",
+
+  "formal_charge": "0",
+
+  "source_record_count": "1",
+
+  "stereo_form_count": "1",
+
+  "historical_label_overlap": "False",
+
+  "prediction_status": "predicted",
+
+  "docking_eligibility": "eligible",
+
+  "source_stereo_unspecified": "False",
+
+  "source_unspecified_potential_stereo": "[]",
+
+  "rule_variant_count": 1,
+
+  "rule_smiles": "CC(C)(C)NC(=O)O[C@H]1C[C@H]2C[C@@H]([NH2+]CC(=O)[NH+]3CCC[C@H]3C#N)C[C@H]2C1",
+
+  "rule_inchikey": "WBNHNWSPTHTRMQ-BQJWPVKWSA-P",
+
+  "rule_stereo_unspecified": "True",
+
+  "rule_unspecified_potential_stereo": "[[\"Atom_Tetrahedral\", 17]]",
+
+  "rule_exchangeable_N_indices": "[17]",
+
+  "rule_stable_stereo_unspecified": "False",
+
+  "exchangeable_N_geometry_approximation": true,
+
+  "murcko_scaffold": "O=C(C[NH2+]C1CC2CCCC2C1)[NH+]1CCCC1",
+
+  "descriptor_pred_kcal_mol": "-6.835423946380615",
+
+  "ai_pred_kcal_mol": "-6.4425368309021",
+
+  "ai_tree_sd_kcal_mol": "0.8378844261169434",
+
+  "max_train_tanimoto": "0.23880597014925373",
+
+  "ood_flag_max_tanimoto_below_0p3": "True",
+
+  "selected_arms": "random",
+
+  "preparation_started_utc": "2026-09-28T18:21:16.961495+00:00",
+
+  "input_isomeric_smiles": "CC(C)(C)NC(=O)O[C@H]1C[C@H]2C[C@@H](NCC(=O)N3CCC[C@H]3C#N)C[C@H]2C1",
+
+  "input_inchikey": "WBNHNWSPTHTRMQ-BQJWPVKWSA-N",
+
+  "state_inchikey": "WBNHNWSPTHTRMQ-BQJWPVKWSA-P",
+
+  "rule_unspecified_stereocenters": "[[\"Atom_Tetrahedral\", 17]]",
+
+  "exchangeable_protonated_N_indices": "[17]",
+
+  "chemical_identity_rule_version": "exchangeable_tertiary_ring_NH_and_full_potential_stereo_v3_20260929",
+
+  "conformers_generated": 9,
+
+  "conformers_converged": 9,
+
+  "selected_mmff_energy_kcal_mol": 37.64812108030911,
+
+  "selected_conformer": 6,
+
+  "sdf_graph_isomeric_smiles": "CC(C)(C)NC(=O)O[C@H]1C[C@H]2C[C@@H]([NH2+]CC(=O)[N@H+]3CCC[C@H]3C#N)C[C@H]2C1",
+
+  "sdf_graph_identity_equal": false,
+
+  "sdf_graph_identity_stable_equal": true,
+
+  "sdf_3d_isomeric_smiles": "CC(C)(C)NC(=O)O[C@H]1C[C@H]2C[C@@H]([NH2+]CC(=O)[N@H+]3CCC[C@H]3C#N)C[C@H]2C1",
+
+  "sdf_3d_stereo_equal": false,
+
+  "sdf_3d_stable_identity_equal": true,
+
+  "preparation_status": "prepared",
+
+  "sdf_file": "<PACKAGE_ROOT>\\03_compute\\formal_forward_v2_initial278\\ligands\\LIB_WBNHNWSPTHTRMQ.sdf",
+
+  "sdf_sha256": "33b455cd5c5e513b0ee20e6d134ca5230e499f5206052e6b724ebfcdfcd780cf",
+
+  "ligand_pdbqt": "<PACKAGE_ROOT>\\03_compute\\formal_forward_v2_initial278\\ligands\\LIB_WBNHNWSPTHTRMQ.pdbqt",
+
+  "ligand_sha256": "7760f43ec83de6c538ddedfb600abbf77f87e38392e88f79143b96c0f94a28e0",
+
+  "preparation_elapsed_seconds": 1.748,
+
+  "run_id": "LIB_WBNHNWSPTHTRMQ__M_PUB_ALL__e8__s20260927",
+
+  "receptor_id": "M_PUB_ALL",
+
+  "protein_context": "mouse TMC1-CIB2-TMIE six-protein complex",
+
+  "lipids_present": false,
+
+  "conformation_evidence": "author computational model, static",
+
+  "binding_hypothesis": "literature-informed middle-region pose",
+
+  "functional_direction": "unknown",
+
+  "disease_fit": "unverified",
+
+  "scoring_engine": "AutoDock Vina 1.2.7",
+
+  "score_kind": "Vina docking score, not MMGBSA",
+
+  "seed": 20260927,
+
+  "exhaustiveness": 8,
+
+  "num_modes": 9,
+
+  "energy_range": 3.0,
+
+  "cpu_per_job": 2,
+
+  "receptor_file": "<PACKAGE_ROOT>\\01_计算筛选\\screen_v2\\inputs\\receptors\\M_PUB_ALL.pdbqt",
+
+  "receptor_sha256": "c024cc9efaf910ac11642cea4a4c701a0a88a335d7deb0d040320516d5a2eda1",
+
+  "box_file": "<PACKAGE_ROOT>\\01_计算筛选\\coarse_v1\\config\\vina_box.txt",
+
+  "box_sha256": "3e4c7eb2c313edbe496068c9fb17790e7ca746567519836ed46131e5e7570d49",
+
+  "box_id": "table6_middle_15_common_union",
+
+  "box_center_A": "[2.3955, -12.9641, 0.9145]",
+
+  "box_size_A": "[37.687, 31.3744, 31.1908]",
+
+  "pose_file": "<PACKAGE_ROOT>\\03_compute\\formal_forward_v2_initial278\\poses\\LIB_WBNHNWSPTHTRMQ__M_PUB_ALL__e8__s20260927.pdbqt",
+
+  "log_file": "<PACKAGE_ROOT>\\03_compute\\formal_forward_v2_initial278\\logs\\LIB_WBNHNWSPTHTRMQ__M_PUB_ALL__e8__s20260927.log",
+
+  "export_log_file": "<PACKAGE_ROOT>\\03_compute\\formal_forward_v2_initial278\\logs\\LIB_WBNHNWSPTHTRMQ__M_PUB_ALL__e8__s20260927_export.log",
+
+  "independent_qc_status": "pending",
+
+  "command": "[\"<PACKAGE_ROOT>\", \"--receptor\", \"<PACKAGE_ROOT>\", \"--ligand\", \"<PACKAGE_ROOT>\", \"--config\", \"<PACKAGE_ROOT>\", \"--scoring\", \"vina\", \"--exhaustiveness\", \"8\", \"--num_modes\", \"9\", \"--energy_range\", \"3.0\", \"--cpu\", \"2\", \"--seed\", \"20260927\", \"--out\", \"<PACKAGE_ROOT>\"]",
+
+  "started_utc": "2026-09-28T18:33:15.881396+00:00",
+
+  "returncode": 0,
+
+  "status": "completed",
+
+  "score_kcal_mol": -6.436,
+
+  "pose_count": 9,
+
+  "pose_sha256": "e17f7bab5532edbf3de528e8087b094dcd0791bf2f81e87fb025a8c8a4026851",
+
+  "pose_heavy_atoms": 27,
+
+  "min_receptor_heavy_distance_A": 3.357559977126248,
+
+  "severe_heavy_atoms_below_1p5A": 0,
+
+  "min_box_margin_A": 1.8200000000000003,
+
+  "sdf_export_returncode": 0,
+
+  "exported_sdf_file": "<PACKAGE_ROOT>\\03_compute\\formal_forward_v2_initial278\\poses\\LIB_WBNHNWSPTHTRMQ__M_PUB_ALL__e8__s20260927.sdf",
+
+  "exported_sdf_sha256": "e45db307f99a6b6377cdb4a2b839a03387a18a1f9338c05e3a3df71414a64461",
+
+  "local_pre_qc_pass": true,
+
+  "elapsed_seconds": 33.324,
+
+  "finished_utc": "2026-09-28T18:33:49.204824+00:00"
+
+}

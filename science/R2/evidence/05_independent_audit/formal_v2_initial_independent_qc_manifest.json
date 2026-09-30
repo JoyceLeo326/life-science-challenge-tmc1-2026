@@ -1,0 +1,18 @@
+{
+  "frozen_physical_ids": 278,
+  "old_qc_rows": 154,
+  "resume_qc_rows": 124,
+  "merged_rows": 278,
+  "qc_pass": 278,
+  "qc_failed": 0,
+  "hashes": {
+    "freeze": "3b53b86471eaed6f5bc49fbef381b811ec81153c69376fc4f20bf2c0161790b9",
+    "old_qc": "861d5486b356cd2455e42df24760609dbc968ba1841188ffc74ffa865f93385b",
+    "resume_qc": "fcdf4e461c57814b12f9e1705316b740b46b84c12746973c4e16126a2474ab7c",
+    "merged_qc": "b6c060deef77df0d14808918ac6b389d13056f521d30a9127c48106ed86c24f2"
+  },
+  "source_batches": [
+    "formal_forward_v2_initial278",
+    "formal_forward_v2_resume124"
+  ]
+}

@@ -1,0 +1,4 @@
+arm,attempted_fixed,charge_warning_attempts,primary_qc_pass,primary_favorable,qc_pass_if_warnings_failed,favorable_if_warnings_failed,interpretation
+random,120,0,120,36,120,36,conditional on the actually selected arm; not a rerun of active acquisition
+descriptor_ridge,120,1,120,86,119,85,conditional on the actually selected arm; not a rerun of active acquisition
+AI,120,1,120,115,119,114,conditional on the actually selected arm; not a rerun of active acquisition

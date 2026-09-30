@@ -1,0 +1,13 @@
+{
+  "created_at_utc": "2026-09-28T19:17:00.682351+00:00",
+  "source_csv_sha256": "439f74756bc786709f318a4379037c4df186bc4d40957bdbe245910ba48e8229",
+  "original_fullprops_sdf_sha256": "ec424c2d74fc1cb427926ce7a5e19bee7de1119e5d04bddefd8b88e720c0d9d4",
+  "verified_sdf_sha256": "d109746099b87b1727da3e5fde0b4000b51341af21e6caee55366317ce7e2b5a",
+  "excluded_csv_sha256": "9b1315ac590af57b379e9839b2e4d04546538f253527713cbb5be3ddf5f2ed59",
+  "source_csv_rows": 17645,
+  "verified_sdf_records": 17619,
+  "excluded_stereo_mismatch_records": 26,
+  "full_inchikey_match_count": 17619,
+  "qc_pass": true,
+  "method": "Verbatim copy of original SDF CTAB blocks if and only if re-read full InChIKey matches authoritative CSV; no reserialization."
+}

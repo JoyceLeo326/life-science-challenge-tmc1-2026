@@ -1,0 +1,151 @@
+{
+  "created_utc": "2026-09-30T03:40:24.4967714Z",
+  "purpose": "R2 three species revision staging",
+  "sources": {
+    "three_species_attachment": "file_v3_00161_608a0848-1a92-4c34-8f6b-89b142b4d1ag.zip",
+    "models_root": "[LOCAL_PATH_REMOVED]"
+  },
+  "files": [
+    {
+      "path": "M_PUB_models/M_PUB_ALL_aligned_heavy.pdb",
+      "size_bytes": 1235745,
+      "sha256": "a0c2c7b07eb3a4939397ffb104d0d8b8bdc5ef4ab9b7af732deef03944385baa"
+    },
+    {
+      "path": "M_PUB_models/M_PUB_ALL.pdbqt",
+      "size_bytes": 1475172,
+      "sha256": "c024cc9efaf910ac11642cea4a4c701a0a88a335d7deb0d040320516d5a2eda1"
+    },
+    {
+      "path": "M_PUB_models/M_PUB_CORE_aligned_heavy.pdb",
+      "size_bytes": 441985,
+      "sha256": "1197cf87ac73f6f19e8b7b9d0d20b0ffaf9d14af1f0b36b94adf759fd3f0fdfd"
+    },
+    {
+      "path": "M_PUB_models/M_PUB_CORE.pdbqt",
+      "size_bytes": 527634,
+      "sha256": "66991c40f0be17f82c1d2146f93b69cec69d9909fdf3f02ef1eaf8b7f4f9e98d"
+    },
+    {
+      "path": "TMC1_三物种构象包_20260930/README.md",
+      "size_bytes": 3171,
+      "sha256": "82d413cefc4a7e2da3390b7be7b9d4f9557d524189334fb6bd940335e67d31a3"
+    },
+    {
+      "path": "TMC1_三物种构象包_20260930/00_参考序列_UniProt/TMC1_CAEEL_D3KZG3.fasta",
+      "size_bytes": 1419,
+      "sha256": "524b1b197fc349b4ee41fc09fc5e8fa08813fe3f21679e8bb37a865159116339"
+    },
+    {
+      "path": "TMC1_三物种构象包_20260930/00_参考序列_UniProt/TMC1_HUMAN_Q8TDI8.fasta",
+      "size_bytes": 874,
+      "sha256": "3de34028adf156719eb11136808c82a44ba8a839e61fff914eb6fbc734999cfd"
+    },
+    {
+      "path": "TMC1_三物种构象包_20260930/00_参考序列_UniProt/TMC1_MOUSE_Q8R4P5.fasta",
+      "size_bytes": 872,
+      "sha256": "a84ea393e8c566606d60955b9b55c6dad4b3987cf4d08706868622daa320f7d2"
+    },
+    {
+      "path": "TMC1_三物种构象包_20260930/01_人源_Human/AF-Q8TDI8-F1-model_v6_human_TMC1.pdb",
+      "size_bytes": 509084,
+      "sha256": "ba6b438b036b9386f4f04534cfa1dda3b6a35fbe05dd7fb2ec1b415bc6768d3b"
+    },
+    {
+      "path": "TMC1_三物种构象包_20260930/01_人源_Human/实验结构域_晶体/6WUD_TMC1_res303-347_CIB3.pdb",
+      "size_bytes": 497664,
+      "sha256": "6efe2a1e90a819a16b3d1c8205ca4af7ecb67f21a0d18019fa0e330a02fdff52"
+    },
+    {
+      "path": "TMC1_三物种构象包_20260930/01_人源_Human/实验结构域_晶体/8XOQ_TMC1_CBD1_CIB2.pdb",
+      "size_bytes": 360288,
+      "sha256": "454aaec4e65f61217169b854fef0f13147813aac8293377f76c7747c4b740992"
+    },
+    {
+      "path": "TMC1_三物种构象包_20260930/01_人源_Human/实验结构域_晶体/8Z3F_TMC1_CR1_CIB2.pdb",
+      "size_bytes": 211086,
+      "sha256": "eaf0a02a9015e4aca11c2a408eadc50bb9fdb40ef0ee1a632214ec794dd996ea"
+    },
+    {
+      "path": "TMC1_三物种构象包_20260930/02_小鼠_Mouse/AF-Q8R4P5-F1-model_v6_mouse_TMC1.pdb",
+      "size_bytes": 506168,
+      "sha256": "ce74a4396dbed5ea6487eb53057fff40a0a6e9238b18e85a4e513ef88fca19c8"
+    },
+    {
+      "path": "TMC1_三物种构象包_20260930/02_小鼠_Mouse/ljr复合物模型_待补入/README_待补文件清单.txt",
+      "size_bytes": 873,
+      "sha256": "b827a9bce4eac8f6a2eef0a9d05b3a8ae123b679c33f3c5fd841095713b7ec0e"
+    },
+    {
+      "path": "TMC1_三物种构象包_20260930/03_线虫_Celegans/MD平衡构象_Zenodo6780283/MD_equilibrated_CONTRACTED_final_replica1.pdb",
+      "size_bytes": 25010606,
+      "sha256": "cf0060ae95493dc785db51216565d4fe447a8c60606f9ca10ced6b783477ee6c"
+    },
+    {
+      "path": "TMC1_三物种构象包_20260930/03_线虫_Celegans/MD平衡构象_Zenodo6780283/MD_equilibrated_EXPANDED_final_replica1.pdb",
+      "size_bytes": 26926672,
+      "sha256": "4d4fcf544177b0c4453a7d7c586c387b600471b8d0e8661e4fbcd60f5c948a38"
+    },
+    {
+      "path": "TMC1_三物种构象包_20260930/03_线虫_Celegans/全长复合物_cryoEM/7USW_TMC1_complex_expanded.pdb",
+      "size_bytes": 1418229,
+      "sha256": "2732f2f8337ed9dd89f39607495ce03c3c19d20eb6e1adcf7aae3362d219a9a3"
+    },
+    {
+      "path": "TMC1_三物种构象包_20260930/03_线虫_Celegans/全长复合物_cryoEM/7USX_TMC1_complex_contracted.pdb",
+      "size_bytes": 1397655,
+      "sha256": "c0888d1eacef231d9ec4a53ba2aac582ab3cbc0176065b55009f7f7410a19caf"
+    },
+    {
+      "path": "TMC1_三物种构象包_20260930/03_线虫_Celegans/全长复合物_cryoEM/7USY_TMC1_complex_with_ARRD6.pdb",
+      "size_bytes": 1564191,
+      "sha256": "d395fc051beb1071e1399d302f514dee24c0b4ebc8ab22727e78c232f9336a8a"
+    },
+    {
+      "path": "TMC1_三物种构象包_20260930/03_线虫_Celegans/单体_protomer/7USW_TMC1_protomer_chainA_expanded.pdb",
+      "size_bytes": 572913,
+      "sha256": "d335bacf95a4844d2c4053278ddd4b5de79c4048962dd8398d606ae3a3bb0b38"
+    },
+    {
+      "path": "TMC1_三物种构象包_20260930/03_线虫_Celegans/单体_protomer/7USW_TMC1_protomer_chainB_expanded.pdb",
+      "size_bytes": 575505,
+      "sha256": "cd3667cf9d647276b18e16d445f6040747958c3e3345fc2cb0eb2d9d2c8a547d"
+    },
+    {
+      "path": "TMC1_三物种构象包_20260930/03_线虫_Celegans/单体_protomer/7USX_TMC1_protomer_chainA_contracted.pdb",
+      "size_bytes": 564165,
+      "sha256": "4e82b4f3c87c290f193a7ce708507e4bdee66f1a662ac3de14814fe8af7a5511"
+    },
+    {
+      "path": "TMC1_三物种构象包_20260930/03_线虫_Celegans/单体_protomer/7USX_TMC1_protomer_chainB_contracted.pdb",
+      "size_bytes": 564165,
+      "sha256": "c5afb5a49a33778d07178464c100a0bc0d0e8554feef0d25b2ba7a7562a2114d"
+    },
+    {
+      "path": "TMC1_三物种构象包_20260930/03_线虫_Celegans/单体_protomer/7USY_TMC1_protomer_chainA_with_ARRD6.pdb",
+      "size_bytes": 558009,
+      "sha256": "ae4fe1080940e27e08a63d73bc0fd7c13e01c3813eaa9f99c7d3321fc94b7b93"
+    },
+    {
+      "path": "TMC1_三物种构象包_20260930/03_线虫_Celegans/单体_protomer/7USY_TMC1_protomer_chainB_with_ARRD6.pdb",
+      "size_bytes": 558009,
+      "sha256": "06429fe1b92962169b11f3fa21ad9860e6206dd8b0dbbe242f70a1ac1f64f47c"
+    },
+    {
+      "path": "TMC1_三物种构象包_20260930/比对证据/TMC1_三物种残基比对表.csv",
+      "size_bytes": 17592,
+      "sha256": "cf2100d470bfa53e7e354310e10f7ac17d7533e4ed26260c8c36f230423152de"
+    },
+    {
+      "path": "TMC1_三物种构象包_20260930/比对证据/TMC1_三物种同一性比对图.png",
+      "size_bytes": 262947,
+      "sha256": "372f80154fcf61d5fab1b4b689d38db239d0219e7a55bec75a0e49047cc87f74"
+    }
+  ],
+  "schema": "tmc1-r2-three-species-source-manifest-2",
+  "verification": {
+    "manifest_base": "08_三物种构象修订",
+    "all_paths_exist": true,
+    "all_hashes_match": true
+  }
+}

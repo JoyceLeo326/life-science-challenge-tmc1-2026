@@ -1,0 +1,11 @@
+{
+  "batch": "formal_forward_v2_active_merged41",
+  "jobs_in_ledger": 41,
+  "independent_qc_pass": 41,
+  "independent_qc_failed": 0,
+  "reasons": {},
+  "middle_contact_4A_among_qc_pass": 35,
+  "charge_parameterization_warnings": 0,
+  "score_le_frozen_threshold_among_qc_pass": 41,
+  "source_ledger_file_sha256": "9c1bb5613651b11558d28668d33e6ce56f91c8858d3ff4f85dbfb770689fa92f"
+}

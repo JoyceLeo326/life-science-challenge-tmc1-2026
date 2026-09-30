@@ -1,0 +1,24 @@
+{
+  "finished_utc": "2026-09-29T00:42:07.329026+00:00",
+  "plan": {
+    "created_utc": "2026-09-29T00:42:07.329026+00:00",
+    "input_path": "<PACKAGE_ROOT>\\03_算法与计算\\ranking_formal_v2_16698\\physical_union_docking_list.csv",
+    "input_sha256": "3b53b86471eaed6f5bc49fbef381b811ec81153c69376fc4f20bf2c0161790b9",
+    "input_rows": 278,
+    "unique_ids": 278,
+    "logical_view": true,
+    "source_batches": [
+      "formal_forward_v2_initial278",
+      "formal_forward_v2_resume124"
+    ],
+    "not_a_separate_physical_docking_run": true
+  },
+  "prepared": 278,
+  "jobs": 278,
+  "completed": 278,
+  "logical_view": true,
+  "source_batches": [
+    "<PACKAGE_ROOT>\\03_compute\\formal_forward_v2_initial278",
+    "<PACKAGE_ROOT>\\03_compute\\formal_forward_v2_resume124"
+  ]
+}

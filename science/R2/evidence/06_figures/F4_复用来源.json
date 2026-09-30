@@ -1,0 +1,27 @@
+{
+  "reused_from": "04_分子设计",
+  "files": [
+    {
+      "path": "<PACKAGE_ROOT>\\04_分子设计\\generator_pilot_same_budget_comparison.csv",
+      "sha256": "c02b8f876157822c39d8c10d7e24b03823d33c2013c45dba5f22bb3cc4ef27a0"
+    },
+    {
+      "path": "<PACKAGE_ROOT>\\04_分子设计\\generator_pilot_same_budget_comparison.svg",
+      "sha256": "d4fb503268122959b9b3bf057a67ac980d200d4c30897cb4434648f974112208"
+    },
+    {
+      "path": "<PACKAGE_ROOT>\\04_分子设计\\generator_pilot_same_budget_comparison.pdf",
+      "sha256": "ca422a817949828cb765dad58543cc8672a6497c06cef45beed669321e3551c3"
+    },
+    {
+      "path": "<PACKAGE_ROOT>\\04_分子设计\\generator_pilot_same_budget_comparison.png",
+      "sha256": "0346cd37129f0692412e52fcdceb616e0cf842b1b4afb36e2e2696c3a52b30a8"
+    },
+    {
+      "path": "<PACKAGE_ROOT>\\04_分子设计\\compare_generator_pilots.py",
+      "sha256": "3ad08d28a7c40cf122807f7d025814aaf09257b7a8929448d743e81638afaa04"
+    }
+  ],
+  "visual_checked": true,
+  "visual_checked_at_cst": "2026-09-29T10:11:21.165838+08:00"
+}

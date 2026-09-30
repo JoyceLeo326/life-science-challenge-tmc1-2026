@@ -1,0 +1,27 @@
+{
+  "reused_from": "04_分子设计",
+  "files": [
+    {
+      "path": "<PACKAGE_ROOT>\\04_分子设计\\actual_parent_product_comparison.csv",
+      "sha256": "758f4c230f4e75c28788b96a4356d273f13c09d80baa5149d291305b26ea96be"
+    },
+    {
+      "path": "<PACKAGE_ROOT>\\04_分子设计\\actual_parent_product_comparison.svg",
+      "sha256": "182caadf6ecb6a6820c8fcd9c07e4fc33dc43c1c218d5f31721f32dcc6ce808e"
+    },
+    {
+      "path": "<PACKAGE_ROOT>\\04_分子设计\\actual_parent_product_comparison.pdf",
+      "sha256": "0bb711cb1dc489df6f5aea2b5716d93f74523415957fc01cf65abb396e28f687"
+    },
+    {
+      "path": "<PACKAGE_ROOT>\\04_分子设计\\actual_parent_product_comparison.png",
+      "sha256": "619a88b3239e49c3581a13ede3ce58ac2ce2ec9a7f517afdfb5bed88d6a0d747"
+    },
+    {
+      "path": "<PACKAGE_ROOT>\\04_分子设计\\analyze_parent_product.py",
+      "sha256": "7093353db3ea6ab6044e9f11d02a2995f35d1718c7945be330b82a7c5c11b921"
+    }
+  ],
+  "visual_checked": true,
+  "visual_checked_at_cst": "2026-09-29T10:11:21.165838+08:00"
+}

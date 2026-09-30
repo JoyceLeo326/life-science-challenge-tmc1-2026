@@ -1,0 +1,17 @@
+{
+  "created_at_utc": "2026-09-28T19:20:47.364331+00:00",
+  "source_csv_sha256": "439f74756bc786709f318a4379037c4df186bc4d40957bdbe245910ba48e8229",
+  "superseded_minimal_sdf_sha256": "1ff0dfafb8df9951466e200a549f9fcb891e1bd26db80890b0793c6a994642a3",
+  "superseded_fullprops_sdf_sha256": "ec424c2d74fc1cb427926ce7a5e19bee7de1119e5d04bddefd8b88e720c0d9d4",
+  "repaired_sdf_sha256": "46d1073b15e93aca106c5c8ba03ce5d8d1be3537522323c1148671b9712c691a",
+  "excluded_csv_sha256": "cc40ed4a3fc4cf6e3f436a6d2a999caf4200767b91785a62c7b3d3ee81436682",
+  "source_csv_rows": 17645,
+  "verified_sdf_records": 17632,
+  "excluded_unrepresentable_in_ctab": 13,
+  "methods": {
+    "original_ctab_verified": 17619,
+    "no_stereo_flags_v2000": 13
+  },
+  "qc_pass": true,
+  "note": "CSV retains all 17645 eligible molecules. Excluded SDF records retain authoritative SMILES/InChIKey in CSV."
+}

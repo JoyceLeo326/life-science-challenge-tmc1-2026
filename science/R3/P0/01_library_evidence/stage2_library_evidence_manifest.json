@@ -1,0 +1,136 @@
+{
+  "created_utc": "2026-09-30T04:33:43.150239+00:00",
+  "files": [
+    {
+      "path": "01_library_evidence/summary_v2_20000_new.json",
+      "bytes": 7782,
+      "sha256": "a697fc0d156d7179d4dc22700611d79713b3d2bd6f13bcda4739fe8a22daa107",
+      "source_role": "read-only copy from R2 source"
+    },
+    {
+      "path": "01_library_evidence/snapshot_manifest.json",
+      "bytes": 2428,
+      "sha256": "c424f94fee1a02e466c2988e0d9e379196daa9774877f4a33f9f7c5ef21ba66d",
+      "source_role": "read-only copy from R2 source"
+    },
+    {
+      "path": "01_library_evidence/all_source_records.csv",
+      "bytes": 10015351,
+      "sha256": "44715c60101a2a61e0d72fc2b99c7a1a89ac69f13727b13fe724c09754ef9dfb",
+      "source_role": "read-only copy from R2 source"
+    },
+    {
+      "path": "01_library_evidence/all_unique_parents.csv",
+      "bytes": 8297725,
+      "sha256": "b11b1c32ce3f134de77f59f533796b2f1c20f38c212d0fe97b91b2ad876b6b49",
+      "source_role": "read-only copy from R2 source"
+    },
+    {
+      "path": "01_library_evidence/filtered_for_screening.csv",
+      "bytes": 6432719,
+      "sha256": "439f74756bc786709f318a4379037c4df186bc4d40957bdbe245910ba48e8229",
+      "source_role": "read-only copy from R2 source"
+    },
+    {
+      "path": "01_library_evidence/forward_unlabeled_pool.csv",
+      "bytes": 6091135,
+      "sha256": "8fd8424797e441a3921ba3805dd8e9bf87d3421e5fe3440a32211753ec964c1e",
+      "source_role": "read-only copy from R2 source"
+    },
+    {
+      "path": "01_library_evidence/filtered_for_screening_stereo_safe_2d.sdf",
+      "bytes": 59121453,
+      "sha256": "e99521b51f8449c06bd626213e0a3046790540f4d18e66b6d57220ffd67a891a",
+      "source_role": "read-only copy from R2 source"
+    },
+    {
+      "path": "01_library_evidence/sdf_stereo_exclusions.csv",
+      "bytes": 4234,
+      "sha256": "ff08fc96bb2ed19ff1bf1ed66a6b51aab7a1fe70b3c62ad842e8ee47b9c2e707",
+      "source_role": "read-only copy from R2 source"
+    },
+    {
+      "path": "01_library_evidence/sdf_exact_stereo_exclusions.csv",
+      "bytes": 1854,
+      "sha256": "cc40ed4a3fc4cf6e3f436a6d2a999caf4200767b91785a62c7b3d3ee81436682",
+      "source_role": "read-only copy from R2 source"
+    },
+    {
+      "path": "01_library_evidence/sdf_stereo_verified_exclusions.csv",
+      "bytes": 3374,
+      "sha256": "9b1315ac590af57b379e9839b2e4d04546538f253527713cbb5be3ddf5f2ed59",
+      "source_role": "read-only copy from R2 source"
+    },
+    {
+      "path": "01_library_evidence/sdf_verified_fullprops_exclusions.csv",
+      "bytes": 3738,
+      "sha256": "f8abd8073dbc0f717a84142634cdc8eb91fad59db37525c6cd7fe855d6ca8596",
+      "source_role": "read-only copy from R2 source"
+    },
+    {
+      "path": "01_library_evidence/sdf_stereo_verified_manifest.json",
+      "bytes": 751,
+      "sha256": "1547425bf2f3d1d8acb5e82bc34e4402809db032dd721372149950b8b7328d31",
+      "source_role": "read-only copy from R2 source"
+    },
+    {
+      "path": "01_library_evidence/sdf_exact_stereo_manifest.json",
+      "bytes": 891,
+      "sha256": "8dc9164c41551ba05193853314c7cc3aa9919bd71bdefcb9a114132d58604e12",
+      "source_role": "read-only copy from R2 source"
+    },
+    {
+      "path": "01_library_evidence/quality_profile.json",
+      "bytes": 3044,
+      "sha256": "ade0477e8a0f62d9b562080a412297067550e204bd594f2ccd0c20ba747cb036",
+      "source_role": "read-only copy from R2 source"
+    },
+    {
+      "path": "01_library_evidence/final_library_independent_audit.json",
+      "bytes": 852,
+      "sha256": "73736013eddf0acd5cb9c1dd68ba4b3a49e64b83fe1db84c1c2e255dfc647984",
+      "source_role": "read-only copy from R2 source"
+    },
+    {
+      "path": "01_library_evidence/library_split_audit.json",
+      "bytes": 3687,
+      "sha256": "fa03833abc063b952c6b878052f32586e223b442bd87d68d2c9a1f876b304e9b",
+      "source_role": "read-only copy from R2 source"
+    }
+  ],
+  "counts": {
+    "source_records_total": 23475,
+    "unique_source_ids": 23403,
+    "standardized_unique_parents": 21356,
+    "property_filtered": null,
+    "forward_unlabeled": null,
+    "docking_eligible": null,
+    "source_provenance": "ChEMBL molecule API snapshot; source records and release hash are kept in this directory",
+    "audit_checks": {
+      "source_records": 23475,
+      "unique_source_ids": 23403,
+      "all_unique_parents_rows": 21356,
+      "property_eligible_rows": 17645,
+      "forward_rows": 16698,
+      "historical_overlap_rows": 21356,
+      "unique_eligible_parent_keys": 17645,
+      "full_inchikey_or_identity_errors": 0,
+      "first_errors": [],
+      "stereo_sensitive_full_key_differs_from_parent_smiles_count": 5120,
+      "historical_eligible_excluded": 947,
+      "forward_keys_match_expected": true,
+      "forward_duplicate_count": 0,
+      "forward_historical_intersection": 0,
+      "hash_matches_quality_profile": {
+        "all_source_records.csv": true,
+        "all_unique_parents.csv": true,
+        "filtered_for_screening.csv": true,
+        "forward_unlabeled_pool.csv": true,
+        "historical_overlap.csv": true
+      },
+      "sdf_record_count": 17645,
+      "sdf_sample_checked": 108,
+      "sdf_sample_errors": []
+    }
+  }
+}

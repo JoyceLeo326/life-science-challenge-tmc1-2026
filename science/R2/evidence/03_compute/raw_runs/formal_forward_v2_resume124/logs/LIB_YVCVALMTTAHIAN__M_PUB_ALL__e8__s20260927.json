@@ -1,0 +1,221 @@
+{
+
+  "compound_id": "LIB_YVCVALMTTAHIAN",
+
+  "source_dataset": "ChEMBL",
+
+  "source_id": "CHEMBL1081916",
+
+  "source_ids": "CHEMBL1081916",
+
+  "source_url": "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1081916/",
+
+  "raw_smiles": "O=C(Nc1cccc(-c2cn3ccnc3c(NCc3ccncc3)n2)c1)Nc1ccc(Cl)c(C(F)(F)F)c1",
+
+  "standardized_isomeric_smiles": "O=C(Nc1cccc(-c2cn3ccnc3c(NCc3ccncc3)n2)c1)Nc1ccc(Cl)c(C(F)(F)F)c1",
+
+  "standardized_parent_smiles": "O=C(Nc1cccc(-c2cn3ccnc3c(NCc3ccncc3)n2)c1)Nc1ccc(Cl)c(C(F)(F)F)c1",
+
+  "inchi_key": "YVCVALMTTAHIAN-UHFFFAOYSA-N",
+
+  "parent_key": "YVCVALMTTAHIAN",
+
+  "processing_status": "eligible",
+
+  "mw": "537.933",
+
+  "clogp": "6.72",
+
+  "tpsa": "96.24",
+
+  "hbd": "3",
+
+  "hba": "5",
+
+  "rotatable_bonds": "6",
+
+  "heavy_atoms": 38,
+
+  "rings": "5",
+
+  "qed": "0.2234",
+
+  "formal_charge": "0",
+
+  "source_record_count": "1",
+
+  "stereo_form_count": "1",
+
+  "historical_label_overlap": "False",
+
+  "prediction_status": "predicted",
+
+  "docking_eligibility": "eligible",
+
+  "source_stereo_unspecified": "False",
+
+  "source_unspecified_potential_stereo": "[]",
+
+  "rule_variant_count": 1,
+
+  "rule_smiles": "O=C(Nc1cccc(-c2cn3ccnc3c(NCc3ccncc3)n2)c1)Nc1ccc(Cl)c(C(F)(F)F)c1",
+
+  "rule_inchikey": "YVCVALMTTAHIAN-UHFFFAOYSA-N",
+
+  "rule_stereo_unspecified": "False",
+
+  "rule_unspecified_potential_stereo": "[]",
+
+  "rule_exchangeable_N_indices": "[]",
+
+  "rule_stable_stereo_unspecified": "False",
+
+  "exchangeable_N_geometry_approximation": false,
+
+  "murcko_scaffold": "O=C(Nc1ccccc1)Nc1cccc(-c2cn3ccnc3c(NCc3ccncc3)n2)c1",
+
+  "descriptor_pred_kcal_mol": "-8.464828491210938",
+
+  "ai_pred_kcal_mol": "-8.178839683532715",
+
+  "ai_tree_sd_kcal_mol": "0.5268111824989319",
+
+  "max_train_tanimoto": "0.37349397590361444",
+
+  "ood_flag_max_tanimoto_below_0p3": "False",
+
+  "selected_arms": "descriptor_ridge",
+
+  "preparation_started_utc": "2026-09-28T20:43:16.797538+00:00",
+
+  "input_isomeric_smiles": "O=C(Nc1cccc(-c2cn3ccnc3c(NCc3ccncc3)n2)c1)Nc1ccc(Cl)c(C(F)(F)F)c1",
+
+  "input_inchikey": "YVCVALMTTAHIAN-UHFFFAOYSA-N",
+
+  "state_inchikey": "YVCVALMTTAHIAN-UHFFFAOYSA-N",
+
+  "rule_unspecified_stereocenters": "[]",
+
+  "exchangeable_protonated_N_indices": "[]",
+
+  "chemical_identity_rule_version": "exchangeable_tertiary_ring_NH_and_full_potential_stereo_v3_20260929",
+
+  "conformers_generated": 10,
+
+  "conformers_converged": 10,
+
+  "selected_mmff_energy_kcal_mol": -28.805571930878116,
+
+  "selected_conformer": 7,
+
+  "sdf_graph_isomeric_smiles": "O=C(Nc1cccc(-c2cn3ccnc3c(NCc3ccncc3)n2)c1)Nc1ccc(Cl)c(C(F)(F)F)c1",
+
+  "sdf_graph_identity_equal": true,
+
+  "sdf_graph_identity_stable_equal": true,
+
+  "sdf_3d_isomeric_smiles": "O=C(Nc1cccc(-c2cn3ccnc3c(NCc3ccncc3)n2)c1)Nc1ccc(Cl)c(C(F)(F)F)c1",
+
+  "sdf_3d_stereo_equal": true,
+
+  "sdf_3d_stable_identity_equal": true,
+
+  "preparation_status": "prepared",
+
+  "sdf_file": "<PACKAGE_ROOT>\\03_compute\\formal_forward_v2_resume124\\ligands\\LIB_YVCVALMTTAHIAN.sdf",
+
+  "sdf_sha256": "ffce51cfd831a6b8efa9a77c12b011c4000ed619860b2c9121f05862a9b3f9bf",
+
+  "ligand_pdbqt": "<PACKAGE_ROOT>\\03_compute\\formal_forward_v2_resume124\\ligands\\LIB_YVCVALMTTAHIAN.pdbqt",
+
+  "ligand_sha256": "a7b5e64552ecb341b75375e9120e105460bc3ab73a185f71b92f8ebe0507cf3b",
+
+  "preparation_elapsed_seconds": 0.842,
+
+  "run_id": "LIB_YVCVALMTTAHIAN__M_PUB_ALL__e8__s20260927",
+
+  "receptor_id": "M_PUB_ALL",
+
+  "protein_context": "mouse TMC1-CIB2-TMIE six-protein complex",
+
+  "lipids_present": false,
+
+  "conformation_evidence": "author computational model, static",
+
+  "binding_hypothesis": "literature-informed middle-region pose",
+
+  "functional_direction": "unknown",
+
+  "disease_fit": "unverified",
+
+  "scoring_engine": "AutoDock Vina 1.2.7",
+
+  "score_kind": "Vina docking score, not MMGBSA",
+
+  "seed": 20260927,
+
+  "exhaustiveness": 8,
+
+  "num_modes": 9,
+
+  "energy_range": 3.0,
+
+  "cpu_per_job": 2,
+
+  "receptor_file": "<PACKAGE_ROOT>\\01_计算筛选\\screen_v2\\inputs\\receptors\\M_PUB_ALL.pdbqt",
+
+  "receptor_sha256": "c024cc9efaf910ac11642cea4a4c701a0a88a335d7deb0d040320516d5a2eda1",
+
+  "box_file": "<PACKAGE_ROOT>\\01_计算筛选\\coarse_v1\\config\\vina_box.txt",
+
+  "box_sha256": "3e4c7eb2c313edbe496068c9fb17790e7ca746567519836ed46131e5e7570d49",
+
+  "box_id": "table6_middle_15_common_union",
+
+  "box_center_A": "[2.3955, -12.9641, 0.9145]",
+
+  "box_size_A": "[37.687, 31.3744, 31.1908]",
+
+  "pose_file": "<PACKAGE_ROOT>\\03_compute\\formal_forward_v2_resume124\\poses\\LIB_YVCVALMTTAHIAN__M_PUB_ALL__e8__s20260927.pdbqt",
+
+  "log_file": "<PACKAGE_ROOT>\\03_compute\\formal_forward_v2_resume124\\logs\\LIB_YVCVALMTTAHIAN__M_PUB_ALL__e8__s20260927.log",
+
+  "export_log_file": "<PACKAGE_ROOT>\\03_compute\\formal_forward_v2_resume124\\logs\\LIB_YVCVALMTTAHIAN__M_PUB_ALL__e8__s20260927_export.log",
+
+  "independent_qc_status": "pending",
+
+  "command": "[\"<PACKAGE_ROOT>\", \"--receptor\", \"<PACKAGE_ROOT>\", \"--ligand\", \"<PACKAGE_ROOT>\", \"--config\", \"<PACKAGE_ROOT>\", \"--scoring\", \"vina\", \"--exhaustiveness\", \"8\", \"--num_modes\", \"9\", \"--energy_range\", \"3.0\", \"--cpu\", \"2\", \"--seed\", \"20260927\", \"--out\", \"<PACKAGE_ROOT>\"]",
+
+  "started_utc": "2026-09-28T23:58:06.855898+00:00",
+
+  "returncode": 0,
+
+  "status": "completed",
+
+  "score_kcal_mol": -9.696,
+
+  "pose_count": 9,
+
+  "pose_sha256": "ffab4008d38014e0a9817aecc75d5f4bedcec743c41c973e3df3f48b8b1d4643",
+
+  "pose_heavy_atoms": 38,
+
+  "min_receptor_heavy_distance_A": 2.822560185363635,
+
+  "severe_heavy_atoms_below_1p5A": 0,
+
+  "min_box_margin_A": 2.972899999999999,
+
+  "sdf_export_returncode": 0,
+
+  "exported_sdf_file": "<PACKAGE_ROOT>\\03_compute\\formal_forward_v2_resume124\\poses\\LIB_YVCVALMTTAHIAN__M_PUB_ALL__e8__s20260927.sdf",
+
+  "exported_sdf_sha256": "63968e53a200967966b559a3b22617c536394f41a666b7229daf65e9d34b930a",
+
+  "local_pre_qc_pass": true,
+
+  "elapsed_seconds": 61.806,
+
+  "finished_utc": "2026-09-28T23:59:08.662309+00:00"
+
+}
