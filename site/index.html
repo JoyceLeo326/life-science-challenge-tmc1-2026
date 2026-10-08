@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#14352f" />
+    <meta name="description" content="TMC1 生命科学挑战赛的公开科研与协作入口。" />
+    <title>TMC1 生命科学挑战赛 · 公开交付</title>
+    <style>
+      :root { color-scheme: light; --ink: #14352f; --muted: #5d6a66; --line: #d8e2dc; --paper: #f7f8f4; --card: #fff; --accent: #d4a24c; }
+      * { box-sizing: border-box; }
+      body { margin: 0; background: var(--paper); color: var(--ink); font: 16px/1.7 system-ui, -apple-system, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif; }
+      main { width: min(1080px, calc(100% - 40px)); margin: 0 auto; padding: 64px 0 80px; }
+      .kicker { color: var(--accent); font-size: 13px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; }
+      h1 { max-width: 760px; margin: 16px 0 20px; font-size: clamp(34px, 6vw, 68px); line-height: 1.08; letter-spacing: -.04em; }
+      .lead { max-width: 700px; color: var(--muted); font-size: clamp(18px, 2.5vw, 23px); }
+      .actions { display: flex; flex-wrap: wrap; gap: 12px; margin: 30px 0 58px; }
+      a { color: inherit; }
+      .button { display: inline-flex; align-items: center; min-height: 46px; padding: 0 18px; border: 1px solid var(--ink); border-radius: 999px; text-decoration: none; font-weight: 700; }
+      .button.primary { background: var(--ink); color: #fff; }
+      .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+      .card { padding: 24px; border: 1px solid var(--line); border-radius: 18px; background: var(--card); }
+      .card strong { display: block; margin-bottom: 8px; font-size: 18px; }
+      .card p { margin: 0; color: var(--muted); }
+      .note { margin-top: 18px; padding: 18px 20px; border-left: 3px solid var(--accent); background: #fffaf0; color: var(--muted); }
+      footer { margin-top: 60px; padding-top: 18px; border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; }
+      @media (max-width: 720px) { main { width: min(100% - 28px, 560px); padding-top: 36px; } .grid { grid-template-columns: 1fr; } .actions { margin-bottom: 40px; } }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="kicker">TMC1 · 公共科研交付</div>
+      <h1>把一项复杂的生命科学研究，交到可以接手的人手里。</h1>
+      <p class="lead">这里是 Joyce Leo 的 TMC1 生命科学挑战赛公开入口。你可以先看最新交付，再沿着代码、数据、报告和复现记录回到证据本身。</p>
+      <div class="actions">
+        <a class="button primary" href="https://github.com/JoyceLeo326/life-science-challenge-tmc1-2026/blob/main/releases/attachments56_20261001/README.md">查看最新交付</a>
+        <a class="button" href="https://github.com/JoyceLeo326/life-science-challenge-tmc1-2026">打开 GitHub 仓库</a>
+      </div>
+      <section class="grid" aria-label="公开入口">
+        <article class="card"><strong>从结果开始</strong><p>最新版本整理了代码、中文数据、报告、图件、PPT 和视频，入口以 <code>releases/LATEST.json</code> 为准。</p></article>
+        <article class="card"><strong>从复现开始</strong><p>接手说明、文件清单和校验脚本都保留在仓库中，适合换设备后重新核对公开交付。</p></article>
+        <article class="card"><strong>从边界开始</strong><p>这里记录的是虚拟筛选与计算分析。预测结果不等同于湿实验、临床疗效或已经上市的药物结论。</p></article>
+      </section>
+      <p class="note">公开仓库不包含原始聊天、私聊、个人信息、凭据或设备配置。研究文件、来源和哈希以仓库内清单为准。</p>
+      <footer>公开入口由 GitHub Pages 发布，页面本身不调用第三方脚本、AI API 或远程图片。</footer>
+    </main>
+  </body>
+</html>
